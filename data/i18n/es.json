@@ -1,0 +1,701 @@
+{
+ "_note": "Contenidos de Ora en español (traducción de los textos franceses; oraciones en sus versiones oficiales en España).",
+ "explications": {
+  "saisons": {
+   "avent": {
+    "quoi": "Las cuatro semanas que preparan la Navidad. La palabra viene del latín adventus, «venida».",
+    "pourquoi": "Nos preparamos para acoger a Jesús que viene: en Navidad, en nuestra vida de hoy y al final de los tiempos.",
+    "idee": "Encender una vela más cada domingo en una corona de Adviento."
+   },
+   "noel": {
+    "quoi": "El tiempo que va de Navidad al Bautismo del Señor, a principios de enero.",
+    "pourquoi": "Dios se hace muy cercano: se hace niño, uno de nosotros.",
+    "idee": "Dejar el belén puesto hasta el Bautismo del Señor y detenerse ante él un momento."
+   },
+   "ordinaire": {
+    "quoi": "El tiempo «ordinario» es el de las semanas que se cuentan una a una (ordo significa «orden» en latín), entre las grandes fiestas.",
+    "pourquoi": "Es el tiempo en que seguimos a Jesús en lo cotidiano, en el Evangelio, sin acontecimientos extraordinarios: ahí se vive la mayor parte de la fe.",
+    "idee": "Leer cada domingo el Evangelio del día antes de ir a misa, con calma."
+   },
+   "careme": {
+    "quoi": "Los cuarenta días entre el Miércoles de Ceniza y la Pascua, en recuerdo de los cuarenta días de Jesús en el desierto.",
+    "pourquoi": "Un tiempo para volver a Dios, aligerar lo que estorba y preparar el corazón para la alegría de la Pascua.",
+    "idee": "Elegir una sola cosa: una oración, un gesto de compartir o una pantalla menos, y mantenerla con suavidad."
+   },
+   "triduum": {
+    "quoi": "Los tres días que van desde la tarde del Jueves Santo hasta el domingo de Pascua: el corazón de todo el año.",
+    "pourquoi": "En ellos vivimos la última cena de Jesús, su muerte en la cruz y su resurrección.",
+    "idee": "Participar al menos en una de las celebraciones, aunque sea en parte, por ejemplo el vía crucis del Viernes Santo."
+   },
+   "paques": {
+    "quoi": "Los cincuenta días de Pascua a Pentecostés, vividos como un solo gran domingo.",
+    "pourquoi": "Cristo ha resucitado: la muerte no tiene la última palabra. Es el tiempo de la alegría.",
+    "idee": "Añadir «Aleluya» a la oración de la noche, como un gracias."
+   }
+  },
+  "fetes": {
+   "toussaint": {
+    "quoi": "La fiesta de todos los santos: los que la Iglesia ha reconocido y la inmensa multitud de los que solo Dios conoce.",
+    "pourquoi": "Recuerda que la santidad no está reservada a unos pocos héroes: es la vocación de cada uno, y estamos rodeados de esta gran familia.",
+    "idee": "Contarle a un niño la historia del santo cuyo nombre lleva, o de un santo que le guste."
+   },
+   "defunts": {
+    "quoi": "Al día siguiente de Todos los Santos, la Iglesia reza por todos los difuntos.",
+    "pourquoi": "Creemos que la muerte no es una ruptura definitiva: la oración nos une todavía a los que amamos.",
+    "idee": "Decir el nombre de una persona fallecida y confiarla a Dios, o llevar flores a una tumba."
+   },
+   "christ-roi": {
+    "quoi": "El último domingo del año litúrgico, antes del Adviento.",
+    "pourquoi": "Jesús es rey, pero un rey que sirve, que perdona y que se entrega: su reino está hecho de amor.",
+    "idee": "Hacer un favor discreto a alguien, sin decirlo."
+   },
+   "immaculee-conception": {
+    "quoi": "La fiesta que celebra a María, preservada de todo pecado desde el primer instante de su vida, en el seno de su madre.",
+    "pourquoi": "Dios preparó a María para que pudiera decir sí con todo su ser a la venida de Jesús.",
+    "idee": "Rezar un Avemaría por alguien que lo necesite."
+   },
+   "noel": {
+    "quoi": "El nacimiento de Jesús en Belén.",
+    "pourquoi": "Dios no se queda lejos: viene a vivir entre nosotros, pobre y pequeño, para que nadie tenga miedo de acercarse.",
+    "idee": "Antes de abrir los regalos, detenerse en familia ante el belén y dar gracias."
+   },
+   "sainte-famille": {
+    "quoi": "El domingo después de Navidad se celebra a Jesús, María y José.",
+    "pourquoi": "Jesús creció en una familia, con sus alegrías y sus dificultades: toda familia puede encontrar en ella un modelo y una ayuda.",
+    "idee": "Rezar juntos un minuto antes de comer, y que cada uno diga un gracias."
+   },
+   "marie-mere-de-dieu": {
+    "quoi": "El 1 de enero, la Iglesia celebra a María, Madre de Jesús, verdadero Dios y verdadero hombre. Es también la Jornada Mundial de la Paz.",
+    "pourquoi": "Empezamos el año bajo la mirada de una madre, pidiendo la paz.",
+    "idee": "Confiar a María una intención para el año que comienza."
+   },
+   "epiphanie": {
+    "quoi": "La visita de los Magos venidos de Oriente, guiados por una estrella, hasta el niño Jesús.",
+    "pourquoi": "Jesús no vino para un solo pueblo: se manifiesta a todos, vengan de donde vengan.",
+    "idee": "Compartir el roscón de Reyes y rezar por alguien que está lejos."
+   },
+   "bapteme": {
+    "quoi": "Jesús es bautizado por Juan en el Jordán. Una voz dice: «Este es mi Hijo amado».",
+    "pourquoi": "Por nuestro bautismo, también nosotros somos llamados hijos amados de Dios.",
+    "idee": "Buscar la fecha del propio bautismo y apuntarla en algún sitio."
+   },
+   "cendres": {
+    "quoi": "El primer día de la Cuaresma. El sacerdote traza una cruz de ceniza en la frente o la impone sobre la cabeza.",
+    "pourquoi": "Un signo de humildad y de nuevo comienzo: somos frágiles, y Dios nos espera.",
+    "idee": "Elegir el esfuerzo de Cuaresma que nos gustaría vivir: uno solo, sencillo."
+   },
+   "rameaux": {
+    "quoi": "Jesús entra en Jerusalén aclamado por la multitud que agita ramas. Es el comienzo de la Semana Santa.",
+    "pourquoi": "La misma multitud que aclama gritará pronto «Crucifícalo»: es el misterio de nuestros corazones divididos.",
+    "idee": "Llevar a casa una rama bendecida y colocarla junto a una cruz."
+   },
+   "jeudi-saint": {
+    "quoi": "La última cena de Jesús con sus amigos, en la que les lava los pies y les da su Cuerpo y su Sangre.",
+    "pourquoi": "Es el nacimiento de la Eucaristía y del mandamiento del amor que sirve.",
+    "idee": "Hacer en casa un servicio humilde, sin esperar nada."
+   },
+   "vendredi-saint": {
+    "quoi": "El día en que Jesús muere en la cruz.",
+    "pourquoi": "Entrega su vida por amor, hasta el final, para salvarnos.",
+    "idee": "Guardar un momento de silencio a las tres de la tarde, la hora de su muerte."
+   },
+   "samedi-saint": {
+    "quoi": "El día del gran silencio: Jesús reposa en el sepulcro. Por la noche, la Vigilia pascual abre la fiesta de Pascua.",
+    "pourquoi": "Es el día de la espera, como nuestros momentos en que Dios parece ausente.",
+    "idee": "Vivir un día tranquilo y encender una vela por la noche."
+   },
+   "paques": {
+    "quoi": "La resurrección de Jesús, en la mañana del tercer día.",
+    "pourquoi": "Es el corazón de la fe cristiana: el amor es más fuerte que la muerte.",
+    "idee": "Decirle a alguien: «¡Cristo ha resucitado!», como los primeros cristianos."
+   },
+   "misericorde": {
+    "quoi": "El domingo siguiente a Pascua, dedicado a la misericordia de Dios.",
+    "pourquoi": "Dios perdona sin cansarse: no hay falta más grande que su amor.",
+    "idee": "Perdonar una pequeña cosa a alguien, o perdonarse a uno mismo."
+   },
+   "ascension": {
+    "quoi": "Cuarenta días después de Pascua, Jesús vuelve junto a su Padre.",
+    "pourquoi": "No nos abandona: nos confía la misión de continuar su obra y promete el Espíritu Santo.",
+    "idee": "Levantar un instante la mirada al cielo y dar gracias."
+   },
+   "pentecote": {
+    "quoi": "Cincuenta días después de Pascua, el Espíritu Santo desciende sobre los apóstoles reunidos.",
+    "pourquoi": "Es el nacimiento de la Iglesia: el Espíritu da la fuerza y la alegría de dar testimonio.",
+    "idee": "Decir sencillamente «Ven, Espíritu Santo» antes de una decisión o de un día difícil."
+   },
+   "trinite": {
+    "quoi": "La fiesta de Dios único en tres personas: el Padre, el Hijo y el Espíritu Santo.",
+    "pourquoi": "Dios no es solitario: es amor, relación, comunión.",
+    "idee": "Hacer la señal de la cruz despacio, pensando en cada palabra."
+   },
+   "saint-sacrement": {
+    "quoi": "La fiesta del Cuerpo y la Sangre de Cristo, presente en la Eucaristía.",
+    "pourquoi": "Jesús se da como alimento para quedarse con nosotros cada día.",
+    "idee": "Entrar en una iglesia y quedarse un minuto ante el sagrario."
+   },
+   "sacre-coeur": {
+    "quoi": "La fiesta del amor de Jesús, representado por su corazón.",
+    "pourquoi": "Recuerda que Dios nos ama con un corazón humano, tierno y paciente.",
+    "idee": "Confiar a Jesús lo que pesa en el corazón."
+   },
+   "assomption": {
+    "quoi": "María, al final de su vida terrena, es elevada en cuerpo y alma a la gloria del cielo.",
+    "pourquoi": "Lo que le sucedió a María es una promesa para nosotros: también nuestro cuerpo está llamado a la vida.",
+    "idee": "Rezar un Avemaría por la propia familia."
+   },
+   "joseph": {
+    "quoi": "La fiesta de José, el esposo de María, que cuidó de Jesús niño.",
+    "pourquoi": "Un hombre discreto, justo y valiente: patrono de los padres y de los trabajadores.",
+    "idee": "Para un padre: confiar a san José su papel de padre."
+   },
+   "annonciation": {
+    "quoi": "El ángel Gabriel anuncia a María que será la madre del Hijo de Dios, y ella responde que sí.",
+    "pourquoi": "El «sí» de María abre la puerta a Dios en la historia humana.",
+    "idee": "Rezar el Ángelus, la oración que recuerda ese momento."
+   },
+   "nativite-jean-baptiste": {
+    "quoi": "El nacimiento de Juan, pariente de Jesús, que lo anunció y lo bautizó.",
+    "pourquoi": "Juan prepara el camino: señala a Jesús y se retira. Es uno de los pocos nacimientos que celebra la Iglesia.",
+    "idee": "En Cataluña, la noche de Sant Joan se celebra con hogueras: una ocasión para hablar de Juan a un niño."
+   },
+   "pierre-paul": {
+    "quoi": "La fiesta de los dos grandes apóstoles, Pedro el pescador y Pablo el convertido, que murieron en Roma.",
+    "pourquoi": "Dos hombres muy distintos, con sus debilidades, sobre los que se apoya la Iglesia.",
+    "idee": "Rezar por el papa, sucesor de Pedro."
+   }
+  }
+ },
+ "conseils": [
+  "Antes de mirar el teléfono esta mañana, puedes hacer la señal de la cruz, solo una.",
+  "Piensa en una persona que te importa y confíasela a Dios en una frase.",
+  "Entra en una iglesia al pasar, aunque sea dos minutos, y siéntate sin más.",
+  "A la hora de comer, da gracias interiormente por lo que hay en tu plato.",
+  "Si alguien te irrita hoy, intenta rezar por él una pequeña oración.",
+  "Tómate un minuto de silencio, sin hacer nada. Dios también está ahí.",
+  "Apunta en algún sitio algo por lo que hoy estás agradecido.",
+  "Haz un pequeño favor sin que nadie lo sepa.",
+  "Esta noche, cuéntale a tu hijo un momento feliz de tu día.",
+  "Lee despacio una frase del Evangelio y llévala contigo todo el día.",
+  "Perdona una pequeña cosa, a alguien o a ti mismo.",
+  "En el momento más cargado del día, di: «Jesús, en Ti confío»."
+ ],
+ "prieres": {
+  "signe-de-croix": {
+   "titre": "La señal de la cruz",
+   "texte": "En el nombre del Padre,\ny del Hijo,\ny del Espíritu Santo.\nAmén.",
+   "geste": "Con la mano derecha se toca la frente (el Padre), el pecho (el Hijo) y luego el hombro izquierdo y el derecho (el Espíritu Santo).",
+   "quand": "Al principio y al final de toda oración, al entrar en una iglesia, antes de comer o simplemente para ponerse bajo la mirada de Dios.",
+   "pourquoi": "Es la oración más breve y más antigua: en pocas palabras se dice la fe en Dios Padre, Hijo y Espíritu, y se traza sobre uno mismo la cruz de Cristo."
+  },
+  "notre-pere": {
+   "titre": "Padrenuestro",
+   "texte": "Padre nuestro, que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad\nen la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos\na los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal.\nAmén.",
+   "quand": "Cada día, por la mañana o por la noche, en misa, o cuando no sabemos qué decirle a Dios.",
+   "pourquoi": "Es la oración que el mismo Jesús enseñó a sus discípulos (Mt 6, 9-13). Lo contiene todo: la confianza, el pan de cada día, el perdón y la protección.",
+   "source": "Mt 6, 9-13; Lc 11, 2-4. Texto del Misal Romano de la Conferencia Episcopal Española."
+  },
+  "je-vous-salue-marie": {
+   "titre": "Avemaría",
+   "texte": "Dios te salve, María,\nllena eres de gracia;\nel Señor es contigo.\nBendita tú eres entre todas las mujeres,\ny bendito es el fruto de tu vientre, Jesús.\nSanta María, Madre de Dios,\nruega por nosotros, pecadores,\nahora y en la hora de nuestra muerte.\nAmén.",
+   "quand": "En cualquier momento, solo o con un niño. Se repite diez veces en cada misterio del rosario.",
+   "pourquoi": "La primera parte recoge las palabras del ángel Gabriel y de Isabel a María (Lc 1, 28.42). En la segunda, pedimos a María que rece por nosotros, como se lo pediríamos a una madre.",
+   "source": "Lc 1, 28; Lc 1, 42"
+  },
+  "gloire-au-pere": {
+   "titre": "Gloria",
+   "texte": "Gloria al Padre, y al Hijo,\ny al Espíritu Santo.\nComo era en el principio,\nahora y siempre,\npor los siglos de los siglos.\nAmén.",
+   "quand": "Al final de un misterio del rosario, de un salmo, o como una pequeña oración de alabanza durante el día.",
+   "pourquoi": "Es una alabanza muy sencilla: no se pide nada, se da gloria a Dios por lo que es."
+  },
+  "credo": {
+   "titre": "Credo (Símbolo de los Apóstoles)",
+   "texte": "Creo en Dios, Padre todopoderoso,\nCreador del cielo y de la tierra.\nCreo en Jesucristo, su único Hijo, nuestro Señor,\nque fue concebido por obra y gracia del Espíritu Santo,\nnació de santa María Virgen,\npadeció bajo el poder de Poncio Pilato,\nfue crucificado, muerto y sepultado,\ndescendió a los infiernos,\nal tercer día resucitó de entre los muertos,\nsubió a los cielos\ny está sentado a la derecha de Dios, Padre todopoderoso.\nDesde allí ha de venir a juzgar a vivos y muertos.\nCreo en el Espíritu Santo,\nla santa Iglesia católica,\nla comunión de los santos,\nel perdón de los pecados,\nla resurrección de la carne\ny la vida eterna.\nAmén.",
+   "quand": "Al comienzo del rosario, en la misa del domingo, o para repetir la propia fe cuando vacila.",
+   "pourquoi": "El Credo resume lo esencial de la fe cristiana, tal como la Iglesia la transmite desde los primeros siglos. Rezarlo es unirse a todos los creyentes de ayer y de hoy."
+  },
+  "ange-de-dieu": {
+   "titre": "Ángel de Dios",
+   "texte": "Ángel de Dios,\nque eres mi custodio,\npues la bondad divina\nme ha encomendado a ti,\nilumíname, guárdame,\nrígeme y gobiérname.\nAmén.",
+   "variante": "Ángel de la guarda,\ndulce compañía,\nno me desampares\nni de noche ni de día.\nAmén.",
+   "quand": "Por la noche antes de dormir, o por la mañana al salir. Una oración muy bonita para rezar con un niño.",
+   "pourquoi": "La Iglesia cree que cada uno está acompañado por un ángel custodio, un amigo invisible que Dios pone a nuestro lado (Catecismo, n. 336)."
+  },
+  "angelus": {
+   "titre": "El Ángelus",
+   "texte": "El Ángel del Señor anunció a María.\n— Y concibió por obra del Espíritu Santo.\nDios te salve, María…\n\nHe aquí la esclava del Señor.\n— Hágase en mí según tu palabra.\nDios te salve, María…\n\nY el Verbo se hizo carne.\n— Y habitó entre nosotros.\nDios te salve, María…\n\nRuega por nosotros, santa Madre de Dios.\n— Para que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo.\n\nOremos.\nDerrama, Señor, tu gracia sobre nosotros,\nque, por el anuncio del ángel,\nhemos conocido la encarnación de tu Hijo,\npara que lleguemos, por su pasión y su cruz,\na la gloria de la resurrección.\nPor Jesucristo, nuestro Señor.\nAmén.",
+   "quand": "Tradicionalmente tres veces al día: a las 6, a las 12 y a las 18 horas, cuando suenan las campanas.",
+   "pourquoi": "Recuerda el momento en que Dios se hizo hombre, gracias al «sí» de María. Rezarla a mediodía es hacer una pausa en medio del día para acordarse de Dios."
+  },
+  "acte-de-contrition": {
+   "titre": "Acto de contrición",
+   "texte": "Señor mío Jesucristo,\nDios y Hombre verdadero,\nCreador, Padre y Redentor mío;\npor ser vos quien sois, bondad infinita,\ny porque os amo sobre todas las cosas,\nme pesa de todo corazón haberos ofendido;\ntambién me pesa porque podéis castigarme\ncon las penas del infierno.\nAyudado de vuestra divina gracia,\npropongo firmemente nunca más pecar,\nconfesarme y cumplir la penitencia\nque me fuere impuesta.\nAmén.",
+   "quand": "Por la noche, después de repasar el día, o durante la confesión, después de decir los pecados.",
+   "pourquoi": "Decimos a Dios que lamentamos el mal que hemos hecho y que queremos cambiar, contando con su ayuda más que con nuestras propias fuerzas."
+  },
+  "benedicite": {
+   "titre": "Bendición de la mesa",
+   "texte": "Bendícenos, Señor,\ny bendice estos alimentos\nque por tu bondad vamos a recibir.\nPor Jesucristo, nuestro Señor.\nAmén.",
+   "quand": "Antes de comer, en familia o solo.",
+   "pourquoi": "Damos gracias a Dios por el alimento que recibimos de su bondad. Es la traducción de la antigua bendición latina «Benedic, Domine»."
+  },
+  "nunc-dimittis": {
+   "titre": "Cántico de Simeón",
+   "quand": "Por la noche, antes de dormir. La Iglesia lo reza cada noche en la oración de Completas.",
+   "pourquoi": "Son las palabras del anciano Simeón cuando tomó en brazos al niño Jesús en el Templo (Lc 2, 29-32). Terminar el día con ellas es confiarse a Dios en paz."
+  }
+ },
+ "guide-famille": {
+  "titre": "La oración de la noche con tu hijo",
+  "duree": "3 minutos",
+  "intro": "Un pequeño ritual para terminar el día juntos, para leer en voz alta.",
+  "etapes": [
+   {
+    "mot": "Nos sentamos",
+    "invitation": "Bajad la luz, sentaos el uno junto al otro y haced juntos la señal de la cruz."
+   },
+   {
+    "mot": "Gracias",
+    "invitation": "Pregúntale: «¿Qué te ha hecho feliz hoy?». Dad gracias a Dios juntos por ello."
+   },
+   {
+    "mot": "Perdón",
+    "invitation": "¿Hay algo que lamentamos? Se puede decir en voz baja a Jesús. Le gusta perdonar."
+   },
+   {
+    "mot": "Por favor",
+    "invitation": "¿Por quién queremos rezar esta noche? Un amigo, un abuelo, alguien enfermo…"
+   },
+   {
+    "mot": "Ángel de Dios",
+    "invitation": "Rezad juntos la oración al ángel de la guarda."
+   },
+   {
+    "mot": "Buenas noches",
+    "invitation": "Puedes trazar una pequeña cruz en su frente con el pulgar, como una bendición."
+   }
+  ],
+  "fin": "Buenas noches."
+ },
+ "lexique": {
+  "mots": [
+   {
+    "id": "alleluia",
+    "mot": "Aleluya",
+    "formes": [
+     "aleluya",
+     "Aleluya"
+    ],
+    "def": "Una palabra hebrea que significa «alabad a Dios». Es un grito de alegría, que se canta sobre todo en el tiempo de Pascua. No se canta durante la Cuaresma."
+   },
+   {
+    "id": "amen",
+    "mot": "Amén",
+    "formes": [
+     "Amén",
+     "amén"
+    ],
+    "def": "Una palabra hebrea que significa «es verdad», «así lo creo», «así sea». Se dice al final de una oración para expresar nuestro acuerdo."
+   },
+   {
+    "id": "ange-gardien",
+    "mot": "Ángel de la guarda",
+    "formes": [
+     "ángel de la guarda",
+     "ángel custodio",
+     "ángeles custodios"
+    ],
+    "def": "Un ángel que Dios da a cada persona para acompañarla y protegerla durante toda su vida. Se le puede hablar como a un amigo invisible."
+   },
+   {
+    "id": "annonciation",
+    "mot": "Anunciación",
+    "formes": [
+     "Anunciación"
+    ],
+    "def": "El momento en que el ángel Gabriel anuncia a María que será la madre de Jesús. María responde «sí». Se celebra el 25 de marzo."
+   },
+   {
+    "id": "apotre",
+    "mot": "Apóstol",
+    "formes": [
+     "apóstol",
+     "apóstoles",
+     "Apóstoles"
+    ],
+    "def": "Los doce amigos elegidos por Jesús para acompañarle y después anunciar el Evangelio al mundo. Pedro, Juan, Santiago y Tomás son algunos de ellos."
+   },
+   {
+    "id": "avent",
+    "mot": "Adviento",
+    "formes": [
+     "Adviento"
+    ],
+    "def": "Las cuatro semanas que preparan la Navidad. La palabra viene del latín adventus, que significa «venida»."
+   },
+   {
+    "id": "bapteme",
+    "mot": "Bautismo",
+    "formes": [
+     "bautismo",
+     "Bautismo",
+     "bautizado",
+     "bautizados"
+    ],
+    "def": "El primer sacramento, que hace entrar en la familia de los cristianos. Por el agua y el Espíritu Santo se llega a ser hijo de Dios. Se recibe una sola vez y es para siempre."
+   },
+   {
+    "id": "beatitudes",
+    "mot": "Bienaventuranzas",
+    "formes": [
+     "Bienaventuranzas",
+     "bienaventuranzas"
+    ],
+    "def": "Las palabras de Jesús que empiezan por «Bienaventurados…»: los mansos, los limpios de corazón, los que trabajan por la paz… (Mt 5, 1-12). Describen la verdadera felicidad según Dios."
+   },
+   {
+    "id": "bible",
+    "mot": "Biblia",
+    "formes": [
+     "Biblia"
+    ],
+    "def": "El libro sagrado de los cristianos, formado por 73 libros escritos a lo largo de más de mil años. El Antiguo Testamento cuenta la historia de Dios con su pueblo; el Nuevo Testamento cuenta la vida de Jesús y de los primeros cristianos."
+   },
+   {
+    "id": "careme",
+    "mot": "Cuaresma",
+    "formes": [
+     "Cuaresma",
+     "cuaresma"
+    ],
+    "def": "Los cuarenta días que preparan la Pascua, desde el Miércoles de Ceniza hasta el Jueves Santo. Un tiempo para volver a Dios mediante la oración, el compartir y el ayuno."
+   },
+   {
+    "id": "catechisme",
+    "mot": "Catecismo",
+    "formes": [
+     "Catecismo",
+     "catecismo"
+    ],
+    "def": "La enseñanza de la fe cristiana. El Catecismo de la Iglesia Católica, publicado en 1992, es el libro que reúne todo lo que cree la Iglesia."
+   },
+   {
+    "id": "chapelet",
+    "mot": "Rosario",
+    "formes": [
+     "rosario",
+     "rosarios"
+    ],
+    "def": "Un collar de cuentas que ayuda a rezar: en cada cuenta se dice una oración. Un misterio consta de un Padrenuestro, diez Avemarías y un Gloria. Una parte completa tiene cinco misterios."
+   },
+   {
+    "id": "communion",
+    "mot": "Comunión",
+    "formes": [
+     "comunión",
+     "comulgar"
+    ],
+    "def": "El momento de la misa en que se recibe la hostia, el Cuerpo de Cristo. La palabra significa «unión con»: con Jesús y con los demás creyentes."
+   },
+   {
+    "id": "communion-des-saints",
+    "mot": "Comunión de los santos",
+    "formes": [
+     "comunión de los santos"
+    ],
+    "def": "La gran familia que une a todos los creyentes: los que viven en la tierra, los que han muerto y los que ya están junto a Dios. Podemos rezar unos por otros."
+   },
+   {
+    "id": "confession",
+    "mot": "Confesión",
+    "formes": [
+     "confesión",
+     "confesarse"
+    ],
+    "def": "El sacramento del perdón, también llamado sacramento de la reconciliación. Se dicen los pecados a un sacerdote, que da el perdón de Dios. El sacerdote no puede repetir jamás lo que ha oído."
+   },
+   {
+    "id": "credo",
+    "mot": "Credo",
+    "formes": [
+     "Credo"
+    ],
+    "def": "Una palabra latina que significa «creo». Es el texto que resume la fe cristiana y que se reza el domingo en misa."
+   },
+   {
+    "id": "croix",
+    "mot": "Cruz",
+    "formes": [
+     "cruz",
+     "Cruz"
+    ],
+    "def": "El instrumento de la muerte de Jesús, convertido en el signo de los cristianos. Recuerda que Jesús dio su vida por amor y que resucitó."
+   },
+   {
+    "id": "defunts",
+    "mot": "Difuntos",
+    "formes": [
+     "difuntos",
+     "difunto",
+     "difunta"
+    ],
+    "def": "Las personas que han muerto. La Iglesia reza por ellas, sobre todo el 2 de noviembre, con la esperanza de reencontrarlas junto a Dios."
+   },
+   {
+    "id": "esprit-saint",
+    "mot": "Espíritu Santo",
+    "formes": [
+     "Espíritu Santo",
+     "el Espíritu"
+    ],
+    "def": "La tercera persona de la Trinidad, con el Padre y el Hijo. Es el aliento de Dios que da fuerza, paz y alegría, y que ayuda a rezar."
+   },
+   {
+    "id": "eucharistie",
+    "mot": "Eucaristía",
+    "formes": [
+     "Eucaristía",
+     "eucaristía"
+    ],
+    "def": "El sacramento del Cuerpo y la Sangre de Cristo, que se celebra en la misa. La palabra griega significa «acción de gracias», es decir, «gracias»."
+   },
+   {
+    "id": "evangile",
+    "mot": "Evangelio",
+    "formes": [
+     "Evangelio",
+     "evangelio",
+     "Evangelios",
+     "evangelios"
+    ],
+    "def": "La palabra significa «buena noticia». Son los cuatro libros de la Biblia (Mateo, Marcos, Lucas y Juan) que cuentan la vida, las palabras, la muerte y la resurrección de Jesús."
+   },
+   {
+    "id": "grace",
+    "mot": "Gracia",
+    "formes": [
+     "gracia",
+     "gracias"
+    ],
+    "def": "Un regalo gratuito de Dios: su amor y su ayuda, que no merecemos pero que Él da con gusto. «Dar gracias» es decir gracias."
+   },
+   {
+    "id": "hostie",
+    "mot": "Hostia",
+    "formes": [
+     "hostia",
+     "hostias"
+    ],
+    "def": "El pan pequeño, redondo y plano, sin levadura, que se convierte en el Cuerpo de Cristo durante la misa."
+   },
+   {
+    "id": "incarnation",
+    "mot": "Encarnación",
+    "formes": [
+     "encarnación",
+     "Encarnación"
+    ],
+    "def": "El misterio de Dios que se hace hombre en Jesús. La palabra viene del latín caro, «carne»: Dios tomó un cuerpo como el nuestro."
+   },
+   {
+    "id": "laudes",
+    "mot": "Laudes",
+    "formes": [
+     "Laudes",
+     "laudes"
+    ],
+    "def": "La oración de la mañana de la Iglesia, hecha de salmos, lecturas y cantos. La palabra viene del latín laus, «alabanza»."
+   },
+   {
+    "id": "liturgie",
+    "mot": "Liturgia",
+    "formes": [
+     "liturgia",
+     "litúrgico",
+     "litúrgica",
+     "litúrgicos"
+    ],
+    "def": "El conjunto de las celebraciones de la Iglesia: la misa, los sacramentos, la Liturgia de las Horas. El tiempo litúrgico es el año organizado en torno a la vida de Jesús."
+   },
+   {
+    "id": "messe",
+    "mot": "Misa",
+    "formes": [
+     "misa",
+     "misas"
+    ],
+    "def": "La principal celebración de los cristianos, en la que se escucha la Palabra de Dios y se comparte la Eucaristía. Tiene lugar cada domingo, y a menudo cada día."
+   },
+   {
+    "id": "misericorde",
+    "mot": "Misericordia",
+    "formes": [
+     "Misericordia",
+     "misericordia"
+    ],
+    "def": "El amor de Dios que perdona y levanta. La palabra viene del latín: un corazón (cor) que se inclina sobre la miseria."
+   },
+   {
+    "id": "mystere",
+    "mot": "Misterio",
+    "formes": [
+     "misterio",
+     "misterios"
+    ],
+    "def": "En la fe, un misterio no es un enigma que resolver: es una realidad tan grande que nunca se termina de descubrir. En el rosario, los misterios son escenas de la vida de Jesús y de María."
+   },
+   {
+    "id": "paques",
+    "mot": "Pascua",
+    "formes": [
+     "Pascua"
+    ],
+    "def": "La mayor fiesta cristiana: la resurrección de Jesús. Su fecha cambia cada año: es el domingo siguiente a la primera luna llena de primavera."
+   },
+   {
+    "id": "peche",
+    "mot": "Pecado",
+    "formes": [
+     "pecado",
+     "pecados",
+     "pecadores"
+    ],
+    "def": "Un acto, una palabra o un pensamiento que daña nuestra relación con Dios, con los demás o con nosotros mismos. Dios está siempre dispuesto a perdonar."
+   },
+   {
+    "id": "pentecote",
+    "mot": "Pentecostés",
+    "formes": [
+     "Pentecostés"
+    ],
+    "def": "La fiesta, cincuenta días después de Pascua, en la que el Espíritu Santo desciende sobre los apóstoles. Se dice que es el nacimiento de la Iglesia."
+   },
+   {
+    "id": "psaume",
+    "mot": "Salmo",
+    "formes": [
+     "Salmo",
+     "salmo",
+     "salmos"
+    ],
+    "def": "Una oración cantada de la Biblia. El libro de los Salmos tiene 150, que expresan todas las emociones humanas: la alegría, el miedo, la ira, la confianza."
+   },
+   {
+    "id": "resurrection",
+    "mot": "Resurrección",
+    "formes": [
+     "resurrección",
+     "Resurrección",
+     "resucitado"
+    ],
+    "def": "La vuelta a la vida de Jesús, tres días después de su muerte, con un cuerpo transformado. Es también la promesa hecha a todos: la muerte no es el final."
+   },
+   {
+    "id": "sacrement",
+    "mot": "Sacramento",
+    "formes": [
+     "sacramento",
+     "sacramentos"
+    ],
+    "def": "Un signo visible por el que Dios da su gracia. Hay siete: bautismo, confirmación, eucaristía, reconciliación, unción de los enfermos, matrimonio y orden sacerdotal."
+   },
+   {
+    "id": "saint",
+    "mot": "Santo",
+    "formes": [
+     "santo",
+     "santa",
+     "santos",
+     "santas"
+    ],
+    "def": "Una persona que vivió en gran amistad con Dios y que está junto a Él. La Iglesia ha reconocido miles, pero todos los cristianos están llamados a la santidad."
+   },
+   {
+    "id": "solennite",
+    "mot": "Solemnidad",
+    "formes": [
+     "Solemnidad",
+     "solemnidad",
+     "solemnidades"
+    ],
+    "def": "El grado más alto de fiesta en el año litúrgico, como Navidad, Pascua o Todos los Santos. En la misa se canta el Gloria y se reza el Credo."
+   },
+   {
+    "id": "temps-ordinaire",
+    "mot": "Tiempo Ordinario",
+    "formes": [
+     "tiempo ordinario",
+     "Tiempo Ordinario"
+    ],
+    "def": "Las semanas del año que no son ni Adviento, ni Navidad, ni Cuaresma, ni Pascua. «Ordinario» viene del latín ordo: semanas que se cuentan una a una."
+   },
+   {
+    "id": "toussaint",
+    "mot": "Todos los Santos",
+    "formes": [
+     "Todos los Santos"
+    ],
+    "def": "La fiesta de todos los santos, el 1 de noviembre: los santos conocidos y todos los demás, que solo Dios conoce."
+   },
+   {
+    "id": "trinite",
+    "mot": "Trinidad",
+    "formes": [
+     "Trinidad"
+    ],
+    "def": "El misterio de un solo Dios en tres personas: el Padre, el Hijo (Jesús) y el Espíritu Santo. Dios es amor, y el amor es siempre relación."
+   },
+   {
+    "id": "vepres",
+    "mot": "Vísperas",
+    "formes": [
+     "Vísperas",
+     "vísperas"
+    ],
+    "def": "La oración de la tarde de la Iglesia, al ponerse el sol. La palabra viene del latín vesper, «la tarde»."
+   },
+   {
+    "id": "vierge-marie",
+    "mot": "Virgen María",
+    "formes": [
+     "Virgen María",
+     "María"
+    ],
+    "def": "La madre de Jesús. Los cristianos la aman y le rezan como a una madre: no sustituye a Dios, sino que lleva a su Hijo."
+   },
+   {
+    "id": "yahweh",
+    "mot": "Yahvé",
+    "formes": [
+     "Yahvé"
+    ],
+    "def": "El nombre que Dios revela a Moisés en la zarza ardiente (Ex 3, 14), que significa más o menos «Yo soy». Por respeto, los judíos no lo pronuncian, y la Iglesia pide decir «el Señor» en la oración y en la misa. Algunas Biblias lo escriben tal cual."
+   },
+   {
+    "id": "purgatoire",
+    "mot": "Purgatorio",
+    "formes": [
+     "purgatorio",
+     "purificación"
+    ],
+    "def": "Para la Iglesia, una purificación después de la muerte para los que se salvan pero aún no están del todo preparados para ver a Dios. No es un castigo, sino una última preparación del amor. Se puede ayudar a los difuntos con la oración."
+   },
+   {
+    "id": "defunt",
+    "mot": "Difunto",
+    "formes": [
+     "difunto"
+    ],
+    "def": "Una persona que ha muerto. El 2 de noviembre, la Iglesia reza por todos los difuntos."
+   },
+   {
+    "id": "memento-mori",
+    "mot": "Memento mori",
+    "formes": [
+     "memento mori"
+    ],
+    "def": "Una expresión latina: «recuerda que morirás». Para los cristianos no es un pensamiento triste, sino una invitación a vivir plenamente cada día y a no dejar lo esencial para más tarde."
+   }
+  ]
+ }
+}

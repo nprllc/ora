@@ -1,0 +1,14 @@
+{
+ "titre": "La prière du soir avec ton enfant",
+ "duree": "3 minutes",
+ "intro": "Un petit rituel pour finir la journée ensemble, à lire à voix haute.",
+ "etapes": [
+  { "mot": "On se pose", "invitation": "Baissez la lumière, asseyez-vous l'un près de l'autre et faites ensemble le signe de croix." },
+  { "mot": "Merci", "invitation": "Demande-lui : « Qu'est-ce qui t'a rendu heureux aujourd'hui ? » Remerciez Dieu ensemble pour cela." },
+  { "mot": "Pardon", "invitation": "Y a-t-il quelque chose que l'on regrette ? On peut le dire tout bas à Jésus. Il aime pardonner." },
+  { "mot": "S'il te plaît", "invitation": "Pour qui veut-on prier ce soir ? Un ami, un grand-parent, quelqu'un de malade…" },
+  { "mot": "Ange de Dieu", "invitation": "Dites ensemble la prière à l'ange gardien." },
+  { "mot": "Bonne nuit", "invitation": "Tu peux tracer une petite croix sur son front avec ton pouce, comme une bénédiction." }
+ ],
+ "fin": "Bonne nuit."
+}

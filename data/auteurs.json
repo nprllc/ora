@@ -1,0 +1,28 @@
+{
+  "_note": "Courtes présentations des personnes citées. Faits vérifiés : Vatican (vatican.va), Encyclopædia Britannica, sanctuaire de Lisieux.",
+  "therese-de-lisieux": {
+    "fr": { "nom": "Sainte Thérèse de Lisieux", "bio": "Religieuse carmélite française (1873-1897), morte à 24 ans au carmel de Lisieux, en Normandie. Son autobiographie, Histoire d'une âme, a touché des millions de lecteurs par sa « petite voie » : faire confiance à Dieu comme un enfant. Elle a été proclamée sainte en 1925 et docteur de l'Église en 1997." },
+    "es": { "nom": "Santa Teresa de Lisieux", "bio": "Religiosa carmelita francesa (1873-1897), murió a los 24 años en el carmelo de Lisieux, en Normandía. Su autobiografía, Historia de un alma, ha conmovido a millones de lectores con su «caminito»: confiar en Dios como un niño. Fue proclamada santa en 1925 y doctora de la Iglesia en 1997." },
+    "en": { "nom": "Saint Thérèse of Lisieux", "bio": "French Carmelite nun (1873-1897) who died at 24 in the Carmel of Lisieux, in Normandy. Her autobiography, Story of a Soul, has touched millions of readers with her “little way”: trusting God like a child. She was canonized in 1925 and declared a Doctor of the Church in 1997." }
+  },
+  "benoit-xvi": {
+    "fr": { "nom": "Benoît XVI", "bio": "Joseph Ratzinger (1927-2022), théologien allemand, pape de 2005 à 2013. Il a écrit trois livres sur Jésus de Nazareth et trois encycliques, dont Deus caritas est (« Dieu est amour »). En 2013, il a renoncé à sa charge, ce qu'aucun pape n'avait fait depuis près de six siècles." },
+    "es": { "nom": "Benedicto XVI", "bio": "Joseph Ratzinger (1927-2022), teólogo alemán, papa de 2005 a 2013. Escribió tres libros sobre Jesús de Nazaret y tres encíclicas, entre ellas Deus caritas est («Dios es amor»). En 2013 renunció a su cargo, algo que ningún papa había hecho en casi seis siglos." },
+    "en": { "nom": "Benedict XVI", "bio": "Joseph Ratzinger (1927-2022), German theologian, pope from 2005 to 2013. He wrote three books on Jesus of Nazareth and three encyclicals, including Deus caritas est (“God is love”). In 2013 he resigned his office, something no pope had done in nearly six centuries." }
+  },
+  "bernard-de-clairvaux": {
+    "fr": { "nom": "Saint Bernard de Clairvaux", "bio": "Moine cistercien bourguignon (1090-1153). En 1115, il fonde l'abbaye de Clairvaux, en Champagne, qui essaimera dans toute l'Europe. Grand prédicateur, il a écrit sur l'amour de Dieu et sur la Vierge Marie. Il est docteur de l'Église." },
+    "es": { "nom": "San Bernardo de Claraval", "bio": "Monje cisterciense de Borgoña (1090-1153). En 1115 fundó la abadía de Claraval, en Champaña, que se extendió por toda Europa. Gran predicador, escribió sobre el amor de Dios y sobre la Virgen María. Es doctor de la Iglesia." },
+    "en": { "nom": "Saint Bernard of Clairvaux", "bio": "Cistercian monk from Burgundy (1090-1153). In 1115 he founded the abbey of Clairvaux, in Champagne, whose monks spread across Europe. A great preacher, he wrote about the love of God and about the Virgin Mary. He is a Doctor of the Church." }
+  },
+  "monique": {
+    "fr": { "nom": "Sainte Monique", "bio": "Née vers 331 à Thagaste, dans l'actuelle Algérie, morte en 387 à Ostie, près de Rome. Mère de saint Augustin, elle a prié pendant des années pour qu'il trouve la foi, et l'a vu se faire baptiser peu avant sa mort. Augustin raconte sa vie dans ses Confessions." },
+    "es": { "nom": "Santa Mónica", "bio": "Nacida hacia el año 331 en Tagaste, en la actual Argelia, murió en el 387 en Ostia, cerca de Roma. Madre de san Agustín, rezó durante años para que encontrara la fe, y lo vio bautizarse poco antes de morir. Agustín cuenta su vida en las Confesiones." },
+    "en": { "nom": "Saint Monica", "bio": "Born around 331 in Thagaste, in present-day Algeria, she died in 387 at Ostia, near Rome. The mother of Saint Augustine, she prayed for years that he would find faith, and saw him baptized shortly before her death. Augustine tells her story in his Confessions." }
+  },
+  "catechisme": {
+    "fr": { "nom": "Catéchisme de l'Église catholique", "bio": "Le résumé officiel de la foi catholique, publié en 1992 par le pape Jean-Paul II. Il explique en quatre parties ce que l'Église croit, célèbre, vit et prie. C'est la référence d'Ora pour tout ce qui touche à la doctrine." },
+    "es": { "nom": "Catecismo de la Iglesia Católica", "bio": "El resumen oficial de la fe católica, publicado en 1992 por el papa Juan Pablo II. Explica en cuatro partes lo que la Iglesia cree, celebra, vive y reza. Es la referencia de Ora para todo lo que toca a la doctrina." },
+    "en": { "nom": "Catechism of the Catholic Church", "bio": "The official summary of the Catholic faith, published in 1992 by Pope John Paul II. In four parts it explains what the Church believes, celebrates, lives and prays. It is Ora's reference for everything to do with doctrine." }
+  }
+}

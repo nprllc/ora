@@ -1,0 +1,422 @@
+{
+  "_note": "Lexique d'Ora : chaque mot du vocabulaire catholique en deux ou trois phrases simples. Les 'formes' servent à repérer le mot dans les textes pour le rendre cliquable. À faire relire par un prêtre avant la diffusion publique.",
+  "mots": [
+    {
+      "id": "alleluia",
+      "mot": "Alléluia",
+      "formes": [
+        "alléluia",
+        "Alléluia"
+      ],
+      "def": "Un mot hébreu qui veut dire « louez Dieu ». C'est un cri de joie, chanté surtout pendant le temps de Pâques. On ne le chante pas pendant le Carême."
+    },
+    {
+      "id": "amen",
+      "mot": "Amen",
+      "formes": [
+        "Amen",
+        "amen"
+      ],
+      "def": "Un mot hébreu qui veut dire « c'est vrai », « j'y crois », « qu'il en soit ainsi ». On le dit à la fin d'une prière pour y mettre son accord."
+    },
+    {
+      "id": "ange-gardien",
+      "mot": "Ange gardien",
+      "formes": [
+        "ange gardien",
+        "anges gardiens"
+      ],
+      "def": "Un ange que Dieu donne à chacun pour l'accompagner et le protéger tout au long de sa vie. On peut lui parler comme à un ami invisible."
+    },
+    {
+      "id": "annonciation",
+      "mot": "Annonciation",
+      "formes": [
+        "Annonciation"
+      ],
+      "def": "Le moment où l'ange Gabriel annonce à Marie qu'elle sera la mère de Jésus. Marie répond « oui ». On le fête le 25 mars."
+    },
+    {
+      "id": "apotre",
+      "mot": "Apôtre",
+      "formes": [
+        "apôtre",
+        "apôtres",
+        "Apôtres"
+      ],
+      "def": "Les douze amis choisis par Jésus pour l'accompagner, puis pour annoncer l'Évangile au monde. Pierre, Jean, Jacques ou Thomas en font partie."
+    },
+    {
+      "id": "avent",
+      "mot": "Avent",
+      "formes": [
+        "Avent"
+      ],
+      "def": "Les quatre semaines qui préparent Noël. Le mot vient du latin adventus, qui veut dire « venue »."
+    },
+    {
+      "id": "bapteme",
+      "mot": "Baptême",
+      "formes": [
+        "baptême",
+        "Baptême",
+        "baptisé",
+        "baptisés"
+      ],
+      "def": "Le premier sacrement, qui fait entrer dans la famille des chrétiens. Par l'eau et l'Esprit Saint, on devient enfant de Dieu. Il ne se reçoit qu'une fois, et il est pour toujours."
+    },
+    {
+      "id": "beatitudes",
+      "mot": "Béatitudes",
+      "formes": [
+        "Béatitudes",
+        "béatitudes"
+      ],
+      "def": "Les paroles de Jésus qui commencent par « Heureux… » : heureux les doux, les cœurs purs, les artisans de paix… (Mt 5, 1-12). Elles décrivent le vrai bonheur selon Dieu."
+    },
+    {
+      "id": "bible",
+      "mot": "Bible",
+      "formes": [
+        "Bible"
+      ],
+      "def": "Le livre saint des chrétiens, fait de 73 livres écrits sur plus de mille ans. L'Ancien Testament raconte l'histoire de Dieu avec son peuple, le Nouveau Testament raconte Jésus et les premiers chrétiens."
+    },
+    {
+      "id": "careme",
+      "mot": "Carême",
+      "formes": [
+        "Carême",
+        "carême"
+      ],
+      "def": "Les quarante jours qui préparent Pâques, du mercredi des Cendres au Jeudi saint. Un temps pour revenir à Dieu par la prière, le partage et le jeûne."
+    },
+    {
+      "id": "catechisme",
+      "mot": "Catéchisme",
+      "formes": [
+        "Catéchisme",
+        "catéchisme"
+      ],
+      "def": "L'enseignement de la foi chrétienne. Le Catéchisme de l'Église catholique est le livre qui rassemble tout ce que croit l'Église, publié en 1992."
+    },
+    {
+      "id": "chapelet",
+      "mot": "Chapelet",
+      "formes": [
+        "chapelet",
+        "chapelets"
+      ],
+      "def": "Un collier de grains qui aide à prier : sur chaque grain, on dit une prière. Une « dizaine » compte un Notre Père, dix Je vous salue Marie et un Gloire au Père. Le chapelet complet compte cinq dizaines."
+    },
+    {
+      "id": "communion",
+      "mot": "Communion",
+      "formes": [
+        "communion",
+        "communier"
+      ],
+      "def": "Le moment de la messe où l'on reçoit l'hostie, le Corps du Christ. Le mot veut dire « union avec » : avec Jésus et avec les autres croyants."
+    },
+    {
+      "id": "communion-des-saints",
+      "mot": "Communion des saints",
+      "formes": [
+        "communion des saints"
+      ],
+      "def": "La grande famille qui unit tous les croyants : ceux qui vivent sur terre, ceux qui sont morts et ceux qui sont déjà auprès de Dieu. Nous pouvons prier les uns pour les autres."
+    },
+    {
+      "id": "confession",
+      "mot": "Confession",
+      "formes": [
+        "confession",
+        "se confesser"
+      ],
+      "def": "Le sacrement du pardon, aussi appelé sacrement de réconciliation. On dit ses péchés à un prêtre, qui donne le pardon de Dieu. Le prêtre ne peut jamais répéter ce qu'il a entendu."
+    },
+    {
+      "id": "credo",
+      "mot": "Credo",
+      "formes": [
+        "Credo"
+      ],
+      "def": "Un mot latin qui veut dire « je crois ». C'est le texte qui résume la foi chrétienne, dit le dimanche à la messe."
+    },
+    {
+      "id": "croix",
+      "mot": "Croix",
+      "formes": [
+        "croix",
+        "Croix"
+      ],
+      "def": "L'instrument de la mort de Jésus, devenu le signe des chrétiens. Elle rappelle que Jésus a donné sa vie par amour, et qu'il est ressuscité."
+    },
+    {
+      "id": "defunts",
+      "mot": "Défunts",
+      "formes": [
+        "défunts",
+        "défunt",
+        "défunte"
+      ],
+      "def": "Les personnes qui sont mortes. L'Église prie pour elles, surtout le 2 novembre, avec l'espérance de les retrouver auprès de Dieu."
+    },
+    {
+      "id": "esprit-saint",
+      "mot": "Esprit Saint",
+      "formes": [
+        "Esprit Saint",
+        "Saint-Esprit",
+        "l'Esprit"
+      ],
+      "def": "La troisième personne de la Trinité, avec le Père et le Fils. Il est le souffle de Dieu qui donne la force, la paix et la joie, et qui aide à prier."
+    },
+    {
+      "id": "eucharistie",
+      "mot": "Eucharistie",
+      "formes": [
+        "Eucharistie",
+        "eucharistie"
+      ],
+      "def": "Le sacrement du Corps et du Sang du Christ, célébré à la messe. Le mot grec veut dire « action de grâce », c'est-à-dire « merci »."
+    },
+    {
+      "id": "evangile",
+      "mot": "Évangile",
+      "formes": [
+        "Évangile",
+        "évangile",
+        "Évangiles",
+        "évangiles"
+      ],
+      "def": "Le mot veut dire « bonne nouvelle ». Ce sont les quatre livres de la Bible (Matthieu, Marc, Luc et Jean) qui racontent la vie, les paroles, la mort et la résurrection de Jésus."
+    },
+    {
+      "id": "grace",
+      "mot": "Grâce",
+      "formes": [
+        "grâce",
+        "grâces"
+      ],
+      "def": "Un cadeau gratuit de Dieu : son amour et son aide, qu'on ne mérite pas mais qu'il donne volontiers. « Rendre grâce », c'est dire merci."
+    },
+    {
+      "id": "hostie",
+      "mot": "Hostie",
+      "formes": [
+        "hostie",
+        "hosties"
+      ],
+      "def": "Le petit pain rond et plat, sans levain, qui devient le Corps du Christ pendant la messe."
+    },
+    {
+      "id": "incarnation",
+      "mot": "Incarnation",
+      "formes": [
+        "incarnation",
+        "Incarnation"
+      ],
+      "def": "Le mystère de Dieu qui se fait homme en Jésus. Le mot vient du latin caro, « chair » : Dieu a pris un corps comme le nôtre."
+    },
+    {
+      "id": "laudes",
+      "mot": "Laudes",
+      "formes": [
+        "Laudes",
+        "laudes"
+      ],
+      "def": "La prière du matin de l'Église, faite de psaumes, de lectures et de chants. Le mot vient du latin laus, « louange »."
+    },
+    {
+      "id": "liturgie",
+      "mot": "Liturgie",
+      "formes": [
+        "liturgie",
+        "liturgique",
+        "liturgiques"
+      ],
+      "def": "L'ensemble des célébrations de l'Église : la messe, les sacrements, la prière des heures. Le temps liturgique, c'est l'année organisée autour de la vie de Jésus."
+    },
+    {
+      "id": "messe",
+      "mot": "Messe",
+      "formes": [
+        "messe",
+        "messes"
+      ],
+      "def": "La célébration principale des chrétiens, où l'on écoute la Parole de Dieu et où l'on partage l'Eucharistie. Elle a lieu chaque dimanche, et souvent chaque jour."
+    },
+    {
+      "id": "misericorde",
+      "mot": "Miséricorde",
+      "formes": [
+        "Miséricorde",
+        "miséricorde"
+      ],
+      "def": "L'amour de Dieu qui pardonne et qui relève. Le mot vient du latin : un cœur (cor) qui se penche sur la misère."
+    },
+    {
+      "id": "mystere",
+      "mot": "Mystère",
+      "formes": [
+        "mystère",
+        "mystères"
+      ],
+      "def": "Dans la foi, un mystère n'est pas une énigme à résoudre : c'est une réalité si grande qu'on ne finit jamais de la découvrir. Dans le chapelet, les mystères sont des scènes de la vie de Jésus et de Marie."
+    },
+    {
+      "id": "paques",
+      "mot": "Pâques",
+      "formes": [
+        "Pâques"
+      ],
+      "def": "La plus grande fête chrétienne : la résurrection de Jésus. Sa date change chaque année : c'est le dimanche qui suit la première pleine lune du printemps."
+    },
+    {
+      "id": "peche",
+      "mot": "Péché",
+      "formes": [
+        "péché",
+        "péchés",
+        "pécheurs"
+      ],
+      "def": "Un acte, une parole ou une pensée qui abîme notre relation avec Dieu, avec les autres ou avec nous-mêmes. Dieu est toujours prêt à pardonner."
+    },
+    {
+      "id": "pentecote",
+      "mot": "Pentecôte",
+      "formes": [
+        "Pentecôte"
+      ],
+      "def": "La fête, cinquante jours après Pâques, où l'Esprit Saint descend sur les apôtres. On dit que c'est la naissance de l'Église."
+    },
+    {
+      "id": "psaume",
+      "mot": "Psaume",
+      "formes": [
+        "Psaume",
+        "psaume",
+        "psaumes"
+      ],
+      "def": "Une prière chantée de la Bible. Le livre des Psaumes en compte 150, qui disent toutes les émotions humaines : la joie, la peur, la colère, la confiance."
+    },
+    {
+      "id": "resurrection",
+      "mot": "Résurrection",
+      "formes": [
+        "résurrection",
+        "Résurrection",
+        "ressuscité"
+      ],
+      "def": "Le retour à la vie de Jésus, trois jours après sa mort, avec un corps transformé. C'est aussi la promesse faite à tous : la mort n'est pas la fin."
+    },
+    {
+      "id": "sacrement",
+      "mot": "Sacrement",
+      "formes": [
+        "sacrement",
+        "sacrements"
+      ],
+      "def": "Un signe visible par lequel Dieu donne sa grâce. Il y en a sept : baptême, confirmation, eucharistie, réconciliation, onction des malades, mariage et ordre."
+    },
+    {
+      "id": "saint",
+      "mot": "Saint",
+      "formes": [
+        "saint",
+        "sainte",
+        "saints",
+        "saintes"
+      ],
+      "def": "Une personne qui a vécu en grande amitié avec Dieu et qui est auprès de Lui. L'Église en a reconnu des milliers, mais tous les chrétiens sont appelés à la sainteté."
+    },
+    {
+      "id": "solennite",
+      "mot": "Solennité",
+      "formes": [
+        "Solennité",
+        "solennité",
+        "solennités"
+      ],
+      "def": "Le plus haut degré de fête dans l'année liturgique, comme Noël, Pâques ou la Toussaint. On y chante le Gloria et on dit le Credo à la messe."
+    },
+    {
+      "id": "temps-ordinaire",
+      "mot": "Temps ordinaire",
+      "formes": [
+        "temps ordinaire"
+      ],
+      "def": "Les semaines de l'année qui ne sont ni l'Avent, ni Noël, ni le Carême, ni Pâques. « Ordinaire » vient du latin ordo : des semaines qu'on compte, une à une."
+    },
+    {
+      "id": "toussaint",
+      "mot": "Toussaint",
+      "formes": [
+        "Toussaint"
+      ],
+      "def": "La fête de tous les saints, le 1er novembre : les saints connus et tous les autres, que Dieu seul connaît."
+    },
+    {
+      "id": "trinite",
+      "mot": "Trinité",
+      "formes": [
+        "Trinité"
+      ],
+      "def": "Le mystère d'un seul Dieu en trois personnes : le Père, le Fils (Jésus) et le Saint-Esprit. Dieu est amour, et l'amour est toujours relation."
+    },
+    {
+      "id": "vepres",
+      "mot": "Vêpres",
+      "formes": [
+        "Vêpres",
+        "vêpres"
+      ],
+      "def": "La prière du soir de l'Église, au coucher du soleil. Le mot vient du latin vesper, « le soir »."
+    },
+    {
+      "id": "vierge-marie",
+      "mot": "Vierge Marie",
+      "formes": [
+        "Vierge Marie",
+        "Marie"
+      ],
+      "def": "La mère de Jésus. Les chrétiens l'aiment et la prient comme une mère : elle ne remplace pas Dieu, elle conduit à son Fils."
+    },
+    {
+      "id": "yahweh",
+      "mot": "Yahweh",
+      "formes": [
+        "Yahweh"
+      ],
+      "def": "Le nom que Dieu révèle à Moïse dans le buisson ardent (Ex 3, 14), qui veut dire à peu près « Je suis ». Par respect, les Juifs ne le prononcent pas, et l'Église demande de dire plutôt « le Seigneur » dans la prière et à la messe. Certaines Bibles anciennes l'écrivent tel quel."
+    },
+    {
+      "id": "purgatoire",
+      "mot": "Purgatoire",
+      "formes": [
+        "purgatoire",
+        "purification après la mort"
+      ],
+      "def": "Pour l'Église, une purification après la mort pour ceux qui sont sauvés mais pas encore tout à fait prêts à voir Dieu. Ce n'est pas une punition, plutôt une dernière préparation de l'amour. On peut aider les défunts par la prière."
+    },
+    {
+      "id": "defunt",
+      "mot": "Défunt",
+      "formes": [
+        "défunts",
+        "défunt",
+        "défuntes"
+      ],
+      "def": "Une personne qui est morte. Le 2 novembre, l'Église prie pour tous les défunts."
+    },
+    {
+      "id": "memento-mori",
+      "mot": "Memento mori",
+      "formes": [
+        "memento mori"
+      ],
+      "def": "Une expression latine : « souviens-toi que tu mourras ». Pour les chrétiens, ce n'est pas une pensée triste, mais une invitation à vivre pleinement chaque jour et à ne pas remettre l'essentiel à plus tard."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "_note": "Explications courtes des temps liturgiques et des grandes fêtes. Rédigées pour Ora ; à faire relire par un prêtre avant la diffusion publique. Champs : quoi (ce que c'est), pourquoi (pourquoi c'est important), idee (une idée à vivre).",
+  "saisons": {
+    "avent": {
+      "quoi": "Les quatre semaines qui préparent Noël. Le mot vient du latin adventus, « venue ».",
+      "pourquoi": "On se prépare à accueillir Jésus qui vient : à Noël, dans nos vies aujourd'hui, et à la fin des temps.",
+      "idee": "Allumer une bougie de plus chaque dimanche sur une couronne de l'Avent."
+    },
+    "noel": {
+      "quoi": "Le temps qui va de Noël au Baptême du Seigneur, début janvier.",
+      "pourquoi": "Dieu se fait tout proche : il devient un enfant, l'un de nous.",
+      "idee": "Laisser la crèche en place jusqu'au Baptême du Seigneur et s'y arrêter un instant."
+    },
+    "ordinaire": {
+      "quoi": "Le temps « ordinaire » est celui des semaines comptées une à une (ordo signifie « ordre » en latin), entre les grandes fêtes.",
+      "pourquoi": "C'est le temps où l'on suit Jésus au quotidien, dans l'Évangile, sans événement extraordinaire : là où se vit la plus grande partie de la foi.",
+      "idee": "Lire chaque dimanche l'Évangile du jour avant d'aller à la messe, ou à la place, tranquillement."
+    },
+    "careme": {
+      "quoi": "Les quarante jours entre le mercredi des Cendres et Pâques, en souvenir des quarante jours de Jésus au désert.",
+      "pourquoi": "Un temps pour revenir à Dieu, alléger ce qui encombre et préparer son cœur à la joie de Pâques.",
+      "idee": "Choisir une seule chose : une prière, un partage ou un écran en moins, et s'y tenir avec douceur."
+    },
+    "triduum": {
+      "quoi": "Les trois jours qui vont du Jeudi saint au soir jusqu'au dimanche de Pâques : le cœur de toute l'année.",
+      "pourquoi": "On y vit le dernier repas de Jésus, sa mort sur la croix et sa résurrection.",
+      "idee": "Participer à au moins une des célébrations, même en partie, par exemple le chemin de croix du Vendredi saint."
+    },
+    "paques": {
+      "quoi": "Les cinquante jours de Pâques à la Pentecôte, vécus comme un seul grand dimanche.",
+      "pourquoi": "Le Christ est ressuscité : la mort n'a pas le dernier mot. C'est le temps de la joie.",
+      "idee": "Ajouter « Alléluia » à la prière du soir, comme un merci."
+    }
+  },
+  "fetes": {
+    "toussaint": {
+      "quoi": "La fête de tous les saints : ceux que l'Église a reconnus, et la foule immense de ceux que Dieu seul connaît.",
+      "pourquoi": "Elle rappelle que la sainteté n'est pas réservée à quelques héros : c'est la vocation de chacun, et nous sommes entourés de cette grande famille.",
+      "idee": "Raconter à un enfant l'histoire du saint dont il porte le prénom, ou d'un saint qu'il aime."
+    },
+    "defunts": {
+      "quoi": "Le lendemain de la Toussaint, l'Église prie pour tous les morts.",
+      "pourquoi": "Nous croyons que la mort n'est pas une rupture définitive : la prière nous relie encore à ceux que nous aimons.",
+      "idee": "Dire le nom d'une personne disparue et confier cette personne à Dieu, ou aller fleurir une tombe."
+    },
+    "christ-roi": {
+      "quoi": "Le dernier dimanche de l'année liturgique, avant l'Avent.",
+      "pourquoi": "Jésus est roi, mais un roi qui sert, qui pardonne et qui se donne : son royaume est fait d'amour.",
+      "idee": "Rendre un service discret à quelqu'un, sans le dire."
+    },
+    "immaculee-conception": {
+      "quoi": "La fête qui célèbre Marie, préservée de tout péché dès le premier instant de sa vie, dans le ventre de sa mère.",
+      "pourquoi": "Dieu a préparé Marie pour qu'elle puisse dire oui de tout son être à la venue de Jésus.",
+      "idee": "Dire un « Je vous salue Marie » et, comme à Lyon, poser une bougie à la fenêtre le soir."
+    },
+    "noel": {
+      "quoi": "La naissance de Jésus à Bethléem.",
+      "pourquoi": "Dieu ne reste pas loin : il vient habiter parmi nous, pauvre et petit, pour que personne n'ait peur de s'approcher.",
+      "idee": "Avant d'ouvrir les cadeaux, s'arrêter en famille devant la crèche et dire merci."
+    },
+    "sainte-famille": {
+      "quoi": "Le dimanche après Noël, on fête Jésus, Marie et Joseph.",
+      "pourquoi": "Jésus a grandi dans une famille, avec ses joies et ses difficultés : toute famille peut y trouver un modèle et une aide.",
+      "idee": "Prier ensemble une minute avant le repas, chacun disant un merci."
+    },
+    "marie-mere-de-dieu": {
+      "quoi": "Le 1er janvier, l'Église fête Marie, Mère de Jésus, vrai Dieu et vrai homme. C'est aussi la Journée mondiale de la paix.",
+      "pourquoi": "On commence l'année sous le regard d'une mère, en demandant la paix.",
+      "idee": "Confier à Marie une intention pour l'année qui commence."
+    },
+    "epiphanie": {
+      "quoi": "La visite des mages venus d'Orient, guidés par une étoile, jusqu'à l'enfant Jésus.",
+      "pourquoi": "Jésus n'est pas venu pour un seul peuple : il se manifeste à tous, d'où qu'ils viennent.",
+      "idee": "Partager la galette des rois et dire une prière pour quelqu'un de loin."
+    },
+    "bapteme": {
+      "quoi": "Jésus est baptisé par Jean dans le Jourdain. Une voix dit : « Celui-ci est mon Fils bien-aimé. »",
+      "pourquoi": "Par notre baptême, nous aussi sommes appelés enfants bien-aimés de Dieu.",
+      "idee": "Retrouver la date de son baptême et la noter quelque part."
+    },
+    "cendres": {
+      "quoi": "Le premier jour du Carême. Le prêtre trace une croix de cendres sur le front.",
+      "pourquoi": "Un signe d'humilité et de recommencement : nous sommes fragiles, et Dieu nous attend.",
+      "idee": "Choisir l'effort de Carême qu'on aimerait vivre, un seul, simple."
+    },
+    "rameaux": {
+      "quoi": "Jésus entre à Jérusalem, acclamé par la foule qui agite des branches. C'est le début de la Semaine sainte.",
+      "pourquoi": "La même foule qui acclame criera bientôt « Crucifie-le » : c'est le mystère de nos cœurs partagés.",
+      "idee": "Rapporter un rameau béni et le placer près d'une croix à la maison."
+    },
+    "jeudi-saint": {
+      "quoi": "Le dernier repas de Jésus avec ses amis, où il lave leurs pieds et donne son Corps et son Sang.",
+      "pourquoi": "C'est la naissance de l'Eucharistie et le commandement de l'amour qui sert.",
+      "idee": "Rendre un service humble à la maison, sans rien attendre."
+    },
+    "vendredi-saint": {
+      "quoi": "Le jour où Jésus meurt sur la croix.",
+      "pourquoi": "Il donne sa vie par amour, jusqu'au bout, pour nous sauver.",
+      "idee": "Prendre un moment de silence à 15 heures, l'heure de sa mort."
+    },
+    "samedi-saint": {
+      "quoi": "Le jour du grand silence : Jésus repose au tombeau. Le soir, la veillée pascale ouvre la fête de Pâques.",
+      "pourquoi": "C'est le jour de l'attente, comme nos moments où Dieu semble absent.",
+      "idee": "Garder une journée calme, puis allumer une bougie le soir."
+    },
+    "paques": {
+      "quoi": "La résurrection de Jésus, le matin du troisième jour.",
+      "pourquoi": "C'est le cœur de la foi chrétienne : l'amour est plus fort que la mort.",
+      "idee": "Dire à quelqu'un : « Christ est ressuscité ! », comme les premiers chrétiens."
+    },
+    "misericorde": {
+      "quoi": "Le dimanche qui suit Pâques, consacré à la miséricorde de Dieu.",
+      "pourquoi": "Dieu pardonne sans se lasser : il n'y a pas de faute plus grande que son amour.",
+      "idee": "Pardonner une petite chose à quelqu'un, ou se pardonner à soi-même."
+    },
+    "ascension": {
+      "quoi": "Quarante jours après Pâques, Jésus retourne auprès de son Père.",
+      "pourquoi": "Il ne nous abandonne pas : il nous confie la mission de continuer son œuvre et promet l'Esprit Saint.",
+      "idee": "Lever les yeux vers le ciel un instant et dire merci."
+    },
+    "pentecote": {
+      "quoi": "Cinquante jours après Pâques, l'Esprit Saint descend sur les apôtres réunis.",
+      "pourquoi": "C'est la naissance de l'Église : l'Esprit donne la force et la joie de témoigner.",
+      "idee": "Dire simplement : « Viens, Esprit Saint », avant une décision ou une journée difficile."
+    },
+    "trinite": {
+      "quoi": "La fête de Dieu unique en trois personnes : le Père, le Fils et le Saint-Esprit.",
+      "pourquoi": "Dieu n'est pas solitaire : il est amour, relation, communion.",
+      "idee": "Faire le signe de croix lentement, en pensant à chaque mot."
+    },
+    "saint-sacrement": {
+      "quoi": "La fête du Corps et du Sang du Christ, présent dans l'Eucharistie.",
+      "pourquoi": "Jésus se donne en nourriture pour rester avec nous chaque jour.",
+      "idee": "Entrer dans une église et rester une minute devant le tabernacle."
+    },
+    "sacre-coeur": {
+      "quoi": "La fête de l'amour de Jésus, représenté par son cœur.",
+      "pourquoi": "Elle rappelle que Dieu nous aime avec un cœur humain, tendre et patient.",
+      "idee": "Confier à Jésus ce qui pèse sur le cœur."
+    },
+    "assomption": {
+      "quoi": "Marie, au terme de sa vie terrestre, est élevée corps et âme dans la gloire du ciel.",
+      "pourquoi": "Ce qui est arrivé à Marie est une promesse pour nous : notre corps aussi est appelé à la vie.",
+      "idee": "Dire un « Je vous salue Marie » pour sa famille."
+    },
+    "joseph": {
+      "quoi": "La fête de Joseph, l'époux de Marie, qui a veillé sur Jésus enfant.",
+      "pourquoi": "Un homme discret, juste et courageux : le saint patron des pères et des travailleurs.",
+      "idee": "Pour un papa : confier à saint Joseph son rôle de père."
+    },
+    "annonciation": {
+      "quoi": "L'ange Gabriel annonce à Marie qu'elle sera la mère du Fils de Dieu, et elle répond oui.",
+      "pourquoi": "Le « oui » de Marie ouvre la porte à Dieu dans l'histoire humaine.",
+      "idee": "Dire l'Angélus, la prière qui rappelle ce moment."
+    },
+    "nativite-jean-baptiste": {
+      "quoi": "La naissance de Jean, le cousin de Jésus, qui l'a annoncé et baptisé.",
+      "pourquoi": "Jean prépare le chemin : il montre Jésus et s'efface. C'est l'une des rares naissances fêtées par l'Église.",
+      "idee": "En Catalogne, la Sant Joan se fête avec des feux : une occasion de parler de Jean à un enfant."
+    },
+    "pierre-paul": {
+      "quoi": "La fête des deux grands apôtres, Pierre le pêcheur et Paul le converti, morts à Rome.",
+      "pourquoi": "Deux hommes très différents, avec leurs faiblesses, sur qui repose l'Église.",
+      "idee": "Prier pour le pape, successeur de Pierre."
+    }
+  }
+}

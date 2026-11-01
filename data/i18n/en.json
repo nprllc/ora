@@ -1,0 +1,694 @@
+{
+ "_note": "Ora content in English (translated from the French texts; prayers in their official versions used in the United States).",
+ "explications": {
+  "saisons": {
+   "avent": {
+    "quoi": "The four weeks that prepare for Christmas. The word comes from the Latin adventus, “coming”.",
+    "pourquoi": "We get ready to welcome Jesus who comes: at Christmas, in our lives today, and at the end of time.",
+    "idee": "Light one more candle each Sunday on an Advent wreath."
+   },
+   "noel": {
+    "quoi": "The season from Christmas to the Baptism of the Lord, in early January.",
+    "pourquoi": "God comes very close: he becomes a child, one of us.",
+    "idee": "Leave the nativity scene up until the Baptism of the Lord and pause before it for a moment."
+   },
+   "ordinaire": {
+    "quoi": "“Ordinary” Time is made of weeks counted one by one (ordo means “order” in Latin), between the great feasts.",
+    "pourquoi": "It is the time when we follow Jesus day to day in the Gospel, without extraordinary events: where most of the life of faith is lived.",
+    "idee": "Read the Sunday Gospel before going to Mass, calmly."
+   },
+   "careme": {
+    "quoi": "The forty days between Ash Wednesday and Easter, in memory of Jesus' forty days in the desert.",
+    "pourquoi": "A time to return to God, let go of what weighs us down and prepare our hearts for the joy of Easter.",
+    "idee": "Choose just one thing: a prayer, an act of sharing or one less screen, and keep to it gently."
+   },
+   "triduum": {
+    "quoi": "The three days from Holy Thursday evening to Easter Sunday: the heart of the whole year.",
+    "pourquoi": "We live Jesus' Last Supper, his death on the cross and his resurrection.",
+    "idee": "Take part in at least one of the celebrations, even partly, for example the Stations of the Cross on Good Friday."
+   },
+   "paques": {
+    "quoi": "The fifty days from Easter to Pentecost, lived as one great Sunday.",
+    "pourquoi": "Christ is risen: death does not have the last word. It is the season of joy.",
+    "idee": "Add “Alleluia” to your evening prayer, as a thank you."
+   }
+  },
+  "fetes": {
+   "toussaint": {
+    "quoi": "The feast of all the saints: those the Church has recognized, and the immense crowd of those known to God alone.",
+    "pourquoi": "It reminds us that holiness is not reserved for a few heroes: it is everyone's calling, and we are surrounded by this great family.",
+    "idee": "Tell a child the story of the saint whose name they bear, or of a saint they love."
+   },
+   "defunts": {
+    "quoi": "The day after All Saints, the Church prays for all the dead.",
+    "pourquoi": "We believe death is not a final break: prayer still binds us to those we love.",
+    "idee": "Say the name of someone who has died and entrust them to God, or bring flowers to a grave."
+   },
+   "christ-roi": {
+    "quoi": "The last Sunday of the liturgical year, before Advent.",
+    "pourquoi": "Jesus is king, but a king who serves, forgives and gives himself: his kingdom is made of love.",
+    "idee": "Do someone a quiet favor, without telling them."
+   },
+   "immaculee-conception": {
+    "quoi": "The feast celebrating Mary, preserved from all sin from the first moment of her life, in her mother's womb.",
+    "pourquoi": "God prepared Mary so she could say yes with her whole being to the coming of Jesus.",
+    "idee": "Pray a Hail Mary for someone who needs it."
+   },
+   "noel": {
+    "quoi": "The birth of Jesus in Bethlehem.",
+    "pourquoi": "God does not stay far away: he comes to live among us, poor and small, so that no one is afraid to come near.",
+    "idee": "Before opening presents, stop as a family in front of the nativity scene and say thank you."
+   },
+   "sainte-famille": {
+    "quoi": "On the Sunday after Christmas we celebrate Jesus, Mary and Joseph.",
+    "pourquoi": "Jesus grew up in a family, with its joys and difficulties: every family can find a model and a help there.",
+    "idee": "Pray together for a minute before a meal, each saying a thank you."
+   },
+   "marie-mere-de-dieu": {
+    "quoi": "On January 1, the Church celebrates Mary, Mother of Jesus, true God and true man. It is also the World Day of Peace.",
+    "pourquoi": "We begin the year under a mother's gaze, asking for peace.",
+    "idee": "Entrust to Mary an intention for the new year."
+   },
+   "epiphanie": {
+    "quoi": "The visit of the Magi from the East, guided by a star, to the child Jesus.",
+    "pourquoi": "Jesus did not come for one people only: he shows himself to all, wherever they come from.",
+    "idee": "Pray for someone far away."
+   },
+   "bapteme": {
+    "quoi": "Jesus is baptized by John in the Jordan. A voice says: “This is my beloved Son.”",
+    "pourquoi": "Through our baptism, we too are called God's beloved children.",
+    "idee": "Find the date of your baptism and write it down somewhere."
+   },
+   "cendres": {
+    "quoi": "The first day of Lent. The priest marks a cross of ashes on the forehead.",
+    "pourquoi": "A sign of humility and of starting again: we are fragile, and God is waiting for us.",
+    "idee": "Choose the Lenten effort you would like to live: just one, simple."
+   },
+   "rameaux": {
+    "quoi": "Jesus enters Jerusalem, acclaimed by the crowd waving branches. It is the beginning of Holy Week.",
+    "pourquoi": "The same crowd that cheers will soon shout “Crucify him”: the mystery of our divided hearts.",
+    "idee": "Bring home a blessed palm and place it near a crucifix."
+   },
+   "jeudi-saint": {
+    "quoi": "Jesus' last meal with his friends, where he washes their feet and gives his Body and Blood.",
+    "pourquoi": "It is the birth of the Eucharist and of the commandment of love that serves.",
+    "idee": "Do a humble service at home, expecting nothing."
+   },
+   "vendredi-saint": {
+    "quoi": "The day Jesus dies on the cross.",
+    "pourquoi": "He gives his life out of love, to the very end, to save us.",
+    "idee": "Keep a moment of silence at 3 pm, the hour of his death."
+   },
+   "samedi-saint": {
+    "quoi": "The day of great silence: Jesus lies in the tomb. In the evening, the Easter Vigil opens the feast of Easter.",
+    "pourquoi": "It is the day of waiting, like our own moments when God seems absent.",
+    "idee": "Keep a quiet day, then light a candle in the evening."
+   },
+   "paques": {
+    "quoi": "The resurrection of Jesus, on the morning of the third day.",
+    "pourquoi": "It is the heart of the Christian faith: love is stronger than death.",
+    "idee": "Tell someone: “Christ is risen!”, like the first Christians."
+   },
+   "misericorde": {
+    "quoi": "The Sunday after Easter, dedicated to God's mercy.",
+    "pourquoi": "God never tires of forgiving: there is no fault greater than his love.",
+    "idee": "Forgive someone a small thing, or forgive yourself."
+   },
+   "ascension": {
+    "quoi": "Forty days after Easter, Jesus returns to his Father.",
+    "pourquoi": "He does not abandon us: he entrusts us with continuing his work and promises the Holy Spirit.",
+    "idee": "Look up at the sky for a moment and say thank you."
+   },
+   "pentecote": {
+    "quoi": "Fifty days after Easter, the Holy Spirit comes down on the gathered apostles.",
+    "pourquoi": "It is the birth of the Church: the Spirit gives the strength and joy to bear witness.",
+    "idee": "Simply say “Come, Holy Spirit” before a decision or a hard day."
+   },
+   "trinite": {
+    "quoi": "The feast of the one God in three persons: the Father, the Son and the Holy Spirit.",
+    "pourquoi": "God is not solitary: he is love, relationship, communion.",
+    "idee": "Make the Sign of the Cross slowly, thinking about each word."
+   },
+   "saint-sacrement": {
+    "quoi": "The feast of the Body and Blood of Christ, present in the Eucharist.",
+    "pourquoi": "Jesus gives himself as food to stay with us every day.",
+    "idee": "Step into a church and stay a minute before the tabernacle."
+   },
+   "sacre-coeur": {
+    "quoi": "The feast of Jesus' love, represented by his heart.",
+    "pourquoi": "It reminds us that God loves us with a human heart, tender and patient.",
+    "idee": "Entrust to Jesus whatever weighs on your heart."
+   },
+   "assomption": {
+    "quoi": "At the end of her earthly life, Mary is taken up body and soul into the glory of heaven.",
+    "pourquoi": "What happened to Mary is a promise for us: our body too is called to life.",
+    "idee": "Pray a Hail Mary for your family."
+   },
+   "joseph": {
+    "quoi": "The feast of Joseph, Mary's husband, who watched over the child Jesus.",
+    "pourquoi": "A quiet, just and courageous man: patron of fathers and workers.",
+    "idee": "For a dad: entrust to Saint Joseph your role as a father."
+   },
+   "annonciation": {
+    "quoi": "The angel Gabriel announces to Mary that she will be the mother of the Son of God, and she says yes.",
+    "pourquoi": "Mary's “yes” opens the door to God in human history.",
+    "idee": "Pray the Angelus, the prayer that recalls this moment."
+   },
+   "nativite-jean-baptiste": {
+    "quoi": "The birth of John, Jesus' relative, who announced and baptized him.",
+    "pourquoi": "John prepares the way: he points to Jesus and steps aside. It is one of the few births the Church celebrates.",
+    "idee": "In many countries, Saint John's Eve is celebrated with bonfires: a chance to tell a child about John."
+   },
+   "pierre-paul": {
+    "quoi": "The feast of the two great apostles, Peter the fisherman and Paul the convert, who died in Rome.",
+    "pourquoi": "Two very different men, with their weaknesses, on whom the Church rests.",
+    "idee": "Pray for the pope, Peter's successor."
+   }
+  }
+ },
+ "conseils": [
+  "Before picking up your phone this morning, you can make the Sign of the Cross, just once.",
+  "Think of someone who matters to you and entrust them to God in one sentence.",
+  "Step into a church as you pass by, even for two minutes, and simply sit down.",
+  "At mealtime, give thanks inwardly for what is on your plate.",
+  "If someone annoys you today, try saying a short prayer for them.",
+  "Take a minute of silence, doing nothing. God is there too.",
+  "Write down somewhere one thing you are grateful for today.",
+  "Do someone a small favor without letting it be known.",
+  "Tonight, tell your child about a happy moment of your day.",
+  "Read one sentence of the Gospel slowly and carry it with you all day.",
+  "Forgive one small thing, to someone else or to yourself.",
+  "At the busiest moment of your day, say: “Jesus, I trust in you.”"
+ ],
+ "prieres": {
+  "signe-de-croix": {
+   "titre": "The Sign of the Cross",
+   "texte": "In the name of the Father,\nand of the Son,\nand of the Holy Spirit.\nAmen.",
+   "geste": "With the right hand, touch the forehead (the Father), the chest (the Son), then the left shoulder and the right shoulder (the Holy Spirit).",
+   "quand": "At the beginning and end of every prayer, when entering a church, before a meal, or simply to place yourself before God.",
+   "pourquoi": "It is the shortest and oldest prayer: in a few words we profess our faith in God, Father, Son and Spirit, and trace on ourselves the cross of Christ."
+  },
+  "notre-pere": {
+   "titre": "The Our Father",
+   "texte": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come,\nthy will be done\non earth as it is in heaven.\nGive us this day our daily bread,\nand forgive us our trespasses,\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil.\nAmen.",
+   "quand": "Every day, morning or evening, at Mass, or when you don't know what to say to God.",
+   "pourquoi": "It is the prayer Jesus himself taught his disciples (Mt 6:9-13). It contains everything: trust, daily bread, forgiveness and protection.",
+   "source": "Mt 6:9-13; Lk 11:2-4"
+  },
+  "je-vous-salue-marie": {
+   "titre": "The Hail Mary",
+   "texte": "Hail Mary, full of grace,\nthe Lord is with thee.\nBlessed art thou among women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death.\nAmen.",
+   "quand": "At any time, alone or with a child. It is repeated ten times in each decade of the Rosary.",
+   "pourquoi": "The first part repeats the words of the angel Gabriel and of Elizabeth to Mary (Lk 1:28.42). In the second, we ask Mary to pray for us, as we would ask a mother.",
+   "source": "Lk 1:28; Lk 1:42"
+  },
+  "gloire-au-pere": {
+   "titre": "Glory Be",
+   "texte": "Glory be to the Father,\nand to the Son,\nand to the Holy Spirit,\nas it was in the beginning,\nis now, and ever shall be,\nworld without end.\nAmen.",
+   "quand": "At the end of a decade of the Rosary, of a psalm, or as a short prayer of praise during the day.",
+   "pourquoi": "A very simple praise: we ask for nothing, we give glory to God for who he is."
+  },
+  "credo": {
+   "titre": "The Apostles' Creed",
+   "texte": "I believe in God,\nthe Father almighty,\nCreator of heaven and earth,\nand in Jesus Christ, his only Son, our Lord,\nwho was conceived by the Holy Spirit,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, died and was buried;\nhe descended into hell;\non the third day he rose again from the dead;\nhe ascended into heaven,\nand is seated at the right hand of God the Father almighty;\nfrom there he will come to judge the living and the dead.\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting.\nAmen.",
+   "quand": "At the start of the Rosary, at Sunday Mass, or to restate your faith when it wavers.",
+   "pourquoi": "The Creed sums up the essentials of the Christian faith, as the Church has handed it on since the first centuries. Praying it unites us with all believers, past and present."
+  },
+  "ange-de-dieu": {
+   "titre": "Angel of God",
+   "texte": "Angel of God,\nmy guardian dear,\nto whom God's love\ncommits me here,\never this day\nbe at my side,\nto light and guard,\nto rule and guide.\nAmen.",
+   "quand": "In the evening before sleeping, or in the morning when heading out. A beautiful prayer to say with a child.",
+   "pourquoi": "The Church believes each person is accompanied by a guardian angel, an invisible friend God places at our side (Catechism, no. 336)."
+  },
+  "angelus": {
+   "titre": "The Angelus",
+   "texte": "The Angel of the Lord declared unto Mary,\n— And she conceived of the Holy Spirit.\nHail Mary…\n\nBehold the handmaid of the Lord.\n— Be it done unto me according to thy word.\nHail Mary…\n\nAnd the Word was made flesh,\n— And dwelt among us.\nHail Mary…\n\nPray for us, O holy Mother of God,\n— That we may be made worthy of the promises of Christ.\n\nLet us pray.\nPour forth, we beseech thee, O Lord,\nthy grace into our hearts,\nthat we, to whom the Incarnation of Christ, thy Son,\nwas made known by the message of an angel,\nmay by his Passion and Cross\nbe brought to the glory of his Resurrection.\nThrough the same Christ our Lord.\nAmen.",
+   "quand": "Traditionally three times a day: at 6 am, noon and 6 pm, when the bells ring.",
+   "pourquoi": "It recalls the moment God became man, thanks to Mary's “yes”. Praying it at noon is a pause in the middle of the day to remember God."
+  },
+  "acte-de-contrition": {
+   "titre": "Act of Contrition",
+   "texte": "My God,\nI am sorry for my sins with all my heart.\nIn choosing to do wrong\nand failing to do good,\nI have sinned against you\nwhom I should love above all things.\nI firmly intend, with your help,\nto do penance,\nto sin no more,\nand to avoid whatever leads me to sin.\nOur Savior Jesus Christ\nsuffered and died for us.\nIn his name, my God, have mercy.\nAmen.",
+   "variante": "O my God, I am heartily sorry for having offended thee,\nand I detest all my sins because of thy just punishments,\nbut most of all because they offend thee, my God,\nwho art all good and deserving of all my love.\nI firmly resolve, with the help of thy grace,\nto sin no more and to avoid the near occasion of sin.\nAmen.",
+   "quand": "In the evening after looking back on the day, or during confession, after naming your sins.",
+   "pourquoi": "We tell God we regret the wrong we have done and want to change, counting on his help more than on our own strength."
+  },
+  "benedicite": {
+   "titre": "Grace Before Meals",
+   "texte": "Bless us, O Lord,\nand these thy gifts,\nwhich we are about to receive\nfrom thy bounty,\nthrough Christ our Lord.\nAmen.",
+   "quand": "Before a meal, as a family or alone.",
+   "pourquoi": "We thank God for our food, a gift of his goodness. It translates the ancient Latin grace “Benedic, Domine”."
+  },
+  "nunc-dimittis": {
+   "titre": "The Canticle of Simeon",
+   "quand": "In the evening before sleep. The Church prays it every night at Night Prayer (Compline).",
+   "pourquoi": "These are the words of the old man Simeon when he took the child Jesus in his arms in the Temple (Lk 2:29-32). Ending the day with them is entrusting oneself to God in peace."
+  }
+ },
+ "guide-famille": {
+  "titre": "Bedtime prayer with your child",
+  "duree": "3 minutes",
+  "intro": "A small ritual to end the day together, to read aloud.",
+  "etapes": [
+   {
+    "mot": "Settle down",
+    "invitation": "Dim the lights, sit close together and make the Sign of the Cross together."
+   },
+   {
+    "mot": "Thank you",
+    "invitation": "Ask: “What made you happy today?” Then thank God for it together."
+   },
+   {
+    "mot": "Sorry",
+    "invitation": "Is there something we regret? We can tell Jesus quietly. He loves to forgive."
+   },
+   {
+    "mot": "Please",
+    "invitation": "Who do we want to pray for tonight? A friend, a grandparent, someone who is sick…"
+   },
+   {
+    "mot": "Angel of God",
+    "invitation": "Pray the guardian angel prayer together."
+   },
+   {
+    "mot": "Good night",
+    "invitation": "You can trace a small cross on their forehead with your thumb, as a blessing."
+   }
+  ],
+  "fin": "Good night."
+ },
+ "lexique": {
+  "mots": [
+   {
+    "id": "alleluia",
+    "mot": "Alleluia",
+    "formes": [
+     "alleluia",
+     "Alleluia"
+    ],
+    "def": "A Hebrew word meaning “praise God”. It is a cry of joy, sung especially in Easter Time. It is not sung during Lent."
+   },
+   {
+    "id": "amen",
+    "mot": "Amen",
+    "formes": [
+     "Amen",
+     "amen"
+    ],
+    "def": "A Hebrew word meaning “it is true”, “I believe it”, “so be it”. We say it at the end of a prayer to give our agreement."
+   },
+   {
+    "id": "ange-gardien",
+    "mot": "Guardian angel",
+    "formes": [
+     "guardian angel",
+     "guardian angels"
+    ],
+    "def": "An angel God gives to each person to accompany and protect them throughout life. You can talk to your angel like an invisible friend."
+   },
+   {
+    "id": "annonciation",
+    "mot": "Annunciation",
+    "formes": [
+     "Annunciation"
+    ],
+    "def": "The moment when the angel Gabriel announces to Mary that she will be the mother of Jesus. Mary says “yes”. It is celebrated on March 25."
+   },
+   {
+    "id": "apotre",
+    "mot": "Apostle",
+    "formes": [
+     "apostle",
+     "apostles",
+     "Apostles",
+     "Apostle"
+    ],
+    "def": "The twelve friends Jesus chose to be with him and then to proclaim the Gospel to the world. Peter, John, James and Thomas are among them."
+   },
+   {
+    "id": "avent",
+    "mot": "Advent",
+    "formes": [
+     "Advent"
+    ],
+    "def": "The four weeks that prepare for Christmas. The word comes from the Latin adventus, meaning “coming”."
+   },
+   {
+    "id": "bapteme",
+    "mot": "Baptism",
+    "formes": [
+     "baptism",
+     "Baptism",
+     "baptized"
+    ],
+    "def": "The first sacrament, which brings us into the family of Christians. Through water and the Holy Spirit we become children of God. It is received only once and lasts forever."
+   },
+   {
+    "id": "beatitudes",
+    "mot": "Beatitudes",
+    "formes": [
+     "Beatitudes",
+     "beatitudes"
+    ],
+    "def": "Jesus' words that begin with “Blessed are…”: the meek, the clean of heart, the peacemakers… (Mt 5:1-12). They describe true happiness according to God."
+   },
+   {
+    "id": "bible",
+    "mot": "Bible",
+    "formes": [
+     "Bible"
+    ],
+    "def": "The holy book of Christians, made of 73 books written over more than a thousand years. The Old Testament tells the story of God with his people; the New Testament tells of Jesus and the first Christians."
+   },
+   {
+    "id": "careme",
+    "mot": "Lent",
+    "formes": [
+     "Lent",
+     "Lenten"
+    ],
+    "def": "The forty days that prepare for Easter, from Ash Wednesday to Holy Thursday. A time to return to God through prayer, sharing and fasting."
+   },
+   {
+    "id": "catechisme",
+    "mot": "Catechism",
+    "formes": [
+     "Catechism",
+     "catechism"
+    ],
+    "def": "The teaching of the Christian faith. The Catechism of the Catholic Church, published in 1992, is the book that gathers everything the Church believes."
+   },
+   {
+    "id": "chapelet",
+    "mot": "Rosary",
+    "formes": [
+     "Rosary",
+     "rosary",
+     "rosaries"
+    ],
+    "def": "A string of beads that helps us pray: on each bead we say a prayer. A decade is one Our Father, ten Hail Marys and one Glory Be. A full set of mysteries has five decades."
+   },
+   {
+    "id": "communion",
+    "mot": "Communion",
+    "formes": [
+     "Communion",
+     "communion"
+    ],
+    "def": "The moment at Mass when we receive the host, the Body of Christ. The word means “union with”: with Jesus and with other believers."
+   },
+   {
+    "id": "communion-des-saints",
+    "mot": "Communion of saints",
+    "formes": [
+     "communion of saints"
+    ],
+    "def": "The great family that unites all believers: those living on earth, those who have died and those already with God. We can pray for one another."
+   },
+   {
+    "id": "confession",
+    "mot": "Confession",
+    "formes": [
+     "confession"
+    ],
+    "def": "The sacrament of forgiveness, also called the sacrament of reconciliation. We tell our sins to a priest, who gives God's forgiveness. The priest can never repeat what he has heard."
+   },
+   {
+    "id": "credo",
+    "mot": "Creed",
+    "formes": [
+     "Creed"
+    ],
+    "def": "From the Latin credo, “I believe”. It is the text that sums up the Christian faith, said on Sundays at Mass."
+   },
+   {
+    "id": "croix",
+    "mot": "Cross",
+    "formes": [
+     "cross",
+     "Cross"
+    ],
+    "def": "The instrument of Jesus' death, which became the sign of Christians. It recalls that Jesus gave his life out of love, and that he is risen."
+   },
+   {
+    "id": "defunts",
+    "mot": "The faithful departed",
+    "formes": [
+     "departed",
+     "the dead"
+    ],
+    "def": "People who have died. The Church prays for them, especially on November 2, hoping to meet them again with God."
+   },
+   {
+    "id": "esprit-saint",
+    "mot": "Holy Spirit",
+    "formes": [
+     "Holy Spirit",
+     "the Spirit"
+    ],
+    "def": "The third person of the Trinity, with the Father and the Son. He is the breath of God who gives strength, peace and joy, and who helps us pray."
+   },
+   {
+    "id": "eucharistie",
+    "mot": "Eucharist",
+    "formes": [
+     "Eucharist",
+     "eucharist"
+    ],
+    "def": "The sacrament of the Body and Blood of Christ, celebrated at Mass. The Greek word means “thanksgiving”, that is, “thank you”."
+   },
+   {
+    "id": "evangile",
+    "mot": "Gospel",
+    "formes": [
+     "Gospel",
+     "gospel",
+     "Gospels",
+     "gospels"
+    ],
+    "def": "The word means “good news”. These are the four books of the Bible (Matthew, Mark, Luke and John) that tell the life, words, death and resurrection of Jesus."
+   },
+   {
+    "id": "grace",
+    "mot": "Grace",
+    "formes": [
+     "grace"
+    ],
+    "def": "A free gift from God: his love and help, which we do not earn but which he gives gladly."
+   },
+   {
+    "id": "hostie",
+    "mot": "Host",
+    "formes": [
+     "host",
+     "hosts"
+    ],
+    "def": "The small, round, flat unleavened bread that becomes the Body of Christ during Mass."
+   },
+   {
+    "id": "incarnation",
+    "mot": "Incarnation",
+    "formes": [
+     "Incarnation",
+     "incarnation"
+    ],
+    "def": "The mystery of God becoming man in Jesus. The word comes from the Latin caro, “flesh”: God took on a body like ours."
+   },
+   {
+    "id": "laudes",
+    "mot": "Morning Prayer (Lauds)",
+    "formes": [
+     "Lauds",
+     "Morning Prayer"
+    ],
+    "def": "The Church's morning prayer, made of psalms, readings and hymns. Lauds comes from the Latin laus, “praise”."
+   },
+   {
+    "id": "liturgie",
+    "mot": "Liturgy",
+    "formes": [
+     "liturgy",
+     "liturgical"
+    ],
+    "def": "All the celebrations of the Church: the Mass, the sacraments, the Liturgy of the Hours. The liturgical year is the year organized around the life of Jesus."
+   },
+   {
+    "id": "messe",
+    "mot": "Mass",
+    "formes": [
+     "Mass",
+     "Masses"
+    ],
+    "def": "The main celebration of Christians, where we listen to the Word of God and share the Eucharist. It takes place every Sunday, and often every day."
+   },
+   {
+    "id": "misericorde",
+    "mot": "Mercy",
+    "formes": [
+     "Mercy",
+     "mercy"
+    ],
+    "def": "God's love that forgives and lifts up. In Latin, misericordia evokes a heart (cor) that bends down over misery."
+   },
+   {
+    "id": "mystere",
+    "mot": "Mystery",
+    "formes": [
+     "mystery",
+     "mysteries"
+    ],
+    "def": "In faith, a mystery is not a puzzle to solve: it is a reality so great that we never finish discovering it. In the Rosary, the mysteries are scenes from the life of Jesus and Mary."
+   },
+   {
+    "id": "paques",
+    "mot": "Easter",
+    "formes": [
+     "Easter"
+    ],
+    "def": "The greatest Christian feast: the resurrection of Jesus. Its date changes every year: it is the Sunday after the first full moon of spring."
+   },
+   {
+    "id": "peche",
+    "mot": "Sin",
+    "formes": [
+     "sin",
+     "sins",
+     "sinners"
+    ],
+    "def": "An act, word or thought that damages our relationship with God, with others or with ourselves. God is always ready to forgive."
+   },
+   {
+    "id": "pentecote",
+    "mot": "Pentecost",
+    "formes": [
+     "Pentecost"
+    ],
+    "def": "The feast, fifty days after Easter, when the Holy Spirit comes down on the apostles. It is called the birth of the Church."
+   },
+   {
+    "id": "psaume",
+    "mot": "Psalm",
+    "formes": [
+     "Psalm",
+     "psalm",
+     "psalms",
+     "Psalms"
+    ],
+    "def": "A sung prayer from the Bible. The Book of Psalms contains 150 of them, expressing every human emotion: joy, fear, anger, trust."
+   },
+   {
+    "id": "resurrection",
+    "mot": "Resurrection",
+    "formes": [
+     "resurrection",
+     "Resurrection",
+     "risen"
+    ],
+    "def": "Jesus' return to life three days after his death, with a transformed body. It is also the promise made to all: death is not the end."
+   },
+   {
+    "id": "sacrement",
+    "mot": "Sacrament",
+    "formes": [
+     "sacrament",
+     "sacraments"
+    ],
+    "def": "A visible sign through which God gives his grace. There are seven: baptism, confirmation, Eucharist, reconciliation, anointing of the sick, marriage and holy orders."
+   },
+   {
+    "id": "saint",
+    "mot": "Saint",
+    "formes": [
+     "saint",
+     "saints"
+    ],
+    "def": "A person who lived in deep friendship with God and is now with him. The Church has recognized thousands, but all Christians are called to holiness."
+   },
+   {
+    "id": "solennite",
+    "mot": "Solemnity",
+    "formes": [
+     "Solemnity",
+     "solemnity",
+     "solemnities"
+    ],
+    "def": "The highest rank of feast in the liturgical year, like Christmas, Easter or All Saints. At Mass the Gloria is sung and the Creed is said."
+   },
+   {
+    "id": "temps-ordinaire",
+    "mot": "Ordinary Time",
+    "formes": [
+     "Ordinary Time"
+    ],
+    "def": "The weeks of the year that are not Advent, Christmas, Lent or Easter. “Ordinary” comes from the Latin ordo: weeks that are counted one by one."
+   },
+   {
+    "id": "toussaint",
+    "mot": "All Saints",
+    "formes": [
+     "All Saints"
+    ],
+    "def": "The feast of all the saints on November 1: the well-known saints and all the others, known to God alone."
+   },
+   {
+    "id": "trinite",
+    "mot": "Trinity",
+    "formes": [
+     "Trinity"
+    ],
+    "def": "The mystery of one God in three persons: the Father, the Son (Jesus) and the Holy Spirit. God is love, and love is always relationship."
+   },
+   {
+    "id": "vepres",
+    "mot": "Evening Prayer (Vespers)",
+    "formes": [
+     "Vespers",
+     "Evening Prayer"
+    ],
+    "def": "The Church's evening prayer, at sunset. Vespers comes from the Latin vesper, “evening”."
+   },
+   {
+    "id": "vierge-marie",
+    "mot": "Virgin Mary",
+    "formes": [
+     "Virgin Mary",
+     "Mary"
+    ],
+    "def": "The mother of Jesus. Christians love her and pray to her as a mother: she does not replace God, she leads to her Son."
+   },
+   {
+    "id": "yahweh",
+    "mot": "Yahweh",
+    "formes": [
+     "Yahweh"
+    ],
+    "def": "The name God reveals to Moses in the burning bush (Ex 3:14), meaning roughly “I am”. Out of respect, Jews do not pronounce it, and the Church asks us to say “the Lord” in prayer and at Mass."
+   },
+   {
+    "id": "purgatoire",
+    "mot": "Purgatory",
+    "formes": [
+     "purgatory",
+     "Purgatory"
+    ],
+    "def": "For the Church, a purification after death for those who are saved but not yet fully ready to see God. It is not a punishment but a final preparation of love. We can help the dead by our prayer."
+   },
+   {
+    "id": "defunt",
+    "mot": "Deceased",
+    "formes": [
+     "deceased"
+    ],
+    "def": "A person who has died. On November 2, the Church prays for all the dead."
+   },
+   {
+    "id": "memento-mori",
+    "mot": "Memento mori",
+    "formes": [
+     "memento mori"
+    ],
+    "def": "A Latin phrase: “remember that you will die”. For Christians it is not a sad thought, but an invitation to live each day fully and not to put off what matters most."
+   }
+  ]
+ }
+}

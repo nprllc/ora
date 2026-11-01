@@ -1,0 +1,447 @@
+{
+ "_note": "Présentation de chaque livre de la Bible, rédigée pour Ora. Règle : on ne présente comme certain que ce que dit le texte biblique lui-même ou la tradition de l'Église, en le nommant comme tel (« selon la tradition »). Les hypothèses des spécialistes (dates, destinataires) sont laissées de côté. Sources de vérification : les introductions de la New American Bible Revised Edition (Conférence des évêques catholiques des États-Unis, bible.usccb.org), le Catéchisme de l'Église catholique et le texte biblique lui-même (références entre parenthèses). Statut : vérifié par Claude le 1er novembre 2026 ; à faire relire par un prêtre.",
+ "_sources": {
+  "usccb": "https://bible.usccb.org/bible/{slug}/0",
+  "cec": "https://www.vatican.va/archive/FRA0013/_INDEX.HTM"
+ },
+ "livres": {
+  "Gen": {
+   "slug": "genesis",
+   "fr": "Le premier livre de la Bible : la création du monde et de l'homme, le premier péché, Noé, puis l'histoire d'Abraham, d'Isaac, de Jacob et de Joseph. Dieu choisit Abraham et lui fait une promesse : en lui seront bénies toutes les familles de la terre (Gn 12, 3).",
+   "es": "El primer libro de la Biblia: la creación del mundo y del hombre, el primer pecado, Noé, y luego la historia de Abrahán, Isaac, Jacob y José. Dios elige a Abrahán y le hace una promesa: en él serán bendecidas todas las familias de la tierra (Gn 12, 3).",
+   "en": "The first book of the Bible: the creation of the world and of humankind, the first sin, Noah, then the story of Abraham, Isaac, Jacob and Joseph. God chooses Abraham and makes him a promise: in him all the families of the earth will be blessed (Gn 12:3)."
+  },
+  "Exod": {
+   "slug": "exodus",
+   "fr": "Moïse conduit le peuple hébreu, esclave en Égypte, vers la liberté. Dieu se révèle à lui dans le buisson ardent, ouvre un passage dans la mer et donne au mont Sinaï les dix commandements (Ex 20).",
+   "es": "Moisés conduce al pueblo hebreo, esclavo en Egipto, hacia la libertad. Dios se le revela en la zarza ardiente, abre un camino en el mar y entrega en el monte Sinaí los diez mandamientos (Ex 20).",
+   "en": "Moses leads the Hebrew people, enslaved in Egypt, to freedom. God reveals himself to him in the burning bush, opens a way through the sea and gives the Ten Commandments on Mount Sinai (Ex 20)."
+  },
+  "Lev": {
+   "slug": "leviticus",
+   "fr": "Les règles du culte, des sacrifices et de la pureté données au peuple d'Israël, pour vivre en présence d'un Dieu saint. On y trouve le commandement que Jésus citera : tu aimeras ton prochain comme toi-même (Lv 19, 18).",
+   "es": "Las normas del culto, de los sacrificios y de la pureza dadas al pueblo de Israel, para vivir en presencia de un Dios santo. Contiene el mandamiento que Jesús citará: amarás a tu prójimo como a ti mismo (Lv 19, 18).",
+   "en": "The rules of worship, sacrifice and purity given to the people of Israel, so as to live in the presence of a holy God. It contains the commandment Jesus will quote: you shall love your neighbor as yourself (Lv 19:18)."
+  },
+  "Num": {
+   "slug": "numbers",
+   "fr": "La longue marche du peuple dans le désert, du Sinaï jusqu'aux portes de la Terre promise. Le peuple doute et murmure ; Dieu reste fidèle. Le livre tire son nom des recensements qu'il rapporte.",
+   "es": "La larga marcha del pueblo por el desierto, desde el Sinaí hasta las puertas de la Tierra prometida. El pueblo duda y murmura; Dios sigue siendo fiel. El libro debe su nombre a los censos que relata.",
+   "en": "The people's long journey through the desert, from Sinai to the edge of the Promised Land. The people doubt and grumble; God remains faithful. The book takes its name from the censuses it records."
+  },
+  "Deut": {
+   "slug": "deuteronomy",
+   "fr": "Les grands discours de Moïse au peuple, avant l'entrée en Terre promise. Il redit la Loi et appelle à aimer Dieu de tout son cœur, de toute son âme et de toute sa force (Dt 6, 4-5), une parole que Jésus reprendra.",
+   "es": "Los grandes discursos de Moisés al pueblo, antes de entrar en la Tierra prometida. Recuerda la Ley y llama a amar a Dios con todo el corazón, con toda el alma y con todas las fuerzas (Dt 6, 4-5), palabra que Jesús retomará.",
+   "en": "Moses' great speeches to the people before they enter the Promised Land. He restates the Law and calls them to love God with all their heart, soul and strength (Dt 6:4-5), words Jesus will take up."
+  },
+  "Josh": {
+   "slug": "joshua",
+   "fr": "Josué, successeur de Moïse, conduit le peuple en Terre promise : le passage du Jourdain, la prise de Jéricho, puis le partage du pays entre les douze tribus d'Israël.",
+   "es": "Josué, sucesor de Moisés, conduce al pueblo a la Tierra prometida: el paso del Jordán, la toma de Jericó y el reparto del país entre las doce tribus de Israel.",
+   "en": "Joshua, Moses' successor, leads the people into the Promised Land: the crossing of the Jordan, the taking of Jericho, then the division of the land among the twelve tribes of Israel."
+  },
+  "Judg": {
+   "slug": "judges",
+   "fr": "Avant les rois, des chefs appelés « juges » délivrent Israël de ses ennemis : Débora, Gédéon, Samson… Le même cycle revient : le peuple s'éloigne de Dieu, tombe dans le malheur, l'appelle à l'aide, et Dieu le sauve.",
+   "es": "Antes de los reyes, unos jefes llamados «jueces» libran a Israel de sus enemigos: Débora, Gedeón, Sansón… Se repite el mismo ciclo: el pueblo se aleja de Dios, cae en la desgracia, le pide ayuda y Dios lo salva.",
+   "en": "Before the kings, leaders called “judges” deliver Israel from its enemies: Deborah, Gideon, Samson… The same cycle returns: the people turn away from God, fall into misfortune, cry out, and God saves them."
+  },
+  "Ruth": {
+   "slug": "ruth",
+   "fr": "Une courte histoire de fidélité : Ruth, une étrangère venue de Moab, ne quitte pas sa belle-mère Noémi après la mort de leurs maris. Elle sera l'arrière-grand-mère du roi David (Rt 4, 17).",
+   "es": "Una breve historia de fidelidad: Rut, una extranjera de Moab, no abandona a su suegra Noemí tras la muerte de sus maridos. Será la bisabuela del rey David (Rut 4, 17).",
+   "en": "A short story of faithfulness: Ruth, a foreigner from Moab, stays with her mother-in-law Naomi after their husbands die. She becomes the great-grandmother of King David (Ru 4:17)."
+  },
+  "1Sam": {
+   "slug": "1samuel",
+   "fr": "La naissance et la mission du prophète Samuel, l'institution de la royauté avec Saül, premier roi d'Israël, puis la montée du jeune berger David.",
+   "es": "El nacimiento y la misión del profeta Samuel, la institución de la monarquía con Saúl, primer rey de Israel, y el ascenso del joven pastor David.",
+   "en": "The birth and mission of the prophet Samuel, the beginning of the monarchy with Saul, Israel's first king, then the rise of the young shepherd David."
+  },
+  "2Sam": {
+   "slug": "2samuel",
+   "fr": "Le règne de David, roi, poète et pécheur qui sait demander pardon. Par le prophète Nathan, Dieu lui promet que sa dynastie durera toujours (2 S 7) : les chrétiens reconnaissent en Jésus, « fils de David », l'accomplissement de cette promesse.",
+   "es": "El reinado de David, rey, poeta y pecador que sabe pedir perdón. Por medio del profeta Natán, Dios le promete que su dinastía durará para siempre (2 Sam 7): los cristianos reconocen en Jesús, «hijo de David», el cumplimiento de esa promesa.",
+   "en": "The reign of David, king, poet and sinner who knows how to ask forgiveness. Through the prophet Nathan, God promises that his dynasty will last forever (2 Sm 7): Christians recognize in Jesus, “son of David”, the fulfillment of that promise."
+  },
+  "1Kgs": {
+   "slug": "1kings",
+   "fr": "Le règne de Salomon, qui demande à Dieu la sagesse et bâtit le Temple de Jérusalem, puis la division du royaume en deux. Le prophète Élie se dresse pour défendre la foi au seul vrai Dieu.",
+   "es": "El reinado de Salomón, que pide a Dios sabiduría y construye el Templo de Jerusalén, y luego la división del reino en dos. El profeta Elías se alza para defender la fe en el único Dios verdadero.",
+   "en": "The reign of Solomon, who asks God for wisdom and builds the Temple in Jerusalem, then the division of the kingdom in two. The prophet Elijah rises up to defend faith in the one true God."
+  },
+  "2Kgs": {
+   "slug": "2kings",
+   "fr": "L'histoire des rois d'Israël et de Juda, souvent infidèles, jusqu'à la destruction de Jérusalem et l'exil à Babylone. Le prophète Élisée prend la suite d'Élie.",
+   "es": "La historia de los reyes de Israel y de Judá, a menudo infieles, hasta la destrucción de Jerusalén y el destierro en Babilonia. El profeta Eliseo toma el relevo de Elías.",
+   "en": "The story of the kings of Israel and Judah, often unfaithful, up to the destruction of Jerusalem and the exile in Babylon. The prophet Elisha succeeds Elijah."
+  },
+  "1Chr": {
+   "slug": "1chronicles",
+   "fr": "Une relecture de l'histoire d'Israël, centrée sur le roi David et la préparation du culte au Temple. Le livre s'ouvre par de longues généalogies qui remontent jusqu'à Adam.",
+   "es": "Una relectura de la historia de Israel, centrada en el rey David y en la preparación del culto en el Templo. El libro comienza con largas genealogías que se remontan hasta Adán.",
+   "en": "A retelling of Israel's history centered on King David and the preparation of worship in the Temple. The book opens with long genealogies reaching back to Adam."
+  },
+  "2Chr": {
+   "slug": "2chronicles",
+   "fr": "La suite de cette relecture, de Salomon jusqu'à l'exil, avec une attention particulière pour le Temple et pour les rois restés fidèles à Dieu.",
+   "es": "La continuación de esa relectura, desde Salomón hasta el destierro, con especial atención al Templo y a los reyes que permanecieron fieles a Dios.",
+   "en": "The continuation of that retelling, from Solomon to the exile, with special attention to the Temple and to the kings who stayed faithful to God."
+  },
+  "Ezra": {
+   "slug": "ezra",
+   "fr": "Le retour d'exil : les Juifs rentrent à Jérusalem et rebâtissent le Temple. Le prêtre et scribe Esdras remet la Loi de Moïse au cœur de la vie du peuple.",
+   "es": "El regreso del destierro: los judíos vuelven a Jerusalén y reconstruyen el Templo. El sacerdote y escriba Esdras vuelve a poner la Ley de Moisés en el centro de la vida del pueblo.",
+   "en": "The return from exile: the Jews come back to Jerusalem and rebuild the Temple. Ezra, priest and scribe, puts the Law of Moses back at the heart of the people's life."
+  },
+  "Neh": {
+   "slug": "nehemiah",
+   "fr": "Néhémie, au service du roi de Perse, obtient de revenir à Jérusalem pour en relever les murailles. Le peuple se rassemble pour écouter la Loi et renouveler son alliance avec Dieu.",
+   "es": "Nehemías, al servicio del rey de Persia, obtiene permiso para volver a Jerusalén y reconstruir sus murallas. El pueblo se reúne para escuchar la Ley y renovar su alianza con Dios.",
+   "en": "Nehemiah, in the service of the Persian king, is allowed to return to Jerusalem to rebuild its walls. The people gather to hear the Law and renew their covenant with God."
+  },
+  "Tob": {
+   "slug": "tobit",
+   "fr": "L'histoire de Tobit, homme juste devenu aveugle, et de son fils Tobie, accompagné en voyage par l'ange Raphaël sans le savoir. Un récit de prière, de confiance et de mariage béni par Dieu.",
+   "es": "La historia de Tobit, hombre justo que se queda ciego, y de su hijo Tobías, acompañado en su viaje por el ángel Rafael sin saberlo. Un relato de oración, de confianza y de un matrimonio bendecido por Dios.",
+   "en": "The story of Tobit, a righteous man who goes blind, and of his son Tobiah, who is accompanied on a journey by the angel Raphael without knowing it. A story of prayer, trust and a marriage blessed by God."
+  },
+  "Jdt": {
+   "slug": "judith",
+   "fr": "Judith, une veuve pieuse et courageuse, sauve sa ville assiégée par l'armée d'Holopherne. Le livre montre que Dieu sauve son peuple par les mains des faibles.",
+   "es": "Judit, una viuda piadosa y valiente, salva a su ciudad sitiada por el ejército de Holofernes. El libro muestra que Dios salva a su pueblo por medio de los débiles.",
+   "en": "Judith, a devout and courageous widow, saves her town besieged by Holofernes' army. The book shows that God saves his people through the hands of the weak."
+  },
+  "Esth": {
+   "slug": "esther",
+   "fr": "Esther, jeune femme juive devenue reine de Perse, risque sa vie pour sauver son peuple menacé de mort. Les Juifs en font mémoire chaque année à la fête de Pourim.",
+   "es": "Ester, joven judía convertida en reina de Persia, arriesga su vida para salvar a su pueblo amenazado de muerte. Los judíos lo recuerdan cada año en la fiesta de Purim.",
+   "en": "Esther, a young Jewish woman who becomes queen of Persia, risks her life to save her people from death. Jews remember it every year at the feast of Purim."
+  },
+  "1Macc": {
+   "slug": "1maccabees",
+   "fr": "Le récit de la révolte menée par la famille de Mattathias et son fils Judas, surnommé Maccabée, contre un roi qui voulait interdire la foi juive. Le Temple profané est purifié et consacré à nouveau.",
+   "es": "El relato de la revuelta encabezada por la familia de Matatías y su hijo Judas, llamado Macabeo, contra un rey que quería prohibir la fe judía. El Templo profanado es purificado y consagrado de nuevo.",
+   "en": "The account of the revolt led by the family of Mattathias and his son Judas, called Maccabeus, against a king who sought to ban the Jewish faith. The desecrated Temple is purified and dedicated again."
+  },
+  "2Macc": {
+   "slug": "2maccabees",
+   "fr": "Un autre récit de la même époque, qui met en lumière le courage des martyrs, comme une mère et ses sept fils. On y trouve une affirmation claire de la résurrection des morts et la prière pour les défunts (2 M 12, 43-46).",
+   "es": "Otro relato de la misma época, que destaca la valentía de los mártires, como una madre y sus siete hijos. Contiene una clara afirmación de la resurrección de los muertos y la oración por los difuntos (2 Mac 12, 43-46).",
+   "en": "Another account of the same period, highlighting the courage of martyrs such as a mother and her seven sons. It contains a clear affirmation of the resurrection of the dead and of prayer for the dead (2 Mc 12:43-46)."
+  },
+  "Job": {
+   "slug": "job",
+   "fr": "Job, homme juste, perd tout et ne comprend pas pourquoi. Il crie, discute avec ses amis et interpelle Dieu. Un grand poème sur la souffrance et le mystère de Dieu ; son auteur est inconnu.",
+   "es": "Job, hombre justo, lo pierde todo y no entiende por qué. Grita, discute con sus amigos e interpela a Dios. Un gran poema sobre el sufrimiento y el misterio de Dios; su autor es desconocido.",
+   "en": "Job, a righteous man, loses everything and does not understand why. He cries out, argues with his friends and challenges God. A great poem on suffering and the mystery of God; its author is unknown."
+  },
+  "Ps": {
+   "slug": "psalms",
+   "fr": "Cent cinquante prières chantées : louange, joie, détresse, colère, pardon, confiance. Beaucoup sont placées sous le nom du roi David. Jésus les priait, et l'Église les prie chaque jour.",
+   "es": "Ciento cincuenta oraciones cantadas: alabanza, alegría, angustia, enojo, perdón, confianza. Muchas llevan el nombre del rey David. Jesús las rezaba, y la Iglesia las reza cada día.",
+   "en": "A hundred and fifty sung prayers: praise, joy, distress, anger, forgiveness, trust. Many bear the name of King David. Jesus prayed them, and the Church prays them every day."
+  },
+  "Prov": {
+   "slug": "proverbs",
+   "fr": "Des maximes de sagesse pour la vie de tous les jours : la parole, le travail, l'amitié, la famille, l'argent. Le livre s'ouvre en disant que la crainte du Seigneur est le commencement de la sagesse (Pr 1, 7).",
+   "es": "Máximas de sabiduría para la vida diaria: la palabra, el trabajo, la amistad, la familia, el dinero. El libro comienza diciendo que el temor del Señor es el principio de la sabiduría (Prov 1, 7).",
+   "en": "Wise sayings for everyday life: speech, work, friendship, family, money. The book opens by saying that the fear of the Lord is the beginning of wisdom (Prv 1:7)."
+  },
+  "Eccl": {
+   "slug": "ecclesiastes",
+   "fr": "Un sage, appelé Qohélet, s'interroge sur le sens de la vie : « Vanité des vanités, tout est vanité » (Qo 1, 2). Un livre lucide et parfois déroutant, qui invite à recevoir chaque jour comme un don de Dieu.",
+   "es": "Un sabio llamado Qohélet se pregunta por el sentido de la vida: todo es vanidad (Ecl 1, 2). Un libro lúcido y a veces desconcertante, que invita a recibir cada día como un don de Dios.",
+   "en": "A sage called Qoheleth ponders the meaning of life: all is vanity (Eccl 1:2). A clear-eyed and sometimes puzzling book that invites us to receive each day as a gift from God."
+  },
+  "Song": {
+   "slug": "songofsongs",
+   "fr": "Un poème d'amour entre un bien-aimé et une bien-aimée. Juifs et chrétiens y lisent aussi l'amour de Dieu pour son peuple et, pour les chrétiens, l'amour du Christ pour l'Église et pour chaque âme.",
+   "es": "Un poema de amor entre un amado y una amada. Judíos y cristianos leen en él también el amor de Dios por su pueblo y, para los cristianos, el amor de Cristo por la Iglesia y por cada alma.",
+   "en": "A love poem between a lover and his beloved. Jews and Christians also read in it God's love for his people and, for Christians, Christ's love for the Church and for each soul."
+  },
+  "Wis": {
+   "slug": "wisdom",
+   "fr": "Un éloge de la Sagesse qui vient de Dieu, écrit en grec par un auteur dont on ne connaît pas le nom. Il affirme que les âmes des justes sont dans la main de Dieu (Sg 3, 1).",
+   "es": "Un elogio de la Sabiduría que viene de Dios, escrito en griego por un autor cuyo nombre no conocemos. Afirma que las almas de los justos están en las manos de Dios (Sab 3, 1).",
+   "en": "A praise of the Wisdom that comes from God, written in Greek by an author whose name we do not know. It affirms that the souls of the just are in the hand of God (Wis 3:1)."
+  },
+  "Sir": {
+   "slug": "sirach",
+   "fr": "L'enseignement d'un sage de Jérusalem, Jésus fils de Sira (Si 50, 27), sur la vie, la prière, l'amitié et la famille. On l'appelle aussi l'Ecclésiastique, car il était très lu dans l'Église.",
+   "es": "La enseñanza de un sabio de Jerusalén, Jesús hijo de Sirá (Eclo 50, 29), sobre la vida, la oración, la amistad y la familia. También se le llama Eclesiástico, porque se leía mucho en la Iglesia.",
+   "en": "The teaching of a sage from Jerusalem, Jesus son of Sirach (Sir 50:29), on life, prayer, friendship and family. It is also called Ecclesiasticus because it was widely read in the Church."
+  },
+  "Isa": {
+   "slug": "isaiah",
+   "fr": "Les oracles du prophète Isaïe et de ses disciples. Il annonce l'Emmanuel, « Dieu avec nous » (Is 7, 14), et le mystérieux Serviteur souffrant. L'Église le lit beaucoup pendant l'Avent et à Noël.",
+   "es": "Los oráculos del profeta Isaías y de sus discípulos. Anuncia al Emmanuel, «Dios con nosotros» (Is 7, 14), y al misterioso Siervo sufriente. La Iglesia lo lee mucho en Adviento y en Navidad.",
+   "en": "The oracles of the prophet Isaiah and his disciples. He announces Emmanuel, “God with us” (Is 7:14), and the mysterious Suffering Servant. The Church reads it often in Advent and at Christmas."
+  },
+  "Jer": {
+   "slug": "jeremiah",
+   "fr": "Jérémie, issu d'une famille de prêtres d'Anatoth, avertit Jérusalem avant sa chute et souffre beaucoup pour sa mission. Il annonce une alliance nouvelle, que Dieu écrira dans les cœurs (Jr 31, 31-33).",
+   "es": "Jeremías, de una familia sacerdotal de Anatot, advierte a Jerusalén antes de su caída y sufre mucho por su misión. Anuncia una alianza nueva, que Dios escribirá en los corazones (Jer 31, 31-33).",
+   "en": "Jeremiah, from a priestly family of Anathoth, warns Jerusalem before its fall and suffers greatly for his mission. He announces a new covenant that God will write on hearts (Jer 31:31-33)."
+  },
+  "Lam": {
+   "slug": "lamentations",
+   "fr": "Cinq poèmes de deuil après la destruction de Jérusalem. Au cœur de la douleur, une espérance : les miséricordes du Seigneur ne sont pas épuisées, elles se renouvellent chaque matin (Lm 3, 22-23).",
+   "es": "Cinco poemas de duelo tras la destrucción de Jerusalén. En medio del dolor, una esperanza: las misericordias del Señor no se agotan, se renuevan cada mañana (Lam 3, 22-23).",
+   "en": "Five poems of mourning after the destruction of Jerusalem. In the midst of grief, a hope: the Lord's mercies are not spent, they are renewed every morning (Lam 3:22-23)."
+  },
+  "Bar": {
+   "slug": "baruch",
+   "fr": "Un livre placé sous le nom de Baruch, le secrétaire du prophète Jérémie : une prière de pénitence des exilés, un éloge de la Sagesse et des paroles d'espérance pour Jérusalem.",
+   "es": "Un libro puesto bajo el nombre de Baruc, el secretario del profeta Jeremías: una oración penitencial de los desterrados, un elogio de la Sabiduría y palabras de esperanza para Jerusalén.",
+   "en": "A book bearing the name of Baruch, the secretary of the prophet Jeremiah: a penitential prayer of the exiles, a praise of Wisdom and words of hope for Jerusalem."
+  },
+  "Ezek": {
+   "slug": "ezekiel",
+   "fr": "Ézéchiel, prêtre déporté à Babylone, a des visions saisissantes, comme les ossements desséchés qui reprennent vie (Ez 37). Dieu promet à son peuple un cœur nouveau et un esprit nouveau (Ez 36, 26).",
+   "es": "Ezequiel, sacerdote deportado a Babilonia, tiene visiones impresionantes, como la de los huesos secos que vuelven a la vida (Ez 37). Dios promete a su pueblo un corazón nuevo y un espíritu nuevo (Ez 36, 26).",
+   "en": "Ezekiel, a priest deported to Babylon, sees striking visions, such as the dry bones coming back to life (Ez 37). God promises his people a new heart and a new spirit (Ez 36:26)."
+  },
+  "Dan": {
+   "slug": "daniel",
+   "fr": "Daniel, jeune juif fidèle à la cour de Babylone, est sauvé de la fosse aux lions. Le livre contient aussi des visions où apparaît un « Fils d'homme » venant sur les nuées (Dn 7, 13), titre que Jésus reprendra.",
+   "es": "Daniel, joven judío fiel en la corte de Babilonia, es salvado del foso de los leones. El libro contiene también visiones en las que aparece un «Hijo de hombre» que viene sobre las nubes (Dan 7, 13), título que Jesús retomará.",
+   "en": "Daniel, a faithful young Jew at the court of Babylon, is saved from the lions' den. The book also contains visions of a “son of man” coming on the clouds (Dn 7:13), a title Jesus will take up."
+  },
+  "Hos": {
+   "slug": "hosea",
+   "fr": "Le prophète Osée vit un mariage blessé et y découvre l'amour de Dieu pour son peuple infidèle : un amour qui pardonne et qui recommence. Il est le premier à décrire l'alliance comme des noces.",
+   "es": "El profeta Oseas vive un matrimonio herido y descubre en él el amor de Dios por su pueblo infiel: un amor que perdona y vuelve a empezar. Es el primero en describir la alianza como unas bodas.",
+   "en": "The prophet Hosea lives through a wounded marriage and discovers in it God's love for his unfaithful people: a love that forgives and begins again. He is the first to describe the covenant as a marriage."
+  },
+  "Joel": {
+   "slug": "joel",
+   "fr": "Le prophète Joël appelle le peuple à revenir à Dieu de tout son cœur (Jl 2, 12), un passage lu le mercredi des Cendres. Il annonce aussi que Dieu répandra son Esprit sur tous (Jl 3, 1).",
+   "es": "El profeta Joel llama al pueblo a volver a Dios de todo corazón (Jl 2, 12), pasaje que se lee el miércoles de Ceniza. Anuncia también que Dios derramará su Espíritu sobre todos (Jl 2, 28).",
+   "en": "The prophet Joel calls the people to return to God with all their heart (Jl 2:12), a passage read on Ash Wednesday. He also announces that God will pour out his Spirit on all (Jl 2:28)."
+  },
+  "Amos": {
+   "slug": "amos",
+   "fr": "Amos, berger et cultivateur de Teqoa devenu prophète (Am 1, 1 ; 7, 14), dénonce avec force l'injustice faite aux pauvres. Pour lui, il n'y a pas de vrai culte sans justice (Am 5, 24).",
+   "es": "Amós, pastor y agricultor de Técoa convertido en profeta (Am 1, 1; 7, 14), denuncia con fuerza la injusticia contra los pobres. Para él no hay culto verdadero sin justicia (Am 5, 24).",
+   "en": "Amos, a shepherd and farmer from Tekoa who became a prophet (Am 1:1; 7:14), forcefully denounces injustice against the poor. For him there is no true worship without justice (Am 5:24)."
+  },
+  "Obad": {
+   "slug": "obadiah",
+   "fr": "Le plus court livre de l'Ancien Testament, un seul chapitre : un oracle contre Édom, peuple voisin d'Israël. On ne sait rien de son auteur.",
+   "es": "El libro más breve del Antiguo Testamento, un solo capítulo: un oráculo contra Edom, pueblo vecino de Israel. No se sabe nada de su autor.",
+   "en": "The shortest book of the Old Testament, a single chapter: an oracle against Edom, Israel's neighbor. Nothing is known of its author."
+  },
+  "Jonah": {
+   "slug": "jonah",
+   "fr": "Jonas fuit la mission que Dieu lui confie, passe trois jours dans le ventre d'un grand poisson, puis voit la grande ville de Ninive se convertir. Une histoire sur la miséricorde de Dieu, plus large que la nôtre ; Jésus évoque le « signe de Jonas » (Mt 12, 39-41).",
+   "es": "Jonás huye de la misión que Dios le confía, pasa tres días en el vientre de un gran pez y luego ve convertirse a la gran ciudad de Nínive. Una historia sobre la misericordia de Dios, más amplia que la nuestra; Jesús evoca el «signo de Jonás» (Mt 12, 39-41).",
+   "en": "Jonah flees the mission God gives him, spends three days in the belly of a great fish, then sees the great city of Nineveh repent. A story about God's mercy, wider than ours; Jesus speaks of the “sign of Jonah” (Mt 12:39-41)."
+  },
+  "Mic": {
+   "slug": "micah",
+   "fr": "Le prophète Michée défend les petits et annonce qu'un chef naîtra à Bethléem (Mi 5, 1). Il résume ce que Dieu attend : pratiquer la justice, aimer la miséricorde, marcher humblement avec Lui (Mi 6, 8).",
+   "es": "El profeta Miqueas defiende a los pequeños y anuncia que un jefe nacerá en Belén (Miq 5, 2). Resume lo que Dios espera: practicar la justicia, amar la misericordia y caminar humildemente con él (Miq 6, 8).",
+   "en": "The prophet Micah defends the little ones and announces that a ruler will be born in Bethlehem (Mi 5:2). He sums up what God asks: to do justice, to love mercy and to walk humbly with him (Mi 6:8)."
+  },
+  "Nah": {
+   "slug": "nahum",
+   "fr": "Un poème du prophète Nahum sur la chute de Ninive, capitale de l'empire assyrien qui avait écrasé tant de peuples.",
+   "es": "Un poema del profeta Nahún sobre la caída de Nínive, capital del imperio asirio que había aplastado a tantos pueblos.",
+   "en": "A poem by the prophet Nahum on the fall of Nineveh, capital of the Assyrian empire that had crushed so many peoples."
+  },
+  "Hab": {
+   "slug": "habakkuk",
+   "fr": "Le prophète Habacuc ose demander à Dieu pourquoi le mal semble triompher. La réponse tient en une phrase que saint Paul reprendra : le juste vivra par sa foi (Ha 2, 4).",
+   "es": "El profeta Habacuc se atreve a preguntar a Dios por qué el mal parece triunfar. La respuesta cabe en una frase que san Pablo retomará: el justo vivirá por su fe (Hab 2, 4).",
+   "en": "The prophet Habakkuk dares to ask God why evil seems to triumph. The answer fits in a sentence Saint Paul will take up: the just shall live by faith (Hb 2:4)."
+  },
+  "Zeph": {
+   "slug": "zephaniah",
+   "fr": "Le prophète Sophonie annonce le « jour du Seigneur » et l'espérance d'un petit peuple humble et fidèle. Il dit que Dieu est au milieu de son peuple et se réjouit à cause de lui (So 3, 17).",
+   "es": "El profeta Sofonías anuncia el «día del Señor» y la esperanza de un pueblo pequeño, humilde y fiel. Dice que Dios está en medio de su pueblo y se alegra por él (Sof 3, 17).",
+   "en": "The prophet Zephaniah announces the “day of the Lord” and the hope of a small, humble and faithful people. He says that God is in the midst of his people and rejoices over them (Zep 3:17)."
+  },
+  "Hag": {
+   "slug": "haggai",
+   "fr": "Au retour de l'exil, le prophète Aggée encourage le peuple découragé à reconstruire le Temple de Jérusalem.",
+   "es": "Al regreso del destierro, el profeta Ageo anima al pueblo desalentado a reconstruir el Templo de Jerusalén.",
+   "en": "After the return from exile, the prophet Haggai encourages the disheartened people to rebuild the Temple in Jerusalem."
+  },
+  "Zech": {
+   "slug": "zechariah",
+   "fr": "Des visions pour encourager ceux qui reviennent d'exil, et l'annonce d'un roi humble monté sur un âne (Za 9, 9), que les Évangiles reconnaissent en Jésus entrant à Jérusalem.",
+   "es": "Visiones para animar a los que vuelven del destierro, y el anuncio de un rey humilde montado en un asno (Zac 9, 9), que los Evangelios reconocen en Jesús cuando entra en Jerusalén.",
+   "en": "Visions to encourage those returning from exile, and the announcement of a humble king riding on a donkey (Zec 9:9), whom the Gospels recognize in Jesus entering Jerusalem."
+  },
+  "Mal": {
+   "slug": "malachi",
+   "fr": "Le dernier des livres prophétiques de l'Ancien Testament. Il annonce un messager qui préparera le chemin du Seigneur (Ml 3, 1) ; les Évangiles le reconnaissent en Jean-Baptiste.",
+   "es": "El último de los libros proféticos del Antiguo Testamento. Anuncia un mensajero que preparará el camino del Señor (Mal 3, 1); los Evangelios lo reconocen en Juan Bautista.",
+   "en": "The last of the prophetic books of the Old Testament. It announces a messenger who will prepare the way of the Lord (Mal 3:1); the Gospels recognize him in John the Baptist."
+  },
+  "Matt": {
+   "slug": "matthew",
+   "fr": "La tradition de l'Église attribue cet Évangile à l'apôtre Matthieu, collecteur d'impôts que Jésus appela à le suivre (Mt 9, 9). Il montre en Jésus le Messie annoncé par les prophètes et rassemble ses grands enseignements, dont le Sermon sur la montagne avec les Béatitudes et le Notre Père (Mt 5-7).",
+   "es": "La tradición de la Iglesia atribuye este Evangelio al apóstol Mateo, recaudador de impuestos al que Jesús llamó a seguirle (Mt 9, 9). Muestra en Jesús al Mesías anunciado por los profetas y reúne sus grandes enseñanzas, entre ellas el Sermón de la montaña con las Bienaventuranzas y el Padrenuestro (Mt 5-7).",
+   "en": "The Church's tradition attributes this Gospel to the apostle Matthew, the tax collector whom Jesus called to follow him (Mt 9:9). It shows Jesus as the Messiah announced by the prophets and gathers his great teachings, including the Sermon on the Mount with the Beatitudes and the Our Father (Mt 5-7)."
+  },
+  "Mark": {
+   "slug": "mark",
+   "fr": "La tradition de l'Église attribue cet Évangile à Marc, disciple de l'apôtre Pierre, qui le nomme « mon fils » (1 P 5, 13). C'est le plus court des quatre Évangiles, au récit vif ; il conduit à la question de Jésus : « Et vous, qui dites-vous que je suis ? » (Mc 8, 29).",
+   "es": "La tradición de la Iglesia atribuye este Evangelio a Marcos, discípulo del apóstol Pedro, que lo llama «mi hijo» (1 Pe 5, 13). Es el más breve de los cuatro Evangelios, de relato vivo; conduce a la pregunta de Jesús: «Y vosotros, ¿quién decís que soy yo?» (Mc 8, 29).",
+   "en": "The Church's tradition attributes this Gospel to Mark, a disciple of the apostle Peter, who calls him “my son” (1 Pt 5:13). It is the shortest of the four Gospels, a lively narrative leading to Jesus' question: “But who do you say that I am?” (Mk 8:29)."
+  },
+  "Luke": {
+   "slug": "luke",
+   "fr": "La tradition de l'Église attribue cet Évangile et les Actes des Apôtres à Luc, compagnon de saint Paul, que celui-ci appelle « le médecin bien-aimé » (Col 4, 14). Luc dit avoir enquêté avec soin (Lc 1, 3). Son Évangile met en lumière la miséricorde de Dieu : l'enfance de Jésus, le fils prodigue, le bon Samaritain.",
+   "es": "La tradición de la Iglesia atribuye este Evangelio y los Hechos de los Apóstoles a Lucas, compañero de san Pablo, que lo llama «el médico amado» (Col 4, 14). Lucas dice haberse informado con cuidado (Lc 1, 3). Su Evangelio pone de relieve la misericordia de Dios: la infancia de Jesús, el hijo pródigo, el buen samaritano.",
+   "en": "The Church's tradition attributes this Gospel and the Acts of the Apostles to Luke, Saint Paul's companion, whom Paul calls “the beloved physician” (Col 4:14). Luke says he investigated everything carefully (Lk 1:3). His Gospel highlights God's mercy: Jesus' childhood, the prodigal son, the good Samaritan."
+  },
+  "John": {
+   "slug": "john",
+   "fr": "La tradition de l'Église attribue cet Évangile à l'apôtre Jean, fils de Zébédée, reconnu dans « le disciple que Jésus aimait » (Jn 21, 20-24). Il s'ouvre par « Au commencement était le Verbe » (Jn 1, 1) et présente Jésus à travers des signes et de grandes paroles : le pain de vie, la lumière du monde, le bon pasteur, la résurrection et la vie.",
+   "es": "La tradición de la Iglesia atribuye este Evangelio al apóstol Juan, hijo de Zebedeo, reconocido en «el discípulo al que Jesús amaba» (Jn 21, 20-24). Comienza con «En el principio era el Verbo» (Jn 1, 1) y presenta a Jesús a través de signos y grandes palabras: el pan de vida, la luz del mundo, el buen pastor, la resurrección y la vida.",
+   "en": "The Church's tradition attributes this Gospel to the apostle John, son of Zebedee, recognized as “the disciple whom Jesus loved” (Jn 21:20-24). It opens with “In the beginning was the Word” (Jn 1:1) and presents Jesus through signs and great sayings: the bread of life, the light of the world, the good shepherd, the resurrection and the life."
+  },
+  "Acts": {
+   "slug": "acts",
+   "fr": "La suite de l'Évangile de Luc, attribuée par la tradition au même auteur. Après la Résurrection et la Pentecôte, l'Esprit Saint pousse les Apôtres, en particulier Pierre puis Paul, à annoncer Jésus de Jérusalem jusqu'à Rome.",
+   "es": "La continuación del Evangelio de Lucas, atribuida por la tradición al mismo autor. Tras la Resurrección y Pentecostés, el Espíritu Santo impulsa a los Apóstoles, sobre todo a Pedro y luego a Pablo, a anunciar a Jesús desde Jerusalén hasta Roma.",
+   "en": "The continuation of Luke's Gospel, attributed by tradition to the same author. After the Resurrection and Pentecost, the Holy Spirit drives the Apostles, especially Peter and then Paul, to proclaim Jesus from Jerusalem to Rome."
+  },
+  "Rom": {
+   "slug": "romans",
+   "fr": "La plus longue lettre de saint Paul, écrite aux chrétiens de Rome avant de les rencontrer. Il y explique que Dieu sauve tous ceux qui croient, par la foi en Jésus-Christ, et que rien ne pourra nous séparer de l'amour de Dieu (Rm 8, 39).",
+   "es": "La carta más larga de san Pablo, escrita a los cristianos de Roma antes de conocerlos. Explica que Dios salva a todos los que creen, por la fe en Jesucristo, y que nada podrá separarnos del amor de Dios (Rom 8, 39).",
+   "en": "Saint Paul's longest letter, written to the Christians of Rome before he met them. He explains that God saves all who believe, through faith in Jesus Christ, and that nothing can separate us from the love of God (Rom 8:39)."
+  },
+  "1Cor": {
+   "slug": "1corinthians",
+   "fr": "Saint Paul écrit à la communauté qu'il a fondée à Corinthe, vivante mais divisée. On y trouve l'hymne à la charité (1 Co 13), un récit de la dernière Cène (1 Co 11) et l'annonce de la résurrection (1 Co 15).",
+   "es": "San Pablo escribe a la comunidad que fundó en Corinto, viva pero dividida. Contiene el himno a la caridad (1 Cor 13), un relato de la última Cena (1 Cor 11) y el anuncio de la resurrección (1 Cor 15).",
+   "en": "Saint Paul writes to the community he founded in Corinth, lively but divided. It contains the hymn to love (1 Cor 13), an account of the Last Supper (1 Cor 11) and the proclamation of the resurrection (1 Cor 15)."
+  },
+  "2Cor": {
+   "slug": "2corinthians",
+   "fr": "Une lettre très personnelle où saint Paul parle de son ministère et de sa faiblesse. Le Seigneur lui a dit : « Ma grâce te suffit » (2 Co 12, 9).",
+   "es": "Una carta muy personal en la que san Pablo habla de su ministerio y de su debilidad. El Señor le dijo: «Te basta mi gracia» (2 Cor 12, 9).",
+   "en": "A very personal letter in which Saint Paul speaks of his ministry and his weakness. The Lord told him: “My grace is sufficient for you” (2 Cor 12:9)."
+  },
+  "Gal": {
+   "slug": "galatians",
+   "fr": "Saint Paul défend avec passion la liberté chrétienne auprès des communautés de Galatie : ce qui compte, c'est la foi qui agit par la charité (Ga 5, 6).",
+   "es": "San Pablo defiende con pasión la libertad cristiana ante las comunidades de Galacia: lo que cuenta es la fe que actúa por la caridad (Gál 5, 6).",
+   "en": "Saint Paul passionately defends Christian freedom before the communities of Galatia: what counts is faith working through love (Gal 5:6)."
+  },
+  "Eph": {
+   "slug": "ephesians",
+   "fr": "Une lettre placée sous le nom de saint Paul, sur le grand projet de Dieu : tout réunir dans le Christ. L'Église y est décrite comme son corps, et la vie chrétienne comme une vie dans l'amour.",
+   "es": "Una carta puesta bajo el nombre de san Pablo, sobre el gran proyecto de Dios: reunir todo en Cristo. La Iglesia se describe como su cuerpo, y la vida cristiana como una vida en el amor.",
+   "en": "A letter bearing Saint Paul's name, about God's great plan: to gather all things in Christ. The Church is described as his body, and Christian life as a life of love."
+  },
+  "Phil": {
+   "slug": "philippians",
+   "fr": "Saint Paul écrit de prison (Ph 1, 13) à la communauté de Philippes, la première qu'il a fondée en Europe selon les Actes. C'est la lettre de la joie : réjouissez-vous dans le Seigneur en tout temps (Ph 4, 4). Elle contient un hymne au Christ qui s'est abaissé (Ph 2, 6-11).",
+   "es": "San Pablo escribe desde la cárcel (Flp 1, 13) a la comunidad de Filipos, la primera que fundó en Europa según los Hechos. Es la carta de la alegría: alegraos siempre en el Señor (Flp 4, 4). Contiene un himno a Cristo que se abajó (Flp 2, 6-11).",
+   "en": "Saint Paul writes from prison (Phil 1:13) to the community of Philippi, the first he founded in Europe according to Acts. It is the letter of joy: rejoice in the Lord always (Phil 4:4). It contains a hymn to Christ who emptied himself (Phil 2:6-11)."
+  },
+  "Col": {
+   "slug": "colossians",
+   "fr": "Saint Paul, en prison, présente le Christ comme le centre de tout, « l'image du Dieu invisible » (Col 1, 15), et en tire une manière de vivre ensemble.",
+   "es": "San Pablo, en prisión, presenta a Cristo como el centro de todo, «imagen del Dios invisible» (Col 1, 15), y de ahí saca una manera de vivir juntos.",
+   "en": "Saint Paul, in prison, presents Christ as the center of all things, “the image of the invisible God” (Col 1:15), and draws from this a way of living together."
+  },
+  "1Thess": {
+   "slug": "1thessalonians",
+   "fr": "Saint Paul encourage la jeune communauté de Thessalonique, éprouvée, et parle de l'espérance pour ceux qui sont morts (1 Th 4, 13-18).",
+   "es": "San Pablo anima a la joven comunidad de Tesalónica, que está siendo probada, y habla de la esperanza para los que han muerto (1 Tes 4, 13-18).",
+   "en": "Saint Paul encourages the young, tried community of Thessalonica and speaks of the hope for those who have died (1 Thes 4:13-18)."
+  },
+  "2Thess": {
+   "slug": "2thessalonians",
+   "fr": "Une seconde lettre aux Thessaloniciens, troublés par l'idée que le jour du Seigneur serait déjà là. Elle les invite à rester fermes et à travailler paisiblement.",
+   "es": "Una segunda carta a los tesalonicenses, inquietos porque creían que el día del Señor ya había llegado. Los invita a permanecer firmes y a trabajar en paz.",
+   "en": "A second letter to the Thessalonians, troubled by the idea that the day of the Lord had already come. It invites them to stand firm and to work quietly."
+  },
+  "1Tim": {
+   "slug": "1timothy",
+   "fr": "Des conseils adressés au nom de saint Paul à Timothée, son compagnon de mission, pour guider une communauté : la prière, les responsables, la vie de foi.",
+   "es": "Consejos dirigidos en nombre de san Pablo a Timoteo, su compañero de misión, para guiar a una comunidad: la oración, los responsables, la vida de fe.",
+   "en": "Advice addressed in Saint Paul's name to Timothy, his companion in mission, on guiding a community: prayer, leaders, the life of faith."
+  },
+  "2Tim": {
+   "slug": "2timothy",
+   "fr": "Une lettre très personnelle à Timothée, comme un testament de saint Paul : j'ai combattu le bon combat, j'ai achevé ma course, j'ai gardé la foi (2 Tm 4, 7).",
+   "es": "Una carta muy personal a Timoteo, como un testamento de san Pablo: he combatido el buen combate, he terminado la carrera, he guardado la fe (2 Tim 4, 7).",
+   "en": "A very personal letter to Timothy, like Saint Paul's testament: I have fought the good fight, I have finished the race, I have kept the faith (2 Tm 4:7)."
+  },
+  "Titus": {
+   "slug": "titus",
+   "fr": "Une courte lettre à Tite, compagnon de saint Paul chargé d'organiser l'Église dans l'île de Crète (Tt 1, 5), sur la vie chrétienne au quotidien.",
+   "es": "Una breve carta a Tito, compañero de san Pablo encargado de organizar la Iglesia en la isla de Creta (Tit 1, 5), sobre la vida cristiana de cada día.",
+   "en": "A short letter to Titus, Saint Paul's companion in charge of organizing the Church on the island of Crete (Ti 1:5), on everyday Christian life."
+  },
+  "Phlm": {
+   "slug": "philemon",
+   "fr": "Un billet de saint Paul, écrit en prison, à son ami Philémon : il lui demande d'accueillir Onésime, un esclave devenu chrétien, comme un frère bien-aimé (Phm 16).",
+   "es": "Una breve nota de san Pablo, escrita en prisión, a su amigo Filemón: le pide que acoja a Onésimo, un esclavo que se ha hecho cristiano, como a un hermano querido (Flm 16).",
+   "en": "A short note from Saint Paul, written in prison, to his friend Philemon: he asks him to welcome Onesimus, a slave who has become a Christian, as a beloved brother (Phlm 16)."
+  },
+  "Heb": {
+   "slug": "hebrews",
+   "fr": "Une longue méditation sur Jésus, grand prêtre qui s'offre une fois pour toutes. Son auteur n'est pas nommé ; on l'a longtemps rattaché à saint Paul. Elle contient un bel éloge de la foi des anciens, d'Abel à Abraham (He 11).",
+   "es": "Una larga meditación sobre Jesús, sumo sacerdote que se ofrece de una vez para siempre. Su autor no se nombra; durante mucho tiempo se relacionó con san Pablo. Contiene un hermoso elogio de la fe de los antiguos, de Abel a Abrahán (Heb 11).",
+   "en": "A long meditation on Jesus, the high priest who offers himself once for all. Its author is not named; it was long linked to Saint Paul. It contains a beautiful praise of the faith of the ancestors, from Abel to Abraham (Heb 11)."
+  },
+  "Jas": {
+   "slug": "james",
+   "fr": "Une lettre placée sous le nom de Jacques, « serviteur de Dieu et du Seigneur Jésus-Christ » (Jc 1, 1) ; la tradition y voit Jacques, appelé « frère du Seigneur ». Très concrète, elle rappelle que la foi sans les œuvres est morte (Jc 2, 26).",
+   "es": "Una carta puesta bajo el nombre de Santiago, «siervo de Dios y del Señor Jesucristo» (Sant 1, 1); la tradición ve en él a Santiago, llamado «hermano del Señor». Muy concreta, recuerda que la fe sin obras está muerta (Sant 2, 26).",
+   "en": "A letter bearing the name of James, “a servant of God and of the Lord Jesus Christ” (Jas 1:1); tradition identifies him as James, called “the brother of the Lord”. Very practical, it reminds us that faith without works is dead (Jas 2:26)."
+  },
+  "1Pet": {
+   "slug": "1peter",
+   "fr": "Une lettre de l'apôtre Pierre, selon la tradition de l'Église, à des chrétiens dispersés et éprouvés : ils sont des « pierres vivantes » (1 P 2, 5) et doivent être prêts à rendre raison de leur espérance (1 P 3, 15).",
+   "es": "Una carta del apóstol Pedro, según la tradición de la Iglesia, a cristianos dispersos y probados: son «piedras vivas» (1 Pe 2, 5) y deben estar dispuestos a dar razón de su esperanza (1 Pe 3, 15).",
+   "en": "A letter from the apostle Peter, according to the Church's tradition, to scattered and tested Christians: they are “living stones” (1 Pt 2:5) and must be ready to give a reason for their hope (1 Pt 3:15)."
+  },
+  "2Pet": {
+   "slug": "2peter",
+   "fr": "Une lettre placée sous le nom de l'apôtre Pierre, qui met en garde contre les faux maîtres et parle de la patience de Dieu, qui veut que tous arrivent à la conversion (2 P 3, 9).",
+   "es": "Una carta puesta bajo el nombre del apóstol Pedro, que pone en guardia contra los falsos maestros y habla de la paciencia de Dios, que quiere que todos lleguen a la conversión (2 Pe 3, 9).",
+   "en": "A letter bearing the name of the apostle Peter, warning against false teachers and speaking of God's patience, who wants all to come to repentance (2 Pt 3:9)."
+  },
+  "1John": {
+   "slug": "1john",
+   "fr": "Une lettre que la tradition de l'Église attribue à l'apôtre Jean. Elle dit en trois mots le cœur de la foi : Dieu est amour (1 Jn 4, 8) ; l'amour de Dieu et l'amour des frères sont inséparables.",
+   "es": "Una carta que la tradición de la Iglesia atribuye al apóstol Juan. Dice en tres palabras el corazón de la fe: Dios es amor (1 Jn 4, 8); el amor a Dios y el amor a los hermanos son inseparables.",
+   "en": "A letter the Church's tradition attributes to the apostle John. It sums up the heart of faith in three words: God is love (1 Jn 4:8); love of God and love of one's brothers and sisters cannot be separated."
+  },
+  "2John": {
+   "slug": "2john",
+   "fr": "Un court billet de « l'Ancien » à une communauté, que la tradition attribue à l'apôtre Jean : marcher dans la vérité et dans l'amour.",
+   "es": "Una breve nota del «Presbítero» a una comunidad, que la tradición atribuye al apóstol Juan: caminar en la verdad y en el amor.",
+   "en": "A short note from “the Presbyter” to a community, attributed by tradition to the apostle John: walk in truth and in love."
+  },
+  "3John": {
+   "slug": "3john",
+   "fr": "Un court billet de « l'Ancien » à un certain Gaïus, félicité pour son hospitalité envers les missionnaires.",
+   "es": "Una breve nota del «Presbítero» a un tal Gayo, felicitado por su hospitalidad con los misioneros.",
+   "en": "A short note from “the Presbyter” to a man named Gaius, praised for his hospitality toward missionaries."
+  },
+  "Jude": {
+   "slug": "jude",
+   "fr": "Une très courte lettre de Jude, « frère de Jacques » (Jude 1), qui invite à rester fermes dans la foi face à ceux qui la déforment.",
+   "es": "Una carta muy breve de Judas, «hermano de Santiago» (Jds 1), que invita a permanecer firmes en la fe frente a quienes la deforman.",
+   "en": "A very short letter from Jude, “brother of James” (Jude 1), urging believers to stand firm in the faith against those who distort it."
+  },
+  "Rev": {
+   "slug": "revelation",
+   "fr": "Le dernier livre de la Bible, écrit par un certain Jean exilé sur l'île de Patmos (Ap 1, 9), que la tradition identifie à l'apôtre. Ses visions pleines de symboles portent un message d'espérance : le Christ est vainqueur et Dieu fait toutes choses nouvelles (Ap 21, 5).",
+   "es": "El último libro de la Biblia, escrito por un tal Juan desterrado en la isla de Patmos (Ap 1, 9), al que la tradición identifica con el apóstol. Sus visiones llenas de símbolos llevan un mensaje de esperanza: Cristo ha vencido y Dios hace nuevas todas las cosas (Ap 21, 5).",
+   "en": "The last book of the Bible, written by a man named John exiled on the island of Patmos (Rv 1:9), whom tradition identifies with the apostle. Its visions full of symbols carry a message of hope: Christ is victorious and God makes all things new (Rv 21:5)."
+  }
+ }
+}
