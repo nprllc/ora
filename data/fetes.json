@@ -1,0 +1,350 @@
+{
+ "_note": "Solennités et fêtes à date fixe du calendrier romain général, et fêtes propres de certaines régions (champ « regions » : fr, es, us). Rangs : 'solennite', 'fete-seigneur', 'fete', 'commemoration'. Couleurs : blanc, rouge, vert, violet, rose, noir.",
+ "fixes": [
+  {
+   "date": "01-01",
+   "id": "marie-mere-de-dieu",
+   "nom": "Sainte Marie, Mère de Dieu",
+   "rang": "solennite",
+   "couleur": "blanc",
+   "nom_es": "Santa María, Madre de Dios",
+   "nom_en": "Mary, the Holy Mother of God"
+  },
+  {
+   "date": "01-25",
+   "id": "conversion-paul",
+   "nom": "Conversion de saint Paul",
+   "rang": "fete",
+   "couleur": "blanc",
+   "nom_es": "Conversión de san Pablo, apóstol",
+   "nom_en": "The Conversion of Saint Paul the Apostle"
+  },
+  {
+   "date": "02-02",
+   "id": "presentation",
+   "nom": "Présentation du Seigneur au Temple",
+   "rang": "fete-seigneur",
+   "couleur": "blanc",
+   "nom_es": "Presentación del Señor",
+   "nom_en": "The Presentation of the Lord"
+  },
+  {
+   "date": "02-22",
+   "id": "chaire-pierre",
+   "nom": "Chaire de saint Pierre",
+   "rang": "fete",
+   "couleur": "blanc",
+   "nom_es": "Cátedra de san Pedro, apóstol",
+   "nom_en": "The Chair of Saint Peter the Apostle"
+  },
+  {
+   "date": "03-19",
+   "id": "joseph",
+   "nom": "Saint Joseph, époux de la Vierge Marie",
+   "rang": "solennite",
+   "couleur": "blanc",
+   "nom_es": "San José, esposo de la Bienaventurada Virgen María",
+   "nom_en": "Saint Joseph, Spouse of the Blessed Virgin Mary"
+  },
+  {
+   "date": "03-25",
+   "id": "annonciation",
+   "nom": "Annonciation du Seigneur",
+   "rang": "solennite",
+   "couleur": "blanc",
+   "nom_es": "Anunciación del Señor",
+   "nom_en": "The Annunciation of the Lord"
+  },
+  {
+   "date": "04-25",
+   "id": "marc",
+   "nom": "Saint Marc, évangéliste",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "San Marcos, evangelista",
+   "nom_en": "Saint Mark, Evangelist"
+  },
+  {
+   "date": "05-03",
+   "id": "philippe-jacques",
+   "nom": "Saints Philippe et Jacques, apôtres",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "Santos Felipe y Santiago, apóstoles",
+   "nom_en": "Saints Philip and James, Apostles"
+  },
+  {
+   "date": "05-14",
+   "id": "matthias",
+   "nom": "Saint Matthias, apôtre",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "San Matías, apóstol",
+   "nom_en": "Saint Matthias, Apostle"
+  },
+  {
+   "date": "05-31",
+   "id": "visitation",
+   "nom": "Visitation de la Vierge Marie",
+   "rang": "fete",
+   "couleur": "blanc",
+   "nom_es": "Visitación de la Bienaventurada Virgen María",
+   "nom_en": "The Visitation of the Blessed Virgin Mary"
+  },
+  {
+   "date": "06-24",
+   "id": "nativite-jean-baptiste",
+   "nom": "Nativité de saint Jean-Baptiste",
+   "rang": "solennite",
+   "couleur": "blanc",
+   "nom_es": "Natividad de san Juan Bautista",
+   "nom_en": "The Nativity of Saint John the Baptist"
+  },
+  {
+   "date": "06-29",
+   "id": "pierre-paul",
+   "nom": "Saints Pierre et Paul, apôtres",
+   "rang": "solennite",
+   "couleur": "rouge",
+   "nom_es": "Santos Pedro y Pablo, apóstoles",
+   "nom_en": "Saints Peter and Paul, Apostles"
+  },
+  {
+   "date": "07-03",
+   "id": "thomas",
+   "nom": "Saint Thomas, apôtre",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "Santo Tomás, apóstol",
+   "nom_en": "Saint Thomas, Apostle"
+  },
+  {
+   "date": "07-22",
+   "id": "marie-madeleine",
+   "nom": "Sainte Marie-Madeleine",
+   "rang": "fete",
+   "couleur": "blanc",
+   "nom_es": "Santa María Magdalena",
+   "nom_en": "Saint Mary Magdalene"
+  },
+  {
+   "date": "07-25",
+   "id": "jacques",
+   "nom": "Saint Jacques, apôtre",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "Santiago, apóstol",
+   "nom_en": "Saint James, Apostle"
+  },
+  {
+   "date": "08-06",
+   "id": "transfiguration",
+   "nom": "Transfiguration du Seigneur",
+   "rang": "fete-seigneur",
+   "couleur": "blanc",
+   "nom_es": "Transfiguración del Señor",
+   "nom_en": "The Transfiguration of the Lord"
+  },
+  {
+   "date": "08-10",
+   "id": "laurent",
+   "nom": "Saint Laurent, diacre et martyr",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "San Lorenzo, diácono y mártir",
+   "nom_en": "Saint Lawrence, Deacon and Martyr"
+  },
+  {
+   "date": "08-15",
+   "id": "assomption",
+   "nom": "Assomption de la Vierge Marie",
+   "rang": "solennite",
+   "couleur": "blanc",
+   "nom_es": "Asunción de la Bienaventurada Virgen María",
+   "nom_en": "The Assumption of the Blessed Virgin Mary"
+  },
+  {
+   "date": "08-24",
+   "id": "barthelemy",
+   "nom": "Saint Barthélemy, apôtre",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "San Bartolomé, apóstol",
+   "nom_en": "Saint Bartholomew, Apostle"
+  },
+  {
+   "date": "09-08",
+   "id": "nativite-marie",
+   "nom": "Nativité de la Vierge Marie",
+   "rang": "fete",
+   "couleur": "blanc",
+   "nom_es": "Natividad de la Bienaventurada Virgen María",
+   "nom_en": "The Nativity of the Blessed Virgin Mary"
+  },
+  {
+   "date": "09-14",
+   "id": "croix-glorieuse",
+   "nom": "La Croix glorieuse",
+   "rang": "fete-seigneur",
+   "couleur": "rouge",
+   "nom_es": "Exaltación de la Santa Cruz",
+   "nom_en": "The Exaltation of the Holy Cross"
+  },
+  {
+   "date": "09-21",
+   "id": "matthieu",
+   "nom": "Saint Matthieu, apôtre et évangéliste",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "San Mateo, apóstol y evangelista",
+   "nom_en": "Saint Matthew, Apostle and Evangelist"
+  },
+  {
+   "date": "09-29",
+   "id": "archanges",
+   "nom": "Saints Michel, Gabriel et Raphaël, archanges",
+   "rang": "fete",
+   "couleur": "blanc",
+   "nom_es": "Santos Miguel, Gabriel y Rafael, arcángeles",
+   "nom_en": "Saints Michael, Gabriel and Raphael, Archangels"
+  },
+  {
+   "date": "10-18",
+   "id": "luc",
+   "nom": "Saint Luc, évangéliste",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "San Lucas, evangelista",
+   "nom_en": "Saint Luke, Evangelist"
+  },
+  {
+   "date": "10-28",
+   "id": "simon-jude",
+   "nom": "Saints Simon et Jude, apôtres",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "Santos Simón y Judas, apóstoles",
+   "nom_en": "Saints Simon and Jude, Apostles"
+  },
+  {
+   "date": "11-01",
+   "id": "toussaint",
+   "nom": "La Toussaint",
+   "rang": "solennite",
+   "couleur": "blanc",
+   "nom_es": "Todos los Santos",
+   "nom_en": "All Saints"
+  },
+  {
+   "date": "11-02",
+   "id": "defunts",
+   "nom": "Commémoration de tous les fidèles défunts",
+   "rang": "commemoration",
+   "couleur": "violet",
+   "nom_es": "Conmemoración de todos los fieles difuntos",
+   "nom_en": "The Commemoration of All the Faithful Departed (All Souls)"
+  },
+  {
+   "date": "11-09",
+   "id": "latran",
+   "nom": "Dédicace de la basilique du Latran",
+   "rang": "fete-seigneur",
+   "couleur": "blanc",
+   "nom_es": "Dedicación de la basílica de Letrán",
+   "nom_en": "The Dedication of the Lateran Basilica"
+  },
+  {
+   "date": "11-30",
+   "id": "andre",
+   "nom": "Saint André, apôtre",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "San Andrés, apóstol",
+   "nom_en": "Saint Andrew, Apostle"
+  },
+  {
+   "date": "12-08",
+   "id": "immaculee-conception",
+   "nom": "Immaculée Conception de la Vierge Marie",
+   "rang": "solennite",
+   "couleur": "blanc",
+   "nom_es": "Inmaculada Concepción de la Bienaventurada Virgen María",
+   "nom_en": "The Immaculate Conception of the Blessed Virgin Mary"
+  },
+  {
+   "date": "12-25",
+   "id": "noel",
+   "nom": "Nativité du Seigneur",
+   "rang": "solennite",
+   "couleur": "blanc",
+   "nom_es": "Natividad del Señor",
+   "nom_en": "The Nativity of the Lord (Christmas)"
+  },
+  {
+   "date": "12-26",
+   "id": "etienne",
+   "nom": "Saint Étienne, premier martyr",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "San Esteban, protomártir",
+   "nom_en": "Saint Stephen, the First Martyr"
+  },
+  {
+   "date": "12-27",
+   "id": "jean",
+   "nom": "Saint Jean, apôtre et évangéliste",
+   "rang": "fete",
+   "couleur": "blanc",
+   "nom_es": "San Juan, apóstol y evangelista",
+   "nom_en": "Saint John, Apostle and Evangelist"
+  },
+  {
+   "date": "12-28",
+   "id": "innocents",
+   "nom": "Les saints Innocents, martyrs",
+   "rang": "fete",
+   "couleur": "rouge",
+   "nom_es": "Santos Inocentes, mártires",
+   "nom_en": "The Holy Innocents, Martyrs"
+  },
+  {
+   "date": "07-25",
+   "id": "santiago",
+   "nom": "Saint Jacques, apôtre, patron de l'Espagne",
+   "nom_es": "Santiago, apóstol, patrono de España",
+   "nom_en": "Saint James, Apostle, Patron of Spain",
+   "rang": "solennite",
+   "couleur": "rouge",
+   "regions": [
+    "es"
+   ],
+   "source": "Calendario litúrgico propio de España (Conferencia Episcopal Española)"
+  },
+  {
+   "date": "10-12",
+   "id": "pilar",
+   "nom": "Notre-Dame du Pilier",
+   "nom_es": "Nuestra Señora del Pilar",
+   "nom_en": "Our Lady of the Pillar",
+   "rang": "fete",
+   "couleur": "blanc",
+   "regions": [
+    "es"
+   ],
+   "source": "Calendario litúrgico propio de España (Conferencia Episcopal Española)"
+  },
+  {
+   "date": "12-12",
+   "id": "guadalupe",
+   "nom": "Notre-Dame de Guadalupe",
+   "nom_es": "Nuestra Señora de Guadalupe",
+   "nom_en": "Our Lady of Guadalupe",
+   "rang": "fete",
+   "couleur": "blanc",
+   "regions": [
+    "us"
+   ],
+   "source": "Proper Calendar for the Dioceses of the United States of America (USCCB)"
+  }
+ ]
+}
