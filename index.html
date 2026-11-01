@@ -1,0 +1,1056 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ora</title>
+<meta name="description" content="Ora, une app des premiers pas vers Dieu : la fête du jour, une prière, une idée simple.">
+<meta name="theme-color" content="#FFFBF5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Ora">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+/* Ora — feuille de style. Palette « aube » (jour) et « veille » (soir). */
+:root {
+  --fond: #FFFBF5;
+  --encre: #2F2924;
+  --doux: #62554B;
+  --discret: #6E6056;
+  --or: #80612F;
+  --anneau: rgba(196, 152, 84, .6);
+  --filet: rgba(47, 41, 36, .1);
+  --verre: rgba(255, 251, 245, .72);
+  --puce: #2F2924;
+  --puce-texte: #FFFBF5;
+  --carte: rgba(255, 255, 255, .55);
+  --logo-anneau: #D4AE6A;
+  --logo-ombre: rgba(214, 170, 104, .6);
+  --astre: #F2E5C6;
+  --police: 'Sora', system-ui, -apple-system, sans-serif;
+  --lent: cubic-bezier(.16, 1, .3, 1);
+  color-scheme: light;
+}
+:root.nuit {
+  --fond: #161E35;
+  --encre: #EFE9DE;
+  --doux: #B9BECB;
+  --discret: #B9BECB;
+  --or: #E6C98F;
+  --anneau: rgba(230, 201, 143, .55);
+  --filet: rgba(239, 233, 222, .14);
+  --verre: rgba(30, 40, 68, .72);
+  --puce: #EFE9DE;
+  --puce-texte: #161E35;
+  --carte: rgba(255, 255, 255, .05);
+  --logo-anneau: #E6C98F;
+  --logo-ombre: rgba(230, 196, 140, .45);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { font-size: 16px; }
+html, body { margin: 0; background: var(--fond); color: var(--encre); }
+body {
+  font-family: var(--police); font-weight: 300; line-height: 1.55;
+  -webkit-font-smoothing: antialiased; min-height: 100dvh;
+  transition: background-color 1.2s ease, color 1.2s ease;
+}
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+a { color: var(--or); }
+:focus-visible { outline: 2px solid var(--or); outline-offset: 3px; border-radius: 6px; }
+
+/* Ciel peint */
+.ciel { position: absolute; inset: 0 0 auto 0; height: 470px; pointer-events: none; z-index: 0; overflow: hidden; }
+.couches { position: absolute; inset: 0; }
+.couche { position: absolute; }
+.couche canvas { display: block; }
+:root:not(.nuit) .couches { opacity: .6; } /* le jour : des lavis plus légers, plus lumineux */
+.ciel .fondu { position: absolute; left: 0; right: 0; bottom: 0; height: 140px; background: linear-gradient(180deg, transparent, var(--fond)); }
+.ciel.efface { opacity: .0; transition: opacity 1s ease; }
+.ciel.discret { opacity: .35; transition: opacity 1s ease; }
+.astre { position: absolute; width: 56px; height: 56px; right: calc(50% - 109px); top: 140px; animation: monte 6s var(--lent) .3s both; }
+:root.nuit .astre { top: 126px; }
+.astre .aura { position: absolute; left: -52px; top: -52px; width: 160px; height: 160px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(232,190,120,.42) 0%, rgba(232,190,120,.16) 40%, rgba(232,190,120,0) 70%); animation: respire 10s ease-in-out infinite; }
+:root.nuit .astre .aura { background: radial-gradient(circle, rgba(232,200,140,.32) 0%, rgba(232,200,140,.12) 40%, rgba(232,200,140,0) 70%); }
+.astre .halo { position: absolute; inset: -20px; border-radius: 50%; border: 1px solid var(--anneau); animation: halo 9s ease-in-out infinite; }
+.astre .disque { position: absolute; inset: 0; border-radius: 50%; background: var(--astre); box-shadow: -2px 1.5px 0 0 rgba(214,170,104,.5); }
+:root.nuit .astre .disque { box-shadow: -2px 1.5px 0 0 rgba(230,196,140,.45); }
+.etoile { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: #EFE9DE; animation: scintille 6s ease-in-out infinite; }
+@keyframes monte { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: none; } }
+@keyframes respire { 0%,100% { opacity: .8; transform: scale(1); } 50% { opacity: 1; transform: scale(1.06); } }
+@keyframes halo { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+@keyframes scintille { 0%,100% { opacity: .25; } 50% { opacity: .9; } }
+@keyframes apparait { from { opacity: 0; filter: blur(10px); transform: translateY(14px); } to { opacity: 1; filter: blur(0); transform: none; } }
+
+/* Mise en page */
+.app { position: relative; z-index: 1; max-width: 480px; margin: 0 auto; min-height: 100dvh; padding: 0 0 120px; }
+.entete { display: flex; justify-content: space-between; align-items: center; padding: calc(env(safe-area-inset-top, 0px) + 22px) 24px 0; min-height: 80px; }
+.logo { display: inline-flex; color: var(--encre); }
+.logo svg { overflow: visible; }
+.logo .aureole { animation: halo 9s ease-in-out infinite; transform-origin: 16px 16px; }
+.puce-niveau { font-size: .75rem; font-weight: 500; height: 44px; padding: 0 16px; border-radius: 999px;
+  background: var(--verre); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border: 1px solid var(--filet); }
+.vue { padding: 0 28px; }
+.vue > * { animation: apparait 1.6s var(--lent) both; }
+.vue > *:nth-child(2) { animation-delay: .12s; } .vue > *:nth-child(3) { animation-delay: .24s; }
+.vue > *:nth-child(4) { animation-delay: .36s; } .vue > *:nth-child(5) { animation-delay: .48s; }
+.accueil { padding-top: 300px; }
+.accueil.anime > * { animation-delay: 1.6s; }
+.accueil.anime > *:nth-child(2) { animation-delay: 1.8s; } .accueil.anime > *:nth-child(3) { animation-delay: 2s; } .accueil.anime > *:nth-child(4) { animation-delay: 2.2s; }
+.surtitre { margin: 0 0 12px; font-size: .6875rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--discret); }
+h1 { margin: 0; font-weight: 200; font-size: 2.75rem; line-height: 1.1; letter-spacing: -.02em; }
+h2 { margin: 0 0 8px; font-weight: 300; font-size: 1.75rem; line-height: 1.15; letter-spacing: -.01em; }
+.chapeau { margin: 12px 0 0; font-size: .9375rem; line-height: 1.6; color: var(--doux); max-width: 330px; }
+.couleur-lit { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; font-size: .8125rem; color: var(--discret); }
+.couleur-lit i { width: 10px; height: 10px; border-radius: 50%; border: 1px solid rgba(120,100,80,.45); display: inline-block; }
+
+/* Rubriques numérotées */
+.rubriques { margin-top: 28px; border-top: 1px solid var(--filet); }
+.rubrique { display: flex; gap: 16px; align-items: baseline; width: 100%; text-align: left; padding: 16px 0; min-height: 56px; border-bottom: 1px solid var(--filet); text-decoration: none; color: var(--encre); }
+.rubrique .num { flex: 0 0 auto; min-width: 22px; white-space: nowrap; font-size: .6875rem; font-weight: 600; letter-spacing: .1em; color: var(--or); }
+.rubrique .corps { flex: 1; min-width: 0; }
+.rubrique .titre-r { display: block; font-weight: 500; font-size: .9375rem; }
+.rubrique .texte-r { display: block; margin-top: 2px; font-size: .9375rem; color: var(--doux); }
+.rubrique .priere-r { display: block; font-weight: 400; font-size: 1.0625rem; line-height: 1.45; }
+.rubrique .ref { font-size: .75rem; color: var(--discret); white-space: nowrap; }
+.rubrique .fleche { color: var(--discret); align-self: center; }
+.bientot { font-size: .6875rem; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--discret); border: 1px solid var(--filet); border-radius: 999px; padding: 2px 8px; white-space: nowrap; align-self: center; }
+
+.ajuster { display: block; margin: 22px 0 0; min-height: 44px; font-size: .8125rem; color: var(--discret); text-decoration: underline dotted; text-underline-offset: 4px; }
+
+
+/* Sections du jour */
+.sections { margin-top: 30px; }
+.section-jour { padding: 26px 0 28px; border-top: 1px solid var(--filet); }
+.etiquette { margin: 0 0 12px; font-size: .6875rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--or); }
+.s-priere { margin: 0; font-weight: 400; font-size: 1.1875rem; line-height: 1.5; }
+.s-evangile { margin: 0; white-space: pre-line; font-weight: 400; font-size: 1.0625rem; line-height: 1.65; }
+.s-evangile.grand { font-size: 1.1875rem; margin-top: 18px; }
+.s-citation { margin: 0; font-weight: 300; font-size: 1.375rem; line-height: 1.4; letter-spacing: -.005em; }
+.page .s-citation { margin-top: 26px; font-size: 1.25rem; }
+.s-ref { margin: 10px 0 0; font-size: .8125rem; color: var(--discret); }
+.s-titre { margin: 0; font-weight: 500; font-size: 1.0625rem; line-height: 1.4; }
+.s-dates { font-weight: 300; color: var(--discret); font-size: .875rem; }
+.s-accroche { margin: 6px 0 0; font-size: .9375rem; line-height: 1.6; color: var(--doux); }
+.lire { display: inline-flex; align-items: center; gap: 4px; min-height: 44px; margin-top: 8px; font-size: .875rem; font-weight: 500; color: var(--or); }
+.texte-lecture p { margin: 18px 0 0; font-size: 1.0625rem; line-height: 1.7; }
+
+/* Pages intérieures */
+.page { padding-top: 24px; }
+.retour { display: inline-flex; align-items: center; gap: 6px; height: 44px; font-size: .875rem; font-weight: 500; color: var(--doux); margin-bottom: 12px; }
+.texte-priere { white-space: pre-line; font-weight: 400; font-size: 1.1875rem; line-height: 1.7; margin: 24px 0 8px; }
+.texte-priere.variante { font-size: 1rem; color: var(--doux); }
+.bloc { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--filet); }
+.bloc h3 { margin: 0 0 6px; font-size: .6875rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--discret); }
+.bloc p { margin: 0; font-size: .9375rem; color: var(--doux); }
+.source { margin-top: 8px; font-size: .75rem; color: var(--discret); }
+.groupe { margin: 32px 0 0; font-size: .6875rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--discret); }
+
+/* Prière guidée */
+.guide { min-height: 60dvh; display: flex; flex-direction: column; justify-content: center; text-align: center; padding-top: 40px; }
+.guide .etape-mot { font-weight: 200; font-size: 3rem; line-height: 1.1; margin: 0 0 18px; }
+.guide .etape-texte { font-size: 1.0625rem; line-height: 1.65; color: var(--doux); margin: 0 auto; max-width: 320px; }
+.guide .points { display: flex; gap: 8px; justify-content: center; margin: 36px 0 24px; }
+.guide .points i { width: 6px; height: 6px; border-radius: 50%; background: var(--filet); }
+.guide .points i.on { background: var(--or); }
+.bouton { display: inline-flex; align-items: center; justify-content: center; height: 52px; padding: 0 28px; border-radius: 26px; background: var(--puce); color: var(--puce-texte); font-weight: 500; font-size: .9375rem; }
+.bouton.leger { background: none; color: var(--encre); border: 1px solid var(--filet); }
+.actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+/* Lexique */
+.lex { color: inherit; text-decoration: underline dotted; text-decoration-color: var(--or); text-underline-offset: 4px; font: inherit; }
+.recherche { width: 100%; height: 48px; border-radius: 14px; border: 1px solid var(--filet); background: var(--carte); color: var(--encre); padding: 0 16px; font: inherit; font-size: 1rem; margin: 16px 0 8px; }
+.mot-def { padding: 16px 0; border-bottom: 1px solid var(--filet); }
+.mot-def b { font-weight: 500; display: block; margin-bottom: 2px; }
+.mot-def span { font-size: .9375rem; color: var(--doux); }
+.voile { position: fixed; inset: 0; z-index: 20; background: rgba(20, 16, 12, .25); animation: fondu .4s ease both; }
+.feuille { position: fixed; left: 0; right: 0; bottom: 0; z-index: 21; max-width: 480px; margin: 0 auto; background: var(--fond); color: var(--encre);
+  border-radius: 24px 24px 0 0; padding: 26px 28px calc(env(safe-area-inset-bottom, 0px) + 28px); box-shadow: 0 -10px 40px rgba(0,0,0,.12); animation: glisse .6s var(--lent) both; }
+.feuille .poignee { width: 36px; height: 4px; border-radius: 2px; background: var(--filet); margin: -10px auto 16px; }
+.feuille p { color: var(--doux); font-size: 1rem; }
+@keyframes fondu { from { opacity: 0; } }
+@keyframes glisse { from { transform: translateY(100%); } }
+
+/* Choix du niveau et réglages */
+.niveaux { margin-top: 24px; display: grid; gap: 10px; }
+.niveau { width: 100%; text-align: left; padding: 18px 20px; border-radius: 18px; border: 1px solid var(--filet); background: var(--carte); display: flex; gap: 14px; align-items: flex-start; }
+.niveau.on { border-color: var(--or); box-shadow: 0 0 0 1px var(--or) inset; }
+.niveau .rond { flex: 0 0 auto; width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--anneau); margin-top: 2px; position: relative; }
+.niveau.on .rond::after { content: ''; position: absolute; inset: 5px; border-radius: 50%; background: var(--or); }
+.niveau b { display: block; font-weight: 500; }
+.niveau small { display: block; color: var(--doux); font-size: .8125rem; margin-top: 2px; }
+.segments { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; padding: 4px; border-radius: 16px; border: 1px solid var(--filet); margin-top: 10px; }
+.segments.deux { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.segments button { height: 44px; border-radius: 12px; font-size: .875rem; font-weight: 500; color: var(--doux); }
+.segments button.on { background: var(--puce); color: var(--puce-texte); }
+.note { font-size: .8125rem; color: var(--discret); margin-top: 10px; }
+
+/* Barre de navigation flottante */
+.barre { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 16px); transform: translateX(-50%); z-index: 10;
+  height: 60px; padding: 0 8px; display: flex; align-items: center; gap: 4px; border-radius: 30px;
+  background: var(--verre); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); border: 1px solid var(--filet); box-shadow: 0 10px 30px rgba(60,45,30,.1); }
+.barre[hidden] { display: none; }
+.barre button { white-space: nowrap; height: 44px; min-width: 48px; padding: 0 14px; display: flex; align-items: center; justify-content: center; gap: 8px; border-radius: 22px; color: var(--doux); font-size: .8125rem; font-weight: 500; }
+.barre button .lib { display: none; }
+.barre button.on { background: var(--puce); color: var(--puce-texte); }
+.barre button.on .lib { display: inline; }
+
+/* ==========================================================================
+   CIEL VIVANT — animation d'ambiance, après l'animation d'entrée.
+   Elle n'agit que lorsque la classe « vivant » est posée sur <html>
+   (réglage « Ciel : vivant », le jour). Sans elle, on retrouve le ciel fixe
+   d'origine. Pour la supprimer complètement : effacer ce bloc.
+   ========================================================================== */
+:root.vivant .astre .aura { animation: lueur 7s ease-in-out infinite alternate; }
+:root.vivant .astre .halo { animation: chauffe 7s ease-in-out infinite alternate; }
+:root.vivant .logo .aureole { animation: chauffe-trait 7s ease-in-out infinite alternate; }
+:root.vivant .couche.n0 { animation: flotte-a 19s ease-in-out infinite alternate; }
+:root.vivant .couche.n1 { animation: flotte-b 23s ease-in-out infinite alternate; }
+:root.vivant .couche.n2 { animation: flotte-a 15s ease-in-out -6s infinite alternate-reverse; }
+:root.vivant .couche.n3 { animation: flotte-b 17s ease-in-out -3s infinite alternate; }
+:root.vivant .couche.mer { animation: onde 9s ease-in-out infinite alternate; }
+:root.vivant .couche.mer.m1 { animation-duration: 11s; animation-delay: -4s; }
+:root.vivant .couche.mer canvas { animation: defile 150s linear infinite; }
+:root.vivant .couche.mer.m1 canvas { animation-duration: 100s; }
+@keyframes chauffe {
+  from { transform: none; opacity: 1; border-color: rgba(122, 86, 44, .55); box-shadow: 0 0 0 0 rgba(240, 200, 120, 0); }
+  to   { transform: none; opacity: 1; border-color: rgba(236, 196, 116, .95); box-shadow: 0 0 14px 2px rgba(240, 200, 120, .45), inset 0 0 10px rgba(240, 200, 120, .3); }
+}
+@keyframes chauffe-trait { from { stroke: #9A7444; opacity: .8; } to { stroke: #EBC57A; opacity: 1; } }
+@keyframes lueur { from { opacity: .8; transform: none; } to { opacity: 1; transform: none; } }
+@keyframes flotte-a { from { transform: translate(0, 0); } to { transform: translate(5px, -4px); } }
+@keyframes flotte-b { from { transform: translate(0, 0); } to { transform: translate(-6px, 3px); } }
+@keyframes onde { from { transform: translateY(-2px) scaleY(.98); } to { transform: translateY(3px) scaleY(1.03); } }
+@keyframes defile { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+/* ========================= fin du ciel vivant ========================= */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+</style>
+</head>
+<body>
+<div class="ciel" id="ciel" aria-hidden="true">
+  <div class="couches" id="couches"></div>
+  <div id="astre-zone"></div>
+  <div class="fondu"></div>
+</div>
+<div class="app" id="app"></div>
+<nav class="barre" id="barre" aria-label="Navigation principale" hidden></nav>
+<script>
+window.ORA_DATA = {"fetes":{"_note":"Solennités et fêtes à date fixe du calendrier romain général (texte en français). Rangs : 'solennite', 'fete-seigneur', 'fete', 'commemoration'. Couleurs : blanc, rouge, vert, violet, rose, noir. Les mémoires des saints viendront en phase 3 avec les fiches de saints.","fixes":[{"date":"01-01","id":"marie-mere-de-dieu","nom":"Sainte Marie, Mère de Dieu","rang":"solennite","couleur":"blanc"},{"date":"01-25","id":"conversion-paul","nom":"Conversion de saint Paul","rang":"fete","couleur":"blanc"},{"date":"02-02","id":"presentation","nom":"Présentation du Seigneur au Temple","rang":"fete-seigneur","couleur":"blanc"},{"date":"02-22","id":"chaire-pierre","nom":"Chaire de saint Pierre","rang":"fete","couleur":"blanc"},{"date":"03-19","id":"joseph","nom":"Saint Joseph, époux de la Vierge Marie","rang":"solennite","couleur":"blanc"},{"date":"03-25","id":"annonciation","nom":"Annonciation du Seigneur","rang":"solennite","couleur":"blanc"},{"date":"04-25","id":"marc","nom":"Saint Marc, évangéliste","rang":"fete","couleur":"rouge"},{"date":"05-03","id":"philippe-jacques","nom":"Saints Philippe et Jacques, apôtres","rang":"fete","couleur":"rouge"},{"date":"05-14","id":"matthias","nom":"Saint Matthias, apôtre","rang":"fete","couleur":"rouge"},{"date":"05-31","id":"visitation","nom":"Visitation de la Vierge Marie","rang":"fete","couleur":"blanc"},{"date":"06-24","id":"nativite-jean-baptiste","nom":"Nativité de saint Jean-Baptiste","rang":"solennite","couleur":"blanc"},{"date":"06-29","id":"pierre-paul","nom":"Saints Pierre et Paul, apôtres","rang":"solennite","couleur":"rouge"},{"date":"07-03","id":"thomas","nom":"Saint Thomas, apôtre","rang":"fete","couleur":"rouge"},{"date":"07-22","id":"marie-madeleine","nom":"Sainte Marie-Madeleine","rang":"fete","couleur":"blanc"},{"date":"07-25","id":"jacques","nom":"Saint Jacques, apôtre","rang":"fete","couleur":"rouge"},{"date":"08-06","id":"transfiguration","nom":"Transfiguration du Seigneur","rang":"fete-seigneur","couleur":"blanc"},{"date":"08-10","id":"laurent","nom":"Saint Laurent, diacre et martyr","rang":"fete","couleur":"rouge"},{"date":"08-15","id":"assomption","nom":"Assomption de la Vierge Marie","rang":"solennite","couleur":"blanc"},{"date":"08-24","id":"barthelemy","nom":"Saint Barthélemy, apôtre","rang":"fete","couleur":"rouge"},{"date":"09-08","id":"nativite-marie","nom":"Nativité de la Vierge Marie","rang":"fete","couleur":"blanc"},{"date":"09-14","id":"croix-glorieuse","nom":"La Croix glorieuse","rang":"fete-seigneur","couleur":"rouge"},{"date":"09-21","id":"matthieu","nom":"Saint Matthieu, apôtre et évangéliste","rang":"fete","couleur":"rouge"},{"date":"09-29","id":"archanges","nom":"Saints Michel, Gabriel et Raphaël, archanges","rang":"fete","couleur":"blanc"},{"date":"10-18","id":"luc","nom":"Saint Luc, évangéliste","rang":"fete","couleur":"rouge"},{"date":"10-28","id":"simon-jude","nom":"Saints Simon et Jude, apôtres","rang":"fete","couleur":"rouge"},{"date":"11-01","id":"toussaint","nom":"La Toussaint","rang":"solennite","couleur":"blanc"},{"date":"11-02","id":"defunts","nom":"Commémoration de tous les fidèles défunts","rang":"commemoration","couleur":"violet"},{"date":"11-09","id":"latran","nom":"Dédicace de la basilique du Latran","rang":"fete-seigneur","couleur":"blanc"},{"date":"11-30","id":"andre","nom":"Saint André, apôtre","rang":"fete","couleur":"rouge"},{"date":"12-08","id":"immaculee-conception","nom":"Immaculée Conception de la Vierge Marie","rang":"solennite","couleur":"blanc"},{"date":"12-25","id":"noel","nom":"Nativité du Seigneur","rang":"solennite","couleur":"blanc"},{"date":"12-26","id":"etienne","nom":"Saint Étienne, premier martyr","rang":"fete","couleur":"rouge"},{"date":"12-27","id":"jean","nom":"Saint Jean, apôtre et évangéliste","rang":"fete","couleur":"blanc"},{"date":"12-28","id":"innocents","nom":"Les saints Innocents, martyrs","rang":"fete","couleur":"rouge"}]},"explications":{"_note":"Explications courtes des temps liturgiques et des grandes fêtes. Rédigées pour Ora ; à faire relire par un prêtre avant la diffusion publique. Champs : quoi (ce que c'est), pourquoi (pourquoi c'est important), idee (une idée à vivre).","saisons":{"avent":{"quoi":"Les quatre semaines qui préparent Noël. Le mot vient du latin adventus, « venue ».","pourquoi":"On se prépare à accueillir Jésus qui vient : à Noël, dans nos vies aujourd'hui, et à la fin des temps.","idee":"Allumer une bougie de plus chaque dimanche sur une couronne de l'Avent."},"noel":{"quoi":"Le temps qui va de Noël au Baptême du Seigneur, début janvier.","pourquoi":"Dieu se fait tout proche : il devient un enfant, l'un de nous.","idee":"Laisser la crèche en place jusqu'au Baptême du Seigneur et s'y arrêter un instant."},"ordinaire":{"quoi":"Le temps « ordinaire » est celui des semaines comptées une à une (ordo signifie « ordre » en latin), entre les grandes fêtes.","pourquoi":"C'est le temps où l'on suit Jésus au quotidien, dans l'Évangile, sans événement extraordinaire : là où se vit la plus grande partie de la foi.","idee":"Lire chaque dimanche l'Évangile du jour avant d'aller à la messe, ou à la place, tranquillement."},"careme":{"quoi":"Les quarante jours entre le mercredi des Cendres et Pâques, en souvenir des quarante jours de Jésus au désert.","pourquoi":"Un temps pour revenir à Dieu, alléger ce qui encombre et préparer son cœur à la joie de Pâques.","idee":"Choisir une seule chose : une prière, un partage ou un écran en moins, et s'y tenir avec douceur."},"triduum":{"quoi":"Les trois jours qui vont du Jeudi saint au soir jusqu'au dimanche de Pâques : le cœur de toute l'année.","pourquoi":"On y vit le dernier repas de Jésus, sa mort sur la croix et sa résurrection.","idee":"Participer à au moins une des célébrations, même en partie, par exemple le chemin de croix du Vendredi saint."},"paques":{"quoi":"Les cinquante jours de Pâques à la Pentecôte, vécus comme un seul grand dimanche.","pourquoi":"Le Christ est ressuscité : la mort n'a pas le dernier mot. C'est le temps de la joie.","idee":"Ajouter « Alléluia » à la prière du soir, comme un merci."}},"fetes":{"toussaint":{"quoi":"La fête de tous les saints : ceux que l'Église a reconnus, et la foule immense de ceux que Dieu seul connaît.","pourquoi":"Elle rappelle que la sainteté n'est pas réservée à quelques héros : c'est la vocation de chacun, et nous sommes entourés de cette grande famille.","idee":"Raconter à un enfant l'histoire du saint dont il porte le prénom, ou d'un saint qu'il aime."},"defunts":{"quoi":"Le lendemain de la Toussaint, l'Église prie pour tous les morts.","pourquoi":"Nous croyons que la mort n'est pas une rupture définitive : la prière nous relie encore à ceux que nous aimons.","idee":"Dire le nom d'une personne disparue et confier cette personne à Dieu, ou aller fleurir une tombe."},"christ-roi":{"quoi":"Le dernier dimanche de l'année liturgique, avant l'Avent.","pourquoi":"Jésus est roi, mais un roi qui sert, qui pardonne et qui se donne : son royaume est fait d'amour.","idee":"Rendre un service discret à quelqu'un, sans le dire."},"immaculee-conception":{"quoi":"La fête qui célèbre Marie, préservée de tout péché dès le premier instant de sa vie, dans le ventre de sa mère.","pourquoi":"Dieu a préparé Marie pour qu'elle puisse dire oui de tout son être à la venue de Jésus.","idee":"Dire un « Je vous salue Marie » et, comme à Lyon, poser une bougie à la fenêtre le soir."},"noel":{"quoi":"La naissance de Jésus à Bethléem.","pourquoi":"Dieu ne reste pas loin : il vient habiter parmi nous, pauvre et petit, pour que personne n'ait peur de s'approcher.","idee":"Avant d'ouvrir les cadeaux, s'arrêter en famille devant la crèche et dire merci."},"sainte-famille":{"quoi":"Le dimanche après Noël, on fête Jésus, Marie et Joseph.","pourquoi":"Jésus a grandi dans une famille, avec ses joies et ses difficultés : toute famille peut y trouver un modèle et une aide.","idee":"Prier ensemble une minute avant le repas, chacun disant un merci."},"marie-mere-de-dieu":{"quoi":"Le 1er janvier, l'Église fête Marie, Mère de Jésus, vrai Dieu et vrai homme. C'est aussi la Journée mondiale de la paix.","pourquoi":"On commence l'année sous le regard d'une mère, en demandant la paix.","idee":"Confier à Marie une intention pour l'année qui commence."},"epiphanie":{"quoi":"La visite des mages venus d'Orient, guidés par une étoile, jusqu'à l'enfant Jésus.","pourquoi":"Jésus n'est pas venu pour un seul peuple : il se manifeste à tous, d'où qu'ils viennent.","idee":"Partager la galette des rois et dire une prière pour quelqu'un de loin."},"bapteme":{"quoi":"Jésus est baptisé par Jean dans le Jourdain. Une voix dit : « Celui-ci est mon Fils bien-aimé. »","pourquoi":"Par notre baptême, nous aussi sommes appelés enfants bien-aimés de Dieu.","idee":"Retrouver la date de son baptême et la noter quelque part."},"cendres":{"quoi":"Le premier jour du Carême. Le prêtre trace une croix de cendres sur le front.","pourquoi":"Un signe d'humilité et de recommencement : nous sommes fragiles, et Dieu nous attend.","idee":"Choisir l'effort de Carême qu'on aimerait vivre, un seul, simple."},"rameaux":{"quoi":"Jésus entre à Jérusalem, acclamé par la foule qui agite des branches. C'est le début de la Semaine sainte.","pourquoi":"La même foule qui acclame criera bientôt « Crucifie-le » : c'est le mystère de nos cœurs partagés.","idee":"Rapporter un rameau béni et le placer près d'une croix à la maison."},"jeudi-saint":{"quoi":"Le dernier repas de Jésus avec ses amis, où il lave leurs pieds et donne son Corps et son Sang.","pourquoi":"C'est la naissance de l'Eucharistie et le commandement de l'amour qui sert.","idee":"Rendre un service humble à la maison, sans rien attendre."},"vendredi-saint":{"quoi":"Le jour où Jésus meurt sur la croix.","pourquoi":"Il donne sa vie par amour, jusqu'au bout, pour nous sauver.","idee":"Prendre un moment de silence à 15 heures, l'heure de sa mort."},"samedi-saint":{"quoi":"Le jour du grand silence : Jésus repose au tombeau. Le soir, la veillée pascale ouvre la fête de Pâques.","pourquoi":"C'est le jour de l'attente, comme nos moments où Dieu semble absent.","idee":"Garder une journée calme, puis allumer une bougie le soir."},"paques":{"quoi":"La résurrection de Jésus, le matin du troisième jour.","pourquoi":"C'est le cœur de la foi chrétienne : l'amour est plus fort que la mort.","idee":"Dire à quelqu'un : « Christ est ressuscité ! », comme les premiers chrétiens."},"misericorde":{"quoi":"Le dimanche qui suit Pâques, consacré à la miséricorde de Dieu.","pourquoi":"Dieu pardonne sans se lasser : il n'y a pas de faute plus grande que son amour.","idee":"Pardonner une petite chose à quelqu'un, ou se pardonner à soi-même."},"ascension":{"quoi":"Quarante jours après Pâques, Jésus retourne auprès de son Père.","pourquoi":"Il ne nous abandonne pas : il nous confie la mission de continuer son œuvre et promet l'Esprit Saint.","idee":"Lever les yeux vers le ciel un instant et dire merci."},"pentecote":{"quoi":"Cinquante jours après Pâques, l'Esprit Saint descend sur les apôtres réunis.","pourquoi":"C'est la naissance de l'Église : l'Esprit donne la force et la joie de témoigner.","idee":"Dire simplement : « Viens, Esprit Saint », avant une décision ou une journée difficile."},"trinite":{"quoi":"La fête de Dieu unique en trois personnes : le Père, le Fils et le Saint-Esprit.","pourquoi":"Dieu n'est pas solitaire : il est amour, relation, communion.","idee":"Faire le signe de croix lentement, en pensant à chaque mot."},"saint-sacrement":{"quoi":"La fête du Corps et du Sang du Christ, présent dans l'Eucharistie.","pourquoi":"Jésus se donne en nourriture pour rester avec nous chaque jour.","idee":"Entrer dans une église et rester une minute devant le tabernacle."},"sacre-coeur":{"quoi":"La fête de l'amour de Jésus, représenté par son cœur.","pourquoi":"Elle rappelle que Dieu nous aime avec un cœur humain, tendre et patient.","idee":"Confier à Jésus ce qui pèse sur le cœur."},"assomption":{"quoi":"Marie, au terme de sa vie terrestre, est élevée corps et âme dans la gloire du ciel.","pourquoi":"Ce qui est arrivé à Marie est une promesse pour nous : notre corps aussi est appelé à la vie.","idee":"Dire un « Je vous salue Marie » pour sa famille."},"joseph":{"quoi":"La fête de Joseph, l'époux de Marie, qui a veillé sur Jésus enfant.","pourquoi":"Un homme discret, juste et courageux : le saint patron des pères et des travailleurs.","idee":"Pour un papa : confier à saint Joseph son rôle de père."},"annonciation":{"quoi":"L'ange Gabriel annonce à Marie qu'elle sera la mère du Fils de Dieu, et elle répond oui.","pourquoi":"Le « oui » de Marie ouvre la porte à Dieu dans l'histoire humaine.","idee":"Dire l'Angélus, la prière qui rappelle ce moment."},"nativite-jean-baptiste":{"quoi":"La naissance de Jean, le cousin de Jésus, qui l'a annoncé et baptisé.","pourquoi":"Jean prépare le chemin : il montre Jésus et s'efface. C'est l'une des rares naissances fêtées par l'Église.","idee":"En Catalogne, la Sant Joan se fête avec des feux : une occasion de parler de Jean à un enfant."},"pierre-paul":{"quoi":"La fête des deux grands apôtres, Pierre le pêcheur et Paul le converti, morts à Rome.","pourquoi":"Deux hommes très différents, avec leurs faiblesses, sur qui repose l'Église.","idee":"Prier pour le pape, successeur de Pierre."}}},"prieres":{"_note":"Prières traditionnelles (textes en usage dans l'Église catholique en France, libres d'usage) et prières guidées rédigées pour Ora. Le Notre Père suit la traduction liturgique entrée en vigueur en 2017. À faire relire par un prêtre avant la diffusion publique.","traditionnelles":[{"id":"signe-de-croix","titre":"Le signe de croix","texte":"Au nom du Père,\net du Fils,\net du Saint-Esprit.\nAmen.","geste":"De la main droite, on touche le front (le Père), la poitrine (le Fils), puis l'épaule gauche et l'épaule droite (le Saint-Esprit).","quand":"Au début et à la fin de toute prière, en entrant dans une église, avant un repas, ou simplement pour se mettre sous le regard de Dieu.","pourquoi":"C'est la prière la plus courte et la plus ancienne : en quelques mots, on dit sa foi en Dieu Père, Fils et Esprit, et on trace sur soi la croix du Christ.","niveau":1},{"id":"notre-pere","titre":"Notre Père","texte":"Notre Père, qui es aux cieux,\nque ton nom soit sanctifié,\nque ton règne vienne,\nque ta volonté soit faite\nsur la terre comme au ciel.\nDonne-nous aujourd'hui notre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi\nà ceux qui nous ont offensés.\nEt ne nous laisse pas entrer en tentation,\nmais délivre-nous du Mal.\nAmen.","quand":"Chaque jour, le matin ou le soir, à la messe, ou quand on ne sait pas quoi dire à Dieu.","pourquoi":"C'est la prière que Jésus lui-même a apprise à ses disciples (Mt 6, 9-13). Elle contient tout : la confiance, le pain de chaque jour, le pardon et la protection.","source":"Mt 6, 9-13 ; Lc 11, 2-4","niveau":1},{"id":"je-vous-salue-marie","titre":"Je vous salue Marie","texte":"Je vous salue, Marie, pleine de grâce ;\nle Seigneur est avec vous.\nVous êtes bénie entre toutes les femmes,\net Jésus, le fruit de vos entrailles, est béni.\nSainte Marie, Mère de Dieu,\npriez pour nous, pauvres pécheurs,\nmaintenant et à l'heure de notre mort.\nAmen.","quand":"À tout moment, seul ou avec un enfant. Elle se répète dix fois dans chaque dizaine du chapelet.","pourquoi":"La première partie reprend les paroles de l'ange Gabriel et d'Élisabeth à Marie (Lc 1, 28.42). Dans la seconde, on demande à Marie de prier pour nous, comme on le demanderait à une mère.","source":"Lc 1, 28 ; Lc 1, 42","niveau":1},{"id":"gloire-au-pere","titre":"Gloire au Père","texte":"Gloire au Père, et au Fils, et au Saint-Esprit,\nau Dieu qui est, qui était et qui vient,\npour les siècles des siècles.\nAmen.","variante":"Gloire au Père, et au Fils, et au Saint-Esprit,\ncomme il était au commencement, maintenant et toujours,\net pour les siècles des siècles.\nAmen.","quand":"À la fin d'une dizaine de chapelet, d'un psaume, ou comme une petite prière de louange dans la journée.","pourquoi":"C'est une louange toute simple : on ne demande rien, on rend gloire à Dieu pour ce qu'il est.","niveau":1},{"id":"credo","titre":"Je crois en Dieu (Symbole des Apôtres)","texte":"Je crois en Dieu, le Père tout-puissant,\ncréateur du ciel et de la terre.\nEt en Jésus Christ, son Fils unique, notre Seigneur,\nqui a été conçu du Saint-Esprit,\nest né de la Vierge Marie,\na souffert sous Ponce Pilate,\na été crucifié,\nest mort et a été enseveli,\nest descendu aux enfers,\nle troisième jour est ressuscité des morts,\nest monté aux cieux,\nest assis à la droite de Dieu le Père tout-puissant,\nd'où il viendra juger les vivants et les morts.\nJe crois en l'Esprit Saint,\nà la sainte Église catholique,\nà la communion des saints,\nà la rémission des péchés,\nà la résurrection de la chair,\nà la vie éternelle.\nAmen.","quand":"Au début du chapelet, à la messe du dimanche, ou pour redire sa foi quand elle vacille.","pourquoi":"Le Credo résume l'essentiel de la foi chrétienne, telle que l'Église la transmet depuis les premiers siècles. Le dire, c'est se relier à tous les croyants d'hier et d'aujourd'hui.","niveau":2},{"id":"ange-de-dieu","titre":"Ange de Dieu","texte":"Ange de Dieu,\nqui êtes mon gardien,\net à qui j'ai été confié par la bonté divine,\néclairez-moi, protégez-moi,\ndirigez-moi et gouvernez-moi.\nAmen.","quand":"Le soir avant de dormir, ou le matin en partant. Une très belle prière à dire avec un enfant.","pourquoi":"L'Église croit que chacun est accompagné par un ange gardien, un ami invisible que Dieu met à nos côtés (Catéchisme, n° 336).","niveau":1},{"id":"angelus","titre":"L'Angélus","texte":"L'ange du Seigneur apporta l'annonce à Marie,\n— et elle conçut du Saint-Esprit.\nJe vous salue, Marie…\n\nVoici la servante du Seigneur,\n— qu'il me soit fait selon votre parole.\nJe vous salue, Marie…\n\nEt le Verbe s'est fait chair,\n— et il a habité parmi nous.\nJe vous salue, Marie…\n\nPriez pour nous, sainte Mère de Dieu,\n— afin que nous soyons rendus dignes des promesses du Christ.\n\nPrions le Seigneur.\nQue ta grâce, Seigneur notre Père, se répande en nos cœurs :\npar le message de l'ange, tu nous as fait connaître l'incarnation de ton Fils bien-aimé ;\nconduis-nous, par sa passion et par sa croix,\njusqu'à la gloire de la résurrection.\nPar Jésus, le Christ, notre Seigneur.\nAmen.","quand":"Traditionnellement trois fois par jour : à 6 heures, à midi et à 18 heures, quand sonnent les cloches.","pourquoi":"Elle rappelle le moment où Dieu s'est fait homme, grâce au « oui » de Marie. La dire à midi, c'est faire une pause au milieu de la journée pour se souvenir de Dieu.","niveau":3},{"id":"acte-de-contrition","titre":"Acte de contrition","texte":"Mon Dieu, j'ai un très grand regret de vous avoir offensé,\nparce que vous êtes infiniment bon, infiniment aimable,\net que le péché vous déplaît.\nJe prends la ferme résolution, avec le secours de votre sainte grâce,\nde ne plus vous offenser et de faire pénitence.","variante":"Mon Dieu, j'ai péché contre toi et contre mes frères,\nmais près de toi se trouve le pardon.\nAccueille mon repentir\net donne-moi la force de vivre selon ton amour.","quand":"Le soir après l'examen de la journée, ou pendant la confession, après avoir dit ses péchés.","pourquoi":"On dit à Dieu qu'on regrette le mal qu'on a fait et qu'on veut changer, en comptant sur son aide plus que sur ses propres forces.","niveau":2},{"id":"benedicite","titre":"Bénédicité","texte":"Bénissez-nous, Seigneur,\nbénissez ce repas,\nceux qui l'ont préparé,\net procurez du pain à ceux qui n'en ont pas.\nAmen.","quand":"Avant le repas, en famille ou seul.","pourquoi":"On remercie Dieu pour la nourriture et pour ceux qui l'ont préparée, et on pense à ceux qui ont faim.","niveau":1},{"id":"priere-du-soir","titre":"Prière du soir","texte":"Seigneur, la journée s'achève.\nMerci pour ce qui a été beau aujourd'hui.\nPardon pour ce qui a été lourd.\nJe te confie ceux que j'aime,\net ceux qui sont seuls ce soir.\nGarde-nous cette nuit dans ta paix.\nAmen.","quand":"Le soir, au moment de se coucher, seul ou avec un enfant.","pourquoi":"Remettre la journée entre les mains de Dieu aide à s'endormir en paix, sans tout porter seul.","auteur":"Rédigée pour Ora","niveau":1}],"guidees":[{"id":"trois-mots","titre":"La prière des trois mots","duree":"1 minute","intro":"Trois petits mots pour parler à Dieu comme à un ami, le soir.","etapes":[{"mot":"Merci","invitation":"Pour quoi as-tu envie de dire merci aujourd'hui ? Un moment, une personne, une chose toute simple."},{"mot":"Pardon","invitation":"Y a-t-il quelque chose que tu regrettes ? Tu peux le dire à Dieu, sans peur : il pardonne."},{"mot":"S'il te plaît","invitation":"Pour qui, pour quoi as-tu envie de demander de l'aide ? Pour toi, pour quelqu'un que tu aimes, pour demain."}],"fin":"Tu peux terminer par un signe de croix.","niveau":2},{"id":"examen-du-soir","titre":"L'examen du soir","duree":"5 minutes","intro":"Une façon de relire sa journée avec Dieu, inspirée de saint Ignace de Loyola. Il ne s'agit pas de se juger, mais de regarder avec lui.","etapes":[{"mot":"Se poser","invitation":"Fais le signe de croix. Respire calmement. Dieu est là, il te regarde avec bienveillance."},{"mot":"Rendre grâce","invitation":"Repasse ta journée comme un film. Arrête-toi sur ce qui a été bon, et dis merci."},{"mot":"Voir","invitation":"Où as-tu senti la paix, la joie ? Où as-tu senti du trouble ou de la tristesse ? Dieu était-il présent ?"},{"mot":"Demander pardon","invitation":"Confie-lui ce que tu regrettes. Tu peux dire l'acte de contrition."},{"mot":"Demain","invitation":"Demande-lui son aide pour demain, pour une chose précise."}],"fin":"Termine par un Notre Père.","niveau":3},{"id":"dizaine","titre":"Une dizaine de chapelet","duree":"5 minutes","intro":"Le chapelet est une prière simple et répétitive, comme une respiration. Une dizaine suffit pour commencer. Pendant les Je vous salue Marie, on pense à une scène de la vie de Jésus : un « mystère ».","etapes":[{"mot":"Commencer","invitation":"Fais le signe de croix. Choisis une scène de la vie de Jésus, par exemple l'Annonciation, et imagine-la quelques secondes."},{"mot":"Notre Père","invitation":"Dis un Notre Père, tranquillement."},{"mot":"Dix Je vous salue Marie","invitation":"Dis dix fois le Je vous salue Marie. Si ton esprit s'égare, ce n'est pas grave : reviens doucement à la scène."},{"mot":"Gloire au Père","invitation":"Termine par un Gloire au Père."}],"mysteres":{"joyeux":["L'Annonciation","La Visitation","La Nativité","La Présentation au Temple","Jésus retrouvé au Temple"],"lumineux":["Le baptême de Jésus","Les noces de Cana","L'annonce du Royaume","La Transfiguration","L'institution de l'Eucharistie"],"douloureux":["L'agonie au jardin des Oliviers","La flagellation","Le couronnement d'épines","Le portement de croix","La crucifixion"],"glorieux":["La Résurrection","L'Ascension","La Pentecôte","L'Assomption","Le couronnement de Marie"]},"joursMysteres":{"lundi":"joyeux","mardi":"douloureux","mercredi":"glorieux","jeudi":"lumineux","vendredi":"douloureux","samedi":"joyeux","dimanche":"glorieux"},"niveau":3}],"petitesPrieres":[{"texte":"Vous tous, saints et saintes de Dieu, priez pour nous.","contexte":"toussaint"},{"texte":"Seigneur, donne-leur le repos éternel, et que brille sur eux la lumière sans fin.","contexte":"defunts"},{"texte":"Viens, Seigneur Jésus.","contexte":"avent","source":"Ap 22, 20"},{"texte":"Seigneur, que veux-tu que je fasse aujourd'hui ?","contexte":"ordinaire"},{"texte":"Jésus, j'ai confiance en toi.","contexte":"ordinaire"},{"texte":"Mon Dieu, je t'aime.","contexte":"ordinaire"},{"texte":"Viens, Esprit Saint.","contexte":"paques"},{"texte":"Seigneur, prends pitié.","contexte":"careme"},{"texte":"Christ est ressuscité, alléluia !","contexte":"paques"},{"texte":"Gloire à Dieu au plus haut des cieux, et paix sur la terre.","contexte":"noel","source":"Lc 2, 14"}]},"lexique":{"_note":"Lexique d'Ora : chaque mot du vocabulaire catholique en deux ou trois phrases simples. Les 'formes' servent à repérer le mot dans les textes pour le rendre cliquable. À faire relire par un prêtre avant la diffusion publique.","mots":[{"id":"alleluia","mot":"Alléluia","formes":["alléluia","Alléluia"],"def":"Un mot hébreu qui veut dire « louez Dieu ». C'est un cri de joie, chanté surtout pendant le temps de Pâques. On ne le chante pas pendant le Carême."},{"id":"amen","mot":"Amen","formes":["Amen","amen"],"def":"Un mot hébreu qui veut dire « c'est vrai », « j'y crois », « qu'il en soit ainsi ». On le dit à la fin d'une prière pour y mettre son accord."},{"id":"ange-gardien","mot":"Ange gardien","formes":["ange gardien","anges gardiens","gardien"],"def":"Un ange que Dieu donne à chacun pour l'accompagner et le protéger tout au long de sa vie. On peut lui parler comme à un ami invisible."},{"id":"annonciation","mot":"Annonciation","formes":["Annonciation"],"def":"Le moment où l'ange Gabriel annonce à Marie qu'elle sera la mère de Jésus. Marie répond « oui ». On le fête le 25 mars."},{"id":"apotre","mot":"Apôtre","formes":["apôtre","apôtres","Apôtres"],"def":"Les douze amis choisis par Jésus pour l'accompagner, puis pour annoncer l'Évangile au monde. Pierre, Jean, Jacques ou Thomas en font partie."},{"id":"avent","mot":"Avent","formes":["Avent"],"def":"Les quatre semaines qui préparent Noël. Le mot vient du latin adventus, qui veut dire « venue »."},{"id":"bapteme","mot":"Baptême","formes":["baptême","Baptême","baptisé","baptisés"],"def":"Le premier sacrement, qui fait entrer dans la famille des chrétiens. Par l'eau et l'Esprit Saint, on devient enfant de Dieu. Il ne se reçoit qu'une fois, et il est pour toujours."},{"id":"beatitudes","mot":"Béatitudes","formes":["Béatitudes","béatitudes"],"def":"Les paroles de Jésus qui commencent par « Heureux… » : heureux les doux, les cœurs purs, les artisans de paix… (Mt 5, 1-12). Elles décrivent le vrai bonheur selon Dieu."},{"id":"bible","mot":"Bible","formes":["Bible"],"def":"Le livre saint des chrétiens, fait de 73 livres écrits sur plus de mille ans. L'Ancien Testament raconte l'histoire de Dieu avec son peuple, le Nouveau Testament raconte Jésus et les premiers chrétiens."},{"id":"careme","mot":"Carême","formes":["Carême","carême"],"def":"Les quarante jours qui préparent Pâques, du mercredi des Cendres au Jeudi saint. Un temps pour revenir à Dieu par la prière, le partage et le jeûne."},{"id":"catechisme","mot":"Catéchisme","formes":["Catéchisme","catéchisme"],"def":"L'enseignement de la foi chrétienne. Le Catéchisme de l'Église catholique est le livre qui rassemble tout ce que croit l'Église, publié en 1992."},{"id":"chapelet","mot":"Chapelet","formes":["chapelet","chapelets"],"def":"Un collier de grains qui aide à prier : sur chaque grain, on dit une prière. Une « dizaine » compte un Notre Père, dix Je vous salue Marie et un Gloire au Père. Le chapelet complet compte cinq dizaines."},{"id":"communion","mot":"Communion","formes":["communion","communier"],"def":"Le moment de la messe où l'on reçoit l'hostie, le Corps du Christ. Le mot veut dire « union avec » : avec Jésus et avec les autres croyants."},{"id":"communion-des-saints","mot":"Communion des saints","formes":["communion des saints"],"def":"La grande famille qui unit tous les croyants : ceux qui vivent sur terre, ceux qui sont morts et ceux qui sont déjà auprès de Dieu. Nous pouvons prier les uns pour les autres."},{"id":"confession","mot":"Confession","formes":["confession","se confesser","réconciliation"],"def":"Le sacrement du pardon, aussi appelé sacrement de réconciliation. On dit ses péchés à un prêtre, qui donne le pardon de Dieu. Le prêtre ne peut jamais répéter ce qu'il a entendu."},{"id":"credo","mot":"Credo","formes":["Credo"],"def":"Un mot latin qui veut dire « je crois ». C'est le texte qui résume la foi chrétienne, dit le dimanche à la messe."},{"id":"croix","mot":"Croix","formes":["croix","Croix"],"def":"L'instrument de la mort de Jésus, devenu le signe des chrétiens. Elle rappelle que Jésus a donné sa vie par amour, et qu'il est ressuscité."},{"id":"defunts","mot":"Défunts","formes":["défunts","défunt","défunte"],"def":"Les personnes qui sont mortes. L'Église prie pour elles, surtout le 2 novembre, avec l'espérance de les retrouver auprès de Dieu."},{"id":"esprit-saint","mot":"Esprit Saint","formes":["Esprit Saint","Saint-Esprit","l'Esprit"],"def":"La troisième personne de la Trinité, avec le Père et le Fils. Il est le souffle de Dieu qui donne la force, la paix et la joie, et qui aide à prier."},{"id":"eucharistie","mot":"Eucharistie","formes":["Eucharistie","eucharistie"],"def":"Le sacrement du Corps et du Sang du Christ, célébré à la messe. Le mot grec veut dire « action de grâce », c'est-à-dire « merci »."},{"id":"evangile","mot":"Évangile","formes":["Évangile","évangile","Évangiles","évangiles"],"def":"Le mot veut dire « bonne nouvelle ». Ce sont les quatre livres de la Bible (Matthieu, Marc, Luc et Jean) qui racontent la vie, les paroles, la mort et la résurrection de Jésus."},{"id":"grace","mot":"Grâce","formes":["grâce","grâces"],"def":"Un cadeau gratuit de Dieu : son amour et son aide, qu'on ne mérite pas mais qu'il donne volontiers. « Rendre grâce », c'est dire merci."},{"id":"hostie","mot":"Hostie","formes":["hostie","hosties"],"def":"Le petit pain rond et plat, sans levain, qui devient le Corps du Christ pendant la messe."},{"id":"incarnation","mot":"Incarnation","formes":["incarnation","Incarnation"],"def":"Le mystère de Dieu qui se fait homme en Jésus. Le mot vient du latin caro, « chair » : Dieu a pris un corps comme le nôtre."},{"id":"laudes","mot":"Laudes","formes":["Laudes","laudes"],"def":"La prière du matin de l'Église, faite de psaumes, de lectures et de chants. Le mot vient du latin laus, « louange »."},{"id":"liturgie","mot":"Liturgie","formes":["liturgie","liturgique","liturgiques"],"def":"L'ensemble des célébrations de l'Église : la messe, les sacrements, la prière des heures. Le temps liturgique, c'est l'année organisée autour de la vie de Jésus."},{"id":"messe","mot":"Messe","formes":["messe","messes"],"def":"La célébration principale des chrétiens, où l'on écoute la Parole de Dieu et où l'on partage l'Eucharistie. Elle a lieu chaque dimanche, et souvent chaque jour."},{"id":"misericorde","mot":"Miséricorde","formes":["Miséricorde","miséricorde"],"def":"L'amour de Dieu qui pardonne et qui relève. Le mot vient du latin : un cœur (cor) qui se penche sur la misère."},{"id":"mystere","mot":"Mystère","formes":["mystère","mystères"],"def":"Dans la foi, un mystère n'est pas une énigme à résoudre : c'est une réalité si grande qu'on ne finit jamais de la découvrir. Dans le chapelet, les mystères sont des scènes de la vie de Jésus et de Marie."},{"id":"paques","mot":"Pâques","formes":["Pâques"],"def":"La plus grande fête chrétienne : la résurrection de Jésus. Sa date change chaque année : c'est le dimanche qui suit la première pleine lune du printemps."},{"id":"peche","mot":"Péché","formes":["péché","péchés","pécheurs"],"def":"Un acte, une parole ou une pensée qui abîme notre relation avec Dieu, avec les autres ou avec nous-mêmes. Dieu est toujours prêt à pardonner."},{"id":"pentecote","mot":"Pentecôte","formes":["Pentecôte"],"def":"La fête, cinquante jours après Pâques, où l'Esprit Saint descend sur les apôtres. On dit que c'est la naissance de l'Église."},{"id":"psaume","mot":"Psaume","formes":["Psaume","psaume","psaumes"],"def":"Une prière chantée de la Bible. Le livre des Psaumes en compte 150, qui disent toutes les émotions humaines : la joie, la peur, la colère, la confiance."},{"id":"resurrection","mot":"Résurrection","formes":["résurrection","Résurrection","ressuscité"],"def":"Le retour à la vie de Jésus, trois jours après sa mort, avec un corps transformé. C'est aussi la promesse faite à tous : la mort n'est pas la fin."},{"id":"sacrement","mot":"Sacrement","formes":["sacrement","sacrements"],"def":"Un signe visible par lequel Dieu donne sa grâce. Il y en a sept : baptême, confirmation, eucharistie, réconciliation, onction des malades, mariage et ordre."},{"id":"saint","mot":"Saint","formes":["saint","sainte","saints","saintes"],"def":"Une personne qui a vécu en grande amitié avec Dieu et qui est auprès de lui. L'Église en a reconnu des milliers, mais tous les chrétiens sont appelés à la sainteté."},{"id":"solennite","mot":"Solennité","formes":["Solennité","solennité","solennités"],"def":"Le plus haut degré de fête dans l'année liturgique, comme Noël, Pâques ou la Toussaint. On y chante le Gloria et on dit le Credo à la messe."},{"id":"temps-ordinaire","mot":"Temps ordinaire","formes":["temps ordinaire"],"def":"Les semaines de l'année qui ne sont ni l'Avent, ni Noël, ni le Carême, ni Pâques. « Ordinaire » vient du latin ordo : des semaines qu'on compte, une à une."},{"id":"toussaint","mot":"Toussaint","formes":["Toussaint"],"def":"La fête de tous les saints, le 1er novembre : les saints connus et tous les autres, que Dieu seul connaît."},{"id":"trinite","mot":"Trinité","formes":["Trinité"],"def":"Le mystère d'un seul Dieu en trois personnes : le Père, le Fils (Jésus) et le Saint-Esprit. Dieu est amour, et l'amour est toujours relation."},{"id":"vepres","mot":"Vêpres","formes":["Vêpres","vêpres"],"def":"La prière du soir de l'Église, au coucher du soleil. Le mot vient du latin vesper, « le soir »."},{"id":"vierge-marie","mot":"Vierge Marie","formes":["Vierge Marie","Marie"],"def":"La mère de Jésus. Les chrétiens l'aiment et la prient comme une mère : elle ne remplace pas Dieu, elle conduit à son Fils."}]},"conseils":{"_note":"Petits conseils du jour, utilisés quand la fête du jour n'a pas d'idée à vivre propre. Toujours une proposition, jamais une obligation.","conseils":["Avant de prendre ton téléphone ce matin, tu peux faire un signe de croix, juste un.","Pense à une personne qui compte pour toi et confie-la à Dieu en une phrase.","Entre dans une église en passant, même deux minutes, et assieds-toi simplement.","Au moment du repas, dis merci intérieurement pour ce qui est dans ton assiette.","Si quelqu'un t'agace aujourd'hui, essaie de dire pour lui une petite prière.","Prends une minute de silence, sans rien faire. Dieu est là aussi.","Écris quelque part une chose pour laquelle tu es reconnaissant aujourd'hui.","Rends un petit service sans le faire savoir.","Ce soir, raconte à ton enfant un moment heureux de ta journée.","Relis lentement une phrase de l'Évangile et garde-la avec toi toute la journée.","Pardonne une petite chose, à quelqu'un ou à toi-même.","Dis « Jésus, j'ai confiance en toi » au moment le plus chargé de ta journée."],"lecturesConnues":{"_note":"Provisoire : quelques références de l'Évangile du jour en attendant le lectionnaire complet (phase 4). Vérifiées sur aelf.org avant publication.","2026-11-01":"Mt 5, 1-12a"}},"jours":{"_note":"Contenus du jour, rédigés pour Ora. Chaque citation est vérifiée à sa source. Bible : traduction Crampon 1923 (domaine public). À faire relire par un prêtre avant la diffusion publique.","2026-11-01":{"priere":"Vous tous, saints et saintes de Dieu, priez pour nous.","evangile":{"ref":"Mt 5, 1-5","refComplete":"Mt 5, 1-12a","texte":"Voyant les foules, il monta sur la montagne, et lorsqu'il se fut assis, ses disciples s'approchèrent de lui. Alors, prenant la parole, il se mit à les enseigner, en disant :\n« Heureux les pauvres en esprit, car le royaume des cieux est à eux !\nHeureux ceux qui sont doux, car ils posséderont la terre !\nHeureux ceux qui pleurent, car ils seront consolés ! »","piste":"Jésus ne dit pas « heureux ceux qui réussissent », mais heureux les doux, ceux qui pleurent, ceux qui ont le cœur pauvre. Laquelle de ces béatitudes te ressemble le plus aujourd'hui ?"},"citation":{"texte":"Il n'y a qu'une tristesse, c'est de n'être pas des saints.","auteur":"Léon Bloy","source":"La Femme pauvre (1897), dernière phrase du roman"},"reflexion":{"titre":"Día de los Muertos : regarder la mort en face","accroche":"Au Mexique, ces jours-ci, on décore les tombes et on prépare des autels fleuris pour les morts. Et nous, quel rapport avons-nous avec la mort ?","fait":"Les 1er et 2 novembre, le Mexique célèbre le Día de los Muertos. Les familles dressent des autels (ofrendas) avec les photos des défunts, des bougies, des fleurs orange de cempasúchil et les plats qu'ils aimaient. Cette fête, où se mêlent traditions indigènes et foi catholique, est inscrite au patrimoine culturel immatériel de l'humanité par l'UNESCO. Ici, en Catalogne, c'est la Castanyada : on partage châtaignes et panellets en famille.","citations":[{"texte":"Avoir chaque jour la mort présente devant les yeux.","source":"Règle de saint Benoît, chapitre 4, verset 47 (vers 530) — « mortem cotidie ante oculos suspectam habere », traduction libre"},{"texte":"Je suis la résurrection et la vie ; celui qui croit en moi, fût-il mort, vivra.","source":"Jean 11, 25 (Bible Crampon)"}],"piste":"Dans notre culture, on évite souvent de parler de la mort. Les chrétiens, depuis toujours, ont choisi de la regarder en face : c'est le « memento mori », « souviens-toi que tu mourras ». Non pas pour avoir peur, mais pour vivre chaque jour comme un cadeau, et parce que Jésus a promis que la mort n'a pas le dernier mot. Les Mexicains font la fête avec leurs morts ; les chrétiens, eux, espèrent les retrouver.","priere":"Seigneur, apprends-moi à vivre chaque jour comme un don, et garde dans ta lumière ceux que j'ai aimés."},"histoire":{"titre":"Comment un temple de tous les dieux est devenu l'église de tous les saints","accroche":"La Toussaint est née à Rome, dans l'un des plus célèbres monuments de l'Antiquité : le Panthéon.","texte":"Le Panthéon de Rome était un temple dédié à tous les dieux de l'Empire. Vers 609, l'empereur Phocas l'offrit au pape Boniface IV, qui le consacra à la Vierge Marie et à tous les martyrs, sous le nom de Sainte-Marie-aux-Martyrs. Le 13 mai, jour de cette consécration, devint la fête de tous les martyrs.\n\nAu VIIIe siècle, le pape Grégoire III dédia une chapelle de la basilique Saint-Pierre à tous les saints, et la fête commença à être célébrée le 1er novembre. Vers 835, le pape Grégoire IV demanda qu'elle soit fêtée dans toute la chrétienté, et l'empereur Louis le Pieux l'étendit à tout l'empire carolingien. Les historiens discutent encore du rôle exact de chacun.\n\nLe Panthéon est toujours une église aujourd'hui : on peut y entrer librement, sous la grande ouverture de sa coupole ouverte sur le ciel.","source":"Institut catholique de Paris, « Qu'est-ce que la Toussaint en 5 questions » ; New Catholic Encyclopedia, « All Saints, Solemnity of »"},"portrait":{"nom":"Saint Carlo Acutis","dates":"1991-2006","accroche":"Un adolescent passionné d'informatique, mort à 15 ans, devenu le premier saint de la génération Internet.","texte":"Carlo naît à Londres le 3 mai 1991 et grandit à Milan, dans une famille peu pratiquante. Tout jeune, il se prend d'amour pour la messe : il demande à communier dès 7 ans et y va ensuite chaque jour.\n\nC'est un adolescent de son temps, entouré d'amis et passionné d'informatique. Il crée un site et une exposition sur les miracles eucharistiques, qui voyage encore aujourd'hui dans le monde entier.\n\nEn octobre 2006, une leucémie foudroyante l'emporte en quelques jours, à 15 ans. Il repose à Assise. Le pape Léon XIV l'a déclaré saint le 7 septembre 2025, en rappelant sa devise : « Pas moi, mais Dieu. »\n\nSa vie dit le cœur de la Toussaint : on n'a pas besoin de faire des choses extraordinaires pour devenir saint, il suffit d'aimer Dieu et les autres dans sa vie ordinaire.","avecEnfant":"Raconte à ton fils l'histoire de Carlo, qui aimait les ordinateurs et qui parlait à Jésus comme à son meilleur ami.","source":"Opus Dei, « Carlo Acutis, le premier saint millénial » (2025) ; Associated Press (juin et septembre 2025)"}}}};
+/*
+ * Ora — moteur du calendrier liturgique (rite romain, forme ordinaire).
+ * Fonctionne hors ligne, sans dépendance. Les fêtes à date fixe viennent de data/fetes.json.
+ * Région 'fr' : Épiphanie le dimanche entre le 2 et le 8 janvier, Ascension le jeudi,
+ * Saint-Sacrement le dimanche (usage de la France). D'autres régions viendront plus tard.
+ */
+(function (global) {
+  'use strict';
+
+  var JOUR = 86400000;
+  var JOURS = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
+  var MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+
+  // Toutes les dates sont manipulées en UTC à minuit pour éviter les pièges des changements d'heure.
+  function d(y, m, j) { return Date.UTC(y, m - 1, j); }
+  function plus(t, n) { return t + n * JOUR; }
+  function jourSemaine(t) { return new Date(t).getUTCDay(); }
+  function dimancheAvantOuEgal(t) { return plus(t, -jourSemaine(t)); }
+  function ecart(a, b) { return Math.round((b - a) / JOUR); }
+  function cle(t) { var x = new Date(t); return pad(x.getUTCMonth() + 1) + '-' + pad(x.getUTCDate()); }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function ordinal(n) { return n === 1 ? '1er' : n + 'e'; }
+  function ordinalF(n) { return n === 1 ? '1re' : n + 'e'; }
+
+  // Date de Pâques (calendrier grégorien), algorithme de Meeus / Jones / Butcher.
+  function paques(y) {
+    var a = y % 19, b = Math.floor(y / 100), c = y % 100, dd = Math.floor(b / 4), e = b % 4;
+    var f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3);
+    var h = (19 * a + b - dd - g + 15) % 30, i = Math.floor(c / 4), k = c % 4;
+    var l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451);
+    var mois = Math.floor((h + l - 7 * m + 114) / 31), jour = ((h + l - 7 * m + 114) % 31) + 1;
+    return d(y, mois, jour);
+  }
+
+  // 1er dimanche de l'Avent : le 4e dimanche avant Noël.
+  function avent(y) { var noel = d(y, 12, 25); return plus(dimancheAvantOuEgal(plus(noel, -1)), -21); }
+
+  function epiphanie(y) { // dimanche entre le 2 et le 8 janvier
+    var t = d(y, 1, 2); return plus(t, (7 - jourSemaine(t)) % 7);
+  }
+  function bapteme(y) {
+    var ep = epiphanie(y), jour = new Date(ep).getUTCDate();
+    return jour >= 7 ? plus(ep, 1) : plus(ep, 7);
+  }
+  function sainteFamille(y) {
+    for (var j = 26; j <= 31; j++) { if (jourSemaine(d(y, 12, j)) === 0) return d(y, 12, j); }
+    return d(y, 12, 30);
+  }
+
+  // Repères de l'année civile y.
+  function reperes(y) {
+    var p = paques(y);
+    return {
+      paques: p, cendres: plus(p, -46), rameaux: plus(p, -7), jeudiSaint: plus(p, -3),
+      vendrediSaint: plus(p, -2), samediSaint: plus(p, -1), misericorde: plus(p, 7),
+      ascension: plus(p, 39), pentecote: plus(p, 49), marieEglise: plus(p, 50),
+      trinite: plus(p, 56), saintSacrement: plus(p, 63), sacreCoeur: plus(p, 68), coeurMarie: plus(p, 69),
+      avent: avent(y), christRoi: plus(avent(y), -7), epiphanie: epiphanie(y), bapteme: bapteme(y),
+      sainteFamille: sainteFamille(y)
+    };
+  }
+
+  function mobiles(r) {
+    return [
+      { t: r.epiphanie, id: 'epiphanie', nom: 'Épiphanie du Seigneur', rang: 'solennite', couleur: 'blanc' },
+      { t: r.bapteme, id: 'bapteme', nom: 'Baptême du Seigneur', rang: 'fete-seigneur', couleur: 'blanc' },
+      { t: r.cendres, id: 'cendres', nom: 'Mercredi des Cendres', rang: 'majeur', couleur: 'violet' },
+      { t: r.rameaux, id: 'rameaux', nom: 'Dimanche des Rameaux et de la Passion', rang: 'majeur', couleur: 'rouge' },
+      { t: r.jeudiSaint, id: 'jeudi-saint', nom: 'Jeudi saint', rang: 'majeur', couleur: 'blanc' },
+      { t: r.vendrediSaint, id: 'vendredi-saint', nom: 'Vendredi saint', rang: 'majeur', couleur: 'rouge' },
+      { t: r.samediSaint, id: 'samedi-saint', nom: 'Samedi saint', rang: 'majeur', couleur: 'violet' },
+      { t: r.paques, id: 'paques', nom: 'Dimanche de Pâques', rang: 'majeur', couleur: 'blanc' },
+      { t: r.misericorde, id: 'misericorde', nom: '2e dimanche de Pâques, de la Divine Miséricorde', rang: 'majeur', couleur: 'blanc' },
+      { t: r.ascension, id: 'ascension', nom: 'Ascension du Seigneur', rang: 'solennite', couleur: 'blanc' },
+      { t: r.pentecote, id: 'pentecote', nom: 'Pentecôte', rang: 'majeur', couleur: 'rouge' },
+      { t: r.marieEglise, id: 'marie-mere-eglise', nom: 'Bienheureuse Vierge Marie, Mère de l\'Église', rang: 'memoire', couleur: 'blanc' },
+      { t: r.trinite, id: 'trinite', nom: 'La Sainte Trinité', rang: 'solennite', couleur: 'blanc' },
+      { t: r.saintSacrement, id: 'saint-sacrement', nom: 'Le Saint-Sacrement du Corps et du Sang du Christ', rang: 'solennite', couleur: 'blanc' },
+      { t: r.sacreCoeur, id: 'sacre-coeur', nom: 'Sacré-Cœur de Jésus', rang: 'solennite', couleur: 'blanc' },
+      { t: r.coeurMarie, id: 'coeur-marie', nom: 'Cœur immaculé de Marie', rang: 'memoire', couleur: 'blanc' },
+      { t: r.christRoi, id: 'christ-roi', nom: 'Notre Seigneur Jésus Christ, Roi de l\'univers', rang: 'solennite', couleur: 'blanc' },
+      { t: r.sainteFamille, id: 'sainte-famille', nom: 'La Sainte Famille de Jésus, Marie et Joseph', rang: 'fete-seigneur', couleur: 'blanc' }
+    ];
+  }
+
+  // Temps liturgique d'une date.
+  function saison(t, r, rPrec) {
+    var y = new Date(t).getUTCFullYear();
+    if (t <= r.bapteme || t >= d(y, 12, 25)) return 'noel';
+    if (t < r.cendres) return 'ordinaire';
+    if (t < r.jeudiSaint) return 'careme';
+    if (t < r.paques) return 'triduum';
+    if (t <= r.pentecote) return 'paques';
+    if (t < r.avent) return 'ordinaire';
+    return 'avent';
+  }
+
+  var NOMS_SAISON = {
+    avent: 'Temps de l\'Avent', noel: 'Temps de Noël', ordinaire: 'Temps ordinaire',
+    careme: 'Temps du Carême', triduum: 'Triduum pascal', paques: 'Temps pascal'
+  };
+  var COULEUR_SAISON = { avent: 'violet', noel: 'blanc', ordinaire: 'vert', careme: 'violet', triduum: 'rouge', paques: 'blanc' };
+
+  // Jours « de premier rang » : aucune solennité ni fête ne peut s'y célébrer.
+  function premierRang(t, r) {
+    var s = saison(t, r), dim = jourSemaine(t) === 0;
+    if (t === r.cendres) return true;
+    if (t >= r.rameaux && t <= plus(r.paques, 7)) return true; // Semaine sainte et octave de Pâques
+    if (dim && (s === 'avent' || s === 'careme' || s === 'paques')) return true;
+    if (t === r.pentecote) return true;
+    return false;
+  }
+
+  // Date effective des solennités qui peuvent être déplacées.
+  function dateEffective(f, y, r) {
+    var t = d(y, +f.date.slice(0, 2), +f.date.slice(3));
+    if (f.id === 'joseph') {
+      if (t >= r.rameaux && t <= r.paques) return plus(r.rameaux, -1);
+      if (premierRang(t, r)) return plus(t, 1);
+    }
+    if (f.id === 'annonciation') {
+      if (t >= r.rameaux && t <= plus(r.paques, 7)) return plus(r.paques, 8);
+      if (premierRang(t, r)) return plus(t, 1);
+    }
+    if (f.id === 'immaculee-conception' && jourSemaine(t) === 0) return plus(t, 1);
+    if (f.id === 'nativite-jean-baptiste' && t === r.sacreCoeur) return plus(t, -1);
+    return t;
+  }
+
+  var POIDS = { majeur: 100, solennite: 90, commemoration: 85, 'fete-seigneur': 80, dimanche: 70, fete: 60, memoire: 30 };
+
+  function semaineEtLibelle(t, s, r) {
+    var y = new Date(t).getUTCFullYear(), js = jourSemaine(t), dim = js === 0, n = null, lib;
+    if (s === 'avent') {
+      n = Math.floor(ecart(r.avent, t) / 7) + 1;
+      if (t >= d(y, 12, 17) && !dim) lib = JOURS[js] + ' ' + new Date(t).getUTCDate() + ' décembre, temps de l\'Avent';
+      else lib = dim ? ordinal(n) + ' dimanche de l\'Avent' + (n === 3 ? ' (Gaudete)' : '') : JOURS[js] + ' de la ' + ordinalF(n) + ' semaine de l\'Avent';
+    } else if (s === 'noel') {
+      var dj = new Date(t).getUTCDate(), mo = new Date(t).getUTCMonth();
+      if (mo === 11 || (mo === 0 && dj === 1)) lib = JOURS[js] + ' dans l\'octave de Noël';
+      else lib = JOURS[js] + ' du temps de Noël';
+    } else if (s === 'ordinaire') {
+      if (t < r.cendres) {
+        var depart = jourSemaine(r.bapteme) === 0 ? r.bapteme : plus(r.bapteme, -1);
+        n = Math.floor(ecart(depart, t) / 7) + 1;
+      } else {
+        n = 34 - Math.floor(ecart(dimancheAvantOuEgal(t), r.christRoi) / 7);
+      }
+      lib = dim ? ordinal(n) + ' dimanche du temps ordinaire' : JOURS[js] + ' de la ' + ordinalF(n) + ' semaine du temps ordinaire';
+    } else if (s === 'careme') {
+      var premier = plus(r.cendres, 4);
+      if (t < premier) { lib = JOURS[js] + ' après les Cendres'; }
+      else {
+        n = Math.floor(ecart(premier, t) / 7) + 1;
+        if (t >= r.rameaux) lib = JOURS[js] + ' saint';
+        else lib = dim ? ordinal(n) + ' dimanche de Carême' + (n === 4 ? ' (Laetare)' : '') : JOURS[js] + ' de la ' + ordinalF(n) + ' semaine de Carême';
+      }
+    } else if (s === 'triduum') {
+      lib = JOURS[js] + ' saint';
+    } else {
+      n = Math.floor(ecart(r.paques, t) / 7) + 1;
+      if (t < plus(r.paques, 7)) lib = JOURS[js] + ' dans l\'octave de Pâques';
+      else lib = dim ? ordinal(n) + ' dimanche de Pâques' : JOURS[js] + ' de la ' + ordinalF(n) + ' semaine de Pâques';
+    }
+    return { semaine: n, libelle: lib };
+  }
+
+  function couleurDuJour(t, s, r, sem) {
+    var dim = jourSemaine(t) === 0;
+    if (dim && s === 'avent' && sem === 3) return 'rose';
+    if (dim && s === 'careme' && sem === 4 && t < r.rameaux) return 'rose';
+    if (s === 'careme' && t >= r.rameaux) return t === r.rameaux ? 'rouge' : 'violet';
+    if (t === r.pentecote) return 'rouge';
+    return COULEUR_SAISON[s];
+  }
+
+  /**
+   * Renvoie la description liturgique d'une date.
+   * @param {Date|string} date  une date (Date) ou une chaîne 'AAAA-MM-JJ'
+   * @param {{fixes:Array}} donnees  le contenu de data/fetes.json
+   */
+  function jour(date, donnees) {
+    var t;
+    if (typeof date === 'string') { var p = date.split('-'); t = d(+p[0], +p[1], +p[2]); }
+    else t = d(date.getFullYear(), date.getMonth() + 1, date.getDate());
+    var y = new Date(t).getUTCFullYear(), r = reperes(y);
+    var s = saison(t, r), sl = semaineEtLibelle(t, s, r), dim = jourSemaine(t) === 0;
+
+    // Candidats du jour.
+    var cands = [];
+    mobiles(r).forEach(function (m) { if (m.t === t) cands.push(m); });
+    if (y > 1900) { // la Sainte Famille et le Christ-Roi de l'année précédente ne peuvent pas tomber ici
+      (donnees && donnees.fixes || []).forEach(function (f) {
+        if (dateEffective(f, y, r) === t) cands.push({ t: t, id: f.id, nom: f.nom, rang: f.rang, couleur: f.couleur });
+      });
+    }
+    var pr = premierRang(t, r);
+    cands = cands.filter(function (c) {
+      if (c.rang === 'majeur') return true;
+      if (pr) return c.rang === 'solennite' && (c.id === 'epiphanie' || c.id === 'ascension' || c.id === 'trinite');
+      if (dim && c.rang === 'fete') return false;
+      if (dim && c.rang === 'memoire') return false;
+      if ((s === 'careme' || s === 'avent' && t >= d(y, 12, 17)) && c.rang === 'memoire') return false;
+      return true;
+    });
+    cands.sort(function (a, b) { return POIDS[b.rang] - POIDS[a.rang]; });
+    var celebration = cands[0] || null;
+    if (celebration && celebration.rang === 'fete-seigneur' && dim) celebration.remplaceDimanche = true;
+
+    var litY = t >= r.avent ? y + 1 : y;
+    var cycle = ['C', 'A', 'B'][litY % 3];
+    var semaineCouleur = couleurDuJour(t, s, r, sl.semaine);
+    var couleur = celebration && celebration.rang !== 'memoire' ? celebration.couleur : semaineCouleur;
+    if (celebration && celebration.rang === 'memoire') couleur = celebration.couleur;
+    var x = new Date(t);
+
+    return {
+      date: x.getUTCFullYear() + '-' + cle(t),
+      dateLongue: JOURS[x.getUTCDay()] + ' ' + (x.getUTCDate() === 1 ? '1er' : x.getUTCDate()) + ' ' + MOIS[x.getUTCMonth()],
+      jourSemaine: JOURS[x.getUTCDay()],
+      saison: { id: s, nom: NOMS_SAISON[s] },
+      semaine: sl.semaine,
+      libelleDuJour: sl.libelle,
+      celebration: celebration ? { id: celebration.id, nom: celebration.nom, rang: celebration.rang, couleur: celebration.couleur } : null,
+      titre: celebration && celebration.rang !== 'memoire' ? celebration.nom : sl.libelle,
+      couleur: couleur,
+      anneeDominicale: cycle,
+      anneeFeriale: litY % 2 === 1 ? 'I' : 'II',
+      dimanche: dim
+    };
+  }
+
+  var api = { jour: jour, paques: function (y) { var x = new Date(paques(y)); return x.getUTCFullYear() + '-' + cle(paques(y)); }, reperes: reperes };
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else global.OraLiturgie = api;
+})(this);
+
+/*
+ * Ora — aquarelle générative.
+ * Des dizaines de voiles presque transparents, déformés au hasard, se superposent sur un grain de papier.
+ *
+ * Le ciel est peint en couches séparées pour pouvoir, après l'animation d'entrée, les animer doucement :
+ *  - « fond »    : le papier (immobile) ;
+ *  - « nuage »   : un calque par nuage du ciel (flottement lent, en CSS) ;
+ *  - « mer »     : un calque par bande de la mer de nuages, peint en motif raccordable
+ *                  sur deux largeurs d'écran pour défiler sans couture (en CSS) ;
+ *  - « dessus »  : le reflet du soleil et la ligne d'horizon (immobiles).
+ * L'animation d'entrée (le ciel qui se peint) est la même que l'on choisisse le ciel « vivant » ou « fixe » :
+ * seules les classes CSS ajoutées à la fin décident du mouvement ensuite.
+ */
+(function (global) {
+  'use strict';
+  var raf = 0;
+  var MARGE = 16; // marge des calques de nuages, pour qu'un léger flottement ne découvre jamais un bord
+
+  var CIELS = {
+    jour: {
+      fond: '#FFFBF5', grain: [175, 70, 14], horizon: { y: 255, couleur: 'rgba(120,108,96,0.22)', mode: 'multiply' },
+      nuages: [
+        { e: [70, 40, 230, 120], c: [214, 228, 241], a: 0.03, n: 36, v: 0.22, m: 'multiply' },
+        { e: [280, 90, 250, 120], c: [252, 226, 208], a: 0.028, n: 40, v: 0.2, m: 'multiply' },
+        { e: [120, 150, 170, 70], c: [247, 224, 228], a: 0.022, n: 30, v: 0.22, m: 'multiply' },
+        { e: [276, 168, 120, 100], c: [244, 208, 150], a: 0.036, n: 38, v: 0.22, m: 'multiply' }
+      ],
+      mer: [
+        { b: [248, 300], c: [214, 225, 236], a: 0.03, n: 36, v: 0.12, m: 'multiply', haut: 226, h: 110 },
+        { b: [300, 420], c: [196, 211, 226], a: 0.022, n: 30, v: 0.14, m: 'multiply', haut: 270, h: 200 }
+      ],
+      reflet: { b: [150, 262, 340, 274], c: [252, 230, 190], a: 0.04, n: 16, v: 0.18, m: 'multiply' }
+    },
+    nuit: {
+      fond: '#161E35', grainClair: true, horizon: { y: 318, couleur: 'rgba(160,172,204,0.35)', mode: 'source-over' },
+      nuages: [
+        { e: [160, 40, 300, 150], c: [10, 14, 30], a: 0.05, n: 40, v: 0.2, m: 'source-over' },
+        { e: [300, 170, 200, 120], c: [62, 76, 122], a: 0.035, n: 36, v: 0.22, m: 'screen' },
+        { e: [276, 154, 110, 96], c: [214, 182, 128], a: 0.02, n: 34, v: 0.24, m: 'screen' }
+      ],
+      mer: [
+        { b: [286, 344], c: [92, 110, 152], a: 0.03, n: 38, v: 0.13, m: 'screen', haut: 262, h: 110 },
+        { b: [330, 440], c: [12, 18, 36], a: 0.04, n: 34, v: 0.14, m: 'source-over', haut: 300, h: 170 }
+      ],
+      reflet: null
+    }
+  };
+
+  var MELANGE = { multiply: 'multiply', screen: 'screen', 'source-over': 'normal' };
+
+  function peindre(conteneur, mode, anime, fin) {
+    if (raf) cancelAnimationFrame(raf);
+    var cfg = CIELS[mode] || CIELS.jour;
+    var W = conteneur.clientWidth || 390, H = conteneur.clientHeight || 470;
+    var dpr = Math.min(2, window.devicePixelRatio || 1);
+    var dx = (W - 390) / 2; // la composition est pensée pour 390 px : on la recentre sur les écrans plus larges
+    conteneur.innerHTML = '';
+
+    var s = mode === 'nuit' ? 2207 : 1031;
+    function r() { s |= 0; s = (s + 0x6D2B79F5) | 0; var t = Math.imul(s ^ (s >>> 15), 1 | s); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }
+    function gs() { return Math.sqrt(-2 * Math.log(r() || 1e-9)) * Math.cos(2 * Math.PI * r()); }
+
+    function calque(classe, x, y, w, h, melange) {
+      var div = document.createElement('div');
+      div.className = 'couche ' + classe;
+      div.style.cssText = 'left:' + x + 'px;top:' + y + 'px;width:' + w + 'px;height:' + h + 'px;mix-blend-mode:' + (melange || 'normal');
+      var cv = document.createElement('canvas');
+      cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+      cv.style.width = w + 'px'; cv.style.height = h + 'px';
+      div.appendChild(cv); conteneur.appendChild(div);
+      var g = cv.getContext('2d');
+      g.setTransform(dpr, 0, 0, dpr, -x * dpr, -y * dpr); // on dessine en coordonnées du ciel
+      return { div: div, g: g };
+    }
+
+    function ell(cx, cy, rx, ry, n) { var p = []; for (var i = 0; i < n; i++) { var a = i / n * Math.PI * 2; p.push({ x: dx + cx + Math.cos(a) * rx, y: cy + Math.sin(a) * ry }); } return p; }
+    function deform(pts, depth, v, ferme) {
+      for (var d = 0; d < depth; d++) {
+        var o = [], nb = ferme ? pts.length : pts.length - 1;
+        for (var i = 0; i < nb; i++) {
+          var a = pts[i], b = pts[(i + 1) % pts.length], len = Math.hypot(b.x - a.x, b.y - a.y);
+          o.push(a); o.push({ x: (a.x + b.x) / 2 + gs() * len * v, y: (a.y + b.y) / 2 + gs() * len * v });
+        }
+        if (!ferme) o.push(pts[pts.length - 1]);
+        pts = o;
+      }
+      return pts;
+    }
+    function remplir(g, pts, col, m, decalage) {
+      g.globalCompositeOperation = m; g.fillStyle = col; g.beginPath();
+      g.moveTo(pts[0].x + decalage, pts[0].y);
+      for (var i = 1; i < pts.length; i++) g.lineTo(pts[i].x + decalage, pts[i].y);
+      g.closePath(); g.fill();
+    }
+    function couleur(w) { return 'rgba(' + w.c.join(',') + ',' + w.a + ')'; }
+
+    // 1. Le papier.
+    var fond = calque('fond', 0, 0, W, H);
+    fond.g.globalCompositeOperation = 'source-over';
+    fond.g.fillStyle = cfg.fond; fond.g.fillRect(0, 0, W, H);
+    var gc = document.createElement('canvas'); gc.width = 180; gc.height = 180;
+    var gx = gc.getContext('2d'), id = gx.createImageData(180, 180);
+    for (var i = 0; i < id.data.length; i += 4) {
+      if (cfg.grainClair) { id.data[i] = 235; id.data[i + 1] = 228; id.data[i + 2] = 214; id.data[i + 3] = r() * 9; }
+      else { var v = cfg.grain[0] + r() * cfg.grain[1]; id.data[i] = v; id.data[i + 1] = v * 0.96; id.data[i + 2] = v * 0.9; id.data[i + 3] = r() * cfg.grain[2]; }
+    }
+    gx.putImageData(id, 0, 0);
+    fond.g.fillStyle = fond.g.createPattern(gc, 'repeat'); fond.g.fillRect(0, 0, W, H);
+
+    var ops = [];
+
+    // 2. Les nuages du ciel : un calque chacun.
+    cfg.nuages.forEach(function (w, k) {
+      var c = calque('nuage n' + k, -MARGE, -MARGE, W + 2 * MARGE, H + 2 * MARGE, MELANGE[w.m]);
+      var base = deform(ell(w.e[0], w.e[1], w.e[2], w.e[3], 10), 2, w.v, true), col = couleur(w);
+      for (var j = 0; j < w.n; j++) { (function (p) { ops.push(function () { remplir(c.g, p, col, w.m, 0); }); })(deform(base, 3, w.v * 0.9, true)); }
+    });
+
+    // 3. La mer de nuages : des bandes raccordables, peintes sur deux largeurs d'écran.
+    //    Seuls les bords haut et bas sont déformés ; les extrémités tombent pile sur 0 et W, donc les copies se raccordent sans couture.
+    cfg.mer.forEach(function (w, k) {
+      var c = calque('mer m' + k, 0, w.haut, 2 * W, w.h, MELANGE[w.m]);
+      var pas = 8, haut = [], bas = [];
+      for (var q = 0; q <= pas; q++) { haut.push({ x: W * q / pas, y: w.b[0] }); bas.push({ x: W * q / pas, y: w.b[1] }); }
+      var bh = deform(haut, 2, w.v, false), bb = deform(bas, 2, w.v, false), col = couleur(w);
+      for (var j = 0; j < w.n; j++) {
+        (function (h2, b2) {
+          var poly = h2.concat(b2.slice().reverse());
+          ops.push(function () { for (var t = -1; t <= 2; t++) remplir(c.g, poly, col, w.m, t * W); });
+        })(deform(bh, 3, w.v * 0.9, false), deform(bb, 3, w.v * 0.9, false));
+      }
+    });
+
+    // 4. Le reflet du soleil et la ligne d'horizon : immobiles.
+    var dessus = calque('dessus', 0, 0, W, H, cfg.reflet ? 'multiply' : 'normal');
+    if (cfg.reflet) {
+      var rf = cfg.reflet, bandeReflet = [];
+      for (var q = 0; q <= 4; q++) bandeReflet.push({ x: dx + rf.b[0] + (rf.b[2] - rf.b[0]) * q / 4, y: rf.b[1] });
+      for (q = 4; q >= 0; q--) bandeReflet.push({ x: dx + rf.b[0] + (rf.b[2] - rf.b[0]) * q / 4, y: rf.b[3] });
+      var baseR = deform(bandeReflet, 2, rf.v, true);
+      for (var j2 = 0; j2 < rf.n; j2++) { (function (p) { ops.push(function () { remplir(dessus.g, p, couleur(rf), rf.m, 0); }); })(deform(baseR, 3, rf.v * 0.9, true)); }
+    }
+    ops.push(function () {
+      var g = dessus.g;
+      g.globalCompositeOperation = 'source-over'; g.strokeStyle = cfg.horizon.couleur; g.lineWidth = 0.6; g.beginPath();
+      for (var x = -10; x <= W + 10; x += 6) { var y = cfg.horizon.y + gs() * 0.3; if (x === -10) g.moveTo(x, y); else g.lineTo(x, y); }
+      g.stroke();
+    });
+
+    var reduit = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (!anime || reduit) { ops.forEach(function (f) { f(); }); if (fin) fin(); return; }
+    var j3 = 0;
+    (function etape() {
+      for (var k = 0; k < 2 && j3 < ops.length; k++, j3++) ops[j3]();
+      if (j3 < ops.length) raf = requestAnimationFrame(etape); else if (fin) fin();
+    })();
+  }
+
+  global.OraAquarelle = { peindre: peindre };
+})(this);
+
+/*
+ * Ora — application (version 0.1, aperçu).
+ * Aucune dépendance, aucun compte, aucun serveur : les réglages restent sur le téléphone.
+ */
+(function () {
+  'use strict';
+
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  var D = null;            // données (fêtes, explications, prières, lexique, conseils)
+  var etat = { vue: 'accueil', pile: [], guide: null, etape: 0, premiereOuverture: true, filtre: '' };
+  var R = lireReglages();
+
+  var NIVEAUX = [
+    { n: 1, duree: '1 minute', desc: 'La fête ou le saint du jour, une phrase de prière et une petite idée.' },
+    { n: 2, duree: '5 minutes', desc: 'En plus : l\'Évangile du jour et la prière des trois mots le soir.' },
+    { n: 3, duree: '15 minutes', desc: 'En plus : une dizaine de chapelet et l\'examen du soir.' },
+    { n: 4, duree: '30 minutes et plus', desc: 'En plus : la prière du matin et du soir de l\'Église, et le chapelet complet.' }
+  ];
+  var COULEURS = { blanc: '#FFFFFF', rouge: '#B8473B', vert: '#5E8A63', violet: '#6E4F8A', rose: '#E3A3B5', noir: '#222222' };
+  var NOM_COULEUR = { blanc: 'blanche', rouge: 'rouge', vert: 'verte', violet: 'violette', rose: 'rose', noir: 'noire' };
+
+  var GUIDE_FAMILLE = {
+    id: 'famille-soir', titre: 'La prière du soir avec ton enfant', duree: '3 minutes',
+    intro: 'Un petit rituel pour finir la journée ensemble, à lire à voix haute.',
+    etapes: [
+      { mot: 'On se pose', invitation: 'Baissez la lumière, asseyez-vous près l\'un de l\'autre, et faites ensemble le signe de croix.' },
+      { mot: 'Merci', invitation: 'Demande-lui : « Qu\'est-ce qui t\'a rendu heureux aujourd\'hui ? » Puis dites ensemble : « Merci, Jésus. »' },
+      { mot: 'Pardon', invitation: 'Y a-t-il quelque chose qu\'on regrette ? On peut le dire tout bas à Jésus. Il aime pardonner.' },
+      { mot: 'S\'il te plaît', invitation: 'Pour qui veut-on prier ce soir ? Un copain, un grand-parent, quelqu\'un de malade…' },
+      { mot: 'Ange de Dieu', invitation: 'Dites ensemble la prière à l\'ange gardien : « Ange de Dieu, qui êtes mon gardien… »' },
+      { mot: 'Bonne nuit', invitation: 'Tu peux tracer une petite croix sur son front avec ton pouce, comme une bénédiction.' }
+    ],
+    fin: 'Bonne nuit.'
+  };
+
+  // ---------- Réglages (gardés sur le téléphone) ----------
+  function lireReglages() {
+    var def = { niveau: 1, mode: 'auto', taille: 'normal', ciel: 'fixe' };
+    try { var x = JSON.parse(localStorage.getItem('ora.reglages') || 'null'); var r = x ? Object.assign(def, x) : def; if (!r.niveau) r.niveau = 1; r.ciel = 'fixe'; return r; } catch (e) { return def; }
+  }
+  function ecrireReglages() { try { localStorage.setItem('ora.reglages', JSON.stringify(R)); } catch (e) { /* stockage indisponible : réglages valables pour cette visite */ } }
+
+  // ---------- Outils ----------
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;' }[c]; }).replace(/« /g, '«\u00a0').replace(/ ([»:;?!])/g, '\u00a0$1'); }
+  function estNuit() { if (R.mode === 'jour') return false; if (R.mode === 'nuit') return true; var h = new Date().getHours(); return h >= 19 || h < 6; }
+  function jourDeLAnnee(dt) { return Math.floor((dt - new Date(dt.getFullYear(), 0, 0)) / 86400000); }
+
+  // Rend cliquables les mots du lexique (une seule fois chacun par bloc de texte).
+  var EXCLUS = { saint: 1, 'vierge-marie': 1, croix: 1, grace: 1 };
+  function lexique(texte) {
+    var html = esc(texte), vus = {};
+    if (!D) return html;
+    var formes = [];
+    D.lexique.mots.forEach(function (m) { if (!EXCLUS[m.id]) m.formes.forEach(function (f) { formes.push({ f: f, id: m.id }); }); });
+    formes.sort(function (a, b) { return b.f.length - a.f.length; });
+    var morceaux = [{ t: html, lie: false }];
+    formes.forEach(function (fo) {
+      if (vus[fo.id]) return;
+      var re = new RegExp('(^|[^\\p{L}])(' + fo.f.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/'/g, '&#39;') + ')(?![\\p{L}])', 'u');
+      for (var i = 0; i < morceaux.length; i++) {
+        var mo = morceaux[i]; if (mo.lie) continue;
+        var m = re.exec(mo.t); if (!m) continue;
+        var debut = m.index + m[1].length, fin = debut + m[2].length;
+        morceaux.splice(i, 1,
+          { t: mo.t.slice(0, debut), lie: false },
+          { t: '<button class="lex" data-action="mot" data-id="' + fo.id + '">' + mo.t.slice(debut, fin) + '</button>', lie: true },
+          { t: mo.t.slice(fin), lie: false });
+        vus[fo.id] = true; break;
+      }
+    });
+    return morceaux.map(function (m) { return m.t; }).join('');
+  }
+
+  // ---------- Contenu du jour ----------
+  function aujourdhui() {
+    var dt = new Date(), j = OraLiturgie.jour(dt, D.fetes);
+    var demain = OraLiturgie.jour(new Date(dt.getFullYear(), dt.getMonth(), dt.getDate() + 1), D.fetes);
+    var cid = j.celebration && j.celebration.id;
+    var expl = (cid && D.explications.fetes[cid]) || null;
+    var explSaison = D.explications.saisons[j.saison.id];
+    var petites = D.prieres.petitesPrieres.filter(function (p) { return p.contexte === cid; });
+    if (!petites.length) petites = D.prieres.petitesPrieres.filter(function (p) { return p.contexte === j.saison.id; });
+    if (!petites.length) petites = D.prieres.petitesPrieres.filter(function (p) { return p.contexte === 'ordinaire'; });
+    var petite = petites[jourDeLAnnee(dt) % petites.length];
+    var conseil = expl ? expl.idee : D.conseils.conseils[jourDeLAnnee(dt) % D.conseils.conseils.length];
+    var evangile = D.conseils.lecturesConnues[j.date] || null;
+    var joursFr = ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'];
+    var mysteres = D.prieres.guidees[2].joursMysteres[joursFr[dt.getDay()]];
+    return { j: j, demain: demain, expl: expl, explSaison: explSaison, petite: petite, conseil: conseil, evangile: evangile, mysteres: mysteres };
+  }
+
+  // ---------- Vues ----------
+  function rubrique(num, corps, opts) {
+    opts = opts || {};
+    var tag = opts.action ? 'button' : 'div';
+    var attr = opts.action ? ' data-action="' + opts.action + '"' + (opts.id ? ' data-id="' + opts.id + '"' : '') : '';
+    var droite = opts.ref ? '<span class="ref">' + esc(opts.ref) + '</span>' : opts.bientot ? '<span class="bientot">Bientôt</span>' : opts.action ? '<span class="fleche" aria-hidden="true">' + icone('fleche') + '</span>' : '';
+    return '<' + tag + ' class="rubrique"' + attr + '><span class="num">' + num + '</span><span class="corps">' + corps + '</span>' + droite + '</' + tag + '>';
+  }
+
+  function vueAccueil() {
+    var a = aujourdhui(), j = a.j, n = R.niveau || 1, nuit = estNuit(), out = [], k = 0;
+    function num() { k++; return (k < 10 ? '0' : '') + k; }
+    var titre = nuit ? 'Ce soir' : (j.celebration && j.celebration.rang !== 'memoire' ? j.celebration.nom : j.saison.nom);
+    var chapeau;
+    if (nuit) chapeau = a.demain.celebration && a.demain.celebration.rang !== 'memoire' ? 'Demain : ' + a.demain.celebration.nom + '.' : 'Quelques mots avant de dormir, pour remettre la journée à Dieu.';
+    else chapeau = a.expl ? a.expl.quoi : (j.celebration ? j.celebration.nom + '. ' : '') + j.libelleDuJour + '.';
+    var surtitre = nuit ? j.dateLongue + ' · le soir' : j.dateLongue;
+
+    var html = '<section class="vue accueil' + (etat.premiereOuverture ? ' anime' : '') + '">';
+    html += '<p class="surtitre">' + esc(surtitre) + '</p>';
+    html += '<h1>' + esc(titre) + '</h1>';
+    html += '<p class="chapeau">' + lexique(chapeau) + '</p>';
+    if (!nuit) html += '<button class="couleur-lit" data-action="explication" aria-label="En savoir plus. ' + esc(j.celebration && j.celebration.rang === 'solennite' ? 'Solennité' : j.saison.nom) + ', couleur ' + NOM_COULEUR[j.couleur] + '"><i style="background:' + COULEURS[j.couleur] + '"></i>En savoir plus</button>';
+
+    if (!nuit) {
+      var c = D.jours[j.date];
+      html += '<div class="sections">';
+      html += section('Prière du jour', '<p class="s-priere">' + esc(c ? c.priere : a.petite.texte) + '</p>');
+      if (c) {
+        html += section('Évangile du jour', '<p class="s-evangile">' + lexique(c.evangile.texte) + '</p><p class="s-ref">' + esc(c.evangile.ref) + '</p>', 'evangile', 'Méditer');
+        html += section('Citation du jour', '<blockquote class="s-citation">« ' + esc(c.citation.texte) + ' »</blockquote><p class="s-ref">' + esc(c.citation.auteur) + ' · ' + esc(c.citation.source) + '</p>');
+        html += section('Réflexion du jour', '<p class="s-titre">' + esc(c.reflexion.titre) + '</p><p class="s-accroche">' + lexique(c.reflexion.accroche) + '</p>', 'reflexion', 'Lire');
+        html += section('Histoire du jour', '<p class="s-titre">' + esc(c.histoire.titre) + '</p><p class="s-accroche">' + lexique(c.histoire.accroche) + '</p>', 'histoire', 'Lire');
+        html += section('Portrait du jour', '<p class="s-titre">' + esc(c.portrait.nom) + ' <span class="s-dates">' + esc(c.portrait.dates) + '</span></p><p class="s-accroche">' + lexique(c.portrait.accroche) + '</p>', 'portrait', 'Lire');
+      } else {
+        if (a.evangile) html += section('Évangile du jour', '<p class="s-ref">' + esc(a.evangile) + '</p>');
+        html += section('Une idée pour aujourd\'hui', '<p class="s-accroche">' + lexique(a.conseil) + '</p>');
+      }
+      html += '</div>';
+    } else {
+      out.push(rubrique(num(), '<span class="titre-r">Prière du soir</span><span class="texte-r">Seigneur, la journée s\'achève…</span>', { action: 'priere', id: 'priere-du-soir' }));
+      if (n >= 2) out.push(rubrique(num(), '<span class="titre-r">Merci, pardon, s\'il te plaît</span><span class="texte-r">La prière des trois mots, une minute</span>', { action: 'guide', id: 'trois-mots' }));
+      if (n >= 3) out.push(rubrique(num(), '<span class="titre-r">L\'examen du soir</span><span class="texte-r">Relire sa journée avec Dieu</span>', { action: 'guide', id: 'examen-du-soir' }));
+      if (n >= 4) out.push(rubrique(num(), '<span class="titre-r">Vêpres, la prière du soir de l\'Église</span>', { bientot: true }));
+      out.push(rubrique(num(), '<span class="titre-r">Avec ton enfant</span><span class="texte-r">La prière du soir en famille</span>', { action: 'guide', id: 'famille-soir' }));
+    }
+    if (out.length) html += '<div class="rubriques">' + out.join('') + '</div>';
+    html += '<button class="ajuster" data-action="aller" data-id="niveau">Plus ou moins de contenu ? Ajuste ton rythme</button></section>';
+    return html;
+  }
+
+  function section(etiquette, corps, lecture, action) {
+    return '<section class="section-jour"><h2 class="etiquette">' + esc(etiquette) + '</h2>' + corps +
+      (lecture ? '<button class="lire" data-action="lecture" data-id="' + lecture + '">' + esc(action) + icone('fleche') + '</button>' : '') + '</section>';
+  }
+
+  function paragraphes(t) { return String(t).split('\n\n').map(function (p) { return '<p>' + lexique(p) + '</p>'; }).join(''); }
+
+  function vueLecture(type) {
+    var j = OraLiturgie.jour(new Date(), D.fetes), c = D.jours[j.date];
+    if (!c) return vueAccueil();
+    var h = '<section class="vue page lecture">' + boutonRetour();
+    if (type === 'evangile') {
+      h += '<p class="surtitre">Évangile du jour</p><h2>' + esc(c.evangile.ref) + '</h2><p class="s-evangile grand">' + lexique(c.evangile.texte) + '</p>';
+      h += '<div class="bloc"><h3>Pour méditer</h3><p>' + lexique(c.evangile.piste) + '</p></div>';
+      h += '<p class="source">Bible Crampon. Le passage lu à la messe aujourd\'hui : ' + esc(c.evangile.refComplete) + '. Il sera bientôt lisible en entier dans la Bible d\'Ora.</p>';
+    } else if (type === 'reflexion') {
+      var r = c.reflexion;
+      h += '<p class="surtitre">Réflexion du jour</p><h2>' + esc(r.titre) + '</h2><div class="texte-lecture">' + paragraphes(r.fait) + '</div>';
+      r.citations.forEach(function (q) { h += '<blockquote class="s-citation">« ' + esc(q.texte) + ' »</blockquote><p class="s-ref">' + esc(q.source) + '</p>'; });
+      h += '<div class="bloc"><h3>Pour réfléchir</h3><p>' + lexique(r.piste) + '</p></div>';
+      h += '<div class="bloc"><h3>Une prière</h3><p class="s-priere">' + esc(r.priere) + '</p></div>';
+    } else if (type === 'histoire') {
+      var hi = c.histoire;
+      h += '<p class="surtitre">Histoire du jour</p><h2>' + esc(hi.titre) + '</h2><div class="texte-lecture">' + paragraphes(hi.texte) + '</div><p class="source">Sources : ' + esc(hi.source) + '</p>';
+    } else if (type === 'portrait') {
+      var po = c.portrait;
+      h += '<p class="surtitre">Portrait du jour</p><h2>' + esc(po.nom) + '</h2><p class="s-dates">' + esc(po.dates) + '</p><div class="texte-lecture">' + paragraphes(po.texte) + '</div>';
+      h += '<div class="bloc"><h3>Avec ton enfant</h3><p>' + lexique(po.avecEnfant) + '</p></div><p class="source">Sources : ' + esc(po.source) + '</p>';
+    }
+    return h + '</section>';
+  }
+
+  function vuePrier() {
+    var h = '<section class="vue page"><p class="surtitre">Prier</p><h2>Les prières</h2>';
+    h += '<p class="chapeau">Des prières que l\'Église dit depuis des siècles, et des prières guidées pas à pas. Prends celle qui te parle aujourd\'hui.</p>';
+    h += '<p class="groupe">Pas à pas</p><div class="rubriques">';
+    D.prieres.guidees.forEach(function (g, i) { h += rubrique((i < 9 ? '0' : '') + (i + 1), '<span class="titre-r">' + esc(g.titre) + '</span><span class="texte-r">' + esc(g.duree) + '</span>', { action: 'guide', id: g.id }); });
+    h += '</div><p class="groupe">Les prières de toujours</p><div class="rubriques">';
+    D.prieres.traditionnelles.forEach(function (p, i) { h += rubrique((i < 9 ? '0' : '') + (i + 1), '<span class="titre-r">' + esc(p.titre) + '</span>', { action: 'priere', id: p.id }); });
+    h += '</div><p class="groupe">Les mots de la foi</p><div class="rubriques">' + rubrique('A–Z', '<span class="titre-r">Lexique</span><span class="texte-r">Chaque mot expliqué simplement</span>', { action: 'aller', id: 'lexique' }) + '</div></section>';
+    return h;
+  }
+
+  function vuePriere(id) {
+    var p = D.prieres.traditionnelles.filter(function (x) { return x.id === id; })[0];
+    if (!p) return vuePrier();
+    var h = '<section class="vue page">' + boutonRetour() + '<h2>' + esc(p.titre) + '</h2>';
+    h += '<p class="texte-priere">' + lexique(p.texte) + '</p>';
+    if (p.geste) h += '<div class="bloc"><h3>Le geste</h3><p>' + lexique(p.geste) + '</p></div>';
+    h += '<div class="bloc"><h3>Quand la dire</h3><p>' + lexique(p.quand) + '</p></div>';
+    h += '<div class="bloc"><h3>Pourquoi</h3><p>' + lexique(p.pourquoi) + '</p>' + (p.source ? '<p class="source">' + esc(p.source) + '</p>' : '') + '</div>';
+    if (p.variante) h += '<div class="bloc"><h3>Une autre version</h3><p class="texte-priere variante">' + esc(p.variante) + '</p></div>';
+    return h + '</section>';
+  }
+
+  function trouverGuide(id) {
+    if (id === 'famille-soir') return GUIDE_FAMILLE;
+    return D.prieres.guidees.filter(function (g) { return g.id === id; })[0];
+  }
+
+  function vueGuide() {
+    var g = trouverGuide(etat.guide); if (!g) return vuePrier();
+    var e = etat.etape, total = g.etapes.length, h = '<section class="vue page">' + boutonRetour();
+    var points = '<div class="points" aria-hidden="true">' + g.etapes.map(function (_, i) { return '<i class="' + (i <= e - 1 ? 'on' : '') + '"></i>'; }).join('') + '</div>';
+    if (e === 0) {
+      var extra = '';
+      if (g.id === 'dizaine') {
+        var a = aujourdhui(), liste = g.mysteres[a.mysteres];
+        extra = '<p class="etape-texte" style="margin-top:16px">Aujourd\'hui, les mystères ' + esc(a.mysteres) + ' : ' + esc(liste.join(', ')) + '.</p>';
+      }
+      h += '<div class="guide" aria-live="polite"><p class="surtitre">' + esc(g.duree) + '</p><p class="etape-mot">' + esc(g.titre) + '</p><p class="etape-texte">' + lexique(g.intro) + '</p>' + extra +
+        '<div class="points"></div><div class="actions"><button class="bouton" data-action="etape" data-id="1">Commencer</button></div></div>';
+    } else if (e <= total) {
+      var et = g.etapes[e - 1];
+      h += '<div class="guide" aria-live="polite"><p class="etape-mot">' + esc(et.mot) + '</p><p class="etape-texte">' + lexique(et.invitation) + '</p>' + points +
+        '<div class="actions">' + (e > 1 ? '<button class="bouton leger" data-action="etape" data-id="' + (e - 1) + '">Précédent</button>' : '') +
+        '<button class="bouton" data-action="etape" data-id="' + (e + 1) + '">' + (e === total ? 'Terminer' : 'Suivant') + '</button></div></div>';
+    } else {
+      h += '<div class="guide" aria-live="polite"><p class="etape-mot">Amen</p><p class="etape-texte">' + lexique(g.fin || '') + '</p><div class="points"></div><div class="actions"><button class="bouton" data-action="retour">Revenir</button></div></div>';
+    }
+    return h + '</section>';
+  }
+
+  function vueLexique() {
+    var f = etat.filtre.toLowerCase();
+    var mots = D.lexique.mots.filter(function (m) { return !f || m.mot.toLowerCase().indexOf(f) >= 0 || m.def.toLowerCase().indexOf(f) >= 0; })
+      .sort(function (a, b) { return a.mot.localeCompare(b.mot, 'fr'); });
+    var h = '<section class="vue page">' + boutonRetour() + '<h2>Lexique</h2><p class="chapeau">Les mots de la foi, expliqués simplement.</p>';
+    h += '<label class="surtitre" for="cherche" style="display:block;margin-top:20px">Chercher un mot</label><input id="cherche" class="recherche" type="search" autocomplete="off" value="' + esc(etat.filtre) + '" placeholder="Par exemple : Eucharistie">';
+    h += '<div id="liste-mots">' + listeMots(mots) + '</div></section>';
+    return h;
+  }
+  function listeMots(mots) {
+    if (!mots.length) return '<p class="note">Aucun mot trouvé.</p>';
+    return mots.map(function (m) { return '<div class="mot-def"><b>' + esc(m.mot) + '</b><span>' + esc(m.def) + '</span></div>'; }).join('');
+  }
+
+  function vueBible() {
+    var a = aujourdhui();
+    return '<section class="vue page"><p class="surtitre">La Bible</p><h2>Bientôt, toute la Bible</h2>' +
+      '<p class="chapeau">Ora contiendra la Bible complète, dans la traduction du chanoine Crampon (1923), lisible sans connexion, avec recherche et marque-pages.</p>' +
+      (a.evangile ? '<div class="bloc"><h3>Évangile du jour</h3><p>' + esc(a.evangile) + ' · les ' + lexique('Béatitudes') + '</p></div>' : '') +
+      '<div class="bloc"><h3>En attendant</h3><p>Les lectures du jour se trouvent aussi sur le site de l\'AELF.</p></div></section>';
+  }
+
+  function vueFamille() {
+    return '<section class="vue page"><p class="surtitre">En famille</p><h2>Prier avec son enfant</h2>' +
+      '<p class="chapeau">Pour les enfants de 4 à 8 ans. Quelques minutes suffisent : ce qui compte, c\'est d\'être ensemble.</p><div class="rubriques">' +
+      rubrique('01', '<span class="titre-r">La prière du soir</span><span class="texte-r">Un petit rituel, pas à pas</span>', { action: 'guide', id: 'famille-soir' }) +
+      rubrique('02', '<span class="titre-r">Ange de Dieu</span><span class="texte-r">La prière à l\'ange gardien</span>', { action: 'priere', id: 'ange-de-dieu' }) +
+      rubrique('03', '<span class="titre-r">Le bénédicité</span><span class="texte-r">Avant le repas</span>', { action: 'priere', id: 'benedicite' }) +
+      rubrique('04', '<span class="titre-r">Une histoire de saint</span>', { bientot: true }) +
+      rubrique('05', '<span class="titre-r">Le geste de la semaine</span>', { bientot: true }) +
+      '</div></section>';
+  }
+
+  function vueNiveau() {
+    var accueil = false;
+    var h = '<section class="vue page" style="padding-top:' + (accueil ? '120px' : '24px') + '">' + (accueil ? '' : boutonRetour());
+    h += '<p class="surtitre">' + (accueil ? 'Bienvenue' : 'Réglages') + '</p><h2>' + (accueil ? 'Combien de temps aimerais-tu donner à Dieu chaque jour ?' : 'Ton rythme') + '</h2>';
+    h += '<p class="chapeau">Choisis ce qui te ressemble aujourd\'hui. Tu pourras changer quand tu veux, sans jugement : chaque rythme a la même valeur.</p><div class="niveaux" role="radiogroup" aria-label="Rythme">';
+    NIVEAUX.forEach(function (nv) {
+      var on = R.niveau === nv.n;
+      h += '<button class="niveau' + (on ? ' on' : '') + '" role="radio" aria-checked="' + on + '" data-action="niveau" data-id="' + nv.n + '"><span class="rond"></span><span><b>' + esc(nv.duree) + '</b><small>' + esc(nv.desc) + '</small></span></button>';
+    });
+    h += '</div>';
+    if (!accueil) {
+      h += '<p class="groupe">Ambiance</p><div class="segments">' + seg('mode', 'auto', 'Selon l\'heure') + seg('mode', 'jour', 'Jour') + seg('mode', 'nuit', 'Soir') + '</div>';
+      // Ciel vivant désactivé à la demande de Nico (1er novembre 2026) ; le code reste dans aquarelle.js et app.css si on veut y revenir.
+      h += '<p class="groupe">Taille du texte</p><div class="segments">' + seg('taille', 'normal', 'Normale') + seg('taille', 'grand', 'Grande') + seg('taille', 'tres-grand', 'Très grande') + '</div>';
+      h += '<p class="note">Ora ne demande aucun compte et n\'envoie aucune donnée : tes réglages restent sur ce téléphone.</p>';
+      h += '<p class="note">Version d\'aperçu 0.1 · Textes à faire relire par un prêtre avant la diffusion.</p>';
+    }
+    return h + '</section>';
+  }
+  function seg(cle, val, lib) { return '<button class="' + (R[cle] === val ? 'on' : '') + '" aria-pressed="' + (R[cle] === val) + '" data-action="reglage" data-cle="' + cle + '" data-id="' + val + '">' + lib + '</button>'; }
+
+  function boutonRetour() { return '<button class="retour" data-action="retour">' + icone('retour') + 'Retour</button>'; }
+
+  function icone(nom) {
+    var I = {
+      jour: '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3.5"></circle><circle cx="12" cy="12" r="7.5" opacity=".5"></circle></svg>',
+      prier: '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 3v18M7 8h10"></path></svg>',
+      bible: '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5V19c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z"></path><path d="M12 6v13.5"></path></svg>',
+      famille: '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="7" r="3"></circle><circle cx="17" cy="10" r="2.2"></circle><path d="M3 20c0-3 2.2-5.5 5-5.5s5 2.5 5 5.5"></path><path d="M13.5 20c.3-2.3 1.7-4 3.5-4s3.2 1.7 3.5 4"></path></svg>',
+      fleche: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"></path></svg>',
+      retour: '<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"></path></svg>'
+    };
+    return I[nom] || '';
+  }
+
+  var LOGO = '<svg width="68" height="27" viewBox="0 0 84 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+    '<defs><radialGradient id="logo-aura"><stop offset="0" stop-color="#E8BE78" stop-opacity=".55"></stop><stop offset="1" stop-color="#E8BE78" stop-opacity="0"></stop></radialGradient></defs>' +
+    '<circle cx="16" cy="16" r="11" fill="url(#logo-aura)" stroke="none"></circle>' +
+    '<circle class="aureole" cx="16" cy="16" r="15.5" stroke="var(--logo-anneau)" stroke-width="1.1"></circle><circle cx="16" cy="16" r="12.5"></circle>' +
+    '<circle cx="15.3" cy="16.6" r="4.2" fill="var(--logo-ombre)" stroke="none"></circle><circle cx="16" cy="16" r="4.2" fill="#F2E5C6" stroke="none"></circle><path d="M37 29V14.5M37 20c0-4.6 3.2-7 8.2-6.6"></path><circle cx="57.5" cy="21.5" r="7.5"></circle><path d="M65 14v15"></path></svg>';
+
+  // ---------- Rendu ----------
+  var dernierCiel = null, cielPret = false;
+  // Le ciel vivant (le jour seulement) ne démarre qu'une fois l'animation d'entrée terminée.
+  function majVivant() { document.documentElement.classList.toggle('vivant', cielPret && R.ciel === 'vivant' && !estNuit()); }
+  function rendre() {
+    var nuit = estNuit();
+    document.documentElement.classList.toggle('nuit', nuit);
+    document.documentElement.style.fontSize = { normal: '16px', grand: '18px', 'tres-grand': '20px' }[R.taille] || '16px';
+    var meta = document.querySelector('meta[name="theme-color"]'); if (meta) meta.setAttribute('content', nuit ? '#161E35' : '#FFFBF5');
+
+    var v = etat.vue, contenu;
+    if (v === 'accueil') contenu = vueAccueil();
+    else if (v === 'prier') contenu = vuePrier();
+    else if (v.indexOf('priere:') === 0) contenu = vuePriere(v.slice(7));
+    else if (v === 'guide') contenu = vueGuide();
+    else if (v.indexOf('lecture:') === 0) contenu = vueLecture(v.slice(8));
+    else if (v === 'lexique') contenu = vueLexique();
+    else if (v === 'bible') contenu = vueBible();
+    else if (v === 'famille') contenu = vueFamille();
+    else contenu = vueNiveau();
+
+    var onglet = (v === 'accueil' || v.indexOf('lecture:') === 0) ? 'accueil' : (v === 'bible' ? 'bible' : v === 'famille' ? 'famille' : v === 'niveau' ? '' : 'prier');
+    var ciel = document.getElementById('ciel');
+    ciel.className = 'ciel' + (v === 'accueil' ? '' : ' discret');
+    var cleCiel = nuit ? 'nuit' : 'jour';
+    if (dernierCiel !== cleCiel) {
+      dernierCiel = cleCiel;
+      document.getElementById('astre-zone').innerHTML = '<div class="astre"><div class="aura"></div><div class="halo"></div><div class="disque"></div></div>' +
+        (nuit ? [[62, 96], [132, 58], [176, 150], [350, 70], [34, 196]].map(function (p, i) { return '<span class="etoile" style="left:calc(50% - 195px + ' + p[0] + 'px);top:' + p[1] + 'px;animation-delay:' + (i * 1.3) + 's"></span>'; }).join('') : '');
+      cielPret = false; document.documentElement.classList.remove('vivant');
+      OraAquarelle.peindre(document.getElementById('couches'), cleCiel, true, function () { cielPret = true; majVivant(); });
+    }
+
+    document.getElementById('app').innerHTML =
+      '<header class="entete"><span class="logo" role="img" aria-label="Ora">' + LOGO + '</span>' +
+      '<button class="puce-niveau" data-action="aller" data-id="niveau">Réglages</button>' + '</header>' +
+      '<main>' + contenu + '</main>';
+
+    var barre = document.getElementById('barre');
+    barre.hidden = false;
+    barre.innerHTML = [['accueil', 'jour', nuit ? 'Ce soir' : 'Aujourd\'hui'], ['prier', 'prier', 'Prier'], ['bible', 'bible', 'Bible'], ['famille', 'famille', 'Famille']].map(function (b) {
+      return '<button class="' + (onglet === b[0] ? 'on' : '') + '" data-action="onglet" data-id="' + b[0] + '" aria-label="' + b[2] + '"' + (onglet === b[0] ? ' aria-current="page"' : '') + '>' + icone(b[1]) + '<span class="lib">' + b[2] + '</span></button>';
+    }).join('');
+
+    var champ = document.getElementById('cherche');
+    if (champ) champ.addEventListener('input', function () {
+      etat.filtre = champ.value; var f = champ.value.toLowerCase();
+      document.getElementById('liste-mots').innerHTML = listeMots(D.lexique.mots.filter(function (m) { return !f || m.mot.toLowerCase().indexOf(f) >= 0 || m.def.toLowerCase().indexOf(f) >= 0; }).sort(function (a, b) { return a.mot.localeCompare(b.mot, 'fr'); }));
+    });
+    etat.premiereOuverture = false;
+  }
+
+  function aller(vue) { etat.pile.push({ vue: etat.vue, guide: etat.guide, etape: etat.etape }); etat.vue = vue; rendre(); window.scrollTo(0, 0); }
+
+  function feuille(titre, corpsHtml) {
+    fermerFeuille();
+    var voile = document.createElement('div'); voile.className = 'voile'; voile.setAttribute('data-action', 'fermer');
+    var f = document.createElement('div'); f.className = 'feuille'; f.setAttribute('role', 'dialog'); f.setAttribute('aria-modal', 'true'); f.setAttribute('aria-label', titre);
+    f.innerHTML = '<div class="poignee"></div><h2>' + esc(titre) + '</h2>' + corpsHtml + '<div class="actions" style="margin-top:20px"><button class="bouton leger" data-action="fermer">Fermer</button></div>';
+    document.body.appendChild(voile); document.body.appendChild(f);
+    var b = f.querySelector('button'); if (b) b.focus();
+  }
+  function fermerFeuille() { document.querySelectorAll('.voile,.feuille').forEach(function (n) { n.remove(); }); }
+
+  document.addEventListener('click', function (ev) {
+    var el = ev.target.closest('[data-action]'); if (!el) return;
+    var act = el.getAttribute('data-action'), id = el.getAttribute('data-id');
+    if (act === 'mot') {
+      var m = D.lexique.mots.filter(function (x) { return x.id === id; })[0];
+      if (m) feuille(m.mot, '<p>' + esc(m.def) + '</p>');
+    } else if (act === 'fermer') fermerFeuille();
+    else if (act === 'onglet') { etat.pile = []; etat.vue = id; fermerFeuille(); rendre(); window.scrollTo(0, 0); }
+    else if (act === 'aller') aller(id);
+    else if (act === 'priere') aller('priere:' + id);
+    else if (act === 'lecture') aller('lecture:' + id);
+    else if (act === 'guide') { etat.pile.push({ vue: etat.vue, guide: etat.guide, etape: etat.etape }); etat.vue = 'guide'; etat.guide = id; etat.etape = 0; rendre(); window.scrollTo(0, 0); }
+    else if (act === 'etape') { etat.etape = +id; rendre(); }
+    else if (act === 'bible') { etat.pile = []; etat.vue = 'bible'; rendre(); }
+    else if (act === 'retour') { var p = etat.pile.pop() || { vue: 'accueil' }; etat.vue = p.vue; etat.guide = p.guide; etat.etape = 0; rendre(); window.scrollTo(0, 0); }
+    else if (act === 'niveau') { R.niveau = +id; ecrireReglages(); rendre(); }
+    else if (act === 'reglage') { R[el.getAttribute('data-cle')] = id; ecrireReglages(); rendre(); majVivant(); }
+    else if (act === 'explication') {
+      var a = aujourdhui(), e = a.expl || a.explSaison, nom = a.expl ? a.j.celebration.nom : a.j.saison.nom;
+      feuille(nom, '<div class="bloc" style="border:0;margin-top:8px;padding:0"><h3>Ce que c\'est</h3><p>' + lexique(e.quoi) + '</p></div><div class="bloc"><h3>Pourquoi c\'est important</h3><p>' + lexique(e.pourquoi) + '</p></div><div class="bloc"><h3>Une idée à vivre</h3><p>' + lexique(e.idee) + '</p></div>');
+    }
+  });
+  document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape') fermerFeuille(); });
+
+  // Passe du jour au soir sans recharger, et repeint le ciel si l'écran change de taille.
+  setInterval(function () { if ((estNuit() ? 'nuit' : 'jour') !== dernierCiel && !document.querySelector('.feuille')) rendre(); }, 60000);
+  var tempo; window.addEventListener('resize', function () { clearTimeout(tempo); tempo = setTimeout(function () { OraAquarelle.peindre(document.getElementById('couches'), dernierCiel, false, function () { cielPret = true; majVivant(); }); }, 250); });
+
+  // ---------- Chargement des données ----------
+  function charger() {
+    if (window.ORA_DATA) return Promise.resolve(window.ORA_DATA);
+    var f = ['fetes', 'explications', 'prieres', 'lexique', 'conseils', 'jours'];
+    return Promise.all(f.map(function (n) { return fetch('data/' + n + '.json').then(function (r) { return r.json(); }); }))
+      .then(function (x) { var o = {}; f.forEach(function (n, i) { o[n] = x[i]; }); return o; });
+  }
+  charger().then(function (d) { D = d; rendre(); }).catch(function () {
+    document.getElementById('app').innerHTML = '<section class="vue page" style="padding-top:120px"><h2>Oups</h2><p class="chapeau">Les contenus n\'ont pas pu être chargés. Réessaie dans un instant.</p></section>';
+  });
+
+  if ('serviceWorker' in navigator && location.protocol === 'https:' && location.hostname.indexOf('github.io') >= 0) {
+    navigator.serviceWorker.register('sw.js').catch(function () { /* hors ligne indisponible ici */ });
+  }
+})();
+
+</script>
+</body>
+</html>
