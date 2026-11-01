@@ -1,0 +1,41 @@
+Ora — licences
+
+1. Le code (src/, outils/, tests/, .github/) est sous licence MIT :
+
+MIT License
+
+Copyright (c) 2026 les auteurs d'Ora
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+2. Les textes rédigés pour Ora (data/contenus.json, data/explications.json, data/lexique.json,
+data/conseils.json, data/livres-resumes.json, data/auteurs.json, data/guide-famille.json, data/i18n/)
+sont sous licence Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International
+(CC BY-SA 4.0) : https://creativecommons.org/licenses/by-sa/4.0/deed.fr
+
+3. Domaine public :
+   - Bible Crampon (1923), Douay-Rheims (révision Challoner), Biblia Platense (Mgr J. Straubinger) ;
+   - les prières traditionnelles de l'Église.
+   Les citations de papes et de saints sont de courts extraits, cités avec leur référence ; les textes
+   pontificaux appartiennent à la Libreria Editrice Vaticana (vatican.va).
+
+4. La police Sora (src/fonts/) est sous licence SIL Open Font License 1.1 : voir src/fonts/OFL.txt.
+
+5. Les références du lectionnaire (outils/sources/aelf-evangiles.json) proviennent de l'AELF (api.aelf.org) ;
+   seules les références sont reprises, jamais les textes liturgiques, qui sont protégés.
