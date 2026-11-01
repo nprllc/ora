@@ -1,5 +1,5 @@
 /* Ora — service worker : garde l'app disponible hors ligne. */
-var VERSION = 'ora-v0.2.0';
+var VERSION = 'ora-v0.3.0';
 var FICHIERS = ['./', 'index.html', 'manifest.webmanifest', 'bible.json', 'icon.svg', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 self.addEventListener('install', function (e) { e.waitUntil(caches.open(VERSION).then(function (c) { return c.addAll(FICHIERS); }).then(function () { return self.skipWaiting(); })); });
 self.addEventListener('activate', function (e) { e.waitUntil(caches.keys().then(function (k) { return Promise.all(k.filter(function (x) { return x !== VERSION; }).map(function (x) { return caches.delete(x); })); }).then(function () { return self.clients.claim(); })); });
