@@ -1,0 +1,21 @@
+{
+  "name": "ora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ora, l'app des premiers pas vers Dieu : une web-app catholique gratuite, sans compte, hors ligne.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node outils/build.mjs",
+    "test:e2e": "node --test tests/e2e/*.test.mjs",
+    "serve": "node -e \"import('./tests/e2e/serveur.mjs').then(m=>m.servir('dist',8080)).then(s=>console.log('Ora : '+s.url))\"",
+    "lectionnaire": "node outils/lectionnaire.mjs",
+    "prieres": "python3 outils/prieres_jour.py"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
