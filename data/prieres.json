@@ -1,0 +1,89 @@
+{
+  "_note": "Prières traditionnelles de l'Église (texte français) ; les traductions espagnole et anglaise sont dans data/i18n. Aucune prière n'est inventée.",
+  "traditionnelles": [
+    {
+      "id": "signe-de-croix",
+      "titre": "Le signe de croix",
+      "texte": "Au nom du Père,\net du Fils,\net du Saint-Esprit.\nAmen.",
+      "geste": "De la main droite, on touche le front (le Père), la poitrine (le Fils), puis l'épaule gauche et l'épaule droite (le Saint-Esprit).",
+      "quand": "Au début et à la fin de toute prière, en entrant dans une église, avant un repas, ou simplement pour se mettre sous le regard de Dieu.",
+      "pourquoi": "C'est la prière la plus courte et la plus ancienne : en quelques mots, on dit sa foi en Dieu Père, Fils et Esprit, et on trace sur soi la croix du Christ."
+    },
+    {
+      "id": "notre-pere",
+      "titre": "Notre Père",
+      "texte": "Notre Père, qui es aux cieux,\nque ton nom soit sanctifié,\nque ton règne vienne,\nque ta volonté soit faite\nsur la terre comme au ciel.\nDonne-nous aujourd'hui notre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi\nà ceux qui nous ont offensés.\nEt ne nous laisse pas entrer en tentation,\nmais délivre-nous du Mal.\nAmen.",
+      "quand": "Chaque jour, le matin ou le soir, à la messe, ou quand on ne sait pas quoi dire à Dieu.",
+      "pourquoi": "C'est la prière que Jésus Lui-même a apprise à ses disciples (Mt 6, 9-13). Elle contient tout : la confiance, le pain de chaque jour, le pardon et la protection.",
+      "source": "Mt 6, 9-13 ; Lc 11, 2-4"
+    },
+    {
+      "id": "je-vous-salue-marie",
+      "titre": "Je vous salue Marie",
+      "texte": "Je vous salue, Marie, pleine de grâce ;\nle Seigneur est avec vous.\nVous êtes bénie entre toutes les femmes,\net Jésus, le fruit de vos entrailles, est béni.\nSainte Marie, Mère de Dieu,\npriez pour nous, pauvres pécheurs,\nmaintenant et à l'heure de notre mort.\nAmen.",
+      "quand": "À tout moment, seul ou avec un enfant. Elle se répète dix fois dans chaque dizaine du chapelet.",
+      "pourquoi": "La première partie reprend les paroles de l'ange Gabriel et d'Élisabeth à Marie (Lc 1, 28.42). Dans la seconde, on demande à Marie de prier pour nous, comme on le demanderait à une mère.",
+      "source": "Lc 1, 28 ; Lc 1, 42"
+    },
+    {
+      "id": "gloire-au-pere",
+      "titre": "Gloire au Père",
+      "texte": "Gloire au Père, et au Fils, et au Saint-Esprit,\nau Dieu qui est, qui était et qui vient,\npour les siècles des siècles.\nAmen.",
+      "variante": "Gloire au Père, et au Fils, et au Saint-Esprit,\ncomme il était au commencement, maintenant et toujours,\net pour les siècles des siècles.\nAmen.",
+      "quand": "À la fin d'une dizaine de chapelet, d'un psaume, ou comme une petite prière de louange dans la journée.",
+      "pourquoi": "C'est une louange toute simple : on ne demande rien, on rend gloire à Dieu pour ce qu'il est."
+    },
+    {
+      "id": "credo",
+      "titre": "Je crois en Dieu (Symbole des Apôtres)",
+      "texte": "Je crois en Dieu, le Père tout-puissant,\ncréateur du ciel et de la terre.\nEt en Jésus Christ, son Fils unique, notre Seigneur,\nqui a été conçu du Saint-Esprit,\nest né de la Vierge Marie,\na souffert sous Ponce Pilate,\na été crucifié,\nest mort et a été enseveli,\nest descendu aux enfers,\nle troisième jour est ressuscité des morts,\nest monté aux cieux,\nest assis à la droite de Dieu le Père tout-puissant,\nd'où il viendra juger les vivants et les morts.\nJe crois en l'Esprit Saint,\nà la sainte Église catholique,\nà la communion des saints,\nà la rémission des péchés,\nà la résurrection de la chair,\nà la vie éternelle.\nAmen.",
+      "quand": "Au début du chapelet, à la messe du dimanche, ou pour redire sa foi quand elle vacille.",
+      "pourquoi": "Le Credo résume l'essentiel de la foi chrétienne, telle que l'Église la transmet depuis les premiers siècles. Le dire, c'est se relier à tous les croyants d'hier et d'aujourd'hui."
+    },
+    {
+      "id": "ange-de-dieu",
+      "titre": "Ange de Dieu",
+      "texte": "Ange de Dieu,\nqui êtes mon gardien,\net à qui j'ai été confié par la bonté divine,\néclairez-moi, protégez-moi,\ndirigez-moi et gouvernez-moi.\nAmen.",
+      "quand": "Le soir avant de dormir, ou le matin en partant. Une très belle prière à dire avec un enfant.",
+      "pourquoi": "L'Église croit que chacun est accompagné par un ange gardien, un ami invisible que Dieu met à nos côtés (Catéchisme, n° 336)."
+    },
+    {
+      "id": "angelus",
+      "titre": "L'Angélus",
+      "texte": "L'ange du Seigneur apporta l'annonce à Marie,\n— et elle conçut du Saint-Esprit.\nJe vous salue, Marie…\n\nVoici la servante du Seigneur,\n— qu'il me soit fait selon votre parole.\nJe vous salue, Marie…\n\nEt le Verbe s'est fait chair,\n— et il a habité parmi nous.\nJe vous salue, Marie…\n\nPriez pour nous, sainte Mère de Dieu,\n— afin que nous soyons rendus dignes des promesses du Christ.\n\nPrions le Seigneur.\nQue ta grâce, Seigneur notre Père, se répande en nos cœurs :\npar le message de l'ange, tu nous as fait connaître l'incarnation de ton Fils bien-aimé ;\nconduis-nous, par sa passion et par sa croix,\njusqu'à la gloire de la résurrection.\nPar Jésus, le Christ, notre Seigneur.\nAmen.",
+      "quand": "Traditionnellement trois fois par jour : à 6 heures, à midi et à 18 heures, quand sonnent les cloches.",
+      "pourquoi": "Elle rappelle le moment où Dieu s'est fait homme, grâce au « oui » de Marie. La dire à midi, c'est faire une pause au milieu de la journée pour se souvenir de Dieu."
+    },
+    {
+      "id": "acte-de-contrition",
+      "titre": "Acte de contrition",
+      "texte": "Mon Dieu, j'ai un très grand regret de vous avoir offensé,\nparce que vous êtes infiniment bon, infiniment aimable,\net que le péché vous déplaît.\nJe prends la ferme résolution, avec le secours de votre sainte grâce,\nde ne plus vous offenser et de faire pénitence.",
+      "variante": "Mon Dieu, j'ai péché contre toi et contre mes frères,\nmais près de toi se trouve le pardon.\nAccueille mon repentir\net donne-moi la force de vivre selon ton amour.",
+      "quand": "Le soir après l'examen de la journée, ou pendant la confession, après avoir dit ses péchés.",
+      "pourquoi": "On dit à Dieu qu'on regrette le mal qu'on a fait et qu'on veut changer, en comptant sur son aide plus que sur ses propres forces."
+    },
+    {
+      "id": "benedicite",
+      "titre": "Bénédicité",
+      "texte": "Bénissez-nous, Seigneur,\nbénissez ce repas,\nceux qui l'ont préparé,\net procurez du pain à ceux qui n'en ont pas.\nAmen.",
+      "quand": "Avant le repas, en famille ou seul.",
+      "pourquoi": "On remercie Dieu pour la nourriture et pour ceux qui l'ont préparée, et on pense à ceux qui ont faim."
+    },
+    {
+      "id": "nunc-dimittis",
+      "titre": "Le cantique de Syméon",
+      "bible": {
+        "osis": "Luke",
+        "c": 2,
+        "v": [
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "quand": "Le soir, avant de dormir. L'Église le chante chaque soir à complies, la dernière prière de la journée.",
+      "pourquoi": "Le vieillard Syméon a tenu l'enfant Jésus dans ses bras au Temple (Lc 2, 25-32). Il remercie Dieu et s'en remet à Lui en paix : c'est une belle manière de confier sa nuit à Dieu."
+    }
+  ]
+}

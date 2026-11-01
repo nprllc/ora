@@ -1,0 +1,551 @@
+{
+ "_note": "Contenus éditoriaux rangés par célébration (clé liturgique calculée par OraLiturgie.jour(), par exemple « toussaint »), jamais par date civile. Règles : aucune prière inventée (la prière de la réflexion est un verset désigné par sa référence ; le build en lit le texte dans la Bible de chaque langue) ; chaque citation est vérifiée à sa source et citée dans sa traduction publiée ; les faits portent leurs sources ; jamais la même personne citée deux jours de suite (vérifié par les tests).",
+ "toussaint": {
+  "fr": {
+   "citation": {
+    "texte": "Pour être saint, il n'est pas nécessaire d'accomplir des actions et des œuvres extraordinaires.",
+    "auteur": "Benoît XVI",
+    "source": "Homélie du 1er novembre 2006",
+    "auteurId": "benoit-xvi"
+   },
+   "reflexion": {
+    "titre": "Día de los Muertos : regarder la mort en face",
+    "accroche": "Au Mexique, ces jours-ci, on décore les tombes et on prépare des autels fleuris pour les morts. Et nous, quel rapport avons-nous avec la mort ?",
+    "fait": "Les 1er et 2 novembre, le Mexique célèbre le Día de los Muertos. Les familles dressent des autels (ofrendas) avec les photos des défunts, des bougies, des fleurs orange de cempasúchil et les plats qu'ils aimaient. Cette fête, où se mêlent traditions indigènes et foi catholique, est inscrite depuis 2008 sur la liste du patrimoine culturel immatériel de l'humanité de l'UNESCO. En Catalogne, c'est la Castanyada : on partage châtaignes et panellets en famille.",
+    "citations": [
+     {
+      "texte": "Je suis la résurrection et la vie ; celui qui croit en moi, fût-il mort, vivra.",
+      "source": "Jean 11, 25"
+     },
+     {
+      "texte": "Avoir chaque jour la mort présente devant les yeux.",
+      "source": "Règle de saint Benoît, chapitre 4, verset 47 (vers 530), traduction du latin « mortem cotidie ante oculos suspectam habere »"
+     }
+    ],
+    "piste": "Les chrétiens ont toujours choisi de regarder la mort en face : c'est le « memento mori », « souviens-toi que tu mourras ». Non pas pour avoir peur, mais pour vivre chaque jour comme un cadeau. Les Mexicains font la fête avec leurs morts ; les chrétiens, eux, espèrent les retrouver, parce que le Christ est ressuscité.",
+    "sources": "UNESCO, « Les fêtes indigènes dédiées aux morts » (inscription 2008) ; Règle de saint Benoît, ch. 4"
+   },
+   "histoire": {
+    "titre": "Comment un temple de tous les dieux est devenu l'église de tous les saints",
+    "accroche": "La Toussaint est née à Rome, dans l'un des plus célèbres monuments de l'Antiquité : le Panthéon.",
+    "texte": "Le Panthéon de Rome était un temple dédié à tous les dieux de l'Empire. Vers 609, l'empereur Phocas l'offrit au pape Boniface IV, qui le consacra à la Vierge Marie et à tous les martyrs, sous le nom de Sainte-Marie-aux-Martyrs. Le 13 mai, jour de cette consécration, devint la fête de tous les martyrs.\n\nAu VIIIe siècle, le pape Grégoire III dédia une chapelle de la basilique Saint-Pierre à tous les saints. Vers 835, sous le pape Grégoire IV, l'empereur Louis le Pieux étendit la fête du 1er novembre à tout l'empire carolingien.\n\nLe Panthéon est toujours une église aujourd'hui : on peut y entrer librement, sous la grande ouverture de sa coupole ouverte sur le ciel.",
+    "plusLoin": "Les historiens discutent encore du rôle exact de chacun : en Irlande et en Angleterre, on fêtait déjà tous les saints au début de novembre au VIIIe siècle, et c'est peut-être de là que la date a gagné le continent. Le passage d'une fête des martyrs à une fête de tous les saints dit quelque chose d'important : la sainteté n'est pas réservée à ceux qui ont versé leur sang, elle est l'appel de tous les baptisés.",
+    "source": "Institut catholique de Paris, « Qu'est-ce que la Toussaint en 5 questions » ; New Catholic Encyclopedia, « All Saints, Solemnity of » ; Vatican News, « Tous les saints »"
+   },
+   "portrait": {
+    "nom": "Saint Carlo Acutis",
+    "dates": "1991-2006",
+    "accroche": "Un adolescent passionné d'informatique, mort à 15 ans, devenu le premier saint de la génération Internet.",
+    "texte": "Carlo naît à Londres le 3 mai 1991 et grandit à Milan. Tout jeune, il se prend d'amour pour la messe : il fait sa première communion à 7 ans et y va ensuite chaque jour.\n\nC'est un adolescent de son temps, entouré d'amis et passionné d'informatique. Il crée une exposition sur les miracles eucharistiques, qui voyage encore aujourd'hui dans le monde entier.\n\nEn octobre 2006, une leucémie foudroyante l'emporte en quelques jours, à 15 ans. Il repose à Assise. Le pape Léon XIV l'a déclaré saint le 7 septembre 2025.\n\nSa vie dit le cœur de la Toussaint : on n'a pas besoin de faire des choses extraordinaires pour devenir saint, il suffit d'aimer Dieu et les autres dans sa vie ordinaire.",
+    "plusLoin": "Carlo comparait l'Eucharistie à une « autoroute vers le ciel », et sa devise était « Pas moi, mais Dieu ». Sa sainteté rejoint ce que le concile Vatican II appelle « l'appel universel à la sainteté » (Lumen gentium, chapitre 5) : chacun, dans sa vie ordinaire, est appelé à la plénitude de l'amour.",
+    "source": "Opus Dei, « Carlo Acutis, le premier saint millénial » (2025) ; Associated Press (septembre 2025)"
+   },
+   "savaisTu": {
+    "titre": "Halloween veut dire « la veille de la Toussaint »",
+    "accroche": "Derrière les citrouilles, un vieux mot anglais chrétien.",
+    "texte": "« Halloween » est la contraction de l'anglais All Hallows' Eve, « la veille de tous les saints » (hallow est un ancien mot anglais pour « saint »). C'est donc, au départ, la veillée de la Toussaint.\n\nLes historiens pensent que des coutumes plus anciennes, comme la fête celtique de Samhain qui marquait l'entrée dans la saison sombre, se sont mêlées à cette veillée. Les costumes et les citrouilles sont venus bien plus tard, surtout par l'Irlande puis les États-Unis.",
+    "source": "Encyclopædia Britannica, « Halloween » ; Oxford English Dictionary, « hallow »"
+   },
+   "enfant": {
+    "evangile": {
+     "explication": "Jésus est monté sur une montagne pour enseigner ses amis. Il leur a dit qui est vraiment heureux : ceux qui sont humbles, ceux qui sont doux, ceux qui aiment et pardonnent, ceux qui font la paix. Ce bonheur-là, Dieu le donne."
+    },
+    "citation": {
+     "texte": "Je veux passer mon Ciel à faire du bien sur la terre.",
+     "auteur": "Sainte Thérèse de Lisieux",
+     "auteurId": "therese-de-lisieux"
+    },
+    "reflexion": {
+     "titre": "Qu'est-ce qu'un saint ?",
+     "texte": "Un saint, c'est quelqu'un qui a beaucoup aimé Dieu et les autres. Il n'était pas parfait, mais il a fait confiance à Dieu. Certains sont connus, comme saint François ou sainte Thérèse. Beaucoup d'autres, seul Dieu les connaît : aujourd'hui, on les fête tous.",
+     "question": "Connais-tu le saint dont tu portes le prénom ?"
+    },
+    "histoire": {
+     "titre": "L'église de tous les saints",
+     "texte": "À Rome, il y a un très ancien bâtiment, le Panthéon, avec un grand trou rond au sommet de son toit, ouvert sur le ciel. Autrefois, on y honorait les dieux des Romains. Il y a plus de mille quatre cents ans, le pape en a fait une église dédiée à Marie et aux martyrs. Elle existe toujours."
+    },
+    "portrait": {
+     "nom": "Saint Carlo Acutis",
+     "texte": "Carlo était un garçon italien qui aimait l'informatique, les jeux vidéo et ses amis. Il allait à la messe tous les jours : il disait que l'Eucharistie était son « autoroute vers le ciel ». Il est mort à 15 ans d'une maladie grave. L'Église l'a déclaré saint en 2025.",
+     "idee": "Ce soir, raconte à Jésus ce que tu aimes faire, comme Carlo."
+    },
+    "sources": "Théobule (frères dominicains), vidéos sur les Béatitudes et la Toussaint ; Service de catéchèse du diocèse de Cambrai ; Catéchisme de l'Église catholique, n° 1716-1717"
+   },
+   "meditation": {
+    "contexte": "Jésus parle sur une montagne, comme Moïse avait reçu la Loi sur le Sinaï. Mais au lieu de commencer par des commandements, il répète neuf fois le même mot : « Heureux ». Et il ne décrit pas des gens parfaits : il parle de ceux qui pleurent, qui ont faim de justice, qui sont insultés. Le bonheur qu'il promet ne vient pas de ce qu'on possède ni de ce qu'on réussit, mais de ce que Dieu donne.",
+    "eclairage": "Le Catéchisme dit que les Béatitudes « dépeignent le visage de Jésus-Christ » (n° 1717). Avant d'être un programme pour nous, c'est un portrait de Lui : c'est Lui le doux, le pauvre, le miséricordieux, l'artisan de paix. Voilà pourquoi l'Église lit ce texte à la Toussaint : les saints sont des gens ordinaires qui ont laissé ce visage se dessiner peu à peu en eux.",
+    "pistes": [
+     "Relis le texte lentement, à voix basse. Arrête-toi sur la béatitude qui te touche, ou au contraire qui te dérange : c'est souvent là que Dieu te parle.",
+     "Pense à quelqu'un que tu connais qui vit l'une de ces béatitudes : une personne douce, qui pardonne, qui apaise. Remercie Dieu pour elle.",
+     "Cherche un endroit précis de ta semaine où tu pourrais être « artisan de paix » : une parole à adoucir, un message à envoyer, une dispute à ne pas relancer."
+    ],
+    "conclusion": "Avant de refermer, choisis une béatitude et demande à Dieu, en une phrase, de la faire grandir en toi aujourd'hui.",
+    "verset": {
+     "o": "Matt",
+     "c": 5,
+     "v": [
+      3
+     ]
+    }
+   }
+  },
+  "es": {
+   "citation": {
+    "texte": "Para ser santos no es preciso realizar acciones y obras extraordinarias, ni poseer carismas excepcionales.",
+    "auteur": "Benedicto XVI",
+    "source": "Homilía del 1 de noviembre de 2006",
+    "auteurId": "benoit-xvi"
+   },
+   "reflexion": {
+    "titre": "Día de los Muertos: mirar la muerte de frente",
+    "accroche": "En México, estos días, se adornan las tumbas y se preparan altares llenos de flores para los difuntos. ¿Y nosotros, qué relación tenemos con la muerte?",
+    "fait": "El 1 y el 2 de noviembre, México celebra el Día de los Muertos. Las familias montan altares (ofrendas) con fotos de los difuntos, velas, flores de cempasúchil y los platos que les gustaban. Esta fiesta, en la que se mezclan tradiciones indígenas y fe católica, está inscrita desde 2008 en la lista del patrimonio cultural inmaterial de la humanidad de la UNESCO. En Cataluña es la Castanyada: se comparten castañas y panellets en familia.",
+    "citations": [
+     {
+      "texte": "Yo soy la resurrección y la vida; el que cree en Mí, aunque muera, vivirá.",
+      "source": "Juan 11, 25"
+     },
+     {
+      "texte": "Tener cada día la muerte presente ante los ojos.",
+      "source": "Regla de san Benito, capítulo 4, versículo 47 (hacia 530), traducción del latín «mortem cotidie ante oculos suspectam habere»"
+     }
+    ],
+    "piste": "Los cristianos siempre han elegido mirar la muerte de frente: es el «memento mori», «recuerda que morirás». No para tener miedo, sino para vivir cada día como un regalo. Los mexicanos hacen fiesta con sus muertos; los cristianos esperan volver a encontrarlos, porque Cristo ha resucitado.",
+    "sources": "UNESCO, «Las fiestas indígenas dedicadas a los muertos» (inscripción de 2008); Regla de san Benito, cap. 4"
+   },
+   "histoire": {
+    "titre": "Cómo un templo de todos los dioses se convirtió en la iglesia de todos los santos",
+    "accroche": "La fiesta de Todos los Santos nació en Roma, en uno de los monumentos más famosos de la Antigüedad: el Panteón.",
+    "texte": "El Panteón de Roma era un templo dedicado a todos los dioses del Imperio. Hacia el año 609, el emperador Focas se lo ofreció al papa Bonifacio IV, que lo consagró a la Virgen María y a todos los mártires, con el nombre de Santa María de los Mártires. El 13 de mayo, día de esa consagración, pasó a ser la fiesta de todos los mártires.\n\nEn el siglo VIII, el papa Gregorio III dedicó una capilla de la basílica de San Pedro a todos los santos. Hacia el año 835, bajo el papa Gregorio IV, el emperador Ludovico Pío extendió la fiesta del 1 de noviembre a todo el imperio carolingio.\n\nEl Panteón sigue siendo hoy una iglesia: se puede entrar libremente, bajo la gran abertura de su cúpula, abierta al cielo.",
+    "plusLoin": "Los historiadores siguen discutiendo el papel exacto de cada uno: en Irlanda y en Inglaterra ya se celebraba a todos los santos a comienzos de noviembre en el siglo VIII, y quizá desde allí la fecha llegó al continente. El paso de una fiesta de los mártires a una fiesta de todos los santos dice algo importante: la santidad no está reservada a quienes derramaron su sangre, es la llamada de todos los bautizados.",
+    "source": "Institut catholique de Paris; New Catholic Encyclopedia, «All Saints, Solemnity of»; Vatican News, «Todos los Santos»"
+   },
+   "portrait": {
+    "nom": "San Carlo Acutis",
+    "dates": "1991-2006",
+    "accroche": "Un adolescente apasionado por la informática, muerto a los 15 años, convertido en el primer santo de la generación de internet.",
+    "texte": "Carlo nace en Londres el 3 de mayo de 1991 y crece en Milán. Desde muy joven se enamora de la misa: hace la primera comunión a los 7 años y después va cada día.\n\nEs un adolescente de su tiempo, rodeado de amigos y apasionado por la informática. Crea una exposición sobre los milagros eucarísticos que todavía hoy recorre el mundo.\n\nEn octubre de 2006, una leucemia fulminante se lo lleva en pocos días, a los 15 años. Descansa en Asís. El papa León XIV lo declaró santo el 7 de septiembre de 2025.\n\nSu vida expresa el corazón de Todos los Santos: no hace falta hacer cosas extraordinarias para ser santo, basta con amar a Dios y a los demás en la vida de cada día.",
+    "plusLoin": "Carlo comparaba la Eucaristía con una «autopista hacia el cielo», y su lema era «No yo, sino Dios». Su santidad se une a lo que el concilio Vaticano II llama la «vocación universal a la santidad» (Lumen gentium, capítulo 5): cada uno, en su vida ordinaria, está llamado a la plenitud del amor.",
+    "source": "Opus Dei, «Carlo Acutis, el primer santo millennial» (2025); Associated Press (septiembre de 2025)"
+   },
+   "savaisTu": {
+    "titre": "Halloween significa «la víspera de Todos los Santos»",
+    "accroche": "Detrás de las calabazas, una vieja palabra inglesa cristiana.",
+    "texte": "«Halloween» es la contracción del inglés All Hallows' Eve, «la víspera de todos los santos» (hallow es una antigua palabra inglesa que significa «santo»). Al principio, por tanto, era la vigilia de Todos los Santos.\n\nLos historiadores piensan que costumbres más antiguas, como la fiesta celta de Samhain, que marcaba la entrada en la estación oscura, se mezclaron con esta vigilia. Los disfraces y las calabazas llegaron mucho más tarde, sobre todo a través de Irlanda y luego de Estados Unidos.",
+    "source": "Encyclopædia Britannica, «Halloween»; Oxford English Dictionary, «hallow»"
+   },
+   "enfant": {
+    "evangile": {
+     "explication": "Jesús subió a una montaña para enseñar a sus amigos. Les dijo quién es feliz de verdad: los humildes, los mansos, los que aman y perdonan, los que trabajan por la paz. Esa felicidad la da Dios."
+    },
+    "citation": {
+     "texte": "Quiero pasar mi cielo haciendo el bien en la tierra.",
+     "auteur": "Santa Teresa de Lisieux",
+     "auteurId": "therese-de-lisieux"
+    },
+    "reflexion": {
+     "titre": "¿Qué es un santo?",
+     "texte": "Un santo es alguien que amó mucho a Dios y a los demás. No era perfecto, pero confió en Dios. Algunos son conocidos, como san Francisco o santa Teresa. A muchos otros solo los conoce Dios: hoy los celebramos a todos.",
+     "question": "¿Conoces al santo cuyo nombre llevas?"
+    },
+    "histoire": {
+     "titre": "La iglesia de todos los santos",
+     "texte": "En Roma hay un edificio muy antiguo, el Panteón, con un gran agujero redondo en lo alto del techo, abierto al cielo. Antiguamente se honraba allí a los dioses de los romanos. Hace más de mil cuatrocientos años, el papa lo convirtió en una iglesia dedicada a María y a los mártires. Todavía existe."
+    },
+    "portrait": {
+     "nom": "San Carlo Acutis",
+     "texte": "Carlo era un chico italiano al que le gustaban la informática, los videojuegos y sus amigos. Iba a misa todos los días: decía que la Eucaristía era su «autopista hacia el cielo». Murió a los 15 años de una enfermedad grave. La Iglesia lo declaró santo en 2025.",
+     "idee": "Esta noche, cuéntale a Jesús lo que te gusta hacer, como Carlo."
+    },
+    "sources": "Catecismo de la Iglesia Católica, n. 1716-1717; Théobule (frailes dominicos), vídeos sobre las Bienaventuranzas"
+   },
+   "meditation": {
+    "contexte": "Jesús habla en una montaña, como Moisés había recibido la Ley en el Sinaí. Pero en lugar de empezar por mandamientos, repite nueve veces la misma palabra: «Dichosos». Y no describe a personas perfectas: habla de los que lloran, de los que tienen hambre de justicia, de los insultados. La felicidad que promete no viene de lo que se tiene ni de lo que se logra, sino de lo que Dios da.",
+    "eclairage": "El Catecismo dice que las Bienaventuranzas «dibujan el rostro de Jesucristo» (n. 1717). Antes de ser un programa para nosotros, son un retrato de Él: Él es el manso, el pobre, el misericordioso, el que trabaja por la paz. Por eso la Iglesia lee este texto en Todos los Santos: los santos son personas corrientes que dejaron que ese rostro se dibujara poco a poco en ellas.",
+    "pistes": [
+     "Vuelve a leer el texto despacio, en voz baja. Detente en la bienaventuranza que te toca, o al contrario que te incomoda: a menudo es ahí donde Dios te habla.",
+     "Piensa en alguien que conoces que vive una de estas bienaventuranzas: una persona mansa, que perdona, que pacifica. Da gracias a Dios por ella.",
+     "Busca un momento concreto de tu semana en el que podrías «trabajar por la paz»: una palabra que suavizar, un mensaje que enviar, una discusión que no reavivar."
+    ],
+    "conclusion": "Antes de cerrar, elige una bienaventuranza y pídele a Dios, en una frase, que la haga crecer hoy en ti.",
+    "verset": {
+     "o": "Matt",
+     "c": 5,
+     "v": [
+      3
+     ]
+    }
+   }
+  },
+  "en": {
+   "citation": {
+    "texte": "To be a Saint requires neither extraordinary actions or works nor the possession of exceptional charisms.",
+    "auteur": "Benedict XVI",
+    "source": "Homily of November 1, 2006",
+    "auteurId": "benoit-xvi"
+   },
+   "reflexion": {
+    "titre": "Día de los Muertos: looking death in the face",
+    "accroche": "In Mexico, these days, families decorate graves and prepare flower-covered altars for their dead. And what is our own relationship with death?",
+    "fait": "On November 1 and 2, Mexico celebrates the Día de los Muertos. Families set up altars (ofrendas) with photos of the departed, candles, orange cempasúchil marigolds and the dishes they loved. This feast, blending indigenous traditions and Catholic faith, has been on UNESCO's list of the Intangible Cultural Heritage of Humanity since 2008. In Catalonia it is the Castanyada: families share chestnuts and panellets.",
+    "citations": [
+     {
+      "texte": "I am the resurrection and the life: he that believeth in me, although he be dead, shall live.",
+      "source": "John 11:25"
+     },
+     {
+      "texte": "To keep death daily before one's eyes.",
+      "source": "Rule of Saint Benedict, chapter 4, verse 47 (c. 530), translated from the Latin “mortem cotidie ante oculos suspectam habere”"
+     }
+    ],
+    "piste": "Christians have always chosen to look death in the face: it is the “memento mori”, “remember that you will die”. Not to be afraid, but to live each day as a gift. Mexicans celebrate with their dead; Christians hope to see them again, because Christ is risen.",
+    "sources": "UNESCO, “Indigenous festivity dedicated to the dead” (inscribed 2008); Rule of Saint Benedict, ch. 4"
+   },
+   "histoire": {
+    "titre": "How a temple of all the gods became the church of all the saints",
+    "accroche": "All Saints was born in Rome, in one of the most famous monuments of Antiquity: the Pantheon.",
+    "texte": "The Pantheon in Rome was a temple dedicated to all the gods of the Empire. Around 609, Emperor Phocas gave it to Pope Boniface IV, who consecrated it to the Virgin Mary and all the martyrs, as Saint Mary and the Martyrs. May 13, the day of that consecration, became the feast of all martyrs.\n\nIn the 8th century, Pope Gregory III dedicated a chapel in Saint Peter's Basilica to all the saints. Around 835, under Pope Gregory IV, Emperor Louis the Pious extended the November 1 feast to the whole Carolingian empire.\n\nThe Pantheon is still a church today: you can walk in freely, beneath the great opening of its dome, open to the sky.",
+    "plusLoin": "Historians still debate the exact role of each: in Ireland and England, all the saints were already celebrated in early November in the 8th century, and the date may have reached the continent from there. The shift from a feast of martyrs to a feast of all saints says something important: holiness is not reserved for those who shed their blood, it is the calling of all the baptized.",
+    "source": "Institut catholique de Paris; New Catholic Encyclopedia, “All Saints, Solemnity of”; Vatican News, “All Saints”"
+   },
+   "portrait": {
+    "nom": "Saint Carlo Acutis",
+    "dates": "1991-2006",
+    "accroche": "A teenager passionate about computers, who died at 15 and became the first saint of the internet generation.",
+    "texte": "Carlo was born in London on May 3, 1991, and grew up in Milan. From a young age he loved the Mass: he made his First Communion at 7 and then went every day.\n\nHe was a teenager of his time, surrounded by friends and passionate about computers. He created an exhibition on Eucharistic miracles that still travels the world today.\n\nIn October 2006, a sudden leukemia took him within days, at 15. He rests in Assisi. Pope Leo XIV declared him a saint on September 7, 2025.\n\nHis life expresses the heart of All Saints: you don't need to do extraordinary things to become a saint, it is enough to love God and others in ordinary life.",
+    "plusLoin": "Carlo called the Eucharist his “highway to heaven”, and his motto was “Not me, but God”. His holiness echoes what the Second Vatican Council calls “the universal call to holiness” (Lumen Gentium, chapter 5): everyone, in ordinary life, is called to the fullness of love.",
+    "source": "Opus Dei, “Carlo Acutis, the first millennial saint” (2025); Associated Press (September 2025)"
+   },
+   "savaisTu": {
+    "titre": "Halloween means “the eve of All Saints”",
+    "accroche": "Behind the pumpkins, an old Christian English word.",
+    "texte": "“Halloween” is a contraction of All Hallows' Eve, “the eve of all the saints” (hallow is an old English word for “saint”). So at first it was the vigil of All Saints.\n\nHistorians think that older customs, such as the Celtic feast of Samhain, which marked the start of the dark season, blended with this vigil. Costumes and pumpkins came much later, mostly through Ireland and then the United States.",
+    "source": "Encyclopædia Britannica, “Halloween”; Oxford English Dictionary, “hallow”"
+   },
+   "enfant": {
+    "evangile": {
+     "explication": "Jesus went up a mountain to teach his friends. He told them who is truly happy: the humble, the gentle, those who love and forgive, those who make peace. That happiness is a gift from God."
+    },
+    "citation": {
+     "texte": "I want to spend my heaven in doing good on earth.",
+     "auteur": "Saint Thérèse of Lisieux",
+     "auteurId": "therese-de-lisieux"
+    },
+    "reflexion": {
+     "titre": "What is a saint?",
+     "texte": "A saint is someone who loved God and others very much. They were not perfect, but they trusted God. Some are famous, like Saint Francis or Saint Thérèse. Many others are known only to God: today we celebrate them all.",
+     "question": "Do you know the saint whose name you have?"
+    },
+    "histoire": {
+     "titre": "The church of all the saints",
+     "texte": "In Rome there is a very old building, the Pantheon, with a big round hole at the top of its roof, open to the sky. Long ago, the Romans honored their gods there. More than fourteen hundred years ago, the pope turned it into a church dedicated to Mary and the martyrs. It is still there."
+    },
+    "portrait": {
+     "nom": "Saint Carlo Acutis",
+     "texte": "Carlo was an Italian boy who loved computers, video games and his friends. He went to Mass every day: he said the Eucharist was his “highway to heaven”. He died at 15 of a serious illness. The Church declared him a saint in 2025.",
+     "idee": "Tonight, tell Jesus what you love doing, like Carlo."
+    },
+    "sources": "Catechism of the Catholic Church, nos. 1716-1717; Théobule (Dominican friars), videos on the Beatitudes"
+   },
+   "meditation": {
+    "contexte": "Jesus speaks on a mountain, just as Moses received the Law on Sinai. But instead of beginning with commandments, he repeats the same word nine times: “Blessed”. And he does not describe perfect people: he speaks of those who mourn, who hunger for justice, who are insulted. The happiness he promises does not come from what we own or achieve, but from what God gives.",
+    "eclairage": "The Catechism says that the Beatitudes “depict the countenance of Jesus Christ” (no. 1717). Before being a program for us, they are a portrait of him: he is the meek one, the poor one, the merciful one, the peacemaker. That is why the Church reads this text on All Saints: the saints are ordinary people who let that face take shape in them, little by little.",
+    "pistes": [
+     "Read the text again slowly, under your breath. Stop at the beatitude that touches you, or on the contrary unsettles you: that is often where God is speaking to you.",
+     "Think of someone you know who lives one of these beatitudes: someone gentle, who forgives, who brings calm. Thank God for them.",
+     "Find one specific moment in your week where you could be a “peacemaker”: a word to soften, a message to send, an argument not to restart."
+    ],
+    "conclusion": "Before you close, choose one beatitude and ask God, in a single sentence, to make it grow in you today.",
+    "verset": {
+     "o": "Matt",
+     "c": 5,
+     "v": [
+      3
+     ]
+    }
+   }
+  },
+  "priereReflexion": {
+   "id": "ps39-5",
+   "osis": "Ps",
+   "c": 39,
+   "v": [
+    5
+   ]
+  }
+ },
+ "defunts": {
+  "fr": {
+   "citation": {
+    "texte": "Souvenez-vous seulement de moi à l'autel du Seigneur.",
+    "auteur": "Sainte Monique, mère de saint Augustin, avant de mourir",
+    "source": "Saint Augustin, Confessions, livre IX, chapitre 11",
+    "auteurId": "monique"
+   },
+   "reflexion": {
+    "titre": "Comment parler de la mort à un enfant ?",
+    "accroche": "En ces jours où beaucoup de familles vont au cimetière, les enfants posent des questions. Que leur répondre, et que nous répondre à nous-mêmes ?",
+    "fait": "Autour du 1er et du 2 novembre, en Espagne comme en France, les cimetières se remplissent de fleurs. Beaucoup d'enfants accompagnent leurs parents et demandent : « Où il est, grand-père ? » ou « Est-ce que toi aussi tu vas mourir ? » Les spécialistes de l'enfance conseillent de ne pas éviter ces questions et d'employer des mots vrais et simples.",
+    "citations": [
+     {
+      "texte": "Mais nous ne voulons pas, frères, que vous soyez dans l'ignorance au sujet de ceux qui se sont endormis, afin que vous ne vous affligiez pas, comme les autres hommes qui n'ont pas d'espérance.",
+      "source": "1 Thessaloniciens 4, 13"
+     },
+     {
+      "texte": "Les âmes des justes sont dans la main de Dieu, et le tourment ne les atteindra pas.",
+      "source": "Sagesse 3, 1"
+     }
+    ],
+    "piste": "La foi ne supprime pas le chagrin : Jésus Lui-même a pleuré devant la tombe de son ami Lazare (Jn 11, 35). Mais elle lui donne un horizon. Avec un enfant, on peut allumer une bougie, regarder une photo et prier ensemble : les gestes parlent autant que les mots.",
+    "sources": "Diocèse de Paris, « Parler aux enfants de la prière pour les défunts »"
+   },
+   "histoire": {
+    "titre": "Cluny, l'an mille et le jour des morts",
+    "accroche": "Pourquoi prie-t-on pour les défunts le 2 novembre ? Tout commence dans une grande abbaye de Bourgogne.",
+    "texte": "Les chrétiens ont prié pour leurs morts dès les premiers siècles : on retrouve des prières pour les défunts gravées dans les catacombes de Rome.\n\nMais c'est à l'abbaye de Cluny, en Bourgogne, vers l'an mille, que l'abbé Odilon fixa un jour pour tous les défunts : le lendemain de la Toussaint. Cluny dirigeait alors un grand réseau de monastères dans toute l'Europe, et la coutume s'est répandue jusqu'à Rome.\n\nEn 1915, pendant la Première Guerre mondiale, devant les millions de morts, le pape Benoît XV permit à tous les prêtres de célébrer trois messes ce jour-là.",
+    "plusLoin": "Le choix du lendemain de la Toussaint n'est pas un hasard : après avoir fêté ceux qui sont déjà dans la lumière de Dieu, l'Église prie pour ceux qui sont encore en chemin vers elle. C'est la communion des saints vécue d'un jour à l'autre : l'Église du ciel, l'Église en purification et l'Église sur la terre ne font qu'une (Catéchisme, n° 954-959).",
+    "source": "Diocèse de Paris ; Benoît XV, constitution apostolique Incruentum altaris (10 août 1915) ; Catéchisme de l'Église catholique"
+   },
+   "portrait": {
+    "nom": "Saint Odilon de Cluny",
+    "dates": "vers 962-1049",
+    "accroche": "Le moine qui a donné au monde le jour des défunts, et qui fit vendre les trésors de son abbaye pour nourrir les affamés.",
+    "texte": "Odilon naît en Auvergne vers 962. Il entre à l'abbaye de Cluny et en devient l'abbé en 994, pour plus d'un demi-siècle.\n\nPendant une grande famine, il fit vendre les vases précieux de l'abbaye pour nourrir les pauvres. Il encouragea la « trêve de Dieu », qui interdisait de se battre certains jours de la semaine.\n\nIl institua dans les monastères de Cluny la prière pour tous les défunts, le 2 novembre. Il meurt en 1049 au prieuré de Souvigny, où il repose.",
+    "plusLoin": "Avec Odilon, la prière pour les morts devient une œuvre de charité : prier pour ceux que plus personne ne nomme, c'est aimer jusqu'au bout. Son biographe, le moine Jotsald, rapporte qu'il préférait être jugé pour un excès de miséricorde plutôt que pour un excès de dureté.",
+    "source": "Encyclopædia Britannica, « Saint Odilo » ; Nominis (Conférence des évêques de France), « Saint Odilon »"
+   },
+   "savaisTu": {
+    "titre": "« Cimetière » veut dire « dortoir »",
+    "accroche": "Le mot lui-même dit l'espérance des premiers chrétiens.",
+    "texte": "Le mot « cimetière » vient du grec koimêtêrion, qui veut dire « lieu où l'on dort », « dortoir ». Les premiers chrétiens l'ont choisi pour parler des lieux où reposaient leurs morts.\n\nPour eux, la mort était comme un sommeil en attendant la résurrection. Saint Paul parle déjà de « ceux qui se sont endormis » (1 Th 4, 13).",
+    "source": "Le Robert, dictionnaire historique de la langue française, « cimetière » ; 1 Thessaloniciens 4, 13"
+   },
+   "enfant": {
+    "evangile": {
+     "explication": "Jésus a dit : « Celui qui vient à moi, je ne le jetterai point dehors. » Jésus garde une place près de Lui pour chacun, pour toujours."
+    },
+    "citation": {
+     "texte": "Souvenez-vous seulement de moi à l'autel du Seigneur.",
+     "auteur": "Sainte Monique",
+     "auteurId": "monique"
+    },
+    "reflexion": {
+     "titre": "Quand quelqu'un nous manque",
+     "texte": "Aujourd'hui, l'Église prie pour tous ceux qui sont morts. C'est normal d'être triste quand quelqu'un qu'on aime est mort. Les chrétiens croient que Dieu accueille ceux qui sont morts et qu'on pourra les retrouver. On peut prier pour eux : c'est une façon de continuer à les aimer.",
+     "question": "Y a-t-il quelqu'un à qui tu aimerais penser dans ta prière ce soir ?"
+    },
+    "histoire": {
+     "titre": "Les moines qui priaient pour tout le monde",
+     "texte": "Il y a très longtemps, dans un grand monastère qui s'appelle Cluny, vivaient de nombreux moines. Leur abbé, Odilon, a décidé qu'un jour par an, on prierait pour tous ceux qui sont morts, même ceux que tout le monde avait oubliés. Ce jour-là, c'est aujourd'hui."
+    },
+    "portrait": {
+     "nom": "Saint Odilon",
+     "texte": "Odilon était l'abbé d'un grand monastère. Une année, il n'y avait plus assez à manger et les gens avaient faim. Odilon a fait vendre les objets précieux du monastère pour acheter de quoi nourrir les pauvres.",
+     "idee": "Aujourd'hui, tu peux allumer une bougie avec tes parents et dire le prénom de quelqu'un qui est mort."
+    },
+    "sources": "Diocèse de Paris, « Parler aux enfants de la prière pour les défunts » ; Catéchisme de l'Église catholique, n° 958"
+   },
+   "meditation": {
+    "contexte": "Jésus vient de nourrir une foule immense avec cinq pains, et il se présente comme « le pain de vie » (Jn 6, 35). La foule réclame encore des signes ; lui parle de la volonté de son Père : que personne ne soit perdu. Dans ces quatre versets, il répète deux fois la même promesse : « je le ressusciterai au dernier jour ».",
+    "eclairage": "C'est pour cela que l'Église prie pour les morts depuis les premiers siècles, en particulier à la messe (Catéchisme, n° 1032). Prier pour un défunt, ce n'est pas douter de Dieu : c'est s'unir à son désir de ne perdre personne, et continuer d'aimer ceux qui nous ont quittés. La mort sépare, mais elle ne coupe pas la communion des saints.",
+    "pistes": [
+     "Dis à voix basse, une à une, le prénom des personnes défuntes que tu portes dans ton cœur.",
+     "Pour chacune, remercie Dieu pour une chose qu'elle t'a donnée : un geste, une parole, un souvenir.",
+     "S'il reste une blessure ou quelque chose de non dit, confie-le à Jésus : « celui qui vient à moi, je ne le jetterai point dehors ». Ni eux, ni toi."
+    ],
+    "conclusion": "Tu peux dire pour eux la prière que l'Église dit depuis des siècles : « Seigneur, donne-leur le repos éternel, et que brille sur eux la lumière sans fin. » Et peut-être, ce mois-ci, aller te recueillir sur une tombe ou faire dire une messe pour l'un d'eux.",
+    "verset": {
+     "o": "John",
+     "c": 6,
+     "v": [
+      37
+     ]
+    }
+   }
+  },
+  "es": {
+   "citation": {
+    "texte": "Solo os pido que os acordéis de mí ante el altar del Señor dondequiera que estéis.",
+    "auteur": "Santa Mónica, madre de san Agustín, antes de morir",
+    "source": "San Agustín, Confesiones, libro IX, capítulo 11",
+    "auteurId": "monique"
+   },
+   "reflexion": {
+    "titre": "¿Cómo hablar de la muerte a un niño?",
+    "accroche": "En estos días en que muchas familias van al cementerio, los niños hacen preguntas. ¿Qué responderles, y qué respondernos a nosotros mismos?",
+    "fait": "En torno al 1 y al 2 de noviembre, en España como en Francia, los cementerios se llenan de flores. Muchos niños acompañan a sus padres y preguntan: «¿Dónde está el abuelo?» o «¿Tú también te vas a morir?». Los especialistas en infancia aconsejan no evitar estas preguntas y usar palabras verdaderas y sencillas.",
+    "citations": [
+     {
+      "texte": "No queremos, hermanos, que estéis en ignorancia acerca de los que duermen, para que no os aflijáis como los demás que no tienen esperanza.",
+      "source": "1 Tesalonicenses 4, 13"
+     },
+     {
+      "texte": "Mas las almas de los justos están en la mano de Dios; y no llegará a ellas el tormento de la muerte.",
+      "source": "Sabiduría 3, 1"
+     }
+    ],
+    "piste": "La fe no suprime la pena: el mismo Jesús lloró ante la tumba de su amigo Lázaro (Jn 11, 35). Pero le da un horizonte. Con un niño se puede encender una vela, mirar una foto y rezar juntos: los gestos hablan tanto como las palabras.",
+    "sources": "Diócesis de París, «Hablar a los niños de la oración por los difuntos»"
+   },
+   "histoire": {
+    "titre": "Cluny, el año mil y el día de los difuntos",
+    "accroche": "¿Por qué se reza por los difuntos el 2 de noviembre? Todo empieza en una gran abadía de Borgoña.",
+    "texte": "Los cristianos rezaron por sus muertos desde los primeros siglos: en las catacumbas de Roma se conservan oraciones por los difuntos grabadas en la piedra.\n\nPero fue en la abadía de Cluny, en Borgoña, hacia el año mil, donde el abad Odilón fijó un día para todos los difuntos: el día siguiente a Todos los Santos. Cluny dirigía entonces una gran red de monasterios en toda Europa, y la costumbre se extendió hasta Roma.\n\nEn 1915, durante la Primera Guerra Mundial, ante los millones de muertos, el papa Benedicto XV permitió a todos los sacerdotes celebrar tres misas ese día.",
+    "plusLoin": "La elección del día siguiente a Todos los Santos no es casual: después de celebrar a los que ya están en la luz de Dios, la Iglesia reza por los que todavía están en camino hacia ella. Es la comunión de los santos vivida de un día a otro: la Iglesia del cielo, la Iglesia en purificación y la Iglesia en la tierra son una sola (Catecismo, n. 954-959).",
+    "source": "Diócesis de París; Benedicto XV, constitución apostólica Incruentum altaris (10 de agosto de 1915); Catecismo de la Iglesia Católica"
+   },
+   "portrait": {
+    "nom": "San Odilón de Cluny",
+    "dates": "hacia 962-1049",
+    "accroche": "El monje que dio al mundo el día de los difuntos, y que vendió los tesoros de su abadía para alimentar a los hambrientos.",
+    "texte": "Odilón nace en Auvernia hacia el año 962. Entra en la abadía de Cluny y llega a ser su abad en 994, durante más de medio siglo.\n\nDurante una gran hambruna, hizo vender los vasos preciosos de la abadía para alimentar a los pobres. Promovió la «tregua de Dios», que prohibía combatir ciertos días de la semana.\n\nInstituyó en los monasterios de Cluny la oración por todos los difuntos, el 2 de noviembre. Muere en 1049 en el priorato de Souvigny, donde descansa.",
+    "plusLoin": "Con Odilón, la oración por los muertos se convierte en una obra de caridad: rezar por aquellos a quienes ya nadie nombra es amar hasta el final. Su biógrafo, el monje Jotsaldo, cuenta que prefería ser juzgado por un exceso de misericordia antes que por un exceso de dureza.",
+    "source": "Encyclopædia Britannica, «Saint Odilo»; Nominis (Conferencia Episcopal Francesa), «Saint Odilon»"
+   },
+   "savaisTu": {
+    "titre": "«Cementerio» significa «dormitorio»",
+    "accroche": "La propia palabra expresa la esperanza de los primeros cristianos.",
+    "texte": "La palabra «cementerio» viene del griego koimêtêrion, que significa «lugar donde se duerme», «dormitorio». Los primeros cristianos la eligieron para hablar de los lugares donde descansaban sus muertos.\n\nPara ellos, la muerte era como un sueño a la espera de la resurrección. San Pablo ya habla de «los que duermen» (1 Tes 4, 13).",
+    "source": "Diccionario de la lengua española (RAE), «cementerio»; 1 Tesalonicenses 4, 13"
+   },
+   "enfant": {
+    "evangile": {
+     "explication": "Jesús dijo: «Al que venga a Mí, no lo echaré fuera». Jesús guarda un sitio junto a Él para cada uno, para siempre."
+    },
+    "citation": {
+     "texte": "Solo os pido que os acordéis de mí ante el altar del Señor dondequiera que estéis.",
+     "auteur": "Santa Mónica",
+     "auteurId": "monique"
+    },
+    "reflexion": {
+     "titre": "Cuando echamos de menos a alguien",
+     "texte": "Hoy la Iglesia reza por todos los que han muerto. Es normal estar triste cuando muere alguien a quien queremos. Los cristianos creen que Dios acoge a los que han muerto y que podremos volver a encontrarlos. Podemos rezar por ellos: es una manera de seguir queriéndolos.",
+     "question": "¿Hay alguien en quien te gustaría pensar en tu oración esta noche?"
+    },
+    "histoire": {
+     "titre": "Los monjes que rezaban por todos",
+     "texte": "Hace mucho tiempo, en un gran monasterio llamado Cluny, vivían muchos monjes. Su abad, Odilón, decidió que un día al año se rezaría por todos los que han muerto, incluso por aquellos a quienes todo el mundo había olvidado. Ese día es hoy."
+    },
+    "portrait": {
+     "nom": "San Odilón",
+     "texte": "Odilón era el abad de un gran monasterio. Un año no había bastante comida y la gente pasaba hambre. Odilón hizo vender los objetos preciosos del monasterio para comprar comida para los pobres.",
+     "idee": "Hoy puedes encender una vela con tus padres y decir el nombre de alguien que ha muerto."
+    },
+    "sources": "Diócesis de París, «Hablar a los niños de la oración por los difuntos»; Catecismo de la Iglesia Católica, n. 958"
+   },
+   "meditation": {
+    "contexte": "Jesús acaba de alimentar a una multitud inmensa con cinco panes, y se presenta como «el pan de vida» (Jn 6, 35). La gente sigue pidiendo signos; Él habla de la voluntad de su Padre: que nadie se pierda. En estos cuatro versículos repite dos veces la misma promesa: «lo resucitaré en el último día».",
+    "eclairage": "Por eso la Iglesia reza por los difuntos desde los primeros siglos, sobre todo en la misa (Catecismo, n. 1032). Rezar por un difunto no es dudar de Dios: es unirse a su deseo de no perder a nadie, y seguir amando a los que se fueron. La muerte separa, pero no rompe la comunión de los santos.",
+    "pistes": [
+     "Di en voz baja, uno a uno, el nombre de las personas difuntas que llevas en el corazón.",
+     "Por cada una, da gracias a Dios por algo que te dio: un gesto, una palabra, un recuerdo.",
+     "Si queda una herida o algo por decir, confíaselo a Jesús: «al que venga a Mí, no lo echaré fuera». Ni a ellos, ni a ti."
+    ],
+    "conclusion": "Puedes rezar por ellos la oración que la Iglesia dice desde hace siglos: «Dales, Señor, el descanso eterno, y brille para ellos la luz perpetua». Y quizá, este mes, visitar una tumba o encargar una misa por alguno de ellos.",
+    "verset": {
+     "o": "John",
+     "c": 6,
+     "v": [
+      37
+     ]
+    }
+   }
+  },
+  "en": {
+   "citation": {
+    "texte": "Only this I ask of you, that you remember me at the altar of the Lord, wherever you may be.",
+    "auteur": "Saint Monica, mother of Saint Augustine, before her death",
+    "source": "Saint Augustine, Confessions, Book IX, chapter 11",
+    "auteurId": "monique"
+   },
+   "reflexion": {
+    "titre": "How do you talk about death with a child?",
+    "accroche": "In these days when many families visit cemeteries, children ask questions. What should we tell them, and what do we tell ourselves?",
+    "fait": "Around November 1 and 2, in Spain and in France, cemeteries fill with flowers. Many children go with their parents and ask: “Where is Grandpa?” or “Are you going to die too?” Child specialists advise not avoiding these questions and using true, simple words.",
+    "citations": [
+     {
+      "texte": "And we will not have you ignorant brethren, concerning them that are asleep, that you be not sorrowful, even as others who have no hope.",
+      "source": "1 Thessalonians 4:12 (Douay-Rheims numbering; 4:13 in modern Bibles)"
+     },
+     {
+      "texte": "But the souls of the just are in the hand of God, and the torment of death shall not touch them.",
+      "source": "Wisdom 3:1"
+     }
+    ],
+    "piste": "Faith does not take away grief: Jesus himself wept at the tomb of his friend Lazarus (Jn 11:35). But it gives grief a horizon. With a child, you can light a candle, look at a photo and pray together: gestures speak as much as words.",
+    "sources": "Diocese of Paris, “Talking with children about prayer for the dead”"
+   },
+   "histoire": {
+    "titre": "Cluny, the year 1000 and the day of the dead",
+    "accroche": "Why do we pray for the dead on November 2? It all began in a great abbey in Burgundy.",
+    "texte": "Christians prayed for their dead from the earliest centuries: prayers for the departed are carved in the catacombs of Rome.\n\nBut it was at the abbey of Cluny, in Burgundy, around the year 1000, that Abbot Odilo set aside a day for all the dead: the day after All Saints. Cluny then led a vast network of monasteries across Europe, and the custom spread as far as Rome.\n\nIn 1915, during the First World War, faced with millions of deaths, Pope Benedict XV allowed every priest to celebrate three Masses on that day.",
+    "plusLoin": "The choice of the day after All Saints is no accident: after celebrating those already in God's light, the Church prays for those still on their way. It is the communion of saints lived from one day to the next: the Church in heaven, the Church being purified and the Church on earth are one (Catechism, nos. 954-959).",
+    "source": "Diocese of Paris; Benedict XV, Apostolic Constitution Incruentum altaris (August 10, 1915); Catechism of the Catholic Church"
+   },
+   "portrait": {
+    "nom": "Saint Odilo of Cluny",
+    "dates": "c. 962-1049",
+    "accroche": "The monk who gave the world All Souls' Day, and who sold his abbey's treasures to feed the hungry.",
+    "texte": "Odilo was born in Auvergne around 962. He entered the abbey of Cluny and became its abbot in 994, for more than half a century.\n\nDuring a great famine, he had the abbey's precious vessels sold to feed the poor. He promoted the “Truce of God”, which forbade fighting on certain days of the week.\n\nHe established in the monasteries of Cluny the prayer for all the dead, on November 2. He died in 1049 at the priory of Souvigny, where he rests.",
+    "plusLoin": "With Odilo, prayer for the dead becomes a work of charity: praying for those no one names anymore is loving to the very end. His biographer, the monk Jotsald, reports that he preferred to be judged for too much mercy rather than for too much harshness.",
+    "source": "Encyclopædia Britannica, “Saint Odilo”; Nominis (French Bishops' Conference), “Saint Odilon”"
+   },
+   "savaisTu": {
+    "titre": "“Cemetery” means “dormitory”",
+    "accroche": "The word itself carries the hope of the first Christians.",
+    "texte": "The word “cemetery” comes from the Greek koimētērion, meaning “sleeping place”, “dormitory”. The first Christians chose it for the places where their dead were laid to rest.\n\nFor them, death was like sleep while awaiting the resurrection. Saint Paul already speaks of “them that are asleep” (1 Thessalonians 4).",
+    "source": "Oxford English Dictionary, “cemetery”; Merriam-Webster, “cemetery”; 1 Thessalonians 4"
+   },
+   "enfant": {
+    "evangile": {
+     "explication": "Jesus said: “Him that cometh to me, I will not cast out.” Jesus keeps a place close to him for everyone, forever."
+    },
+    "citation": {
+     "texte": "Only this I ask of you, that you remember me at the altar of the Lord, wherever you may be.",
+     "auteur": "Saint Monica",
+     "auteurId": "monique"
+    },
+    "reflexion": {
+     "titre": "When we miss someone",
+     "texte": "Today the Church prays for everyone who has died. It is normal to be sad when someone we love dies. Christians believe that God welcomes those who have died and that we will be able to see them again. We can pray for them: it is a way of going on loving them.",
+     "question": "Is there someone you would like to think of in your prayer tonight?"
+    },
+    "histoire": {
+     "titre": "The monks who prayed for everyone",
+     "texte": "A very long time ago, in a big monastery called Cluny, lived many monks. Their abbot, Odilo, decided that one day each year they would pray for everyone who had died, even those everyone had forgotten. That day is today."
+    },
+    "portrait": {
+     "nom": "Saint Odilo",
+     "texte": "Odilo was the abbot of a big monastery. One year there was not enough food and people were hungry. Odilo had the monastery's precious objects sold to buy food for the poor.",
+     "idee": "Today you can light a candle with your parents and say the name of someone who has died."
+    },
+    "sources": "Diocese of Paris, “Talking with children about prayer for the dead”; Catechism of the Catholic Church, no. 958"
+   },
+   "meditation": {
+    "contexte": "Jesus has just fed a huge crowd with five loaves, and he presents himself as “the bread of life” (Jn 6:35). The crowd still asks for signs; he speaks of his Father's will: that no one be lost. In these four verses he twice repeats the same promise: “I will raise him up in the last day”.",
+    "eclairage": "That is why the Church has prayed for the dead since the earliest centuries, especially at Mass (Catechism, no. 1032). Praying for someone who has died is not doubting God: it is joining his desire to lose no one, and going on loving those who have left us. Death separates, but it does not break the communion of saints.",
+    "pistes": [
+     "Say quietly, one by one, the names of the people who have died and whom you carry in your heart.",
+     "For each of them, thank God for one thing they gave you: a gesture, a word, a memory.",
+     "If a wound remains, or something left unsaid, entrust it to Jesus: “him that cometh to me, I will not cast out”. Not them, and not you."
+    ],
+    "conclusion": "You can pray for them the prayer the Church has said for centuries: “Eternal rest grant unto them, O Lord, and let perpetual light shine upon them.” And perhaps, this month, visit a grave or have a Mass said for one of them.",
+    "verset": {
+     "o": "John",
+     "c": 6,
+     "v": [
+      37
+     ]
+    }
+   }
+  },
+  "priereReflexion": {
+   "id": "ps23-4",
+   "osis": "Ps",
+   "c": 23,
+   "v": [
+    4
+   ]
+  }
+ }
+}

@@ -1,0 +1,5342 @@
+{
+ "_note": "Ora — prières du jour et du soir, pour les adultes et pour les enfants.\nRègle absolue : aucune prière n'est inventée. Deux sources seulement :\n  1. des prières de la Bible (psaumes, cantiques, paroles adressées à Dieu), dont le texte est lu\n     dans la Bible de chaque langue (Crampon, Straubinger, Douay-Rheims) ;\n  2. des prières de la tradition de l'Église, dans leurs versions en usage en France, en Espagne\n     et aux États-Unis.\nDans les prières, le nom divin « Yahweh / Yahvé » est remplacé par « le Seigneur / el Señor »,\ncomme le demande la Congrégation pour le culte divin (lettre du 29 juin 2008).",
+ "pools": {
+  "jour": [
+   {
+    "id": "ps70-2",
+    "fr": "Ô Dieu, hâte-toi de me délivrer ! Seigneur, hâte-toi de me secourir !",
+    "es": "Ven a librarme, Dios mío, apresúrate, Señor, a socorrerme.",
+    "en": "O God, come to my assistance; O Lord, make haste to help me.",
+    "src": {
+     "fr": "Ps 70, 2",
+     "es": "Sal 70, 2",
+     "en": "Ps 70:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 70,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 70,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 70,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps51-17",
+    "fr": "Seigneur, ouvre mes lèvres, et ma bouche publiera ta louange.",
+    "es": "Abre Tú mis labios, oh Señor, y mi boca publicará tus alabanzas.",
+    "en": "O Lord, thou wilt open my lips: and my mouth shall declare thy praise.",
+    "src": {
+     "fr": "Ps 51, 17",
+     "es": "Sal 51, 17",
+     "en": "Ps 51:17"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       17
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       17
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       17
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps5-4",
+    "fr": "Seigneur, dès le matin, tu entends ma voix ; dès le matin, je t’offre mes vœux et j’attends.",
+    "es": "Desde la mañana va mi voz hacia Ti; temprano te presento mi oración y aguardo.",
+    "en": "O Lord, in the morning thou shalt hear my voice.",
+    "src": {
+     "fr": "Ps 5, 4",
+     "es": "Sal 5, 4",
+     "en": "Ps 5:4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 5,
+      "v": [
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 5,
+      "v": [
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 5,
+      "v": [
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps63-2",
+    "fr": "Ô Dieu, tu es mon Dieu, je te cherche dès l’aurore ; mon âme a soif de toi, ma chair languit après toi, dans une terre aride, desséchée et sans eau.",
+    "es": "Oh Dios, Tú eres el Dios mío, a Ti te busco ansioso; mi alma tiene sed de Ti, y mi carne sin Ti languidece, como (esta) tierra árida y yerma, falta de agua.",
+    "en": "O God, my God, to thee do I watch at break of day. For thee my soul hath thirsted; for thee my flesh, O how many ways!",
+    "src": {
+     "fr": "Ps 63, 2",
+     "es": "Sal 63, 2",
+     "en": "Ps 63:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 63,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 63,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 63,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps25-4",
+    "fr": "Seigneur, fais-moi connaître tes voies, enseigne-moi tes sentiers. Conduis-moi dans ta vérité, et instruis-moi, car tu es le Dieu de mon salut ; tout le jour en toi j’espère.",
+    "es": "Muéstrame tus caminos, oh Señor, indícame tus sendas; condúceme a tu verdad e instrúyeme, porque Tú eres el Dios que me salva, y estoy siempre esperándote.",
+    "en": "Direct me in thy truth, and teach me; for thou art God my Saviour; and on thee have I waited all the day long. Remember, O Lord, thy bowels of compassion; and thy mercies that are from the beginning of the world.",
+    "src": {
+     "fr": "Ps 25, 4-5",
+     "es": "Sal 25, 4-5",
+     "en": "Ps 25:5-6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       4,
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       4,
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       5,
+       6
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps51-12",
+    "fr": "Ô Dieu, crée en moi un cœur pur, et renouvelle au dedans de moi un esprit ferme.",
+    "es": "Crea en mí, oh Dios, un corazón sencillo, y renueva en mi interior un espíritu recto.",
+    "en": "Create a clean heart in me, O God: and renew a right spirit within my bowels.",
+    "src": {
+     "fr": "Ps 51, 12",
+     "es": "Sal 51, 12",
+     "en": "Ps 51:12"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       12
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       12
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       12
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps86-11",
+    "fr": "Enseigne-moi tes voies Seigneur ; je veux marcher dans ta fidélité ; attache mon cœur à la crainte de ton nom.",
+    "es": "Enséñame, Señor, tu camino para que ande en tu verdad; que mi corazón se alegre en temer tu Nombre.",
+    "en": "Conduct me, O Lord, in thy way, and I will walk in thy truth: let my heart rejoice that it may fear thy name.",
+    "src": {
+     "fr": "Ps 86, 11",
+     "es": "Sal 86, 11",
+     "en": "Ps 86:11"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       11
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       11
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       11
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps90-14",
+    "fr": "Rassasie-nous le matin de ta bonté, et nous serons tous nos jours dans la joie et l’allégresse.",
+    "es": "Sácianos con tu misericordia desde temprano, para que nos gocemos y nos alegremos todos nuestros días.",
+    "en": "We are filled in the morning with thy mercy: and we have rejoiced, and are delighted all our days.",
+    "src": {
+     "fr": "Ps 90, 14",
+     "es": "Sal 90, 14",
+     "en": "Ps 90:14"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 90,
+      "v": [
+       14
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 90,
+      "v": [
+       14
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 90,
+      "v": [
+       14
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps143-8",
+    "fr": "Fais-moi de bonne heure sentir ta bonté, car c’est en toi que j’espère ; fais-moi connaître la voie où je dois marcher, car c’est vers toi que j’élève mon âme.",
+    "es": "Hazme sentir al punto tu misericordia, pues en Ti coloco mi confianza. Muéstrame el camino que debo seguir, ya que hacia Ti levanto mi alma.",
+    "en": "Cause me to hear thy mercy in the morning; for in thee have I hoped. Make the way known to me, wherein I should walk: for I have lifted up my soul to thee.",
+    "src": {
+     "fr": "Ps 143, 8",
+     "es": "Sal 143, 8",
+     "en": "Ps 143:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-105",
+    "fr": "Ta parole est un flambeau devant mes pas, une lumière sur mon sentier.",
+    "es": "Antorcha para mis pies es tu palabra, y luz para mi senda.",
+    "en": "Thy word is a lamp to my feet, and a light to my paths.",
+    "src": {
+     "fr": "Ps 119, 105",
+     "es": "Sal 119, 105",
+     "en": "Ps 119:105"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       105
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       105
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       105
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps16-11",
+    "fr": "Tu me feras connaître le sentier de la vie ; il y a plénitude de joie devant ta face, des délices éternelles dans ta droite.",
+    "es": "Tú me harás conocer la senda de la vida, la plenitud del gozo a la vista de tu rostro, las eternas delicias de tu diestra.",
+    "en": "Thou hast made known to me the ways of life, thou shalt fill me with joy with thy countenance: at thy right hand are delights even to the end.",
+    "src": {
+     "fr": "Ps 16, 11",
+     "es": "Sal 16, 11",
+     "en": "Ps 16:11"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps27-1",
+    "fr": "Le Seigneur est ma lumière et mon salut : qui craindrais-je ? Le Seigneur est le rempart de ma vie : de qui aurais-je peur ?",
+    "es": "El Señor es mi luz y mi socorro; ¿a quién temeré? La defensa de mi vida es el Señor; ¿ante quién podré temblar?",
+    "en": "The Lord is my light and my salvation, whom shall I fear? The Lord is the protector of my life: of whom shall I be afraid?",
+    "src": {
+     "fr": "Ps 27, 1",
+     "es": "Sal 27, 1",
+     "en": "Ps 27:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 27,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 27,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 27,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps19-15",
+    "fr": "Accueille avec faveur les paroles de ma bouche, et les sentiments de mon cœur, devant toi, Seigneur, mon rocher et mon libérateur !",
+    "es": "Hallen favor ante Ti estas palabras de mi boca y los anhelos de mi corazón, oh Señor, Roca mía y Redentor mío.",
+    "en": "And the words of my mouth shall be such as may please: and the meditation of my heart always in thy sight. O Lord, my helper and my Redeemer.",
+    "src": {
+     "fr": "Ps 19, 15",
+     "es": "Sal 19, 15",
+     "en": "Ps 19:15"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 19,
+      "v": [
+       15
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 19,
+      "v": [
+       15
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 19,
+      "v": [
+       15
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps139-23",
+    "fr": "Sonde-moi, ô Dieu, et connais mon cœur ; éprouve-moi, et connais mes pensées. Regarde si je suis sur une voie funeste, et conduis-moi dans la voie éternelle.",
+    "es": "Escudríñame, oh Dios, y explora mi corazón, examíname y observa mi intimidad; mira si ando por el falso camino, y condúceme por la senda antigua.",
+    "en": "Prove me, O God, and know my heart: examine me, and know my paths. And see if there be in me the way of iniquity: and lead me in the eternal way.",
+    "src": {
+     "fr": "Ps 139, 23-24",
+     "es": "Sal 139, 23-24",
+     "en": "Ps 139:23-24"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       23,
+       24
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       23,
+       24
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       23,
+       24
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps145-1",
+    "fr": "Je veux t’exalter, mon Dieu, ô Roi, et bénir ton nom à jamais et toujours. Je veux chaque jour te bénir, et célébrer ton nom toujours et à jamais.",
+    "es": "A Ti, mi Dios Rey, ensalzaré, y por los siglos de los siglos bendeciré tu Nombre. Te bendeciré cada día; y alabaré tu Nombre por los siglos de los siglos.",
+    "en": "I will extol thee, O God my king: and I will bless thy name for ever; yea, for ever and ever. Every day will I bless thee: and I will praise thy name for ever; yea, for ever and ever.",
+    "src": {
+     "fr": "Ps 145, 1-2",
+     "es": "Sal 145, 1-2",
+     "en": "Ps 145:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps92-2",
+    "fr": "Il est bon de louer le Seigneur, et de célébrer ton nom, ô Très-Haut, de publier le matin ta bonté, et ta fidélité pendant la nuit.",
+    "es": "Bueno es alabar al Señor, y cantar a tu Nombre, oh Altísimo; anunciar al alba tu misericordia y por las noches tu fidelidad.",
+    "en": "It is good to give praise to the Lord: and to sing to thy name, O most High. To shew forth thy mercy in the morning, and thy truth in the night.",
+    "src": {
+     "fr": "Ps 92, 2-3",
+     "es": "Sal 92, 2-3",
+     "en": "Ps 92:2-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps59-17",
+    "fr": "Et moi, je chanterai ta force, et le matin je célébrerai ta bonté ; car tu es ma forteresse, un refuge au jour de mon angoisse.",
+    "es": "Entretanto, yo cantaré tu potencia, y desde la mañana saltaré de gozo por tu misericordia; porque fuiste mi protector, y mi refugio en el día de la tribulación.",
+    "en": "But I will sing thy strength: and will extol thy mercy in the morning. For thou art become my support, and my refuge, in the day of my trouble.",
+    "src": {
+     "fr": "Ps 59, 17",
+     "es": "Sal 59, 17",
+     "en": "Ps 59:17"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 59,
+      "v": [
+       17
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 59,
+      "v": [
+       17
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 59,
+      "v": [
+       17
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps18-2",
+    "fr": "Il dit : Je t’aime, Seigneur, ma force ! Le Seigneur mon rocher, ma forteresse, mon libérateur, mon Dieu, mon roc où je trouve un asile, mon bouclier, la corne de mon salut, ma citadelle !",
+    "es": "Y dijo: Te amo, Señor, fortaleza mía, mi peña, mi baluarte, mi libertador, Dios mío, mi roca, mi refugio, broquel mío, cuerno de mi salud, asilo mío.",
+    "en": "I will love thee, O Lord, my strength: The Lord is my firmament, my refuge, and my deliverer. My God is my helper, and in him will I put my trust. My protector, and the horn of my salvation, and my support.",
+    "src": {
+     "fr": "Ps 18, 2-3",
+     "es": "Sal 18, 2-3",
+     "en": "Ps 18:2-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 18,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 18,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 18,
+      "v": [
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps23-1",
+    "fr": "Le Seigneur est mon pasteur ; je ne manquerai de rien.",
+    "es": "El Señor es mi pastor, nada me faltará.",
+    "en": "The Lord ruleth me: and I shall want nothing.",
+    "src": {
+     "fr": "Ps 23, 1",
+     "es": "Sal 23, 1",
+     "en": "Ps 23:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps62-2",
+    "fr": "Oui, à Dieu mon âme en paix s’abandonne, de lui vient mon secours. Oui, il est mon rocher et mon salut ; il est ma forteresse : je ne serai pas tout à fait ébranlé.",
+    "es": "Solo en Dios se descansa, oh alma mía, porque la salud viene de Él. Él solo es mi roca, mi salvación, mi defensa: nunca seré conmovido.",
+    "en": "Shall not my soul be subject to God? for from him is my salvation. For he is my God and my saviour: he is my protector, I shall be moved no more.",
+    "src": {
+     "fr": "Ps 62, 2-3",
+     "es": "Sal 62, 2-3",
+     "en": "Ps 62:2-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 62,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 62,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 62,
+      "v": [
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps73-25",
+    "fr": "Quel autre que toi ai-je au ciel ? Avec toi, je ne désire rien sur la terre. Ma chair et mon cœur se consument : le rocher de mon cœur et mon partage, c’est Dieu à jamais.",
+    "es": "¿Quién hay para mí en el cielo sino Tú? Y si contigo estoy ¿qué podrá deleitarme en la tierra? La carne y el corazón mío desfallecen, la roca de mi corazón es Dios, herencia mía para siempre.",
+    "en": "For what have I in heaven? and besides thee what do I desire upon earth? For thee my flesh and my heart hath fainted away: thou art the God of my heart, and the God that is my portion for ever.",
+    "src": {
+     "fr": "Ps 73, 25-26",
+     "es": "Sal 73, 25-26",
+     "en": "Ps 73:25-26"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 73,
+      "v": [
+       25,
+       26
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 73,
+      "v": [
+       25,
+       26
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 73,
+      "v": [
+       25,
+       26
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps84-2",
+    "fr": "Que tes demeures sont aimables, Seigneur des armées ! Mon âme s’épuise en soupirant après les parvis du Seigneur ; mon cœur et ma chair tressaillent vers le Dieu vivant.",
+    "es": "¡Oh cuan amable es tu morada, Señor de los ejércitos! Suspirando, desfalleciendo, anhela mi alma los atrios del Señor. Mi corazón y mi carne claman ansiosos hacia el Dios vivo.",
+    "en": "How lovely are thy tabernacles, O Lord of hosts! my soul longeth and fainteth for the courts of the Lord. My heart and my flesh have rejoiced in the living God.",
+    "src": {
+     "fr": "Ps 84, 2-3",
+     "es": "Sal 84, 2-3",
+     "en": "Ps 84:2-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 84,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 84,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 84,
+      "v": [
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps103-1",
+    "fr": "Mon âme, bénis le Seigneur, et que tout ce qui est en moi bénisse son saint nom ! Mon âme, bénis le Seigneur, et n’oublie pas ses nombreux bienfaits.",
+    "es": "Bendice al Señor, alma mía, y todo cuanto hay en mí bendiga su santo Nombre. Bendice al Señor, alma mía, y no quieras olvidar todos sus favores.",
+    "en": "Bless the Lord, O my soul: and let all that is within me bless his holy name. Bless the Lord, O my soul, and never forget all he hath done for thee.",
+    "src": {
+     "fr": "Ps 103, 1-2",
+     "es": "Sal 103, 1-2",
+     "en": "Ps 103:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 103,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 103,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 103,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps104-1",
+    "fr": "Mon âme, bénis le Seigneur ! Seigneur, mon Dieu, tu es infiniment grand, Tu es revêtu de majesté et de splendeur !",
+    "es": "¡Bendice al Señor, alma mía! ¡Señor, Dios mío, cuán grande eres! Te has vestido de majestad y de belleza.",
+    "en": "Bless the Lord, O my soul: O Lord my God, thou art exceedingly great. Thou hast put on praise and beauty.",
+    "src": {
+     "fr": "Ps 104, 1",
+     "es": "Sal 104, 1",
+     "en": "Ps 104:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 104,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 104,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 104,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps113-1",
+    "fr": "Alleluia ! Louez, serviteurs du Seigneur, louez le nom du Seigneur, Que le nom du Seigneur soit béni, dès maintenant et à jamais ! Du lever du soleil jusqu’à son couchant, loué soit le nom du Seigneur !",
+    "es": "¡Hallelú Yah! Alabad, siervos del Señor, alabad el Nombre del Señor. Sea bendito el Nombre del Señor, desde ahora y para siempre. Desde el nacimiento del sol hasta su ocaso sea ensalzado el Nombre del Señor.",
+    "en": "Praise the Lord, ye children: praise ye the name of the Lord. Blessed be the name of the Lord, from henceforth now and for ever. From the rising of the sun unto the going down of the same, the name of the Lord is worthy of praise.",
+    "src": {
+     "fr": "Ps 113, 1-3",
+     "es": "Sal 113, 1-3",
+     "en": "Ps 113:1-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 113,
+      "v": [
+       1,
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 113,
+      "v": [
+       1,
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 113,
+      "v": [
+       1,
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps117",
+    "fr": "Nations, louez toutes le Seigneur ; peuples, célébrez-le tous ! Car sa bonté pour nous est grande, et la vérité du Seigneur subsiste à jamais. Alleluia !",
+    "es": "¡Hallelú Yah! Alabad al Señor, naciones todas, celebradle todos los pueblos; pues su misericordia se ha confirmado sobre nosotros, y la fidelidad del Señor permanece para siempre.",
+    "en": "O Praise the Lord, all ye nations: praise him, all ye people. For his mercy is confirmed upon us: and the truth of the Lord remaineth for ever.",
+    "src": {
+     "fr": "Ps 117, 1-2",
+     "es": "Sal 117, 1-2",
+     "en": "Ps 117:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 117,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 117,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 117,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps146-2",
+    "fr": "Toute ma vie, je veux louer le Seigneur, tant que je serai, je veux chanter mon Dieu.",
+    "es": "Toda mi vida alabaré al Señor; cantaré salmos a mi Dios mientras yo viva.",
+    "en": "Praise the Lord, O my soul, in my life I will praise the Lord: I will sing to my God as long as I shall be. Put not your trust in princes.",
+    "src": {
+     "fr": "Ps 146, 2",
+     "es": "Sal 146, 2",
+     "en": "Ps 146:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 146,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 146,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 146,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps150-6",
+    "fr": "Que tout ce qui respire loue le Seigneur ! Alleluia.",
+    "es": "¡Todo lo que respira alabe al Señor! ¡Hallelú Yah!",
+    "en": "Let every spirit praise the Lord. Alleluia.",
+    "src": {
+     "fr": "Ps 150, 6",
+     "es": "Sal 150, 6",
+     "en": "Ps 150:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 150,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 150,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 150,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps8-2",
+    "fr": "Seigneur, notre Seigneur, que ton nom est glorieux sur toute la terre ! Toi qui as revêtu les cieux de ta majesté !",
+    "es": "¡Oh Señor, Señor nuestro, cuán admirable es tu Nombre en toda la tierra! Tú, cuya gloria cantan los cielos.",
+    "en": "O Lord, our Lord, how admirable is thy name in the whole earth! For thy magnificence is elevated above the heavens.",
+    "src": {
+     "fr": "Ps 8, 2",
+     "es": "Sal 8, 2",
+     "en": "Ps 8:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 8,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 8,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 8,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps33-22",
+    "fr": "Seigneur, que ta grâce soit sur nous, comme nous espérons en toi !",
+    "es": "Sea, Señor, sobre nosotros tu misericordia, según lo esperamos de Ti.",
+    "en": "Let thy mercy, O Lord, be upon us, as we have hoped in thee.",
+    "src": {
+     "fr": "Ps 33, 22",
+     "es": "Sal 33, 22",
+     "en": "Ps 33:22"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 33,
+      "v": [
+       22
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 33,
+      "v": [
+       22
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 33,
+      "v": [
+       22
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps34-2",
+    "fr": "Je veux bénir le Seigneur en tout temps ; sa louange sera toujours dans ma bouche.",
+    "es": "Quiero bendecir al Señor en todo tiempo, tener siempre en mi boca su alabanza.",
+    "en": "I will bless the Lord at all times, his praise shall be always in my mouth.",
+    "src": {
+     "fr": "Ps 34, 2",
+     "es": "Sal 34, 2",
+     "en": "Ps 34:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps36-6",
+    "fr": "Seigneur, ta bonté atteint jusqu’aux cieux, ta fidélité jusqu’aux nues.",
+    "es": "Señor, tu misericordia toca el cielo; tu fidelidad, las nubes.",
+    "en": "O Lord, thy mercy is in heaven, and thy truth reacheth even to the clouds.",
+    "src": {
+     "fr": "Ps 36, 6",
+     "es": "Sal 36, 6",
+     "en": "Ps 36:6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 36,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 36,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 36,
+      "v": [
+       6
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps42-2",
+    "fr": "Comme le cerf soupire après les sources d’eau, ainsi mon âme soupire après toi, ô Dieu. Mon âme a soif de Dieu, du Dieu vivant : quand irai-je et paraîtrai-je devant la face de Dieu ?",
+    "es": "Como el ciervo ansía las corrientes de aguas, así mi alma suspira por Ti, oh Dios, porque mi alma tiene sed de Dios, del Dios vivo. ¿Cuándo vendré y estaré en la presencia de Dios?",
+    "en": "As the hart panteth after the fountains of water; so my soul panteth after thee, O God. My soul hath thirsted after the strong living God; when shall I come and appear before the face of God?",
+    "src": {
+     "fr": "Ps 42, 2-3",
+     "es": "Sal 42, 2-3",
+     "en": "Ps 42:2-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 42,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 42,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 42,
+      "v": [
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps61-2",
+    "fr": "Ô Dieu, entends mes cris, sois attentif à ma prière. De l’extrémité de la terre je crie vers toi, dans l’angoisse de mon cœur ; conduis-moi sur le rocher que je ne puis atteindre.",
+    "es": "Escucha, oh Dios, mi grito, atiende a mi oración. Desde los confines de la tierra clamo a Ti, con el corazón desfallecido; Tú me alzarás hasta la roca, me darás el reposo.",
+    "en": "Hear, O God, my supplication: be attentive to my prayer. To thee have I cried from the ends of the earth: when my heart was in anguish, thou hast exalted me on a rock. Thou hast conducted me.",
+    "src": {
+     "fr": "Ps 61, 2-3",
+     "es": "Sal 61, 2-3",
+     "en": "Ps 61:2-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps67-2",
+    "fr": "Que Dieu nous soit favorable et qu’il nous bénisse ! qu’il fasse luire sur nous sa face.",
+    "es": "Dios tenga misericordia de nosotros y bendíganos; vuelva hacia nosotros su rostro sereno.",
+    "en": "May God have mercy on us, and bless us: may he cause the light of his countenance to shine upon us, and may he have mercy on us.",
+    "src": {
+     "fr": "Ps 67, 2",
+     "es": "Sal 67, 2",
+     "en": "Ps 67:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 67,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 67,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 67,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps85-8",
+    "fr": "Seigneur, fais-nous voir ta bonté, et accorde-nous ton salut.",
+    "es": "Muéstranos, Señor, tu misericordia y envíanos tu salvación.",
+    "en": "Shew us, O Lord, thy mercy; and grant us thy salvation.",
+    "src": {
+     "fr": "Ps 85, 8",
+     "es": "Sal 85, 8",
+     "en": "Ps 85:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 85,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 85,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 85,
+      "v": [
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps89-2",
+    "fr": "Je veux chanter à jamais les bontés du Seigneur ; à toutes les générations ma bouche fera connaître ta fidélité.",
+    "es": "Quiero cantar eternamente las misericordias del Señor; que mi boca anuncie tu fidelidad de generación en generación.",
+    "en": "The mercies of the Lord I will sing for ever. I will shew forth thy truth with my mouth to generation and generation.",
+    "src": {
+     "fr": "Ps 89, 2",
+     "es": "Sal 89, 2",
+     "en": "Ps 89:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 89,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 89,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 89,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps95-1",
+    "fr": "Venez, chantons avec allégresse au Seigneur ! Poussons des cris de joie vers le Rocher de notre salut !",
+    "es": "Venid, alegrémonos para el Señor; aclamemos a la Roca de nuestra salvación.",
+    "en": "Come let us praise the Lord with joy: let us joyfully sing to God our saviour.",
+    "src": {
+     "fr": "Ps 95, 1",
+     "es": "Sal 95, 1",
+     "en": "Ps 95:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 95,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 95,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 95,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps100-1",
+    "fr": "Poussez des cris de joie vers le Seigneur, vous, habitants de toute la terre ! Servez le Seigneur avec joie, venez en sa présence avec allégresse !",
+    "es": "Aclamad al Señor, tierras todas, servid al Señor con alegría, llegaos a su presencia con exultación.",
+    "en": "Sing joyfully to God, all the earth: serve ye the Lord with gladness. Come in before his presence with exceeding great joy.",
+    "src": {
+     "fr": "Ps 100, 1-2",
+     "es": "Sal 100, 1-2",
+     "en": "Ps 100:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 100,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 100,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 100,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps116-1",
+    "fr": "Je l’aime, car le Seigneur entend ma voix, mes supplications. Car il a incliné vers moi son oreille, et toute ma vie, je l’invoquerai.",
+    "es": "¡Hallelú Yah! Yo lo amo, porque el Señor escucha mi voz, mi súplica; porque inclinó hacia mí su oído el día en que lo invoqué.",
+    "en": "I have loved, because the Lord will hear the voice of my prayer. Because he hath inclined his ear unto me: and in my days I will call upon him.",
+    "src": {
+     "fr": "Ps 116, 1-2",
+     "es": "Sal 116, 1-2",
+     "en": "Ps 116:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 116,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 116,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 116,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-18",
+    "fr": "Ouvre mes yeux, pour que je contemple les merveilles de ta loi.",
+    "es": "Quita el velo a mis ojos, para que descubra las maravillas de tu Ley.",
+    "en": "Open thou my eyes: and I will consider the wondrous things of thy law.",
+    "src": {
+     "fr": "Ps 119, 18",
+     "es": "Sal 119, 18",
+     "en": "Ps 119:18"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       18
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       18
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       18
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps121-1",
+    "fr": "Je lève les yeux vers les montagnes : d’où me viendra le secours ? Mon secours viendra du Seigneur, qui a fait le ciel et la terre.",
+    "es": "Alzo mis ojos hacia los montes: ¿De dónde me vendrá el socorro? Mi socorro viene del Señor que creó el cielo y la tierra.",
+    "en": "I have lifted up my eyes to the mountains, from whence help shall come to me. My help is from the Lord, who made heaven and earth.",
+    "src": {
+     "fr": "Ps 121, 1-2",
+     "es": "Sal 121, 1-2",
+     "en": "Ps 121:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps122-1",
+    "fr": "J’ai été dans la joie quand on m’a dit : « Allons à la maison du Seigneur !",
+    "es": "Me llené de gozo cuando me dijeron: “Iremos a la Casa del Señor.",
+    "en": "I rejoiced at the things that were said to me: We shall go into the house of the Lord.",
+    "src": {
+     "fr": "Ps 122, 1",
+     "es": "Sal 122, 1",
+     "en": "Ps 122:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 122,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 122,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 122,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps131-1",
+    "fr": "Seigneur, mon cœur ne s’est pas enflé d’orgueil, et mes regards n’ont pas été hautains. Je ne recherche point les grandes choses, ni ce qui est élevé au-dessus de moi. Non ! Je tiens mon âme dans le calme et le silence. Comme un enfant sevré sur le sein de sa mère, comme l’enfant sevré mon âme est en moi.",
+    "es": "Señor, mi corazón (ya) no se engríe ni son altaneros mis ojos. No ando tras de grandezas ni en planes muy difíciles para mí; lejos de eso, he hecho a mi alma quieta y apaciguada como un niño que se recuesta sobre el pecho de su madre; como ese niño, está mi alma en mí.",
+    "en": "Lord, my heart is not exalted: nor are my eyes lofty. Neither have I walked in great matters, nor in wonderful things above me. If I was not humbly minded, but exalted my soul: As a child that is weaned is towards his mother, so reward in my soul.",
+    "src": {
+     "fr": "Ps 131, 1-2",
+     "es": "Sal 131, 1-2",
+     "en": "Ps 131:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 131,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 131,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 131,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps139-1",
+    "fr": "Seigneur, tu me sondes et tu me connais, tu sais quand je suis assis ou levé, tu découvres ma pensée de loin. Tu m’observes quand je suis en marche ou couché, et toutes mes voies te sont familières.",
+    "es": "Señor, Tú me penetras y me conoces. Sabes cuando me siento y cuando me levanto; de lejos disciernes mis pensamientos. Si ando y si descanso Tú lo percibes, y todos mis caminos te son familiares.",
+    "en": "Lord, thou hast proved me, and known me: Thou hast known my sitting down, and my rising up. Thou hast understood my thoughts afar off: my path and my line thou hast searched out.",
+    "src": {
+     "fr": "Ps 139, 1-3",
+     "es": "Sal 139, 1-3",
+     "en": "Ps 139:1-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       1,
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       1,
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       1,
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps141-3",
+    "fr": "Seigneur, mets une garde à ma bouche, une sentinelle à la porte de mes lèvres.",
+    "es": "Pon, Señor, una guardia ante mi boca, un cerrojo en la puerta de mis labios.",
+    "en": "Set a watch, O Lord, before my mouth: and a door round about my lips.",
+    "src": {
+     "fr": "Ps 141, 3",
+     "es": "Sal 141, 3",
+     "en": "Ps 141:3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps148-1",
+    "fr": "Alleluia ! Louez le Seigneur du haut des cieux, louez-le dans les hauteurs !",
+    "es": "¡Hallelú Yah! Alabad al Señor desde los cielos, alabadlo en las alturas.",
+    "en": "Praise ye the Lord from the heavens: praise ye him in the high places.",
+    "src": {
+     "fr": "Ps 148, 1",
+     "es": "Sal 148, 1",
+     "en": "Ps 148:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 148,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 148,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 148,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps57-8",
+    "fr": "Mon cœur est affermi, ô Dieu, mon cœur est affermi ; je chanterai et ferai retentir de joyeux instruments. Éveille-toi, ma gloire ! Éveillez-vous, ma lyre et ma harpe ! Que j’éveille l’aurore !",
+    "es": "Mi corazón está pronto, oh Dios; firme está mi corazón; quiero cantar y entonar salmos. Despierta, oh alma mía; salterio y cítara despertaos; despertaré a la aurora.",
+    "en": "My heart is ready, O God, my heart is ready: I will sing, and rehearse a psalm. Arise, O my glory, arise psaltery and harp: I will arise early.",
+    "src": {
+     "fr": "Ps 57, 8-9",
+     "es": "Sal 57, 8-9",
+     "en": "Ps 57:8-9"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 57,
+      "v": [
+       8,
+       9
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 57,
+      "v": [
+       8,
+       9
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 57,
+      "v": [
+       8,
+       9
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps31-4",
+    "fr": "Car tu es mon rocher, ma forteresse, et à cause de ton nom tu me conduiras et me dirigeras.",
+    "es": "Porque Tú eres mi peña y mi baluarte, y por la gloria de tu nombre, cuidarás de mí y me conducirás.",
+    "en": "For thou art my strength and my refuge; and for thy name's sake thou wilt lead me, and nourish me.",
+    "src": {
+     "fr": "Ps 31, 4",
+     "es": "Sal 31, 4",
+     "en": "Ps 31:4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc1-46",
+    "fr": "Mon âme glorifie le Seigneur. Et mon esprit tressaille de joie en Dieu, mon Sauveur.",
+    "es": "Glorifica mi alma al Señor, y mi espíritu se goza en Dios mi Salvador.",
+    "en": "My soul doth magnify the Lord. And my spirit hath rejoiced in God my Saviour.",
+    "src": {
+     "fr": "Lc 1, 46-47",
+     "es": "Lc 1, 46-47",
+     "en": "Lk 1:46-47"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       46,
+       47
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       46,
+       47
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       46,
+       47
+      ]
+     }
+    }
+   },
+   {
+    "id": "1s3-10",
+    "fr": "Parlez, car votre serviteur écoute.",
+    "es": "Habla, tu siervo escucha.",
+    "en": "Speak, Lord, for thy servant heareth.",
+    "src": {
+     "fr": "1 S 3, 10",
+     "es": "1 Sam 3, 10",
+     "en": "1 Sm 3:10"
+    },
+    "bible": {
+     "fr": {
+      "osis": "1Sam",
+      "c": 3,
+      "v": [
+       10
+      ]
+     },
+     "es": {
+      "osis": "1Sam",
+      "c": 3,
+      "v": [
+       10
+      ]
+     },
+     "en": {
+      "osis": "1Sam",
+      "c": 3,
+      "v": [
+       10
+      ]
+     }
+    }
+   },
+   {
+    "id": "mc9-24",
+    "fr": "Je crois (Seigneur) ; venez au secours de mon incrédulité.",
+    "es": "¡Creo! ¡Ven en ayuda de mi falta de fe!",
+    "en": "Deaf and dumb spirit, I command thee, go out of him and enter not any more into him.",
+    "src": {
+     "fr": "Mc 9, 23",
+     "es": "Mc 9, 24",
+     "en": "Mk 9:24"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Mark",
+      "c": 9,
+      "v": [
+       23
+      ]
+     },
+     "es": {
+      "osis": "Mark",
+      "c": 9,
+      "v": [
+       24
+      ]
+     },
+     "en": {
+      "osis": "Mark",
+      "c": 9,
+      "v": [
+       24
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc17-5",
+    "fr": "Augmentez notre foi.",
+    "es": "Añádenos fe.",
+    "en": "Increase our faith.",
+    "src": {
+     "fr": "Lc 17, 5",
+     "es": "Lc 17, 5",
+     "en": "Lk 17:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 17,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 17,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 17,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "jn6-68",
+    "fr": "Seigneur, à qui irions-nous ? Vous avez les paroles de la vie éternelle. Et nous, nous avons cru et nous avons connu que vous êtes le Saint de Dieu.",
+    "es": "Señor, ¿a quién iríamos? Tú tienes palabras de vida eterna. Y nosotros hemos creído y sabemos que Tú eres el Santo de Dios.",
+    "en": "Lord, to whom shall we go? Thou hast the words of eternal life.",
+    "src": {
+     "fr": "Jn 6, 68-69",
+     "es": "Jn 6, 68-69",
+     "en": "Jn 6:68-69"
+    },
+    "bible": {
+     "fr": {
+      "osis": "John",
+      "c": 6,
+      "v": [
+       68,
+       69
+      ]
+     },
+     "es": {
+      "osis": "John",
+      "c": 6,
+      "v": [
+       68,
+       69
+      ]
+     },
+     "en": {
+      "osis": "John",
+      "c": 6,
+      "v": [
+       68,
+       69
+      ]
+     }
+    }
+   },
+   {
+    "id": "jn20-28",
+    "fr": "Mon Seigneur, et mon Dieu !",
+    "es": "¡Señor mío y Dios mío!",
+    "en": "My Lord and my God.",
+    "src": {
+     "fr": "Jn 20, 28",
+     "es": "Jn 20, 28",
+     "en": "Jn 20:28"
+    },
+    "bible": {
+     "fr": {
+      "osis": "John",
+      "c": 20,
+      "v": [
+       28
+      ]
+     },
+     "es": {
+      "osis": "John",
+      "c": 20,
+      "v": [
+       28
+      ]
+     },
+     "en": {
+      "osis": "John",
+      "c": 20,
+      "v": [
+       28
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc11-1",
+    "fr": "Seigneur, apprenez-nous à prier, comme Jean l’a appris à ses disciples.",
+    "es": "Señor, enséñanos a orar, como Juan lo enseñó a sus discípulos.",
+    "en": "Lord, teach us to pray, as John also taught his disciples.",
+    "src": {
+     "fr": "Lc 11, 1",
+     "es": "Lc 11, 1",
+     "en": "Lk 11:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 11,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 11,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 11,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "is6-8",
+    "fr": "Me voici, envoyez-moi.",
+    "es": "Heme aquí; envíame a mí.",
+    "en": "Lo, here am I, send me.",
+    "src": {
+     "fr": "Is 6, 8",
+     "es": "Is 6, 8",
+     "en": "Is 6:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Isa",
+      "c": 6,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Isa",
+      "c": 6,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Isa",
+      "c": 6,
+      "v": [
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "jr17-14",
+    "fr": "Guéris-moi, Seigneur, et je serai guéri ; sauve-moi, et je serai sauvé, car tu es ma louange.",
+    "es": "¡Sáname, Señor, y quedaré sano; sálvame, y seré salvo; porque Tú eres mi gloria!",
+    "en": "Heal me, O Lord, and I shall be healed: save me, and I shall be saved: for thou art my praise.",
+    "src": {
+     "fr": "Jr 17, 14",
+     "es": "Jer 17, 14",
+     "en": "Jer 17:14"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Jer",
+      "c": 17,
+      "v": [
+       14
+      ]
+     },
+     "es": {
+      "osis": "Jer",
+      "c": 17,
+      "v": [
+       14
+      ]
+     },
+     "en": {
+      "osis": "Jer",
+      "c": 17,
+      "v": [
+       14
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc1-38",
+    "fr": "Voici la servante du Seigneur, qu’il me soit fait selon votre parole.",
+    "es": "He aquí la esclava del Señor: Séame hecho según tu palabra.",
+    "en": "Behold the handmaid of the Lord: be it done to me according to thy word.",
+    "src": {
+     "fr": "Lc 1, 38",
+     "es": "Lc 1, 38",
+     "en": "Lk 1:38"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       38
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       38
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       38
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps40-9",
+    "fr": "Je veux faire ta volonté, ô mon Dieu, et ta loi est au fond de mon cœur.",
+    "es": "Hacer tu voluntad; tal es mi deleite, Dios mío, y tu Ley está en el fondo de mi corazón.",
+    "en": "That I should do thy will: O my God, I have desired it, and thy law in the midst of my heart.",
+    "src": {
+     "fr": "Ps 40, 9",
+     "es": "Sal 40, 9",
+     "en": "Ps 40:9"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 40,
+      "v": [
+       9
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 40,
+      "v": [
+       9
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 40,
+      "v": [
+       9
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps71-1",
+    "fr": "Seigneur, en toi j’ai placé mon refuge ; que jamais je ne sois confondu !",
+    "es": "En Ti, Señor, me refugio, no me vea nunca confundido.",
+    "en": "In thee, O Lord, I have hoped, let me never be put to confusion.",
+    "src": {
+     "fr": "Ps 71, 1",
+     "es": "Sal 71, 1",
+     "en": "Ps 71:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 71,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 71,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 71,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps86-5",
+    "fr": "Car tu es bon, Seigneur, et clément, et plein de compassion pour tous ceux qui t’invoquent.",
+    "es": "Porque Tú eres un Señor bueno y pronto a perdonar, lleno de gracia para todos los que te invocan.",
+    "en": "For thou, O Lord, art sweet and mild: and plenteous in mercy to all that call upon thee.",
+    "src": {
+     "fr": "Ps 86, 5",
+     "es": "Sal 86, 5",
+     "en": "Ps 86:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps108-2",
+    "fr": "Mon cœur est affermi, ô Dieu, je chanterai et ferai retentir de joyeux instruments. Debout, ma gloire !",
+    "es": "Mi corazón está pronto, oh Dios; quiero cantar y entonar salmos; mi alma está despierta.",
+    "en": "My heart is ready, O God, my heart is ready: I will sing, and will give praise, with my glory.",
+    "src": {
+     "fr": "Ps 108, 2",
+     "es": "Sal 108, 2",
+     "en": "Ps 108:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 108,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 108,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 108,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps136-1",
+    "fr": "Célébrez le Seigneur, car il est bon, car sa miséricorde est éternelle.",
+    "es": "¡Hallelú Yah! Alabad al Señor porque es bueno, porque su misericordia es para siempre.",
+    "en": "Alleluia. Praise the Lord, for he is good: for his mercy endureth for ever.",
+    "src": {
+     "fr": "Ps 136, 1",
+     "es": "Sal 136, 1",
+     "en": "Ps 136:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 136,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 136,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 136,
+      "v": [
+       1
+      ]
+     }
+    }
+   }
+  ],
+  "soir": [
+   {
+    "id": "ps4-9",
+    "fr": "En paix je me coucherai et je m’endormirai aussitôt ; car toi, Seigneur, toi seul, tu me fais habiter dans la sécurité.",
+    "es": "Apenas me acuesto, me duermo en paz, porque Tú me das seguridad, oh Señor.",
+    "en": "In peace in the self same I will sleep, and I will rest.",
+    "src": {
+     "fr": "Ps 4, 9",
+     "es": "Sal 4, 9",
+     "en": "Ps 4:9"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 4,
+      "v": [
+       9
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 4,
+      "v": [
+       9
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 4,
+      "v": [
+       9
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps141-2",
+    "fr": "Que ma prière soit devant ta face comme l’encens, et l’élévation de mes mains comme l’offrande du soir !",
+    "es": "Como el incienso, suba hacia Ti mi oración; sea la elevación de mis manos el sacrificio vespertino.",
+    "en": "Let my prayer be directed as incense in thy sight; the lifting up of my hands, as evening sacrifice.",
+    "src": {
+     "fr": "Ps 141, 2",
+     "es": "Sal 141, 2",
+     "en": "Ps 141:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps31-6",
+    "fr": "Entre tes mains je remets mon esprit ; tu me délivreras, Seigneur, Dieu de vérité !",
+    "es": "En tus manos encomiendo mi espíritu. ¡Tú me redimirás, oh Señor, Dios fiel!",
+    "en": "Into thy hands I commend my spirit: thou hast redeemed me, O Lord, the God of truth.",
+    "src": {
+     "fr": "Ps 31, 6",
+     "es": "Sal 31, 6",
+     "en": "Ps 31:6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       6
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps91-1",
+    "fr": "Celui qui s’abrite sous la protection du Très-Haut repose à l’ombre du Tout-Puissant. Je dis au Seigneur : « Tu es mon refuge et ma forteresse, mon Dieu en qui je me confie.",
+    "es": "Tú que te abrigas en el retiro del Altísimo, y descansas a la sombra del Omnipotente, di al Señor: “¡Refugio mío y fortaleza mía, mi Dios, en quien confío!",
+    "en": "He that dwelleth in the aid of the most High, shall abide under the protection of the God of Jacob. He shall say to the Lord: Thou art my protector, and my refuge: my God, in him will I trust.",
+    "src": {
+     "fr": "Ps 91, 1-2",
+     "es": "Sal 91, 1-2",
+     "en": "Ps 91:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 91,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 91,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 91,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps16-1",
+    "fr": "Garde-moi ô Dieu, car près de toi je me réfugie.",
+    "es": "Presérvame, oh Dios, pues me refugio en Ti.",
+    "en": "Preserve me, O Lord, for I have put my trust in thee.",
+    "src": {
+     "fr": "Ps 16, 1",
+     "es": "Sal 16, 1",
+     "en": "Ps 16:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps17-8",
+    "fr": "Garde-moi comme la prunelle de l’œil ; à l’ombre de tes ailes mets-moi à couvert.",
+    "es": "Cuídame como a la niña de tus ojos, escóndeme bajo la sombra de tus alas.",
+    "en": "Keep me, as the apple of thy eye. Protect me under the shadow of thy wings.",
+    "src": {
+     "fr": "Ps 17, 8",
+     "es": "Sal 17, 8",
+     "en": "Ps 17:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 17,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 17,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 17,
+      "v": [
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps63-7",
+    "fr": "Quand je pense à toi sur ma couche, je médite sur toi pendant les veilles de la nuit. Car tu es mon secours, et je suis dans l’allégresse à l’ombre de tes ailes.",
+    "es": "Cada vez que me acuerde de Ti en mi lecho y en mis insomnios medite sobre Ti; porque en verdad Tú te hiciste mi amparo, y a la sombra de tus alas me siento feliz.",
+    "en": "If I have remembered thee upon my bed, I will meditate on thee in the morning: Because thou hast been my helper. And I will rejoice under the cover of thy wings.",
+    "src": {
+     "fr": "Ps 63, 7-8",
+     "es": "Sal 63, 7-8",
+     "en": "Ps 63:7-8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 63,
+      "v": [
+       7,
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 63,
+      "v": [
+       7,
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 63,
+      "v": [
+       7,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-55",
+    "fr": "La nuit je me rappelle ton nom, Seigneur, et j’observe ta loi.",
+    "es": "Durante la noche me acuerdo de tu nombre, oh Señor, y guardaré tu Ley.",
+    "en": "In the night I have remembered thy name, O Lord: and have kept thy law.",
+    "src": {
+     "fr": "Ps 119, 55",
+     "es": "Sal 119, 55",
+     "en": "Ps 119:55"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       55
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       55
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       55
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps121-7",
+    "fr": "Le Seigneur te gardera de tout mal, il gardera ton âme : Le Seigneur gardera ton départ et ton arrivée maintenant et à jamais.",
+    "es": "Presérvete el Señor de todo mal; Él guarde tu alma. El Señor custodiará tu salida y tu llegada, ahora y para siempre.",
+    "en": "The Lord keepeth thee from all evil: may the Lord keep thy soul. May the Lord keep thy coming in and thy going out; from henceforth now and for ever.",
+    "src": {
+     "fr": "Ps 121, 7-8",
+     "es": "Sal 121, 7-8",
+     "en": "Ps 121:7-8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       7,
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       7,
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       7,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps134",
+    "fr": "Voici donc, bénissez le Seigneur, vous tous, serviteurs du Seigneur, qui êtes de service dans la maison du Seigneur, pendant les nuits !… Levez les mains vers le sanctuaire, et bénissez le Seigneur.",
+    "es": "Ea, bendecid al Señor, todos los siervos del Señor, los que estáis en la casa del Señor, en las horas de la noche. Alzad vuestras manos hacia el Santuario, y bendecid al Señor.",
+    "en": "Behold now bless ye the Lord, all ye servants of the Lord: Who stand in the house of the Lord, in the courts of the house of our God. In the nights lift up your hands to the holy places, and bless ye the Lord.",
+    "src": {
+     "fr": "Ps 134, 1-2",
+     "es": "Sal 134, 1-2",
+     "en": "Ps 134:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 134,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 134,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 134,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps3-6",
+    "fr": "Je me suis couché et me suis endormi ; je me suis réveillé, car le Seigneur est mon soutien.",
+    "es": "Me acuesto y me duermo, y despierto incólume, porque el Señor me sostiene.",
+    "en": "I have slept and have taken my rest: and I have risen up, because the Lord hath protected me.",
+    "src": {
+     "fr": "Ps 3, 6",
+     "es": "Sal 3, 6",
+     "en": "Ps 3:6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 3,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 3,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 3,
+      "v": [
+       6
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps51-3",
+    "fr": "Aie pitié de moi, ô Dieu, selon ta bonté ; selon ta grande miséricorde efface mes transgressions. Lave-moi complètement de mon iniquité, et purifie-moi de mon péché.",
+    "es": "Ten compasión de mí, oh Dios, en la medida de tu misericordia; según la grandeza de tus bondades, borra mi iniquidad. Lávame a fondo de mi culpa, límpiame de mi pecado.",
+    "en": "Have mercy on me, O God, according to thy great mercy. And according to the multitude of thy tender mercies blot out my iniquity. Wash me yet more from my iniquity, and cleanse me from my sin.",
+    "src": {
+     "fr": "Ps 51, 3-4",
+     "es": "Sal 51, 3-4",
+     "en": "Ps 51:3-4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       3,
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       3,
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       3,
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps86-1",
+    "fr": "Prête l’oreille, Seigneur, exauce-moi, car je suis malheureux et indigent. Garde mon âme, car je suis pieux ; sauve ton serviteur, ô mon Dieu ; il met sa confiance en toi.",
+    "es": "Inclina, Señor, tu oído y escúchame, porque soy desvalido y necesitado. Preserva mi vida porque soy santo; salva a tu siervo que espera en Ti.",
+    "en": "Incline thy ear, O Lord, and hear me: for I am needy and poor. Preserve my soul, for I am holy: save thy servant, O my God, that trusteth in thee.",
+    "src": {
+     "fr": "Ps 86, 1-2",
+     "es": "Sal 86, 1-2",
+     "en": "Ps 86:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps88-2",
+    "fr": "Seigneur, Dieu de mon salut, quand je crie la nuit devant toi, que ma prière arrive en ta présence, prête l’oreille à mes supplications !",
+    "es": "Señor, Dios de mi salud, día y noche clamo en tu presencia. Llegue hasta Ti mi oración, inclina tu oído a mi clamor.",
+    "en": "O Lord, the God of my salvation: I have cried in the day, and in the night before thee. Let my prayer come in before thee: incline thy ear to my petition.",
+    "src": {
+     "fr": "Ps 88, 2-3",
+     "es": "Sal 88, 2-3",
+     "en": "Ps 88:2-3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 88,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 88,
+      "v": [
+       2,
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 88,
+      "v": [
+       2,
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps103-13",
+    "fr": "Comme un père a compassion de ses enfants, le Seigneur a compassion de ceux qui le craignent.",
+    "es": "Como un padre que se apiada de sus hijos, así el Señor se compadece de los que le temen.",
+    "en": "As a father hath compassion on his children, so hath the Lord compassion on them that fear him.",
+    "src": {
+     "fr": "Ps 103, 13",
+     "es": "Sal 103, 13",
+     "en": "Ps 103:13"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 103,
+      "v": [
+       13
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 103,
+      "v": [
+       13
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 103,
+      "v": [
+       13
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps116-7",
+    "fr": "Mon âme, retourne à ton repos ; car le Seigneur te comble de biens.",
+    "es": "Vuelve, alma mía, a tu sosiego, porque el Señor te ha favorecido.",
+    "en": "Turn, O my soul, into thy rest: for the Lord hath been bountiful to thee.",
+    "src": {
+     "fr": "Ps 116, 7",
+     "es": "Sal 116, 7",
+     "en": "Ps 116:7"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 116,
+      "v": [
+       7
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 116,
+      "v": [
+       7
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 116,
+      "v": [
+       7
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps130-1",
+    "fr": "Du fond de l’abîme je crie vers toi, Seigneur. Seigneur, écoute ma voix ; que tes oreilles soient attentives aux accents de ma prière !",
+    "es": "Desde lo más profundo clamo a Ti, Señor, Señor, oye mi voz. Estén tus oídos atentos al grito de mi súplica.",
+    "en": "Out of the depths I have cried to thee, O Lord: Lord, hear my voice. Let thy ears be attentive to the voice of my supplication.",
+    "src": {
+     "fr": "Ps 130, 1-2",
+     "es": "Sal 130, 1-2",
+     "en": "Ps 130:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       1,
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps130-5",
+    "fr": "J’espère dans le Seigneur ; mon âme espère, et j’attends sa parole. Mon âme aspire après le Seigneur plus que les guetteurs n’aspirent après l’aurore.",
+    "es": "Espero en el Señor, mi alma confía en su palabra. Aguardando está mi alma al Señor, más que los centinelas el alba. Más que los centinelas con la aurora.",
+    "en": "My soul hath hoped in the Lord. From the morning watch even until night, let Israel hope in the Lord.",
+    "src": {
+     "fr": "Ps 130, 5-6",
+     "es": "Sal 130, 5-6",
+     "en": "Ps 130:5-6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       5,
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       5,
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       5,
+       6
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps131-2",
+    "fr": "Non ! Je tiens mon âme dans le calme et le silence. Comme un enfant sevré sur le sein de sa mère, comme l’enfant sevré mon âme est en moi.",
+    "es": "Lejos de eso, he hecho a mi alma quieta y apaciguada como un niño que se recuesta sobre el pecho de su madre; como ese niño, está mi alma en mí.",
+    "en": "As a child that is weaned is towards his mother, so reward in my soul.",
+    "src": {
+     "fr": "Ps 131, 2",
+     "es": "Sal 131, 2",
+     "en": "Ps 131:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 131,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 131,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 131,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps143-1",
+    "fr": "Seigneur, écoute ma prière ; prête l’oreille à mes supplications ; exauce-moi dans ta vérité et dans ta justice.",
+    "es": "Señor, escucha mi oración, presta oído a mi súplica según tu fidelidad; óyeme por tu justicia.",
+    "en": "Hear, O Lord, my prayer: give ear to my supplication in thy truth: hear me in thy justice.",
+    "src": {
+     "fr": "Ps 143, 1",
+     "es": "Sal 143, 1",
+     "en": "Ps 143:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps143-10",
+    "fr": "Apprends-moi à faire ta volonté, car tu es mon Dieu. Que ton bon esprit me conduise dans la voie droite !",
+    "es": "Enséñame a hacer tu voluntad, porque Tú eres mi Dios. Tu Espíritu es bueno; guíame, pues, por camino llano.",
+    "en": "Teach me to do thy will, for thou art my God. Thy good spirit shall lead me into the right land.",
+    "src": {
+     "fr": "Ps 143, 10",
+     "es": "Sal 143, 10",
+     "en": "Ps 143:10"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       10
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       10
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       10
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps145-18",
+    "fr": "Le Seigneur est près de tous ceux qui l’invoquent, de tous ceux qui l’invoquent d’un cœur sincère.",
+    "es": "El Señor cerca está de cuantos le invocan, de todos los que le invocan de veras.",
+    "en": "The Lord is nigh unto all them that call upon him: to all that call upon him in truth.",
+    "src": {
+     "fr": "Ps 145, 18",
+     "es": "Sal 145, 18",
+     "en": "Ps 145:18"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       18
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       18
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       18
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps147-3",
+    "fr": "Il guérit ceux qui ont le cœur brisé, et il panse leurs blessures.",
+    "es": "Él quien sana a los de corazón llagado, y venda sus heridas.",
+    "en": "Who healeth the broken of heart, and bindeth up their bruises.",
+    "src": {
+     "fr": "Ps 147, 3",
+     "es": "Sal 147, 3",
+     "en": "Ps 147:3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 147,
+      "v": [
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 147,
+      "v": [
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 147,
+      "v": [
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc2-29",
+    "fr": "Maintenant, ô Maître, vous laissez partir votre serviteur En paix, selon votre parole ; Puisque mes yeux ont vu votre salut, Que vous avez préparé à la face de tous les peuples : Lumière qui doit dissiper les ténèbres des Nations Et gloire d’Israël, votre peuple.",
+    "es": "Ahora, Señor, despides a tu siervo en paz, según tu palabra, porque han visto mis ojos tu salvación, que preparaste a la faz de todos los pueblos. Luz para revelarse a los gentiles, y para gloria de Israel, tu pueblo.",
+    "en": "Now thou dost dismiss thy servant, O Lord, according to thy word in peace: Because my eyes have seen thy salvation, Which thou hast prepared before the face of all peoples: A light to the revelation of the Gentiles and the glory of thy people Israel.",
+    "src": {
+     "fr": "Lc 2, 29-32",
+     "es": "Lc 2, 29-32",
+     "en": "Lk 2:29-32"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       29,
+       30,
+       31,
+       32
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       29,
+       30,
+       31,
+       32
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       29,
+       30,
+       31,
+       32
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc23-46",
+    "fr": "Père, je remets mon esprit entre vos mains.",
+    "es": "Padre, en tus manos entrego mi espíritu.",
+    "en": "Father, into thy hands I commend my spirit.",
+    "src": {
+     "fr": "Lc 23, 46",
+     "es": "Lc 23, 46",
+     "en": "Lk 23:46"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 23,
+      "v": [
+       46
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 23,
+      "v": [
+       46
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 23,
+      "v": [
+       46
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc24-29",
+    "fr": "Reste avec nous, car il se fait tard, et déjà le jour baisse.",
+    "es": "Quédate con nosotros, porque es tarde, y ya ha declinado el día.",
+    "en": "Stay with us, because it is towards evening and the day is now far spent.",
+    "src": {
+     "fr": "Lc 24, 29",
+     "es": "Lc 24, 29",
+     "en": "Lk 24:29"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 24,
+      "v": [
+       29
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 24,
+      "v": [
+       29
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 24,
+      "v": [
+       29
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc23-42",
+    "fr": "Seigneur, souvenez-vous de moi, quand vous serez parvenu dans votre royaume.",
+    "es": "Jesús, acuérdate de mí, cuando vengas en tu reino.",
+    "en": "Lord, remember me when thou shalt come into thy kingdom.",
+    "src": {
+     "fr": "Lc 23, 42",
+     "es": "Lc 23, 42",
+     "en": "Lk 23:42"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 23,
+      "v": [
+       42
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 23,
+      "v": [
+       42
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 23,
+      "v": [
+       42
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc18-13",
+    "fr": "Ô Dieu, ayez pitié de moi qui suis un pécheur !",
+    "es": "Oh Dios, compadécete de mí, el pecador.",
+    "en": "O God, be merciful to me a sinner.",
+    "src": {
+     "fr": "Lc 18, 13",
+     "es": "Lc 18, 13",
+     "en": "Lk 18:13"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 18,
+      "v": [
+       13
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 18,
+      "v": [
+       13
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 18,
+      "v": [
+       13
+      ]
+     }
+    }
+   },
+   {
+    "id": "jn21-17",
+    "fr": "Seigneur, vous connaissez toutes choses, vous savez bien que je vous aime.",
+    "es": "Señor, Tú lo sabes todo. Tú sabes que yo te quiero.",
+    "en": "Lord, thou knowest all things: thou knowest that I love thee.",
+    "src": {
+     "fr": "Jn 21, 17",
+     "es": "Jn 21, 17",
+     "en": "Jn 21:17"
+    },
+    "bible": {
+     "fr": {
+      "osis": "John",
+      "c": 21,
+      "v": [
+       17
+      ]
+     },
+     "es": {
+      "osis": "John",
+      "c": 21,
+      "v": [
+       17
+      ]
+     },
+     "en": {
+      "osis": "John",
+      "c": 21,
+      "v": [
+       17
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps25-6",
+    "fr": "Souviens-toi de ta miséricorde, Seigneur, et de ta bonté car elles sont éternelles. Ne te souviens pas des péchés de ma jeunesse ni de mes transgressions ; souviens-toi de moi selon ta miséricorde, à cause de ta bonté, ô Seigneur.",
+    "es": "Acuérdate, Señor, de tus misericordias, y de tus bondades de todos los tiempos. No recuerdes los pecados de mi mocedad, ni mis ofensas; según tu benevolencia acuérdate de mí, por tu bondad, oh Señor.",
+    "en": "Remember, O Lord, thy bowels of compassion; and thy mercies that are from the beginning of the world. The sins of my youth and my ignorances do not remember. According to thy mercy remember thou me: for thy goodness' sake, O Lord.",
+    "src": {
+     "fr": "Ps 25, 6-7",
+     "es": "Sal 25, 6-7",
+     "en": "Ps 25:6-7"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       6,
+       7
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       6,
+       7
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       6,
+       7
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps32-5",
+    "fr": "Je t’ai fait connaître mon péché, je n’ai point caché mon iniquité ; j’ai dit : « Je veux confesser au Seigneur mes transgressions » et toi, tu as remis l’iniquité de mon péché.",
+    "es": "Entonces te manifesté mi delito, y no te oculté mi culpa; dije: “confesaré mi iniquidad al Señor” y Tú remitiste la culpa de mi pecado.",
+    "en": "I have acknowledged my sin to thee, and my injustice I have not concealed. I said I will confess against my self my injustice to the Lord: and thou hast forgiven the wickedness of my sin.",
+    "src": {
+     "fr": "Ps 32, 5",
+     "es": "Sal 32, 5",
+     "en": "Ps 32:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 32,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 32,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 32,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps34-19",
+    "fr": "Le Seigneur est près de ceux qui ont le cœur brisé, il sauve ceux dont l’esprit est abattu.",
+    "es": "El Señor está junto a los que tienen el corazón atribulado y salva a los de espíritu compungido.",
+    "en": "The Lord is nigh unto them that are of a contrite heart: and he will save the humble of spirit.",
+    "src": {
+     "fr": "Ps 34, 19",
+     "es": "Sal 34, 19",
+     "en": "Ps 34:19"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       19
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       19
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       19
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps38-22",
+    "fr": "Ne m’abandonne pas, Seigneur ! Mon Dieu, ne t’éloigne pas de moi ! Hâte-toi de me secourir, Seigneur, toi qui es mon salut !",
+    "es": "No me abandones, oh Señor; Dios mío, no quieras estar lejos de mí. Apresúrate a socorrerme, Señor, salvación mía.",
+    "en": "For sake me not, O Lord my God: do not thou depart from me. Attend unto my help, O Lord, the God of my salvation.",
+    "src": {
+     "fr": "Ps 38, 22-23",
+     "es": "Sal 38, 22-23",
+     "en": "Ps 38:22-23"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 38,
+      "v": [
+       22,
+       23
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 38,
+      "v": [
+       22,
+       23
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 38,
+      "v": [
+       22,
+       23
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps40-18",
+    "fr": "Moi, je suis pauvre et indigent, mais le Seigneur prendra soin de moi. Tu es mon aide et mon libérateur : mon Dieu, ne tarde pas !",
+    "es": "En cuanto a mí, soy pobre y miserable; pero el Señor cuida de mí. Mi amparo y mi libertador eres Tú; ¡Dios mío, no tardes!",
+    "en": "But I am a beggar and poor: the Lord is careful for me. Thou art my helper and my protector: O my God, be not slack.",
+    "src": {
+     "fr": "Ps 40, 18",
+     "es": "Sal 40, 18",
+     "en": "Ps 40:18"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 40,
+      "v": [
+       18
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 40,
+      "v": [
+       18
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 40,
+      "v": [
+       18
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps57-2",
+    "fr": "Aie pitié de moi, ô Dieu, aie pitié de moi, car en toi mon âme cherche un refuge ; je m’abriterai à l’ombre de tes ailes, jusqu’à ce que la calamité soit passée.",
+    "es": "Ten piedad de mí, oh Dios, ten piedad de mí, ya que a Ti se acoge mi alma. A la sombra de tus alas me refugio hasta que pase la calamidad.",
+    "en": "Have mercy on me, O God, have mercy on me: for my soul trusteth in thee. And in the shadow of thy wings will I hope, until iniquity pass away.",
+    "src": {
+     "fr": "Ps 57, 2",
+     "es": "Sal 57, 2",
+     "en": "Ps 57:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 57,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 57,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 57,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps61-5",
+    "fr": "Je voudrais demeurer à jamais dans ta tente, me réfugier à l’abri de tes ailes !",
+    "es": "Habite yo para siempre en tu tabernáculo y encuentre abrigo a la sombra de tus alas.",
+    "en": "In thy tabernacle I shall dwell for ever: I shall be protected under the covert of thy wings.",
+    "src": {
+     "fr": "Ps 61, 5",
+     "es": "Sal 61, 5",
+     "en": "Ps 61:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps62-6",
+    "fr": "Oui, ô mon âme, à Dieu abandonne-toi en paix, car de lui vient mon espérance.",
+    "es": "Solo en Dios se descansa, oh alma mía, porque la salud viene de Él.",
+    "en": "But be thou, O my soul, subject to God: for from him is my patience.",
+    "src": {
+     "fr": "Ps 62, 6",
+     "es": "Sal 62, 6",
+     "en": "Ps 62:6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 62,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 62,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 62,
+      "v": [
+       6
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-76",
+    "fr": "Que ta bonté soit ma consolation, selon ta parole donnée à ton serviteur !",
+    "es": "Venga ahora tu misericordia a consolarme, según la promesa que diste a tu siervo.",
+    "en": "O! let thy mercy be for my comfort, according to thy word unto thy servant.",
+    "src": {
+     "fr": "Ps 119, 76",
+     "es": "Sal 119, 76",
+     "en": "Ps 119:76"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       76
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       76
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       76
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-148",
+    "fr": "Mes yeux devancent les veilles de la nuit, pour méditer ta parole.",
+    "es": "Mis ojos se adelantan a las vigilias de la noche, para meditar tu palabra.",
+    "en": "My eyes to thee have prevented the morning: that I might meditate on thy words.",
+    "src": {
+     "fr": "Ps 119, 148",
+     "es": "Sal 119, 148",
+     "en": "Ps 119:148"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       148
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       148
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       148
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps6-3",
+    "fr": "Aie pitié de moi, Seigneur, car je suis sans force ; guéris-moi, Seigneur, car mes os sont tremblants.",
+    "es": "Ten misericordia de mí, oh Señor, porque soy débil; sáname, porque hasta mis huesos se sacuden.",
+    "en": "Have mercy on me, O Lord, for I am weak: heal me, O Lord, for my bones are troubled.",
+    "src": {
+     "fr": "Ps 6, 3",
+     "es": "Sal 6, 3",
+     "en": "Ps 6:3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 6,
+      "v": [
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 6,
+      "v": [
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 6,
+      "v": [
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps13-4",
+    "fr": "Regarde, réponds-moi, Seigneur, mon Dieu ! Donne la lumière à mes yeux, afin que je ne m’endorme pas dans la mort.",
+    "es": "Mira y respóndeme, Señor, Dios mío; alumbra mis ojos para que no me duerma en la muerte.",
+    "en": "Consider, and hear me, O Lord, my God. Enlighten my eyes, that I never sleep in death.",
+    "src": {
+     "fr": "Ps 13, 4",
+     "es": "Sal 13, 4",
+     "en": "Ps 13:4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 13,
+      "v": [
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 13,
+      "v": [
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 13,
+      "v": [
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps25-16",
+    "fr": "Regarde-moi et prends pitié de moi, car je suis délaissé et malheureux.",
+    "es": "Mírame Tú y tenme lástima, porque soy miserable y estoy solo.",
+    "en": "Look thou upon me, and have mercy on me; for I am alone and poor.",
+    "src": {
+     "fr": "Ps 25, 16",
+     "es": "Sal 25, 16",
+     "en": "Ps 25:16"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       16
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       16
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       16
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps28-7",
+    "fr": "Le Seigneur est ma force et mon bouclier ; en lui s’est confié mon cœur. J’ai été secouru ; aussi mon cœur est dans l’allégresse, et je le louerai par mes cantiques.",
+    "es": "El Señor es mi fortaleza y mi escudo; en Él confió mi corazón y fui socorrido. Por eso mi corazón salta de gozo y lo alabo con mi cántico.",
+    "en": "The Lord is my helper and my protector: in him hath my heart confided, and I have been helped. And my flesh hath flourished again, and with my will I will give praise to him.",
+    "src": {
+     "fr": "Ps 28, 7",
+     "es": "Sal 28, 7",
+     "en": "Ps 28:7"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 28,
+      "v": [
+       7
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 28,
+      "v": [
+       7
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 28,
+      "v": [
+       7
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps31-15",
+    "fr": "Et moi, je me confie en toi, Seigneur ; je dis : « Tu es mon Dieu ! » Mes destinées sont dans ta main ; délivre-moi de la main de mes ennemis et de mes persécuteurs !",
+    "es": "Pero yo confío en Ti, Señor; digo: “Tú eres mi Dios.” Mi destino está en tu mano; sácame del poder de mis enemigos y de mis perseguidores.",
+    "en": "But I have put my trust in thee, O Lord: I said: Thou art my God. My lots are in thy hands. Deliver me out of the hands of my enemies; and from them that persecute me.",
+    "src": {
+     "fr": "Ps 31, 15-16",
+     "es": "Sal 31, 15-16",
+     "en": "Ps 31:15-16"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       15,
+       16
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       15,
+       16
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       15,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps37-5",
+    "fr": "Remets ton sort au Seigneur et confie-toi en lui : il agira.",
+    "es": "Entrega al Señor tu camino; confíate a Él y déjale obrar.",
+    "en": "Commit thy way to the Lord, and trust in him, and he will do it.",
+    "src": {
+     "fr": "Ps 37, 5",
+     "es": "Sal 37, 5",
+     "en": "Ps 37:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 37,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 37,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 37,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps55-23",
+    "fr": "Remets ton sort au Seigneur, et il te soutiendra ; il ne laissera pas à jamais chanceler le juste.",
+    "es": "Deja tu cuidado a cargo del Señor, y Él te sostendrá. Nunca permitirá que el justo caiga.",
+    "en": "Cast thy care upon the Lord, and he shall sustain thee: he shall not suffer the just to waver for ever.",
+    "src": {
+     "fr": "Ps 55, 23",
+     "es": "Sal 55, 23",
+     "en": "Ps 55:23"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 55,
+      "v": [
+       23
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 55,
+      "v": [
+       23
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 55,
+      "v": [
+       23
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps56-4",
+    "fr": "Quand je suis dans la crainte, je me confie en toi.",
+    "es": "El día en que me invada el temor, confiaré en Ti.",
+    "en": "I will trust in thee.",
+    "src": {
+     "fr": "Ps 56, 4",
+     "es": "Sal 56, 4",
+     "en": "Ps 56:4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 56,
+      "v": [
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 56,
+      "v": [
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 56,
+      "v": [
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps94-19",
+    "fr": "Quand les angoisses s’agitent en foule dans ma pensée, tes consolations réjouissent mon âme.",
+    "es": "Cuando las ansiedades se multiplican en mi corazón, tus consuelos deleitan mi alma.",
+    "en": "According to the multitude of my sorrows in my heart, thy comforts have given joy to my soul.",
+    "src": {
+     "fr": "Ps 94, 19",
+     "es": "Sal 94, 19",
+     "en": "Ps 94:19"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 94,
+      "v": [
+       19
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 94,
+      "v": [
+       19
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 94,
+      "v": [
+       19
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps123-1",
+    "fr": "J’élève mes yeux vers toi, ô toi qui siège dans les cieux !",
+    "es": "Levanto mis ojos a Ti que habitas en los cielos.",
+    "en": "To thee have I lifted up my eyes, who dwellest in heaven.",
+    "src": {
+     "fr": "Ps 123, 1",
+     "es": "Sal 123, 1",
+     "en": "Ps 123:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 123,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 123,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 123,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps138-8",
+    "fr": "Le Seigneur achèvera ce qu’il a fait pour moi. Seigneur, ta bonté est éternelle : n’abandonne pas l’ouvrage de tes mains !",
+    "es": "El Señor acabará para mí lo que ha comenzado. Señor, tu misericordia permanece eternamente; no abandones la obra de tus manos.",
+    "en": "The Lord will repay for me: thy mercy, O Lord, endureth for ever: O despise not the works of thy hands.",
+    "src": {
+     "fr": "Ps 138, 8",
+     "es": "Sal 138, 8",
+     "en": "Ps 138:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 138,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 138,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 138,
+      "v": [
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps23-4",
+    "fr": "Même quand je marche dans une vallée d’ombre mortelle, je ne crains aucun mal, car tu es avec moi : ta houlette et ton bâton me rassurent.",
+    "es": "Aunque atraviese un valle de tinieblas, no temeré ningún mal, porque Tú vas conmigo. Tu bastón y tu cayado me infunden aliento.",
+    "en": "For though I should walk in the midst of the shadow of death, I will fear no evils, for thou art with me. Thy rod and thy staff, they have comforted me.",
+    "src": {
+     "fr": "Ps 23, 4",
+     "es": "Sal 23, 4",
+     "en": "Ps 23:4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps27-13",
+    "fr": "Ah ! si je ne croyais pas voir la bonté du Seigneur, dans la terre des vivants… Espère dans le Seigneur ! Aie courage et que ton cœur soit ferme ! Espère dans le Seigneur !",
+    "es": "¡Ah, si no creyera yo que veré los bienes del Señor en la tierra de los vivientes! ¡Aguarda al Señor y ten ánimo; aliéntese tu corazón y aguarde al Señor!",
+    "en": "I believe to see the good things of the Lord in the land of the living. Expect the Lord, do manfully, and let thy heart take courage, and wait thou for the Lord.",
+    "src": {
+     "fr": "Ps 27, 13-14",
+     "es": "Sal 27, 13-14",
+     "en": "Ps 27:13-14"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 27,
+      "v": [
+       13,
+       14
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 27,
+      "v": [
+       13,
+       14
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 27,
+      "v": [
+       13,
+       14
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps130-3",
+    "fr": "Si tu gardes le souvenir de l’iniquité, Seigneur, Seigneur, qui pourra subsister ? Mais auprès de toi est le pardon, afin qu’on te révère.",
+    "es": "Si Tú recordaras las iniquidades, oh Yah, Señor ¿quién quedaría en pie? Mas en Ti esta el perdón de los pecados, a fin de que se te venere.",
+    "en": "If thou, O Lord, wilt mark iniquities: Lord, who shall stand it. For with thee there is merciful forgiveness: and by reason of thy law, I have waited for thee, O Lord. My soul hath relied on his word.",
+    "src": {
+     "fr": "Ps 130, 3-4",
+     "es": "Sal 130, 3-4",
+     "en": "Ps 130:3-4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       3,
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       3,
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       3,
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps102-2",
+    "fr": "Le Seigneur écoute ma prière, et que mon cri arrive jusqu’à toi.",
+    "es": "Escucha, Señor, mi oración, y llegue a Ti mi clamor.",
+    "en": "Hear, O Lord, my prayer: and let my cry come to thee.",
+    "src": {
+     "fr": "Ps 102, 2",
+     "es": "Sal 102, 2",
+     "en": "Ps 102:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 102,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 102,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 102,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps39-5",
+    "fr": "Fais-moi connaître, Seigneur, quel est le terme de ma vie ; quelle est la mesure de mes jours ; que je sache combien je suis périssable.",
+    "es": "Hazme saber, Señor, cuál es mi fin, y cuál el número de mis días, para que entienda cuan caduco soy.",
+    "en": "O Lord, make me know my end. And what is the number of my days: that I may know what is wanting to me.",
+    "src": {
+     "fr": "Ps 39, 5",
+     "es": "Sal 39, 5",
+     "en": "Ps 39:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 39,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 39,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 39,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps142-6",
+    "fr": "Je crie vers toi, Seigneur, je dis : Tu es mon refuge, mon partage sur la terre des vivants !",
+    "es": "A Ti, pues, clamo, Señor, diciendo: “Mi refugio eres Tú, herencia mía en la tierra de los vivientes.",
+    "en": "I cried to thee, O Lord: I said: Thou art my hope, my portion in the land of the living.",
+    "src": {
+     "fr": "Ps 142, 6",
+     "es": "Sal 142, 6",
+     "en": "Ps 142:6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 142,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 142,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 142,
+      "v": [
+       6
+      ]
+     }
+    }
+   }
+  ],
+  "enfantJour": [
+   {
+    "id": "signe-de-croix",
+    "fr": "Au nom du Père, et du Fils, et du Saint-Esprit. Amen.",
+    "es": "En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+    "en": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+    "src": {
+     "fr": "Le signe de croix",
+     "es": "La señal de la cruz",
+     "en": "The Sign of the Cross"
+    }
+   },
+   {
+    "id": "1s3-10",
+    "fr": "Parlez, car votre serviteur écoute.",
+    "es": "Habla, tu siervo escucha.",
+    "en": "Speak, Lord, for thy servant heareth.",
+    "src": {
+     "fr": "1 S 3, 10",
+     "es": "1 Sam 3, 10",
+     "en": "1 Sm 3:10"
+    },
+    "bible": {
+     "fr": {
+      "osis": "1Sam",
+      "c": 3,
+      "v": [
+       10
+      ]
+     },
+     "es": {
+      "osis": "1Sam",
+      "c": 3,
+      "v": [
+       10
+      ]
+     },
+     "en": {
+      "osis": "1Sam",
+      "c": 3,
+      "v": [
+       10
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps118-24",
+    "fr": "Voici le jour que le Seigneur a fait ; livrons-nous à l’allégresse et à la joie.",
+    "es": "Este es el día que hizo el Señor; alegrémonos por él y celebrémoslo.",
+    "en": "This is the day which the Lord hath made: let us be glad and rejoice therein.",
+    "src": {
+     "fr": "Ps 118, 24",
+     "es": "Sal 118, 24",
+     "en": "Ps 118:24"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 118,
+      "v": [
+       24
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 118,
+      "v": [
+       24
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 118,
+      "v": [
+       24
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps136-1",
+    "fr": "Célébrez le Seigneur, car il est bon, car sa miséricorde est éternelle.",
+    "es": "¡Hallelú Yah! Alabad al Señor porque es bueno, porque su misericordia es para siempre.",
+    "en": "Alleluia. Praise the Lord, for he is good: for his mercy endureth for ever.",
+    "src": {
+     "fr": "Ps 136, 1",
+     "es": "Sal 136, 1",
+     "en": "Ps 136:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 136,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 136,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 136,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps139-14",
+    "fr": "Je te loue d’avoir fait de moi une créature si merveilleuse ; tes œuvres sont admirables, et mon âme se plaît à le reconnaître.",
+    "es": "Te alabo porque te has mostrado maravilloso, porque tus obras son admirables; largamente conoces mi alma.",
+    "en": "I will praise thee, for thou art fearfully magnified: wonderful are thy works, and my soul knoweth right well.",
+    "src": {
+     "fr": "Ps 139, 14",
+     "es": "Sal 139, 14",
+     "en": "Ps 139:14"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       14
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       14
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       14
+      ]
+     }
+    }
+   },
+   {
+    "id": "gloire-au-pere",
+    "fr": "Gloire au Père, et au Fils, et au Saint-Esprit,\ncomme il était au commencement, maintenant et toujours,\net pour les siècles des siècles. Amen.",
+    "es": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre,\npor los siglos de los siglos. Amén.",
+    "en": "Glory be to the Father, and to the Son, and to the Holy Spirit,\nas it was in the beginning, is now, and ever shall be,\nworld without end. Amen.",
+    "src": {
+     "fr": "Gloire au Père",
+     "es": "Gloria",
+     "en": "Glory Be"
+    }
+   },
+   {
+    "id": "ps150-6",
+    "fr": "Que tout ce qui respire loue le Seigneur ! Alleluia.",
+    "es": "¡Todo lo que respira alabe al Señor! ¡Hallelú Yah!",
+    "en": "Let every spirit praise the Lord. Alleluia.",
+    "src": {
+     "fr": "Ps 150, 6",
+     "es": "Sal 150, 6",
+     "en": "Ps 150:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 150,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 150,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 150,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps23-1",
+    "fr": "Le Seigneur est mon pasteur ; je ne manquerai de rien.",
+    "es": "El Señor es mi pastor, nada me faltará.",
+    "en": "The Lord ruleth me: and I shall want nothing.",
+    "src": {
+     "fr": "Ps 23, 1",
+     "es": "Sal 23, 1",
+     "en": "Ps 23:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps121-2",
+    "fr": "Mon secours viendra du Seigneur, qui a fait le ciel et la terre.",
+    "es": "Mi socorro viene del Señor que creó el cielo y la tierra.",
+    "en": "My help is from the Lord, who made heaven and earth.",
+    "src": {
+     "fr": "Ps 121, 2",
+     "es": "Sal 121, 2",
+     "en": "Ps 121:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "jn21-17",
+    "fr": "Seigneur, vous connaissez toutes choses, vous savez bien que je vous aime.",
+    "es": "Señor, Tú lo sabes todo. Tú sabes que yo te quiero.",
+    "en": "Lord, thou knowest all things: thou knowest that I love thee.",
+    "src": {
+     "fr": "Jn 21, 17",
+     "es": "Jn 21, 17",
+     "en": "Jn 21:17"
+    },
+    "bible": {
+     "fr": {
+      "osis": "John",
+      "c": 21,
+      "v": [
+       17
+      ]
+     },
+     "es": {
+      "osis": "John",
+      "c": 21,
+      "v": [
+       17
+      ]
+     },
+     "en": {
+      "osis": "John",
+      "c": 21,
+      "v": [
+       17
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps8-2",
+    "fr": "Seigneur, notre Seigneur, que ton nom est glorieux sur toute la terre ! Toi qui as revêtu les cieux de ta majesté !",
+    "es": "¡Oh Señor, Señor nuestro, cuán admirable es tu Nombre en toda la tierra! Tú, cuya gloria cantan los cielos.",
+    "en": "O Lord, our Lord, how admirable is thy name in the whole earth! For thy magnificence is elevated above the heavens.",
+    "src": {
+     "fr": "Ps 8, 2",
+     "es": "Sal 8, 2",
+     "en": "Ps 8:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 8,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 8,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 8,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps100-2",
+    "fr": "Servez le Seigneur avec joie, venez en sa présence avec allégresse !",
+    "es": "Aclamad al Señor, tierras todas, servid al Señor con alegría, llegaos a su presencia con exultación.",
+    "en": "Sing joyfully to God, all the earth: serve ye the Lord with gladness. Come in before his presence with exceeding great joy.",
+    "src": {
+     "fr": "Ps 100, 2",
+     "es": "Sal 100, 2",
+     "en": "Ps 100:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 100,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 100,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 100,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "je-vous-salue-marie",
+    "fr": "Je vous salue, Marie, pleine de grâce ;\nle Seigneur est avec vous.\nVous êtes bénie entre toutes les femmes,\net Jésus, le fruit de vos entrailles, est béni.\nSainte Marie, Mère de Dieu,\npriez pour nous, pauvres pécheurs,\nmaintenant et à l'heure de notre mort. Amen.",
+    "es": "Dios te salve, María, llena eres de gracia;\nel Señor es contigo.\nBendita tú eres entre todas las mujeres,\ny bendito es el fruto de tu vientre, Jesús.\nSanta María, Madre de Dios,\nruega por nosotros, pecadores,\nahora y en la hora de nuestra muerte. Amén.",
+    "en": "Hail Mary, full of grace, the Lord is with thee.\nBlessed art thou among women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death. Amen.",
+    "src": {
+     "fr": "Je vous salue Marie",
+     "es": "Avemaría",
+     "en": "Hail Mary"
+    }
+   },
+   {
+    "id": "ps34-2",
+    "fr": "Je veux bénir le Seigneur en tout temps ; sa louange sera toujours dans ma bouche.",
+    "es": "Quiero bendecir al Señor en todo tiempo, tener siempre en mi boca su alabanza.",
+    "en": "I will bless the Lord at all times, his praise shall be always in my mouth.",
+    "src": {
+     "fr": "Ps 34, 2",
+     "es": "Sal 34, 2",
+     "en": "Ps 34:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 34,
+      "v": [
+       2
+      ]
+     }
+    }
+   }
+  ],
+  "enfantSoir": [
+   {
+    "id": "ange-de-dieu",
+    "fr": "Ange de Dieu, qui êtes mon gardien,\net à qui j'ai été confié par la bonté divine,\néclairez-moi, protégez-moi,\ndirigez-moi et gouvernez-moi. Amen.",
+    "es": "Ángel de la guarda, dulce compañía,\nno me desampares ni de noche ni de día. Amén.",
+    "en": "Angel of God, my guardian dear,\nto whom God's love commits me here,\never this day be at my side,\nto light and guard, to rule and guide. Amen.",
+    "src": {
+     "fr": "Prière à l'ange gardien",
+     "es": "Oración al ángel de la guarda",
+     "en": "Prayer to the guardian angel"
+    }
+   },
+   {
+    "id": "ps4-9",
+    "fr": "En paix je me coucherai et je m’endormirai aussitôt ; car toi, Seigneur, toi seul, tu me fais habiter dans la sécurité.",
+    "es": "Apenas me acuesto, me duermo en paz, porque Tú me das seguridad, oh Señor.",
+    "en": "In peace in the self same I will sleep, and I will rest.",
+    "src": {
+     "fr": "Ps 4, 9",
+     "es": "Sal 4, 9",
+     "en": "Ps 4:9"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 4,
+      "v": [
+       9
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 4,
+      "v": [
+       9
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 4,
+      "v": [
+       9
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps3-6",
+    "fr": "Je me suis couché et me suis endormi ; je me suis réveillé, car le Seigneur est mon soutien.",
+    "es": "Me acuesto y me duermo, y despierto incólume, porque el Señor me sostiene.",
+    "en": "I have slept and have taken my rest: and I have risen up, because the Lord hath protected me.",
+    "src": {
+     "fr": "Ps 3, 6",
+     "es": "Sal 3, 6",
+     "en": "Ps 3:6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 3,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 3,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 3,
+      "v": [
+       6
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps17-8",
+    "fr": "Garde-moi comme la prunelle de l’œil ; à l’ombre de tes ailes mets-moi à couvert.",
+    "es": "Cuídame como a la niña de tus ojos, escóndeme bajo la sombra de tus alas.",
+    "en": "Keep me, as the apple of thy eye. Protect me under the shadow of thy wings.",
+    "src": {
+     "fr": "Ps 17, 8",
+     "es": "Sal 17, 8",
+     "en": "Ps 17:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 17,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 17,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 17,
+      "v": [
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "notre-pere",
+    "fr": "Notre Père, qui es aux cieux,\nque ton nom soit sanctifié,\nque ton règne vienne,\nque ta volonté soit faite sur la terre comme au ciel.\nDonne-nous aujourd'hui notre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi à ceux qui nous ont offensés.\nEt ne nous laisse pas entrer en tentation,\nmais délivre-nous du Mal. Amen.",
+    "es": "Padre nuestro, que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad en la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos a los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal. Amén.",
+    "en": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come,\nthy will be done on earth as it is in heaven.\nGive us this day our daily bread,\nand forgive us our trespasses,\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil. Amen.",
+    "src": {
+     "fr": "Notre Père (Mt 6, 9-13)",
+     "es": "Padrenuestro (Mt 6, 9-13)",
+     "en": "The Our Father (Mt 6:9-13)"
+    }
+   },
+   {
+    "id": "ps121-8",
+    "fr": "Le Seigneur gardera ton départ et ton arrivée maintenant et à jamais.",
+    "es": "El Señor custodiará tu salida y tu llegada, ahora y para siempre.",
+    "en": "May the Lord keep thy coming in and thy going out; from henceforth now and for ever.",
+    "src": {
+     "fr": "Ps 121, 8",
+     "es": "Sal 121, 8",
+     "en": "Ps 121:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 121,
+      "v": [
+       8
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps56-4",
+    "fr": "Quand je suis dans la crainte, je me confie en toi.",
+    "es": "El día en que me invada el temor, confiaré en Ti.",
+    "en": "I will trust in thee.",
+    "src": {
+     "fr": "Ps 56, 4",
+     "es": "Sal 56, 4",
+     "en": "Ps 56:4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 56,
+      "v": [
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 56,
+      "v": [
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 56,
+      "v": [
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "lc24-29",
+    "fr": "Reste avec nous, car il se fait tard, et déjà le jour baisse.",
+    "es": "Quédate con nosotros, porque es tarde, y ya ha declinado el día.",
+    "en": "Stay with us, because it is towards evening and the day is now far spent.",
+    "src": {
+     "fr": "Lc 24, 29",
+     "es": "Lc 24, 29",
+     "en": "Lk 24:29"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 24,
+      "v": [
+       29
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 24,
+      "v": [
+       29
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 24,
+      "v": [
+       29
+      ]
+     }
+    }
+   },
+   {
+    "id": "je-vous-salue-marie",
+    "fr": "Je vous salue, Marie, pleine de grâce ;\nle Seigneur est avec vous.\nVous êtes bénie entre toutes les femmes,\net Jésus, le fruit de vos entrailles, est béni.\nSainte Marie, Mère de Dieu,\npriez pour nous, pauvres pécheurs,\nmaintenant et à l'heure de notre mort. Amen.",
+    "es": "Dios te salve, María, llena eres de gracia;\nel Señor es contigo.\nBendita tú eres entre todas las mujeres,\ny bendito es el fruto de tu vientre, Jesús.\nSanta María, Madre de Dios,\nruega por nosotros, pecadores,\nahora y en la hora de nuestra muerte. Amén.",
+    "en": "Hail Mary, full of grace, the Lord is with thee.\nBlessed art thou among women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death. Amen.",
+    "src": {
+     "fr": "Je vous salue Marie",
+     "es": "Avemaría",
+     "en": "Hail Mary"
+    }
+   },
+   {
+    "id": "ps91-11",
+    "fr": "Car il ordonnera à ses anges de te garder dans toutes tes voies.",
+    "es": "Pues Él te ha encomendado a sus ángeles, para que te guarden en todos tus caminos.",
+    "en": "For he hath given his angels charge over thee; to keep thee in all thy ways.",
+    "src": {
+     "fr": "Ps 91, 11",
+     "es": "Sal 91, 11",
+     "en": "Ps 91:11"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 91,
+      "v": [
+       11
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 91,
+      "v": [
+       11
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 91,
+      "v": [
+       11
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "celebrations": {
+  "toussaint": {
+   "jour": {
+    "id": "litanie-saints",
+    "fr": "Vous tous, saints et saintes de Dieu, priez pour nous.",
+    "es": "Santos y santas de Dios, rogad por nosotros.",
+    "en": "All you holy men and women, saints of God, pray for us.",
+    "src": {
+     "fr": "Litanie des saints",
+     "es": "Letanías de los santos",
+     "en": "Litany of the Saints"
+    }
+   },
+   "soir": {
+    "id": "ps16-11",
+    "fr": "Tu me feras connaître le sentier de la vie ; il y a plénitude de joie devant ta face, des délices éternelles dans ta droite.",
+    "es": "Tú me harás conocer la senda de la vida, la plenitud del gozo a la vista de tu rostro, las eternas delicias de tu diestra.",
+    "en": "Thou hast made known to me the ways of life, thou shalt fill me with joy with thy countenance: at thy right hand are delights even to the end.",
+    "src": {
+     "fr": "Ps 16, 11",
+     "es": "Sal 16, 11",
+     "en": "Ps 16:11"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     }
+    }
+   },
+   "enfantJour": {
+    "id": "litanie-saints",
+    "fr": "Vous tous, saints et saintes de Dieu, priez pour nous.",
+    "es": "Santos y santas de Dios, rogad por nosotros.",
+    "en": "All you holy men and women, saints of God, pray for us.",
+    "src": {
+     "fr": "Litanie des saints",
+     "es": "Letanías de los santos",
+     "en": "Litany of the Saints"
+    }
+   },
+   "enfantSoir": {
+    "id": "mt5-8",
+    "fr": "Heureux ceux qui ont le cœur pur, car ils verront Dieu !",
+    "es": "Bienaventurados los de corazón puro, porque verán a Dios.",
+    "en": "Blessed are the clean of heart: they shall see God.",
+    "src": {
+     "fr": "Mt 5, 8",
+     "es": "Mt 5, 8",
+     "en": "Mt 5:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Matt",
+      "c": 5,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Matt",
+      "c": 5,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Matt",
+      "c": 5,
+      "v": [
+       8
+      ]
+     }
+    }
+   }
+  },
+  "defunts": {
+   "jour": {
+    "id": "requiem",
+    "fr": "Seigneur, donne-leur le repos éternel,\net que brille sur eux la lumière sans fin.\nQu'ils reposent en paix. Amen.",
+    "es": "Dales, Señor, el descanso eterno,\ny brille para ellos la luz perpetua.\nDescansen en paz. Amén.",
+    "en": "Eternal rest grant unto them, O Lord,\nand let perpetual light shine upon them.\nMay they rest in peace. Amen.",
+    "src": {
+     "fr": "Prière traditionnelle pour les défunts (Requiem æternam)",
+     "es": "Oración tradicional por los difuntos (Requiem æternam)",
+     "en": "Traditional prayer for the dead (Requiem æternam)"
+    }
+   },
+   "soir": {
+    "id": "ps130-1",
+    "fr": "Du fond de l’abîme je crie vers toi, Seigneur. Seigneur, écoute ma voix ; que tes oreilles soient attentives aux accents de ma prière !",
+    "es": "Desde lo más profundo clamo a Ti, Señor, Señor, oye mi voz. Estén tus oídos atentos al grito de mi súplica.",
+    "en": "Out of the depths I have cried to thee, O Lord: Lord, hear my voice. Let thy ears be attentive to the voice of my supplication.",
+    "src": {
+     "fr": "Ps 130, 1-2",
+     "es": "Sal 130, 1-2",
+     "en": "Ps 130:1-2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       1,
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 130,
+      "v": [
+       1,
+       2
+      ]
+     }
+    },
+    "note": {
+     "fr": "le psaume que l'Église prie pour les défunts (De profundis)",
+     "es": "el salmo que la Iglesia reza por los difuntos (De profundis)",
+     "en": "the psalm the Church prays for the dead (De profundis)"
+    }
+   },
+   "enfantJour": {
+    "id": "requiem",
+    "fr": "Seigneur, donne-leur le repos éternel,\net que brille sur eux la lumière sans fin.\nQu'ils reposent en paix. Amen.",
+    "es": "Dales, Señor, el descanso eterno,\ny brille para ellos la luz perpetua.\nDescansen en paz. Amén.",
+    "en": "Eternal rest grant unto them, O Lord,\nand let perpetual light shine upon them.\nMay they rest in peace. Amen.",
+    "src": {
+     "fr": "Prière traditionnelle pour les défunts (Requiem æternam)",
+     "es": "Oración tradicional por los difuntos (Requiem æternam)",
+     "en": "Traditional prayer for the dead (Requiem æternam)"
+    }
+   },
+   "enfantSoir": {
+    "id": "jn11-25",
+    "fr": "Je suis la résurrection et la vie ; celui qui croit en moi, fût-il mort, vivra.",
+    "es": "Yo soy la resurrección y la vida; quien cree en Mí, aunque muera, revivirá.",
+    "en": "I am the resurrection and the life: he that believeth in me, although he be dead, shall live.",
+    "src": {
+     "fr": "Jn 11, 25",
+     "es": "Jn 11, 25",
+     "en": "Jn 11:25"
+    },
+    "bible": {
+     "fr": {
+      "osis": "John",
+      "c": 11,
+      "v": [
+       25
+      ]
+     },
+     "es": {
+      "osis": "John",
+      "c": 11,
+      "v": [
+       25
+      ]
+     },
+     "en": {
+      "osis": "John",
+      "c": 11,
+      "v": [
+       25
+      ]
+     }
+    }
+   }
+  },
+  "avent-dim-1": {
+   "jour": {
+    "id": "ap22-20",
+    "fr": "Venez, Seigneur Jésus !",
+    "es": "¡ven, Señor Jesús!",
+    "en": "Come, Lord Jesus.",
+    "src": {
+     "fr": "Ap 22, 20",
+     "es": "Ap 22, 20",
+     "en": "Rv 22:20"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Rev",
+      "c": 22,
+      "v": [
+       20
+      ]
+     },
+     "es": {
+      "osis": "Rev",
+      "c": 22,
+      "v": [
+       20
+      ]
+     },
+     "en": {
+      "osis": "Rev",
+      "c": 22,
+      "v": [
+       20
+      ]
+     }
+    }
+   }
+  },
+  "immaculee-conception": {
+   "jour": {
+    "id": "lc1-28",
+    "fr": "Je vous salue, pleine de grâce ; le Seigneur est avec vous, vous êtes bénie entre les femmes.",
+    "es": "Salve, llena de gracia; el Señor es contigo.",
+    "en": "Hail, full of grace, the Lord is with thee: blessed art thou among women.",
+    "src": {
+     "fr": "Lc 1, 28",
+     "es": "Lc 1, 28",
+     "en": "Lk 1:28"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       28
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       28
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 1,
+      "v": [
+       28
+      ]
+     }
+    }
+   }
+  },
+  "avent-1224": {
+   "soir": {
+    "id": "lc2-14",
+    "fr": "Gloire, dans les hauteurs, à Dieu ! Et, sur la terre, paix aux hommes, Objet de la bienveillance divine !",
+    "es": "Gloria a Dios en las alturas, y en la tierra paz entre los hombres (objeto) de la buena voluntad.",
+    "en": "And on earth peace to men of good will.",
+    "src": {
+     "fr": "Lc 2, 14",
+     "es": "Lc 2, 14",
+     "en": "Lk 2:14"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       14
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       14
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       14
+      ]
+     }
+    }
+   }
+  },
+  "noel": {
+   "jour": {
+    "id": "lc2-14",
+    "fr": "Gloire, dans les hauteurs, à Dieu ! Et, sur la terre, paix aux hommes, Objet de la bienveillance divine !",
+    "es": "Gloria a Dios en las alturas, y en la tierra paz entre los hombres (objeto) de la buena voluntad.",
+    "en": "And on earth peace to men of good will.",
+    "src": {
+     "fr": "Lc 2, 14",
+     "es": "Lc 2, 14",
+     "en": "Lk 2:14"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       14
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       14
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       14
+      ]
+     }
+    }
+   },
+   "soir": {
+    "id": "lc2-29",
+    "fr": "Maintenant, ô Maître, vous laissez partir votre serviteur En paix, selon votre parole ; Puisque mes yeux ont vu votre salut, Que vous avez préparé à la face de tous les peuples : Lumière qui doit dissiper les ténèbres des Nations Et gloire d’Israël, votre peuple.",
+    "es": "Ahora, Señor, despides a tu siervo en paz, según tu palabra, porque han visto mis ojos tu salvación, que preparaste a la faz de todos los pueblos. Luz para revelarse a los gentiles, y para gloria de Israel, tu pueblo.",
+    "en": "Now thou dost dismiss thy servant, O Lord, according to thy word in peace: Because my eyes have seen thy salvation, Which thou hast prepared before the face of all peoples: A light to the revelation of the Gentiles and the glory of thy people Israel.",
+    "src": {
+     "fr": "Lc 2, 29-32",
+     "es": "Lc 2, 29-32",
+     "en": "Lk 2:29-32"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       29,
+       30,
+       31,
+       32
+      ]
+     },
+     "es": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       29,
+       30,
+       31,
+       32
+      ]
+     },
+     "en": {
+      "osis": "Luke",
+      "c": 2,
+      "v": [
+       29,
+       30,
+       31,
+       32
+      ]
+     }
+    }
+   }
+  }
+ },
+ "reflexions": {
+  "toussaint": {
+   "id": "ps39-5",
+   "fr": "Fais-moi connaître, Seigneur, quel est le terme de ma vie ; quelle est la mesure de mes jours ; que je sache combien je suis périssable.",
+   "es": "Hazme saber, Señor, cuál es mi fin, y cuál el número de mis días, para que entienda cuan caduco soy.",
+   "en": "O Lord, make me know my end. And what is the number of my days: that I may know what is wanting to me.",
+   "src": {
+    "fr": "Ps 39, 5",
+    "es": "Sal 39, 5",
+    "en": "Ps 39:5"
+   },
+   "bible": {
+    "fr": {
+     "osis": "Ps",
+     "c": 39,
+     "v": [
+      5
+     ]
+    },
+    "es": {
+     "osis": "Ps",
+     "c": 39,
+     "v": [
+      5
+     ]
+    },
+    "en": {
+     "osis": "Ps",
+     "c": 39,
+     "v": [
+      5
+     ]
+    }
+   }
+  },
+  "defunts": {
+   "id": "ps23-4",
+   "fr": "Même quand je marche dans une vallée d’ombre mortelle, je ne crains aucun mal, car tu es avec moi : ta houlette et ton bâton me rassurent.",
+   "es": "Aunque atraviese un valle de tinieblas, no temeré ningún mal, porque Tú vas conmigo. Tu bastón y tu cayado me infunden aliento.",
+   "en": "For though I should walk in the midst of the shadow of death, I will fear no evils, for thou art with me. Thy rod and thy staff, they have comforted me.",
+   "src": {
+    "fr": "Ps 23, 4",
+    "es": "Sal 23, 4",
+    "en": "Ps 23:4"
+   },
+   "bible": {
+    "fr": {
+     "osis": "Ps",
+     "c": 23,
+     "v": [
+      4
+     ]
+    },
+    "es": {
+     "osis": "Ps",
+     "c": 23,
+     "v": [
+      4
+     ]
+    },
+    "en": {
+     "osis": "Ps",
+     "c": 23,
+     "v": [
+      4
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,217 @@
+"""
+Ora — prières du jour et du soir, pour les adultes et pour les enfants.
+Règle absolue : aucune prière n'est inventée. Deux sources seulement :
+  1. des prières de la Bible (psaumes, cantiques, paroles adressées à Dieu), dont le texte est lu
+     dans la Bible de chaque langue (Crampon, Straubinger, Douay-Rheims) ;
+  2. des prières de la tradition de l'Église, dans leurs versions en usage en France, en Espagne
+     et aux États-Unis.
+Dans les prières, le nom divin « Yahweh / Yahvé » est remplacé par « le Seigneur / el Señor »,
+comme le demande la Congrégation pour le culte divin (lettre du 29 juin 2008).
+"""
+import json, re
+
+import os
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
+BIBLES = {l: {b['osis']: b for b in json.load(open(f'{DATA}/{f}'))['livres']} for l, f in (('fr', 'bible.json'), ('es', 'bible-es.json'), ('en', 'bible-en.json'))}
+
+TRAD = {
+    'litanie-saints': {'fr': 'Vous tous, saints et saintes de Dieu, priez pour nous.', 'es': 'Santos y santas de Dios, rogad por nosotros.',
+                       'en': 'All you holy men and women, saints of God, pray for us.', 'src': {'fr': 'Litanie des saints', 'es': 'Letanías de los santos', 'en': 'Litany of the Saints'}},
+    'requiem': {'fr': 'Seigneur, donne-leur le repos éternel,\net que brille sur eux la lumière sans fin.\nQu\'ils reposent en paix. Amen.',
+                'es': 'Dales, Señor, el descanso eterno,\ny brille para ellos la luz perpetua.\nDescansen en paz. Amén.',
+                'en': 'Eternal rest grant unto them, O Lord,\nand let perpetual light shine upon them.\nMay they rest in peace. Amen.',
+                'src': {'fr': 'Prière traditionnelle pour les défunts (Requiem æternam)', 'es': 'Oración tradicional por los difuntos (Requiem æternam)', 'en': 'Traditional prayer for the dead (Requiem æternam)'}},
+    'signe-de-croix': {'fr': 'Au nom du Père, et du Fils, et du Saint-Esprit. Amen.', 'es': 'En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.',
+                       'en': 'In the name of the Father, and of the Son, and of the Holy Spirit. Amen.', 'src': {'fr': 'Le signe de croix', 'es': 'La señal de la cruz', 'en': 'The Sign of the Cross'}},
+    'gloire-au-pere': {'fr': 'Gloire au Père, et au Fils, et au Saint-Esprit,\ncomme il était au commencement, maintenant et toujours,\net pour les siècles des siècles. Amen.',
+                       'es': 'Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre,\npor los siglos de los siglos. Amén.',
+                       'en': 'Glory be to the Father, and to the Son, and to the Holy Spirit,\nas it was in the beginning, is now, and ever shall be,\nworld without end. Amen.', 'src': {'fr': 'Gloire au Père', 'es': 'Gloria', 'en': 'Glory Be'}},
+    'je-vous-salue-marie': {'fr': 'Je vous salue, Marie, pleine de grâce ;\nle Seigneur est avec vous.\nVous êtes bénie entre toutes les femmes,\net Jésus, le fruit de vos entrailles, est béni.\nSainte Marie, Mère de Dieu,\npriez pour nous, pauvres pécheurs,\nmaintenant et à l\'heure de notre mort. Amen.',
+                            'es': 'Dios te salve, María, llena eres de gracia;\nel Señor es contigo.\nBendita tú eres entre todas las mujeres,\ny bendito es el fruto de tu vientre, Jesús.\nSanta María, Madre de Dios,\nruega por nosotros, pecadores,\nahora y en la hora de nuestra muerte. Amén.',
+                            'en': 'Hail Mary, full of grace, the Lord is with thee.\nBlessed art thou among women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death. Amen.', 'src': {'fr': 'Je vous salue Marie', 'es': 'Avemaría', 'en': 'Hail Mary'}},
+    'ange-de-dieu': {'fr': 'Ange de Dieu, qui êtes mon gardien,\net à qui j\'ai été confié par la bonté divine,\néclairez-moi, protégez-moi,\ndirigez-moi et gouvernez-moi. Amen.',
+                     'es': 'Ángel de la guarda, dulce compañía,\nno me desampares ni de noche ni de día. Amén.',
+                     'en': 'Angel of God, my guardian dear,\nto whom God\'s love commits me here,\never this day be at my side,\nto light and guard, to rule and guide. Amen.', 'src': {'fr': 'Prière à l\'ange gardien', 'es': 'Oración al ángel de la guarda', 'en': 'Prayer to the guardian angel'}},
+    'notre-pere': {'fr': 'Notre Père, qui es aux cieux,\nque ton nom soit sanctifié,\nque ton règne vienne,\nque ta volonté soit faite sur la terre comme au ciel.\nDonne-nous aujourd\'hui notre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi à ceux qui nous ont offensés.\nEt ne nous laisse pas entrer en tentation,\nmais délivre-nous du Mal. Amen.',
+                   'es': 'Padre nuestro, que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad en la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos a los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal. Amén.',
+                   'en': 'Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come,\nthy will be done on earth as it is in heaven.\nGive us this day our daily bread,\nand forgive us our trespasses,\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil. Amen.', 'src': {'fr': 'Notre Père (Mt 6, 9-13)', 'es': 'Padrenuestro (Mt 6, 9-13)', 'en': 'The Our Father (Mt 6:9-13)'}},
+}
+
+# Prières bibliques : (identifiant, livre OSIS, chapitre, versets). Numérotation de la Bible française
+# (hébraïque pour les psaumes) ; pour les autres langues, la correspondance est donnée à part si elle diffère.
+MATIN = [
+    ('ps70-2', 'Ps', 70, [2]), ('ps51-17', 'Ps', 51, [17]), ('ps5-4', 'Ps', 5, [4]), ('ps63-2', 'Ps', 63, [2]), ('ps25-4', 'Ps', 25, [4, 5]),
+    ('ps51-12', 'Ps', 51, [12]), ('ps86-11', 'Ps', 86, [11]), ('ps90-14', 'Ps', 90, [14]), ('ps143-8', 'Ps', 143, [8]), ('ps119-105', 'Ps', 119, [105]),
+    ('ps16-11', 'Ps', 16, [11]), ('ps27-1', 'Ps', 27, [1]), ('ps19-15', 'Ps', 19, [15]), ('ps139-23', 'Ps', 139, [23, 24]), ('ps145-1', 'Ps', 145, [1, 2]),
+    ('ps92-2', 'Ps', 92, [2, 3]), ('ps59-17', 'Ps', 59, [17]), ('ps18-2', 'Ps', 18, [2, 3]), ('ps23-1', 'Ps', 23, [1]), ('ps62-2', 'Ps', 62, [2, 3]),
+    ('ps73-25', 'Ps', 73, [25, 26]), ('ps84-2', 'Ps', 84, [2, 3]), ('ps103-1', 'Ps', 103, [1, 2]), ('ps104-1', 'Ps', 104, [1]), ('ps113-1', 'Ps', 113, [1, 2, 3]),
+    ('ps117', 'Ps', 117, [1, 2]), ('ps146-2', 'Ps', 146, [2]), ('ps150-6', 'Ps', 150, [6]), ('ps8-2', 'Ps', 8, [2]),
+    ('ps33-22', 'Ps', 33, [22]), ('ps34-2', 'Ps', 34, [2]), ('ps36-6', 'Ps', 36, [6]), ('ps42-2', 'Ps', 42, [2, 3]), ('ps61-2', 'Ps', 61, [2, 3]),
+    ('ps67-2', 'Ps', 67, [2]), ('ps85-8', 'Ps', 85, [8]), ('ps89-2', 'Ps', 89, [2]), ('ps95-1', 'Ps', 95, [1]), ('ps100-1', 'Ps', 100, [1, 2]),
+    ('ps116-1', 'Ps', 116, [1, 2]), ('ps119-18', 'Ps', 119, [18]), ('ps121-1', 'Ps', 121, [1, 2]), ('ps122-1', 'Ps', 122, [1]), ('ps131-1', 'Ps', 131, [1, 2]),
+    ('ps139-1', 'Ps', 139, [1, 2, 3]), ('ps141-3', 'Ps', 141, [3]), ('ps148-1', 'Ps', 148, [1]), ('ps57-8', 'Ps', 57, [8, 9]), ('ps31-4', 'Ps', 31, [4]),
+    ('lc1-46', 'Luke', 1, [46, 47]), ('1s3-10', '1Sam', 3, [10]), ('mc9-24', 'Mark', 9, [24]), ('lc17-5', 'Luke', 17, [5]), ('jn6-68', 'John', 6, [68, 69]),
+    ('jn20-28', 'John', 20, [28]), ('lc11-1', 'Luke', 11, [1]), ('is6-8', 'Isa', 6, [8]), ('jr17-14', 'Jer', 17, [14]), ('lc1-38', 'Luke', 1, [38]),
+    ('ps40-9', 'Ps', 40, [9]), ('ps71-1', 'Ps', 71, [1]), ('ps86-5', 'Ps', 86, [5]), ('ps108-2', 'Ps', 108, [2]), ('ps136-1', 'Ps', 136, [1]),
+]
+SOIR = [
+    ('ps4-9', 'Ps', 4, [9]), ('ps141-2', 'Ps', 141, [2]), ('ps31-6', 'Ps', 31, [6]), ('ps91-1', 'Ps', 91, [1, 2]), ('ps16-1', 'Ps', 16, [1]),
+    ('ps17-8', 'Ps', 17, [8]), ('ps63-7', 'Ps', 63, [7, 8]), ('ps119-55', 'Ps', 119, [55]), ('ps121-7', 'Ps', 121, [7, 8]), ('ps134', 'Ps', 134, [1, 2]),
+    ('ps3-6', 'Ps', 3, [6]), ('ps51-3', 'Ps', 51, [3, 4]),
+    ('ps86-1', 'Ps', 86, [1, 2]), ('ps88-2', 'Ps', 88, [2, 3]), ('ps103-13', 'Ps', 103, [13]), ('ps116-7', 'Ps', 116, [7]), ('ps130-1', 'Ps', 130, [1, 2]),
+    ('ps130-5', 'Ps', 130, [5, 6]), ('ps131-2', 'Ps', 131, [2]), ('ps143-1', 'Ps', 143, [1]), ('ps143-10', 'Ps', 143, [10]), ('ps145-18', 'Ps', 145, [18]),
+    ('ps147-3', 'Ps', 147, [3]), ('lc2-29', 'Luke', 2, [29, 30, 31, 32]), ('lc23-46', 'Luke', 23, [46]), ('lc24-29', 'Luke', 24, [29]), ('lc23-42', 'Luke', 23, [42]),
+    ('lc18-13', 'Luke', 18, [13]), ('jn21-17', 'John', 21, [17]), ('ps25-6', 'Ps', 25, [6, 7]), ('ps32-5', 'Ps', 32, [5]), ('ps34-19', 'Ps', 34, [19]),
+    ('ps38-22', 'Ps', 38, [22, 23]), ('ps40-18', 'Ps', 40, [18]), ('ps57-2', 'Ps', 57, [2]), ('ps61-5', 'Ps', 61, [5]), ('ps62-6', 'Ps', 62, [6]),
+    ('ps119-76', 'Ps', 119, [76]), ('ps119-148', 'Ps', 119, [148]), ('ps6-3', 'Ps', 6, [3]), ('ps13-4', 'Ps', 13, [4]),
+    ('ps25-16', 'Ps', 25, [16]), ('ps28-7', 'Ps', 28, [7]), ('ps31-15', 'Ps', 31, [15, 16]), ('ps37-5', 'Ps', 37, [5]), ('ps55-23', 'Ps', 55, [23]),
+    ('ps56-4', 'Ps', 56, [4]), ('ps94-19', 'Ps', 94, [19]), ('ps123-1', 'Ps', 123, [1]), ('ps138-8', 'Ps', 138, [8]), ('ps23-4', 'Ps', 23, [4]),
+    ('ps27-13', 'Ps', 27, [13, 14]), ('ps130-3', 'Ps', 130, [3, 4]), ('ps102-2', 'Ps', 102, [2]), ('ps39-5', 'Ps', 39, [5]), ('ps142-6', 'Ps', 142, [6]),
+]
+ENFANT_MATIN = [('signe-de-croix',), ('1s3-10', '1Sam', 3, [10]), ('ps118-24', 'Ps', 118, [24]), ('ps136-1', 'Ps', 136, [1]), ('ps139-14', 'Ps', 139, [14]),
+                ('gloire-au-pere',), ('ps150-6', 'Ps', 150, [6]), ('ps23-1', 'Ps', 23, [1]), ('ps121-2', 'Ps', 121, [2]), ('jn21-17', 'John', 21, [17]),
+                ('ps8-2', 'Ps', 8, [2]), ('ps100-2', 'Ps', 100, [2]), ('je-vous-salue-marie',), ('ps34-2', 'Ps', 34, [2])]
+ENFANT_SOIR = [('ange-de-dieu',), ('ps4-9', 'Ps', 4, [9]), ('ps3-6', 'Ps', 3, [6]), ('ps17-8', 'Ps', 17, [8]), ('notre-pere',), ('ps121-8', 'Ps', 121, [8]),
+               ('ps56-4', 'Ps', 56, [4]), ('lc24-29', 'Luke', 24, [29]), ('je-vous-salue-marie',), ('ps91-11', 'Ps', 91, [11])]
+
+# Célébrations : prières choisies pour la fête, rangées par clé liturgique (celles que calcule OraLiturgie.jour()).
+CELEBRATIONS = {
+    'toussaint': {'jour': ('litanie-saints',), 'soir': ('ps16-11', 'Ps', 16, [11]),
+                  'enfantJour': ('litanie-saints',), 'enfantSoir': ('mt5-8', 'Matt', 5, [8])},
+    'defunts': {'jour': ('requiem',), 'soir': ('ps130-1', 'Ps', 130, [1, 2]),
+                'enfantJour': ('requiem',), 'enfantSoir': ('jn11-25', 'John', 11, [25])},
+    'avent-dim-1': {'jour': ('ap22-20', 'Rev', 22, [20])},          # 1er dimanche de l'Avent : Viens, Seigneur Jésus
+    'immaculee-conception': {'jour': ('lc1-28', 'Luke', 1, [28])},
+    'avent-1224': {'soir': ('lc2-14', 'Luke', 2, [14])},            # veille de Noël
+    'noel': {'jour': ('lc2-14', 'Luke', 2, [14]), 'soir': ('lc2-29', 'Luke', 2, [29, 30, 31, 32])},
+}
+
+# Pourquoi cette prière ce jour-là, quand ce n'est pas évident.
+NOTES = {
+    'defunts': {'soir': {'fr': "le psaume que l'Église prie pour les défunts (De profundis)", 'es': 'el salmo que la Iglesia reza por los difuntos (De profundis)', 'en': 'the psalm the Church prays for the dead (De profundis)'}},
+}
+
+# Ajustements par langue (versets décalés, titres de psaumes, paroles extraites d'un récit).
+# Clé : (identifiant, langue) -> {'v': versets, 'de': début, 'a': fin (exclue)}
+AJUST = {
+    ('jn11-25', 'fr'): {'de': 'Je suis la résurrection'}, ('jn11-25', 'es'): {'de': 'Yo soy la resurrección'}, ('jn11-25', 'en'): {'de': 'I am the resurrection'},
+    ('ps5-4', 'es'): {'de': 'Desde la mañana'}, ('ps5-4', 'en'): {'de': 'O Lord, in the morning'},
+    ('ps25-4', 'en'): {'v': [5, 6], 'de': 'Shew'}, ('ps27-1', 'en'): {'de': 'The Lord is my light'},
+    ('ps71-1', 'en'): {'de': 'In thee, O Lord'}, ('ps91-1', 'en'): {'de': 'He that dwelleth'},
+    ('ps17-8', 'en'): {'de': 'keep me'}, ('ps150-6', 'en'): {'v': [5], 'de': 'let every spirit'},
+    ('ps150-6', 'es'): {'v': [6]}, ('ps90-12', 'en'): {'de': 'So make'}, ('ps56-4', 'en'): {'de': 'I will trust'},
+    ('ps39-5', 'en'): {'de': 'O Lord, make me know'}, ('ps131-2', 'en'): {'de': 'As a child'},
+    ('mc9-24', 'fr'): {'v': [23]}, ('jn6-68', 'en'): {'de': 'Lord, to whom'},
+    ('lc1-38', 'en'): {'a': 'And the angel'}, ('lc23-46', 'en'): {'a': 'And saying'}, ('lc24-29', 'en'): {'a': 'And he went'},
+    ('jn21-17', 'fr'): {'de': 'Seigneur, vous connaissez', 'a': 'Jésus lui dit'}, ('lc18-13', 'fr'): {'de': 'Ô Dieu'},
+    ('lc2-29', 'en'): {'de': 'Now thou dost dismiss'}, ('jn21-17', 'es'): {'de': 'Señor, Tú lo sabes', 'a': '”. Díjole'},
+    ('jn21-17', 'en'): {'de': 'Lord, thou knowest', 'a': 'He said'},
+    ('ap22-20', 'fr'): {'de': 'Venez'}, ('ap22-20', 'es'): {'de': 'ven, Señor'}, ('ap22-20', 'en'): {'de': 'Come, Lord'},
+}
+# Prières tirées d'un récit : on ne garde que les paroles adressées à Dieu.
+CITATION = {'1s3-10', 'mc9-24', 'lc17-5', 'jn6-68', 'jn20-28', 'lc11-1', 'is6-8', 'lc1-38', 'lc1-46', 'lc23-46', 'lc24-29', 'lc23-42', 'lc18-13', 'lc1-28', 'lc2-14', 'lc2-29'}
+
+TITRES = [r"^(?:Cantique (?:des|pour les) montées\.\s*)?(?:De David\.\s*)?", r"^Au maître de chant\.\s*", r"^(?:Psaume|Hymne|Prière|Chant de louange)[^.]*\.\s*(?:De David\.\s*)?",
+          r"^(?:Cántico gradual\.\s*)?(?:De David\.\s*)?", r"^Al maestro de coro\.\s*", r"^(?:Salmo|Oración|Alabanza)[^.]*\.\s*(?:De David\.\s*)?",
+          r"^(?:A gradual canticle[^.]*\.\s*)", r"^(?:Unto the end,? )?(?:a |A )?(?:psalm|prayer|canticle)[^.]*\.\s*", r"^(?:For David himself|Praise, for David himself)\.\s*",
+          r"^The inscription of a title to David himself\.\s*", r"^(?:ALEPH|BETH|GHIMEL|DALETH|HÉ|VAV|ZAÏN|HETH|TETH|YOD|CAPH|LAMED|MEM|NUN|SAMECH|AÏN|PHÉ|TSADÉ|QOPH|RESCH|SCHIN|THAV)\.\s*"]
+LETTRES = r"\b(?:ALEPH|BETH|GHIMEL|DALETH|HÉ|VAV|ZAÏN|HETH|TETH|YOD|CAPH|LAMED|MEM|NUN|SAMECH|AÏN|PHÉ|TSADÉ|QOPH|RESCH|SCHIN|THAV|HET)\.\s*"
+
+
+def nettoie(t, l):
+    """Nom divin : « Yahweh / Yahvé » devient « le Seigneur / el Señor » (lettre de la Congrégation pour le culte
+    divin, 29 juin 2008). D'abord les tournures avec préposition (de, à, en), puis l'apostrophe (vocatif : en début
+    de phrase ou après une ponctuation, et suivie d'une ponctuation), puis le reste."""
+    t = re.sub(r'\s*\n\s*', ' ', t).strip()
+    t = re.sub(LETTRES, '', t)
+    if l == 'fr':
+        t = re.sub(r'\s*— Séla\.?', '', t)
+        t = re.sub(r'\ben Yahweh\b', 'dans le Seigneur', t)
+        t = re.sub(r'\bde Yahweh\b', 'du Seigneur', t); t = re.sub(r'\bà Yahweh\b', 'au Seigneur', t)
+        t = re.sub(r'(^|[.!?«:;,]\s*|\bô\s+|voies\s+)Yahweh(?=( des armées)?\s*[,!;?.»])', lambda m: m.group(1) + 'Seigneur', t)  # vocatif
+        t = re.sub(r'(^|[.!?«:]\s*)Yahweh', lambda m: m.group(1) + 'Le Seigneur', t)
+        t = t.replace('Yahweh', 'le Seigneur')
+    if l == 'es':
+        t = t.replace('[', '').replace(']', '')
+        t = re.sub(r'\ben Yahvé\b', 'en el Señor', t)
+        t = re.sub(r'\bde Yahvé\b', 'del Señor', t); t = re.sub(r'\ba Yahvé\b', 'al Señor', t)
+        t = re.sub(r'(^|[.!?¡¿“:;,]\s*|\b[oO]h\s+)Yahvé(?=( de los ejércitos)?\s*[,!;?.”])', lambda m: m.group(1) + 'Señor', t)  # vocativo
+        t = re.sub(r'(^|[.!?¡¿“:]\s*)Yahvé', lambda m: m.group(1) + 'El Señor', t)
+        t = t.replace('Yahvé', 'el Señor')
+    return t.strip()
+
+
+def extrait(t, l, pid, aj):
+    if aj.get('de') and aj['de'] in t: t = t[t.index(aj['de']):]
+    elif pid in CITATION and not aj.get('de'):
+        if l == 'en':
+            if ': ' in t: t = t[t.rindex(': ') + 2:] if pid not in ('lc1-46', 'lc2-29', 'lc1-38', 'lc23-46', 'lc24-29', 'lc18-13', 'lc1-28') else t[t.index(': ') + 2:]
+        else:
+            o, f = ('«', '»') if l == 'fr' else ('“', '”')
+            if o in t: t = t[t.rindex(o) + 1:] if pid != 'lc2-29' else t[t.index(o) + 1:]
+            if f in t: t = t[:t.index(f)]
+    if aj.get('a') and aj['a'] in t: t = t[:t.index(aj['a'])]
+    t = t.strip(' «»“”"—–-').strip()
+    if t and t[-1] in ',;:': t = t[:-1] + '.'
+    if t and t[-1] not in '.!?…': t += '.'
+    if l == 'es' and t.endswith('!') and '¡' not in t: t = '¡' + t
+    if l == 'es' and t.endswith('?') and '¿' not in t: t = '¿' + t
+    return t[:1].upper() + t[1:]
+
+
+def texte_biblique(pid, osis, c, vs):
+    out = {}
+    for l, B in BIBLES.items():
+        aj = AJUST.get((pid, l), {})
+        vv = aj.get('v', vs)
+        ch = B[osis]['ch'][c - 1]
+        brut = ' '.join(ch[v - 1] for v in vv)
+        brut = re.sub(r'\s*\n\s*', ' ', brut)
+        if vv[0] == 1:
+            for r_ in TITRES: brut = re.sub(r_, '', brut)
+        out[l] = extrait(nettoie(brut, l), l, pid, aj)
+        ab = B[osis]['abr']
+        sep = ':' if l == 'en' else ', '
+        out['ref_' + l] = f"{ab} {c}{sep}{vv[0]}" + (f"-{vv[-1]}" if len(vv) > 1 else '')
+    return out
+
+
+def finition(p):
+    for l in ('fr', 'es', 'en'): p[l] = re.sub(r'[\s\u202f\u00a0]+\.$', '.', p[l])
+    return p
+
+
+def priere(spec):
+    if len(spec) == 1:
+        t = TRAD[spec[0]]
+        return finition({'id': spec[0], 'fr': t['fr'], 'es': t['es'], 'en': t['en'], 'src': t['src']})
+    pid, osis, c, vs = spec
+    t = texte_biblique(pid, osis, c, vs)
+    bible = {l: {'osis': osis, 'c': c, 'v': AJUST.get((pid, l), {}).get('v', vs)} for l in ('fr', 'es', 'en')}
+    return finition({'id': pid, 'fr': t['fr'], 'es': t['es'], 'en': t['en'], 'src': {'fr': t['ref_fr'], 'es': t['ref_es'], 'en': t['ref_en']}, 'bible': bible})
+
+
+def main():
+    """Écrit data/prieres-jour.json : des listes tournantes et des prières propres aux célébrations.
+    L'app choisit la prière d'un jour par l'index du jour dans l'année liturgique (rotation déterministe,
+    sans aucune date civile) ; une célébration listée ici a la priorité."""
+    pools = {'jour': [priere(x) for x in MATIN], 'soir': [priere(x) for x in SOIR],
+             'enfantJour': [priere(x) for x in ENFANT_MATIN], 'enfantSoir': [priere(x) for x in ENFANT_SOIR]}
+    cel = {}
+    for cle, moments in CELEBRATIONS.items():
+        cel[cle] = {k: priere(v) for k, v in moments.items()}
+        for k, note in NOTES.get(cle, {}).items():
+            cel[cle][k]['note'] = note
+    # La prière qui clôt la réflexion du jour : un verset désigné dans data/contenus.json, lu dans chaque Bible.
+    contenus = json.load(open(f'{DATA}/contenus.json'))
+    refl = {}
+    for cle, c in contenus.items():
+        if cle.startswith('_') or 'priereReflexion' not in c: continue
+        x = c['priereReflexion']
+        refl[cle] = priere((x['id'], x['osis'], x['c'], x['v']))
+    json.dump({'_note': __doc__.strip(), 'pools': pools, 'celebrations': cel, 'reflexions': refl}, open(f'{DATA}/prieres-jour.json', 'w'), ensure_ascii=False, indent=1)
+    print('prières :', {k: len(v) for k, v in pools.items()}, '; célébrations :', len(cel))
+
+
+if __name__ == '__main__':
+    main()

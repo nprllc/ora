@@ -1,0 +1,43 @@
+{
+ "_note": "Évangiles que la zone « romain » de l'AELF ne donne jamais, parce qu'ils ne servent que dans d'autres régions. Références du Lectionnaire romain (Ordo lectionum Missae, 1981), vérifiées dans le lectionnaire des États-Unis (USCCB) et le calendrier de la Conférence épiscopale espagnole.",
+ "noel-dim-2": {
+  "ref": "Jn 1, 1-18",
+  "source": "2e dimanche après Noël (là où l'Épiphanie est le 6 janvier) : Lectionnaire, n° 9"
+ },
+ "santiago": {
+  "ref": "Mt 20, 20-28",
+  "source": "Santiago apóstol, 25 de julio : même Évangile que la fête de saint Jacques"
+ },
+ "pilar": {
+  "ref": "Lc 11, 27-28",
+  "source": "Nuestra Señora del Pilar, 12 de octubre (Leccionario propio de España)"
+ },
+ "guadalupe": {
+  "ref": "Lc 1, 39-47",
+  "source": "Our Lady of Guadalupe, December 12 (USCCB Lectionary, no. 690A)"
+ },
+ "to-dim-7-B": {
+  "ref": "Mc 2, 1-12",
+  "source": "Dimanches du temps ordinaire qui ne sont pas tombés entre 2016 et 2027 (ils dépendent de la date de Pâques) : Lectionnaire dominical, tableau des Évangiles des années A, B, C (concordant avec les dimanches voisins présents dans les données de l'AELF)"
+ },
+ "to-dim-8-B": {
+  "ref": "Mc 2, 18-22",
+  "source": "Dimanches du temps ordinaire qui ne sont pas tombés entre 2016 et 2027 (ils dépendent de la date de Pâques) : Lectionnaire dominical, tableau des Évangiles des années A, B, C (concordant avec les dimanches voisins présents dans les données de l'AELF)"
+ },
+ "to-dim-9-A": {
+  "ref": "Mt 7, 21-27",
+  "source": "Dimanches du temps ordinaire qui ne sont pas tombés entre 2016 et 2027 (ils dépendent de la date de Pâques) : Lectionnaire dominical, tableau des Évangiles des années A, B, C (concordant avec les dimanches voisins présents dans les données de l'AELF)"
+ },
+ "to-dim-9-B": {
+  "ref": "Mc 2, 23 – 3, 6",
+  "source": "Dimanches du temps ordinaire qui ne sont pas tombés entre 2016 et 2027 (ils dépendent de la date de Pâques) : Lectionnaire dominical, tableau des Évangiles des années A, B, C (concordant avec les dimanches voisins présents dans les données de l'AELF)"
+ },
+ "to-dim-9-C": {
+  "ref": "Lc 7, 1-10",
+  "source": "Dimanches du temps ordinaire qui ne sont pas tombés entre 2016 et 2027 (ils dépendent de la date de Pâques) : Lectionnaire dominical, tableau des Évangiles des années A, B, C (concordant avec les dimanches voisins présents dans les données de l'AELF)"
+ },
+ "to-dim-10-A": {
+  "ref": "Mt 9, 9-13",
+  "source": "Dimanches du temps ordinaire qui ne sont pas tombés entre 2016 et 2027 (ils dépendent de la date de Pâques) : Lectionnaire dominical, tableau des Évangiles des années A, B, C (concordant avec les dimanches voisins présents dans les données de l'AELF)"
+ }
+}
