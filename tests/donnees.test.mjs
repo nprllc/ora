@@ -123,6 +123,8 @@ test('les prières du jour sont propres : guillemets équilibrés, ni parenthès
   } };
   for (const [m, liste] of Object.entries(PJ.pools)) liste.forEach((x) => verifie(x, `${m}/${x.id}`));
   for (const [k, c] of Object.entries(PJ.celebrations)) for (const [m, x] of Object.entries(c)) verifie(x, `${k}/${m}`);
+  // Pour les enfants, Dieu est tutoyé (les prières à Marie et à l'ange gardien gardent leur texte traditionnel).
+  for (const m of ['enfantJour', 'enfantSoir']) for (const x of PJ.pools[m]) if (!['je-vous-salue-marie', 'ange-de-dieu'].includes(x.id) && /\b(vous|votre|vos)\b/i.test(x.fr)) defauts.push(`${m}/${x.id} fr : « vous »`);
   assert.deepEqual(defauts, []);
 });
 

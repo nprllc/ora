@@ -4218,35 +4218,35 @@
     }
    },
    {
-    "id": "1s3-10",
-    "fr": "Parlez, car votre serviteur écoute.",
-    "es": "Habla, tu siervo escucha.",
-    "en": "Speak, Lord, for thy servant heareth.",
+    "id": "ps119-105",
+    "fr": "Ta parole est un flambeau devant mes pas, une lumière sur mon sentier.",
+    "es": "Antorcha para mis pies es tu palabra, y luz para mi senda.",
+    "en": "Thy word is a lamp to my feet, and a light to my paths.",
     "src": {
-     "fr": "1 S 3, 10",
-     "es": "1 Sam 3, 10",
-     "en": "1 Sm 3:10"
+     "fr": "Ps 119, 105",
+     "es": "Sal 119, 105",
+     "en": "Ps 119:105"
     },
     "bible": {
      "fr": {
-      "osis": "1Sam",
-      "c": 3,
+      "osis": "Ps",
+      "c": 119,
       "v": [
-       10
+       105
       ]
      },
      "es": {
-      "osis": "1Sam",
-      "c": 3,
+      "osis": "Ps",
+      "c": 119,
       "v": [
-       10
+       105
       ]
      },
      "en": {
-      "osis": "1Sam",
-      "c": 3,
+      "osis": "Ps",
+      "c": 119,
       "v": [
-       10
+       105
       ]
      }
     }
@@ -4467,35 +4467,35 @@
     }
    },
    {
-    "id": "jn21-17",
-    "fr": "Seigneur, vous connaissez toutes choses, vous savez bien que je vous aime.",
-    "es": "Señor, Tú lo sabes todo. Tú sabes que yo te quiero.",
-    "en": "Lord, thou knowest all things: thou knowest that I love thee.",
+    "id": "ps5-4",
+    "fr": "Seigneur, dès le matin, tu entends ma voix ; dès le matin, je t’offre mes vœux et j’attends.",
+    "es": "Desde la mañana va mi voz hacia Ti; temprano te presento mi oración y aguardo.",
+    "en": "O Lord, in the morning thou shalt hear my voice.",
     "src": {
-     "fr": "Jn 21, 17",
-     "es": "Jn 21, 17",
-     "en": "Jn 21:17"
+     "fr": "Ps 5, 4",
+     "es": "Sal 5, 4",
+     "en": "Ps 5:4"
     },
     "bible": {
      "fr": {
-      "osis": "John",
-      "c": 21,
+      "osis": "Ps",
+      "c": 5,
       "v": [
-       17
+       4
       ]
      },
      "es": {
-      "osis": "John",
-      "c": 21,
+      "osis": "Ps",
+      "c": 5,
       "v": [
-       17
+       4
       ]
      },
      "en": {
-      "osis": "John",
-      "c": 21,
+      "osis": "Ps",
+      "c": 5,
       "v": [
-       17
+       4
       ]
      }
     }
