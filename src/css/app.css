@@ -316,6 +316,23 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .be-nuages { position: absolute; left: 0; right: 0; top: -40px; height: 470px; opacity: .55;
   -webkit-mask-image: linear-gradient(180deg, #000 30%, transparent 78%); mask-image: linear-gradient(180deg, #000 30%, transparent 78%); }
 :root.nuit .be-nuages { opacity: .35; }
+/* Le fond remplit tout l'écran : un second ciel, retourné, au milieu, fondu en haut et en bas. */
+.be-nuages-2 { top: 30%; opacity: .42; transform: scaleX(-1);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 25%, #000 55%, transparent 85%); mask-image: linear-gradient(180deg, transparent 0%, #000 25%, #000 55%, transparent 85%); }
+:root.nuit .be-nuages-2 { opacity: .28; }
+.be-nuages-2 .couche.fond { display: none; }
+/* Le doux nuage qui balaie le texte : il monte plus vite que le texte et l'efface de bas en haut. */
+.be-balai { position: absolute; left: 0; right: 0; top: 62%; height: 0; z-index: 3; pointer-events: none; opacity: 0; }
+.be-balai > div { position: absolute; }
+.be-balai canvas { display: block; }
+#be-balai-a { left: calc(50% - 330px); top: 0; }
+#be-balai-b { left: calc(50% - 60px); top: 50px; transform: scaleX(-1); }
+.descend .be-balai { animation: be-balai 1.6s cubic-bezier(.4,0,.4,1) forwards; }
+@keyframes be-balai { 0% { opacity: 0; transform: translateY(20vh); } 25% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; transform: translateY(-75vh); } }
+.descend .be-contenu { animation: be-balaye 1.3s cubic-bezier(.4,0,.4,1) .15s forwards;
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 42%, transparent 58%, transparent 100%); mask-image: linear-gradient(180deg, #000 0%, #000 42%, transparent 58%, transparent 100%);
+  -webkit-mask-size: 100% 300%; mask-size: 100% 300%; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-position: 0 0; mask-position: 0 0; }
+@keyframes be-balaye { to { -webkit-mask-position: 0 100%; mask-position: 0 100%; filter: blur(3px); } }
 .be-nuages .couche, .be-mer .couche, .be-voile .couche { position: absolute; }
 .be-nuages canvas, .be-mer canvas, .be-voile canvas { display: block; }
 .be-etoiles { position: absolute; inset: 0; }
@@ -332,47 +349,29 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .be-commencer { font: inherit; font-size: 15px; font-weight: 500; color: var(--encre); padding: 14px 34px; border-radius: 999px; cursor: pointer;
   background: var(--verre); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border: 1px solid var(--filet); }
 
-/* Le grand nuage qui descend couvrir le texte, et le diorama de la descente : de vrais lavis, à leur taille. */
-.be-couvre, .be-diorama { position: absolute; left: 0; right: 0; pointer-events: none; z-index: 3; }
-.be-couvre { top: 0; height: 100%; transform: translateY(-110vh); }
-.be-couvre > div { position: absolute; }
-#be-couvre-a { left: calc(50% - 300px); top: 18%; }
-#be-couvre-b { left: calc(50% - 160px); top: 38%; transform: scaleX(-1); }
-#be-couvre-c { left: calc(50% - 330px); top: 2%; }
-.be-couvre::before { content: ''; position: absolute; left: -20%; right: -20%; top: 0; height: 75%; border-radius: 50%; filter: blur(30px);
-  background: radial-gradient(ellipse at 50% 55%, var(--fond) 0%, var(--fond) 45%, transparent 72%); opacity: .92; }
-.be-diorama { top: 100%; height: 0; }
-.be-d { position: absolute; left: 0; right: 0; top: 0; }
-.be-n { position: absolute; }
-.be-n canvas, .be-couvre canvas { display: block; }
-.be-d-loin { opacity: .55; filter: blur(.6px); }
-.be-d-milieu { opacity: .85; }
-/* La descente : le texte monte, le grand nuage descend sur lui ; les nuages passent à trois vitesses ; Aujourd'hui arrive d'en bas. */
+/* Le nuage qui passe devant : des lavis d'aquarelle plus grands que l'écran, autour d'un cœur de lumière opaque */
+.be-voile { position: absolute; left: -30%; right: -30%; top: 100%; height: 160vh; pointer-events: none; }
+.be-voile::before { content: ''; position: absolute; inset: 12% -10%; border-radius: 50%; filter: blur(24px);
+  background: radial-gradient(ellipse at 50% 50%, var(--fond) 0%, var(--fond) 52%, rgba(255,251,245,0) 74%); }
+:root.nuit .be-voile::before { background: radial-gradient(ellipse at 50% 50%, var(--fond) 0%, var(--fond) 52%, rgba(22,30,53,0) 74%); }
+.be-voile > div { position: absolute; left: 0; right: 0; height: 470px; transform-origin: center;
+  -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 45%, #000 40%, transparent 75%); mask-image: radial-gradient(ellipse 60% 50% at 50% 45%, #000 40%, transparent 75%); }
+.be-voile .couche { mix-blend-mode: normal !important; }
+.be-voile-a { top: 2%; transform: scale(1.7, 1.5); opacity: .95; }
+.be-voile-b { top: 38%; height: 180px !important; transform: scale(2.8, 2.6) scaleX(-1); opacity: .9; -webkit-mask-image: none; mask-image: none; }
+.be-voile-c { top: 62%; transform: scale(1.8, 1.6) scaleX(-1); opacity: .95; }
+
+/* La descente : la scène du haut monte et sort, le nuage traverse plus vite (il est plus près), Aujourd'hui arrive d'en bas */
 .bienvenue-ecran.descend { pointer-events: none; }
-.descend .be-scene { animation: be-monte 3.4s cubic-bezier(.55,0,.35,1) forwards; }
-.descend .be-couvre { animation: be-couvre 5.4s cubic-bezier(.45,0,.3,1) forwards; }
-.descend .be-d-loin { animation: be-d-loin 5.4s cubic-bezier(.45,0,.3,1) forwards; }
-.descend .be-d-milieu { animation: be-d-milieu 5.4s cubic-bezier(.45,0,.3,1) forwards; }
-.descend .be-d-pres { animation: be-d-pres 5.4s cubic-bezier(.45,0,.3,1) forwards; }
-@keyframes be-monte { to { transform: translateY(-100vh); } }
-@keyframes be-couvre { 0% { transform: translateY(-110vh); } 24% { transform: translateY(-22vh); } 40% { transform: translateY(-8vh); } 100% { transform: translateY(-150vh); } }
-@keyframes be-d-loin { to { transform: translateY(calc(-100vh - 1000px)); } }
-@keyframes be-d-milieu { to { transform: translateY(calc(-100vh - 1450px)); } }
-@keyframes be-d-pres { to { transform: translateY(calc(-100vh - 2000px)); } }
-:root.arrivee #ciel, :root.arrivee .app { animation: be-arrive 5.4s cubic-bezier(.45,0,.3,1) both; }
-@keyframes be-arrive { from { transform: translateY(100vh); } 30% { transform: translateY(100vh); } to { transform: none; } }
+.descend .be-scene { animation: be-monte 2.8s cubic-bezier(.65,0,.35,1) forwards; }
+.descend .be-voile { animation: be-voile 2.8s cubic-bezier(.55,0,.45,1) forwards; }
+@keyframes be-monte { to { transform: translateY(-110vh); } }
+@keyframes be-voile { from { transform: translateY(0); } to { transform: translateY(-260vh); } }
+:root.arrivee #ciel, :root.arrivee .app { animation: be-arrive 2.8s cubic-bezier(.65,0,.35,1) both; }
+@keyframes be-arrive { from { transform: translateY(100vh); } to { transform: none; } }
 @keyframes lumiere { from { opacity: .85; transform: scale(1); } to { opacity: 1; transform: scale(1.06); } }
 @media (prefers-reduced-motion: reduce) { .be-lumiere, .be-contenu { animation: none; } }
 :root.arrivee .barre { opacity: 0; }
 .barre { transition: opacity 1s ease; }
-/* Sur l'écran de bienvenue : pas de ligne d'horizon, on est au-dessus. */
-.be-nuages .couche.dessus { display: none; }
-/* Pendant l'arrivée, le haut du ciel d'Aujourd'hui se fond dans le papier : aucune arête en montant. */
-:root.arrivee #ciel { -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 220px); mask-image: linear-gradient(to bottom, transparent 0, #000 220px);
-  -webkit-mask-size: 100% calc(100% + 220px); mask-size: 100% calc(100% + 220px); -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
-  animation-name: be-arrive-ciel; }
-@keyframes be-arrive-ciel {
-  from { transform: translateY(100vh); -webkit-mask-position: 0 0; mask-position: 0 0; }
-  30% { transform: translateY(100vh); -webkit-mask-position: 0 0; mask-position: 0 0; }
-  80% { -webkit-mask-position: 0 0; mask-position: 0 0; }
-  to { transform: none; -webkit-mask-position: 0 -220px; mask-position: 0 -220px; } }
+/* Sur l'écran de bienvenue et dans le nuage qui passe : pas de ligne d'horizon, on est au-dessus. */
+.be-voile .couche.dessus, .be-nuages .couche.dessus { display: none; }
