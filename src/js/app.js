@@ -103,7 +103,9 @@
     var minutesUTC = 720 - 4 * (lon - ha) - eqt;
     return (minutesUTC - dt.getTimezoneOffset()) / 60;
   }
+  var FORCER_JOUR = true; // TEMPORAIRE (3 novembre 2026) : Nico vérifie la version Jour ; remettre à false ensuite.
   function estNuit() {
+    if (FORCER_JOUR) return false;
     if (R.mode === 'jour') return false; if (R.mode === 'nuit') return true;
     var dt = new Date(), h = dt.getHours() + dt.getMinutes() / 60;
     return h < HEURE_DU_JOUR || h >= coucherDuSoleil(dt);
