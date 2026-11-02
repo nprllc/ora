@@ -138,23 +138,16 @@
   }
 
   // Les références bibliques entre parenthèses deviennent des liens vers le passage : (Lc 2, 29-32), (Jn 11:35)…
-  var reRef = null, reRefLangue = null;
+  // (le repérage lui-même est dans src/js/references.js, partagé avec les tests)
   function refsBible(html) {
     if (!D || !D.abr) return [{ t: html, lie: false }];
-    if (reRefLangue !== LANG) {
-      var noms = Object.keys(D.abr).sort(function (a, b) { return b.length - a.length; }).map(function (n) { return n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); });
-      reRef = new RegExp('(^|[^\\p{L}\\d])(' + noms.join('|') + ')\\.?\\s+(\\d+)\\s*(?:,|:)\\s*(\\d+)(?:\\s*[-–]\\s*(\\d+))?[a-e]?(?![\\d\\p{L}])', 'gu');
-      reRefLangue = LANG;
-    }
-    var out = [], dernier = 0, m;
-    reRef.lastIndex = 0;
-    while ((m = reRef.exec(html))) {
-      var debut = m.index + m[1].length, fin = reRef.lastIndex;
-      var osis = D.abr[m[2]], v1 = +m[4], v2 = m[5] ? +m[5] : v1;
-      out.push({ t: html.slice(dernier, debut), lie: false });
-      out.push({ t: '<button class="ref" data-action="passage" data-id="' + osis + '|' + m[3] + '|' + v1 + '|' + v2 + '">' + html.slice(debut, fin) + '</button>', lie: true });
-      dernier = fin;
-    }
+    var out = [], dernier = 0;
+    OraReferences.trouver(html, D.abr, LANG).forEach(function (r) {
+      out.push({ t: html.slice(dernier, r.debut), lie: false });
+      var id = r.v1 ? r.osis + '|' + r.c + '|' + r.v1 + '|' + r.v2 : r.osis + '|' + r.c + '|0|0';
+      out.push({ t: '<button class="ref" data-action="passage" data-id="' + id + '">' + html.slice(r.debut, r.fin) + '</button>', lie: true });
+      dernier = r.fin;
+    });
     out.push({ t: html.slice(dernier), lie: false });
     return out;
   }
@@ -183,15 +176,16 @@
   }
 
   // Versets numérotés ; « […] » quand on saute des versets.
-  function versets(liste) {
+  // sansNumeros : extrait de l'Évangile sur Aujourd'hui et En famille, lu comme un texte suivi.
+  function versets(liste, sansNumeros) {
     var h = '', prec = null;
     liste.forEach(function (x) {
       if (prec !== null && x.v !== prec + 1 && !(x.c && prec === 'fin')) h += '<span class="saut"> […] </span>';
-      h += '<sup>' + x.v + '</sup>' + esc(x.t).replace(/\n/g, ' ') + ' ';
+      h += (sansNumeros ? '<span class="vx"></span>' : '<sup>' + x.v + '</sup>') + esc(x.t).replace(/\n/g, ' ') + ' ';
       prec = x.v;
     });
     var bo = bords(liste.map(function (x) { return x.t; }).join(' '));
-    if (bo[0]) h = h.replace(/(<sup>\d+<\/sup>)/, '$1' + bo[0]);
+    if (bo[0]) h = h.replace(/(<sup>\d+<\/sup>|<span class="vx"><\/span>)/, '$1' + bo[0]);
     if (bo[1]) h = h.replace(/\s+$/, '') + bo[1];
     return '<p class="versets">' + h + '</p>';
   }
@@ -277,7 +271,7 @@
     var titre = j.celebration && j.celebration.rang !== 'memoire' ? j.celebration.nom : j.saison.nom;
     var chapeau = a.expl ? a.expl.quoi : (j.celebration ? j.celebration.nom + '. ' : '') + j.libelleDuJour + '.';
     var html = '<section class="vue accueil' + (etat.premiereOuverture ? ' anime' : '') + '">';
-    html += '<p class="surtitre">' + esc(j.dateLongue + (nuit ? ' · ' + T('ce-soir') : '')) + '</p>';
+    html += '<p class="surtitre">' + esc(j.dateLongue) + '</p>';
     html += '<h1>' + esc(titre) + '</h1>';
     html += '<p class="chapeau">' + lexique(chapeau) + '</p>';
     html += '<button class="couleur-lit" data-action="explication" aria-label="' + esc(T('en-savoir-plus') + '. ' + T('couleur') + ' ' + NOM_COULEUR[LANG][j.couleur]) + '"><i style="background:' + COULEURS[j.couleur] + '"></i>' + esc(T('en-savoir-plus')) + '</button>';
@@ -287,10 +281,10 @@
     if (p.texte) html += section(p.etiquette, blocPriere(p));
     var e = evangile(a);
     if (e && e.attente) html += section(T('evangile-jour'), '<p class="charge">…</p>');
-    else if (e) html += section(T('evangile-jour'), versets(e.liste.slice(0, 4)) + '<p class="s-ref">' + refsSeules(e.ref) + '</p>', 'evangile', e.liste.length > 4 || c ? T('mediter') : T('lire'));
+    else if (e) html += section(T('evangile-jour'), versets(e.liste.slice(0, 4), true) + '<p class="s-ref">' + refsSeules(e.ref) + '</p>', 'evangile', e.liste.length > 4 || c ? T('mediter') : T('lire'));
     if (c) {
       var cit = c.citation;
-      if (cit) html += section(T('citation-jour'), '<blockquote class="s-citation">' + guillemets(esc(cit.texte)) + '</blockquote><p class="s-ref">' + auteur(cit) + ' · ' + esc(cit.source) + '</p>');
+      if (cit) html += section(T('citation-jour'), '<blockquote class="s-citation">' + guillemets(esc(cit.texte)) + '</blockquote><p class="s-ref">' + auteur(cit) + ' · ' + refsSeules(cit.source) + '</p>');
       if (c.reflexion) html += section(T('reflexion-jour'), '<p class="s-titre">' + esc(c.reflexion.titre) + '</p><p class="s-accroche">' + lexique(c.reflexion.accroche) + '</p>', 'reflexion', T('lire'));
       if (c.histoire) html += section(T('histoire-jour'), '<p class="s-titre">' + esc(c.histoire.titre) + '</p><p class="s-accroche">' + lexique(c.histoire.accroche) + '</p>', 'histoire', T('lire'));
       if (c.portrait) html += section(T('portrait-jour'), '<p class="s-titre">' + esc(c.portrait.nom) + ' <span class="s-dates">' + esc(c.portrait.dates) + '</span></p><p class="s-accroche">' + lexique(c.portrait.accroche) + '</p>', 'portrait', T('lire'));
@@ -306,7 +300,7 @@
 
   function paragraphes(t) { return String(t).split('\n\n').map(function (p) { return '<p>' + lexique(p) + '</p>'; }).join(''); }
   function plusLoin(t) { return t ? '<details class="bloc plus-loin"><summary>' + esc(T('aller-plus-loin')) + '</summary><p>' + lexique(t) + '</p></details>' : ''; }
-  function sources(s) { return s ? '<p class="source">' + esc(T('sources')) + ' : ' + esc(s) + '</p>' : ''; }
+  function sources(s) { return s ? '<p class="source">' + esc(T('sources')) + ' : ' + refsSeules(s) + '</p>' : ''; }
 
   // « Pour méditer » : une phrase à garder, ce que dit le texte, ce que l'Église en comprend, trois pistes, une fin qui ouvre sur la prière.
   function meditation(m) {
@@ -375,7 +369,7 @@
     h += '<p class="texte-priere">' + lexique(texte) + '</p>';
     if (p.geste) h += '<div class="bloc"><h3>' + esc(T('le-geste')) + '</h3><p>' + lexique(p.geste) + '</p></div>';
     h += '<div class="bloc"><h3>' + esc(T('quand-dire')) + '</h3><p>' + lexique(p.quand) + '</p></div>';
-    h += '<div class="bloc"><h3>' + esc(T('pourquoi')) + '</h3><p>' + lexique(p.pourquoi) + '</p>' + (p.source ? '<p class="source">' + esc(p.source) + '</p>' : '') + '</div>';
+    h += '<div class="bloc"><h3>' + esc(T('pourquoi')) + '</h3><p>' + lexique(p.pourquoi) + '</p>' + (p.source ? '<p class="source">' + refsSeules(p.source) + '</p>' : '') + '</div>';
     if (p.variante) h += '<div class="bloc"><h3>' + esc(T('autre-version')) + '</h3><p class="texte-priere variante">' + esc(p.variante) + '</p></div>';
     return h + '</section>';
   }
@@ -408,7 +402,7 @@
   function filtrerMots(f) { return D.lexique.mots.filter(function (m) { return !f || m.mot.toLowerCase().indexOf(f) >= 0 || m.def.toLowerCase().indexOf(f) >= 0; }).sort(function (a, b) { return a.mot.localeCompare(b.mot, LANG); }); }
   function listeMots(mots) {
     if (!mots.length) return '<p class="note">' + esc(T('aucun-mot')) + '</p>';
-    return mots.map(function (m) { return '<div class="mot-def"><b>' + esc(m.mot) + '</b><span>' + esc(m.def) + '</span></div>'; }).join('');
+    return mots.map(function (m) { return '<div class="mot-def"><b>' + esc(m.mot) + '</b><span>' + refsSeules(m.def) + '</span></div>'; }).join('');
   }
 
   // ---------- Bible ----------
@@ -523,13 +517,12 @@
     if (p.texte) h += section(p.etiquette, blocPriere(p));
     var e = evangile(a);
     // L'Évangile du jour est toujours là ; son explication pour les enfants seulement les jours qui en ont une.
-    if (e && !e.attente) h += section(T('evangile-jour'), versets(e.liste.slice(0, 3)) + '<p class="s-ref">' + refsSeules(e.ref) + '</p>' + (k && k.evangile ? '<p class="s-accroche">' + lexique(k.evangile.explication) + '</p>' : ''));
+    if (e && !e.attente) h += section(T('evangile-jour'), versets(e.liste.slice(0, 3), true) + '<p class="s-ref">' + refsSeules(e.ref) + '</p>' + (k && k.evangile ? '<p class="s-accroche">' + lexique(k.evangile.explication) + '</p>' : ''));
     if (k) {
       if (k.citation) h += section(T('citation-jour'), '<blockquote class="s-citation">' + guillemets(esc(k.citation.texte)) + '</blockquote><p class="s-ref">' + auteur(k.citation) + '</p>');
       if (k.reflexion) h += section(T('reflexion-jour'), '<p class="s-titre">' + esc(k.reflexion.titre) + '</p><p class="s-accroche">' + lexique(k.reflexion.texte) + '</p>' + (k.reflexion.question ? '<p class="question">' + esc(k.reflexion.question) + '</p>' : ''));
       if (k.histoire) h += section(T('histoire-jour'), '<p class="s-titre">' + esc(k.histoire.titre) + '</p><p class="s-accroche">' + lexique(k.histoire.texte) + '</p>');
       if (k.portrait) h += section(T('portrait-jour'), '<p class="s-titre">' + esc(k.portrait.nom) + '</p><p class="s-accroche">' + lexique(k.portrait.texte) + '</p>' + (k.portrait.idee ? '<p class="question">' + esc(k.portrait.idee) + '</p>' : ''));
-      if (k.sources) h += '<p class="source">' + esc(T('sources')) + ' : ' + esc(k.sources) + '</p>';
     }
     h += '</div><p class="groupe">' + esc(T('prier-ensemble')) + '</p><div class="rubriques">' +
       rubrique('<span class="titre-r">' + esc(T('rituel-soir')) + '</span><span class="texte-r">' + esc(T('rituel-soir-desc')) + '</span>', { action: 'guide', id: 'famille-soir' }) +
@@ -785,10 +778,10 @@
     var act = el.getAttribute('data-action'), id = el.getAttribute('data-id');
     if (act === 'mot') {
       var m = D.lexique.mots.filter(function (x) { return x.id === id; })[0];
-      if (m) feuille(m.mot, '<p>' + esc(m.def) + '</p>');
+      if (m) feuille(m.mot, '<p>' + refsSeules(m.def) + '</p>');
     } else if (act === 'auteur') {
       var au = D.auteurs[id] && (D.auteurs[id][LANG] || D.auteurs[id].fr);
-      if (au) feuille(au.nom, '<p>' + esc(au.bio) + '</p>');
+      if (au) feuille(au.nom, '<p>' + refsSeules(au.bio) + '</p>');
     } else if (act === 'fermer') fermerFeuille();
     else if (act === 'haut') window.scrollTo({ top: 0, behavior: 'smooth' });
     else if (act === 'onglet') { etat.pile = []; etat.vue = id; fermerFeuille(); rendre(); window.scrollTo(0, 0); }

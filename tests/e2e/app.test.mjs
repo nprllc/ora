@@ -36,7 +36,9 @@ for (const date of DATES) for (const langue of ['fr', 'es', 'en']) {
     const etiquettes = await texte(page, '.section-jour .etiquette');
     assert.ok(etiquettes.length >= 3, `au moins 3 sections, vu : ${etiquettes}`);
     assert.ok((await texte(page, '.s-priere')).every((t) => t.length > 10), 'prière');
-    assert.ok((await page.$$('.section-jour .versets sup')).length > 0, 'Évangile');
+    assert.ok((await texte(page, '.section-jour .versets')).some((v) => v.length > 40), 'Évangile');
+    assert.equal((await page.$$('.section-jour .versets sup')).length, 0, 'pas de numéros de versets sur l\'accueil');
+    assert.match(await page.textContent('.surtitre'), /20\d\d/, 'l\'année figure dans la date');
     assert.deepEqual(erreurs, []);
     await ctx.close();
   });

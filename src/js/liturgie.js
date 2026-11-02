@@ -298,9 +298,9 @@
       region: REG_ID,
       indexAnnee: ecart(t >= r.avent ? r.avent : avent(y - 1), t),
       date: x.getUTCFullYear() + '-' + cle(t),
-      dateLongue: L === 'es' ? JOURS[x.getUTCDay()] + ', ' + x.getUTCDate() + ' de ' + MOIS[x.getUTCMonth()]
-        : L === 'en' ? JOURS[x.getUTCDay()] + ', ' + MOIS[x.getUTCMonth()] + ' ' + x.getUTCDate()
-        : JOURS[x.getUTCDay()] + ' ' + (x.getUTCDate() === 1 ? '1er' : x.getUTCDate()) + ' ' + MOIS[x.getUTCMonth()],
+      dateLongue: L === 'es' ? JOURS[x.getUTCDay()] + ', ' + x.getUTCDate() + ' de ' + MOIS[x.getUTCMonth()] + ' de ' + x.getUTCFullYear()
+        : L === 'en' ? JOURS[x.getUTCDay()] + ', ' + MOIS[x.getUTCMonth()] + ' ' + x.getUTCDate() + ', ' + x.getUTCFullYear()
+        : JOURS[x.getUTCDay()] + ' ' + (x.getUTCDate() === 1 ? '1er' : x.getUTCDate()) + ' ' + MOIS[x.getUTCMonth()] + ' ' + x.getUTCFullYear(),
       jourSemaine: JOURS[x.getUTCDay()],
       saison: { id: s, nom: NOMS_SAISON_L[L][s] },
       semaine: sl.semaine,
