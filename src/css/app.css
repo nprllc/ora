@@ -402,3 +402,6 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 /* Bienvenue : la rangée de nuages du haut (la plus lointaine) défile plus lentement que celle du bas. */
 :root.vivant .be-mer-loin .couche.mer canvas { animation-duration: 270s; }
 :root.vivant .be-mer-loin .couche.mer.m1 canvas { animation-duration: 180s; }
+/* Bienvenue, le jour : la mer de nuages qui défile est plus présente (elle était presque invisible). */
+:root:not(.nuit) .be-mer { opacity: .9; }
+:root:not(.nuit) .be-mer-loin { opacity: .55; }
