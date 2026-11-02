@@ -310,7 +310,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .a-propos .groupe { margin-top: 0; }
 
 /* Écran de bienvenue : très haut dans le ciel, une lumière diffuse ; un nuage passe, on descend vers Aujourd'hui */
-.bienvenue-ecran { position: fixed; inset: 0; z-index: 100; overflow: hidden; pointer-events: auto; }
+.bienvenue-ecran { position: fixed; top: 0; left: 0; right: 0; height: 100vh; height: 100lvh; z-index: 100; overflow: hidden; pointer-events: auto; } /* jusqu'au bas de l'écran, même derrière les barres de Safari */
 .be-scene { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 48px 32px 120px; text-align: center;
   background: var(--fond); }
 .be-nuages { position: absolute; left: 0; right: 0; top: -40px; height: 470px; opacity: .55;
@@ -322,13 +322,17 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 :root.nuit .be-nuages-2 { opacity: .28; }
 .be-nuages-2 .couche.fond { display: none; }
 /* Le doux nuage qui balaie le texte : il monte plus vite que le texte et l'efface de bas en haut. */
-.be-balai { position: absolute; left: 0; right: 0; top: 62%; height: 0; z-index: 3; pointer-events: none; opacity: 0; }
-.be-balai > div { position: absolute; }
+.be-balai { position: absolute; left: 0; right: 0; top: 58%; height: 0; z-index: 3; pointer-events: none; }
+.be-balai .bb { position: absolute; opacity: 0; }
 .be-balai canvas { display: block; }
-#be-balai-a { left: calc(50% - 330px); top: 0; }
-#be-balai-b { left: calc(50% - 60px); top: 50px; transform: scaleX(-1); }
-.descend .be-balai { animation: be-balai 1.6s cubic-bezier(.4,0,.4,1) forwards; }
-@keyframes be-balai { 0% { opacity: 0; transform: translateY(20vh); } 25% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; transform: translateY(-75vh); } }
+.bb:nth-child(even) { --bb-sens: -1; }
+/* Trois profondeurs : les lointains montent lentement et restent pâles, les proches passent vite, plus grands et plus denses. */
+.descend .bb-loin { animation: bb-loin 2s cubic-bezier(.35,0,.45,1) var(--bb-d) forwards; }
+.descend .bb-milieu { animation: bb-milieu 1.75s cubic-bezier(.35,0,.45,1) var(--bb-d) forwards; }
+.descend .bb-pres { animation: bb-pres 1.5s cubic-bezier(.35,0,.45,1) var(--bb-d) forwards; z-index: 2; }
+@keyframes bb-loin { 0% { opacity: 0; transform: translateY(12vh); } 25% { opacity: .75; } 80% { opacity: .75; } 100% { opacity: 0; transform: translateY(-45vh); } }
+@keyframes bb-milieu { 0% { opacity: 0; transform: translateY(20vh); } 22% { opacity: .92; } 80% { opacity: .92; } 100% { opacity: 0; transform: translateY(-70vh); } }
+@keyframes bb-pres { 0% { opacity: 0; transform: translateY(30vh) scale(1.05); } 20% { opacity: 1; } 78% { opacity: 1; } 100% { opacity: 0; transform: translateY(-100vh) scale(1.12); } }
 .descend .be-contenu { animation: be-balaye 1.3s cubic-bezier(.4,0,.4,1) .15s forwards;
   -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 42%, transparent 58%, transparent 100%); mask-image: linear-gradient(180deg, #000 0%, #000 42%, transparent 58%, transparent 100%);
   -webkit-mask-size: 100% 300%; mask-size: 100% 300%; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-position: 0 0; mask-position: 0 0; }
@@ -341,6 +345,11 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 :root.nuit .be-lumiere { background: radial-gradient(ellipse 55% 45% at 50% 42%, rgba(240,214,160,.2) 0%, rgba(240,214,160,.07) 40%, rgba(240,214,160,0) 70%); }
 .be-mer { position: absolute; left: 0; right: 0; bottom: 0; height: 180px; opacity: .5; }
 .be-mer-loin { bottom: 110px; opacity: .28; transform: scaleY(.8); transform-origin: bottom; }
+.be-mer-tres-loin { bottom: 200px; opacity: .16; transform: scaleY(.65) scaleX(-1); transform-origin: bottom; }
+/* Sous la mer de nuages, jusqu'au bord de l'écran : la brume continue, sans bande vide. */
+.be-bas { position: absolute; left: 0; right: 0; bottom: 0; height: 120px; pointer-events: none;
+  background: linear-gradient(180deg, transparent, rgba(214,225,236,.45)); }
+:root.nuit .be-bas { background: linear-gradient(180deg, transparent, rgba(120,132,180,.22)); }
 .be-contenu { position: relative; z-index: 2; max-width: 340px; animation: apparait 2.4s var(--lent) .2s both; }
 .be-o { display: flex; justify-content: center; margin-bottom: 28px; color: var(--encre); }
 .be-titre { font-size: clamp(28px, 8.5vw, 36px); margin-bottom: 18px; }

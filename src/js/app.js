@@ -646,6 +646,18 @@
   // d'aquarelle passe devant, et l'on descend jusqu'au ciel d'Aujourd'hui, à son niveau habituel.
   var ETOILES_HAUT = [[40, 90, 6, 0], [120, 40, 8, 1.4], [300, 70, 7, 3], [350, 160, 9, 2], [70, 230, 7.5, 4.5], [210, 120, 10, 5.2], [280, 260, 6.5, 0.8],
     [20, 400, 8, 3.6], [360, 420, 7, 1.9], [160, 330, 9, 6]];
+  // [profondeur, décalage horizontal (px depuis le centre), haut (px), largeur, graine, retard (s)]
+  var BALAI = [['loin', -240, 40, 360, 6101, 0], ['loin', 40, 140, 340, 6203, 0.12],
+    ['milieu', -320, 120, 470, 6307, 0.05], ['milieu', -40, 230, 440, 6409, 0.18],
+    ['pres', -360, 220, 600, 6511, 0.1], ['pres', -120, 330, 580, 6613, 0.22]];
+  var BALAI_TEINTES = {
+    jour: { loin: { corps: [240, 233, 246], ombre: [214, 206, 228], lumiere: [252, 250, 255], a: 0.07 },
+      milieu: { corps: [253, 238, 228], ombre: [228, 210, 214], lumiere: [255, 252, 246], a: 0.085 },
+      pres: { corps: [255, 249, 241], ombre: [230, 218, 220], lumiere: [255, 255, 255], a: 0.11 } },
+    nuit: { loin: { corps: [50, 60, 96], ombre: [28, 34, 64], lumiere: [96, 110, 150], a: 0.08 },
+      milieu: { corps: [62, 74, 114], ombre: [32, 40, 72], lumiere: [120, 136, 176], a: 0.09 },
+      pres: { corps: [78, 92, 134], ombre: [38, 46, 80], lumiere: [150, 164, 200], a: 0.11 } }
+  };
   function ecranBienvenue() {
     if (document.getElementById('bienvenue')) return;
     var cle = estNuit() ? 'nuit' : 'jour';
@@ -655,24 +667,26 @@
     e.innerHTML = '<div class="be-scene" id="be-scene">' +
         '<div class="be-nuages" id="be-nuages" aria-hidden="true"></div><div class="be-nuages be-nuages-2" id="be-nuages-2" aria-hidden="true"></div>' +
         (cle === 'nuit' ? '<div class="be-etoiles" aria-hidden="true">' + ETOILES_HAUT.map(function (p) { return '<span class="etoile" style="left:calc(50% - 195px + ' + p[0] + 'px);top:' + p[1] + 'px;--d:' + p[2] + 's;--r:-' + p[3] + 's"></span>'; }).join('') + '</div>' : '') +
-        '<div class="be-mer be-mer-loin" id="be-mer-loin" aria-hidden="true"></div><div class="be-mer" id="be-mer" aria-hidden="true"></div><div class="be-lumiere" aria-hidden="true"></div>' +
+        '<div class="be-mer be-mer-tres-loin" id="be-mer-tres-loin" aria-hidden="true"></div><div class="be-mer be-mer-loin" id="be-mer-loin" aria-hidden="true"></div><div class="be-mer" id="be-mer" aria-hidden="true"></div><div class="be-bas" aria-hidden="true"></div><div class="be-lumiere" aria-hidden="true"></div>' +
         '<div class="be-contenu"><div class="be-o" aria-hidden="true">' + LOGO.replace('width="68" height="27"', 'width="170" height="65"') + '</div>' +
         '<h1 class="be-titre">' + esc(T('menu-titre')) + '</h1><p class="be-texte">' + T('presentation') + '</p>' +
         '<button class="be-commencer" data-action="bienvenue">' + esc(T('commencer')) + '</button></div>' +
-        '<div class="be-balai" aria-hidden="true"><div id="be-balai-a"></div><div id="be-balai-b"></div></div>' +
+        '<div class="be-balai" aria-hidden="true">' + BALAI.map(function (n, k) { return '<div class="bb bb-' + n[0] + '" id="bb-' + k + '" style="left:calc(50% + ' + n[1] + 'px);top:' + n[2] + 'px;--bb-d:' + n[5] + 's"></div>'; }).join('') + '</div>' +
       '</div>' +
       '<div class="be-voile" id="be-voile" aria-hidden="true"><div class="be-voile-a" id="be-voile-a"></div><div class="be-voile-b" id="be-voile-b"></div><div class="be-voile-c" id="be-voile-c"></div></div>';
     document.body.appendChild(e);
     document.getElementById('app').innerHTML = ''; document.getElementById('barre').hidden = true;
     OraAquarelle.peindre(document.getElementById('be-nuages'), cle, true);
     OraAquarelle.peindre(document.getElementById('be-mer-loin'), 'bas-' + cle, false);
+    OraAquarelle.peindre(document.getElementById('be-mer-tres-loin'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-nuages-2'), cle, false);
     ['a', 'b', 'c'].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-voile-' + k), k === 'b' ? 'bas-' + cle : cle, false); });
-    // Le doux nuage qui balaie le texte quand il monte.
-    var c = cle === 'nuit' ? { corps: [64, 76, 116], ombre: [34, 42, 74], lumiere: [126, 142, 182] } : { corps: [255, 249, 240], ombre: [236, 224, 226], lumiere: [255, 255, 255] };
-    OraAquarelle.nuage(document.getElementById('be-balai-a'), { w: 460, h: 290, seed: 5101, corps: c.corps, ombre: c.ombre, lumiere: c.lumiere, aCorps: 0.07, n: 26 });
-    OraAquarelle.nuage(document.getElementById('be-balai-b'), { w: 420, h: 260, seed: 5303, corps: c.corps, ombre: c.ombre, lumiere: c.lumiere, aCorps: 0.07, n: 26 });
+    // Les nuages qui balaient le texte quand il monte : trois profondeurs, chacune sa teinte, sa densité et sa vitesse.
+    BALAI.forEach(function (n, k) {
+      var t = BALAI_TEINTES[cle][n[0]];
+      OraAquarelle.nuage(document.getElementById('bb-' + k), { w: n[3], h: Math.round(n[3] * 0.62), seed: n[4], corps: t.corps, ombre: t.ombre, lumiere: t.lumiere, aCorps: t.a, aOmbre: t.a * 0.6, aLumiere: t.a * 1.2, n: 30 });
+    });
     document.documentElement.classList.add('vivant'); // le fond de l'écran vit comme le ciel d'Aujourd'hui
   }
   function quitterBienvenue() {
