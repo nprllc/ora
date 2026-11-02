@@ -91,13 +91,13 @@ a { color: var(--or); }
 .logo svg { flex: 0 0 auto; }
 :root.defile .logo { width: 26px; background: var(--verre); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: 0 4px 16px rgba(60,45,30,.08); }
 .bouton-menu { position: relative; display: inline-flex; align-items: center; justify-content: center; min-width: 44px; overflow: hidden; transition: padding .6s var(--lent), width .6s var(--lent), height .6s var(--lent), min-width .6s var(--lent), border-color .6s ease, box-shadow .6s ease; }
-.bouton-menu .menu-icone { position: absolute; left: 50%; top: 50%; margin: -10px 0 0 -10px; opacity: 0; transform: scale(.7); transition: opacity .5s ease, transform .6s var(--lent); }
+.bouton-menu .menu-icone { position: absolute; left: 50%; top: 50%; margin: -13px 0 0 -13px; overflow: visible; opacity: 0; transform: scale(.7); transition: opacity .5s ease, transform .6s var(--lent); }
 .bouton-menu .menu-mot { transition: opacity .4s ease; }
 /* Au défilement, « Réglages » devient une petite icône : une roue dentée au cœur doré, comme le O du logo. */
 :root.defile .bouton-menu { width: 38px; height: 38px; min-width: 38px; padding: 0; border-color: transparent; box-shadow: 0 4px 16px rgba(60,45,30,.08); }
 :root.defile .bouton-menu .menu-mot { opacity: 0; }
-/* Même gabarit que le O du logo à gauche : rond de 38 px, sans cerclage, icône agrandie. */
-:root.defile .bouton-menu .menu-icone { opacity: 1; transform: scale(1.25); }
+/* Même gabarit que le O du logo à gauche : rond de 38 px, sans cerclage, icône à la taille du O. */
+:root.defile .bouton-menu .menu-icone { opacity: 1; transform: none; }
 
 /* La mer de nuages, en bas de chaque page */
 .mer-bas { position: relative; height: 180px; margin-top: 56px; overflow: hidden; pointer-events: none;

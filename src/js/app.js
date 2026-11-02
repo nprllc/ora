@@ -586,11 +586,12 @@
   }
 
   // L'icône du menu : trois traits ; celui du milieu passe par un petit halo doré, le O d'Ora (comme un grain de chapelet).
-  // Réglages : une roue dentée dont le cœur est le O doré du logo (disque crème, cercle d'or).
-  var ICONE_MENU = '<svg class="menu-icone" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke-linecap="round">' +
-    '<path d="M19.4 12h2M17.2 17.2l1.4 1.4M12 19.4v2M6.8 17.2l-1.4 1.4M4.6 12h-2M6.8 6.8L5.4 5.4M12 4.6v-2M17.2 6.8l1.4-1.4" stroke="currentColor" stroke-width="2.6"></path>' +
-    '<circle cx="12" cy="12" r="7.2" stroke="currentColor" stroke-width="1.5"></circle>' +
-    '<circle cx="12" cy="12" r="3.4" fill="#F2E5C6" stroke="var(--logo-anneau)" stroke-width="1.2"></circle></svg>';
+  // Réglages : le O du logo (même orbe, même halo, même trait, même taille), dont le cercle devient une roue à 8 dents.
+  var ICONE_MENU = '<svg class="menu-icone" width="26" height="26" viewBox="0 0 32 32" aria-hidden="true" fill="none">' +
+    '<defs><radialGradient id="reglages-aura"><stop offset="0" stop-color="#E8BE78" stop-opacity=".55"></stop><stop offset="1" stop-color="#E8BE78" stop-opacity="0"></stop></radialGradient></defs>' +
+    '<circle cx="16" cy="16" r="11" fill="url(#reglages-aura)"></circle>' +
+    '<path d="M13.61 3.73L14.15 0.91A15.2 15.2 0 0 1 17.85 0.91L18.39 3.73A12.5 12.5 0 0 1 22.99 5.64L25.36 4.02A15.2 15.2 0 0 1 27.98 6.64L26.36 9.01A12.5 12.5 0 0 1 28.27 13.61L31.09 14.15A15.2 15.2 0 0 1 31.09 17.85L28.27 18.39A12.5 12.5 0 0 1 26.36 22.99L27.98 25.36A15.2 15.2 0 0 1 25.36 27.98L22.99 26.36A12.5 12.5 0 0 1 18.39 28.27L17.85 31.09A15.2 15.2 0 0 1 14.15 31.09L13.61 28.27A12.5 12.5 0 0 1 9.01 26.36L6.64 27.98A15.2 15.2 0 0 1 4.02 25.36L5.64 22.99A12.5 12.5 0 0 1 3.73 18.39L0.91 17.85A15.2 15.2 0 0 1 0.91 14.15L3.73 13.61A12.5 12.5 0 0 1 5.64 9.01L4.02 6.64A15.2 15.2 0 0 1 6.64 4.02L9.01 5.64A12.5 12.5 0 0 1 13.61 3.73Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>' +
+    '<circle cx="15.3" cy="16.6" r="4.2" fill="var(--logo-ombre)"></circle><circle cx="16" cy="16" r="4.2" fill="#F2E5C6"></circle></svg>';
 
   var LOGO = '<svg width="68" height="27" viewBox="0 0 84 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
     '<defs><radialGradient id="logo-aura"><stop offset="0" stop-color="#E8BE78" stop-opacity=".55"></stop><stop offset="1" stop-color="#E8BE78" stop-opacity="0"></stop></radialGradient></defs>' +
