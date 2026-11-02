@@ -623,52 +623,43 @@
   function rendreEnPlace() { var y = window.scrollY; rendre(); window.scrollTo(0, y); }
 
   // ---------- Écran de bienvenue (une seule fois, à la toute première ouverture) ----------
-  // Haut dans les nuages, une lumière diffuse ; à « Commencer », les mots s'envolent comme soufflés par une brise,
-  // puis l'écran s'efface et l'on arrive sur Aujourd'hui, avec le soleil qui monte.
-  var nSouffle = 0; // les mots s'envolent dans l'ordre de lecture, du titre au bouton
-  function souffle(html) {
-    var n = nSouffle;
-    return String(html).split(/(<[^>]*>)/).map(function (b, i) {
-      if (i % 2) return b;
-      return b.split(/(\s+)/).map(function (m) {
-        if (!m || /^\s+$/.test(m)) return m;
-        var k = n++, dx = 60 + (k * 37) % 70, dy = -18 - (k * 23) % 40, rot = (k % 2 ? 1 : -1) * (4 + k % 7);
-        return '<span class="mot-souffle" style="--k:' + k + ';--dx:' + dx + 'px;--dy:' + dy + 'px;--rot:' + rot + 'deg">' + m + '</span>';
-      }).join('');
-    }).join('').replace(/$/, function () { nSouffle = n; return ''; });
-  }
+  // On est très haut dans le ciel (au soleil le jour, parmi les étoiles le soir). À « Commencer », un grand nuage
+  // d'aquarelle passe devant, et l'on descend jusqu'au ciel d'Aujourd'hui, à son niveau habituel.
+  var ETOILES_HAUT = [[40, 90, 6, 0], [120, 40, 8, 1.4], [300, 70, 7, 3], [350, 160, 9, 2], [70, 230, 7.5, 4.5], [210, 120, 10, 5.2], [280, 260, 6.5, 0.8],
+    [20, 400, 8, 3.6], [360, 420, 7, 1.9], [160, 330, 9, 6]];
   function ecranBienvenue() {
     if (document.getElementById('bienvenue')) return;
     var cle = estNuit() ? 'nuit' : 'jour';
     document.documentElement.classList.toggle('nuit', cle === 'nuit');
     var e = document.createElement('div');
     e.id = 'bienvenue'; e.className = 'bienvenue-ecran'; e.setAttribute('role', 'dialog'); e.setAttribute('aria-modal', 'true'); e.setAttribute('aria-label', T('menu-titre'));
-    nSouffle = 0;
-    e.innerHTML = '<div class="be-nuages" id="be-nuages" aria-hidden="true"></div>' +
-      '<div class="be-mer be-mer-loin" id="be-mer-loin" aria-hidden="true"></div><div class="be-mer" id="be-mer" aria-hidden="true"></div><div class="be-lumiere" aria-hidden="true"></div>' +
-      '<div class="be-contenu"><div class="be-o" aria-hidden="true">' + LOGO.replace('width="68" height="27"', 'width="170" height="65"') + '</div>' +
-      '<h1 class="be-titre">' + souffle(esc(T('menu-titre'))) + '</h1><p class="be-texte">' + souffle(T('presentation')) + '</p>' +
-      '<button class="be-commencer" data-action="bienvenue">' + souffle(esc(T('commencer'))) + '</button></div>';
+    e.innerHTML = '<div class="be-scene" id="be-scene">' +
+        '<div class="be-nuages" id="be-nuages" aria-hidden="true"></div>' +
+        (cle === 'nuit' ? '<div class="be-etoiles" aria-hidden="true">' + ETOILES_HAUT.map(function (p) { return '<span class="etoile" style="left:calc(50% - 195px + ' + p[0] + 'px);top:' + p[1] + 'px;--d:' + p[2] + 's;--r:-' + p[3] + 's"></span>'; }).join('') + '</div>' : '') +
+        '<div class="be-mer be-mer-loin" id="be-mer-loin" aria-hidden="true"></div><div class="be-mer" id="be-mer" aria-hidden="true"></div><div class="be-lumiere" aria-hidden="true"></div>' +
+        '<div class="be-contenu"><div class="be-o" aria-hidden="true">' + LOGO.replace('width="68" height="27"', 'width="170" height="65"') + '</div>' +
+        '<h1 class="be-titre">' + esc(T('menu-titre')) + '</h1><p class="be-texte">' + T('presentation') + '</p>' +
+        '<button class="be-commencer" data-action="bienvenue">' + esc(T('commencer')) + '</button></div>' +
+      '</div>' +
+      '<div class="be-voile" id="be-voile" aria-hidden="true"><div class="be-voile-a" id="be-voile-a"></div><div class="be-voile-b" id="be-voile-b"></div><div class="be-voile-c" id="be-voile-c"></div></div>';
     document.body.appendChild(e);
     document.getElementById('app').innerHTML = ''; document.getElementById('barre').hidden = true;
     OraAquarelle.peindre(document.getElementById('be-nuages'), cle, true);
     OraAquarelle.peindre(document.getElementById('be-mer-loin'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
+    ['a', 'b', 'c'].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-voile-' + k), k === 'b' ? 'bas-' + cle : cle, false); });
   }
   function quitterBienvenue() {
-    var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('envole')) return;
+    var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('descend')) return;
     var lent = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var mots = e.querySelectorAll('.mot-souffle').length;
-    e.style.setProperty('--nb-mots', mots);
-    e.classList.add('envole');
     R.bienvenue = true; ecrireReglages();
-    var duree = lent ? 0 : 1300 + mots * 35;
-    setTimeout(function () {
-      // On arrive sur Aujourd'hui : le ciel est repeint pour que le soleil monte.
-      etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
-      e.classList.add('efface');
-      setTimeout(function () { e.remove(); }, lent ? 0 : 1400);
-    }, duree);
+    // Aujourd'hui est posé dessous, plus bas : en descendant, il monte vers nous jusqu'à sa place.
+    etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
+    if (lent) { e.remove(); return; }
+    document.documentElement.classList.add('arrivee');
+    void e.offsetWidth; // le navigateur prend la position de départ avant l'animation
+    e.classList.add('descend');
+    setTimeout(function () { document.documentElement.classList.remove('arrivee'); e.remove(); }, 3200);
   }
 
   function rendre() {

@@ -112,7 +112,7 @@ test('bienvenue : un écran à part, une seule fois ; les mots s\'envolent, puis
   assert.ok(await page.$('#bienvenue'), 'écran de bienvenue');
   assert.ok(!(await page.$('.section-jour')), 'rien d\'autre derrière');
   await page.click('.be-commencer');
-  await page.waitForSelector('#bienvenue.envole');
+  await page.waitForSelector('#bienvenue.descend');
   await page.waitForSelector('.section-jour', { timeout: 15000 });
   await page.waitForSelector('#bienvenue', { state: 'detached', timeout: 15000 });
   assert.ok(JSON.parse(await page.evaluate(() => localStorage.getItem('ora.reglages'))).bienvenue, 'gardé sur le téléphone');
