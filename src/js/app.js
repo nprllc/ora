@@ -1,7 +1,7 @@
 /*
  * Ora — application.
  * Aucune dépendance, aucun compte, aucun serveur : réglages et passages favoris restent sur le téléphone.
- * Trois langues : français, espagnol, anglais. La langue suit celle du téléphone, sauf si on la change dans le Menu.
+ * Trois langues : français, espagnol, anglais. La langue suit celle du téléphone, sauf si on la change dans les Réglages.
  */
 (function () {
   'use strict';
@@ -536,7 +536,7 @@
   }
   function titrePriere(id) { var p = D.prieres.traditionnelles.filter(function (x) { return x.id === id; })[0]; return p ? p.titre : id; }
 
-  // ---------- Menu ----------
+  // ---------- Réglages ----------
   function vueMenu() {
     var h = '<section class="vue page">' + boutonRetour();
     h += '<p class="surtitre">' + esc(T('menu')) + '</p><h2>' + esc(T('menu-titre')) + '</h2>';
@@ -582,9 +582,11 @@
   }
 
   // L'icône du menu : trois traits ; celui du milieu passe par un petit halo doré, le O d'Ora (comme un grain de chapelet).
-  var ICONE_MENU = '<svg class="menu-icone" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke-linecap="round" stroke-width="1.5">' +
-    '<path d="M3 5h14M3 15h14M3 10h4.4M12.6 10H17" stroke="currentColor"></path>' +
-    '<circle cx="10" cy="10" r="2.3" stroke="var(--logo-anneau)"></circle></svg>';
+  // Réglages : une roue dentée dont le cœur est le O doré du logo (disque crème, cercle d'or).
+  var ICONE_MENU = '<svg class="menu-icone" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke-linecap="round">' +
+    '<path d="M19.4 12h2M17.2 17.2l1.4 1.4M12 19.4v2M6.8 17.2l-1.4 1.4M4.6 12h-2M6.8 6.8L5.4 5.4M12 4.6v-2M17.2 6.8l1.4-1.4" stroke="currentColor" stroke-width="2.6"></path>' +
+    '<circle cx="12" cy="12" r="7.2" stroke="currentColor" stroke-width="1.5"></circle>' +
+    '<circle cx="12" cy="12" r="3.4" fill="#F2E5C6" stroke="var(--logo-anneau)" stroke-width="1.2"></circle></svg>';
 
   var LOGO = '<svg width="68" height="27" viewBox="0 0 84 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
     '<defs><radialGradient id="logo-aura"><stop offset="0" stop-color="#E8BE78" stop-opacity=".55"></stop><stop offset="1" stop-color="#E8BE78" stop-opacity="0"></stop></radialGradient></defs>' +
@@ -640,6 +642,7 @@
     peindreMerBas(cleCiel);
 
     majBarre(onglet);
+    largeurMenu();
 
     var champ = document.getElementById('cherche');
     if (champ) champ.addEventListener('input', function () { etat.filtre = champ.value; document.getElementById('liste-mots').innerHTML = listeMots(filtrerMots(champ.value.toLowerCase())); });
@@ -715,7 +718,14 @@
     pastilleAnim = requestAnimationFrame(pas);
   }
 
+  // Le bouton Réglages prend la largeur exacte de son mot (« Réglages », « Ajustes », « Settings ») : une largeur
+  // en pixels, pour que le passage au petit rond reste une animation fluide.
+  function largeurMenu() {
+    var bm = document.querySelector('.bouton-menu'), mot = bm && bm.querySelector('.menu-mot');
+    if (mot) bm.style.setProperty('--larg-menu', Math.ceil(mot.getBoundingClientRect().width) + 32 + 'px');
+  }
   function recalerBarre() {
+    largeurMenu();
     ajusterTitres();
     var barre = document.getElementById('barre'), b = barre && barre.querySelector('button.on'), past = barre && barre.querySelector('.pastille');
     if (!b || !past || pastilleAnim) return;

@@ -93,7 +93,7 @@ a { color: var(--or); }
 .bouton-menu { position: relative; display: inline-flex; align-items: center; justify-content: center; min-width: 44px; overflow: hidden; transition: padding .6s var(--lent), width .6s var(--lent), height .6s var(--lent), min-width .6s var(--lent), border-color .6s ease, box-shadow .6s ease; }
 .bouton-menu .menu-icone { position: absolute; left: 50%; top: 50%; margin: -10px 0 0 -10px; opacity: 0; transform: scale(.7); transition: opacity .5s ease, transform .6s var(--lent); }
 .bouton-menu .menu-mot { transition: opacity .4s ease; }
-/* Au défilement, « Menu » devient une petite icône : trois traits dont le premier porte une croix dorée. */
+/* Au défilement, « Réglages » devient une petite icône : une roue dentée au cœur doré, comme le O du logo. */
 :root.defile .bouton-menu { width: 38px; height: 38px; min-width: 38px; padding: 0; border-color: transparent; box-shadow: 0 4px 16px rgba(60,45,30,.08); }
 :root.defile .bouton-menu .menu-mot { opacity: 0; }
 /* Même gabarit que le O du logo à gauche : rond de 38 px, sans cerclage, icône agrandie. */
@@ -107,7 +107,7 @@ a { color: var(--or); }
 :root:not(.nuit) .mer-bas { opacity: .7; }
 .logo svg { overflow: visible; display: block; }
 
-.bouton-menu { font-size: 12px; font-weight: 500; height: 44px; width: 72px; padding: 0 16px; border-radius: 999px;
+.bouton-menu { font-size: 12px; font-weight: 500; height: 44px; width: var(--larg-menu, 88px); padding: 0 16px; white-space: nowrap; border-radius: 999px;
   background: var(--verre); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border: 1px solid var(--filet); }
 .vue { padding: 0 28px; }
 .vue.entre > * { animation: apparait 1.2s var(--lent) both; }
@@ -164,7 +164,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .bloc h3 { margin: 0 0 6px; font-size: .6875rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--discret); }
 .bloc p { margin: 0; font-size: .9375rem; color: var(--doux); }
 .source { margin-top: 8px; font-size: .75rem; color: var(--discret); }
-/* Les sources d'une page de lecture : séparées du dernier paragraphe, comme les mentions du Menu. */
+/* Les sources d'une page de lecture : séparées du dernier paragraphe, comme les mentions des Réglages. */
 .lecture > .source { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--filet); }
 .groupe { margin: 32px 0 0; font-size: .6875rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--discret); }
 

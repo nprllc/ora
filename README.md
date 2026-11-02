@@ -45,7 +45,7 @@ Le lectionnaire, les contenus éditoriaux et les prières de fête sont rangés 
 
 ### Les régions
 
-La région liturgique est un réglage distinct de la langue (Menu, « Région liturgique » ; par défaut : France pour le français, Espagne pour l'espagnol, États-Unis pour l'anglais).
+La région liturgique n'est pas un réglage : elle suit la langue (France pour le français, Espagne pour l'espagnol, États-Unis pour l'anglais).
 
 | Région | Épiphanie | Ascension | Saint-Sacrement | Fêtes propres |
 |---|---|---|---|---|
