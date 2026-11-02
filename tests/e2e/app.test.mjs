@@ -78,9 +78,23 @@ test('le jour d\'Ora commence à 5 h : à 2 h du matin, c\'est encore le contenu
   await o.ctx.close();
 });
 
+test('réglages : la roue dentée referme les réglages et ramène exactement là où l\'on était', async () => {
+  const { ctx, page } = await ouvrir('2026-11-03', 'fr');
+  await page.evaluate(() => window.scrollTo(0, 500));
+  const y = await page.evaluate(() => window.scrollY);
+  await page.$eval('.bouton-menu', (b) => b.click()); // comme un toucher, sans que Playwright fasse défiler la page
+  await page.waitForSelector('[data-action=langue]');
+  await page.$eval('[data-cle=taille][data-id=grand]', (b) => b.click());
+  await page.$eval('.bouton-menu', (b) => b.click());
+  await page.waitForSelector('.section-jour');
+  assert.ok(Math.abs((await page.evaluate(() => window.scrollY)) - y) < 2, 'même position');
+  assert.ok(!(await page.$('[data-action=langue]')), 'les réglages sont refermés');
+  await ctx.close();
+});
+
 test('favoris : un favori qui ne désigne aucun verset est retiré du stockage', async () => {
   const { ctx, page } = await ouvrir('2026-11-03', 'en', { marques: [{ o: 'Matt', c: 99, v: 1 }, { o: 'Matt', c: 5, v: 3 }] });
-  await page.click('[data-action=aller][data-id=menu]');
+  await page.click('[data-action=onglet][data-id=bible]');
   await page.click('[data-action=aller][data-id=favoris]');
   await page.waitForSelector('.favori');
   const lignes = await texte(page, '.favori b');

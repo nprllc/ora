@@ -433,8 +433,8 @@
     var a = aujourdhui();
     var h = '<section class="vue page"><p class="surtitre">' + esc(T('lire-bible')) + '</p><h2>' + esc(T('onglet.bible')) + '</h2><p class="chapeau">' + esc(T('bible-chapeau')) + '</p>';
     if (!BIBLE || bibleLangue !== LANG) return h + attendreBible() + '</section>';
-    var e = evangile(a);
-    if (e && !e.attente) h += '<div class="rubriques">' + rubrique('<span class="titre-r">' + esc(T('evangile-jour')) + '</span><span class="texte-r">' + esc(e.ref) + '</span>', { action: 'passage', id: e.id }) + '</div>';
+    var nb = lireMarques().length;
+    h += '<div class="rubriques">' + rubrique('<span class="titre-r">' + esc(T('favoris')) + '</span><span class="texte-r">' + esc(nb ? T('favoris-nb', nb) : T('favoris-vide')) + '</span>', { action: 'aller', id: 'favoris' }) + '</div>';
     h += '<label class="surtitre" for="cherche-bible" style="display:block;margin-top:24px">' + esc(T('chercher-bible')) + '</label><input id="cherche-bible" class="recherche" type="search" autocomplete="off" value="' + esc(etat.cherche) + '" placeholder="' + esc(T('ex-bible')) + '">';
     h += '<div id="resultats">' + resultats(etat.cherche) + '</div>';
     [['NT', T('nouveau-testament')], ['AT', T('ancien-testament')]].forEach(function (t) {
@@ -545,8 +545,6 @@
     var h = '<section class="vue page">' + boutonRetour();
     h += '<p class="surtitre">' + esc(T('menu')) + '</p><h2>' + esc(T('menu-titre')) + '</h2>';
     h += '<p class="presentation">' + T('presentation') + '</p>';
-    var nb = lireMarques().length;
-    h += '<div class="rubriques">' + rubrique('<span class="titre-r">' + esc(T('favoris')) + '</span><span class="texte-r">' + esc(nb ? T('favoris-nb', nb) : T('favoris-vide')) + '</span>', { action: 'aller', id: 'favoris' }) + '</div>';
     h += '<p class="groupe">' + esc(T('langue')) + '</p><div class="segments">' + LANGUES.map(function (l) { return '<button class="' + (LANG === l[0] ? 'on' : '') + '" aria-pressed="' + (LANG === l[0]) + '" data-action="langue" data-id="' + l[0] + '" lang="' + l[0] + '">' + l[1] + '</button>'; }).join('') + '</div>';
     h += '<p class="note">' + esc(T('langue-note')) + '</p>';
     h += '<p class="groupe">' + esc(T('ambiance')) + '</p><div class="segments">' + seg('mode', 'auto', T('selon-heure')) + seg('mode', 'jour', T('jour')) + seg('mode', 'nuit', T('soir')) + '</div>';
@@ -557,7 +555,7 @@
   }
 
   function vueFavoris() {
-    var h = '<section class="vue page">' + boutonRetour() + '<p class="surtitre">' + esc(T('menu')) + '</p><h2>' + esc(T('favoris')) + '</h2>';
+    var h = '<section class="vue page">' + boutonRetour() + '<p class="surtitre">' + esc(T('onglet.bible')) + '</p><h2>' + esc(T('favoris')) + '</h2>';
     var m = lireMarques();
     if (!m.length) return h + '<p class="chapeau">' + esc(T('favoris-aucun')) + '</p></section>';
     if (!BIBLE || bibleLangue !== LANG) return h + attendreBible() + '</section>';
@@ -625,7 +623,7 @@
     else if (v === 'favoris') contenu = vueFavoris();
     else contenu = vueMenu();
 
-    var onglet = (v === 'accueil' || v.indexOf('lecture:') === 0) ? 'accueil' : (v.indexOf('bible') === 0 ? 'bible' : (v === 'famille' || v === 'guide') ? 'famille' : (v === 'menu' || v === 'favoris') ? '' : 'prier');
+    var onglet = (v === 'accueil' || v.indexOf('lecture:') === 0) ? 'accueil' : (v.indexOf('bible') === 0 ? 'bible' : (v === 'famille' || v === 'guide') ? 'famille' : v === 'favoris' ? 'bible' : v === 'menu' ? '' : 'prier');
     var ciel = document.getElementById('ciel');
     ciel.className = 'ciel' + (v === 'accueil' ? '' : ' discret');
     var cleCiel = nuit ? 'nuit' : 'jour';
@@ -640,7 +638,7 @@
     var nouvelleVue = v !== derniereVue || v === 'guide';
     document.getElementById('app').innerHTML =
       '<header class="entete"><button class="logo" data-action="haut" aria-label="' + esc(T('haut')) + '">' + LOGO + '</button>' +
-      '<button class="bouton-menu" data-action="aller" data-id="menu" aria-label="' + esc(T('menu')) + '"><span class="menu-mot">' + esc(T('menu')) + '</span>' + ICONE_MENU + '</button></header>' +
+      '<button class="bouton-menu" data-action="reglages" aria-label="' + esc(T('menu')) + '"><span class="menu-mot">' + esc(T('menu')) + '</span>' + ICONE_MENU + '</button></header>' +
       '<main>' + contenu + '</main><div class="mer-bas" id="mer-bas" aria-hidden="true"></div>';
     if (nouvelleVue) { var vu = document.querySelector('.vue'); if (vu) vu.classList.add('entre'); }
     derniereVue = v;
@@ -756,7 +754,13 @@
     merBasCache[cle] = { largeur: z.clientWidth, calques: calques };
   }
 
-  function empiler() { etat.pile.push({ vue: etat.vue, guide: etat.guide, etape: etat.etape, bible: etat.bible }); }
+  function empiler() { etat.pile.push({ vue: etat.vue, guide: etat.guide, etape: etat.etape, bible: etat.bible, y: window.scrollY }); }
+  // Revenir à la page précédente, au même endroit (les réglages changés entre-temps sont déjà appliqués).
+  function revenir() {
+    var p = etat.pile.pop() || { vue: 'accueil', y: 0 };
+    etat.vue = p.vue; etat.guide = p.guide; etat.bible = p.bible; etat.etape = p.etape || 0; rendre();
+    window.scrollTo(0, p.y || 0);
+  }
   function aller(vue) { empiler(); etat.vue = vue; rendre(); window.scrollTo(0, 0); }
 
   function feuille(titre, corpsHtml) {
@@ -815,7 +819,8 @@
     }
     else if (act === 'guide') { empiler(); etat.vue = 'guide'; etat.guide = id; etat.etape = 0; rendre(); window.scrollTo(0, 0); }
     else if (act === 'etape') { etat.etape = +id; rendre(); }
-    else if (act === 'retour') { var p = etat.pile.pop() || { vue: 'accueil' }; etat.vue = p.vue; etat.guide = p.guide; etat.bible = p.bible; etat.etape = 0; rendre(); window.scrollTo(0, 0); }
+    else if (act === 'retour') revenir();
+    else if (act === 'reglages') { if (etat.vue === 'menu') revenir(); else aller('menu'); }
     else if (act === 'langue') { R.langue = id; LANG = id; ecrireReglages(); preparer(); BIBLE = null; bibleLangue = null; chargerBible().then(nettoyerMarques).catch(function () {}); rendreEnPlace(); }
     else if (act === 'reglage') { R[el.getAttribute('data-cle')] = id; ecrireReglages(); rendreEnPlace(); majVivant(); }
     else if (act === 'explication') {
