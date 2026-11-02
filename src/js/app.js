@@ -647,9 +647,8 @@
   var ETOILES_HAUT = [[40, 90, 6, 0], [120, 40, 8, 1.4], [300, 70, 7, 3], [350, 160, 9, 2], [70, 230, 7.5, 4.5], [210, 120, 10, 5.2], [280, 260, 6.5, 0.8],
     [20, 400, 8, 3.6], [360, 420, 7, 1.9], [160, 330, 9, 6]];
   // [profondeur, décalage horizontal (px depuis le centre), haut (px), largeur, graine, retard (s)]
-  var BALAI = [['loin', -240, 40, 360, 6101, 0], ['loin', 40, 140, 340, 6203, 0.12],
-    ['milieu', -320, 120, 470, 6307, 0.05], ['milieu', -40, 230, 440, 6409, 0.18],
-    ['pres', -360, 220, 600, 6511, 0.1], ['pres', -120, 330, 580, 6613, 0.22]];
+  // Seuls les grands nuages du premier plan (les petits nuages qui montaient d'abord ont été retirés, à la demande de Nico).
+  var BALAI = [['pres', -360, 220, 600, 6511, 0.1], ['pres', -120, 330, 580, 6613, 0.22]];
   var BALAI_TEINTES = {
     jour: { loin: { corps: [240, 233, 246], ombre: [214, 206, 228], lumiere: [252, 250, 255], a: 0.07 },
       milieu: { corps: [253, 238, 228], ombre: [228, 210, 214], lumiere: [255, 252, 246], a: 0.085 },
