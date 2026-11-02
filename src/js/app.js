@@ -298,6 +298,9 @@
     html += '<button class="couleur-lit" data-action="explication" aria-label="' + esc(T('en-savoir-plus') + '. ' + T('couleur') + ' ' + NOM_COULEUR[LANG][j.couleur]) + '"><i style="background:' + COULEURS[j.couleur] + '"></i>' + esc(T('en-savoir-plus')) + '</button>';
 
     html += '<div class="sections">';
+    // Bienvenue : une seule fois, à la première ouverture ; ensuite, « À propos d'Ora » dans les Réglages.
+    if (!R.bienvenue) html += '<section class="section-jour bienvenue"><h2 class="etiquette">' + esc(T('menu-titre')) + '</h2><p class="presentation">' + T('presentation') + '</p>' +
+      '<button class="lire" data-action="bienvenue">' + esc(T('commencer')) + icone('fleche') + '</button></section>';
     var p = priereDuMoment(a);
     if (p.texte) html += section(p.etiquette, blocPriere(p));
     var e = evangile(a);
@@ -559,13 +562,13 @@
   // ---------- Réglages ----------
   function vueMenu() {
     var h = '<section class="vue page">' + boutonRetour();
-    h += '<p class="surtitre">' + esc(T('menu')) + '</p><h2>' + esc(T('menu-titre')) + '</h2>';
-    h += '<p class="presentation">' + T('presentation') + '</p>';
+    h += '<h2>' + esc(T('menu')) + '</h2>';
     h += '<p class="groupe">' + esc(T('langue')) + '</p><div class="segments">' + LANGUES.map(function (l) { return '<button class="' + (LANG === l[0] ? 'on' : '') + '" aria-pressed="' + (LANG === l[0]) + '" data-action="langue" data-id="' + l[0] + '" lang="' + l[0] + '">' + l[1] + '</button>'; }).join('') + '</div>';
     h += '<p class="note">' + esc(T('langue-note')) + '</p>';
     h += '<p class="groupe">' + esc(T('ambiance')) + '</p><div class="segments">' + seg('mode', 'auto', T('selon-heure')) + seg('mode', 'jour', T('jour')) + seg('mode', 'nuit', T('soir')) + '</div>';
     h += '<p class="note">' + esc(T('ambiance-note')) + '</p>';
     h += '<p class="groupe">' + esc(T('taille')) + '</p><div class="segments">' + seg('taille', 'normal', T('normale')) + seg('taille', 'grand', T('grande')) + seg('taille', 'tres-grand', T('tres-grande')) + '</div>';
+    h += '<p class="groupe">' + esc(T('a-propos')) + '</p><p class="presentation">' + T('presentation') + '</p>';
     h += '<div class="mentions"><p class="note">' + esc(T('donnees')) + '</p><p class="note">' + esc(T('traduction-bible')) + '</p></div>';
     return h + '</section>';
   }
@@ -836,6 +839,7 @@
     else if (act === 'guide') { empiler(); etat.vue = 'guide'; etat.guide = id; etat.etape = 0; rendre(); window.scrollTo(0, 0); }
     else if (act === 'etape') { etat.etape = +id; rendre(); }
     else if (act === 'retour') revenir();
+    else if (act === 'bienvenue') { R.bienvenue = true; ecrireReglages(); rendreEnPlace(); }
     else if (act === 'reglages') { if (etat.vue === 'menu') revenir(); else aller('menu'); }
     else if (act === 'langue') { R.langue = id; LANG = id; ecrireReglages(); preparer(); BIBLE = null; bibleLangue = null; chargerBible().then(nettoyerMarques).catch(function () {}); rendreEnPlace(); }
     else if (act === 'reglage') { R[el.getAttribute('data-cle')] = id; ecrireReglages(); rendreEnPlace(); majVivant(); }

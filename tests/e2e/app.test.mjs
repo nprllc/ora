@@ -11,17 +11,17 @@ before(async () => { navigateur = await chromium.launch(); serveur = await servi
 after(async () => { await navigateur.close(); serveur.fermer(); });
 
 // Ouvre l'app à une date et une heure données, dans une langue et (facultatif) une région.
-async function ouvrir(date, langue, { region = null, marques = null, url = serveur.url, heure = '12:00' } = {}) {
+async function ouvrir(date, langue, { region = null, marques = null, url = serveur.url, heure = '12:00', bienvenue = true } = {}) {
   const ctx = await navigateur.newContext({ viewport: { width: 390, height: 844 }, locale: langue, serviceWorkers: 'block' });
   const page = await ctx.newPage();
   const erreurs = [], requetes = [];
   page.on('pageerror', (e) => erreurs.push(e.message));
   page.on('request', (r) => requetes.push(r.url()));
   await page.clock.setFixedTime(new Date(date + 'T' + heure + ':00'));
-  await page.addInitScript(([l, r, m]) => {
-    localStorage.setItem('ora.reglages', JSON.stringify({ langue: l, region: r, mode: 'jour' }));
+  await page.addInitScript(([l, r, m, b]) => {
+    localStorage.setItem('ora.reglages', JSON.stringify({ langue: l, region: r, mode: 'jour', bienvenue: b }));
     if (m) localStorage.setItem('ora.marques', JSON.stringify(m));
-  }, [langue, region, marques]);
+  }, [langue, region, marques, bienvenue]);
   await page.goto(url);
   await page.waitForFunction(() => document.querySelector('.section-jour') && !document.querySelector('.charge'), null, { timeout: 15000 });
   return { ctx, page, erreurs, requetes };
@@ -104,6 +104,17 @@ test('mot du jour : en bas d\'Aujourd\'hui, jamais le même deux jours de suite,
     await ctx.close();
   }
   assert.notEqual(mots[0], mots[1]); assert.notEqual(mots[1], mots[2]);
+});
+
+test('bienvenue : affichée à la première ouverture seulement, puis dans les Réglages', async () => {
+  const { ctx, page } = await ouvrir('2026-11-03', 'fr', { bienvenue: false });
+  assert.ok(await page.$('.bienvenue'), 'carte de bienvenue');
+  await page.$eval('[data-action=bienvenue]', (b) => b.click());
+  assert.ok(!(await page.$('.bienvenue')), 'disparue après « Commencer »');
+  assert.ok(JSON.parse(await page.evaluate(() => localStorage.getItem('ora.reglages'))).bienvenue, 'gardé sur le téléphone');
+  await page.$eval('.bouton-menu', (b) => b.click());
+  assert.match(await page.textContent('main'), /À propos d'Ora/);
+  await ctx.close();
 });
 
 test('favoris : un favori qui ne désigne aucun verset est retiré du stockage', async () => {
