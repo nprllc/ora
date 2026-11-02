@@ -641,25 +641,31 @@
         '<h1 class="be-titre">' + esc(T('menu-titre')) + '</h1><p class="be-texte">' + T('presentation') + '</p>' +
         '<button class="be-commencer" data-action="bienvenue">' + esc(T('commencer')) + '</button></div>' +
       '</div>' +
-      '<div class="be-voile" id="be-voile" aria-hidden="true"><div class="be-voile-a" id="be-voile-a"></div><div class="be-voile-b" id="be-voile-b"></div><div class="be-voile-c" id="be-voile-c"></div></div>';
+      '<div class="be-voile" aria-hidden="true"><div class="be-brume"></div>' +
+        [1, 2, 3, 4, 5].map(function (k) { return '<div class="be-puff be-puff-' + k + '" id="be-puff-' + k + '"></div>'; }).join('') + '</div>';
     document.body.appendChild(e);
     document.getElementById('app').innerHTML = ''; document.getElementById('barre').hidden = true;
     OraAquarelle.peindre(document.getElementById('be-nuages'), cle, true);
     OraAquarelle.peindre(document.getElementById('be-mer-loin'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
-    ['a', 'b', 'c'].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-voile-' + k), k === 'b' ? 'bas-' + cle : cle, false); });
+    [1, 2, 3, 4, 5].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-puff-' + k), cle, false); });
+    document.documentElement.classList.add('vivant'); // le fond de l'écran vit comme le ciel d'Aujourd'hui
   }
+  // 1. Des nuages d'aquarelle entrent lentement et voilent le texte (le texte ne bouge pas) ;
+  // 2. une fois tout voilé, on descend doucement : Aujourd'hui arrive d'en bas jusqu'à sa place, les nuages passent.
   function quitterBienvenue() {
-    var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('descend')) return;
+    var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('voile')) return;
     var lent = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     R.bienvenue = true; ecrireReglages();
-    // Aujourd'hui est posé dessous, plus bas : en descendant, il monte vers nous jusqu'à sa place.
-    etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
-    if (lent) { e.remove(); return; }
-    document.documentElement.classList.add('arrivee');
-    void e.offsetWidth; // le navigateur prend la position de départ avant l'animation
-    e.classList.add('descend');
-    setTimeout(function () { document.documentElement.classList.remove('arrivee'); e.remove(); }, 3200);
+    if (lent) { e.remove(); etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); return; }
+    e.classList.add('voile');
+    setTimeout(function () {
+      etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
+      document.documentElement.classList.add('arrivee');
+      void e.offsetWidth;
+      e.classList.add('descend');
+      setTimeout(function () { document.documentElement.classList.remove('arrivee'); e.remove(); }, 4800);
+    }, 3200);
   }
 
   function rendre() {
