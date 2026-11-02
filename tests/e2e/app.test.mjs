@@ -11,13 +11,13 @@ before(async () => { navigateur = await chromium.launch(); serveur = await servi
 after(async () => { await navigateur.close(); serveur.fermer(); });
 
 // Ouvre l'app à une date et une heure données, dans une langue et (facultatif) une région.
-async function ouvrir(date, langue, { region = null, marques = null, url = serveur.url } = {}) {
+async function ouvrir(date, langue, { region = null, marques = null, url = serveur.url, heure = '12:00' } = {}) {
   const ctx = await navigateur.newContext({ viewport: { width: 390, height: 844 }, locale: langue, serviceWorkers: 'block' });
   const page = await ctx.newPage();
   const erreurs = [], requetes = [];
   page.on('pageerror', (e) => erreurs.push(e.message));
   page.on('request', (r) => requetes.push(r.url()));
-  await page.clock.setFixedTime(new Date(date + 'T12:00:00'));
+  await page.clock.setFixedTime(new Date(date + 'T' + heure + ':00'));
   await page.addInitScript(([l, r, m]) => {
     localStorage.setItem('ora.reglages', JSON.stringify({ langue: l, region: r, mode: 'jour' }));
     if (m) localStorage.setItem('ora.marques', JSON.stringify(m));
@@ -68,6 +68,15 @@ test('régions : l\'Épiphanie le 6 janvier 2027 en Espagne (Mt 2, 1-12), le 3 j
   await o.ctx.close();
 });
 function page(o) { return o.page; }
+
+test('le jour d\'Ora commence à 5 h : à 2 h du matin, c\'est encore le contenu de la veille', async () => {
+  let o = await ouvrir('2026-11-03', 'fr', { heure: '02:00' });
+  assert.match(await o.page.textContent('.surtitre'), /2 novembre 2026/);
+  await o.ctx.close();
+  o = await ouvrir('2026-11-03', 'fr', { heure: '05:01' });
+  assert.match(await o.page.textContent('.surtitre'), /3 novembre 2026/);
+  await o.ctx.close();
+});
 
 test('favoris : un favori qui ne désigne aucun verset est retiré du stockage', async () => {
   const { ctx, page } = await ouvrir('2026-11-03', 'en', { marques: [{ o: 'Matt', c: 99, v: 1 }, { o: 'Matt', c: 5, v: 3 }] });

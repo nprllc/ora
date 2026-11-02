@@ -106,7 +106,7 @@
   function estNuit() {
     if (R.mode === 'jour') return false; if (R.mode === 'nuit') return true;
     var dt = new Date(), h = dt.getHours() + dt.getMinutes() / 60;
-    return h < 5 || h >= coucherDuSoleil(dt);
+    return h < HEURE_DU_JOUR || h >= coucherDuSoleil(dt);
   }
   function guillemets(t) { return LANG === 'en' ? '\u201c' + t + '\u201d' : LANG === 'es' ? '\u00ab' + t + '\u00bb' : '\u00ab\u00a0' + t + '\u00a0\u00bb'; }
 
@@ -219,8 +219,12 @@
   // Cherche la première clé liturgique du jour présente dans un dictionnaire (célébration, puis jour férial).
   function chercher(dico, cles) { for (var i = 0; i < cles.length; i++) { if (dico && dico[cles[i]]) return dico[cles[i]]; } return null; }
 
+  // Le jour d'Ora commence à 5 h, avec le retour du Jour : entre minuit et 5 h, c'est encore la nuit
+  // de la veille (même date, même Évangile, même prière du soir). Le contenu du lendemain arrive à 5 h.
+  var HEURE_DU_JOUR = 5;
+  function dateDuJour() { var dt = new Date(); if (dt.getHours() < HEURE_DU_JOUR) dt.setDate(dt.getDate() - 1); return dt; }
   function aujourdhui(dt) {
-    dt = dt || new Date();
+    dt = dt || dateDuJour();
     var j = OraLiturgie.jour(dt, D.fetes);
     var cid = j.celebration && j.celebration.id;
     var expl = (cid && D.explications.fetes[cid]) || null;
@@ -821,12 +825,12 @@
   document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape') fermerFeuille(); });
   window.addEventListener('scroll', majDefile, { passive: true });
 
-  // Passe au soir au coucher du soleil (et au jour à 5 h) sans recharger ; change de jour à minuit.
-  var jourAffiche = new Date().toDateString();
+  // Passe au soir au coucher du soleil, et au jour suivant à 5 h, sans recharger.
+  var jourAffiche = dateDuJour().toDateString();
   setInterval(function () {
     if (!D || document.querySelector('.feuille')) return;
-    var change = (estNuit() ? 'nuit' : 'jour') !== dernierCiel || new Date().toDateString() !== jourAffiche;
-    if (change) { jourAffiche = new Date().toDateString(); rendreEnPlace(); }
+    var change = (estNuit() ? 'nuit' : 'jour') !== dernierCiel || dateDuJour().toDateString() !== jourAffiche;
+    if (change) { jourAffiche = dateDuJour().toDateString(); rendreEnPlace(); }
   }, 30000);
   // Sur iPhone, la barre de Safari se replie au défilement : la hauteur change, pas la largeur.
   // On ne repeint le ciel que si la largeur change, sinon les nuages repartiraient en arrière.
