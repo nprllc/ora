@@ -13,7 +13,7 @@
   var LOCUTIONS = ['Memento mori', 'Angele Dei', 'Benedic, Domine', 'Requiem æternam', 'Requiem aeternam', 'De profundis',
     'Regina Caeli', 'Regina Coeli', 'Salve Regina', 'Sub tuum praesidium', 'Te Deum', 'Veni Creator', 'Veni Sancte Spiritus',
     'Nunc dimittis', 'Deus caritas est', 'Lumen gentium', 'Lumen Gentium', 'Spe salvi', 'Laudato si’', 'Evangelii gaudium',
-    'mortem cotidie ante oculos suspectam habere', 'Verbum caro factum est', 'Ora et labora'];
+    'mortem cotidie ante oculos suspectam habere', 'Verbum caro factum est', 'Ora et labora', 'Corpus Christi'];
   var CITES = ['adventus', 'caro', 'laus', 'ordo', 'vesper', 'cor', 'misericordia', 'credo', 'hostia', 'sacramentum', 'ecclesia'];
   var echappe = function (s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); };
   var reLoc = new RegExp('(^|[^\\p{L}])(' + LOCUTIONS.sort(function (a, b) { return b.length - a.length; }).map(echappe).join('|') + ')(?![\\p{L}])', 'gu');

@@ -405,6 +405,1300 @@
         "memento mori"
       ],
       "def": "Une expression latine : « souviens-toi que tu mourras ». Pour les chrétiens, ce n'est pas une pensée triste, mais une invitation à vivre pleinement chaque jour et à ne pas remettre l'essentiel à plus tard."
+    },
+    {
+      "id": "kyrie",
+      "mot": "Kyrie",
+      "formes": [
+        "Kyrie",
+        "kyrie"
+      ],
+      "def": "Au début de la messe, on dit ou chante « Seigneur, prends pitié ». Kyrie est le mot grec pour « Seigneur ». On se tourne vers Dieu avec confiance, en reconnaissant qu'on a besoin de Lui."
+    },
+    {
+      "id": "gloria",
+      "mot": "Gloria",
+      "formes": [
+        "Gloria",
+        "gloria"
+      ],
+      "def": "Le chant de joie de la messe du dimanche et des fêtes, qui commence par les paroles des anges à Noël : « Gloire à Dieu au plus haut des cieux ». On ne le chante pas pendant l'Avent et le Carême."
+    },
+    {
+      "id": "liturgie-parole",
+      "mot": "Liturgie de la Parole",
+      "formes": [
+        "Liturgie de la Parole",
+        "liturgie de la Parole"
+      ],
+      "def": "La première grande partie de la messe : on écoute la Bible. Une lecture de l'Ancien Testament, un psaume, souvent une lettre des apôtres, puis l'Évangile, que tout le monde écoute debout."
+    },
+    {
+      "id": "homelie",
+      "mot": "Homélie",
+      "formes": [
+        "Homélie",
+        "homélie",
+        "homélies"
+      ],
+      "def": "Après l'Évangile, le prêtre ou le diacre explique les lectures et aide chacun à les vivre aujourd'hui. On l'appelle aussi le sermon."
+    },
+    {
+      "id": "priere-universelle",
+      "mot": "Prière universelle",
+      "formes": [
+        "Prière universelle",
+        "prière universelle"
+      ],
+      "def": "À la messe, après le Credo, on prie pour l'Église, pour le monde, pour ceux qui souffrent et pour la communauté. Chacun répond par une courte invocation."
+    },
+    {
+      "id": "offertoire",
+      "mot": "Offertoire",
+      "formes": [
+        "Offertoire",
+        "offertoire"
+      ],
+      "def": "Le moment de la messe où l'on apporte à l'autel le pain et le vin, qui vont devenir le Corps et le Sang du Christ. C'est souvent aussi le moment de la quête."
+    },
+    {
+      "id": "priere-eucharistique",
+      "mot": "Prière eucharistique",
+      "formes": [
+        "Prière eucharistique",
+        "prière eucharistique"
+      ],
+      "def": "Le cœur de la messe : la grande prière du prêtre, au nom de tous, qui rend grâce à Dieu et pendant laquelle le pain et le vin sont consacrés."
+    },
+    {
+      "id": "consecration",
+      "mot": "Consécration",
+      "formes": [
+        "Consécration",
+        "consécration"
+      ],
+      "def": "Au cœur de la messe, le prêtre redit les paroles de Jésus à la Cène : « Ceci est mon Corps », « Ceci est mon Sang ». Le pain et le vin deviennent alors le Corps et le Sang du Christ."
+    },
+    {
+      "id": "agneau-de-dieu",
+      "mot": "Agneau de Dieu",
+      "formes": [
+        "Agneau de Dieu",
+        "agneau de Dieu"
+      ],
+      "def": "Un nom de Jésus, donné par Jean-Baptiste (Jn 1, 29) : Il donne sa vie pour nous. À la messe, juste avant la communion, on chante « Agneau de Dieu, qui enlèves le péché du monde »."
+    },
+    {
+      "id": "quete",
+      "mot": "Quête",
+      "formes": [
+        "Quête",
+        "quête"
+      ],
+      "def": "À la messe, on donne de l'argent pour la vie de la paroisse et pour aider les plus pauvres. C'est une façon simple de participer.",
+      "souligne": false
+    },
+    {
+      "id": "benediction",
+      "mot": "Bénédiction",
+      "formes": [
+        "Bénédiction",
+        "bénédiction",
+        "bénédictions"
+      ],
+      "def": "Dire du bien et appeler la grâce de Dieu sur quelqu'un ou sur quelque chose. À la fin de la messe, le prêtre bénit l'assemblée en traçant sur elle le signe de croix.",
+      "souligne": false
+    },
+    {
+      "id": "autel",
+      "mot": "Autel",
+      "formes": [
+        "Autel",
+        "autel",
+        "autels"
+      ],
+      "def": "La table de pierre ou de bois, au centre de l'église, où le prêtre célèbre l'Eucharistie. Elle représente le Christ lui-même."
+    },
+    {
+      "id": "ambon",
+      "mot": "Ambon",
+      "formes": [
+        "Ambon",
+        "ambon"
+      ],
+      "def": "Le pupitre d'où l'on proclame les lectures de la Bible pendant la messe."
+    },
+    {
+      "id": "tabernacle",
+      "mot": "Tabernacle",
+      "formes": [
+        "Tabernacle",
+        "tabernacle"
+      ],
+      "def": "Le petit coffre, souvent doré, où l'on garde les hosties consacrées après la messe, pour les malades et pour la prière. Une petite lampe rouge allumée à côté signale la présence de Jésus."
+    },
+    {
+      "id": "calice",
+      "mot": "Calice",
+      "formes": [
+        "Calice",
+        "calice"
+      ],
+      "def": "La coupe dans laquelle le prêtre consacre le vin pendant la messe."
+    },
+    {
+      "id": "ciboire",
+      "mot": "Ciboire",
+      "formes": [
+        "Ciboire",
+        "ciboire"
+      ],
+      "def": "Le vase sacré, avec un couvercle, qui contient les hosties pour la communion."
+    },
+    {
+      "id": "missel",
+      "mot": "Missel",
+      "formes": [
+        "Missel",
+        "missel"
+      ],
+      "def": "Le livre qui contient les prières de la messe, celles que dit le prêtre. Il existe aussi des missels pour les fidèles, pour suivre la messe."
+    },
+    {
+      "id": "encens",
+      "mot": "Encens",
+      "formes": [
+        "Encens",
+        "encens"
+      ],
+      "def": "Une résine qui brûle en donnant une fumée parfumée. Dans la liturgie, elle exprime la prière qui monte vers Dieu (Ps 141, 2)."
+    },
+    {
+      "id": "genuflexion",
+      "mot": "Génuflexion",
+      "formes": [
+        "Génuflexion",
+        "génuflexion"
+      ],
+      "def": "Poser un genou à terre devant le tabernacle, en signe de respect et d'adoration envers Jésus présent."
+    },
+    {
+      "id": "eau-benite",
+      "mot": "Eau bénite",
+      "formes": [
+        "Eau bénite",
+        "eau bénite"
+      ],
+      "def": "De l'eau bénie par un prêtre. En entrant dans l'église, on y trempe les doigts et l'on fait le signe de croix, en souvenir de son baptême."
+    },
+    {
+      "id": "signe-de-paix",
+      "mot": "Signe de paix",
+      "formes": [
+        "Signe de paix",
+        "signe de paix"
+      ],
+      "def": "À la messe, avant la communion, on se donne la paix du Christ, souvent par une poignée de main : on se reconnaît frères et sœurs."
+    },
+    {
+      "id": "confirmation",
+      "mot": "Confirmation",
+      "formes": [
+        "Confirmation",
+        "confirmation"
+      ],
+      "def": "Le sacrement qui achève le baptême. L'évêque marque le front du saint chrême, et l'Esprit Saint donne la force de vivre et de témoigner de sa foi."
+    },
+    {
+      "id": "reconciliation",
+      "mot": "Réconciliation",
+      "formes": [
+        "Réconciliation",
+        "réconciliation"
+      ],
+      "def": "Le sacrement du pardon, qu'on appelle aussi confession. On dit ses péchés à un prêtre, et Dieu pardonne. On en ressort léger et réconcilié avec Dieu, avec les autres et avec soi-même."
+    },
+    {
+      "id": "absolution",
+      "mot": "Absolution",
+      "formes": [
+        "Absolution",
+        "absolution"
+      ],
+      "def": "Les paroles par lesquelles le prêtre, au nom de Dieu, pardonne les péchés dans le sacrement de réconciliation : « Je te pardonne tous tes péchés, au nom du Père, et du Fils, et du Saint-Esprit. »"
+    },
+    {
+      "id": "contrition",
+      "mot": "Contrition",
+      "formes": [
+        "Contrition",
+        "contrition"
+      ],
+      "def": "Le regret sincère d'avoir fait le mal, avec le désir de changer. Le plus beau regret naît de l'amour de Dieu plus que de la peur."
+    },
+    {
+      "id": "penitence",
+      "mot": "Pénitence",
+      "formes": [
+        "Pénitence",
+        "pénitence"
+      ],
+      "def": "Un geste concret pour réparer le mal fait et se tourner à nouveau vers Dieu : une prière, un service, un effort. Le prêtre en propose une dans la confession."
+    },
+    {
+      "id": "onction-des-malades",
+      "mot": "Onction des malades",
+      "formes": [
+        "Onction des malades",
+        "onction des malades"
+      ],
+      "def": "Le sacrement pour les personnes gravement malades ou âgées. Le prêtre leur fait une onction d'huile sainte : le Christ leur donne paix, courage et parfois la guérison."
+    },
+    {
+      "id": "ordination",
+      "mot": "Ordination",
+      "formes": [
+        "Ordination",
+        "ordination"
+      ],
+      "def": "Le sacrement de l'ordre, par lequel un homme devient diacre, prêtre ou évêque, pour servir l'Église. L'évêque lui impose les mains et prie l'Esprit Saint."
+    },
+    {
+      "id": "mariage",
+      "mot": "Mariage",
+      "formes": [
+        "Mariage",
+        "mariage"
+      ],
+      "def": "Le sacrement par lequel un homme et une femme se donnent l'un à l'autre pour toute la vie, devant Dieu. Leur amour fidèle devient un signe de l'amour de Dieu.",
+      "souligne": false
+    },
+    {
+      "id": "parrain-marraine",
+      "mot": "Parrain et marraine",
+      "formes": [
+        "Parrain et marraine",
+        "parrain et marraine",
+        "parrain",
+        "marraine"
+      ],
+      "def": "Les personnes choisies pour accompagner un baptisé ou un confirmand sur le chemin de la foi, par leur prière et leur exemple."
+    },
+    {
+      "id": "premiere-communion",
+      "mot": "Première communion",
+      "formes": [
+        "Première communion",
+        "première communion"
+      ],
+      "def": "Le jour où un enfant, préparé au catéchisme, reçoit pour la première fois le Corps du Christ à la messe."
+    },
+    {
+      "id": "saint-chreme",
+      "mot": "Saint chrême",
+      "formes": [
+        "Saint chrême",
+        "saint chrême",
+        "chrême"
+      ],
+      "def": "Une huile parfumée, bénie par l'évêque pendant la Semaine sainte. Elle sert au baptême, à la confirmation et à l'ordination."
+    },
+    {
+      "id": "catechumene",
+      "mot": "Catéchumène",
+      "formes": [
+        "Catéchumène",
+        "catéchumène",
+        "catéchumènes"
+      ],
+      "def": "Un adulte ou un jeune qui se prépare à recevoir le baptême."
+    },
+    {
+      "id": "eglise",
+      "mot": "Église",
+      "formes": [
+        "Église",
+        "église"
+      ],
+      "def": "Avec une majuscule : la grande famille de tous les baptisés, rassemblée par le Christ. Avec une minuscule : le bâtiment où l'on se réunit pour prier.",
+      "souligne": false
+    },
+    {
+      "id": "paroisse",
+      "mot": "Paroisse",
+      "formes": [
+        "Paroisse",
+        "paroisse",
+        "paroisses"
+      ],
+      "def": "La communauté chrétienne d'un quartier ou d'un village, avec son église et son curé.",
+      "souligne": false
+    },
+    {
+      "id": "diocese",
+      "mot": "Diocèse",
+      "formes": [
+        "Diocèse",
+        "diocèse",
+        "diocèses"
+      ],
+      "def": "Une Église locale, souvent un département ou une grande ville, confiée à un évêque."
+    },
+    {
+      "id": "pape",
+      "mot": "Pape",
+      "formes": [
+        "Pape",
+        "pape",
+        "papes"
+      ],
+      "def": "L'évêque de Rome, successeur de l'apôtre Pierre. Il veille sur l'unité de toute l'Église.",
+      "souligne": false
+    },
+    {
+      "id": "eveque",
+      "mot": "Évêque",
+      "formes": [
+        "Évêque",
+        "évêque",
+        "évêques"
+      ],
+      "def": "Un successeur des apôtres, à qui est confié un diocèse. Il enseigne, célèbre les sacrements et guide les chrétiens.",
+      "souligne": false
+    },
+    {
+      "id": "pretre",
+      "mot": "Prêtre",
+      "formes": [
+        "Prêtre",
+        "prêtre",
+        "prêtres"
+      ],
+      "def": "Un homme ordonné pour célébrer la messe, pardonner les péchés au nom de Dieu et accompagner les chrétiens. On l'appelle souvent « mon père ».",
+      "souligne": false
+    },
+    {
+      "id": "diacre",
+      "mot": "Diacre",
+      "formes": [
+        "Diacre",
+        "diacre",
+        "diacres"
+      ],
+      "def": "Un homme ordonné pour le service : il proclame l'Évangile, baptise, célèbre des mariages et prend soin des plus fragiles. Il peut être marié."
+    },
+    {
+      "id": "cure",
+      "mot": "Curé",
+      "formes": [
+        "Curé",
+        "curé",
+        "curés"
+      ],
+      "def": "Le prêtre responsable d'une paroisse."
+    },
+    {
+      "id": "religieux",
+      "mot": "Religieux, religieuse",
+      "formes": [
+        "Religieux, religieuse",
+        "religieux, religieuse",
+        "religieux",
+        "religieuse",
+        "religieuses"
+      ],
+      "def": "Un homme ou une femme qui donne toute sa vie à Dieu, souvent en communauté, par des vœux de pauvreté, de chasteté et d'obéissance.",
+      "souligne": false
+    },
+    {
+      "id": "moine",
+      "mot": "Moine",
+      "formes": [
+        "Moine",
+        "moine",
+        "moines",
+        "moniale",
+        "moniales"
+      ],
+      "def": "Un religieux qui vit dans un monastère, dans la prière et le travail. Au féminin, on dit moniale."
+    },
+    {
+      "id": "laic",
+      "mot": "Laïc",
+      "formes": [
+        "Laïc",
+        "laïc",
+        "laïcs",
+        "laïque",
+        "laïques"
+      ],
+      "def": "Un baptisé qui n'est ni prêtre ni religieux. Il vit sa foi au milieu du monde : en famille, au travail, dans la société."
+    },
+    {
+      "id": "fidele",
+      "mot": "Fidèle",
+      "formes": [
+        "Fidèle",
+        "fidèle",
+        "fidèles"
+      ],
+      "def": "Un chrétien baptisé. « Les fidèles », ce sont tous les membres de l'Église.",
+      "souligne": false
+    },
+    {
+      "id": "disciple",
+      "mot": "Disciple",
+      "formes": [
+        "Disciple",
+        "disciple",
+        "disciples"
+      ],
+      "def": "Celui qui suit Jésus et apprend de Lui. Les premiers disciples ont tout quitté pour Le suivre ; aujourd'hui, tout chrétien est appelé à être disciple.",
+      "souligne": false
+    },
+    {
+      "id": "prophete",
+      "mot": "Prophète",
+      "formes": [
+        "Prophète",
+        "prophète",
+        "prophètes"
+      ],
+      "def": "Un homme ou une femme choisi par Dieu pour parler en son nom : appeler à la conversion, consoler, annoncer ce que Dieu prépare. Isaïe, Jérémie, Jean-Baptiste…"
+    },
+    {
+      "id": "evangeliste",
+      "mot": "Évangéliste",
+      "formes": [
+        "Évangéliste",
+        "évangéliste",
+        "évangélistes"
+      ],
+      "def": "L'auteur d'un des quatre Évangiles : Matthieu, Marc, Luc et Jean."
+    },
+    {
+      "id": "martyr",
+      "mot": "Martyr",
+      "formes": [
+        "Martyr",
+        "martyr",
+        "martyrs",
+        "martyre"
+      ],
+      "def": "Un chrétien qui a donné sa vie plutôt que de renier sa foi. Le mot grec veut dire « témoin »."
+    },
+    {
+      "id": "docteur-eglise",
+      "mot": "Docteur de l'Église",
+      "formes": [
+        "Docteur de l'Église",
+        "docteur de l'Église",
+        "docteurs de l'Église"
+      ],
+      "def": "Un titre donné à des saints dont l'enseignement éclaire particulièrement la foi, comme saint Augustin ou sainte Thérèse de Lisieux."
+    },
+    {
+      "id": "bienheureux",
+      "mot": "Bienheureux",
+      "formes": [
+        "Bienheureux",
+        "bienheureux",
+        "bienheureuse"
+      ],
+      "def": "Une personne que l'Église reconnaît comme vivant auprès de Dieu, et qu'on peut prier dans une région ou une famille religieuse. C'est l'étape avant la canonisation.",
+      "souligne": false
+    },
+    {
+      "id": "canonisation",
+      "mot": "Canonisation",
+      "formes": [
+        "Canonisation",
+        "canonisation"
+      ],
+      "def": "La décision du pape de reconnaître officiellement quelqu'un comme saint, pour toute l'Église, après une longue enquête sur sa vie."
+    },
+    {
+      "id": "saint-patron",
+      "mot": "Saint patron",
+      "formes": [
+        "Saint patron",
+        "saint patron",
+        "sainte patronne",
+        "saints patrons"
+      ],
+      "def": "Un saint que l'on choisit comme protecteur : celui de son prénom, de son pays, de son métier. On peut lui confier ses intentions."
+    },
+    {
+      "id": "concile",
+      "mot": "Concile",
+      "formes": [
+        "Concile",
+        "concile",
+        "conciles"
+      ],
+      "def": "Une grande réunion des évêques du monde entier, avec le pape, pour éclairer la foi et la vie de l'Église. Le dernier est le concile Vatican II (1962-1965).",
+      "souligne": false
+    },
+    {
+      "id": "magistere",
+      "mot": "Magistère",
+      "formes": [
+        "Magistère",
+        "magistère"
+      ],
+      "def": "La mission d'enseigner confiée au pape et aux évêques : ils transmettent fidèlement la foi reçue des apôtres."
+    },
+    {
+      "id": "annee-liturgique",
+      "mot": "Année liturgique",
+      "formes": [
+        "Année liturgique",
+        "année liturgique"
+      ],
+      "def": "L'année de l'Église, qui commence avec l'Avent. Elle fait revivre toute la vie du Christ, de sa naissance à sa résurrection, puis le don de l'Esprit Saint."
+    },
+    {
+      "id": "couleur-liturgique",
+      "mot": "Couleur liturgique",
+      "formes": [
+        "Couleur liturgique",
+        "couleur liturgique",
+        "couleurs liturgiques"
+      ],
+      "def": "La couleur des vêtements du prêtre, qui change avec les temps de l'année : violet pour attendre, blanc pour la fête, vert pour le temps ordinaire, rouge pour l'Esprit Saint et les martyrs."
+    },
+    {
+      "id": "noel",
+      "mot": "Noël",
+      "formes": [
+        "Noël",
+        "noël"
+      ],
+      "def": "La fête de la naissance de Jésus, le 25 décembre : Dieu se fait petit enfant pour venir parmi nous.",
+      "souligne": false
+    },
+    {
+      "id": "epiphanie",
+      "mot": "Épiphanie",
+      "formes": [
+        "Épiphanie",
+        "épiphanie"
+      ],
+      "def": "La fête des mages venus d'Orient adorer Jésus. Elle dit que Jésus est venu pour tous les peuples."
+    },
+    {
+      "id": "cendres",
+      "mot": "Mercredi des Cendres",
+      "formes": [
+        "Mercredi des Cendres",
+        "mercredi des Cendres",
+        "Cendres"
+      ],
+      "def": "Le premier jour du Carême. Le prêtre trace une croix de cendre sur le front : « Convertissez-vous et croyez à l'Évangile. »"
+    },
+    {
+      "id": "semaine-sainte",
+      "mot": "Semaine sainte",
+      "formes": [
+        "Semaine sainte",
+        "semaine sainte"
+      ],
+      "def": "La semaine qui va des Rameaux à Pâques. On y revit les derniers jours de Jésus : son entrée à Jérusalem, la Cène, sa Passion, sa mort et sa résurrection."
+    },
+    {
+      "id": "rameaux",
+      "mot": "Rameaux",
+      "formes": [
+        "Rameaux",
+        "rameaux"
+      ],
+      "def": "Le dimanche qui ouvre la Semaine sainte. On fait mémoire de Jésus acclamé à Jérusalem, en portant des branches bénies."
+    },
+    {
+      "id": "jeudi-saint",
+      "mot": "Jeudi saint",
+      "formes": [
+        "Jeudi saint",
+        "jeudi saint"
+      ],
+      "def": "Le jour où l'on fait mémoire du dernier repas de Jésus, la Cène : Il donne l'Eucharistie et lave les pieds de ses disciples."
+    },
+    {
+      "id": "vendredi-saint",
+      "mot": "Vendredi saint",
+      "formes": [
+        "Vendredi saint",
+        "vendredi saint"
+      ],
+      "def": "Le jour de la mort de Jésus sur la croix. Il n'y a pas de messe : on écoute le récit de la Passion et on vénère la croix."
+    },
+    {
+      "id": "vigile-pascale",
+      "mot": "Vigile pascale",
+      "formes": [
+        "Vigile pascale",
+        "vigile pascale"
+      ],
+      "def": "La grande célébration de la nuit de Pâques. On allume le feu nouveau et le cierge pascal, et l'on chante la résurrection du Christ."
+    },
+    {
+      "id": "triduum",
+      "mot": "Triduum pascal",
+      "formes": [
+        "Triduum pascal",
+        "triduum pascal",
+        "Triduum"
+      ],
+      "def": "Les trois jours au cœur de l'année, du soir du Jeudi saint au dimanche de Pâques : la mort et la résurrection du Christ."
+    },
+    {
+      "id": "ascension",
+      "mot": "Ascension",
+      "formes": [
+        "Ascension",
+        "ascension"
+      ],
+      "def": "Quarante jours après Pâques, Jésus ressuscité retourne auprès du Père. Il ne nous quitte pas : Il nous précède."
+    },
+    {
+      "id": "assomption",
+      "mot": "Assomption",
+      "formes": [
+        "Assomption",
+        "assomption"
+      ],
+      "def": "La fête du 15 août. À la fin de sa vie, Marie a été élevée au ciel avec son corps et son âme, auprès de son Fils."
+    },
+    {
+      "id": "immaculee-conception",
+      "mot": "Immaculée Conception",
+      "formes": [
+        "Immaculée Conception",
+        "immaculée Conception"
+      ],
+      "def": "La fête du 8 décembre. Dès le premier instant de sa vie, Marie a été préservée de tout péché, pour devenir la mère de Jésus. Ce n'est pas la naissance de Jésus."
+    },
+    {
+      "id": "fete-dieu",
+      "mot": "Fête-Dieu",
+      "formes": [
+        "Fête-Dieu",
+        "fête-Dieu",
+        "Saint-Sacrement"
+      ],
+      "def": "La fête du Saint-Sacrement, le Corps et le Sang du Christ, souvent fêtée avec une procession."
+    },
+    {
+      "id": "christ-roi",
+      "mot": "Christ Roi",
+      "formes": [
+        "Christ Roi",
+        "christ Roi"
+      ],
+      "def": "Le dernier dimanche de l'année liturgique. Jésus est roi, mais un roi qui sert et qui donne sa vie."
+    },
+    {
+      "id": "memoire",
+      "mot": "Mémoire",
+      "formes": [
+        "Mémoire",
+        "mémoire"
+      ],
+      "def": "Dans le calendrier, le jour où l'on fait mémoire d'un saint. C'est le degré le plus simple de célébration, après les solennités et les fêtes.",
+      "souligne": false
+    },
+    {
+      "id": "ferie",
+      "mot": "Férie",
+      "formes": [
+        "Férie",
+        "férie",
+        "férial"
+      ],
+      "def": "Un jour de semaine sans fête particulière. On suit alors simplement le temps liturgique.",
+      "souligne": false
+    },
+    {
+      "id": "octave",
+      "mot": "Octave",
+      "formes": [
+        "Octave",
+        "octave"
+      ],
+      "def": "Les huit jours qui prolongent les grandes fêtes de Noël et de Pâques, comme une seule et longue journée de joie.",
+      "souligne": false
+    },
+    {
+      "id": "jeune",
+      "mot": "Jeûne",
+      "formes": [
+        "Jeûne",
+        "jeûne"
+      ],
+      "def": "Manger moins, par exemple un seul vrai repas, pour faire de la place à Dieu et aux autres. L'Église le demande le mercredi des Cendres et le Vendredi saint."
+    },
+    {
+      "id": "abstinence",
+      "mot": "Abstinence",
+      "formes": [
+        "Abstinence",
+        "abstinence"
+      ],
+      "def": "Se priver de viande certains jours, notamment les vendredis de Carême, en souvenir de la mort de Jésus un vendredi."
+    },
+    {
+      "id": "oraison",
+      "mot": "Oraison",
+      "formes": [
+        "Oraison",
+        "oraison"
+      ],
+      "def": "Un moment de prière silencieuse, cœur à cœur avec Dieu. Sainte Thérèse d'Avila la décrivait comme un échange d'amitié avec Celui dont on se sait aimé."
+    },
+    {
+      "id": "adoration",
+      "mot": "Adoration",
+      "formes": [
+        "Adoration",
+        "adoration"
+      ],
+      "def": "Reconnaître Dieu comme Dieu, Le louer et se tenir devant Lui. On parle aussi d'adoration devant l'hostie consacrée exposée, dans le silence."
+    },
+    {
+      "id": "louange",
+      "mot": "Louange",
+      "formes": [
+        "Louange",
+        "louange"
+      ],
+      "def": "Une prière qui ne demande rien : elle dit à Dieu qu'Il est grand et bon, simplement parce qu'Il l'est.",
+      "souligne": false
+    },
+    {
+      "id": "intercession",
+      "mot": "Intercession",
+      "formes": [
+        "Intercession",
+        "intercession"
+      ],
+      "def": "Prier pour les autres : confier à Dieu ceux qu'on aime, ceux qui souffrent, et même ceux qui nous ont fait du mal."
+    },
+    {
+      "id": "action-de-grace",
+      "mot": "Action de grâce",
+      "formes": [
+        "Action de grâce",
+        "action de grâce",
+        "actions de grâce"
+      ],
+      "def": "Dire merci à Dieu pour ses dons. Le mot « eucharistie » veut d'ailleurs dire « action de grâce »."
+    },
+    {
+      "id": "meditation",
+      "mot": "Méditation",
+      "formes": [
+        "Méditation",
+        "méditation"
+      ],
+      "def": "Lire lentement un texte, souvent un passage de la Bible, et le laisser parler à son cœur, pour en vivre aujourd'hui.",
+      "souligne": false
+    },
+    {
+      "id": "rosaire",
+      "mot": "Rosaire",
+      "formes": [
+        "Rosaire",
+        "rosaire"
+      ],
+      "def": "Une prière qui médite la vie de Jésus avec Marie, en vingt « mystères » : joyeux, lumineux, douloureux et glorieux. Le chapelet en est le quart."
+    },
+    {
+      "id": "dizaine",
+      "mot": "Dizaine",
+      "formes": [
+        "Dizaine",
+        "dizaine",
+        "dizaines"
+      ],
+      "def": "Une partie du chapelet : un Notre Père, dix Je vous salue Marie et un Gloire au Père, en méditant un épisode de la vie de Jésus.",
+      "souligne": false
+    },
+    {
+      "id": "liturgie-des-heures",
+      "mot": "Liturgie des Heures",
+      "formes": [
+        "Liturgie des Heures",
+        "liturgie des Heures"
+      ],
+      "def": "La prière officielle de l'Église, à différents moments de la journée, surtout avec les psaumes. Prêtres, religieux et beaucoup de laïcs la prient chaque jour."
+    },
+    {
+      "id": "complies",
+      "mot": "Complies",
+      "formes": [
+        "Complies",
+        "complies"
+      ],
+      "def": "La prière du soir, juste avant de se coucher, dans la Liturgie des Heures. On y confie sa nuit à Dieu."
+    },
+    {
+      "id": "angelus",
+      "mot": "Angélus",
+      "formes": [
+        "Angélus",
+        "angélus"
+      ],
+      "def": "Une prière dite traditionnellement le matin, à midi et le soir, au son des cloches. Elle rappelle le « oui » de Marie à l'ange et l'Incarnation.",
+      "souligne": false
+    },
+    {
+      "id": "neuvaine",
+      "mot": "Neuvaine",
+      "formes": [
+        "Neuvaine",
+        "neuvaine",
+        "neuvaines"
+      ],
+      "def": "Une prière faite neuf jours de suite pour une intention, comme les disciples ont prié avec Marie entre l'Ascension et la Pentecôte."
+    },
+    {
+      "id": "pelerinage",
+      "mot": "Pèlerinage",
+      "formes": [
+        "Pèlerinage",
+        "pèlerinage",
+        "pèlerinages",
+        "pèlerin",
+        "pèlerins"
+      ],
+      "def": "Un voyage vers un lieu saint, comme Lourdes, Rome ou Saint-Jacques-de-Compostelle. On marche avec d'autres, et le chemin lui-même devient prière."
+    },
+    {
+      "id": "retraite",
+      "mot": "Retraite",
+      "formes": [
+        "Retraite",
+        "retraite",
+        "retraite spirituelle"
+      ],
+      "def": "Quelques jours pris à l'écart, souvent dans un monastère, pour prier, se reposer en Dieu et faire le point sur sa vie.",
+      "souligne": false
+    },
+    {
+      "id": "chemin-de-croix",
+      "mot": "Chemin de croix",
+      "formes": [
+        "Chemin de croix",
+        "chemin de croix"
+      ],
+      "def": "Une prière qui suit Jésus de sa condamnation à sa mise au tombeau, en quatorze étapes appelées stations. On la fait surtout le vendredi pendant le Carême."
+    },
+    {
+      "id": "litanie",
+      "mot": "Litanie",
+      "formes": [
+        "Litanie",
+        "litanie",
+        "litanies"
+      ],
+      "def": "Une prière faite d'une suite d'invocations courtes, auxquelles on répond toujours de la même façon : « Priez pour nous »."
+    },
+    {
+      "id": "antienne",
+      "mot": "Antienne",
+      "formes": [
+        "Antienne",
+        "antienne",
+        "antiennes"
+      ],
+      "def": "Une phrase courte, chantée avant et après un psaume, qui en donne la clé."
+    },
+    {
+      "id": "cantique",
+      "mot": "Cantique",
+      "formes": [
+        "Cantique",
+        "cantique",
+        "cantiques"
+      ],
+      "def": "Un chant de louange. Dans la Bible, ce sont des prières chantées comme le Magnificat de Marie."
+    },
+    {
+      "id": "icone",
+      "mot": "Icône",
+      "formes": [
+        "Icône",
+        "icône",
+        "icônes"
+      ],
+      "def": "Une image sainte peinte selon une tradition venue de l'Orient chrétien. On ne la regarde pas seulement : on prie devant elle.",
+      "souligne": false
+    },
+    {
+      "id": "foi",
+      "mot": "Foi",
+      "formes": [
+        "Foi",
+        "foi"
+      ],
+      "def": "Faire confiance à Dieu et croire ce qu'Il nous a révélé. C'est un don de Dieu et une réponse libre de notre part.",
+      "souligne": false
+    },
+    {
+      "id": "esperance",
+      "mot": "Espérance",
+      "formes": [
+        "Espérance",
+        "espérance"
+      ],
+      "def": "Attendre avec confiance ce que Dieu promet : sa présence à nos côtés aujourd'hui et la vie éternelle avec Lui.",
+      "souligne": false
+    },
+    {
+      "id": "charite",
+      "mot": "Charité",
+      "formes": [
+        "Charité",
+        "charité"
+      ],
+      "def": "L'amour qui vient de Dieu : aimer Dieu de tout son cœur et son prochain comme soi-même. C'est la plus grande des vertus (1 Co 13, 13).",
+      "souligne": false
+    },
+    {
+      "id": "salut",
+      "mot": "Salut",
+      "formes": [
+        "Salut",
+        "salut"
+      ],
+      "def": "Avec une majuscule : être sauvé par Jésus du péché et de la mort, pour vivre pour toujours avec Dieu.",
+      "souligne": false
+    },
+    {
+      "id": "redemption",
+      "mot": "Rédemption",
+      "formes": [
+        "Rédemption",
+        "rédemption"
+      ],
+      "def": "Ce que Jésus a fait pour nous par sa mort et sa résurrection : Il nous a libérés du péché et nous a réconciliés avec Dieu."
+    },
+    {
+      "id": "messie",
+      "mot": "Messie",
+      "formes": [
+        "Messie",
+        "messie"
+      ],
+      "def": "Le sauveur attendu par le peuple d'Israël. Le mot hébreu veut dire « celui qui a reçu l'onction ». Les chrétiens reconnaissent en Jésus le Messie."
+    },
+    {
+      "id": "christ",
+      "mot": "Christ",
+      "formes": [
+        "Christ",
+        "christ"
+      ],
+      "def": "Le mot grec pour « Messie ». Dire « Jésus-Christ », c'est dire que Jésus est le sauveur promis par Dieu.",
+      "souligne": false
+    },
+    {
+      "id": "seigneur",
+      "mot": "Seigneur",
+      "formes": [
+        "Seigneur",
+        "seigneur"
+      ],
+      "def": "Un titre de Dieu, et de Jésus ressuscité. Dire « Jésus est Seigneur », c'est reconnaître qu'Il est Dieu et qu'on Lui confie sa vie.",
+      "souligne": false
+    },
+    {
+      "id": "passion",
+      "mot": "Passion",
+      "formes": [
+        "Passion",
+        "passion"
+      ],
+      "def": "Avec une majuscule : les souffrances de Jésus, de son arrestation à sa mort sur la croix. On en lit le récit le dimanche des Rameaux et le Vendredi saint.",
+      "souligne": false
+    },
+    {
+      "id": "royaume-de-dieu",
+      "mot": "Royaume de Dieu",
+      "formes": [
+        "Royaume de Dieu",
+        "royaume de Dieu",
+        "Royaume des cieux"
+      ],
+      "def": "Ce que Jésus est venu annoncer : un monde où Dieu règne par l'amour. Il commence déjà ici, chaque fois qu'on aime comme Jésus, et s'accomplira à la fin des temps."
+    },
+    {
+      "id": "alliance",
+      "mot": "Alliance",
+      "formes": [
+        "Alliance",
+        "alliance"
+      ],
+      "def": "Le lien d'amour fidèle que Dieu a noué avec son peuple, avec Abraham, Moïse, puis avec tous les hommes en Jésus : la nouvelle Alliance.",
+      "souligne": false
+    },
+    {
+      "id": "revelation",
+      "mot": "Révélation",
+      "formes": [
+        "Révélation",
+        "révélation"
+      ],
+      "def": "Dieu qui se fait connaître : à travers la création, l'histoire d'Israël, et surtout en Jésus. La Bible et la Tradition la transmettent.",
+      "souligne": false
+    },
+    {
+      "id": "tradition",
+      "mot": "Tradition",
+      "formes": [
+        "Tradition",
+        "tradition"
+      ],
+      "def": "Avec une majuscule : tout ce que les apôtres ont reçu de Jésus et transmis, de génération en génération, avec la Bible.",
+      "souligne": false
+    },
+    {
+      "id": "dogme",
+      "mot": "Dogme",
+      "formes": [
+        "Dogme",
+        "dogme",
+        "dogmes"
+      ],
+      "def": "Une vérité de foi que l'Église enseigne de façon solennelle et définitive, comme la Trinité ou la résurrection du Christ."
+    },
+    {
+      "id": "commandements",
+      "mot": "Commandements",
+      "formes": [
+        "Commandements",
+        "commandements",
+        "dix commandements"
+      ],
+      "def": "Les dix paroles que Dieu a données à Moïse (Ex 20) pour vivre libres et en paix. Jésus les résume en deux : aimer Dieu et aimer son prochain.",
+      "souligne": false
+    },
+    {
+      "id": "vertus",
+      "mot": "Vertus",
+      "formes": [
+        "Vertus",
+        "vertus",
+        "vertu"
+      ],
+      "def": "Des dispositions stables à faire le bien. Les trois plus grandes, données par Dieu, sont la foi, l'espérance et la charité.",
+      "souligne": false
+    },
+    {
+      "id": "dons-esprit",
+      "mot": "Dons de l'Esprit Saint",
+      "formes": [
+        "Dons de l'Esprit Saint",
+        "dons de l'Esprit Saint"
+      ],
+      "def": "Sept dons que l'Esprit Saint fait aux baptisés pour les aider à vivre en enfants de Dieu : sagesse, intelligence, conseil, force, science, piété et crainte de Dieu."
+    },
+    {
+      "id": "oeuvres-misericorde",
+      "mot": "Œuvres de miséricorde",
+      "formes": [
+        "Œuvres de miséricorde",
+        "œuvres de miséricorde"
+      ],
+      "def": "Des gestes concrets d'amour : nourrir ceux qui ont faim, visiter les malades, accueillir l'étranger, consoler, pardonner, prier pour les vivants et les morts."
+    },
+    {
+      "id": "saintete",
+      "mot": "Sainteté",
+      "formes": [
+        "Sainteté",
+        "sainteté"
+      ],
+      "def": "Vivre de l'amour de Dieu. Ce n'est pas réservé à quelques-uns : tous les baptisés y sont appelés, dans leur vie de tous les jours.",
+      "souligne": false
+    },
+    {
+      "id": "providence",
+      "mot": "Providence",
+      "formes": [
+        "Providence",
+        "providence"
+      ],
+      "def": "La façon dont Dieu prend soin de sa création et de chacun, avec sagesse et amour, même quand on ne le voit pas tout de suite."
+    },
+    {
+      "id": "peche-originel",
+      "mot": "Péché originel",
+      "formes": [
+        "Péché originel",
+        "péché originel"
+      ],
+      "def": "La blessure que tous les hommes portent depuis la désobéissance des origines : une pente vers le mal. Le baptême en libère, même si la fragilité demeure."
+    },
+    {
+      "id": "conversion",
+      "mot": "Conversion",
+      "formes": [
+        "Conversion",
+        "conversion"
+      ],
+      "def": "Se retourner vers Dieu, changer de direction. Ce n'est pas l'affaire d'un jour : on se convertit toute sa vie, petit à petit.",
+      "souligne": false
+    },
+    {
+      "id": "ame",
+      "mot": "Âme",
+      "formes": [
+        "Âme",
+        "âme",
+        "âmes"
+      ],
+      "def": "Ce qu'il y a de plus profond en chaque personne, ce qui la fait vivante et capable d'aimer Dieu. Elle ne meurt pas.",
+      "souligne": false
+    },
+    {
+      "id": "conscience",
+      "mot": "Conscience",
+      "formes": [
+        "Conscience",
+        "conscience"
+      ],
+      "def": "La voix intérieure qui aide à discerner le bien et le mal. On l'éclaire par la prière, la Parole de Dieu et l'enseignement de l'Église.",
+      "souligne": false
+    },
+    {
+      "id": "ciel",
+      "mot": "Ciel",
+      "formes": [
+        "Ciel",
+        "ciel",
+        "paradis"
+      ],
+      "def": "Pour les chrétiens, ce n'est pas un lieu dans les nuages, mais la vie avec Dieu, pour toujours, dans la joie et l'amour. On l'appelle aussi le paradis.",
+      "souligne": false
+    },
+    {
+      "id": "enfer",
+      "mot": "Enfer",
+      "formes": [
+        "Enfer",
+        "enfer"
+      ],
+      "def": "Être séparé de Dieu pour toujours, par un refus libre et définitif de son amour. Dieu ne le veut pour personne : Il veut que tous soient sauvés.",
+      "souligne": false
+    },
+    {
+      "id": "jugement-dernier",
+      "mot": "Jugement dernier",
+      "formes": [
+        "Jugement dernier",
+        "jugement dernier"
+      ],
+      "def": "À la fin des temps, le Christ reviendra et toute vérité sera faite. Il jugera surtout sur l'amour : « Ce que vous avez fait au plus petit, c'est à moi que vous l'avez fait » (Mt 25, 40)."
+    },
+    {
+      "id": "vie-eternelle",
+      "mot": "Vie éternelle",
+      "formes": [
+        "Vie éternelle",
+        "vie éternelle"
+      ],
+      "def": "La vie avec Dieu qui ne finit pas. Elle commence déjà maintenant, quand on vit de son amour, et s'épanouira pleinement après la mort."
+    },
+    {
+      "id": "retour-du-christ",
+      "mot": "Retour du Christ",
+      "formes": [
+        "Retour du Christ",
+        "retour du Christ"
+      ],
+      "def": "Les chrétiens attendent le jour où Jésus reviendra dans la gloire, à la fin des temps. Chaque messe le redit : « Nous attendons ta venue dans la gloire. »"
+    },
+    {
+      "id": "ange",
+      "mot": "Ange",
+      "formes": [
+        "Ange",
+        "ange",
+        "anges"
+      ],
+      "def": "Un être spirituel créé par Dieu, son messager et serviteur. La Bible en parle souvent, comme l'ange Gabriel envoyé à Marie.",
+      "souligne": false
+    },
+    {
+      "id": "demon",
+      "mot": "Démon",
+      "formes": [
+        "Démon",
+        "démon",
+        "démons",
+        "diable"
+      ],
+      "def": "Un ange qui a refusé Dieu et cherche à éloigner de Lui. Jésus l'a vaincu : il n'a pas le dernier mot.",
+      "souligne": false
+    },
+    {
+      "id": "ancien-testament",
+      "mot": "Ancien Testament",
+      "formes": [
+        "Ancien Testament",
+        "ancien Testament"
+      ],
+      "def": "La première partie de la Bible, écrite avant Jésus : l'histoire de l'Alliance entre Dieu et le peuple d'Israël, les prophètes, les psaumes."
+    },
+    {
+      "id": "nouveau-testament",
+      "mot": "Nouveau Testament",
+      "formes": [
+        "Nouveau Testament",
+        "nouveau Testament"
+      ],
+      "def": "La seconde partie de la Bible : les quatre Évangiles, les Actes des Apôtres, les lettres des apôtres et l'Apocalypse."
+    },
+    {
+      "id": "torah",
+      "mot": "Torah",
+      "formes": [
+        "Torah",
+        "torah"
+      ],
+      "def": "Les cinq premiers livres de la Bible, de la Genèse au Deutéronome. Pour le peuple juif, c'est la Loi donnée par Dieu."
+    },
+    {
+      "id": "epitre",
+      "mot": "Épître",
+      "formes": [
+        "Épître",
+        "épître",
+        "épîtres"
+      ],
+      "def": "Une lettre d'un apôtre, comme saint Paul, aux premières communautés chrétiennes. On en lit souvent à la messe."
+    },
+    {
+      "id": "parabole",
+      "mot": "Parabole",
+      "formes": [
+        "Parabole",
+        "parabole",
+        "paraboles"
+      ],
+      "def": "Une courte histoire tirée de la vie de tous les jours, que Jésus raconte pour faire comprendre le Royaume de Dieu, comme celle du fils prodigue."
+    },
+    {
+      "id": "miracle",
+      "mot": "Miracle",
+      "formes": [
+        "Miracle",
+        "miracle",
+        "miracles"
+      ],
+      "def": "Un signe extraordinaire de la présence et de l'amour de Dieu, comme les guérisons faites par Jésus. Il appelle à la foi plus qu'il ne l'impose.",
+      "souligne": false
     }
   ]
 }

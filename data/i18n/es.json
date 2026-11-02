@@ -693,6 +693,1257 @@
      "memento mori"
     ],
     "def": "Una expresión latina: «recuerda que morirás». Para los cristianos no es un pensamiento triste, sino una invitación a vivir plenamente cada día y a no dejar lo esencial para más tarde."
+   },
+   {
+    "id": "kyrie",
+    "mot": "Kyrie",
+    "formes": [
+     "Kyrie",
+     "kyrie"
+    ],
+    "def": "Al comienzo de la misa se dice o se canta «Señor, ten piedad». Kyrie es la palabra griega para «Señor». Nos volvemos hacia Dios con confianza, reconociendo que lo necesitamos."
+   },
+   {
+    "id": "gloria",
+    "mot": "Gloria",
+    "formes": [
+     "Gloria",
+     "gloria"
+    ],
+    "def": "El canto de alegría de la misa del domingo y de las fiestas, que empieza con las palabras de los ángeles en Navidad: «Gloria a Dios en el cielo». No se canta en Adviento ni en Cuaresma."
+   },
+   {
+    "id": "liturgie-parole",
+    "mot": "Liturgia de la Palabra",
+    "formes": [
+     "Liturgia de la Palabra",
+     "liturgia de la Palabra"
+    ],
+    "def": "La primera gran parte de la misa: escuchamos la Biblia. Una lectura del Antiguo Testamento, un salmo, a menudo una carta de los apóstoles y luego el Evangelio, que todos escuchan de pie."
+   },
+   {
+    "id": "homelie",
+    "mot": "Homilía",
+    "formes": [
+     "Homilía",
+     "homilía",
+     "homilías"
+    ],
+    "def": "Después del Evangelio, el sacerdote o el diácono explica las lecturas y ayuda a cada uno a vivirlas hoy."
+   },
+   {
+    "id": "priere-universelle",
+    "mot": "Oración de los fieles",
+    "formes": [
+     "Oración de los fieles",
+     "oración de los fieles"
+    ],
+    "def": "En la misa, después del Credo, se reza por la Iglesia, por el mundo, por los que sufren y por la comunidad. Todos responden con una breve invocación."
+   },
+   {
+    "id": "offertoire",
+    "mot": "Ofertorio",
+    "formes": [
+     "Ofertorio",
+     "ofertorio"
+    ],
+    "def": "El momento de la misa en que se llevan al altar el pan y el vino, que van a convertirse en el Cuerpo y la Sangre de Cristo. Suele ser también el momento de la colecta."
+   },
+   {
+    "id": "priere-eucharistique",
+    "mot": "Plegaria eucarística",
+    "formes": [
+     "Plegaria eucarística",
+     "plegaria eucarística"
+    ],
+    "def": "El corazón de la misa: la gran oración del sacerdote, en nombre de todos, que da gracias a Dios y durante la cual se consagran el pan y el vino."
+   },
+   {
+    "id": "consecration",
+    "mot": "Consagración",
+    "formes": [
+     "Consagración",
+     "consagración"
+    ],
+    "def": "En el corazón de la misa, el sacerdote repite las palabras de Jesús en la Última Cena: «Esto es mi Cuerpo», «Esta es mi Sangre». El pan y el vino se convierten entonces en el Cuerpo y la Sangre de Cristo."
+   },
+   {
+    "id": "agneau-de-dieu",
+    "mot": "Cordero de Dios",
+    "formes": [
+     "Cordero de Dios",
+     "cordero de Dios"
+    ],
+    "def": "Un nombre de Jesús, dado por Juan el Bautista (Jn 1, 29): Él da su vida por nosotros. En la misa, justo antes de la comunión, se canta «Cordero de Dios, que quitas el pecado del mundo»."
+   },
+   {
+    "id": "quete",
+    "mot": "Colecta",
+    "formes": [
+     "Colecta",
+     "colecta"
+    ],
+    "def": "En la misa se da dinero para la vida de la parroquia y para ayudar a los más pobres. Es una forma sencilla de participar."
+   },
+   {
+    "id": "benediction",
+    "mot": "Bendición",
+    "formes": [
+     "Bendición",
+     "bendición",
+     "bendiciones"
+    ],
+    "def": "Decir bien e invocar la gracia de Dios sobre alguien o sobre algo. Al final de la misa, el sacerdote bendice a la asamblea trazando sobre ella la señal de la cruz."
+   },
+   {
+    "id": "autel",
+    "mot": "Altar",
+    "formes": [
+     "Altar",
+     "altar"
+    ],
+    "def": "La mesa de piedra o de madera, en el centro de la iglesia, donde el sacerdote celebra la Eucaristía. Representa a Cristo mismo."
+   },
+   {
+    "id": "ambon",
+    "mot": "Ambón",
+    "formes": [
+     "Ambón",
+     "ambón"
+    ],
+    "def": "El atril desde donde se proclaman las lecturas de la Biblia durante la misa."
+   },
+   {
+    "id": "tabernacle",
+    "mot": "Sagrario",
+    "formes": [
+     "Sagrario",
+     "sagrario",
+     "tabernáculo"
+    ],
+    "def": "El pequeño cofre, a menudo dorado, donde se guardan las hostias consagradas después de la misa, para los enfermos y para la oración. Una lamparita roja encendida al lado indica la presencia de Jesús."
+   },
+   {
+    "id": "calice",
+    "mot": "Cáliz",
+    "formes": [
+     "Cáliz",
+     "cáliz"
+    ],
+    "def": "La copa en la que el sacerdote consagra el vino durante la misa."
+   },
+   {
+    "id": "ciboire",
+    "mot": "Copón",
+    "formes": [
+     "Copón",
+     "copón"
+    ],
+    "def": "El vaso sagrado, con tapa, que contiene las hostias para la comunión."
+   },
+   {
+    "id": "missel",
+    "mot": "Misal",
+    "formes": [
+     "Misal",
+     "misal"
+    ],
+    "def": "El libro que contiene las oraciones de la misa, las que dice el sacerdote. También hay misales para los fieles, para seguir la misa."
+   },
+   {
+    "id": "encens",
+    "mot": "Incienso",
+    "formes": [
+     "Incienso",
+     "incienso"
+    ],
+    "def": "Una resina que arde dando un humo perfumado. En la liturgia expresa la oración que sube hacia Dios (Sal 141, 2)."
+   },
+   {
+    "id": "genuflexion",
+    "mot": "Genuflexión",
+    "formes": [
+     "Genuflexión",
+     "genuflexión"
+    ],
+    "def": "Poner una rodilla en tierra ante el sagrario, en señal de respeto y de adoración a Jesús presente."
+   },
+   {
+    "id": "eau-benite",
+    "mot": "Agua bendita",
+    "formes": [
+     "Agua bendita",
+     "agua bendita"
+    ],
+    "def": "Agua bendecida por un sacerdote. Al entrar en la iglesia se mojan los dedos en ella y se hace la señal de la cruz, en recuerdo del bautismo."
+   },
+   {
+    "id": "signe-de-paix",
+    "mot": "Rito de la paz",
+    "formes": [
+     "Rito de la paz",
+     "rito de la paz",
+     "signo de la paz"
+    ],
+    "def": "En la misa, antes de la comunión, nos damos la paz de Cristo, a menudo con un apretón de manos: nos reconocemos hermanos."
+   },
+   {
+    "id": "confirmation",
+    "mot": "Confirmación",
+    "formes": [
+     "Confirmación",
+     "confirmación"
+    ],
+    "def": "El sacramento que completa el bautismo. El obispo marca la frente con el santo crisma, y el Espíritu Santo da fuerza para vivir y dar testimonio de la fe."
+   },
+   {
+    "id": "reconciliation",
+    "mot": "Reconciliación",
+    "formes": [
+     "Reconciliación",
+     "reconciliación"
+    ],
+    "def": "El sacramento del perdón, llamado también confesión. Se dicen los pecados a un sacerdote, y Dios perdona. Uno sale aliviado y reconciliado con Dios, con los demás y consigo mismo."
+   },
+   {
+    "id": "absolution",
+    "mot": "Absolución",
+    "formes": [
+     "Absolución",
+     "absolución"
+    ],
+    "def": "Las palabras con las que el sacerdote, en nombre de Dios, perdona los pecados en el sacramento de la reconciliación: «Yo te absuelvo de tus pecados, en el nombre del Padre, y del Hijo, y del Espíritu Santo»."
+   },
+   {
+    "id": "contrition",
+    "mot": "Contrición",
+    "formes": [
+     "Contrición",
+     "contrición"
+    ],
+    "def": "El arrepentimiento sincero de haber hecho el mal, con el deseo de cambiar. El más hermoso nace del amor a Dios más que del miedo."
+   },
+   {
+    "id": "penitence",
+    "mot": "Penitencia",
+    "formes": [
+     "Penitencia",
+     "penitencia"
+    ],
+    "def": "Un gesto concreto para reparar el mal hecho y volver a Dios: una oración, un servicio, un esfuerzo. El sacerdote propone una en la confesión."
+   },
+   {
+    "id": "onction-des-malades",
+    "mot": "Unción de los enfermos",
+    "formes": [
+     "Unción de los enfermos",
+     "unción de los enfermos"
+    ],
+    "def": "El sacramento para las personas gravemente enfermas o mayores. El sacerdote las unge con el óleo santo: Cristo les da paz, valor y a veces la curación."
+   },
+   {
+    "id": "ordination",
+    "mot": "Ordenación",
+    "formes": [
+     "Ordenación",
+     "ordenación",
+     "orden sacerdotal"
+    ],
+    "def": "El sacramento del orden, por el cual un hombre se hace diácono, sacerdote u obispo, para servir a la Iglesia. El obispo le impone las manos e invoca al Espíritu Santo."
+   },
+   {
+    "id": "mariage",
+    "mot": "Matrimonio",
+    "formes": [
+     "Matrimonio",
+     "matrimonio"
+    ],
+    "def": "El sacramento por el que un hombre y una mujer se entregan el uno al otro para toda la vida, ante Dios. Su amor fiel se convierte en signo del amor de Dios."
+   },
+   {
+    "id": "parrain-marraine",
+    "mot": "Padrino y madrina",
+    "formes": [
+     "Padrino y madrina",
+     "padrino y madrina",
+     "padrino",
+     "madrina"
+    ],
+    "def": "Las personas elegidas para acompañar a un bautizado o a un confirmando en el camino de la fe, con su oración y su ejemplo."
+   },
+   {
+    "id": "premiere-communion",
+    "mot": "Primera comunión",
+    "formes": [
+     "Primera comunión",
+     "primera comunión"
+    ],
+    "def": "El día en que un niño, preparado en la catequesis, recibe por primera vez el Cuerpo de Cristo en la misa."
+   },
+   {
+    "id": "saint-chreme",
+    "mot": "Santo crisma",
+    "formes": [
+     "Santo crisma",
+     "santo crisma",
+     "crisma"
+    ],
+    "def": "Un aceite perfumado, bendecido por el obispo durante la Semana Santa. Se usa en el bautismo, la confirmación y la ordenación."
+   },
+   {
+    "id": "catechumene",
+    "mot": "Catecúmeno",
+    "formes": [
+     "Catecúmeno",
+     "catecúmeno",
+     "catecúmenos"
+    ],
+    "def": "Un adulto o un joven que se prepara para recibir el bautismo."
+   },
+   {
+    "id": "eglise",
+    "mot": "Iglesia",
+    "formes": [
+     "Iglesia",
+     "iglesia"
+    ],
+    "def": "Con mayúscula: la gran familia de todos los bautizados, reunida por Cristo. Con minúscula: el edificio donde nos reunimos para rezar."
+   },
+   {
+    "id": "paroisse",
+    "mot": "Parroquia",
+    "formes": [
+     "Parroquia",
+     "parroquia",
+     "parroquias"
+    ],
+    "def": "La comunidad cristiana de un barrio o de un pueblo, con su iglesia y su párroco."
+   },
+   {
+    "id": "diocese",
+    "mot": "Diócesis",
+    "formes": [
+     "Diócesis",
+     "diócesis"
+    ],
+    "def": "Una Iglesia local, a menudo una provincia o una gran ciudad, confiada a un obispo."
+   },
+   {
+    "id": "pape",
+    "mot": "Papa",
+    "formes": [
+     "Papa",
+     "papa"
+    ],
+    "def": "El obispo de Roma, sucesor del apóstol Pedro. Vela por la unidad de toda la Iglesia."
+   },
+   {
+    "id": "eveque",
+    "mot": "Obispo",
+    "formes": [
+     "Obispo",
+     "obispo",
+     "obispos"
+    ],
+    "def": "Un sucesor de los apóstoles, a quien se confía una diócesis. Enseña, celebra los sacramentos y guía a los cristianos."
+   },
+   {
+    "id": "pretre",
+    "mot": "Sacerdote",
+    "formes": [
+     "Sacerdote",
+     "sacerdote",
+     "sacerdotes"
+    ],
+    "def": "Un hombre ordenado para celebrar la misa, perdonar los pecados en nombre de Dios y acompañar a los cristianos. Se le suele llamar «padre»."
+   },
+   {
+    "id": "diacre",
+    "mot": "Diácono",
+    "formes": [
+     "Diácono",
+     "diácono",
+     "diáconos"
+    ],
+    "def": "Un hombre ordenado para el servicio: proclama el Evangelio, bautiza, celebra matrimonios y cuida de los más frágiles. Puede estar casado."
+   },
+   {
+    "id": "cure",
+    "mot": "Párroco",
+    "formes": [
+     "Párroco",
+     "párroco"
+    ],
+    "def": "El sacerdote responsable de una parroquia."
+   },
+   {
+    "id": "religieux",
+    "mot": "Religioso, religiosa",
+    "formes": [
+     "Religioso, religiosa",
+     "religioso, religiosa",
+     "religioso",
+     "religiosa",
+     "religiosas"
+    ],
+    "def": "Un hombre o una mujer que entrega toda su vida a Dios, a menudo en comunidad, con votos de pobreza, castidad y obediencia."
+   },
+   {
+    "id": "moine",
+    "mot": "Monje",
+    "formes": [
+     "Monje",
+     "monje",
+     "monjes",
+     "monja",
+     "monjas"
+    ],
+    "def": "Un religioso que vive en un monasterio, en la oración y el trabajo. En femenino, monja."
+   },
+   {
+    "id": "laic",
+    "mot": "Laico",
+    "formes": [
+     "Laico",
+     "laico",
+     "laicos",
+     "laica"
+    ],
+    "def": "Un bautizado que no es sacerdote ni religioso. Vive su fe en medio del mundo: en familia, en el trabajo, en la sociedad."
+   },
+   {
+    "id": "fidele",
+    "mot": "Fiel",
+    "formes": [
+     "Fiel",
+     "fiel",
+     "fieles"
+    ],
+    "def": "Un cristiano bautizado. «Los fieles» son todos los miembros de la Iglesia."
+   },
+   {
+    "id": "disciple",
+    "mot": "Discípulo",
+    "formes": [
+     "Discípulo",
+     "discípulo",
+     "discípulos"
+    ],
+    "def": "El que sigue a Jesús y aprende de Él. Los primeros discípulos lo dejaron todo para seguirlo; hoy todo cristiano está llamado a ser discípulo."
+   },
+   {
+    "id": "prophete",
+    "mot": "Profeta",
+    "formes": [
+     "Profeta",
+     "profeta",
+     "profetas"
+    ],
+    "def": "Un hombre o una mujer elegido por Dios para hablar en su nombre: llamar a la conversión, consolar, anunciar lo que Dios prepara. Isaías, Jeremías, Juan el Bautista…"
+   },
+   {
+    "id": "evangeliste",
+    "mot": "Evangelista",
+    "formes": [
+     "Evangelista",
+     "evangelista",
+     "evangelistas"
+    ],
+    "def": "El autor de uno de los cuatro Evangelios: Mateo, Marcos, Lucas y Juan."
+   },
+   {
+    "id": "martyr",
+    "mot": "Mártir",
+    "formes": [
+     "Mártir",
+     "mártir",
+     "mártires"
+    ],
+    "def": "Un cristiano que dio su vida antes que renegar de su fe. La palabra griega significa «testigo»."
+   },
+   {
+    "id": "docteur-eglise",
+    "mot": "Doctor de la Iglesia",
+    "formes": [
+     "Doctor de la Iglesia",
+     "doctor de la Iglesia",
+     "doctora de la Iglesia"
+    ],
+    "def": "Un título dado a santos cuya enseñanza ilumina especialmente la fe, como san Agustín o santa Teresa de Lisieux."
+   },
+   {
+    "id": "bienheureux",
+    "mot": "Beato",
+    "formes": [
+     "Beato",
+     "beato",
+     "beata",
+     "beatos"
+    ],
+    "def": "Una persona que la Iglesia reconoce como viviendo junto a Dios, y a quien se puede rezar en una región o una familia religiosa. Es la etapa anterior a la canonización."
+   },
+   {
+    "id": "canonisation",
+    "mot": "Canonización",
+    "formes": [
+     "Canonización",
+     "canonización"
+    ],
+    "def": "La decisión del papa de reconocer oficialmente a alguien como santo, para toda la Iglesia, después de una larga investigación sobre su vida."
+   },
+   {
+    "id": "saint-patron",
+    "mot": "Santo patrono",
+    "formes": [
+     "Santo patrono",
+     "santo patrono",
+     "patrono",
+     "patrona"
+    ],
+    "def": "Un santo que se elige como protector: el de su nombre, su país, su oficio. Se le pueden confiar las propias intenciones."
+   },
+   {
+    "id": "concile",
+    "mot": "Concilio",
+    "formes": [
+     "Concilio",
+     "concilio",
+     "concilios"
+    ],
+    "def": "Una gran reunión de los obispos del mundo entero, con el papa, para iluminar la fe y la vida de la Iglesia. El último es el concilio Vaticano II (1962-1965)."
+   },
+   {
+    "id": "magistere",
+    "mot": "Magisterio",
+    "formes": [
+     "Magisterio",
+     "magisterio"
+    ],
+    "def": "La misión de enseñar confiada al papa y a los obispos: transmiten fielmente la fe recibida de los apóstoles."
+   },
+   {
+    "id": "annee-liturgique",
+    "mot": "Año litúrgico",
+    "formes": [
+     "Año litúrgico",
+     "año litúrgico"
+    ],
+    "def": "El año de la Iglesia, que empieza con el Adviento. Hace revivir toda la vida de Cristo, desde su nacimiento hasta su resurrección, y luego el don del Espíritu Santo."
+   },
+   {
+    "id": "couleur-liturgique",
+    "mot": "Color litúrgico",
+    "formes": [
+     "Color litúrgico",
+     "color litúrgico",
+     "colores litúrgicos"
+    ],
+    "def": "El color de las vestiduras del sacerdote, que cambia según los tiempos del año: morado para la espera, blanco para la fiesta, verde para el tiempo ordinario, rojo para el Espíritu Santo y los mártires."
+   },
+   {
+    "id": "noel",
+    "mot": "Navidad",
+    "formes": [
+     "Navidad",
+     "navidad"
+    ],
+    "def": "La fiesta del nacimiento de Jesús, el 25 de diciembre: Dios se hace niño para venir a estar con nosotros."
+   },
+   {
+    "id": "epiphanie",
+    "mot": "Epifanía",
+    "formes": [
+     "Epifanía",
+     "epifanía"
+    ],
+    "def": "La fiesta de los Magos venidos de Oriente a adorar a Jesús. Dice que Jesús vino para todos los pueblos."
+   },
+   {
+    "id": "cendres",
+    "mot": "Miércoles de Ceniza",
+    "formes": [
+     "Miércoles de Ceniza",
+     "miércoles de Ceniza",
+     "Ceniza"
+    ],
+    "def": "El primer día de la Cuaresma. El sacerdote traza una cruz de ceniza en la frente: «Conviértete y cree en el Evangelio»."
+   },
+   {
+    "id": "semaine-sainte",
+    "mot": "Semana Santa",
+    "formes": [
+     "Semana Santa",
+     "semana Santa"
+    ],
+    "def": "La semana que va del Domingo de Ramos a Pascua. Se reviven los últimos días de Jesús: su entrada en Jerusalén, la Cena, su Pasión, su muerte y su resurrección."
+   },
+   {
+    "id": "rameaux",
+    "mot": "Domingo de Ramos",
+    "formes": [
+     "Domingo de Ramos",
+     "domingo de Ramos",
+     "Ramos"
+    ],
+    "def": "El domingo que abre la Semana Santa. Se hace memoria de Jesús aclamado en Jerusalén, llevando ramos bendecidos."
+   },
+   {
+    "id": "jeudi-saint",
+    "mot": "Jueves Santo",
+    "formes": [
+     "Jueves Santo",
+     "jueves Santo"
+    ],
+    "def": "El día en que se hace memoria de la última cena de Jesús: Él da la Eucaristía y lava los pies a sus discípulos."
+   },
+   {
+    "id": "vendredi-saint",
+    "mot": "Viernes Santo",
+    "formes": [
+     "Viernes Santo",
+     "viernes Santo"
+    ],
+    "def": "El día de la muerte de Jesús en la cruz. No hay misa: se escucha el relato de la Pasión y se venera la cruz."
+   },
+   {
+    "id": "vigile-pascale",
+    "mot": "Vigilia pascual",
+    "formes": [
+     "Vigilia pascual",
+     "vigilia pascual"
+    ],
+    "def": "La gran celebración de la noche de Pascua. Se enciende el fuego nuevo y el cirio pascual, y se canta la resurrección de Cristo."
+   },
+   {
+    "id": "triduum",
+    "mot": "Triduo pascual",
+    "formes": [
+     "Triduo pascual",
+     "triduo pascual",
+     "Triduo"
+    ],
+    "def": "Los tres días en el corazón del año, desde la tarde del Jueves Santo hasta el domingo de Pascua: la muerte y la resurrección de Cristo."
+   },
+   {
+    "id": "ascension",
+    "mot": "Ascensión",
+    "formes": [
+     "Ascensión",
+     "ascensión"
+    ],
+    "def": "Cuarenta días después de Pascua, Jesús resucitado vuelve junto al Padre. No nos deja: nos precede."
+   },
+   {
+    "id": "assomption",
+    "mot": "Asunción",
+    "formes": [
+     "Asunción",
+     "asunción"
+    ],
+    "def": "La fiesta del 15 de agosto. Al final de su vida, María fue elevada al cielo en cuerpo y alma, junto a su Hijo."
+   },
+   {
+    "id": "immaculee-conception",
+    "mot": "Inmaculada Concepción",
+    "formes": [
+     "Inmaculada Concepción",
+     "inmaculada Concepción",
+     "Inmaculada"
+    ],
+    "def": "La fiesta del 8 de diciembre. Desde el primer instante de su vida, María fue preservada de todo pecado, para llegar a ser la madre de Jesús. No es el nacimiento de Jesús."
+   },
+   {
+    "id": "fete-dieu",
+    "mot": "Corpus Christi",
+    "formes": [
+     "Corpus Christi",
+     "corpus Christi",
+     "Corpus"
+    ],
+    "def": "La fiesta del Santísimo Cuerpo y Sangre de Cristo, a menudo celebrada con una procesión."
+   },
+   {
+    "id": "christ-roi",
+    "mot": "Cristo Rey",
+    "formes": [
+     "Cristo Rey",
+     "cristo Rey"
+    ],
+    "def": "El último domingo del año litúrgico. Jesús es rey, pero un rey que sirve y da su vida."
+   },
+   {
+    "id": "memoire",
+    "mot": "Memoria",
+    "formes": [
+     "Memoria",
+     "memoria"
+    ],
+    "def": "En el calendario, el día en que se recuerda a un santo. Es el grado más sencillo de celebración, después de las solemnidades y las fiestas."
+   },
+   {
+    "id": "ferie",
+    "mot": "Feria",
+    "formes": [
+     "Feria",
+     "feria",
+     "ferial"
+    ],
+    "def": "Un día de semana sin fiesta particular. Se sigue simplemente el tiempo litúrgico."
+   },
+   {
+    "id": "octave",
+    "mot": "Octava",
+    "formes": [
+     "Octava",
+     "octava"
+    ],
+    "def": "Los ocho días que prolongan las grandes fiestas de Navidad y de Pascua, como un solo y largo día de alegría."
+   },
+   {
+    "id": "jeune",
+    "mot": "Ayuno",
+    "formes": [
+     "Ayuno",
+     "ayuno"
+    ],
+    "def": "Comer menos, por ejemplo una sola comida completa, para hacer sitio a Dios y a los demás. La Iglesia lo pide el Miércoles de Ceniza y el Viernes Santo."
+   },
+   {
+    "id": "abstinence",
+    "mot": "Abstinencia",
+    "formes": [
+     "Abstinencia",
+     "abstinencia"
+    ],
+    "def": "Privarse de carne ciertos días, sobre todo los viernes de Cuaresma, en recuerdo de la muerte de Jesús un viernes."
+   },
+   {
+    "id": "oraison",
+    "mot": "Oración mental",
+    "formes": [
+     "Oración mental",
+     "oración mental"
+    ],
+    "def": "Un momento de oración silenciosa, de corazón a corazón con Dios. Santa Teresa de Ávila la describía como un trato de amistad con quien sabemos que nos ama."
+   },
+   {
+    "id": "adoration",
+    "mot": "Adoración",
+    "formes": [
+     "Adoración",
+     "adoración"
+    ],
+    "def": "Reconocer a Dios como Dios, alabarlo y permanecer ante Él. Se habla también de adoración ante la hostia consagrada expuesta, en silencio."
+   },
+   {
+    "id": "louange",
+    "mot": "Alabanza",
+    "formes": [
+     "Alabanza",
+     "alabanza"
+    ],
+    "def": "Una oración que no pide nada: dice a Dios que es grande y bueno, simplemente porque lo es."
+   },
+   {
+    "id": "intercession",
+    "mot": "Intercesión",
+    "formes": [
+     "Intercesión",
+     "intercesión"
+    ],
+    "def": "Rezar por los demás: confiar a Dios a quienes amamos, a quienes sufren, e incluso a quienes nos han hecho daño."
+   },
+   {
+    "id": "action-de-grace",
+    "mot": "Acción de gracias",
+    "formes": [
+     "Acción de gracias",
+     "acción de gracias"
+    ],
+    "def": "Dar gracias a Dios por sus dones. La palabra «eucaristía» significa precisamente «acción de gracias»."
+   },
+   {
+    "id": "meditation",
+    "mot": "Meditación",
+    "formes": [
+     "Meditación",
+     "meditación"
+    ],
+    "def": "Leer despacio un texto, a menudo un pasaje de la Biblia, y dejar que hable al corazón, para vivirlo hoy."
+   },
+   {
+    "id": "rosaire",
+    "mot": "Rosario",
+    "formes": [
+     "Rosario",
+     "rosario"
+    ],
+    "def": "Una oración que medita la vida de Jesús con María, en veinte «misterios»: gozosos, luminosos, dolorosos y gloriosos."
+   },
+   {
+    "id": "dizaine",
+    "mot": "Decena",
+    "formes": [
+     "Decena",
+     "decena",
+     "decenas"
+    ],
+    "def": "Una parte del rosario: un Padrenuestro, diez Avemarías y un Gloria, meditando un episodio de la vida de Jesús."
+   },
+   {
+    "id": "liturgie-des-heures",
+    "mot": "Liturgia de las Horas",
+    "formes": [
+     "Liturgia de las Horas",
+     "liturgia de las Horas",
+     "Oficio divino"
+    ],
+    "def": "La oración oficial de la Iglesia, en distintos momentos del día, sobre todo con los salmos. Sacerdotes, religiosos y muchos laicos la rezan cada día."
+   },
+   {
+    "id": "complies",
+    "mot": "Completas",
+    "formes": [
+     "Completas",
+     "completas"
+    ],
+    "def": "La oración de la noche, justo antes de acostarse, en la Liturgia de las Horas. En ella se confía la noche a Dios."
+   },
+   {
+    "id": "angelus",
+    "mot": "Ángelus",
+    "formes": [
+     "Ángelus",
+     "ángelus"
+    ],
+    "def": "Una oración que se reza tradicionalmente por la mañana, a mediodía y por la tarde, al toque de las campanas. Recuerda el «sí» de María al ángel y la Encarnación."
+   },
+   {
+    "id": "neuvaine",
+    "mot": "Novena",
+    "formes": [
+     "Novena",
+     "novena",
+     "novenas"
+    ],
+    "def": "Una oración que se reza nueve días seguidos por una intención, como los discípulos rezaron con María entre la Ascensión y Pentecostés."
+   },
+   {
+    "id": "pelerinage",
+    "mot": "Peregrinación",
+    "formes": [
+     "Peregrinación",
+     "peregrinación",
+     "peregrinaciones",
+     "peregrino",
+     "peregrinos"
+    ],
+    "def": "Un viaje a un lugar santo, como Lourdes, Roma o Santiago de Compostela. Se camina con otros, y el camino mismo se vuelve oración."
+   },
+   {
+    "id": "retraite",
+    "mot": "Retiro",
+    "formes": [
+     "Retiro",
+     "retiro",
+     "retiro espiritual"
+    ],
+    "def": "Unos días apartados, a menudo en un monasterio, para rezar, descansar en Dios y revisar la propia vida."
+   },
+   {
+    "id": "chemin-de-croix",
+    "mot": "Vía crucis",
+    "formes": [
+     "Vía crucis",
+     "vía crucis"
+    ],
+    "def": "Una oración que sigue a Jesús desde su condena hasta su sepultura, en catorce etapas llamadas estaciones. Se hace sobre todo los viernes de Cuaresma."
+   },
+   {
+    "id": "litanie",
+    "mot": "Letanía",
+    "formes": [
+     "Letanía",
+     "letanía",
+     "letanías"
+    ],
+    "def": "Una oración hecha de una serie de invocaciones breves, a las que se responde siempre igual: «Ruega por nosotros»."
+   },
+   {
+    "id": "antienne",
+    "mot": "Antífona",
+    "formes": [
+     "Antífona",
+     "antífona",
+     "antífonas"
+    ],
+    "def": "Una frase breve, cantada antes y después de un salmo, que da su clave."
+   },
+   {
+    "id": "cantique",
+    "mot": "Cántico",
+    "formes": [
+     "Cántico",
+     "cántico",
+     "cánticos"
+    ],
+    "def": "Un canto de alabanza. En la Biblia, son oraciones cantadas como el Magníficat de María."
+   },
+   {
+    "id": "icone",
+    "mot": "Icono",
+    "formes": [
+     "Icono",
+     "icono",
+     "iconos"
+    ],
+    "def": "Una imagen sagrada pintada según una tradición del Oriente cristiano. No solo se mira: se reza ante ella."
+   },
+   {
+    "id": "foi",
+    "mot": "Fe",
+    "formes": [
+     "Fe",
+     "fe"
+    ],
+    "def": "Confiar en Dios y creer lo que nos ha revelado. Es un don de Dios y una respuesta libre de nuestra parte."
+   },
+   {
+    "id": "esperance",
+    "mot": "Esperanza",
+    "formes": [
+     "Esperanza",
+     "esperanza"
+    ],
+    "def": "Esperar con confianza lo que Dios promete: su presencia a nuestro lado hoy y la vida eterna con Él."
+   },
+   {
+    "id": "charite",
+    "mot": "Caridad",
+    "formes": [
+     "Caridad",
+     "caridad"
+    ],
+    "def": "El amor que viene de Dios: amar a Dios con todo el corazón y al prójimo como a uno mismo. Es la mayor de las virtudes (1 Cor 13, 13)."
+   },
+   {
+    "id": "salut",
+    "mot": "Salvación",
+    "formes": [
+     "Salvación",
+     "salvación"
+    ],
+    "def": "Ser salvados por Jesús del pecado y de la muerte, para vivir para siempre con Dios."
+   },
+   {
+    "id": "redemption",
+    "mot": "Redención",
+    "formes": [
+     "Redención",
+     "redención"
+    ],
+    "def": "Lo que Jesús hizo por nosotros con su muerte y su resurrección: nos liberó del pecado y nos reconcilió con Dios."
+   },
+   {
+    "id": "messie",
+    "mot": "Mesías",
+    "formes": [
+     "Mesías",
+     "mesías"
+    ],
+    "def": "El salvador esperado por el pueblo de Israel. La palabra hebrea significa «el ungido». Los cristianos reconocen en Jesús al Mesías."
+   },
+   {
+    "id": "christ",
+    "mot": "Cristo",
+    "formes": [
+     "Cristo",
+     "cristo"
+    ],
+    "def": "La palabra griega para «Mesías». Decir «Jesucristo» es decir que Jesús es el salvador prometido por Dios."
+   },
+   {
+    "id": "seigneur",
+    "mot": "Señor",
+    "formes": [
+     "Señor",
+     "señor"
+    ],
+    "def": "Un título de Dios, y de Jesús resucitado. Decir «Jesús es Señor» es reconocer que es Dios y confiarle la vida."
+   },
+   {
+    "id": "passion",
+    "mot": "Pasión",
+    "formes": [
+     "Pasión",
+     "pasión"
+    ],
+    "def": "Los sufrimientos de Jesús, desde su arresto hasta su muerte en la cruz. Se lee su relato el Domingo de Ramos y el Viernes Santo."
+   },
+   {
+    "id": "royaume-de-dieu",
+    "mot": "Reino de Dios",
+    "formes": [
+     "Reino de Dios",
+     "reino de Dios",
+     "Reino de los cielos"
+    ],
+    "def": "Lo que Jesús vino a anunciar: un mundo donde Dios reina por el amor. Empieza ya aquí, cada vez que amamos como Jesús, y se cumplirá al final de los tiempos."
+   },
+   {
+    "id": "alliance",
+    "mot": "Alianza",
+    "formes": [
+     "Alianza",
+     "alianza"
+    ],
+    "def": "El lazo de amor fiel que Dios estableció con su pueblo, con Abrahán, Moisés y luego con todos los hombres en Jesús: la nueva Alianza."
+   },
+   {
+    "id": "revelation",
+    "mot": "Revelación",
+    "formes": [
+     "Revelación",
+     "revelación"
+    ],
+    "def": "Dios que se da a conocer: a través de la creación, la historia de Israel y sobre todo en Jesús. La Biblia y la Tradición la transmiten."
+   },
+   {
+    "id": "tradition",
+    "mot": "Tradición",
+    "formes": [
+     "Tradición",
+     "tradición"
+    ],
+    "def": "Con mayúscula: todo lo que los apóstoles recibieron de Jesús y transmitieron, de generación en generación, junto con la Biblia."
+   },
+   {
+    "id": "dogme",
+    "mot": "Dogma",
+    "formes": [
+     "Dogma",
+     "dogma",
+     "dogmas"
+    ],
+    "def": "Una verdad de fe que la Iglesia enseña de forma solemne y definitiva, como la Trinidad o la resurrección de Cristo."
+   },
+   {
+    "id": "commandements",
+    "mot": "Mandamientos",
+    "formes": [
+     "Mandamientos",
+     "mandamientos",
+     "diez mandamientos"
+    ],
+    "def": "Las diez palabras que Dios dio a Moisés (Ex 20) para vivir libres y en paz. Jesús las resume en dos: amar a Dios y amar al prójimo."
+   },
+   {
+    "id": "vertus",
+    "mot": "Virtudes",
+    "formes": [
+     "Virtudes",
+     "virtudes",
+     "virtud"
+    ],
+    "def": "Disposiciones estables para hacer el bien. Las tres mayores, dadas por Dios, son la fe, la esperanza y la caridad."
+   },
+   {
+    "id": "dons-esprit",
+    "mot": "Dones del Espíritu Santo",
+    "formes": [
+     "Dones del Espíritu Santo",
+     "dones del Espíritu Santo"
+    ],
+    "def": "Siete dones que el Espíritu Santo da a los bautizados para ayudarles a vivir como hijos de Dios: sabiduría, entendimiento, consejo, fortaleza, ciencia, piedad y temor de Dios."
+   },
+   {
+    "id": "oeuvres-misericorde",
+    "mot": "Obras de misericordia",
+    "formes": [
+     "Obras de misericordia",
+     "obras de misericordia"
+    ],
+    "def": "Gestos concretos de amor: dar de comer al hambriento, visitar a los enfermos, acoger al forastero, consolar, perdonar, rezar por los vivos y los difuntos."
+   },
+   {
+    "id": "saintete",
+    "mot": "Santidad",
+    "formes": [
+     "Santidad",
+     "santidad"
+    ],
+    "def": "Vivir del amor de Dios. No está reservada a unos pocos: todos los bautizados están llamados a ella, en su vida de cada día."
+   },
+   {
+    "id": "providence",
+    "mot": "Providencia",
+    "formes": [
+     "Providencia",
+     "providencia"
+    ],
+    "def": "La manera en que Dios cuida de su creación y de cada uno, con sabiduría y amor, incluso cuando no lo vemos enseguida."
+   },
+   {
+    "id": "peche-originel",
+    "mot": "Pecado original",
+    "formes": [
+     "Pecado original",
+     "pecado original"
+    ],
+    "def": "La herida que todos los hombres llevan desde la desobediencia de los orígenes: una inclinación al mal. El bautismo libera de él, aunque la fragilidad permanece."
+   },
+   {
+    "id": "conversion",
+    "mot": "Conversión",
+    "formes": [
+     "Conversión",
+     "conversión"
+    ],
+    "def": "Volverse hacia Dios, cambiar de dirección. No es cosa de un día: uno se convierte toda la vida, poco a poco."
+   },
+   {
+    "id": "ame",
+    "mot": "Alma",
+    "formes": [
+     "Alma",
+     "alma",
+     "almas"
+    ],
+    "def": "Lo más profundo de cada persona, lo que la hace viva y capaz de amar a Dios. No muere."
+   },
+   {
+    "id": "conscience",
+    "mot": "Conciencia",
+    "formes": [
+     "Conciencia",
+     "conciencia"
+    ],
+    "def": "La voz interior que ayuda a discernir el bien y el mal. Se ilumina con la oración, la Palabra de Dios y la enseñanza de la Iglesia."
+   },
+   {
+    "id": "ciel",
+    "mot": "Cielo",
+    "formes": [
+     "Cielo",
+     "cielo",
+     "paraíso"
+    ],
+    "def": "Para los cristianos no es un lugar en las nubes, sino la vida con Dios, para siempre, en la alegría y el amor. También se le llama paraíso."
+   },
+   {
+    "id": "enfer",
+    "mot": "Infierno",
+    "formes": [
+     "Infierno",
+     "infierno"
+    ],
+    "def": "Estar separado de Dios para siempre, por un rechazo libre y definitivo de su amor. Dios no lo quiere para nadie: quiere que todos se salven."
+   },
+   {
+    "id": "jugement-dernier",
+    "mot": "Juicio final",
+    "formes": [
+     "Juicio final",
+     "juicio final"
+    ],
+    "def": "Al final de los tiempos, Cristo volverá y toda verdad saldrá a la luz. Juzgará sobre todo según el amor: «Lo que hicisteis a uno de estos más pequeños, a mí me lo hicisteis» (Mt 25, 40)."
+   },
+   {
+    "id": "vie-eternelle",
+    "mot": "Vida eterna",
+    "formes": [
+     "Vida eterna",
+     "vida eterna"
+    ],
+    "def": "La vida con Dios que no termina. Empieza ya ahora, cuando vivimos de su amor, y florecerá plenamente después de la muerte."
+   },
+   {
+    "id": "retour-du-christ",
+    "mot": "Venida gloriosa",
+    "formes": [
+     "Venida gloriosa",
+     "venida gloriosa"
+    ],
+    "def": "Los cristianos esperan el día en que Jesús volverá en la gloria, al final de los tiempos. Cada misa lo repite: «¡Ven, Señor Jesús!»"
+   },
+   {
+    "id": "ange",
+    "mot": "Ángel",
+    "formes": [
+     "Ángel",
+     "ángel",
+     "ángeles"
+    ],
+    "def": "Un ser espiritual creado por Dios, su mensajero y servidor. La Biblia habla de ellos a menudo, como el ángel Gabriel enviado a María."
+   },
+   {
+    "id": "demon",
+    "mot": "Demonio",
+    "formes": [
+     "Demonio",
+     "demonio",
+     "demonios",
+     "diablo"
+    ],
+    "def": "Un ángel que rechazó a Dios y busca apartar de Él. Jesús lo ha vencido: no tiene la última palabra."
+   },
+   {
+    "id": "ancien-testament",
+    "mot": "Antiguo Testamento",
+    "formes": [
+     "Antiguo Testamento",
+     "antiguo Testamento"
+    ],
+    "def": "La primera parte de la Biblia, escrita antes de Jesús: la historia de la Alianza entre Dios y el pueblo de Israel, los profetas, los salmos."
+   },
+   {
+    "id": "nouveau-testament",
+    "mot": "Nuevo Testamento",
+    "formes": [
+     "Nuevo Testamento",
+     "nuevo Testamento"
+    ],
+    "def": "La segunda parte de la Biblia: los cuatro Evangelios, los Hechos de los Apóstoles, las cartas de los apóstoles y el Apocalipsis."
+   },
+   {
+    "id": "torah",
+    "mot": "Torá",
+    "formes": [
+     "Torá",
+     "torá",
+     "Torah"
+    ],
+    "def": "Los cinco primeros libros de la Biblia, del Génesis al Deuteronomio. Para el pueblo judío es la Ley dada por Dios."
+   },
+   {
+    "id": "epitre",
+    "mot": "Epístola",
+    "formes": [
+     "Epístola",
+     "epístola",
+     "epístolas"
+    ],
+    "def": "Una carta de un apóstol, como san Pablo, a las primeras comunidades cristianas. Se leen a menudo en la misa."
+   },
+   {
+    "id": "parabole",
+    "mot": "Parábola",
+    "formes": [
+     "Parábola",
+     "parábola",
+     "parábolas"
+    ],
+    "def": "Una breve historia sacada de la vida diaria, que Jesús cuenta para hacer comprender el Reino de Dios, como la del hijo pródigo."
+   },
+   {
+    "id": "miracle",
+    "mot": "Milagro",
+    "formes": [
+     "Milagro",
+     "milagro",
+     "milagros"
+    ],
+    "def": "Un signo extraordinario de la presencia y del amor de Dios, como las curaciones hechas por Jesús. Invita a la fe más que imponerla."
    }
   ]
  }

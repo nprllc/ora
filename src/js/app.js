@@ -111,13 +111,14 @@
   function guillemets(t) { return LANG === 'en' ? '\u201c' + t + '\u201d' : LANG === 'es' ? '\u00ab' + t + '\u00bb' : '\u00ab\u00a0' + t + '\u00a0\u00bb'; }
 
   // Rend cliquables les mots du lexique (une seule fois chacun par bloc de texte).
-  // Mots du lexique qu'on ne souligne pas : ce sont des mots courants, pas propres à la foi catholique.
+  // Mots du lexique qu'on ne souligne pas : ce sont des mots courants, pas propres à la foi catholique
+  // (les mots ajoutés depuis portent « souligne »: false dans data/lexique.json).
   var EXCLUS = { saint: 1, 'vierge-marie': 1, croix: 1, grace: 1, bible: 1, mystere: 1 };
   function lexique(texte) {
     var html = esc(texte), vus = {};
     if (!D) return html;
     var formes = [];
-    D.lexique.mots.forEach(function (m) { if (!EXCLUS[m.id]) m.formes.forEach(function (f) { formes.push({ f: f, id: m.id }); }); });
+    D.lexique.mots.forEach(function (m) { if (!EXCLUS[m.id] && D.souligne[m.id] !== false) m.formes.forEach(function (f) { formes.push({ f: f, id: m.id }); }); });
     formes.sort(function (a, b) { return b.f.length - a.f.length; });
     var morceaux = refsBible(html);
     formes.forEach(function (fo) {
@@ -206,6 +207,7 @@
       explications: tr.explications || fr.explications,
       prieres: prieres,
       lexique: tr.lexique || fr.lexique,
+      souligne: fr.lexique.mots.reduce(function (o, m) { if (m.souligne === false) o[m.id] = false; return o; }, {}),
       conseils: { conseils: tr.conseils || fr.conseils.conseils },
       guideFamille: tr['guide-famille'] || b.guideFamilleFr,
       fetes: fr.fetes, auteurs: b.auteurs || {}, abr: (b.abreviations || {})[LANG] || {},

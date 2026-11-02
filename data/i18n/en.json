@@ -687,6 +687,1248 @@
      "memento mori"
     ],
     "def": "A Latin phrase: “remember that you will die”. For Christians it is not a sad thought, but an invitation to live each day fully and not to put off what matters most."
+   },
+   {
+    "id": "kyrie",
+    "mot": "Kyrie",
+    "formes": [
+     "Kyrie",
+     "kyrie"
+    ],
+    "def": "At the start of Mass we say or sing “Lord, have mercy”. Kyrie is the Greek word for “Lord”. We turn to God with trust, recognizing that we need Him."
+   },
+   {
+    "id": "gloria",
+    "mot": "Gloria",
+    "formes": [
+     "Gloria",
+     "gloria"
+    ],
+    "def": "The joyful hymn of Sunday and feast-day Mass, which begins with the angels' words at Christmas: “Glory to God in the highest”. It is not sung in Advent or Lent."
+   },
+   {
+    "id": "liturgie-parole",
+    "mot": "Liturgy of the Word",
+    "formes": [
+     "Liturgy of the Word",
+     "liturgy of the Word"
+    ],
+    "def": "The first great part of Mass: we listen to the Bible. A reading from the Old Testament, a psalm, often a letter of the apostles, then the Gospel, which everyone hears standing."
+   },
+   {
+    "id": "homelie",
+    "mot": "Homily",
+    "formes": [
+     "Homily",
+     "homily",
+     "homilies"
+    ],
+    "def": "After the Gospel, the priest or deacon explains the readings and helps everyone live them today. It is also called the sermon."
+   },
+   {
+    "id": "priere-universelle",
+    "mot": "Prayer of the Faithful",
+    "formes": [
+     "Prayer of the Faithful",
+     "prayer of the Faithful",
+     "Universal Prayer"
+    ],
+    "def": "At Mass, after the Creed, we pray for the Church, for the world, for those who suffer and for the community. Everyone answers with a short response."
+   },
+   {
+    "id": "offertoire",
+    "mot": "Offertory",
+    "formes": [
+     "Offertory",
+     "offertory"
+    ],
+    "def": "The moment of Mass when the bread and wine, which will become the Body and Blood of Christ, are brought to the altar. It is often also the time of the collection."
+   },
+   {
+    "id": "priere-eucharistique",
+    "mot": "Eucharistic Prayer",
+    "formes": [
+     "Eucharistic Prayer",
+     "eucharistic Prayer"
+    ],
+    "def": "The heart of Mass: the priest's great prayer, in the name of all, giving thanks to God, during which the bread and wine are consecrated."
+   },
+   {
+    "id": "consecration",
+    "mot": "Consecration",
+    "formes": [
+     "Consecration",
+     "consecration"
+    ],
+    "def": "At the heart of Mass, the priest repeats Jesus' words at the Last Supper: “This is my Body”, “This is my Blood”. The bread and wine then become the Body and Blood of Christ."
+   },
+   {
+    "id": "agneau-de-dieu",
+    "mot": "Lamb of God",
+    "formes": [
+     "Lamb of God",
+     "lamb of God"
+    ],
+    "def": "A name for Jesus given by John the Baptist (Jn 1:29): He gives his life for us. At Mass, just before Communion, we sing “Lamb of God, you take away the sins of the world”."
+   },
+   {
+    "id": "quete",
+    "mot": "Collection",
+    "formes": [
+     "Collection",
+     "collection"
+    ],
+    "def": "At Mass, people give money for the life of the parish and to help the poor. It is a simple way to take part."
+   },
+   {
+    "id": "benediction",
+    "mot": "Blessing",
+    "formes": [
+     "Blessing",
+     "blessing",
+     "blessings"
+    ],
+    "def": "Speaking well of someone or something and calling down God's grace on them. At the end of Mass, the priest blesses the people with the sign of the cross."
+   },
+   {
+    "id": "autel",
+    "mot": "Altar",
+    "formes": [
+     "Altar",
+     "altar"
+    ],
+    "def": "The stone or wooden table at the center of the church where the priest celebrates the Eucharist. It represents Christ himself."
+   },
+   {
+    "id": "ambon",
+    "mot": "Ambo",
+    "formes": [
+     "Ambo",
+     "ambo"
+    ],
+    "def": "The lectern from which the Bible readings are proclaimed during Mass."
+   },
+   {
+    "id": "tabernacle",
+    "mot": "Tabernacle",
+    "formes": [
+     "Tabernacle",
+     "tabernacle"
+    ],
+    "def": "The small box, often gilded, where the consecrated hosts are kept after Mass, for the sick and for prayer. A small red lamp lit beside it shows that Jesus is present."
+   },
+   {
+    "id": "calice",
+    "mot": "Chalice",
+    "formes": [
+     "Chalice",
+     "chalice"
+    ],
+    "def": "The cup in which the priest consecrates the wine during Mass."
+   },
+   {
+    "id": "ciboire",
+    "mot": "Ciborium",
+    "formes": [
+     "Ciborium",
+     "ciborium"
+    ],
+    "def": "The sacred vessel with a lid that holds the hosts for Communion."
+   },
+   {
+    "id": "missel",
+    "mot": "Missal",
+    "formes": [
+     "Missal",
+     "missal"
+    ],
+    "def": "The book containing the prayers of Mass, said by the priest. There are also missals for the faithful, to follow the Mass."
+   },
+   {
+    "id": "encens",
+    "mot": "Incense",
+    "formes": [
+     "Incense",
+     "incense"
+    ],
+    "def": "A resin that burns with fragrant smoke. In the liturgy it expresses prayer rising to God (Ps 141:2)."
+   },
+   {
+    "id": "genuflexion",
+    "mot": "Genuflection",
+    "formes": [
+     "Genuflection",
+     "genuflection"
+    ],
+    "def": "Bending one knee to the ground before the tabernacle, as a sign of respect and adoration for Jesus present."
+   },
+   {
+    "id": "eau-benite",
+    "mot": "Holy water",
+    "formes": [
+     "Holy water",
+     "holy water"
+    ],
+    "def": "Water blessed by a priest. On entering the church, we dip our fingers in it and make the sign of the cross, in memory of our baptism."
+   },
+   {
+    "id": "signe-de-paix",
+    "mot": "Sign of peace",
+    "formes": [
+     "Sign of peace",
+     "sign of peace"
+    ],
+    "def": "At Mass, before Communion, we offer one another the peace of Christ, often with a handshake: we recognize each other as brothers and sisters."
+   },
+   {
+    "id": "confirmation",
+    "mot": "Confirmation",
+    "formes": [
+     "Confirmation",
+     "confirmation"
+    ],
+    "def": "The sacrament that completes baptism. The bishop anoints the forehead with sacred chrism, and the Holy Spirit gives strength to live and bear witness to the faith."
+   },
+   {
+    "id": "reconciliation",
+    "mot": "Reconciliation",
+    "formes": [
+     "Reconciliation",
+     "reconciliation"
+    ],
+    "def": "The sacrament of forgiveness, also called confession. We tell our sins to a priest, and God forgives. We come away lighter, reconciled with God, with others and with ourselves."
+   },
+   {
+    "id": "absolution",
+    "mot": "Absolution",
+    "formes": [
+     "Absolution",
+     "absolution"
+    ],
+    "def": "The words by which the priest, in God's name, forgives sins in the sacrament of reconciliation: “I absolve you from your sins, in the name of the Father, and of the Son, and of the Holy Spirit.”"
+   },
+   {
+    "id": "contrition",
+    "mot": "Contrition",
+    "formes": [
+     "Contrition",
+     "contrition"
+    ],
+    "def": "Sincere sorrow for having done wrong, with the desire to change. The most beautiful sorrow comes from love of God rather than from fear."
+   },
+   {
+    "id": "penitence",
+    "mot": "Penance",
+    "formes": [
+     "Penance",
+     "penance"
+    ],
+    "def": "A concrete gesture to repair the harm done and turn back to God: a prayer, a service, an effort. The priest gives one in confession."
+   },
+   {
+    "id": "onction-des-malades",
+    "mot": "Anointing of the Sick",
+    "formes": [
+     "Anointing of the Sick",
+     "anointing of the Sick"
+    ],
+    "def": "The sacrament for people who are seriously ill or elderly. The priest anoints them with holy oil: Christ gives them peace, courage and sometimes healing."
+   },
+   {
+    "id": "ordination",
+    "mot": "Ordination",
+    "formes": [
+     "Ordination",
+     "ordination",
+     "Holy Orders"
+    ],
+    "def": "The sacrament of Holy Orders, by which a man becomes a deacon, priest or bishop to serve the Church. The bishop lays hands on him and prays to the Holy Spirit."
+   },
+   {
+    "id": "mariage",
+    "mot": "Marriage",
+    "formes": [
+     "Marriage",
+     "marriage",
+     "Matrimony"
+    ],
+    "def": "The sacrament by which a man and a woman give themselves to each other for life, before God. Their faithful love becomes a sign of God's love."
+   },
+   {
+    "id": "parrain-marraine",
+    "mot": "Godparents",
+    "formes": [
+     "Godparents",
+     "godparents",
+     "godfather",
+     "godmother"
+    ],
+    "def": "The people chosen to accompany someone being baptized or confirmed on the road of faith, by their prayer and example."
+   },
+   {
+    "id": "premiere-communion",
+    "mot": "First Communion",
+    "formes": [
+     "First Communion",
+     "first Communion"
+    ],
+    "def": "The day when a child, prepared in catechism, receives the Body of Christ at Mass for the first time."
+   },
+   {
+    "id": "saint-chreme",
+    "mot": "Sacred chrism",
+    "formes": [
+     "Sacred chrism",
+     "sacred chrism",
+     "chrism"
+    ],
+    "def": "A perfumed oil blessed by the bishop during Holy Week. It is used in baptism, confirmation and ordination."
+   },
+   {
+    "id": "catechumene",
+    "mot": "Catechumen",
+    "formes": [
+     "Catechumen",
+     "catechumen",
+     "catechumens"
+    ],
+    "def": "An adult or young person preparing to receive baptism."
+   },
+   {
+    "id": "eglise",
+    "mot": "Church",
+    "formes": [
+     "Church",
+     "church"
+    ],
+    "def": "With a capital letter: the great family of all the baptized, gathered by Christ. With a small letter: the building where we gather to pray."
+   },
+   {
+    "id": "paroisse",
+    "mot": "Parish",
+    "formes": [
+     "Parish",
+     "parish",
+     "parishes"
+    ],
+    "def": "The Christian community of a neighborhood or village, with its church and its pastor."
+   },
+   {
+    "id": "diocese",
+    "mot": "Diocese",
+    "formes": [
+     "Diocese",
+     "diocese",
+     "dioceses"
+    ],
+    "def": "A local Church, often a region or a large city, entrusted to a bishop."
+   },
+   {
+    "id": "pape",
+    "mot": "Pope",
+    "formes": [
+     "Pope",
+     "pope",
+     "popes"
+    ],
+    "def": "The bishop of Rome, successor of the apostle Peter. He watches over the unity of the whole Church."
+   },
+   {
+    "id": "eveque",
+    "mot": "Bishop",
+    "formes": [
+     "Bishop",
+     "bishop",
+     "bishops"
+    ],
+    "def": "A successor of the apostles, entrusted with a diocese. He teaches, celebrates the sacraments and guides Christians."
+   },
+   {
+    "id": "pretre",
+    "mot": "Priest",
+    "formes": [
+     "Priest",
+     "priest",
+     "priests"
+    ],
+    "def": "A man ordained to celebrate Mass, forgive sins in God's name and accompany Christians. He is often called “Father”."
+   },
+   {
+    "id": "diacre",
+    "mot": "Deacon",
+    "formes": [
+     "Deacon",
+     "deacon",
+     "deacons"
+    ],
+    "def": "A man ordained for service: he proclaims the Gospel, baptizes, celebrates weddings and cares for the most vulnerable. He may be married."
+   },
+   {
+    "id": "cure",
+    "mot": "Pastor",
+    "formes": [
+     "Pastor",
+     "pastor",
+     "parish priest"
+    ],
+    "def": "The priest in charge of a parish."
+   },
+   {
+    "id": "religieux",
+    "mot": "Religious",
+    "formes": [
+     "Religious",
+     "religious",
+     "nun",
+     "nuns"
+    ],
+    "def": "A man or woman who gives their whole life to God, often in community, through vows of poverty, chastity and obedience."
+   },
+   {
+    "id": "moine",
+    "mot": "Monk",
+    "formes": [
+     "Monk",
+     "monk",
+     "monks"
+    ],
+    "def": "A religious who lives in a monastery, in prayer and work. A woman is called a nun."
+   },
+   {
+    "id": "laic",
+    "mot": "Layperson",
+    "formes": [
+     "Layperson",
+     "layperson",
+     "lay people",
+     "laity"
+    ],
+    "def": "A baptized person who is neither a priest nor a religious. They live their faith in the midst of the world: in the family, at work, in society."
+   },
+   {
+    "id": "fidele",
+    "mot": "Faithful",
+    "formes": [
+     "Faithful",
+     "faithful"
+    ],
+    "def": "The baptized. “The faithful” means all the members of the Church."
+   },
+   {
+    "id": "disciple",
+    "mot": "Disciple",
+    "formes": [
+     "Disciple",
+     "disciple",
+     "disciples"
+    ],
+    "def": "Someone who follows Jesus and learns from Him. The first disciples left everything to follow Him; today every Christian is called to be a disciple."
+   },
+   {
+    "id": "prophete",
+    "mot": "Prophet",
+    "formes": [
+     "Prophet",
+     "prophet",
+     "prophets"
+    ],
+    "def": "A man or woman chosen by God to speak in his name: calling to conversion, comforting, announcing what God is preparing. Isaiah, Jeremiah, John the Baptist…"
+   },
+   {
+    "id": "evangeliste",
+    "mot": "Evangelist",
+    "formes": [
+     "Evangelist",
+     "evangelist",
+     "evangelists"
+    ],
+    "def": "The author of one of the four Gospels: Matthew, Mark, Luke and John."
+   },
+   {
+    "id": "martyr",
+    "mot": "Martyr",
+    "formes": [
+     "Martyr",
+     "martyr",
+     "martyrs"
+    ],
+    "def": "A Christian who gave their life rather than deny their faith. The Greek word means “witness”."
+   },
+   {
+    "id": "docteur-eglise",
+    "mot": "Doctor of the Church",
+    "formes": [
+     "Doctor of the Church",
+     "doctor of the Church"
+    ],
+    "def": "A title given to saints whose teaching especially sheds light on the faith, such as Saint Augustine or Saint Thérèse of Lisieux."
+   },
+   {
+    "id": "bienheureux",
+    "mot": "Blessed",
+    "formes": [
+     "Blessed",
+     "blessed"
+    ],
+    "def": "A person the Church recognizes as living with God, who may be honored in a region or religious family. It is the step before canonization."
+   },
+   {
+    "id": "canonisation",
+    "mot": "Canonization",
+    "formes": [
+     "Canonization",
+     "canonization"
+    ],
+    "def": "The pope's decision to officially recognize someone as a saint for the whole Church, after a long inquiry into their life."
+   },
+   {
+    "id": "saint-patron",
+    "mot": "Patron saint",
+    "formes": [
+     "Patron saint",
+     "patron saint",
+     "patron saints"
+    ],
+    "def": "A saint chosen as a protector: the saint of one's name, country or work. We can entrust our intentions to them."
+   },
+   {
+    "id": "concile",
+    "mot": "Council",
+    "formes": [
+     "Council",
+     "council"
+    ],
+    "def": "A great gathering of the world's bishops with the pope, to shed light on the faith and life of the Church. The most recent is the Second Vatican Council (1962-1965)."
+   },
+   {
+    "id": "magistere",
+    "mot": "Magisterium",
+    "formes": [
+     "Magisterium",
+     "magisterium"
+    ],
+    "def": "The teaching mission entrusted to the pope and bishops: they faithfully hand on the faith received from the apostles."
+   },
+   {
+    "id": "annee-liturgique",
+    "mot": "Liturgical year",
+    "formes": [
+     "Liturgical year",
+     "liturgical year"
+    ],
+    "def": "The Church's year, which begins with Advent. It brings to life the whole life of Christ, from his birth to his resurrection, then the gift of the Holy Spirit."
+   },
+   {
+    "id": "couleur-liturgique",
+    "mot": "Liturgical color",
+    "formes": [
+     "Liturgical color",
+     "liturgical color",
+     "liturgical colors"
+    ],
+    "def": "The color of the priest's vestments, which changes with the seasons: violet for waiting, white for feasts, green for Ordinary Time, red for the Holy Spirit and the martyrs."
+   },
+   {
+    "id": "noel",
+    "mot": "Christmas",
+    "formes": [
+     "Christmas",
+     "christmas"
+    ],
+    "def": "The feast of Jesus' birth, on December 25: God becomes a little child to come among us."
+   },
+   {
+    "id": "epiphanie",
+    "mot": "Epiphany",
+    "formes": [
+     "Epiphany",
+     "epiphany"
+    ],
+    "def": "The feast of the Magi who came from the East to worship Jesus. It tells that Jesus came for all peoples."
+   },
+   {
+    "id": "cendres",
+    "mot": "Ash Wednesday",
+    "formes": [
+     "Ash Wednesday",
+     "ash Wednesday"
+    ],
+    "def": "The first day of Lent. The priest traces a cross of ashes on the forehead: “Repent, and believe in the Gospel.”"
+   },
+   {
+    "id": "semaine-sainte",
+    "mot": "Holy Week",
+    "formes": [
+     "Holy Week",
+     "holy Week"
+    ],
+    "def": "The week from Palm Sunday to Easter. It relives the last days of Jesus: his entry into Jerusalem, the Last Supper, his Passion, his death and resurrection."
+   },
+   {
+    "id": "rameaux",
+    "mot": "Palm Sunday",
+    "formes": [
+     "Palm Sunday",
+     "palm Sunday"
+    ],
+    "def": "The Sunday that opens Holy Week. We remember Jesus acclaimed in Jerusalem, carrying blessed branches."
+   },
+   {
+    "id": "jeudi-saint",
+    "mot": "Holy Thursday",
+    "formes": [
+     "Holy Thursday",
+     "holy Thursday"
+    ],
+    "def": "The day we remember Jesus' last meal, the Last Supper: He gives the Eucharist and washes his disciples' feet."
+   },
+   {
+    "id": "vendredi-saint",
+    "mot": "Good Friday",
+    "formes": [
+     "Good Friday",
+     "good Friday"
+    ],
+    "def": "The day of Jesus' death on the cross. There is no Mass: we listen to the account of the Passion and venerate the cross."
+   },
+   {
+    "id": "vigile-pascale",
+    "mot": "Easter Vigil",
+    "formes": [
+     "Easter Vigil",
+     "easter Vigil"
+    ],
+    "def": "The great celebration of Easter night. The new fire and the Easter candle are lit, and we sing of Christ's resurrection."
+   },
+   {
+    "id": "triduum",
+    "mot": "Easter Triduum",
+    "formes": [
+     "Easter Triduum",
+     "easter Triduum",
+     "Triduum"
+    ],
+    "def": "The three days at the heart of the year, from the evening of Holy Thursday to Easter Sunday: the death and resurrection of Christ."
+   },
+   {
+    "id": "ascension",
+    "mot": "Ascension",
+    "formes": [
+     "Ascension",
+     "ascension"
+    ],
+    "def": "Forty days after Easter, the risen Jesus returns to the Father. He does not leave us: He goes ahead of us."
+   },
+   {
+    "id": "assomption",
+    "mot": "Assumption",
+    "formes": [
+     "Assumption",
+     "assumption"
+    ],
+    "def": "The feast of August 15. At the end of her life, Mary was taken up into heaven, body and soul, to be with her Son."
+   },
+   {
+    "id": "immaculee-conception",
+    "mot": "Immaculate Conception",
+    "formes": [
+     "Immaculate Conception",
+     "immaculate Conception"
+    ],
+    "def": "The feast of December 8. From the first moment of her life, Mary was preserved from all sin, to become the mother of Jesus. It is not about Jesus' birth."
+   },
+   {
+    "id": "fete-dieu",
+    "mot": "Corpus Christi",
+    "formes": [
+     "Corpus Christi",
+     "corpus Christi"
+    ],
+    "def": "The feast of the Most Holy Body and Blood of Christ, often celebrated with a procession."
+   },
+   {
+    "id": "christ-roi",
+    "mot": "Christ the King",
+    "formes": [
+     "Christ the King",
+     "christ the King"
+    ],
+    "def": "The last Sunday of the liturgical year. Jesus is king, but a king who serves and gives his life."
+   },
+   {
+    "id": "memoire",
+    "mot": "Memorial",
+    "formes": [
+     "Memorial",
+     "memorial"
+    ],
+    "def": "In the calendar, the day a saint is remembered. It is the simplest level of celebration, after solemnities and feasts."
+   },
+   {
+    "id": "ferie",
+    "mot": "Weekday",
+    "formes": [
+     "Weekday",
+     "weekday",
+     "feria"
+    ],
+    "def": "A weekday without any particular feast. We simply follow the liturgical season."
+   },
+   {
+    "id": "octave",
+    "mot": "Octave",
+    "formes": [
+     "Octave",
+     "octave"
+    ],
+    "def": "The eight days that extend the great feasts of Christmas and Easter, like one long day of joy."
+   },
+   {
+    "id": "jeune",
+    "mot": "Fasting",
+    "formes": [
+     "Fasting",
+     "fasting",
+     "fast"
+    ],
+    "def": "Eating less, for example one full meal, to make room for God and for others. The Church asks it on Ash Wednesday and Good Friday."
+   },
+   {
+    "id": "abstinence",
+    "mot": "Abstinence",
+    "formes": [
+     "Abstinence",
+     "abstinence"
+    ],
+    "def": "Going without meat on certain days, especially the Fridays of Lent, in memory of Jesus' death on a Friday."
+   },
+   {
+    "id": "oraison",
+    "mot": "Mental prayer",
+    "formes": [
+     "Mental prayer",
+     "mental prayer"
+    ],
+    "def": "A time of silent prayer, heart to heart with God. Saint Teresa of Ávila described it as friendly conversation with the One we know loves us."
+   },
+   {
+    "id": "adoration",
+    "mot": "Adoration",
+    "formes": [
+     "Adoration",
+     "adoration"
+    ],
+    "def": "Recognizing God as God, praising Him and remaining before Him. It also means praying in silence before the consecrated host on display."
+   },
+   {
+    "id": "louange",
+    "mot": "Praise",
+    "formes": [
+     "Praise",
+     "praise"
+    ],
+    "def": "A prayer that asks for nothing: it tells God that He is great and good, simply because He is."
+   },
+   {
+    "id": "intercession",
+    "mot": "Intercession",
+    "formes": [
+     "Intercession",
+     "intercession"
+    ],
+    "def": "Praying for others: entrusting to God those we love, those who suffer, and even those who have hurt us."
+   },
+   {
+    "id": "action-de-grace",
+    "mot": "Thanksgiving",
+    "formes": [
+     "Thanksgiving",
+     "thanksgiving"
+    ],
+    "def": "Saying thank you to God for his gifts. The word “Eucharist” itself means “thanksgiving”."
+   },
+   {
+    "id": "meditation",
+    "mot": "Meditation",
+    "formes": [
+     "Meditation",
+     "meditation"
+    ],
+    "def": "Reading a text slowly, often a passage from the Bible, and letting it speak to one's heart, so as to live it today."
+   },
+   {
+    "id": "rosaire",
+    "mot": "Rosary",
+    "formes": [
+     "Rosary",
+     "rosary"
+    ],
+    "def": "A prayer that meditates on the life of Jesus with Mary, in twenty “mysteries”: joyful, luminous, sorrowful and glorious."
+   },
+   {
+    "id": "dizaine",
+    "mot": "Decade",
+    "formes": [
+     "Decade",
+     "decade",
+     "decades"
+    ],
+    "def": "One part of the Rosary: an Our Father, ten Hail Marys and a Glory Be, while meditating on an episode in Jesus' life."
+   },
+   {
+    "id": "liturgie-des-heures",
+    "mot": "Liturgy of the Hours",
+    "formes": [
+     "Liturgy of the Hours",
+     "liturgy of the Hours",
+     "Divine Office"
+    ],
+    "def": "The Church's official prayer, at different times of the day, mainly with the psalms. Priests, religious and many lay people pray it every day."
+   },
+   {
+    "id": "complies",
+    "mot": "Night Prayer",
+    "formes": [
+     "Night Prayer",
+     "night Prayer",
+     "Compline"
+    ],
+    "def": "The prayer at the end of the day, just before going to bed, in the Liturgy of the Hours. We entrust our night to God."
+   },
+   {
+    "id": "angelus",
+    "mot": "Angelus",
+    "formes": [
+     "Angelus",
+     "angelus"
+    ],
+    "def": "A prayer traditionally said in the morning, at noon and in the evening, when the bells ring. It recalls Mary's “yes” to the angel and the Incarnation."
+   },
+   {
+    "id": "neuvaine",
+    "mot": "Novena",
+    "formes": [
+     "Novena",
+     "novena",
+     "novenas"
+    ],
+    "def": "A prayer said nine days in a row for an intention, as the disciples prayed with Mary between the Ascension and Pentecost."
+   },
+   {
+    "id": "pelerinage",
+    "mot": "Pilgrimage",
+    "formes": [
+     "Pilgrimage",
+     "pilgrimage",
+     "pilgrimages",
+     "pilgrim",
+     "pilgrims"
+    ],
+    "def": "A journey to a holy place, such as Lourdes, Rome or Santiago de Compostela. We walk with others, and the road itself becomes prayer."
+   },
+   {
+    "id": "retraite",
+    "mot": "Retreat",
+    "formes": [
+     "Retreat",
+     "retreat"
+    ],
+    "def": "A few days set apart, often in a monastery, to pray, rest in God and take stock of one's life."
+   },
+   {
+    "id": "chemin-de-croix",
+    "mot": "Stations of the Cross",
+    "formes": [
+     "Stations of the Cross",
+     "stations of the Cross",
+     "Way of the Cross"
+    ],
+    "def": "A prayer that follows Jesus from his condemnation to his burial, in fourteen steps called stations. It is prayed especially on Fridays in Lent."
+   },
+   {
+    "id": "litanie",
+    "mot": "Litany",
+    "formes": [
+     "Litany",
+     "litany",
+     "litanies"
+    ],
+    "def": "A prayer made of a series of short invocations, to which we always give the same response: “Pray for us.”"
+   },
+   {
+    "id": "antienne",
+    "mot": "Antiphon",
+    "formes": [
+     "Antiphon",
+     "antiphon",
+     "antiphons"
+    ],
+    "def": "A short phrase sung before and after a psalm, which gives its key."
+   },
+   {
+    "id": "cantique",
+    "mot": "Canticle",
+    "formes": [
+     "Canticle",
+     "canticle",
+     "canticles"
+    ],
+    "def": "A song of praise. In the Bible, these are sung prayers such as Mary's Magnificat."
+   },
+   {
+    "id": "icone",
+    "mot": "Icon",
+    "formes": [
+     "Icon",
+     "icon",
+     "icons"
+    ],
+    "def": "A holy image painted according to a tradition from the Christian East. It is not only looked at: people pray before it."
+   },
+   {
+    "id": "foi",
+    "mot": "Faith",
+    "formes": [
+     "Faith",
+     "faith"
+    ],
+    "def": "Trusting God and believing what He has revealed to us. It is a gift from God and our free response."
+   },
+   {
+    "id": "esperance",
+    "mot": "Hope",
+    "formes": [
+     "Hope",
+     "hope"
+    ],
+    "def": "Waiting with trust for what God promises: his presence beside us today and eternal life with Him."
+   },
+   {
+    "id": "charite",
+    "mot": "Charity",
+    "formes": [
+     "Charity",
+     "charity"
+    ],
+    "def": "The love that comes from God: loving God with all one's heart and one's neighbor as oneself. It is the greatest of the virtues (1 Cor 13:13)."
+   },
+   {
+    "id": "salut",
+    "mot": "Salvation",
+    "formes": [
+     "Salvation",
+     "salvation"
+    ],
+    "def": "Being saved by Jesus from sin and death, to live forever with God."
+   },
+   {
+    "id": "redemption",
+    "mot": "Redemption",
+    "formes": [
+     "Redemption",
+     "redemption"
+    ],
+    "def": "What Jesus did for us by his death and resurrection: He set us free from sin and reconciled us with God."
+   },
+   {
+    "id": "messie",
+    "mot": "Messiah",
+    "formes": [
+     "Messiah",
+     "messiah"
+    ],
+    "def": "The savior awaited by the people of Israel. The Hebrew word means “the anointed one”. Christians recognize Jesus as the Messiah."
+   },
+   {
+    "id": "christ",
+    "mot": "Christ",
+    "formes": [
+     "Christ",
+     "christ"
+    ],
+    "def": "The Greek word for “Messiah”. To say “Jesus Christ” is to say that Jesus is the savior promised by God."
+   },
+   {
+    "id": "seigneur",
+    "mot": "Lord",
+    "formes": [
+     "Lord",
+     "lord"
+    ],
+    "def": "A title of God, and of the risen Jesus. To say “Jesus is Lord” is to recognize that He is God and to entrust our life to Him."
+   },
+   {
+    "id": "passion",
+    "mot": "Passion",
+    "formes": [
+     "Passion",
+     "passion"
+    ],
+    "def": "With a capital letter: Jesus' sufferings, from his arrest to his death on the cross. Its account is read on Palm Sunday and Good Friday."
+   },
+   {
+    "id": "royaume-de-dieu",
+    "mot": "Kingdom of God",
+    "formes": [
+     "Kingdom of God",
+     "kingdom of God",
+     "Kingdom of heaven"
+    ],
+    "def": "What Jesus came to announce: a world where God reigns through love. It already begins here, whenever we love as Jesus did, and will be fulfilled at the end of time."
+   },
+   {
+    "id": "alliance",
+    "mot": "Covenant",
+    "formes": [
+     "Covenant",
+     "covenant"
+    ],
+    "def": "The bond of faithful love God made with his people, with Abraham, with Moses, then with all humanity in Jesus: the new Covenant."
+   },
+   {
+    "id": "revelation",
+    "mot": "Revelation",
+    "formes": [
+     "Revelation",
+     "revelation"
+    ],
+    "def": "God making himself known: through creation, the history of Israel, and above all in Jesus. Scripture and Tradition hand it on."
+   },
+   {
+    "id": "tradition",
+    "mot": "Tradition",
+    "formes": [
+     "Tradition",
+     "tradition"
+    ],
+    "def": "With a capital letter: everything the apostles received from Jesus and handed on, from generation to generation, together with the Bible."
+   },
+   {
+    "id": "dogme",
+    "mot": "Dogma",
+    "formes": [
+     "Dogma",
+     "dogma",
+     "dogmas"
+    ],
+    "def": "A truth of faith that the Church teaches in a solemn and definitive way, such as the Trinity or Christ's resurrection."
+   },
+   {
+    "id": "commandements",
+    "mot": "Commandments",
+    "formes": [
+     "Commandments",
+     "commandments",
+     "Ten Commandments"
+    ],
+    "def": "The ten words God gave to Moses (Ex 20) to live free and at peace. Jesus sums them up in two: love God and love your neighbor."
+   },
+   {
+    "id": "vertus",
+    "mot": "Virtues",
+    "formes": [
+     "Virtues",
+     "virtues",
+     "virtue"
+    ],
+    "def": "Lasting dispositions to do good. The three greatest, given by God, are faith, hope and charity."
+   },
+   {
+    "id": "dons-esprit",
+    "mot": "Gifts of the Holy Spirit",
+    "formes": [
+     "Gifts of the Holy Spirit",
+     "gifts of the Holy Spirit"
+    ],
+    "def": "Seven gifts the Holy Spirit gives to the baptized to help them live as children of God: wisdom, understanding, counsel, fortitude, knowledge, piety and fear of the Lord."
+   },
+   {
+    "id": "oeuvres-misericorde",
+    "mot": "Works of mercy",
+    "formes": [
+     "Works of mercy",
+     "works of mercy"
+    ],
+    "def": "Concrete acts of love: feeding the hungry, visiting the sick, welcoming the stranger, comforting, forgiving, praying for the living and the dead."
+   },
+   {
+    "id": "saintete",
+    "mot": "Holiness",
+    "formes": [
+     "Holiness",
+     "holiness"
+    ],
+    "def": "Living by God's love. It is not reserved for a few: all the baptized are called to it, in their everyday lives."
+   },
+   {
+    "id": "providence",
+    "mot": "Providence",
+    "formes": [
+     "Providence",
+     "providence"
+    ],
+    "def": "The way God cares for his creation and for each person, with wisdom and love, even when we do not see it right away."
+   },
+   {
+    "id": "peche-originel",
+    "mot": "Original sin",
+    "formes": [
+     "Original sin",
+     "original sin"
+    ],
+    "def": "The wound all people carry since the disobedience at the beginning: a leaning toward evil. Baptism frees us from it, even if weakness remains."
+   },
+   {
+    "id": "conversion",
+    "mot": "Conversion",
+    "formes": [
+     "Conversion",
+     "conversion"
+    ],
+    "def": "Turning back toward God, changing direction. It is not a one-day affair: we are converted throughout our lives, little by little."
+   },
+   {
+    "id": "ame",
+    "mot": "Soul",
+    "formes": [
+     "Soul",
+     "soul",
+     "souls"
+    ],
+    "def": "What is deepest in each person, what makes them alive and able to love God. It does not die."
+   },
+   {
+    "id": "conscience",
+    "mot": "Conscience",
+    "formes": [
+     "Conscience",
+     "conscience"
+    ],
+    "def": "The inner voice that helps us discern good from evil. It is enlightened by prayer, the Word of God and the Church's teaching."
+   },
+   {
+    "id": "ciel",
+    "mot": "Heaven",
+    "formes": [
+     "Heaven",
+     "heaven",
+     "paradise"
+    ],
+    "def": "For Christians it is not a place in the clouds, but life with God forever, in joy and love. It is also called paradise."
+   },
+   {
+    "id": "enfer",
+    "mot": "Hell",
+    "formes": [
+     "Hell",
+     "hell"
+    ],
+    "def": "Being separated from God forever, through a free and final refusal of his love. God wants it for no one: He wants all to be saved."
+   },
+   {
+    "id": "jugement-dernier",
+    "mot": "Last Judgment",
+    "formes": [
+     "Last Judgment",
+     "last Judgment"
+    ],
+    "def": "At the end of time, Christ will return and all truth will be revealed. He will judge above all by love: “Whatever you did for one of the least of these, you did for me” (Mt 25:40)."
+   },
+   {
+    "id": "vie-eternelle",
+    "mot": "Eternal life",
+    "formes": [
+     "Eternal life",
+     "eternal life"
+    ],
+    "def": "Life with God that never ends. It already begins now, when we live by his love, and will fully blossom after death."
+   },
+   {
+    "id": "retour-du-christ",
+    "mot": "Second Coming",
+    "formes": [
+     "Second Coming",
+     "second Coming"
+    ],
+    "def": "Christians await the day when Jesus will return in glory, at the end of time. Every Mass says it again: “We proclaim your Death, O Lord, and profess your Resurrection until you come again.”"
+   },
+   {
+    "id": "ange",
+    "mot": "Angel",
+    "formes": [
+     "Angel",
+     "angel",
+     "angels"
+    ],
+    "def": "A spiritual being created by God, his messenger and servant. The Bible often speaks of them, like the angel Gabriel sent to Mary."
+   },
+   {
+    "id": "demon",
+    "mot": "Devil",
+    "formes": [
+     "Devil",
+     "devil",
+     "demon",
+     "demons"
+    ],
+    "def": "An angel who rejected God and seeks to draw people away from Him. Jesus has defeated him: he does not have the last word."
+   },
+   {
+    "id": "ancien-testament",
+    "mot": "Old Testament",
+    "formes": [
+     "Old Testament",
+     "old Testament"
+    ],
+    "def": "The first part of the Bible, written before Jesus: the story of the Covenant between God and the people of Israel, the prophets, the psalms."
+   },
+   {
+    "id": "nouveau-testament",
+    "mot": "New Testament",
+    "formes": [
+     "New Testament",
+     "new Testament"
+    ],
+    "def": "The second part of the Bible: the four Gospels, the Acts of the Apostles, the letters of the apostles and Revelation."
+   },
+   {
+    "id": "torah",
+    "mot": "Torah",
+    "formes": [
+     "Torah",
+     "torah"
+    ],
+    "def": "The first five books of the Bible, from Genesis to Deuteronomy. For the Jewish people it is the Law given by God."
+   },
+   {
+    "id": "epitre",
+    "mot": "Epistle",
+    "formes": [
+     "Epistle",
+     "epistle",
+     "epistles"
+    ],
+    "def": "A letter from an apostle, such as Saint Paul, to the first Christian communities. They are often read at Mass."
+   },
+   {
+    "id": "parabole",
+    "mot": "Parable",
+    "formes": [
+     "Parable",
+     "parable",
+     "parables"
+    ],
+    "def": "A short story drawn from everyday life, which Jesus tells to help people understand the Kingdom of God, like the prodigal son."
+   },
+   {
+    "id": "miracle",
+    "mot": "Miracle",
+    "formes": [
+     "Miracle",
+     "miracle",
+     "miracles"
+    ],
+    "def": "An extraordinary sign of God's presence and love, like the healings Jesus performed. It invites faith rather than imposing it."
    }
   ]
  }
