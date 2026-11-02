@@ -193,3 +193,10 @@ test('jamais la même personne citée deux jours de suite (adultes et enfants, 2
     }
   }
 });
+
+// La messe pas à pas : la même structure dans les trois langues.
+test('la messe pas à pas a les mêmes étapes en français, espagnol et anglais', () => {
+  const M = lireJson('data/messe.json');
+  const forme = (l) => M[l].parties.map((p) => p.etapes.map((e) => (e.reponse ? 'r' : '-') + (e.posture ? 'p' : '-')).join(''));
+  for (const l of ['es', 'en']) assert.deepEqual(forme(l), forme('fr'), l);
+});

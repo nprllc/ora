@@ -121,6 +121,15 @@ test('bienvenue : un écran à part, une seule fois ; les mots s\'envolent, puis
   await ctx.close();
 });
 
+test('Prier : la messe pas à pas, sous les mots de la foi', async () => {
+  const { ctx, page } = await ouvrir('2026-11-03', 'fr');
+  await page.click('[data-action=onglet][data-id=prier]');
+  await page.$eval('[data-action=aller][data-id=messe]', (b) => b.click());
+  await page.waitForSelector('.messe-etapes');
+  assert.equal(await page.$$eval('.messe-partie', (x) => x.length), 5);
+  await ctx.close();
+});
+
 test('favoris : un favori qui ne désigne aucun verset est retiré du stockage', async () => {
   const { ctx, page } = await ouvrir('2026-11-03', 'en', { marques: [{ o: 'Matt', c: 99, v: 1 }, { o: 'Matt', c: 5, v: 3 }] });
   await page.click('[data-action=onglet][data-id=bible]');

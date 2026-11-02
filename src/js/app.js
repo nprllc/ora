@@ -210,6 +210,7 @@
       souligne: fr.lexique.mots.reduce(function (o, m) { if (m.souligne === false) o[m.id] = false; return o; }, {}),
       conseils: { conseils: tr.conseils || fr.conseils.conseils },
       guideFamille: tr['guide-famille'] || b.guideFamilleFr,
+      messe: b.messe ? (b.messe[LANG] || b.messe.fr) : null,
       fetes: fr.fetes, auteurs: b.auteurs || {}, abr: (b.abreviations || {})[LANG] || {},
       lect: b.lectionnaire.cles, pj: b.prieresJour, contenus: b.contenus
     };
@@ -380,8 +381,26 @@
     if (p.texte) h += '<section class="section-jour" style="margin-top:22px"><h3 class="etiquette">' + esc(p.etiquette) + '</h3>' + blocPriere(p) + '</section>';
     h += '<p class="groupe">' + esc(T('prieres-toujours')) + '</p><div class="rubriques">';
     D.prieres.traditionnelles.forEach(function (x) { h += rubrique('<span class="titre-r">' + esc(x.titre) + '</span>', { action: 'priere', id: x.id }); });
-    h += '</div><p class="groupe">' + esc(T('mots-foi')) + '</p><div class="rubriques">' + rubrique('<span class="titre-r">' + esc(T('lexique')) + '</span><span class="texte-r">' + esc(T('lexique-desc')) + '</span>', { action: 'aller', id: 'lexique' }) + '</div></section>';
+    h += '</div><p class="groupe espace">' + esc(T('mots-foi')) + '</p><div class="rubriques">' + rubrique('<span class="titre-r">' + esc(T('lexique')) + '</span><span class="texte-r">' + esc(T('lexique-desc')) + '</span>', { action: 'aller', id: 'lexique' }) + '</div>';
+    if (D.messe) h += '<p class="groupe espace">' + esc(T('la-messe')) + '</p><div class="rubriques">' + rubrique('<span class="titre-r">' + esc(D.messe.titre) + '</span><span class="texte-r">' + esc(D.messe.desc) + '</span>', { action: 'aller', id: 'messe' }) + '</div>';
+    h += '</section>';
     return h;
+  }
+
+  // La messe pas à pas : cinq temps, et pour chaque étape ce qui se passe, ce que l'on fait, ce que l'on répond.
+  function vueMesse() {
+    var m = D.messe; if (!m) return vuePrier();
+    var h = '<section class="vue page lecture">' + boutonRetour() + '<p class="surtitre">' + esc(T('la-messe')) + '</p><h2>' + esc(m.titre) + '</h2><p class="chapeau">' + lexique(m.intro) + '</p>';
+    m.parties.forEach(function (p) {
+      h += '<h3 class="messe-partie">' + esc(p.titre) + '</h3><ol class="messe-etapes">';
+      p.etapes.forEach(function (e) {
+        h += '<li><p class="messe-nom">' + esc(e.nom) + '</p><p>' + lexique(e.quoi) + '</p>' +
+          (e.posture ? '<p class="messe-posture"><span>' + esc(m.posture) + '</span> ' + esc(e.posture) + '</p>' : '') +
+          (e.reponse ? '<p class="messe-reponse"><span>' + esc(m.reponse) + '</span> ' + guillemets(esc(e.reponse)) + '</p>' : '') + '</li>';
+      });
+      h += '</ol>';
+    });
+    return h + '</section>';
   }
 
   function vuePriere(id) {
@@ -683,6 +702,7 @@
     else if (v === 'guide') contenu = vueGuide();
     else if (v.indexOf('lecture:') === 0) contenu = vueLecture(v.slice(8));
     else if (v === 'lexique') contenu = vueLexique();
+    else if (v === 'messe') contenu = vueMesse();
     else if (v === 'bible') contenu = vueBible();
     else if (v === 'bible-chapitre') contenu = vueChapitre(etat.bible);
     else if (v === 'famille') contenu = vueFamille();

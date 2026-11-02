@@ -1,0 +1,135 @@
+{
+ "_note": "La messe pas à pas : le déroulement de la messe selon le Missel romain, avec les réponses de l'assemblée telles qu'on les dit en France (Missel romain, traduction de 2021), en Espagne et aux États-Unis. Rédigé pour Ora ; à faire relire par un prêtre avant la diffusion publique.",
+ "fr": {
+  "titre": "La messe pas à pas",
+  "desc": "Ce qui se passe, du début à la fin, et ce que tu peux faire",
+  "intro": "La messe dure environ une heure le dimanche, une demi-heure en semaine. Elle a deux grands moments : on écoute Dieu qui parle dans la Bible, puis on fait ce que Jésus a fait la veille de sa mort, en prenant le pain et le vin. Pas besoin de tout savoir : regarde les autres, et laisse-toi porter.",
+  "posture": "Ce que tu fais",
+  "reponse": "On répond",
+  "parties": [
+   { "titre": "1. On se rassemble", "etapes": [
+    { "nom": "Le chant d'entrée", "quoi": "Le prêtre et ceux qui servent la messe s'avancent vers l'autel pendant un chant.", "posture": "Debout." },
+    { "nom": "Le signe de croix", "quoi": "Le prêtre commence au nom du Père, et du Fils, et du Saint-Esprit, puis salue l'assemblée : « Le Seigneur soit avec vous. »", "posture": "Debout ; on fait le signe de croix avec lui.", "reponse": "Et de ton esprit." },
+    { "nom": "Le pardon", "quoi": "On se reconnaît pécheurs devant Dieu, en silence, puis avec le « Je confesse à Dieu » ou le « Seigneur, prends pitié ». C'est une demande de pardon, pas un examen : Dieu accueille.", "posture": "Debout." },
+    { "nom": "Le Gloria", "quoi": "Le dimanche et les jours de fête, on chante le Gloria : « Gloire à Dieu au plus haut des cieux ». On ne le chante pas pendant l'Avent et le Carême.", "posture": "Debout." },
+    { "nom": "La prière d'ouverture", "quoi": "Le prêtre dit « Prions le Seigneur », laisse un moment de silence, puis dit une prière qui rassemble les intentions de tous.", "posture": "Debout.", "reponse": "Amen." }
+   ]},
+   { "titre": "2. On écoute la Parole de Dieu", "etapes": [
+    { "nom": "La première lecture", "quoi": "Un passage de l'Ancien Testament (au temps de Pâques, des Actes des Apôtres), lu par un membre de l'assemblée. À la fin, le lecteur dit : « Parole du Seigneur. »", "posture": "Assis.", "reponse": "Nous rendons grâce à Dieu." },
+    { "nom": "Le psaume", "quoi": "Une prière de la Bible, chantée. Tout le monde reprend le refrain entre les couplets.", "posture": "Assis ; on chante le refrain." },
+    { "nom": "La deuxième lecture", "quoi": "Le dimanche, un passage d'une lettre des apôtres, souvent de saint Paul.", "posture": "Assis.", "reponse": "Nous rendons grâce à Dieu." },
+    { "nom": "L'acclamation", "quoi": "On se lève pour accueillir l'Évangile en chantant « Alléluia » (pendant le Carême, une autre acclamation).", "posture": "Debout." },
+    { "nom": "L'Évangile", "quoi": "Le prêtre ou le diacre lit les paroles et les gestes de Jésus. Au début, chacun trace une petite croix sur son front, ses lèvres et son cœur : que cette Parole soit dans mes pensées, sur mes lèvres et dans mon cœur. À la fin, il dit : « Acclamons la Parole de Dieu. »", "posture": "Debout.", "reponse": "Louange à toi, Seigneur Jésus." },
+    { "nom": "L'homélie", "quoi": "Le prêtre ou le diacre explique les lectures et aide chacun à les vivre aujourd'hui.", "posture": "Assis." },
+    { "nom": "Le Credo", "quoi": "Le dimanche, tous ensemble disent la foi de l'Église : « Je crois en Dieu… ».", "posture": "Debout." },
+    { "nom": "La prière universelle", "quoi": "On prie pour l'Église, pour le monde, pour ceux qui souffrent et pour la communauté. Après chaque intention, tous répondent par un court refrain.", "posture": "Debout." }
+   ]},
+   { "titre": "3. Le cœur de la messe : l'Eucharistie", "etapes": [
+    { "nom": "L'offrande", "quoi": "On apporte à l'autel le pain et le vin. C'est souvent le moment de la quête, pour la vie de la paroisse et pour les plus pauvres. Le prêtre dit ensuite : « Priez, frères et sœurs… »", "posture": "Assis, puis debout.", "reponse": "Que le Seigneur reçoive de vos mains ce sacrifice à la louange et à la gloire de son nom, pour notre bien et celui de toute l'Église." },
+    { "nom": "Le Sanctus", "quoi": "Le prêtre commence la grande prière de louange, et tous chantent avec les anges : « Saint ! Saint ! Saint, le Seigneur, Dieu de l'univers ! »", "posture": "Debout." },
+    { "nom": "La consécration", "quoi": "Le prêtre redit les paroles de Jésus à la Cène : « Ceci est mon Corps », « Ceci est mon Sang ». Le pain et le vin deviennent le Corps et le Sang du Christ. Il les élève pour que tous les voient : c'est le moment le plus saint de la messe.", "posture": "À genoux (ou debout, la tête inclinée)." },
+    { "nom": "Le mystère de la foi", "quoi": "Juste après, le prêtre dit : « Il est grand, le mystère de la foi. »", "posture": "Debout.", "reponse": "Nous annonçons ta mort, Seigneur Jésus, nous proclamons ta résurrection, nous attendons ta venue dans la gloire." },
+    { "nom": "Le grand Amen", "quoi": "La prière se termine par une louange au Père, par le Christ, dans l'Esprit Saint. Tous la font leur.", "posture": "Debout.", "reponse": "Amen." }
+   ]},
+   { "titre": "4. La communion", "etapes": [
+    { "nom": "Le Notre Père", "quoi": "Tous ensemble, on dit la prière que Jésus nous a apprise.", "posture": "Debout." },
+    { "nom": "La paix", "quoi": "On se souhaite la paix du Christ, souvent par une poignée de main à ses voisins.", "posture": "Debout." },
+    { "nom": "L'Agneau de Dieu", "quoi": "Le prêtre rompt l'hostie pendant le chant « Agneau de Dieu ». Puis il la montre : « Voici l'Agneau de Dieu… Heureux les invités au repas des noces de l'Agneau ! »", "posture": "Debout, puis à genoux selon l'usage.", "reponse": "Seigneur, je ne suis pas digne de te recevoir, mais dis seulement une parole et je serai guéri." },
+    { "nom": "La communion", "quoi": "Ceux qui communient s'avancent. Le prêtre présente l'hostie : « Le Corps du Christ. » On la reçoit dans la main ou sur la langue. Si tu ne communies pas (tu n'es pas baptisé, pas encore prêt, ou tu veux d'abord te confesser), tu peux rester à ta place, ou t'avancer les bras croisés sur la poitrine pour recevoir une bénédiction.", "posture": "Debout dans la file, puis assis ou à genoux pour un moment de silence.", "reponse": "Amen." },
+    { "nom": "La prière après la communion", "quoi": "Après un temps de silence, le prêtre dit une dernière prière.", "posture": "Debout.", "reponse": "Amen." }
+   ]},
+   { "titre": "5. L'envoi", "etapes": [
+    { "nom": "La bénédiction", "quoi": "Après les annonces de la paroisse, le prêtre bénit l'assemblée.", "posture": "Debout ; on fait le signe de croix.", "reponse": "Amen." },
+    { "nom": "L'envoi", "quoi": "« Allez, dans la paix du Christ. » La messe ne s'arrête pas à la porte : on est envoyé vivre de ce qu'on a reçu.", "posture": "Debout, puis on sort pendant le chant final.", "reponse": "Nous rendons grâce à Dieu." }
+   ]}
+  ]
+ },
+ "es": {
+  "titre": "La misa paso a paso",
+  "desc": "Lo que sucede, del principio al final, y lo que puedes hacer",
+  "intro": "La misa dura cerca de una hora el domingo y media hora entre semana. Tiene dos grandes momentos: escuchamos a Dios que habla en la Biblia, y luego hacemos lo que Jesús hizo la víspera de su muerte, tomando el pan y el vino. No hace falta saberlo todo: mira a los demás y déjate llevar.",
+  "posture": "Lo que haces",
+  "reponse": "Se responde",
+  "parties": [
+   { "titre": "1. Nos reunimos", "etapes": [
+    { "nom": "El canto de entrada", "quoi": "El sacerdote y quienes ayudan en la misa avanzan hacia el altar durante un canto.", "posture": "De pie." },
+    { "nom": "La señal de la cruz", "quoi": "El sacerdote comienza en el nombre del Padre, y del Hijo, y del Espíritu Santo, y saluda a la asamblea: «El Señor esté con vosotros».", "posture": "De pie; se hace la señal de la cruz con él.", "reponse": "Y con tu espíritu." },
+    { "nom": "El perdón", "quoi": "Nos reconocemos pecadores ante Dios, en silencio, y luego con el «Yo confieso» o el «Señor, ten piedad». Es una petición de perdón, no un examen: Dios acoge.", "posture": "De pie." },
+    { "nom": "El Gloria", "quoi": "Los domingos y días de fiesta se canta el Gloria: «Gloria a Dios en el cielo». No se canta en Adviento ni en Cuaresma.", "posture": "De pie." },
+    { "nom": "La oración colecta", "quoi": "El sacerdote dice «Oremos», deja un momento de silencio y luego reza una oración que reúne las intenciones de todos.", "posture": "De pie.", "reponse": "Amén." }
+   ]},
+   { "titre": "2. Escuchamos la Palabra de Dios", "etapes": [
+    { "nom": "La primera lectura", "quoi": "Un pasaje del Antiguo Testamento (en tiempo de Pascua, de los Hechos de los Apóstoles), leído por un miembro de la asamblea. Al final, el lector dice: «Palabra de Dios».", "posture": "Sentado.", "reponse": "Te alabamos, Señor." },
+    { "nom": "El salmo", "quoi": "Una oración de la Biblia, cantada. Todos repiten el estribillo entre las estrofas.", "posture": "Sentado; se canta el estribillo." },
+    { "nom": "La segunda lectura", "quoi": "El domingo, un pasaje de una carta de los apóstoles, a menudo de san Pablo.", "posture": "Sentado.", "reponse": "Te alabamos, Señor." },
+    { "nom": "La aclamación", "quoi": "Nos levantamos para acoger el Evangelio cantando «Aleluya» (en Cuaresma, otra aclamación).", "posture": "De pie." },
+    { "nom": "El Evangelio", "quoi": "El sacerdote o el diácono lee las palabras y los gestos de Jesús. Al comienzo, cada uno traza una pequeña cruz en la frente, los labios y el pecho: que esta Palabra esté en mis pensamientos, en mis labios y en mi corazón. Al final dice: «Palabra del Señor».", "posture": "De pie.", "reponse": "Gloria a ti, Señor Jesús." },
+    { "nom": "La homilía", "quoi": "El sacerdote o el diácono explica las lecturas y ayuda a cada uno a vivirlas hoy.", "posture": "Sentado." },
+    { "nom": "El Credo", "quoi": "El domingo, todos juntos profesan la fe de la Iglesia: «Creo en Dios…».", "posture": "De pie." },
+    { "nom": "La oración de los fieles", "quoi": "Se reza por la Iglesia, por el mundo, por los que sufren y por la comunidad. Después de cada intención, todos responden con un breve estribillo.", "posture": "De pie." }
+   ]},
+   { "titre": "3. El corazón de la misa: la Eucaristía", "etapes": [
+    { "nom": "El ofertorio", "quoi": "Se llevan al altar el pan y el vino. Suele ser el momento de la colecta, para la vida de la parroquia y para los más pobres. Luego el sacerdote dice: «Orad, hermanos…».", "posture": "Sentado, y luego de pie.", "reponse": "El Señor reciba de tus manos este sacrificio, para alabanza y gloria de su nombre, para nuestro bien y el de toda su santa Iglesia." },
+    { "nom": "El Santo", "quoi": "El sacerdote comienza la gran oración de alabanza, y todos cantan con los ángeles: «Santo, Santo, Santo es el Señor, Dios del universo».", "posture": "De pie." },
+    { "nom": "La consagración", "quoi": "El sacerdote repite las palabras de Jesús en la Última Cena: «Esto es mi Cuerpo», «Esta es mi Sangre». El pan y el vino se convierten en el Cuerpo y la Sangre de Cristo. Los eleva para que todos los vean: es el momento más santo de la misa.", "posture": "De rodillas (o de pie, con la cabeza inclinada)." },
+    { "nom": "El misterio de la fe", "quoi": "Justo después, el sacerdote dice: «Este es el sacramento de nuestra fe».", "posture": "De pie.", "reponse": "Anunciamos tu muerte, proclamamos tu resurrección. ¡Ven, Señor Jesús!" },
+    { "nom": "El gran Amén", "quoi": "La oración termina con una alabanza al Padre, por Cristo, en el Espíritu Santo. Todos la hacen suya.", "posture": "De pie.", "reponse": "Amén." }
+   ]},
+   { "titre": "4. La comunión", "etapes": [
+    { "nom": "El Padrenuestro", "quoi": "Todos juntos rezamos la oración que Jesús nos enseñó.", "posture": "De pie." },
+    { "nom": "La paz", "quoi": "Nos deseamos la paz de Cristo, a menudo con un apretón de manos a los vecinos.", "posture": "De pie." },
+    { "nom": "El Cordero de Dios", "quoi": "El sacerdote parte la hostia mientras se canta el «Cordero de Dios». Luego la muestra: «Este es el Cordero de Dios… Dichosos los invitados a la cena del Señor».", "posture": "De pie, y luego de rodillas según la costumbre.", "reponse": "Señor, no soy digno de que entres en mi casa, pero una palabra tuya bastará para sanarme." },
+    { "nom": "La comunión", "quoi": "Quienes comulgan se acercan. El sacerdote presenta la hostia: «El Cuerpo de Cristo». Se recibe en la mano o en la boca. Si no comulgas (no estás bautizado, aún no estás preparado o quieres confesarte antes), puedes quedarte en tu sitio, o acercarte con los brazos cruzados sobre el pecho para recibir una bendición.", "posture": "De pie en la fila, y luego sentado o de rodillas para un momento de silencio.", "reponse": "Amén." },
+    { "nom": "La oración después de la comunión", "quoi": "Tras un tiempo de silencio, el sacerdote reza una última oración.", "posture": "De pie.", "reponse": "Amén." }
+   ]},
+   { "titre": "5. El envío", "etapes": [
+    { "nom": "La bendición", "quoi": "Después de los avisos de la parroquia, el sacerdote bendice a la asamblea.", "posture": "De pie; se hace la señal de la cruz.", "reponse": "Amén." },
+    { "nom": "El envío", "quoi": "«Podéis ir en paz». La misa no termina en la puerta: somos enviados a vivir de lo que hemos recibido.", "posture": "De pie; luego se sale durante el canto final.", "reponse": "Demos gracias a Dios." }
+   ]}
+  ]
+ },
+ "en": {
+  "titre": "The Mass step by step",
+  "desc": "What happens, from beginning to end, and what you can do",
+  "intro": "Mass lasts about an hour on Sunday and half an hour on weekdays. It has two great moments: we listen to God speaking in the Bible, then we do what Jesus did the night before he died, taking bread and wine. You don't need to know everything: watch the others, and let yourself be carried along.",
+  "posture": "What you do",
+  "reponse": "The response",
+  "parties": [
+   { "titre": "1. We gather", "etapes": [
+    { "nom": "The Entrance Chant", "quoi": "The priest and those serving at Mass walk toward the altar during a hymn.", "posture": "Standing." },
+    { "nom": "The Sign of the Cross", "quoi": "The priest begins in the name of the Father, and of the Son, and of the Holy Spirit, then greets the people: “The Lord be with you.”", "posture": "Standing; make the sign of the cross with him.", "reponse": "And with your spirit." },
+    { "nom": "Asking forgiveness", "quoi": "We acknowledge before God that we are sinners, in silence, then with the “I confess” or “Lord, have mercy”. It is a request for forgiveness, not an exam: God welcomes us.", "posture": "Standing." },
+    { "nom": "The Gloria", "quoi": "On Sundays and feast days we sing the Gloria: “Glory to God in the highest”. It is not sung in Advent or Lent.", "posture": "Standing." },
+    { "nom": "The Collect", "quoi": "The priest says “Let us pray”, leaves a moment of silence, then says a prayer that gathers everyone's intentions.", "posture": "Standing.", "reponse": "Amen." }
+   ]},
+   { "titre": "2. We listen to the Word of God", "etapes": [
+    { "nom": "The First Reading", "quoi": "A passage from the Old Testament (in the Easter season, from the Acts of the Apostles), read by a member of the congregation. At the end the reader says: “The word of the Lord.”", "posture": "Seated.", "reponse": "Thanks be to God." },
+    { "nom": "The Psalm", "quoi": "A prayer from the Bible, sung. Everyone repeats the refrain between the verses.", "posture": "Seated; sing the refrain." },
+    { "nom": "The Second Reading", "quoi": "On Sundays, a passage from a letter of the apostles, often Saint Paul.", "posture": "Seated.", "reponse": "Thanks be to God." },
+    { "nom": "The Gospel Acclamation", "quoi": "We stand to welcome the Gospel, singing “Alleluia” (in Lent, another acclamation).", "posture": "Standing." },
+    { "nom": "The Gospel", "quoi": "The priest or deacon reads the words and deeds of Jesus. At the start, everyone traces a small cross on the forehead, lips and heart: may this Word be in my mind, on my lips and in my heart. At the end he says: “The Gospel of the Lord.”", "posture": "Standing.", "reponse": "Praise to you, Lord Jesus Christ." },
+    { "nom": "The Homily", "quoi": "The priest or deacon explains the readings and helps everyone live them today.", "posture": "Seated." },
+    { "nom": "The Creed", "quoi": "On Sundays, everyone together professes the faith of the Church: “I believe in one God…”.", "posture": "Standing." },
+    { "nom": "The Prayer of the Faithful", "quoi": "We pray for the Church, for the world, for those who suffer and for the community. After each intention, everyone answers with a short response.", "posture": "Standing." }
+   ]},
+   { "titre": "3. The heart of the Mass: the Eucharist", "etapes": [
+    { "nom": "The Offertory", "quoi": "The bread and wine are brought to the altar. This is often the time of the collection, for the life of the parish and for the poor. Then the priest says: “Pray, brethren…”", "posture": "Seated, then standing.", "reponse": "May the Lord accept the sacrifice at your hands for the praise and glory of his name, for our good and the good of all his holy Church." },
+    { "nom": "The Holy, Holy", "quoi": "The priest begins the great prayer of praise, and everyone sings with the angels: “Holy, Holy, Holy Lord God of hosts.”", "posture": "Standing." },
+    { "nom": "The Consecration", "quoi": "The priest repeats Jesus' words at the Last Supper: “This is my Body”, “This is the chalice of my Blood”. The bread and wine become the Body and Blood of Christ. He raises them for all to see: it is the holiest moment of the Mass.", "posture": "Kneeling." },
+    { "nom": "The Mystery of Faith", "quoi": "Right after, the priest says: “The mystery of faith.”", "posture": "Kneeling.", "reponse": "We proclaim your Death, O Lord, and profess your Resurrection until you come again." },
+    { "nom": "The Great Amen", "quoi": "The prayer ends with praise to the Father, through Christ, in the Holy Spirit. Everyone makes it their own.", "posture": "Kneeling.", "reponse": "Amen." }
+   ]},
+   { "titre": "4. Communion", "etapes": [
+    { "nom": "The Our Father", "quoi": "All together, we pray the prayer Jesus taught us.", "posture": "Standing." },
+    { "nom": "The Sign of Peace", "quoi": "We offer one another the peace of Christ, often with a handshake to our neighbors.", "posture": "Standing." },
+    { "nom": "The Lamb of God", "quoi": "The priest breaks the host while the “Lamb of God” is sung. Then he shows it: “Behold the Lamb of God… Blessed are those called to the supper of the Lamb.”", "posture": "Standing, then kneeling.", "reponse": "Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed." },
+    { "nom": "Communion", "quoi": "Those receiving Communion come forward. The priest presents the host: “The Body of Christ.” You receive it in the hand or on the tongue. If you are not receiving (you are not baptized, not yet ready, or wish to go to confession first), you can stay in your place, or come forward with your arms crossed over your chest to receive a blessing.", "posture": "Standing in line, then seated or kneeling for a moment of silence.", "reponse": "Amen." },
+    { "nom": "The Prayer after Communion", "quoi": "After a time of silence, the priest says a final prayer.", "posture": "Standing.", "reponse": "Amen." }
+   ]},
+   { "titre": "5. Sent forth", "etapes": [
+    { "nom": "The Blessing", "quoi": "After the parish announcements, the priest blesses the people.", "posture": "Standing; make the sign of the cross.", "reponse": "Amen." },
+    { "nom": "The Dismissal", "quoi": "“Go in peace.” The Mass doesn't stop at the door: we are sent out to live from what we have received.", "posture": "Standing, then leave during the closing hymn.", "reponse": "Thanks be to God." }
+   ]}
+  ]
+ }
+}
