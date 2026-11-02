@@ -679,7 +679,10 @@
     OraAquarelle.peindre(document.getElementById('be-mer-loin'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-nuages-2'), cle, false);
-    ['a', 'b', 'c'].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-voile-' + k), k === 'b' ? 'bas-' + cle : cle, false); });
+    ['a', 'b'].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-voile-' + k), k === 'b' ? 'bas-' + cle : cle, false); });
+    // Le dernier nuage qui passe est un nuage à lui seul (et non une seconde copie du ciel : on croyait voir le même nuage revenir).
+    var tv = cle === 'nuit' ? { corps: [92, 106, 148], ombre: [40, 50, 86], lumiere: [176, 186, 216] } : { corps: [250, 226, 220], ombre: [222, 204, 216], lumiere: [255, 250, 244] };
+    OraAquarelle.nuage(document.getElementById('be-voile-c'), { w: 640, h: 400, seed: 7207, corps: tv.corps, ombre: tv.ombre, lumiere: tv.lumiere, aCorps: 0.1, n: 30 });
     // Les nuages qui balaient le texte quand il monte : trois profondeurs, chacune sa teinte, sa densité et sa vitesse.
     BALAI.forEach(function (n, k) {
       var t = BALAI_TEINTES[cle][n[0]];
