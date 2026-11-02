@@ -112,7 +112,7 @@
 
   // Rend cliquables les mots du lexique (une seule fois chacun par bloc de texte).
   // Mots du lexique qu'on ne souligne pas : ce sont des mots courants, pas propres à la foi catholique.
-  var EXCLUS = { saint: 1, 'vierge-marie': 1, croix: 1, grace: 1, defunts: 1, defunt: 1, bible: 1, mystere: 1 };
+  var EXCLUS = { saint: 1, 'vierge-marie': 1, croix: 1, grace: 1, defunt: 1, bible: 1, mystere: 1 };
   function lexique(texte) {
     var html = esc(texte), vus = {};
     if (!D) return html;
@@ -268,9 +268,23 @@
     var droite = opts.action ? '<span class="fleche" aria-hidden="true">' + icone('fleche') + '</span>' : '';
     return '<' + tag + ' class="rubrique"' + attr + '><span class="corps">' + corps + '</span>' + droite + '</' + tag + '>';
   }
+  // lecture : l'identifiant d'une page de lecture, ou { action, id } pour une autre destination (le Lexique).
   function section(etiquette, corps, lecture, action) {
-    return '<section class="section-jour' + (lecture ? ' ouvrable" data-action="lecture" data-id="' + lecture : '') + '"><h2 class="etiquette">' + esc(etiquette) + '</h2>' + corps +
-      (lecture ? '<button class="lire" data-action="lecture" data-id="' + lecture + '">' + esc(action) + icone('fleche') + '</button>' : '') + '</section>';
+    var ac = 'lecture', id = lecture;
+    if (lecture && typeof lecture === 'object') { ac = lecture.action; id = lecture.id; }
+    return '<section class="section-jour' + (lecture ? ' ouvrable" data-action="' + ac + '" data-id="' + id : '') + '"><h2 class="etiquette">' + esc(etiquette) + '</h2>' + corps +
+      (lecture ? '<button class="lire" data-action="' + ac + '" data-id="' + id + '">' + esc(action) + icone('fleche') + '</button>' : '') + '</section>';
+  }
+
+  // Mot du jour : un mot du lexique, qui change chaque jour. On avance d'un pas fixe premier avec le nombre de mots :
+  // deux jours de suite ne donnent jamais le même mot, et tous les mots passent avant qu'un mot revienne.
+  function motDuJour(dt) {
+    var mots = D.lexique.mots.slice().sort(function (a, b) { return a.id < b.id ? -1 : 1; }), n = mots.length;
+    if (!n) return null;
+    var pgcd = function (a, b) { return b ? pgcd(b, a % b) : a; }, pas = Math.max(1, Math.round(n * 0.382));
+    while (n > 1 && pgcd(pas, n) !== 1) pas++;
+    var jourN = Math.floor(Date.UTC(dt.getFullYear(), dt.getMonth(), dt.getDate()) / 864e5);
+    return mots[((jourN * pas) % n + n) % n];
   }
 
   function vueAccueil() {
@@ -302,6 +316,8 @@
       if (ex) html += section(a.expl ? T('la-fete') : T('le-temps'), '<p class="s-titre">' + esc(a.expl ? a.j.celebration.nom : a.j.saison.nom) + '</p><p class="s-accroche">' + lexique(ex.pourquoi || ex.quoi) + '</p>');
       html += section(T('idee-jour'), '<p class="s-accroche">' + lexique(a.conseil) + '</p>');
     }
+    var mot = motDuJour(dateDuJour());
+    if (mot) html += section(T('mot-jour'), '<p class="s-titre">' + esc(mot.mot) + '</p><p class="s-accroche">' + refsSeules(mot.def) + '</p>', { action: 'aller', id: 'lexique' }, T('acceder-lexique'));
     return html + '</div></section>';
   }
 

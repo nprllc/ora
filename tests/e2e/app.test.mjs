@@ -92,6 +92,20 @@ test('réglages : la roue dentée referme les réglages et ramène exactement l�
   await ctx.close();
 });
 
+test('mot du jour : en bas d\'Aujourd\'hui, jamais le même deux jours de suite, et il mène au lexique', async () => {
+  const mots = [];
+  for (const d of ['2026-11-03', '2026-11-04', '2026-11-05']) {
+    const { ctx, page } = await ouvrir(d, 'fr');
+    const derniere = page.locator('.section-jour').last();
+    assert.equal((await derniere.locator('.etiquette').textContent()).trim(), 'Mot du jour');
+    assert.match(await derniere.locator('.lire').innerText(), /Accéder au lexique/);
+    mots.push((await derniere.locator('.s-titre').innerText()).trim());
+    if (d === '2026-11-05') { await derniere.locator('.s-accroche').click(); await page.waitForSelector('#liste-mots'); }
+    await ctx.close();
+  }
+  assert.notEqual(mots[0], mots[1]); assert.notEqual(mots[1], mots[2]);
+});
+
 test('favoris : un favori qui ne désigne aucun verset est retiré du stockage', async () => {
   const { ctx, page } = await ouvrir('2026-11-03', 'en', { marques: [{ o: 'Matt', c: 99, v: 1 }, { o: 'Matt', c: 5, v: 3 }] });
   await page.click('[data-action=onglet][data-id=bible]');
