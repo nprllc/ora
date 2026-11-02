@@ -175,7 +175,11 @@
   // Nom de l'auteur d'une citation : un toucher ouvre sa courte présentation.
   function auteur(cit) {
     var a = cit.auteurId && D.auteurs[cit.auteurId];
-    return a ? '<button class="auteur-lien" data-action="auteur" data-id="' + esc(cit.auteurId) + '">' + esc(cit.auteur) + '</button>' : esc(cit.auteur);
+    if (!a) return esc(cit.auteur);
+    // Seul le nom de la personne est souligné ; la précision qui suit (« mère de saint Augustin… ») reste en texte simple.
+    var nom = (a[LANG] || a.fr).nom, texte = cit.auteur, suite = '';
+    if (texte.indexOf(nom) === 0) { suite = texte.slice(nom.length); texte = nom; }
+    return '<button class="auteur-lien" data-action="auteur" data-id="' + esc(cit.auteurId) + '">' + esc(texte) + '</button>' + esc(suite);
   }
 
   // Versets numérotés ; « […] » quand on saute des versets.

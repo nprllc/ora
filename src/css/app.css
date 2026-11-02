@@ -181,6 +181,8 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .lex, .ref, .auteur-lien { color: inherit; text-decoration: underline solid; text-decoration-color: var(--or); text-decoration-thickness: 1px; text-underline-offset: 4px; font: inherit; }
 /* Versets et auteurs : soulignés dans la couleur du texte, pour ne pas se confondre avec le lexique. */
 .ref, .auteur-lien { text-decoration-color: currentColor; }
+/* Le nom de l'auteur se lit dans la ligne, aligné à gauche, comme du texte. */
+.auteur-lien { display: inline; padding: 0; margin: 0; text-align: inherit; background: none; border: 0; line-height: inherit; }
 .ref { white-space: nowrap; }
 /* Une section qui s'ouvre se touche entièrement */
 .section-jour.ouvrable { cursor: pointer; -webkit-tap-highlight-color: transparent; }
