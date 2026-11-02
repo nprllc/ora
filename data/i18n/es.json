@@ -211,10 +211,10 @@
    "source": "Doxología tradicional."
   },
   "credo": {
-   "titre": "Credo (Símbolo de los Apóstoles)",
+   "titre": "El Credo",
    "texte": "Creo en Dios, Padre todopoderoso,\nCreador del cielo y de la tierra.\nCreo en Jesucristo, su único Hijo, nuestro Señor,\nque fue concebido por obra y gracia del Espíritu Santo,\nnació de santa María Virgen,\npadeció bajo el poder de Poncio Pilato,\nfue crucificado, muerto y sepultado,\ndescendió a los infiernos,\nal tercer día resucitó de entre los muertos,\nsubió a los cielos\ny está sentado a la derecha de Dios, Padre todopoderoso.\nDesde allí ha de venir a juzgar a vivos y muertos.\nCreo en el Espíritu Santo,\nla santa Iglesia católica,\nla comunión de los santos,\nel perdón de los pecados,\nla resurrección de la carne\ny la vida eterna.\nAmén.",
    "quand": "Al comienzo del rosario, en la misa del domingo, o para repetir la propia fe cuando vacila.",
-   "pourquoi": "El Credo resume lo esencial de la fe cristiana, tal como la Iglesia la transmite desde los primeros siglos. Rezarlo es unirse a todos los creyentes de ayer y de hoy.",
+   "pourquoi": "El Credo, llamado también Símbolo de los Apóstoles, resume lo esencial de la fe cristiana, tal como la Iglesia la transmite desde los primeros siglos. Rezarlo es unirse a todos los creyentes de ayer y de hoy.",
    "source": "Símbolo de los Apóstoles, Misal Romano de la Conferencia Episcopal Española."
   },
   "ange-de-dieu": {
@@ -679,12 +679,12 @@
     "def": "Para la Iglesia, una purificación después de la muerte para los que se salvan pero aún no están del todo preparados para ver a Dios. No es un castigo, sino una última preparación del amor. Se puede ayudar a los difuntos con la oración."
    },
    {
-    "id": "defunt",
-    "mot": "Difunto",
+    "id": "fideles-defunts",
+    "mot": "Fieles difuntos",
     "formes": [
-     "difunto"
+     "fieles difuntos"
     ],
-    "def": "Una persona que ha muerto. El 2 de noviembre, la Iglesia reza por todos los difuntos."
+    "def": "Todos los que han muerto y que la Iglesia confía a Dios. El 2 de noviembre, día de su conmemoración, reza por ellos con la esperanza de reencontrarlos un día junto a Él."
    },
    {
     "id": "memento-mori",

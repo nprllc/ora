@@ -40,8 +40,8 @@ fs.copyFileSync(path.join(SRC, 'manifest.webmanifest'), path.join(DIST, 'manifes
 // 3. La page : CSS et JS intégrés, données sérialisées sans « < » (pas de fin de balise script possible).
 let html = lire(path.join(SRC, 'index.html'));
 html = html.replace('<link rel="stylesheet" href="css/app.css">', () => '<style>\n' + lire(path.join(SRC, 'css/app.css')) + '\n</style>');
-const js = ['liturgie.js', 'references.js', 'aquarelle.js', 'app.js'].map((f) => lire(path.join(SRC, 'js', f))).join('\n');
-const scripts = /<script src="js\/liturgie\.js"><\/script>\s*<script src="js\/references\.js"><\/script>\s*<script src="js\/aquarelle\.js"><\/script>\s*<script src="js\/app\.js"><\/script>/;
+const js = ['liturgie.js', 'references.js', 'latin.js', 'aquarelle.js', 'app.js'].map((f) => lire(path.join(SRC, 'js', f))).join('\n');
+const scripts = /<script src="js\/liturgie\.js"><\/script>\s*<script src="js\/references\.js"><\/script>\s*<script src="js\/latin\.js"><\/script>\s*<script src="js\/aquarelle\.js"><\/script>\s*<script src="js\/app\.js"><\/script>/;
 if (!scripts.test(html)) throw new Error('src/index.html : balises script introuvables');
 html = html.replace(scripts, () => '<script>\nwindow.ORA_BIBLES = ' + JSON.stringify(Object.fromEntries(Object.keys(BIBLES).map((l) => [l, `bible-${l}.json`]))) + ';\nwindow.ORA_DATA = ' +
   JSON.stringify(donnees).replace(/</g, '\\u003c') + ';\n' + js + '\n</script>');

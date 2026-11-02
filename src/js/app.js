@@ -112,7 +112,7 @@
 
   // Rend cliquables les mots du lexique (une seule fois chacun par bloc de texte).
   // Mots du lexique qu'on ne souligne pas : ce sont des mots courants, pas propres à la foi catholique.
-  var EXCLUS = { saint: 1, 'vierge-marie': 1, croix: 1, grace: 1, defunt: 1, bible: 1, mystere: 1 };
+  var EXCLUS = { saint: 1, 'vierge-marie': 1, croix: 1, grace: 1, bible: 1, mystere: 1 };
   function lexique(texte) {
     var html = esc(texte), vus = {};
     if (!D) return html;
@@ -655,7 +655,7 @@
     document.getElementById('app').innerHTML =
       '<header class="entete"><button class="logo" data-action="haut" aria-label="' + esc(T('haut')) + '">' + LOGO + '</button>' +
       '<button class="bouton-menu" data-action="reglages" aria-label="' + esc(T('menu')) + '"><span class="menu-mot">' + esc(T('menu')) + '</span>' + ICONE_MENU + '</button></header>' +
-      '<main>' + contenu + '</main><div class="mer-bas" id="mer-bas" aria-hidden="true"></div>';
+      '<main>' + OraLatin.italiques(contenu) + '</main><div class="mer-bas" id="mer-bas" aria-hidden="true"></div>';
     if (nouvelleVue) { var vu = document.querySelector('.vue'); if (vu) vu.classList.add('entre'); }
     derniereVue = v;
     peindreMerBas(cleCiel);
@@ -664,7 +664,7 @@
     largeurMenu();
 
     var champ = document.getElementById('cherche');
-    if (champ) champ.addEventListener('input', function () { etat.filtre = champ.value; document.getElementById('liste-mots').innerHTML = listeMots(filtrerMots(champ.value.toLowerCase())); });
+    if (champ) champ.addEventListener('input', function () { etat.filtre = champ.value; document.getElementById('liste-mots').innerHTML = OraLatin.italiques(listeMots(filtrerMots(champ.value.toLowerCase()))); });
     var cb = document.getElementById('cherche-bible'), tempoC;
     if (cb) cb.addEventListener('input', function () {
       etat.cherche = cb.value; clearTimeout(tempoC);
@@ -783,7 +783,7 @@
     fermerFeuille();
     var voile = document.createElement('div'); voile.className = 'voile'; voile.setAttribute('data-action', 'fermer');
     var f = document.createElement('div'); f.className = 'feuille'; f.setAttribute('role', 'dialog'); f.setAttribute('aria-modal', 'true'); f.setAttribute('aria-label', titre);
-    f.innerHTML = '<div class="poignee"></div><h2>' + esc(titre) + '</h2>' + corpsHtml + '<div class="actions" style="margin-top:20px"><button class="bouton leger" data-action="fermer">' + esc(T('fermer')) + '</button></div>';
+    f.innerHTML = '<div class="poignee"></div><h2>' + OraLatin.italiques(esc(titre)) + '</h2>' + OraLatin.italiques(corpsHtml) + '<div class="actions" style="margin-top:20px"><button class="bouton leger" data-action="fermer">' + esc(T('fermer')) + '</button></div>';
     document.body.appendChild(voile); document.body.appendChild(f);
     var b = f.querySelector('button'); if (b) b.focus();
   }

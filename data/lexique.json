@@ -391,14 +391,12 @@
       "def": "Pour l'Église, une purification après la mort pour ceux qui sont sauvés mais pas encore tout à fait prêts à voir Dieu. Ce n'est pas une punition, plutôt une dernière préparation de l'amour. On peut aider les défunts par la prière."
     },
     {
-      "id": "defunt",
-      "mot": "Défunt",
+      "id": "fideles-defunts",
+      "mot": "Fidèles défunts",
       "formes": [
-        "défunts",
-        "défunt",
-        "défuntes"
+        "fidèles défunts"
       ],
-      "def": "Une personne qui est morte. Le 2 novembre, l'Église prie pour tous les défunts."
+      "def": "Tous ceux qui sont morts et que l'Église confie à Dieu. Le 2 novembre, jour de leur commémoration, elle prie pour eux avec l'espérance de les retrouver un jour auprès de Lui."
     },
     {
       "id": "memento-mori",

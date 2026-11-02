@@ -211,10 +211,10 @@
    "source": "Text used by the USCCB."
   },
   "credo": {
-   "titre": "The Apostles' Creed",
+   "titre": "The Creed",
    "texte": "I believe in God,\nthe Father almighty,\nCreator of heaven and earth,\nand in Jesus Christ, his only Son, our Lord,\nwho was conceived by the Holy Spirit,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, died and was buried;\nhe descended into hell;\non the third day he rose again from the dead;\nhe ascended into heaven,\nand is seated at the right hand of God the Father almighty;\nfrom there he will come to judge the living and the dead.\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting.\nAmen.",
    "quand": "At the start of the Rosary, at Sunday Mass, or to restate your faith when it wavers.",
-   "pourquoi": "The Creed sums up the essentials of the Christian faith, as the Church has handed it on since the first centuries. Praying it unites us with all believers, past and present.",
+   "pourquoi": "The Creed, also called the Apostles' Creed, sums up the essentials of the Christian faith, as the Church has handed it on since the first centuries. Praying it unites us with all believers, past and present.",
    "source": "Apostles' Creed, text used by the USCCB."
   },
   "ange-de-dieu": {
@@ -673,12 +673,12 @@
     "def": "For the Church, a purification after death for those who are saved but not yet fully ready to see God. It is not a punishment but a final preparation of love. We can help the dead by our prayer."
    },
    {
-    "id": "defunt",
-    "mot": "Deceased",
+    "id": "fideles-defunts",
+    "mot": "Faithful departed",
     "formes": [
-     "deceased"
+     "faithful departed"
     ],
-    "def": "A person who has died. On November 2, the Church prays for all the dead."
+    "def": "All those who have died, whom the Church entrusts to God. On November 2, the day of their commemoration, she prays for them in the hope of meeting them again one day with Him."
    },
    {
     "id": "memento-mori",
