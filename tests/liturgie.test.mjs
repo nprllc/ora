@@ -66,6 +66,16 @@ test('Régions : Épiphanie, Ascension, fêtes propres', () => {
   assert.notEqual(fete('2026-12-12', 'fr'), 'guadalupe');
   assert.equal(fete('2027-01-10', 'es'), 'bapteme');  // dimanche après le 6 janvier
   assert.equal(fete('2029-01-08', 'fr'), 'bapteme');  // Épiphanie le 7 : Baptême le lundi
+  // Patrons de l'Europe : fêtes en France et en Espagne (vérifié sur aelf.org, zone France), pas aux États-Unis.
+  assert.equal(fete('2026-07-11', 'fr'), 'benoit');
+  assert.equal(fete('2026-07-11', 'es'), 'benoit');
+  assert.notEqual(fete('2026-07-11', 'us'), 'benoit');
+  assert.equal(fete('2026-04-29', 'fr'), 'catherine-de-sienne');
+  assert.equal(fete('2026-02-14', 'fr'), 'cyrille-methode');
+  assert.equal(fete('2026-07-23', 'fr'), 'brigitte');
+  assert.equal(fete('2025-08-09', 'fr'), 'therese-benedicte');
+  assert.notEqual(fete('2026-08-09', 'fr'), 'therese-benedicte'); // dimanche
+  assert.notEqual(fete('2027-02-14', 'fr'), 'cyrille-methode');   // 1er dimanche de Carême
 });
 
 test('Aucune exception de 1900 à 2199, dans toutes les régions', () => {

@@ -51,7 +51,7 @@ test('toutes les références des textes d\'Ora sont cliquables, dans les trois 
       }
       for (const r of trouves) {
         const b = LIVRES[l].livres.find((x) => x.osis === r.osis);
-        if (!b || !b.ch[r.c - 1] || (r.v1 && !b.ch[r.c - 1][r.v1 - 1])) oublis.push(`${chemin} [${l}] : référence vers un passage absent « ${t.slice(r.debut, r.fin)} »`);
+        if (!b || !b.ch[r.c - 1] || (r.v1 && !b.ch[r.c - 1][r.v1 - 1]) || (r.v2 && !b.ch[r.c - 1][r.v2 - 1]) || (r.c2 && !b.ch[r.c2 - 1])) oublis.push(`${chemin} [${l}] : référence vers un passage absent « ${t.slice(r.debut, r.fin)} »`);
       }
     }
   }

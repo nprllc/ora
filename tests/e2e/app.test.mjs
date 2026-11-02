@@ -127,7 +127,8 @@ test('hors ligne : après une première visite, l\'app s\'ouvre sans réseau, m�
   await p.reload();
   await p.waitForSelector('.section-jour', { timeout: 15000 });
   assert.ok((await p.textContent('h1')).trim().length > 2);
-  const caches = await p.evaluate(async () => { const k = await caches.keys(); const c = await caches.open(k[0]); return (await c.keys()).map((r) => new URL(r.url).pathname); });
+  const caches = await p.evaluate(async () => { const out = []; for (const k of await caches.keys()) for (const r of await (await caches.open(k)).keys()) out.push(k + ':' + new URL(r.url).pathname); return out; });
   assert.equal(caches.filter((u) => /bible-/.test(u)).length, 1, 'une seule Bible en cache : ' + caches.join(', '));
+  assert.ok(caches.some((u) => /^ora-bibles:.*bible-fr\.json$/.test(u)), 'la Bible est dans son propre cache, qui survit aux mises à jour');
   await ctx.close(); autre.fermer();
 });

@@ -31,7 +31,7 @@
       else out.push({ debut: debut, fin: fin, osis: osis, c: +m[3], v1: 0, v2: 0, c2: m[6] ? +m[6] : null });
       if (!m[4]) continue;
       // Suites dans le même livre : « ; 7, 14 » ou « . 8 » (verset du même chapitre).
-      var reste = texte.slice(fin), suite, chap = +m[3], decale = fin;
+      var reste = texte.slice(fin), suite, decale = fin;
       var reSuite = /^(\s*;\s*(\d+)\s*(?:,|:)\s*(\d+)[a-e]?(?:\s*[-–]\s*(\d+)[a-e]?)?|\.(\d+)[a-e]?(?:\s*[-–]\s*(\d+)[a-e]?)?)/;
       while ((suite = reSuite.exec(reste))) {
         var tout = suite[0], blanc = (tout.match(/^\s*;\s*/) || [''])[0];
@@ -40,7 +40,7 @@
           var c = +suite[2], v1 = +suite[3], v2 = suite[4] ? +suite[4] : v1;
           out.push({ debut: decale + blanc.length, fin: decale + tout.length, osis: osis, c: c, v1: v1, v2: v2 });
         }
-        chap = suite[2] ? +suite[2] : chap; decale += tout.length; reste = reste.slice(tout.length);
+        decale += tout.length; reste = reste.slice(tout.length);
       }
       re.lastIndex = decale;
     }

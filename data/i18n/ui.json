@@ -106,11 +106,6 @@
   "eclairage": "Ce que l'Église en comprend",
   "pour-toi": "Pour toi aujourd'hui",
   "pour-finir": "Pour finir",
-  "region": "Région liturgique",
-  "region.fr": "France",
-  "region.es": "Espagne",
-  "region.us": "États-Unis",
-  "region-note": "La région règle les jours de certaines fêtes (Épiphanie, Ascension) et les fêtes propres du pays. Par défaut, elle suit la langue.",
   "la-fete": "La fête du jour",
   "le-temps": "Le temps liturgique"
  },
@@ -220,11 +215,6 @@
   "eclairage": "Lo que la Iglesia comprende",
   "pour-toi": "Para ti hoy",
   "pour-finir": "Para terminar",
-  "region": "Región litúrgica",
-  "region.fr": "Francia",
-  "region.es": "España",
-  "region.us": "Estados Unidos",
-  "region-note": "La región fija el día de algunas fiestas (Epifanía, Ascensión) y las fiestas propias del país. Por defecto, sigue el idioma.",
   "la-fete": "La fiesta del día",
   "le-temps": "El tiempo litúrgico"
  },
@@ -334,11 +324,6 @@
   "eclairage": "How the Church understands it",
   "pour-toi": "For you today",
   "pour-finir": "To finish",
-  "region": "Liturgical region",
-  "region.fr": "France",
-  "region.es": "Spain",
-  "region.us": "United States",
-  "region-note": "The region sets the day of some feasts (Epiphany, Ascension) and the country’s own feasts. By default, it follows the language.",
   "la-fete": "Today’s feast",
   "le-temps": "The liturgical season"
  }

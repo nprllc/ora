@@ -29,6 +29,20 @@
    "nom_en": "The Presentation of the Lord"
   },
   {
+   "date": "02-14",
+   "id": "cyrille-methode",
+   "nom": "Saints Cyrille, moine, et Méthode, évêque, patrons de l'Europe",
+   "nom_es": "Santos Cirilo, monje, y Metodio, obispo, patronos de Europa",
+   "nom_en": "Saints Cyril, Monk, and Methodius, Bishop, Patrons of Europe",
+   "rang": "fete",
+   "couleur": "blanc",
+   "regions": [
+    "fr",
+    "es"
+   ],
+   "source": "Patrons de l'Europe : fête en Europe (AELF, zone France, 2017-2027 ; Calendario litúrgico de la Conferencia Episcopal Española)"
+  },
+  {
    "date": "02-22",
    "id": "chaire-pierre",
    "nom": "Chaire de saint Pierre",
@@ -63,6 +77,20 @@
    "couleur": "rouge",
    "nom_es": "San Marcos, evangelista",
    "nom_en": "Saint Mark, Evangelist"
+  },
+  {
+   "date": "04-29",
+   "id": "catherine-de-sienne",
+   "nom": "Sainte Catherine de Sienne, vierge et docteur de l'Église, patronne de l'Europe",
+   "nom_es": "Santa Catalina de Siena, virgen y doctora de la Iglesia, patrona de Europa",
+   "nom_en": "Saint Catherine of Siena, Virgin and Doctor of the Church, Patron of Europe",
+   "rang": "fete",
+   "couleur": "blanc",
+   "regions": [
+    "fr",
+    "es"
+   ],
+   "source": "Patrons de l'Europe : fête en Europe (AELF, zone France, 2017-2027 ; Calendario litúrgico de la Conferencia Episcopal Española)"
   },
   {
    "date": "05-03",
@@ -119,6 +147,20 @@
    "nom_en": "Saint Thomas, Apostle"
   },
   {
+   "date": "07-11",
+   "id": "benoit",
+   "nom": "Saint Benoît, abbé, patron de l'Europe",
+   "nom_es": "San Benito, abad, patrono de Europa",
+   "nom_en": "Saint Benedict, Abbot, Patron of Europe",
+   "rang": "fete",
+   "couleur": "blanc",
+   "regions": [
+    "fr",
+    "es"
+   ],
+   "source": "Patrons de l'Europe : fête en Europe (AELF, zone France, 2017-2027 ; Calendario litúrgico de la Conferencia Episcopal Española)"
+  },
+  {
    "date": "07-22",
    "id": "marie-madeleine",
    "nom": "Sainte Marie-Madeleine",
@@ -126,6 +168,20 @@
    "couleur": "blanc",
    "nom_es": "Santa María Magdalena",
    "nom_en": "Saint Mary Magdalene"
+  },
+  {
+   "date": "07-23",
+   "id": "brigitte",
+   "nom": "Sainte Brigitte, religieuse, patronne de l'Europe",
+   "nom_es": "Santa Brígida, religiosa, patrona de Europa",
+   "nom_en": "Saint Bridget, Religious, Patron of Europe",
+   "rang": "fete",
+   "couleur": "blanc",
+   "regions": [
+    "fr",
+    "es"
+   ],
+   "source": "Patrons de l'Europe : fête en Europe (AELF, zone France, 2017-2027 ; Calendario litúrgico de la Conferencia Episcopal Española)"
   },
   {
    "date": "07-25",
@@ -137,6 +193,19 @@
    "nom_en": "Saint James, Apostle"
   },
   {
+   "date": "07-25",
+   "id": "santiago",
+   "nom": "Saint Jacques, apôtre, patron de l'Espagne",
+   "nom_es": "Santiago, apóstol, patrono de España",
+   "nom_en": "Saint James, Apostle, Patron of Spain",
+   "rang": "solennite",
+   "couleur": "rouge",
+   "regions": [
+    "es"
+   ],
+   "source": "Calendario litúrgico propio de España (Conferencia Episcopal Española)"
+  },
+  {
    "date": "08-06",
    "id": "transfiguration",
    "nom": "Transfiguration du Seigneur",
@@ -144,6 +213,20 @@
    "couleur": "blanc",
    "nom_es": "Transfiguración del Señor",
    "nom_en": "The Transfiguration of the Lord"
+  },
+  {
+   "date": "08-09",
+   "id": "therese-benedicte",
+   "nom": "Sainte Thérèse-Bénédicte de la Croix (Edith Stein), vierge et martyre, patronne de l'Europe",
+   "nom_es": "Santa Teresa Benedicta de la Cruz (Edith Stein), virgen y mártir, patrona de Europa",
+   "nom_en": "Saint Teresa Benedicta of the Cross (Edith Stein), Virgin and Martyr, Patron of Europe",
+   "rang": "fete",
+   "couleur": "rouge",
+   "regions": [
+    "fr",
+    "es"
+   ],
+   "source": "Patrons de l'Europe : fête en Europe (AELF, zone France, 2017-2027 ; Calendario litúrgico de la Conferencia Episcopal Española)"
   },
   {
    "date": "08-10",
@@ -209,6 +292,19 @@
    "nom_en": "Saints Michael, Gabriel and Raphael, Archangels"
   },
   {
+   "date": "10-12",
+   "id": "pilar",
+   "nom": "Notre-Dame du Pilier",
+   "nom_es": "Nuestra Señora del Pilar",
+   "nom_en": "Our Lady of the Pillar",
+   "rang": "fete",
+   "couleur": "blanc",
+   "regions": [
+    "es"
+   ],
+   "source": "Calendario litúrgico propio de España (Conferencia Episcopal Española)"
+  },
+  {
    "date": "10-18",
    "id": "luc",
    "nom": "Saint Luc, évangéliste",
@@ -272,6 +368,19 @@
    "nom_en": "The Immaculate Conception of the Blessed Virgin Mary"
   },
   {
+   "date": "12-12",
+   "id": "guadalupe",
+   "nom": "Notre-Dame de Guadalupe",
+   "nom_es": "Nuestra Señora de Guadalupe",
+   "nom_en": "Our Lady of Guadalupe",
+   "rang": "fete",
+   "couleur": "blanc",
+   "regions": [
+    "us"
+   ],
+   "source": "Proper Calendar for the Dioceses of the United States of America (USCCB)"
+  },
+  {
    "date": "12-25",
    "id": "noel",
    "nom": "Nativité du Seigneur",
@@ -306,45 +415,6 @@
    "couleur": "rouge",
    "nom_es": "Santos Inocentes, mártires",
    "nom_en": "The Holy Innocents, Martyrs"
-  },
-  {
-   "date": "07-25",
-   "id": "santiago",
-   "nom": "Saint Jacques, apôtre, patron de l'Espagne",
-   "nom_es": "Santiago, apóstol, patrono de España",
-   "nom_en": "Saint James, Apostle, Patron of Spain",
-   "rang": "solennite",
-   "couleur": "rouge",
-   "regions": [
-    "es"
-   ],
-   "source": "Calendario litúrgico propio de España (Conferencia Episcopal Española)"
-  },
-  {
-   "date": "10-12",
-   "id": "pilar",
-   "nom": "Notre-Dame du Pilier",
-   "nom_es": "Nuestra Señora del Pilar",
-   "nom_en": "Our Lady of the Pillar",
-   "rang": "fete",
-   "couleur": "blanc",
-   "regions": [
-    "es"
-   ],
-   "source": "Calendario litúrgico propio de España (Conferencia Episcopal Española)"
-  },
-  {
-   "date": "12-12",
-   "id": "guadalupe",
-   "nom": "Notre-Dame de Guadalupe",
-   "nom_es": "Nuestra Señora de Guadalupe",
-   "nom_en": "Our Lady of Guadalupe",
-   "rang": "fete",
-   "couleur": "blanc",
-   "regions": [
-    "us"
-   ],
-   "source": "Proper Calendar for the Dioceses of the United States of America (USCCB)"
   }
  ]
 }

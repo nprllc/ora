@@ -26,11 +26,11 @@
 
   // ---------- Réglages (gardés sur le téléphone) ----------
   function lireReglages() {
-    var def = { mode: 'auto', taille: 'normal', langue: null, region: null };
+    var def = { mode: 'auto', taille: 'normal', langue: null };
     try {
       var x = JSON.parse(localStorage.getItem('ora.reglages') || 'null');
       var r = x ? Object.assign(def, x) : def;
-      delete r.niveau; delete r.ciel; // réglages d'anciennes versions
+      delete r.niveau; delete r.ciel; delete r.region; // réglages d'anciennes versions
       return r;
     } catch (e) { return def; }
   }
@@ -40,7 +40,7 @@
     var l = ((navigator.languages && navigator.languages[0]) || navigator.language || 'fr').slice(0, 2).toLowerCase();
     return l === 'es' || l === 'ca' || l === 'gl' || l === 'eu' ? 'es' : l === 'en' ? 'en' : 'fr';
   }
-  // Région liturgique : un réglage à part ; par défaut, celle qui va avec la langue.
+  // Région liturgique : pas un réglage ; elle suit la langue.
   var REGION_PAR_LANGUE = { fr: 'fr', es: 'es', en: 'us' };
   function regionChoisie() { return REGION_PAR_LANGUE[LANG] || 'fr'; }
   function lireMarques() {

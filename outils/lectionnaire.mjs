@@ -3,6 +3,10 @@
 // Source : les références d'Évangile de l'AELF (api.aelf.org, zone « romain ») pour chaque jour de 2016 à 2027
 // (outils/sources/aelf-evangiles.json), plus quelques jours que seule la zone « canada » donne (Ascension
 // reportée au dimanche) et des compléments du Lectionnaire romain (outils/sources/lectionnaire-complements.json).
+// La zone « france » de l'AELF ne diffère de la zone « romain », pour ce que le moteur calcule, que par les cinq
+// patrons de l'Europe (fêtes en France et en Espagne) : leurs Évangiles sont dans les compléments. Ses autres
+// différences (mémoires de sainte Bernadette et de saint Yves, Dédicace des églises fêtée dans chaque église) ne
+// changent pas l'Évangile du jour retenu par Ora.
 //
 // Pour chaque date, le moteur (src/js/liturgie.js, région France, comme la zone « romain » de l'AELF) calcule
 // la clé du jour (célébration, sinon jour férial). Si une clé reçoit toujours la même référence, on la garde ;
@@ -35,6 +39,10 @@ function evangile(x) {
   return messe[1][0].replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').replace(/\s*([,;])\s*/g, '$1 ').replace(/\s*–\s*/g, ' – ').replace(/\s*-\s*/g, '-').trim();
 }
 
+// Fêtes propres d'une région (patrons de l'Europe, Santiago…) : la zone « romain » de l'AELF n'en donne pas l'Évangile,
+// qui vient des compléments (pour l'Europe : relevé dans la zone « france » de l'AELF, 2017-2027).
+const PROPRES = new Set(F.fixes.filter((f) => f.regions).map((f) => f.id));
+
 function agreger(source, region) {
   L.region(region);
   const parCle = {};
@@ -42,6 +50,7 @@ function agreger(source, region) {
     const ref = evangile(source[date]);
     if (!ref) continue;
     const j = L.jour(date, F);
+    if (j.celebration && PROPRES.has(j.celebration.id)) continue;
     const cle = j.celebration ? j.celebration.id : j.cles[j.cles.length - 1];
     (parCle[cle] = parCle[cle] || []).push({ date, cycle: j.anneeDominicale, parite: j.anneeFeriale, ref, nom: source[date].i && source[date].i[0] });
   }
