@@ -697,7 +697,7 @@
     document.documentElement.classList.add('arrivee');
     void e.offsetWidth; // le navigateur prend la position de départ avant l'animation
     e.classList.add('descend');
-    setTimeout(function () { document.documentElement.classList.remove('arrivee'); e.remove(); }, 3200);
+    setTimeout(function () { document.documentElement.classList.remove('arrivee'); e.remove(); }, 4800);
   }
 
   function rendre() {

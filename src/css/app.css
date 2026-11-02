@@ -329,11 +329,11 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 /* Trois profondeurs : les lointains montent lentement et restent pâles, les proches passent vite, plus grands et plus denses. */
 .descend .bb-loin { animation: bb-loin 2s cubic-bezier(.35,0,.45,1) var(--bb-d) forwards; }
 .descend .bb-milieu { animation: bb-milieu 1.75s cubic-bezier(.35,0,.45,1) var(--bb-d) forwards; }
-.descend .bb-pres { animation: bb-pres 1.5s cubic-bezier(.35,0,.45,1) var(--bb-d) forwards; z-index: 2; }
+.descend .bb-pres { animation: bb-pres 2.6s cubic-bezier(.42,0,.38,1) var(--bb-d) forwards; z-index: 2; }
 @keyframes bb-loin { 0% { opacity: 0; transform: translateY(12vh); } 25% { opacity: .75; } 80% { opacity: .75; } 100% { opacity: 0; transform: translateY(-45vh); } }
 @keyframes bb-milieu { 0% { opacity: 0; transform: translateY(20vh); } 22% { opacity: .92; } 80% { opacity: .92; } 100% { opacity: 0; transform: translateY(-70vh); } }
-@keyframes bb-pres { 0% { opacity: 0; transform: translateY(30vh) scale(1.05); } 20% { opacity: 1; } 78% { opacity: 1; } 100% { opacity: 0; transform: translateY(-100vh) scale(1.12); } }
-.descend .be-contenu { animation: be-balaye 1.3s cubic-bezier(.4,0,.4,1) .15s forwards;
+@keyframes bb-pres { 0% { opacity: 0; transform: translate3d(0, 30vh, 0) scale(1.05); } 22% { opacity: 1; } 75% { opacity: 1; } 100% { opacity: 0; transform: translate3d(0, -90vh, 0) scale(1.1); } }
+.descend .be-contenu { animation: be-balaye 2s cubic-bezier(.42,0,.38,1) .25s forwards;
   -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 42%, transparent 58%, transparent 100%); mask-image: linear-gradient(180deg, #000 0%, #000 42%, transparent 58%, transparent 100%);
   -webkit-mask-size: 100% 300%; mask-size: 100% 300%; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-position: 0 0; mask-position: 0 0; }
 @keyframes be-balaye { to { -webkit-mask-position: 0 100%; mask-position: 0 100%; filter: blur(3px); } }
@@ -356,7 +356,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 
 /* Le nuage qui passe devant : des lavis d'aquarelle plus grands que l'écran, autour d'un cœur de lumière opaque */
 .be-voile { position: absolute; left: -30%; right: -30%; top: 100%; height: 160vh; pointer-events: none; }
-.be-voile::before { content: ''; position: absolute; inset: 12% -10%; border-radius: 50%; filter: blur(24px);
+.be-voile::before { content: ''; position: absolute; inset: 12% -10%; border-radius: 50%;
   background: radial-gradient(ellipse at 50% 50%, var(--fond) 0%, var(--fond) 52%, rgba(255,251,245,0) 74%); }
 :root.nuit .be-voile::before { background: radial-gradient(ellipse at 50% 50%, var(--fond) 0%, var(--fond) 52%, rgba(22,30,53,0) 74%); }
 .be-voile > div { position: absolute; left: 0; right: 0; height: 470px; transform-origin: center;
@@ -368,12 +368,12 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 
 /* La descente : la scène du haut monte et sort, le nuage traverse plus vite (il est plus près), Aujourd'hui arrive d'en bas */
 .bienvenue-ecran.descend { pointer-events: none; }
-.descend .be-scene { animation: be-monte 2.8s cubic-bezier(.65,0,.35,1) forwards; }
-.descend .be-voile { animation: be-voile 2.8s cubic-bezier(.55,0,.45,1) forwards; }
-@keyframes be-monte { to { transform: translateY(-110vh); } }
-@keyframes be-voile { from { transform: translateY(0); } to { transform: translateY(-260vh); } }
-:root.arrivee #ciel, :root.arrivee .app { animation: be-arrive 2.8s cubic-bezier(.65,0,.35,1) both; }
-@keyframes be-arrive { from { transform: translateY(100vh); } to { transform: none; } }
+.descend .be-scene { animation: be-monte 4.4s cubic-bezier(.42,0,.38,1) forwards; }
+.descend .be-voile { animation: be-voile 4.4s cubic-bezier(.42,0,.38,1) forwards; }
+@keyframes be-monte { to { transform: translate3d(0, -110vh, 0); } }
+@keyframes be-voile { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(0, -230vh, 0); } }
+:root.arrivee #ciel, :root.arrivee .app { animation: be-arrive 4.4s cubic-bezier(.42,0,.38,1) both; }
+@keyframes be-arrive { from { transform: translate3d(0, 100vh, 0); } to { transform: translate3d(0, 0, 0); } }
 @keyframes lumiere { from { opacity: .85; transform: scale(1); } to { opacity: 1; transform: scale(1.06); } }
 @media (prefers-reduced-motion: reduce) { .be-lumiere, .be-contenu { animation: none; } }
 :root.arrivee .barre { opacity: 0; }
@@ -394,3 +394,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .messe-posture span, .messe-reponse span { font-size: .6875rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--discret); margin-right: 6px; }
 .messe-reponse { font-style: italic; }
 .messe-reponse span { font-style: normal; }
+
+/* Fluidité : les couches qui bougent ont chacune leur calque ; dans les nuages qui passent, les lavis ne s'animent pas en plus. */
+.be-scene, .be-voile, .be-balai .bb, :root.arrivee #ciel, :root.arrivee .app { will-change: transform; backface-visibility: hidden; }
+.be-voile .couche, .be-voile canvas, .be-balai .couche, .be-balai canvas { animation: none !important; }
