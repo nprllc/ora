@@ -675,7 +675,7 @@
       '<div class="be-voile" id="be-voile" aria-hidden="true"><div class="be-voile-a" id="be-voile-a"></div><div class="be-voile-b" id="be-voile-b"></div><div class="be-voile-c" id="be-voile-c"></div></div>';
     document.body.appendChild(e);
     document.getElementById('app').innerHTML = ''; document.getElementById('barre').hidden = true;
-    OraAquarelle.peindre(document.getElementById('be-nuages'), cle, true);
+    OraAquarelle.peindre(document.getElementById('be-nuages'), cle, false); // peints d'un coup : là dès le départ
     OraAquarelle.peindre(document.getElementById('be-mer-loin'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-nuages-2'), cle, false);
