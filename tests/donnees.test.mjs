@@ -3,6 +3,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { L, FETES, lireJson, dates, chercher } from './aide.mjs';
+import VERSIF from '../outils/sources/versification.mjs';
 
 const BIBLES = { fr: lireJson('data/bible.json'), es: lireJson('data/bible-es.json'), en: lireJson('data/bible-en.json') };
 const LIVRES = Object.fromEntries(Object.entries(BIBLES).map(([l, b]) => [l, Object.fromEntries(b.livres.map((x) => [x.osis, x]))]));
@@ -71,7 +72,7 @@ test('chaque verset du lectionnaire existe dans les trois Bibles', () => {
 // seulement du nom divin (« Yahweh » devient « le Seigneur ») et des coupes en début ou en fin de verset.
 // Les lettres hébraïques de tête des psaumes alphabétiques (« ALEPH. ») ne font pas partie de la prière.
 const ACROSTICHE = /\b(ALEPH|BETH|GHIMEL|DALETH|HÉ|VAV|ZAÏN|HETH|TETH|YOD|CAPH|LAMED|MEM|NUN|SAMECH|AÏN|PHÉ|TSADÉ|QOPH|RESCH|SCHIN|THAV|HET)\./g;
-const mots = (t) => t.replace(ACROSTICHE, ' ').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/yahweh|yahve|jehovah/g, ' seigneur ').replace(/[^a-z0-9]+/g, ' ')
+const mots = (t) => t.replace(ACROSTICHE, ' ').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/hallelu\s*yah/g, ' aleluya ').replace(/yahweh|yahve|jehovah|\byah\b/g, ' seigneur ').replace(/[^a-z0-9]+/g, ' ')
   .split(' ').filter((m) => m && !['le', 'la', 'l', 'el', 'du', 'de', 'al', 'a', 'del', 'au', 'dans', 'en', 'o', 'oh', 'the', 'seigneur', 'senor', 'lord'].includes(m));
 function fidele(priere, texteBible) {
   const p = mots(priere).join(' '), b = mots(texteBible).join(' ');
@@ -91,6 +92,48 @@ test('chaque prière biblique est le texte de son verset, dans chaque langue', (
   for (const [k, c] of Object.entries(PJ.celebrations)) for (const [m, x] of Object.entries(c)) verifie(x, `${k}/${m}`);
   for (const [k, x] of Object.entries(PJ.reflexions)) verifie(x, `réflexion ${k}`);
   assert.deepEqual(ecarts, []);
+});
+
+// Une prière tirée d'un Évangile désigne le bon verset dans chaque Bible : l'identifiant (« mc9-24 ») donne la
+// numérotation moderne, que la table des correspondances traduit pour la Crampon, la Platense et la Douay-Rheims.
+test('chaque prière d\'Évangile désigne le même verset dans les trois Bibles', () => {
+  const LIVRE = { mt: 'Matt', mc: 'Mark', lc: 'Luke', jn: 'John' }, ecarts = [];
+  const verifie = (x, ou) => {
+    const m = /^(mt|mc|lc|jn)(\d+)-(\d+)$/.exec(x.id || '');
+    if (!m || !x.bible) return;
+    const osis = LIVRE[m[1]], c = +m[2], v = +m[3];
+    for (const l of LANGUES) {
+      const att = (VERSIF[l][`${osis}.${c}.${v}`] || [[c, v]])[0], s = x.bible[l];
+      if (s.c !== att[0] || s.v[0] !== att[1]) ecarts.push(`${ou} ${l} : ${s.c}:${s.v[0]} au lieu de ${att[0]}:${att[1]}`);
+    }
+  };
+  for (const [m, liste] of Object.entries(PJ.pools)) liste.forEach((x) => verifie(x, `${m}/${x.id}`));
+  for (const [k, c] of Object.entries(PJ.celebrations)) for (const [m, x] of Object.entries(c)) verifie(x, `${k}/${m}`);
+  assert.deepEqual(ecarts, []);
+});
+
+// Une prière affichée : guillemets refermés, sans les parenthèses du traducteur, sans nom divin.
+test('les prières du jour sont propres : guillemets équilibrés, ni parenthèses ni nom divin', () => {
+  const defauts = [];
+  const verifie = (x, ou) => { for (const l of LANGUES) {
+    const t = x[l];
+    if (t.split('«').length !== t.split('»').length || t.split('“').length !== t.split('”').length) defauts.push(`${ou} ${l} : guillemet seul`);
+    if (/[()]/.test(t)) defauts.push(`${ou} ${l} : parenthèse`);
+    if (/\b(Yahweh|Yahvé|Yah|Hallelú)\b/.test(t)) defauts.push(`${ou} ${l} : nom divin`);
+  } };
+  for (const [m, liste] of Object.entries(PJ.pools)) liste.forEach((x) => verifie(x, `${m}/${x.id}`));
+  for (const [k, c] of Object.entries(PJ.celebrations)) for (const [m, x] of Object.entries(c)) verifie(x, `${k}/${m}`);
+  assert.deepEqual(defauts, []);
+});
+
+// Une prière traduite se suffit à elle-même : l'app n'y mêle aucun texte français.
+test('chaque prière traditionnelle traduite a tous ses textes dans sa langue', () => {
+  const manque = [];
+  for (const p of PRIERES.traditionnelles) for (const l of ['es', 'en']) {
+    const t = lireJson(`data/i18n/${l}.json`).prieres[p.id] || {};
+    for (const k of Object.keys(p)) if (!['id', 'bible', 'variante', 'source'].includes(k) && !t[k]) manque.push(`${l} ${p.id} : ${k}`);
+  }
+  assert.deepEqual(manque, []);
 });
 
 // --- Identifiants ---

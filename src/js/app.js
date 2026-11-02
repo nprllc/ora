@@ -196,7 +196,10 @@
     var prieres = JSON.parse(JSON.stringify(fr.prieres));
     prieres.traditionnelles = prieres.traditionnelles.map(function (p) {
       var t = (tr.prieres || {})[p.id];
-      return t ? Object.assign({}, p, t) : p;
+      if (!t) return p;
+      // Les textes viennent tous de la langue choisie : rien du français (une « autre version » française ne doit pas apparaître en espagnol).
+      var base = { id: p.id }; if (p.bible) base.bible = p.bible;
+      return Object.assign(base, t);
     });
     D = {
       ui: Object.assign({}, b.ui.fr, b.ui[LANG] || {}),

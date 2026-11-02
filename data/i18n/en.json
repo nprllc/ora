@@ -186,63 +186,71 @@
    "texte": "In the name of the Father,\nand of the Son,\nand of the Holy Spirit.\nAmen.",
    "geste": "With the right hand, touch the forehead (the Father), the chest (the Son), then the left shoulder and the right shoulder (the Holy Spirit).",
    "quand": "At the beginning and end of every prayer, when entering a church, before a meal, or simply to place yourself before God.",
-   "pourquoi": "It is the shortest and oldest prayer: in a few words we profess our faith in God, Father, Son and Spirit, and trace on ourselves the cross of Christ."
+   "pourquoi": "It is the shortest prayer, and a very ancient gesture: by the early third century Christians were tracing a small cross on their foreheads (Tertullian, De corona, 3). In a few words we profess our faith in God, Father, Son and Spirit, and trace on ourselves the cross of Christ.",
+   "source": "Mt 28:19. Traditional formula of the Church."
   },
   "notre-pere": {
    "titre": "The Our Father",
    "texte": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come,\nthy will be done\non earth as it is in heaven.\nGive us this day our daily bread,\nand forgive us our trespasses,\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil.\nAmen.",
    "quand": "Every day, morning or evening, at Mass, or when you don't know what to say to God.",
    "pourquoi": "It is the prayer Jesus himself taught his disciples (Mt 6:9-13). It contains everything: trust, daily bread, forgiveness and protection.",
-   "source": "Mt 6:9-13; Lk 11:2-4"
+   "source": "Mt 6:9-13; Lk 11:2-4. Text used by the USCCB."
   },
   "je-vous-salue-marie": {
    "titre": "The Hail Mary",
    "texte": "Hail Mary, full of grace,\nthe Lord is with thee.\nBlessed art thou among women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death.\nAmen.",
    "quand": "At any time, alone or with a child. It is repeated ten times in each decade of the Rosary.",
    "pourquoi": "The first part repeats the words of the angel Gabriel and of Elizabeth to Mary (Lk 1:28.42). In the second, we ask Mary to pray for us, as we would ask a mother.",
-   "source": "Lk 1:28; Lk 1:42"
+   "source": "Lk 1:28; Lk 1:42. Text used by the USCCB."
   },
   "gloire-au-pere": {
    "titre": "Glory Be",
    "texte": "Glory be to the Father,\nand to the Son,\nand to the Holy Spirit,\nas it was in the beginning,\nis now, and ever shall be,\nworld without end.\nAmen.",
    "quand": "At the end of a decade of the Rosary, of a psalm, or as a short prayer of praise during the day.",
-   "pourquoi": "A very simple praise: we ask for nothing, we give glory to God for who he is."
+   "pourquoi": "A very simple praise: we ask for nothing, we give glory to God for who he is.",
+   "source": "Text used by the USCCB."
   },
   "credo": {
    "titre": "The Apostles' Creed",
    "texte": "I believe in God,\nthe Father almighty,\nCreator of heaven and earth,\nand in Jesus Christ, his only Son, our Lord,\nwho was conceived by the Holy Spirit,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, died and was buried;\nhe descended into hell;\non the third day he rose again from the dead;\nhe ascended into heaven,\nand is seated at the right hand of God the Father almighty;\nfrom there he will come to judge the living and the dead.\nI believe in the Holy Spirit,\nthe holy catholic Church,\nthe communion of saints,\nthe forgiveness of sins,\nthe resurrection of the body,\nand life everlasting.\nAmen.",
    "quand": "At the start of the Rosary, at Sunday Mass, or to restate your faith when it wavers.",
-   "pourquoi": "The Creed sums up the essentials of the Christian faith, as the Church has handed it on since the first centuries. Praying it unites us with all believers, past and present."
+   "pourquoi": "The Creed sums up the essentials of the Christian faith, as the Church has handed it on since the first centuries. Praying it unites us with all believers, past and present.",
+   "source": "Apostles' Creed, text used by the USCCB."
   },
   "ange-de-dieu": {
    "titre": "Angel of God",
    "texte": "Angel of God,\nmy guardian dear,\nto whom God's love\ncommits me here,\never this day\nbe at my side,\nto light and guard,\nto rule and guide.\nAmen.",
    "quand": "In the evening before sleeping, or in the morning when heading out. A beautiful prayer to say with a child.",
-   "pourquoi": "The Church believes each person is accompanied by a guardian angel, an invisible friend God places at our side (Catechism, no. 336)."
+   "pourquoi": "The Church believes each person is accompanied by a guardian angel, an invisible friend God places at our side (Catechism, no. 336).",
+   "source": "Traditional English version of the Angele Dei."
   },
   "angelus": {
    "titre": "The Angelus",
-   "texte": "The Angel of the Lord declared unto Mary,\n— And she conceived of the Holy Spirit.\nHail Mary…\n\nBehold the handmaid of the Lord.\n— Be it done unto me according to thy word.\nHail Mary…\n\nAnd the Word was made flesh,\n— And dwelt among us.\nHail Mary…\n\nPray for us, O holy Mother of God,\n— That we may be made worthy of the promises of Christ.\n\nLet us pray.\nPour forth, we beseech thee, O Lord,\nthy grace into our hearts,\nthat we, to whom the Incarnation of Christ, thy Son,\nwas made known by the message of an angel,\nmay by his Passion and Cross\nbe brought to the glory of his Resurrection.\nThrough the same Christ our Lord.\nAmen.",
-   "quand": "Traditionally three times a day: at 6 am, noon and 6 pm, when the bells ring.",
-   "pourquoi": "It recalls the moment God became man, thanks to Mary's “yes”. Praying it at noon is a pause in the middle of the day to remember God."
+   "texte": "The Angel of the Lord declared unto Mary,\n— And she conceived of the Holy Spirit.\nHail Mary…\n\nBehold the handmaid of the Lord,\n— Be it done unto me according to your Word.\nHail Mary…\n\nAnd the Word was made flesh,\n— And dwelt among us.\nHail Mary…\n\nPray for us, O holy Mother of God,\n— That we may be made worthy of the promises of Christ.\n\nLet us pray.\nPour forth, we beseech you, O Lord,\nyour grace into our hearts:\nthat we, to whom the Incarnation of Christ your Son\nwas made known by the message of an Angel,\nmay by his Passion and Cross\nbe brought to the glory of his Resurrection.\nThrough the same Christ our Lord.\nAmen.",
+   "quand": "Traditionally three times a day: at 6 am, noon and 6 pm, when the bells ring. During the Easter season, it is replaced by the Regina Caeli.",
+   "pourquoi": "It recalls the moment God became man, thanks to Mary's “yes”. Praying it at noon is a pause in the middle of the day to remember God.",
+   "source": "USCCB, Catholic Household Blessings and Prayers, revised edition (2007)."
   },
   "acte-de-contrition": {
    "titre": "Act of Contrition",
-   "texte": "My God,\nI am sorry for my sins with all my heart.\nIn choosing to do wrong\nand failing to do good,\nI have sinned against you\nwhom I should love above all things.\nI firmly intend, with your help,\nto do penance,\nto sin no more,\nand to avoid whatever leads me to sin.\nOur Savior Jesus Christ\nsuffered and died for us.\nIn his name, my God, have mercy.\nAmen.",
-   "variante": "O my God, I am heartily sorry for having offended thee,\nand I detest all my sins because of thy just punishments,\nbut most of all because they offend thee, my God,\nwho art all good and deserving of all my love.\nI firmly resolve, with the help of thy grace,\nto sin no more and to avoid the near occasion of sin.\nAmen.",
+   "texte": "O my God,\nI am heartily sorry for having offended you,\nand I detest all my sins because of your just punishments,\nbut most of all because they offend you, my God,\nwho are all good and deserving of all my love.\nI firmly resolve, with the help of your grace,\nto sin no more\nand to avoid the near occasions of sin.\nAmen.",
+   "variante": "O my God,\nI am sorry and repent with all my heart\nfor all the wrong I have done\nand for the good I have failed to do,\nbecause by sinning I have offended you,\nwho are all good and worthy to be loved above all things.\nI firmly resolve, with the help of your grace,\nto do penance,\nto sin no more,\nand to avoid the occasions of sin.\nThrough the merits of the Passion of our Savior Jesus Christ,\nLord, have mercy.",
    "quand": "In the evening after looking back on the day, or during confession, after naming your sins.",
-   "pourquoi": "We tell God we regret the wrong we have done and want to change, counting on his help more than on our own strength."
+   "pourquoi": "We tell God we regret the wrong we have done and want to change, counting on his help more than on our own strength.",
+   "source": "USCCB, Order of Penance, nos. 45 and 92."
   },
   "benedicite": {
    "titre": "Grace Before Meals",
    "texte": "Bless us, O Lord,\nand these thy gifts,\nwhich we are about to receive\nfrom thy bounty,\nthrough Christ our Lord.\nAmen.",
    "quand": "Before a meal, as a family or alone.",
-   "pourquoi": "We thank God for our food, a gift of his goodness. It translates the ancient Latin grace “Benedic, Domine”."
+   "pourquoi": "We thank God for our food, a gift of his goodness. It translates the ancient Latin grace “Benedic, Domine”.",
+   "source": "Traditional English version of the Benedic, Domine."
   },
   "nunc-dimittis": {
    "titre": "The Canticle of Simeon",
    "quand": "In the evening before sleep. The Church prays it every night at Night Prayer (Compline).",
-   "pourquoi": "These are the words of the old man Simeon when he took the child Jesus in his arms in the Temple (Lk 2:29-32). Ending the day with them is entrusting oneself to God in peace."
+   "pourquoi": "These are the words of the old man Simeon when he took the child Jesus in his arms in the Temple (Lk 2:29-32). Ending the day with them is entrusting oneself to God in peace.",
+   "source": "Lk 2:29-32, Douay-Rheims Bible."
   }
  },
  "guide-famille": {

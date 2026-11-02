@@ -23,7 +23,7 @@ TRAD = {
                 'src': {'fr': 'Prière traditionnelle pour les défunts (Requiem æternam)', 'es': 'Oración tradicional por los difuntos (Requiem æternam)', 'en': 'Traditional prayer for the dead (Requiem æternam)'}},
     'signe-de-croix': {'fr': 'Au nom du Père, et du Fils, et du Saint-Esprit. Amen.', 'es': 'En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.',
                        'en': 'In the name of the Father, and of the Son, and of the Holy Spirit. Amen.', 'src': {'fr': 'Le signe de croix', 'es': 'La señal de la cruz', 'en': 'The Sign of the Cross'}},
-    'gloire-au-pere': {'fr': 'Gloire au Père, et au Fils, et au Saint-Esprit,\ncomme il était au commencement, maintenant et toujours,\net pour les siècles des siècles. Amen.',
+    'gloire-au-pere': {'fr': 'Gloire au Père, et au Fils, et au Saint-Esprit,\nau Dieu qui est, qui était et qui vient,\npour les siècles des siècles. Amen.',
                        'es': 'Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre,\npor los siglos de los siglos. Amén.',
                        'en': 'Glory be to the Father, and to the Son, and to the Holy Spirit,\nas it was in the beginning, is now, and ever shall be,\nworld without end. Amen.', 'src': {'fr': 'Gloire au Père', 'es': 'Gloria', 'en': 'Glory Be'}},
     'je-vous-salue-marie': {'fr': 'Je vous salue, Marie, pleine de grâce ;\nle Seigneur est avec vous.\nVous êtes bénie entre toutes les femmes,\net Jésus, le fruit de vos entrailles, est béni.\nSainte Marie, Mère de Dieu,\npriez pour nous, pauvres pécheurs,\nmaintenant et à l\'heure de notre mort. Amen.',
@@ -96,19 +96,38 @@ NOTES = {
 AJUST = {
     ('jn11-25', 'fr'): {'de': 'Je suis la résurrection'}, ('jn11-25', 'es'): {'de': 'Yo soy la resurrección'}, ('jn11-25', 'en'): {'de': 'I am the resurrection'},
     ('ps5-4', 'es'): {'de': 'Desde la mañana'}, ('ps5-4', 'en'): {'de': 'O Lord, in the morning'},
-    ('ps25-4', 'en'): {'v': [5, 6], 'de': 'Shew'}, ('ps27-1', 'en'): {'de': 'The Lord is my light'},
+    ('ps25-4', 'en'): {'v': [4, 5], 'de': 'Shew'}, ('ps27-1', 'en'): {'de': 'The Lord is my light'},
     ('ps71-1', 'en'): {'de': 'In thee, O Lord'}, ('ps91-1', 'en'): {'de': 'He that dwelleth'},
     ('ps17-8', 'en'): {'de': 'keep me'}, ('ps150-6', 'en'): {'v': [5], 'de': 'let every spirit'},
-    ('ps150-6', 'es'): {'v': [6]}, ('ps90-12', 'en'): {'de': 'So make'}, ('ps56-4', 'en'): {'de': 'I will trust'},
-    ('ps39-5', 'en'): {'de': 'O Lord, make me know'}, ('ps131-2', 'en'): {'de': 'As a child'},
-    ('mc9-24', 'fr'): {'v': [23]}, ('jn6-68', 'en'): {'de': 'Lord, to whom'},
+    ('ps150-6', 'es'): {'v': [6]}, ('ps90-12', 'en'): {'de': 'So make'}, ('ps56-4', 'en'): {'v': [5], 'de': 'in God I have put'},
+    ('ps39-5', 'en'): {'de': 'O Lord, make me know'}, ('ps131-2', 'en'): {'v': [1], 'de': 'Lord, my heart', 'a': ' Neither have'},
+    ('mc9-24', 'fr'): {'v': [23]}, ('mc9-24', 'en'): {'v': [23], 'de': 'I do believe'}, ('jn6-68', 'en'): {'v': [69, 70], 'de': 'Lord, to whom'},
     ('lc1-38', 'en'): {'a': 'And the angel'}, ('lc23-46', 'en'): {'a': 'And saying'}, ('lc24-29', 'en'): {'a': 'And he went'},
     ('jn21-17', 'fr'): {'de': 'Seigneur, vous connaissez', 'a': 'Jésus lui dit'}, ('lc18-13', 'fr'): {'de': 'Ô Dieu'},
     ('lc2-29', 'en'): {'de': 'Now thou dost dismiss'}, ('jn21-17', 'es'): {'de': 'Señor, Tú lo sabes', 'a': '”. Díjole'},
     ('jn21-17', 'en'): {'de': 'Lord, thou knowest', 'a': 'He said'},
+    ('lc2-14', 'en'): {'de': 'Glory to God'}, ('ps146-2', 'en'): {'a': ' Put not'}, ('ps130-3', 'en'): {'a': ' and by reason'},
+    ('ps130-5', 'en'): {'v': [4, 5], 'de': 'My soul hath relied'}, ('ps61-2', 'en'): {'a': ' Thou hast conducted'}, ('ps40-9', 'en'): {'de': 'O my God'},
+    ('ps131-1', 'en'): {'a': ' If I was not'}, ('ps18-2', 'fr'): {'de': 'Je t’aime'}, ('ps18-2', 'es'): {'de': 'Te amo'},
+    # La Douay-Rheims dit « In peace in the self same I will sleep » (Ps 4, 9), incompréhensible seul :
+    # en anglais, on prend le v. 7 du même psaume du soir.
+    ('ps4-9', 'en'): {'v': [7], 'de': 'The light'},
     ('ap22-20', 'fr'): {'de': 'Venez'}, ('ap22-20', 'es'): {'de': 'ven, Señor'}, ('ap22-20', 'en'): {'de': 'Come, Lord'},
 }
-# Prières tirées d'un récit : on ne garde que les paroles adressées à Dieu.
+# Ponctuation et majuscules seulement (jamais les mots), corrigée avant le reste : une virgule de vocatif absente de la source,
+# un point d'interrogation que la Douay-Rheims remplace par un point.
+PONCT = {
+    ('ps102-2', 'fr'): ('Yahweh écoute', 'Yahweh, écoute'), ('ps86-11', 'fr'): ('tes voies Yahweh', 'tes voies, Yahweh'),
+    ('ps16-1', 'fr'): ('Garde-moi ô Dieu', 'Garde-moi, ô Dieu'), ('ps130-3', 'en'): ('who shall stand it.', 'who shall stand it?'),
+    ('ps130-3', 'es'): ('Señor ¿quién', 'Señor, ¿quién'),
+    ('mc9-24', 'fr'): ('Je crois (Seigneur)', 'Je crois, (Seigneur)'),
+    # Majuscule de début de vers au milieu d'une phrase (vers poétiques de la Crampon mis bout à bout).
+    ('ps113-1', 'fr'): ('nom de Yahweh, Que', 'nom de Yahweh, que'), ('lc2-14', 'fr'): ('hommes, Objet', 'hommes, objet'),
+}
+
+# Prières tirées d'un récit : on garde des paroles adressées à Dieu, ou des paroles bibliques que la tradition
+# de l'Église prie déjà (salutation de l'ange dans le Je vous salue Marie, réponse de Marie dans l'Angélus,
+# chant des anges dans le Gloria).
 CITATION = {'1s3-10', 'mc9-24', 'lc17-5', 'jn6-68', 'jn20-28', 'lc11-1', 'is6-8', 'lc1-38', 'lc1-46', 'lc23-46', 'lc24-29', 'lc23-42', 'lc18-13', 'lc1-28', 'lc2-14', 'lc2-29'}
 
 TITRES = [r"^(?:Cantique (?:des|pour les) montées\.\s*)?(?:De David\.\s*)?", r"^Au maître de chant\.\s*", r"^(?:Psaume|Hymne|Prière|Chant de louange)[^.]*\.\s*(?:De David\.\s*)?",
@@ -133,6 +152,9 @@ def nettoie(t, l):
         t = t.replace('Yahweh', 'le Seigneur')
     if l == 'es':
         t = t.replace('[', '').replace(']', '')
+        t = re.sub(r'Hallelú\s*Yah', 'Aleluya', t)                      # comme dans la liturgie
+        t = re.sub(r'\b([oO]h) Yah, Señor\b', r'\1 Señor', t)            # « Yah » : forme courte du nom divin
+        t = re.sub(r'\ba Yah\b', 'al Señor', t); t = re.sub(r'\bYah\b', 'el Señor', t)
         t = re.sub(r'\ben Yahvé\b', 'en el Señor', t)
         t = re.sub(r'\bde Yahvé\b', 'del Señor', t); t = re.sub(r'\ba Yahvé\b', 'al Señor', t)
         t = re.sub(r'(^|[.!?¡¿“:;,]\s*|\b[oO]h\s+)Yahvé(?=( de los ejércitos)?\s*[,!;?.”])', lambda m: m.group(1) + 'Señor', t)  # vocativo
@@ -156,7 +178,8 @@ def extrait(t, l, pid, aj):
     if t and t[-1] not in '.!?…': t += '.'
     if l == 'es' and t.endswith('!') and '¡' not in t: t = '¡' + t
     if l == 'es' and t.endswith('?') and '¿' not in t: t = '¿' + t
-    return t[:1].upper() + t[1:]
+    i = len(t) - len(t.lstrip('¡¿«“ '))
+    return t[:i] + t[i:i + 1].upper() + t[i + 1:]
 
 
 def texte_biblique(pid, osis, c, vs):
@@ -167,6 +190,7 @@ def texte_biblique(pid, osis, c, vs):
         ch = B[osis]['ch'][c - 1]
         brut = ' '.join(ch[v - 1] for v in vv)
         brut = re.sub(r'\s*\n\s*', ' ', brut)
+        if (pid, l) in PONCT: brut = brut.replace(*PONCT[(pid, l)])
         if vv[0] == 1:
             for r_ in TITRES: brut = re.sub(r_, '', brut)
         out[l] = extrait(nettoie(brut, l), l, pid, aj)
@@ -177,7 +201,13 @@ def texte_biblique(pid, osis, c, vs):
 
 
 def finition(p):
-    for l in ('fr', 'es', 'en'): p[l] = re.sub(r'[\s\u202f\u00a0]+\.$', '.', p[l])
+    for l in ('fr', 'es', 'en'):
+        t = re.sub(r'[\s\u202f\u00a0]+\.$', '.', p[l])
+        t = re.sub(r'\(([^()]*)\)', r'\1', t)  # mots ajoutés par le traducteur : on garde le mot, sans les parenthèses
+        # Une parole citée qui commence dans le verset et se ferme au verset suivant : on referme le guillemet.
+        if t.count('«') > t.count('»'): t += '\u00a0»'
+        if t.count('“') > t.count('”'): t += '”'
+        p[l] = t
     return p
 
 

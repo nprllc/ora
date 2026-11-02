@@ -186,7 +186,8 @@
    "texte": "En el nombre del Padre,\ny del Hijo,\ny del Espíritu Santo.\nAmén.",
    "geste": "Con la mano derecha se toca la frente (el Padre), el pecho (el Hijo) y luego el hombro izquierdo y el derecho (el Espíritu Santo).",
    "quand": "Al principio y al final de toda oración, al entrar en una iglesia, antes de comer o simplemente para ponerse bajo la mirada de Dios.",
-   "pourquoi": "Es la oración más breve y más antigua: en pocas palabras se dice la fe en Dios Padre, Hijo y Espíritu, y se traza sobre uno mismo la cruz de Cristo."
+   "pourquoi": "Es la oración más breve, y un gesto muy antiguo: ya a comienzos del siglo III los cristianos trazaban una pequeña cruz en la frente (Tertuliano, De corona, 3). En pocas palabras se dice la fe en Dios Padre, Hijo y Espíritu, y se traza sobre uno mismo la cruz de Cristo.",
+   "source": "Mt 28, 19. Fórmula tradicional de la Iglesia."
   },
   "notre-pere": {
    "titre": "Padrenuestro",
@@ -200,49 +201,56 @@
    "texte": "Dios te salve, María,\nllena eres de gracia;\nel Señor es contigo.\nBendita tú eres entre todas las mujeres,\ny bendito es el fruto de tu vientre, Jesús.\nSanta María, Madre de Dios,\nruega por nosotros, pecadores,\nahora y en la hora de nuestra muerte.\nAmén.",
    "quand": "En cualquier momento, solo o con un niño. Se repite diez veces en cada misterio del rosario.",
    "pourquoi": "La primera parte recoge las palabras del ángel Gabriel y de Isabel a María (Lc 1, 28.42). En la segunda, pedimos a María que rece por nosotros, como se lo pediríamos a una madre.",
-   "source": "Lc 1, 28; Lc 1, 42"
+   "source": "Lc 1, 28; Lc 1, 42. Texto tradicional en uso en España."
   },
   "gloire-au-pere": {
    "titre": "Gloria",
    "texte": "Gloria al Padre, y al Hijo,\ny al Espíritu Santo.\nComo era en el principio,\nahora y siempre,\npor los siglos de los siglos.\nAmén.",
    "quand": "Al final de un misterio del rosario, de un salmo, o como una pequeña oración de alabanza durante el día.",
-   "pourquoi": "Es una alabanza muy sencilla: no se pide nada, se da gloria a Dios por lo que es."
+   "pourquoi": "Es una alabanza muy sencilla: no se pide nada, se da gloria a Dios por lo que es.",
+   "source": "Doxología tradicional."
   },
   "credo": {
    "titre": "Credo (Símbolo de los Apóstoles)",
    "texte": "Creo en Dios, Padre todopoderoso,\nCreador del cielo y de la tierra.\nCreo en Jesucristo, su único Hijo, nuestro Señor,\nque fue concebido por obra y gracia del Espíritu Santo,\nnació de santa María Virgen,\npadeció bajo el poder de Poncio Pilato,\nfue crucificado, muerto y sepultado,\ndescendió a los infiernos,\nal tercer día resucitó de entre los muertos,\nsubió a los cielos\ny está sentado a la derecha de Dios, Padre todopoderoso.\nDesde allí ha de venir a juzgar a vivos y muertos.\nCreo en el Espíritu Santo,\nla santa Iglesia católica,\nla comunión de los santos,\nel perdón de los pecados,\nla resurrección de la carne\ny la vida eterna.\nAmén.",
    "quand": "Al comienzo del rosario, en la misa del domingo, o para repetir la propia fe cuando vacila.",
-   "pourquoi": "El Credo resume lo esencial de la fe cristiana, tal como la Iglesia la transmite desde los primeros siglos. Rezarlo es unirse a todos los creyentes de ayer y de hoy."
+   "pourquoi": "El Credo resume lo esencial de la fe cristiana, tal como la Iglesia la transmite desde los primeros siglos. Rezarlo es unirse a todos los creyentes de ayer y de hoy.",
+   "source": "Símbolo de los Apóstoles, Misal Romano de la Conferencia Episcopal Española."
   },
   "ange-de-dieu": {
    "titre": "Ángel de Dios",
    "texte": "Ángel de Dios,\nque eres mi custodio,\npues la bondad divina\nme ha encomendado a ti,\nilumíname, guárdame,\nrígeme y gobiérname.\nAmén.",
    "variante": "Ángel de la guarda,\ndulce compañía,\nno me desampares\nni de noche ni de día.\nAmén.",
    "quand": "Por la noche antes de dormir, o por la mañana al salir. Una oración muy bonita para rezar con un niño.",
-   "pourquoi": "La Iglesia cree que cada uno está acompañado por un ángel custodio, un amigo invisible que Dios pone a nuestro lado (Catecismo, n. 336)."
+   "pourquoi": "La Iglesia cree que cada uno está acompañado por un ángel custodio, un amigo invisible que Dios pone a nuestro lado (Catecismo, n. 336).",
+   "source": "Oraciones tradicionales al ángel de la guarda."
   },
   "angelus": {
    "titre": "El Ángelus",
-   "texte": "El Ángel del Señor anunció a María.\n— Y concibió por obra del Espíritu Santo.\nDios te salve, María…\n\nHe aquí la esclava del Señor.\n— Hágase en mí según tu palabra.\nDios te salve, María…\n\nY el Verbo se hizo carne.\n— Y habitó entre nosotros.\nDios te salve, María…\n\nRuega por nosotros, santa Madre de Dios.\n— Para que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo.\n\nOremos.\nDerrama, Señor, tu gracia sobre nosotros,\nque, por el anuncio del ángel,\nhemos conocido la encarnación de tu Hijo,\npara que lleguemos, por su pasión y su cruz,\na la gloria de la resurrección.\nPor Jesucristo, nuestro Señor.\nAmén.",
-   "quand": "Tradicionalmente tres veces al día: a las 6, a las 12 y a las 18 horas, cuando suenan las campanas.",
-   "pourquoi": "Recuerda el momento en que Dios se hizo hombre, gracias al «sí» de María. Rezarla a mediodía es hacer una pausa en medio del día para acordarse de Dios."
+   "texte": "El ángel del Señor anunció a María.\n— Y concibió por obra y gracia del Espíritu Santo.\nDios te salve, María…\n\nHe aquí la esclava del Señor.\n— Hágase en mí según tu palabra.\nDios te salve, María…\n\nY el Verbo de Dios se hizo carne.\n— Y habitó entre nosotros.\nDios te salve, María…\n\nRuega por nosotros, Santa Madre de Dios,\n— para que seamos dignos de alcanzar las promesas de Jesucristo.\n\nOremos.\nOh Padre, infunde en nuestra alma tu gracia.\nTú, que en la anunciación del Ángel\nnos has revelado la encarnación de tu Hijo,\npor su pasión y su cruz\ncondúcenos a la gloria de la resurrección.\nPor Cristo, nuestro Señor.\nAmén.",
+   "quand": "Tradicionalmente tres veces al día: a las 6, a las 12 y a las 18 horas, cuando suenan las campanas. Durante el tiempo de Pascua se sustituye por el Regina Coeli.",
+   "pourquoi": "Recuerda el momento en que Dios se hizo hombre, gracias al «sí» de María. Rezarla a mediodía es hacer una pausa en medio del día para acordarse de Dios.",
+   "source": "Texto publicado por Vatican News en español."
   },
   "acte-de-contrition": {
    "titre": "Acto de contrición",
    "texte": "Señor mío Jesucristo,\nDios y Hombre verdadero,\nCreador, Padre y Redentor mío;\npor ser vos quien sois, bondad infinita,\ny porque os amo sobre todas las cosas,\nme pesa de todo corazón haberos ofendido;\ntambién me pesa porque podéis castigarme\ncon las penas del infierno.\nAyudado de vuestra divina gracia,\npropongo firmemente nunca más pecar,\nconfesarme y cumplir la penitencia\nque me fuere impuesta.\nAmén.",
    "quand": "Por la noche, después de repasar el día, o durante la confesión, después de decir los pecados.",
-   "pourquoi": "Decimos a Dios que lamentamos el mal que hemos hecho y que queremos cambiar, contando con su ayuda más que con nuestras propias fuerzas."
+   "pourquoi": "Decimos a Dios que lamentamos el mal que hemos hecho y que queremos cambiar, contando con su ayuda más que con nuestras propias fuerzas.",
+   "source": "Fórmula tradicional española."
   },
   "benedicite": {
    "titre": "Bendición de la mesa",
    "texte": "Bendícenos, Señor,\ny bendice estos alimentos\nque por tu bondad vamos a recibir.\nPor Jesucristo, nuestro Señor.\nAmén.",
    "quand": "Antes de comer, en familia o solo.",
-   "pourquoi": "Damos gracias a Dios por el alimento que recibimos de su bondad. Es la traducción de la antigua bendición latina «Benedic, Domine»."
+   "pourquoi": "Damos gracias a Dios por el alimento que recibimos de su bondad. Es la traducción de la antigua bendición latina «Benedic, Domine».",
+   "source": "Traducción de la oración latina Benedic, Domine."
   },
   "nunc-dimittis": {
    "titre": "Cántico de Simeón",
    "quand": "Por la noche, antes de dormir. La Iglesia lo reza cada noche en la oración de Completas.",
-   "pourquoi": "Son las palabras del anciano Simeón cuando tomó en brazos al niño Jesús en el Templo (Lc 2, 29-32). Terminar el día con ellas es confiarse a Dios en paz."
+   "pourquoi": "Son las palabras del anciano Simeón cuando tomó en brazos al niño Jesús en el Templo (Lc 2, 29-32). Terminar el día con ellas es confiarse a Dios en paz.",
+   "source": "Lc 2, 29-32, Biblia Platense (Straubinger)."
   }
  },
  "guide-famille": {
