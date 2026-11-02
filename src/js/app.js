@@ -42,7 +42,7 @@
   }
   // Région liturgique : un réglage à part ; par défaut, celle qui va avec la langue.
   var REGION_PAR_LANGUE = { fr: 'fr', es: 'es', en: 'us' };
-  function regionChoisie() { return R.region || REGION_PAR_LANGUE[LANG] || 'fr'; }
+  function regionChoisie() { return REGION_PAR_LANGUE[LANG] || 'fr'; }
   function lireMarques() {
     try {
       var m = JSON.parse(localStorage.getItem('ora.marques') || '[]');
@@ -542,9 +542,6 @@
     h += '<div class="rubriques">' + rubrique('<span class="titre-r">' + esc(T('favoris')) + '</span><span class="texte-r">' + esc(nb ? T('favoris-nb', nb) : T('favoris-vide')) + '</span>', { action: 'aller', id: 'favoris' }) + '</div>';
     h += '<p class="groupe">' + esc(T('langue')) + '</p><div class="segments">' + LANGUES.map(function (l) { return '<button class="' + (LANG === l[0] ? 'on' : '') + '" aria-pressed="' + (LANG === l[0]) + '" data-action="langue" data-id="' + l[0] + '" lang="' + l[0] + '">' + l[1] + '</button>'; }).join('') + '</div>';
     h += '<p class="note">' + esc(T('langue-note')) + '</p>';
-    var reg = regionChoisie();
-    h += '<p class="groupe">' + esc(T('region')) + '</p><div class="segments">' + OraLiturgie.regions.map(function (r) { return '<button class="' + (reg === r ? 'on' : '') + '" aria-pressed="' + (reg === r) + '" data-action="region" data-id="' + r + '">' + esc(T('region.' + r)) + '</button>'; }).join('') + '</div>';
-    h += '<p class="note">' + esc(T('region-note')) + '</p>';
     h += '<p class="groupe">' + esc(T('ambiance')) + '</p><div class="segments">' + seg('mode', 'auto', T('selon-heure')) + seg('mode', 'jour', T('jour')) + seg('mode', 'nuit', T('soir')) + '</div>';
     h += '<p class="note">' + esc(T('ambiance-note')) + '</p>';
     h += '<p class="groupe">' + esc(T('taille')) + '</p><div class="segments">' + seg('taille', 'normal', T('normale')) + seg('taille', 'grand', T('grande')) + seg('taille', 'tres-grand', T('tres-grande')) + '</div>';
@@ -802,7 +799,6 @@
     else if (act === 'etape') { etat.etape = +id; rendre(); }
     else if (act === 'retour') { var p = etat.pile.pop() || { vue: 'accueil' }; etat.vue = p.vue; etat.guide = p.guide; etat.bible = p.bible; etat.etape = 0; rendre(); window.scrollTo(0, 0); }
     else if (act === 'langue') { R.langue = id; LANG = id; ecrireReglages(); preparer(); BIBLE = null; bibleLangue = null; chargerBible().then(nettoyerMarques).catch(function () {}); rendreEnPlace(); }
-    else if (act === 'region') { R.region = id; ecrireReglages(); OraLiturgie.region(id); rendreEnPlace(); }
     else if (act === 'reglage') { R[el.getAttribute('data-cle')] = id; ecrireReglages(); rendreEnPlace(); majVivant(); }
     else if (act === 'explication') {
       var a = aujourdhui(), e = a.expl || a.explSaison, nom = a.expl ? a.j.celebration.nom : a.j.saison.nom;
