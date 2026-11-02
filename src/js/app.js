@@ -667,7 +667,7 @@
     e.innerHTML = '<div class="be-scene" id="be-scene">' +
         '<div class="be-nuages" id="be-nuages" aria-hidden="true"></div><div class="be-nuages be-nuages-2" id="be-nuages-2" aria-hidden="true"></div>' +
         (cle === 'nuit' ? '<div class="be-etoiles" aria-hidden="true">' + ETOILES_HAUT.map(function (p) { return '<span class="etoile" style="left:calc(50% - 195px + ' + p[0] + 'px);top:' + p[1] + 'px;--d:' + p[2] + 's;--r:-' + p[3] + 's"></span>'; }).join('') + '</div>' : '') +
-        '<div class="be-mer be-mer-tres-loin" id="be-mer-tres-loin" aria-hidden="true"></div><div class="be-mer be-mer-loin" id="be-mer-loin" aria-hidden="true"></div><div class="be-mer" id="be-mer" aria-hidden="true"></div><div class="be-bas" aria-hidden="true"></div><div class="be-lumiere" aria-hidden="true"></div>' +
+        '<div class="be-mer be-mer-loin" id="be-mer-loin" aria-hidden="true"></div><div class="be-mer" id="be-mer" aria-hidden="true"></div><div class="be-lumiere" aria-hidden="true"></div>' +
         '<div class="be-contenu"><div class="be-o" aria-hidden="true">' + LOGO.replace('width="68" height="27"', 'width="170" height="65"') + '</div>' +
         '<h1 class="be-titre">' + esc(T('menu-titre')) + '</h1><p class="be-texte">' + T('presentation') + '</p>' +
         '<button class="be-commencer" data-action="bienvenue">' + esc(T('commencer')) + '</button></div>' +
@@ -678,7 +678,6 @@
     document.getElementById('app').innerHTML = ''; document.getElementById('barre').hidden = true;
     OraAquarelle.peindre(document.getElementById('be-nuages'), cle, true);
     OraAquarelle.peindre(document.getElementById('be-mer-loin'), 'bas-' + cle, false);
-    OraAquarelle.peindre(document.getElementById('be-mer-tres-loin'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-nuages-2'), cle, false);
     ['a', 'b', 'c'].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-voile-' + k), k === 'b' ? 'bas-' + cle : cle, false); });
