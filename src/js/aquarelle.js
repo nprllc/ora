@@ -182,5 +182,49 @@
     })();
   }
 
-  global.OraAquarelle = { peindre: peindre };
+  // Un nuage seul, pour les dioramas (écran de bienvenue) : chaque graine donne une forme différente.
+  // Plusieurs lobes (comme un cumulus), chacun peint par glacis successifs ; une ombre douce dessous, une lumière dessus.
+  function nuage(conteneur, o) {
+    var w = o.w, h = o.h, dpr = Math.min(2, window.devicePixelRatio || 1), s = o.seed | 0;
+    function r() { s |= 0; s = (s + 0x6D2B79F5) | 0; var t = Math.imul(s ^ (s >>> 15), 1 | s); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }
+    function gs() { return Math.sqrt(-2 * Math.log(r() || 1e-9)) * Math.cos(2 * Math.PI * r()); }
+    function ell(cx, cy, rx, ry, n) { var p = []; for (var i = 0; i < n; i++) { var a = i / n * Math.PI * 2; p.push({ x: cx + Math.cos(a) * rx, y: cy + Math.sin(a) * ry }); } return p; }
+    function deform(pts, depth, v) {
+      for (var d = 0; d < depth; d++) {
+        var out = [];
+        for (var i = 0; i < pts.length; i++) {
+          var a = pts[i], b = pts[(i + 1) % pts.length], len = Math.hypot(b.x - a.x, b.y - a.y);
+          out.push(a); out.push({ x: (a.x + b.x) / 2 + gs() * len * v, y: (a.y + b.y) / 2 + gs() * len * v });
+        }
+        pts = out;
+      }
+      return pts;
+    }
+    var cv = document.createElement('canvas');
+    cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr); cv.style.width = w + 'px'; cv.style.height = h + 'px';
+    conteneur.innerHTML = ''; conteneur.appendChild(cv);
+    var g = cv.getContext('2d'); g.setTransform(dpr, 0, 0, dpr, 0, 0);
+    function glacis(base, col, a, n, v, dx, dy) {
+      for (var j = 0; j < n; j++) {
+        var p = deform(base, 3, v);
+        g.fillStyle = 'rgba(' + col.join(',') + ',' + a + ')'; g.beginPath();
+        g.moveTo(p[0].x + dx, p[0].y + dy); for (var i = 1; i < p.length; i++) g.lineTo(p[i].x + dx, p[i].y + dy);
+        g.closePath(); g.fill();
+      }
+    }
+    // Les lobes : un grand au centre, d'autres plus petits de part et d'autre, posés sur une même base.
+    var nb = 3 + Math.floor(r() * 3), lobes = [];
+    for (var k = 0; k < nb; k++) {
+      var t = nb === 1 ? 0.5 : k / (nb - 1), centre = 1 - Math.abs(t - 0.5) * 2;
+      var rx = w * (0.13 + 0.12 * centre + r() * 0.05), ry = h * (0.16 + 0.17 * centre + r() * 0.05);
+      lobes.push({ x: w * (0.2 + 0.6 * t) + gs() * w * 0.03, y: h * 0.62 - ry * 0.55 + gs() * h * 0.02, rx: rx, ry: ry });
+    }
+    lobes.push({ x: w * 0.5, y: h * 0.66, rx: w * 0.36, ry: h * 0.14 }); // la base, plus plate
+    var n = o.n || 22;
+    lobes.forEach(function (L) { glacis(deform(ell(L.x, L.y, L.rx, L.ry, 10), 2, 0.2), o.ombre, o.aOmbre || 0.035, Math.round(n * 0.6), 0.2, w * 0.015, h * 0.05); });
+    lobes.forEach(function (L) { glacis(deform(ell(L.x, L.y, L.rx, L.ry, 10), 2, 0.2), o.corps, o.aCorps || 0.05, n, 0.2, 0, 0); });
+    lobes.slice(0, nb).forEach(function (L) { glacis(deform(ell(L.x - L.rx * 0.15, L.y - L.ry * 0.2, L.rx * 0.6, L.ry * 0.55, 8), 2, 0.22), o.lumiere, o.aLumiere || 0.06, Math.round(n * 0.5), 0.22, 0, 0); });
+  }
+
+  global.OraAquarelle = { peindre: peindre, nuage: nuage };
 })(this);

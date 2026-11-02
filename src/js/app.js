@@ -627,12 +627,33 @@
   // d'aquarelle passe devant, et l'on descend jusqu'au ciel d'Aujourd'hui, à son niveau habituel.
   var ETOILES_HAUT = [[40, 90, 6, 0], [120, 40, 8, 1.4], [300, 70, 7, 3], [350, 160, 9, 2], [70, 230, 7.5, 4.5], [210, 120, 10, 5.2], [280, 260, 6.5, 0.8],
     [20, 400, 8, 3.6], [360, 420, 7, 1.9], [160, 330, 9, 6]];
+  // Le diorama de la descente : des nuages tous différents (une graine chacun), sur trois profondeurs.
+  // [profondeur, gauche en %, haut en px, largeur en px, graine, teinte]
+  var DIORAMA = [
+    ['loin', 8, 40, 170, 11, 2], ['loin', 62, 260, 210, 12, 3], ['loin', 20, 560, 150, 13, 0], ['loin', 70, 760, 190, 14, 1],
+    ['milieu', -6, 120, 300, 21, 1], ['milieu', 55, 420, 280, 22, 0], ['milieu', 10, 820, 320, 23, 3], ['milieu', 60, 1060, 260, 24, 2],
+    ['pres', 30, 0, 480, 31, 0], ['pres', -25, 520, 520, 32, 2], ['pres', 45, 980, 500, 33, 1], ['pres', -10, 1500, 460, 34, 3]];
+  var TEINTES = {
+    jour: [{ corps: [252, 216, 194], ombre: [214, 184, 204], lumiere: [255, 249, 240] }, { corps: [247, 216, 224], ombre: [200, 188, 216], lumiere: [255, 247, 244] },
+      { corps: [250, 237, 216], ombre: [212, 202, 216], lumiere: [255, 252, 246] }, { corps: [228, 222, 241], ombre: [188, 184, 214], lumiere: [253, 249, 253] }],
+    nuit: [{ corps: [88, 104, 146], ombre: [40, 50, 86], lumiere: [172, 184, 216] }, { corps: [118, 132, 170], ombre: [52, 62, 98], lumiere: [214, 214, 222] },
+      { corps: [70, 84, 126], ombre: [30, 38, 70], lumiere: [144, 160, 200] }, { corps: [100, 112, 156], ombre: [46, 54, 92], lumiere: [190, 196, 224] }]
+  };
+  var ETOILES_HAUT = [[40, 90, 6, 0], [120, 40, 8, 1.4], [300, 70, 7, 3], [350, 160, 9, 2], [70, 230, 7.5, 4.5], [210, 120, 10, 5.2], [280, 260, 6.5, 0.8],
+    [20, 400, 8, 3.6], [360, 420, 7, 1.9], [160, 330, 9, 6]];
+  function peindreNuage(el, cle, larg, graine, teinte) {
+    var t = TEINTES[cle][teinte];
+    OraAquarelle.nuage(el, { w: larg, h: Math.round(larg * 0.62), seed: graine * 7919 + (cle === 'nuit' ? 3 : 0), corps: t.corps, ombre: t.ombre, lumiere: t.lumiere,
+      aCorps: cle === 'nuit' ? 0.06 : 0.05, n: 24 });
+  }
   function ecranBienvenue() {
     if (document.getElementById('bienvenue')) return;
     var cle = estNuit() ? 'nuit' : 'jour';
     document.documentElement.classList.toggle('nuit', cle === 'nuit');
     var e = document.createElement('div');
     e.id = 'bienvenue'; e.className = 'bienvenue-ecran'; e.setAttribute('role', 'dialog'); e.setAttribute('aria-modal', 'true'); e.setAttribute('aria-label', T('menu-titre'));
+    var groupes = { loin: '', milieu: '', pres: '' };
+    DIORAMA.forEach(function (d, k) { groupes[d[0]] += '<div class="be-n" id="be-n' + k + '" style="left:' + d[1] + '%;top:' + d[2] + 'px"></div>'; });
     e.innerHTML = '<div class="be-scene" id="be-scene">' +
         '<div class="be-nuages" id="be-nuages" aria-hidden="true"></div>' +
         (cle === 'nuit' ? '<div class="be-etoiles" aria-hidden="true">' + ETOILES_HAUT.map(function (p) { return '<span class="etoile" style="left:calc(50% - 195px + ' + p[0] + 'px);top:' + p[1] + 'px;--d:' + p[2] + 's;--r:-' + p[3] + 's"></span>'; }).join('') + '</div>' : '') +
@@ -641,31 +662,34 @@
         '<h1 class="be-titre">' + esc(T('menu-titre')) + '</h1><p class="be-texte">' + T('presentation') + '</p>' +
         '<button class="be-commencer" data-action="bienvenue">' + esc(T('commencer')) + '</button></div>' +
       '</div>' +
-      '<div class="be-voile" aria-hidden="true"><div class="be-brume"></div>' +
-        [1, 2, 3, 4, 5].map(function (k) { return '<div class="be-puff be-puff-' + k + '" id="be-puff-' + k + '"></div>'; }).join('') + '</div>';
+      '<div class="be-diorama" aria-hidden="true"><div class="be-d be-d-loin">' + groupes.loin + '</div><div class="be-d be-d-milieu">' + groupes.milieu + '</div>' +
+        '<div class="be-d be-d-pres">' + groupes.pres + '</div></div>' +
+      '<div class="be-couvre" id="be-couvre" aria-hidden="true"><div id="be-couvre-c"></div><div id="be-couvre-a"></div><div id="be-couvre-b"></div></div>';
     document.body.appendChild(e);
     document.getElementById('app').innerHTML = ''; document.getElementById('barre').hidden = true;
     OraAquarelle.peindre(document.getElementById('be-nuages'), cle, true);
     OraAquarelle.peindre(document.getElementById('be-mer-loin'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
-    [1, 2, 3, 4, 5].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-puff-' + k), cle, false); });
     document.documentElement.classList.add('vivant'); // le fond de l'écran vit comme le ciel d'Aujourd'hui
+    // Les nuages de la descente sont peints après l'écran, sans le retarder.
+    setTimeout(function () {
+      DIORAMA.forEach(function (d, k) { peindreNuage(document.getElementById('be-n' + k), cle, d[3], d[4], d[5]); });
+      peindreNuage(document.getElementById('be-couvre-a'), cle, 560, 41, 0);
+      peindreNuage(document.getElementById('be-couvre-b'), cle, 500, 42, 2);
+      peindreNuage(document.getElementById('be-couvre-c'), cle, 600, 43, 1);
+    }, 400);
   }
-  // 1. Des nuages d'aquarelle entrent lentement et voilent le texte (le texte ne bouge pas) ;
-  // 2. une fois tout voilé, on descend doucement : Aujourd'hui arrive d'en bas jusqu'à sa place, les nuages passent.
+  // Le texte monte, un grand nuage descend sur lui et le couvre ; puis on descend à travers le diorama jusqu'à Aujourd'hui.
   function quitterBienvenue() {
-    var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('voile')) return;
+    var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('descend')) return;
     var lent = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     R.bienvenue = true; ecrireReglages();
-    if (lent) { e.remove(); etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); return; }
-    e.classList.add('voile');
-    setTimeout(function () {
-      etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
-      document.documentElement.classList.add('arrivee');
-      void e.offsetWidth;
-      e.classList.add('descend');
-      setTimeout(function () { document.documentElement.classList.remove('arrivee'); e.remove(); }, 4800);
-    }, 3200);
+    etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
+    if (lent) { e.remove(); return; }
+    document.documentElement.classList.add('arrivee');
+    void e.offsetWidth;
+    e.classList.add('descend');
+    setTimeout(function () { document.documentElement.classList.remove('arrivee'); e.remove(); }, 5600);
   }
 
   function rendre() {
