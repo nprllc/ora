@@ -679,14 +679,6 @@
     "def": "Para la Iglesia, una purificación después de la muerte para los que se salvan pero aún no están del todo preparados para ver a Dios. No es un castigo, sino una última preparación del amor. Se puede ayudar a los difuntos con la oración."
    },
    {
-    "id": "fideles-defunts",
-    "mot": "Fieles difuntos",
-    "formes": [
-     "fieles difuntos"
-    ],
-    "def": "Todos los que han muerto y que la Iglesia confía a Dios. El 2 de noviembre, día de su conmemoración, reza por ellos con la esperanza de reencontrarlos un día junto a Él."
-   },
-   {
     "id": "memento-mori",
     "mot": "Memento mori",
     "formes": [
@@ -803,15 +795,6 @@
      "altar"
     ],
     "def": "La mesa de piedra o de madera, en el centro de la iglesia, donde el sacerdote celebra la Eucaristía. Representa a Cristo mismo."
-   },
-   {
-    "id": "ambon",
-    "mot": "Ambón",
-    "formes": [
-     "Ambón",
-     "ambón"
-    ],
-    "def": "El atril desde donde se proclaman las lecturas de la Biblia durante la misa."
    },
    {
     "id": "tabernacle",
@@ -1381,16 +1364,6 @@
     "def": "En el calendario, el día en que se recuerda a un santo. Es el grado más sencillo de celebración, después de las solemnidades y las fiestas."
    },
    {
-    "id": "ferie",
-    "mot": "Feria",
-    "formes": [
-     "Feria",
-     "feria",
-     "ferial"
-    ],
-    "def": "Un día de semana sin fiesta particular. Se sigue simplemente el tiempo litúrgico."
-   },
-   {
     "id": "octave",
     "mot": "Octava",
     "formes": [
@@ -1499,15 +1472,6 @@
      "Oficio divino"
     ],
     "def": "La oración oficial de la Iglesia, en distintos momentos del día, sobre todo con los salmos. Sacerdotes, religiosos y muchos laicos la rezan cada día."
-   },
-   {
-    "id": "complies",
-    "mot": "Completas",
-    "formes": [
-     "Completas",
-     "completas"
-    ],
-    "def": "La oración de la noche, justo antes de acostarse, en la Liturgia de las Horas. En ella se confía la noche a Dios."
    },
    {
     "id": "angelus",

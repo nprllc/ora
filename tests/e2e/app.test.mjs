@@ -23,7 +23,8 @@ async function ouvrir(date, langue, { region = null, marques = null, url = serve
     if (m) localStorage.setItem('ora.marques', JSON.stringify(m));
   }, [langue, region, marques, bienvenue]);
   await page.goto(url);
-  await page.waitForFunction(() => document.querySelector('.section-jour') && !document.querySelector('.charge'), null, { timeout: 15000 });
+  if (!bienvenue) await page.waitForSelector('#bienvenue', { timeout: 15000 });
+  else await page.waitForFunction(() => document.querySelector('.section-jour') && !document.querySelector('.charge'), null, { timeout: 15000 });
   return { ctx, page, erreurs, requetes };
 }
 const texte = (page, sel) => page.$$eval(sel, (els) => els.map((e) => e.innerText.trim()));
@@ -106,14 +107,17 @@ test('mot du jour : en bas d\'Aujourd\'hui, jamais le même deux jours de suite,
   assert.notEqual(mots[0], mots[1]); assert.notEqual(mots[1], mots[2]);
 });
 
-test('bienvenue : affichée à la première ouverture seulement, puis dans les Réglages', async () => {
+test('bienvenue : un écran à part, une seule fois ; les mots s\'envolent, puis Aujourd\'hui ; ensuite dans les Réglages', async () => {
   const { ctx, page } = await ouvrir('2026-11-03', 'fr', { bienvenue: false });
-  assert.ok(await page.$('.bienvenue'), 'carte de bienvenue');
-  await page.$eval('[data-action=bienvenue]', (b) => b.click());
-  assert.ok(!(await page.$('.bienvenue')), 'disparue après « Commencer »');
+  assert.ok(await page.$('#bienvenue'), 'écran de bienvenue');
+  assert.ok(!(await page.$('.section-jour')), 'rien d\'autre derrière');
+  await page.click('.be-commencer');
+  await page.waitForSelector('#bienvenue.envole');
+  await page.waitForSelector('.section-jour', { timeout: 15000 });
+  await page.waitForSelector('#bienvenue', { state: 'detached', timeout: 15000 });
   assert.ok(JSON.parse(await page.evaluate(() => localStorage.getItem('ora.reglages'))).bienvenue, 'gardé sur le téléphone');
   await page.$eval('.bouton-menu', (b) => b.click());
-  assert.match(await page.textContent('main'), /À propos d'Ora/);
+  assert.match(await page.textContent('.a-propos'), /À propos d'Ora/);
   await ctx.close();
 });
 
@@ -166,6 +170,7 @@ test('hors ligne : après une première visite, l\'app s\'ouvre sans réseau, m�
   const autre = await servir(DIST, 0, '/un-autre-chemin/');
   const ctx = await navigateur.newContext({ viewport: { width: 390, height: 844 }, locale: 'fr' });
   const p = await ctx.newPage();
+  await p.addInitScript(() => localStorage.setItem('ora.reglages', JSON.stringify({ bienvenue: true })));
   await p.goto(autre.url);
   await p.waitForFunction(() => navigator.serviceWorker && navigator.serviceWorker.controller, null, { timeout: 15000 }).catch(() => {});
   await p.reload();

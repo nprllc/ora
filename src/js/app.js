@@ -300,9 +300,6 @@
     html += '<button class="couleur-lit" data-action="explication" aria-label="' + esc(T('en-savoir-plus') + '. ' + T('couleur') + ' ' + NOM_COULEUR[LANG][j.couleur]) + '"><i style="background:' + COULEURS[j.couleur] + '"></i>' + esc(T('en-savoir-plus')) + '</button>';
 
     html += '<div class="sections">';
-    // Bienvenue : une seule fois, à la première ouverture ; ensuite, « À propos d'Ora » dans les Réglages.
-    if (!R.bienvenue) html += '<section class="section-jour bienvenue"><h2 class="etiquette">' + esc(T('menu-titre')) + '</h2><p class="presentation">' + T('presentation') + '</p>' +
-      '<button class="lire" data-action="bienvenue">' + esc(T('commencer')) + icone('fleche') + '</button></section>';
     var p = priereDuMoment(a);
     if (p.texte) html += section(p.etiquette, blocPriere(p));
     var e = evangile(a);
@@ -570,7 +567,7 @@
     h += '<p class="groupe">' + esc(T('ambiance')) + '</p><div class="segments">' + seg('mode', 'auto', T('selon-heure')) + seg('mode', 'jour', T('jour')) + seg('mode', 'nuit', T('soir')) + '</div>';
     h += '<p class="note">' + esc(T('ambiance-note')) + '</p>';
     h += '<p class="groupe">' + esc(T('taille')) + '</p><div class="segments">' + seg('taille', 'normal', T('normale')) + seg('taille', 'grand', T('grande')) + seg('taille', 'tres-grand', T('tres-grande')) + '</div>';
-    h += '<p class="groupe">' + esc(T('a-propos')) + '</p><p class="presentation">' + T('presentation') + '</p>';
+    h += '<div class="a-propos"><p class="groupe">' + esc(T('a-propos')) + '</p><p class="presentation">' + T('presentation') + '</p></div>';
     h += '<div class="mentions"><p class="note">' + esc(T('donnees')) + '</p><p class="note">' + esc(T('traduction-bible')) + '</p></div>';
     return h + '</section>';
   }
@@ -625,7 +622,57 @@
   function majDefile() { document.documentElement.classList.toggle('defile', window.scrollY > 40); }
   function rendreEnPlace() { var y = window.scrollY; rendre(); window.scrollTo(0, y); }
 
+  // ---------- Écran de bienvenue (une seule fois, à la toute première ouverture) ----------
+  // Haut dans les nuages, une lumière diffuse ; à « Commencer », les mots s'envolent comme soufflés par une brise,
+  // puis l'écran s'efface et l'on arrive sur Aujourd'hui, avec le soleil qui monte.
+  var nSouffle = 0; // les mots s'envolent dans l'ordre de lecture, du titre au bouton
+  function souffle(html) {
+    var n = nSouffle;
+    return String(html).split(/(<[^>]*>)/).map(function (b, i) {
+      if (i % 2) return b;
+      return b.split(/(\s+)/).map(function (m) {
+        if (!m || /^\s+$/.test(m)) return m;
+        var k = n++, dx = 60 + (k * 37) % 70, dy = -18 - (k * 23) % 40, rot = (k % 2 ? 1 : -1) * (4 + k % 7);
+        return '<span class="mot-souffle" style="--k:' + k + ';--dx:' + dx + 'px;--dy:' + dy + 'px;--rot:' + rot + 'deg">' + m + '</span>';
+      }).join('');
+    }).join('').replace(/$/, function () { nSouffle = n; return ''; });
+  }
+  function ecranBienvenue() {
+    if (document.getElementById('bienvenue')) return;
+    var cle = estNuit() ? 'nuit' : 'jour';
+    document.documentElement.classList.toggle('nuit', cle === 'nuit');
+    var e = document.createElement('div');
+    e.id = 'bienvenue'; e.className = 'bienvenue-ecran'; e.setAttribute('role', 'dialog'); e.setAttribute('aria-modal', 'true'); e.setAttribute('aria-label', T('menu-titre'));
+    nSouffle = 0;
+    e.innerHTML = '<div class="be-nuages" id="be-nuages" aria-hidden="true"></div>' +
+      '<div class="be-mer be-mer-loin" id="be-mer-loin" aria-hidden="true"></div><div class="be-mer" id="be-mer" aria-hidden="true"></div><div class="be-lumiere" aria-hidden="true"></div>' +
+      '<div class="be-contenu"><div class="be-o" aria-hidden="true">' + LOGO.replace('width="68" height="27"', 'width="170" height="65"') + '</div>' +
+      '<h1 class="be-titre">' + souffle(esc(T('menu-titre'))) + '</h1><p class="be-texte">' + souffle(T('presentation')) + '</p>' +
+      '<button class="be-commencer" data-action="bienvenue">' + souffle(esc(T('commencer'))) + '</button></div>';
+    document.body.appendChild(e);
+    document.getElementById('app').innerHTML = ''; document.getElementById('barre').hidden = true;
+    OraAquarelle.peindre(document.getElementById('be-nuages'), cle, true);
+    OraAquarelle.peindre(document.getElementById('be-mer-loin'), 'bas-' + cle, false);
+    OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
+  }
+  function quitterBienvenue() {
+    var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('envole')) return;
+    var lent = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var mots = e.querySelectorAll('.mot-souffle').length;
+    e.style.setProperty('--nb-mots', mots);
+    e.classList.add('envole');
+    R.bienvenue = true; ecrireReglages();
+    var duree = lent ? 0 : 1300 + mots * 35;
+    setTimeout(function () {
+      // On arrive sur Aujourd'hui : le ciel est repeint pour que le soleil monte.
+      etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
+      e.classList.add('efface');
+      setTimeout(function () { e.remove(); }, lent ? 0 : 1400);
+    }, duree);
+  }
+
   function rendre() {
+    if (!R.bienvenue) { ecranBienvenue(); return; }
     var nuit = estNuit();
     document.documentElement.classList.toggle('nuit', nuit);
     document.documentElement.style.fontSize = { normal: '16px', grand: '18px', 'tres-grand': '20px' }[R.taille] || '16px';
@@ -841,7 +888,7 @@
     else if (act === 'guide') { empiler(); etat.vue = 'guide'; etat.guide = id; etat.etape = 0; rendre(); window.scrollTo(0, 0); }
     else if (act === 'etape') { etat.etape = +id; rendre(); }
     else if (act === 'retour') revenir();
-    else if (act === 'bienvenue') { R.bienvenue = true; ecrireReglages(); rendreEnPlace(); }
+    else if (act === 'bienvenue') quitterBienvenue();
     else if (act === 'reglages') { if (etat.vue === 'menu') revenir(); else aller('menu'); }
     else if (act === 'langue') { R.langue = id; LANG = id; ecrireReglages(); preparer(); BIBLE = null; bibleLangue = null; chargerBible().then(nettoyerMarques).catch(function () {}); rendreEnPlace(); }
     else if (act === 'reglage') { R[el.getAttribute('data-cle')] = id; ecrireReglages(); rendreEnPlace(); majVivant(); }

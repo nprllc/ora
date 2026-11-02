@@ -673,14 +673,6 @@
     "def": "For the Church, a purification after death for those who are saved but not yet fully ready to see God. It is not a punishment but a final preparation of love. We can help the dead by our prayer."
    },
    {
-    "id": "fideles-defunts",
-    "mot": "Faithful departed",
-    "formes": [
-     "faithful departed"
-    ],
-    "def": "All those who have died, whom the Church entrusts to God. On November 2, the day of their commemoration, she prays for them in the hope of meeting them again one day with Him."
-   },
-   {
     "id": "memento-mori",
     "mot": "Memento mori",
     "formes": [
@@ -798,15 +790,6 @@
      "altar"
     ],
     "def": "The stone or wooden table at the center of the church where the priest celebrates the Eucharist. It represents Christ himself."
-   },
-   {
-    "id": "ambon",
-    "mot": "Ambo",
-    "formes": [
-     "Ambo",
-     "ambo"
-    ],
-    "def": "The lectern from which the Bible readings are proclaimed during Mass."
    },
    {
     "id": "tabernacle",
@@ -1365,16 +1348,6 @@
     "def": "In the calendar, the day a saint is remembered. It is the simplest level of celebration, after solemnities and feasts."
    },
    {
-    "id": "ferie",
-    "mot": "Weekday",
-    "formes": [
-     "Weekday",
-     "weekday",
-     "feria"
-    ],
-    "def": "A weekday without any particular feast. We simply follow the liturgical season."
-   },
-   {
     "id": "octave",
     "mot": "Octave",
     "formes": [
@@ -1484,16 +1457,6 @@
      "Divine Office"
     ],
     "def": "The Church's official prayer, at different times of the day, mainly with the psalms. Priests, religious and many lay people pray it every day."
-   },
-   {
-    "id": "complies",
-    "mot": "Night Prayer",
-    "formes": [
-     "Night Prayer",
-     "night Prayer",
-     "Compline"
-    ],
-    "def": "The prayer at the end of the day, just before going to bed, in the Liturgy of the Hours. We entrust our night to God."
    },
    {
     "id": "angelus",

@@ -391,14 +391,6 @@
       "def": "Pour l'Église, une purification après la mort pour ceux qui sont sauvés mais pas encore tout à fait prêts à voir Dieu. Ce n'est pas une punition, plutôt une dernière préparation de l'amour. On peut aider les défunts par la prière."
     },
     {
-      "id": "fideles-defunts",
-      "mot": "Fidèles défunts",
-      "formes": [
-        "fidèles défunts"
-      ],
-      "def": "Tous ceux qui sont morts et que l'Église confie à Dieu. Le 2 novembre, jour de leur commémoration, elle prie pour eux avec l'espérance de les retrouver un jour auprès de Lui."
-    },
-    {
       "id": "memento-mori",
       "mot": "Memento mori",
       "formes": [
@@ -518,15 +510,6 @@
         "autels"
       ],
       "def": "La table de pierre ou de bois, au centre de l'église, où le prêtre célèbre l'Eucharistie. Elle représente le Christ lui-même."
-    },
-    {
-      "id": "ambon",
-      "mot": "Ambon",
-      "formes": [
-        "Ambon",
-        "ambon"
-      ],
-      "def": "Le pupitre d'où l'on proclame les lectures de la Bible pendant la messe."
     },
     {
       "id": "tabernacle",
@@ -1108,17 +1091,6 @@
       "souligne": false
     },
     {
-      "id": "ferie",
-      "mot": "Férie",
-      "formes": [
-        "Férie",
-        "férie",
-        "férial"
-      ],
-      "def": "Un jour de semaine sans fête particulière. On suit alors simplement le temps liturgique.",
-      "souligne": false
-    },
-    {
       "id": "octave",
       "mot": "Octave",
       "formes": [
@@ -1231,15 +1203,6 @@
         "liturgie des Heures"
       ],
       "def": "La prière officielle de l'Église, à différents moments de la journée, surtout avec les psaumes. Prêtres, religieux et beaucoup de laïcs la prient chaque jour."
-    },
-    {
-      "id": "complies",
-      "mot": "Complies",
-      "formes": [
-        "Complies",
-        "complies"
-      ],
-      "def": "La prière du soir, juste avant de se coucher, dans la Liturgie des Heures. On y confie sa nuit à Dieu."
     },
     {
       "id": "angelus",
