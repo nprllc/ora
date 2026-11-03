@@ -212,7 +212,7 @@
       guideFamille: tr['guide-famille'] || b.guideFamilleFr,
       messe: b.messe ? (b.messe[LANG] || b.messe.fr) : null,
       fetes: fr.fetes, auteurs: b.auteurs || {}, abr: (b.abreviations || {})[LANG] || {},
-      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, biblio: b.bibliotheque || {}, jours: b.jours || {}, pj: b.prieresJour, contenus: b.contenus
+      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, biblio: b.bibliotheque || {}, jours: b.jours || {}, temps: b.temps || {}, pj: b.prieresJour, contenus: b.contenus
     };
     OraLiturgie.langue(LANG);
     OraLiturgie.region(regionChoisie());
@@ -313,11 +313,14 @@
   }
 
   // Le titre du jour : la fête du calendrier ; un jour de premier rang garde son nom liturgique (« Lundi saint ») ;
-  // sinon le titre daté de data/jours.json (saint du jour, personnage de la Bible, anniversaire), et à défaut le temps.
+  // pendant les temps forts, le sens du temps ; sinon le titre daté de data/jours.json (saint du jour, personnage de la Bible, anniversaire), et à défaut le temps.
   function titreDuJour(j) {
     if (j.celebration && j.celebration.rang !== 'memoire') return { titre: j.celebration.nom };
     if (j.premierRang) return { titre: j.titre || j.libelleDuJour };
-    var x = (D.jours[LANG] || {})[j.date.slice(5)];
+    // Pendant les temps forts, chaque jour parle du temps lui-même (data/temps.json), sauf à partir du 17 décembre.
+    var tp = (D.temps[LANG] || {})[j.saison.id], k = j.date.slice(5);
+    if (tp && j.jourSaison != null && tp[j.jourSaison] && !(j.saison.id === 'avent' && k >= '12-17')) return { titre: tp[j.jourSaison][0], phrase: tp[j.jourSaison][1] };
+    var x = (D.jours[LANG] || {})[k];
     if (x) return { titre: x[0], phrase: x[1] };
     return { titre: j.celebration ? j.celebration.nom : j.saison.nom };
   }

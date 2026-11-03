@@ -21,3 +21,12 @@ test('jours : jamais deux fois le même titre', () => {
   const vus = new Set();
   for (const [k, [t]] of Object.entries(jours)) { assert.ok(!vus.has(t), `doublon ${t} (${k})`); vus.add(t); }
 });
+
+const temps = JSON.parse(readFileSync(new URL('../data/temps.json', import.meta.url))).fr;
+test('temps forts : un titre pour chaque jour possible de chaque temps', () => {
+  const min = { avent: 20, noel: 20, careme: 43, paques: 50 };
+  for (const [s, n] of Object.entries(min)) {
+    assert.ok(temps[s].length >= n, `${s} : ${temps[s].length} < ${n}`);
+    for (const x of temps[s]) { assert.equal(x.length, 2); assert.doesNotMatch(x[1], /\b(tu dois|vous devez|il faut)\b/i); }
+  }
+});
