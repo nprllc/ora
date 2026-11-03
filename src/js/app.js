@@ -306,6 +306,7 @@
     var e = evangile(a);
     if (e && e.attente) html += section(T('evangile-jour'), '<p class="charge">…</p>');
     else if (e) html += section(T('evangile-jour'), versets(e.liste.slice(0, 4), true) + '<p class="s-ref">' + refsSeules(e.ref) + '</p>', 'evangile', e.liste.length > 4 || c ? T('mediter') : T('lire'));
+    html += respiration();
     if (c) {
       var cit = c.citation;
       if (cit) html += section(T('citation-jour'), '<blockquote class="s-citation">' + guillemets(esc(cit.texte)) + '</blockquote><p class="s-ref">' + auteur(cit) + ' · ' + refsSeules(cit.source) + '</p>');
@@ -322,6 +323,32 @@
     var mot = motDuJour(dateDuJour());
     if (mot) html += section(T('mot-jour'), '<p class="s-titre">' + esc(mot.mot) + '</p><p class="s-accroche">' + refsSeules(mot.def) + '</p>', { action: 'aller', id: 'lexique' }, T('acceder-lexique'));
     return html + '</div></section>';
+  }
+
+  // Respiration : une pause visuelle après l'Évangile, un village sur sa colline peint à l'aquarelle,
+  // fondu dans le fond de la page. De jour, des oiseaux passent et les arbres bougent dans la brise ;
+  // le soir, les fenêtres luisent doucement et quelques étoiles scintillent.
+  // Arbres qui ondulent : [centre x, haut, bas, demi-largeur, ampleur] en pixels de l'image d'origine (2048 × 618).
+  var ARBRES = [[632, 195, 362, 26, 1], [678, 205, 352, 22, 1], [857, 265, 432, 24, 1], [826, 324, 430, 20, 1], [1305, 186, 272, 18, 1],
+    [1658, 355, 484, 22, 1], [1828, 297, 404, 20, 1], [1860, 313, 414, 20, 1], [354, 317, 392, 16, 1],
+    [180, 362, 438, 50, .5], [298, 330, 408, 50, .5], [700, 365, 468, 64, .5], [1235, 342, 462, 62, .5], [1940, 388, 468, 52, .5], [1030, 280, 378, 64, .5]];
+  var ETOILES_VILLAGE = [[6, 8], [15, 26], [24, 5], [37, 16], [46, 4], [63, 10], [72, 22], [81, 5], [90, 17], [96, 32]];
+  function respiration() {
+    if (estNuit()) {
+      return '<div class="respiration village nuit" aria-hidden="true"><img src="img/village-nuit.webp" alt="" decoding="async">' +
+        [0, 1, 2].map(function (k) { return '<img class="v-lum l' + k + '" src="img/village-lumieres-' + k + '.webp" alt="" decoding="async">'; }).join('') +
+        ETOILES_VILLAGE.map(function (p, k) { return '<span class="v-etoile" style="left:' + p[0] + '%;top:' + p[1] + '%;animation-duration:' + (5 + k % 4 * 1.7) + 's;animation-delay:-' + (k * 1.3) + 's"></span>'; }).join('') + '</div>';
+    }
+    var arbres = ARBRES.map(function (a, k) {
+      var x = (a[0] - a[3]) / 2048, w = 2 * a[3] / 2048, y = a[1] / 618, h = (a[2] - a[1]) / 618;
+      return '<span class="v-arbre' + (a[4] < 1 ? ' rond' : '') + '" style="background-image:url(img/village-jour.webp);left:' + (x * 100).toFixed(2) + '%;top:' + (y * 100).toFixed(2) + '%;width:' + (w * 100).toFixed(2) + '%;height:' + (h * 100).toFixed(2) +
+        '%;background-size:' + (100 / w).toFixed(1) + '% ' + (100 / h).toFixed(1) + '%;background-position:' + (x / (1 - w) * 100).toFixed(2) + '% ' + (y / (1 - h) * 100).toFixed(2) + '%;animation-delay:-' + (k * 0.9).toFixed(1) + 's"></span>';
+    }).join('');
+    var oiseau = '<svg viewBox="0 0 20 8"><path d="M1 6q4.5-5 9 0q4.5-5 9 0" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg>';
+    var oiseaux = [[10, 0, 46], [18, -17, 52], [6, -33, 58]].map(function (o, k) {
+      return '<span class="v-oiseau o' + k + '" style="top:' + o[0] + '%;animation-delay:' + o[1] + 's;animation-duration:' + o[2] + 's"><i>' + oiseau + '</i></span>';
+    }).join('');
+    return '<div class="respiration village jour" aria-hidden="true"><img src="img/village-jour.webp" alt="" decoding="async">' + arbres + oiseaux + '</div>';
   }
 
   function paragraphes(t) { return String(t).split('\n\n').map(function (p) { return '<p>' + lexique(p) + '</p>'; }).join(''); }

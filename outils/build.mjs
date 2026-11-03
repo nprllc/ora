@@ -16,6 +16,7 @@ const json = (f) => JSON.parse(lire(path.join(DATA, f)));
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(path.join(DIST, 'icons'), { recursive: true });
 fs.mkdirSync(path.join(DIST, 'fonts'), { recursive: true });
+fs.mkdirSync(path.join(DIST, 'img'), { recursive: true });
 
 // 1. Les données lues par l'app (src/js/app.js, charger()).
 const donnees = {
@@ -36,6 +37,7 @@ const BIBLES = { fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' };
 for (const [l, f] of Object.entries(BIBLES)) fs.copyFileSync(path.join(DATA, f), path.join(DIST, `bible-${l}.json`));
 for (const f of fs.readdirSync(path.join(SRC, 'icons'))) fs.copyFileSync(path.join(SRC, 'icons', f), path.join(DIST, 'icons', f));
 for (const f of fs.readdirSync(path.join(SRC, 'fonts'))) fs.copyFileSync(path.join(SRC, 'fonts', f), path.join(DIST, 'fonts', f));
+for (const f of fs.readdirSync(path.join(SRC, 'img'))) fs.copyFileSync(path.join(SRC, 'img', f), path.join(DIST, 'img', f));
 fs.copyFileSync(path.join(SRC, 'manifest.webmanifest'), path.join(DIST, 'manifest.webmanifest'));
 
 // 3. La page : CSS et JS intégrés, données sérialisées sans « < » (pas de fin de balise script possible).
@@ -50,7 +52,7 @@ fs.writeFileSync(path.join(DIST, 'index.html'), html);
 
 // 4. Le service worker : l'app (page, polices, icônes) est mise en cache à l'installation ;
 //    chaque Bible seulement quand elle est demandée (la langue en cours, puis une autre si l'on change de langue).
-const coquille = ['index.html', 'manifest.webmanifest', ...fs.readdirSync(path.join(DIST, 'icons')).map((f) => 'icons/' + f), ...fs.readdirSync(path.join(DIST, 'fonts')).filter((f) => f.endsWith('.woff2')).map((f) => 'fonts/' + f)];
+const coquille = ['index.html', 'manifest.webmanifest', ...fs.readdirSync(path.join(DIST, 'icons')).map((f) => 'icons/' + f), ...fs.readdirSync(path.join(DIST, 'img')).map((f) => 'img/' + f), ...fs.readdirSync(path.join(DIST, 'fonts')).filter((f) => f.endsWith('.woff2')).map((f) => 'fonts/' + f)];
 const empreinte = crypto.createHash('sha256');
 for (const f of [...coquille, ...Object.keys(BIBLES).map((l) => `bible-${l}.json`)].sort()) empreinte.update(f).update(fs.readFileSync(path.join(DIST, f)));
 const VERSION = 'ora-' + empreinte.digest('hex').slice(0, 12);
