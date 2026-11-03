@@ -439,30 +439,39 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .bougie.jour .b-halo { width: 72%; background: radial-gradient(circle, rgba(255,236,190,.85) 0%, rgba(255,206,130,.42) 22%, rgba(250,196,120,.16) 45%, rgba(250,196,120,0) 70%); }
 @keyframes b-respire { 0%, 100% { opacity: .7; } 13% { opacity: .8; } 21% { opacity: .64; } 34% { opacity: .76; } 46% { opacity: .7; } 58% { opacity: .85; } 66% { opacity: .62; } 79% { opacity: .74; } 90% { opacity: .68; } }
 
-/* De jour : deux moineaux, sur un cycle de 22 s. L'un quitte son olivier et file derrière le clocher ;
-   l'autre arrive de la droite et se pose sur un olivier, puis s'efface. */
-.v-oiseau { position: absolute; width: 6px; height: 3px; margin: -3px 0 0 -3px; color: rgba(62,52,44,.85); opacity: 0; }
-.v-oiseau svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
-.v-oiseau .vol { animation: v-aile .14s ease-in-out infinite alternate; transform-origin: 50% 65%; }
-@keyframes v-aile { from { transform: scaleY(1); } to { transform: scaleY(-.5); } }
-.v-oiseau.oa { animation: v-moineau-a 22s ease-in-out infinite; }
-.v-oiseau.oa .vol { animation: v-aile .14s ease-in-out infinite alternate, v-vol-a 22s linear infinite; }
-.v-oiseau.oa .pose { animation: v-pose-a 22s linear infinite; }
+/* De jour : deux moineaux peints, sur un cycle de 22 s. Vol de moineau : trois battements rapides, puis ailes
+   repliées un instant (le petit bond qui ondule). L'un quitte son olivier et disparaît derrière le clocher ;
+   l'autre arrive de la droite et se pose sur un olivier, se retourne une fois, puis s'efface. */
+.v-clocher { position: absolute; }
+.v-oiseau { position: absolute; width: 10px; height: 6px; margin: -4px 0 0 -5px; opacity: 0; }
+.v-oiseau b { position: absolute; inset: 0; animation: v-bond 1.125s ease-in-out infinite; }
+.v-oiseau i { position: absolute; inset: 0; background: url(img/moineau.webp) 0 0 / 700% 100% no-repeat; }
+.v-oiseau .vol { animation: v-batte 1.125s step-end infinite; }
+.v-oiseau .pose { background-position-x: 83.33%; }
+@keyframes v-batte { 0.00% { background-position-x: 0.00%; } 5.56% { background-position-x: 16.67%; } 11.11% { background-position-x: 50.00%; } 16.67% { background-position-x: 16.67%; } 22.22% { background-position-x: 0.00%; } 27.78% { background-position-x: 16.67%; } 33.33% { background-position-x: 50.00%; } 38.89% { background-position-x: 16.67%; } 44.44% { background-position-x: 0.00%; } 50.00% { background-position-x: 16.67%; } 55.56% { background-position-x: 50.00%; } 61.11% { background-position-x: 16.67%; } 66.67% { background-position-x: 33.33%; } 72.22% { background-position-x: 66.67%; } 77.78% { background-position-x: 66.67%; } 83.33% { background-position-x: 66.67%; } 88.89% { background-position-x: 66.67%; } 94.44% { background-position-x: 66.67%; } 100% { background-position-x: 0%; } }
+@keyframes v-bond { 0%, 100% { transform: translateY(.6px); } 64% { transform: translateY(-1.2px); } }
+.v-oiseau.oa { animation: v-moineau-a 22s linear infinite; }
+.v-oiseau.oa .vol { animation: v-batte 1.125s step-end infinite, v-vol-a 22s step-end infinite; }
+.v-oiseau.oa .pose { animation: v-pose-a 22s step-end infinite, v-tete 5.5s step-end infinite; }
 @keyframes v-moineau-a {
-  0% { left: 50.4%; top: 45.6%; opacity: 0; } 4%, 17% { left: 50.4%; top: 45.6%; opacity: 1; }
-  21% { left: 53.5%; top: 33%; opacity: 1; } 25% { left: 58%; top: 27%; opacity: 1; } 28% { left: 60.8%; top: 31%; opacity: 0; } 100% { left: 60.8%; top: 31%; opacity: 0; } }
-@keyframes v-vol-a { 0%, 16.9% { opacity: 0; } 17%, 100% { opacity: 1; } }
-@keyframes v-pose-a { 0%, 16.9% { opacity: 1; } 17%, 100% { opacity: 0; } }
-.v-oiseau.ob { animation: v-moineau-b 22s ease-in-out infinite; }
-.v-oiseau.ob svg { transform: scaleX(-1); }
-.v-oiseau.ob .vol { animation: v-aile .14s ease-in-out infinite alternate, v-vol-b 22s linear infinite; }
-.v-oiseau.ob .pose { animation: v-pose-b 22s linear infinite; }
+  0% { left: 50.6%; top: 46.6%; opacity: 0; } 3%, 17% { left: 50.6%; top: 46.6%; opacity: 1; }
+  18.5% { left: 50.9%; top: 37%; } 20% { left: 51.8%; top: 26%; } 21.5% { left: 53.9%; top: 18.5%; } 23% { left: 56.8%; top: 14.5%; }
+  24.5% { left: 59.2%; top: 15.5%; } 26% { left: 60.4%; top: 20%; } 27.5% { left: 61.2%; top: 25%; opacity: 1; } 28%, 100% { left: 61.4%; top: 26%; opacity: 0; } }
+@keyframes v-vol-a { 0% { opacity: 0; } 17% { opacity: 1; } }
+@keyframes v-pose-a { 0% { opacity: 1; } 17% { opacity: 0; } }
+@keyframes v-tete { 0% { background-position-x: 83.33%; } 55% { background-position-x: 100%; } 70% { background-position-x: 83.33%; } }
+.v-oiseau.ob { animation: v-moineau-b 22s linear infinite; }
+.v-oiseau.ob b { transform: scaleX(-1); animation: v-bond-b 1.125s ease-in-out infinite; }
+@keyframes v-bond-b { 0%, 100% { transform: scaleX(-1) translateY(.6px); } 64% { transform: scaleX(-1) translateY(-1.2px); } }
+.v-oiseau.ob .vol { animation: v-batte 1.125s step-end infinite, v-vol-b 22s step-end infinite; }
+.v-oiseau.ob .pose { animation: v-pose-b 22s step-end infinite, v-tete 4.7s step-end infinite; }
 @keyframes v-moineau-b {
-  0%, 42% { left: 104%; top: 14%; opacity: 0; } 43% { left: 102%; top: 13.5%; opacity: 1; }
-  50% { left: 76%; top: 9%; } 56% { left: 50%; top: 24%; } 60% { left: 38%; top: 46%; } 62%, 92% { left: 34.3%; top: 58%; opacity: 1; }
-  97%, 100% { left: 34.3%; top: 58%; opacity: 0; } }
-@keyframes v-vol-b { 0%, 61.9% { opacity: 1; } 62%, 100% { opacity: 0; } }
-@keyframes v-pose-b { 0%, 61.9% { opacity: 0; } 62%, 100% { opacity: 1; } }
+  0%, 42% { left: 104%; top: 13%; opacity: 0; } 42.5% { left: 102%; top: 12.5%; opacity: 1; }
+  45% { left: 91%; top: 9.5%; } 48% { left: 77%; top: 8.5%; } 51% { left: 63%; top: 12%; } 54% { left: 51%; top: 20%; }
+  57% { left: 42%; top: 32%; } 59.5% { left: 36.5%; top: 47%; } 61% { left: 34.5%; top: 57.5%; } 62%, 92% { left: 34.2%; top: 59.6%; opacity: 1; }
+  96%, 100% { left: 34.2%; top: 59.6%; opacity: 0; } }
+@keyframes v-vol-b { 0% { opacity: 1; } 62% { opacity: 0; } }
+@keyframes v-pose-b { 0% { opacity: 0; } 62% { opacity: 1; } }
 /* Le soir : les fenêtres luisent doucement, chaque quartier à son rythme, et quelques étoiles scintillent. */
 /* Les lumières vacillent comme des bougies : trois quartiers, trois rythmes irréguliers qui ne se recoupent jamais. */
 .v-lum { mix-blend-mode: screen; opacity: .5; animation: v-bougie 2.9s linear infinite; }
@@ -470,4 +479,4 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 @keyframes v-bougie { 0% { opacity: .5; } 7% { opacity: .72; } 12% { opacity: .4; } 20% { opacity: .62; } 27% { opacity: .55; } 34% { opacity: .82; }
   41% { opacity: .46; } 49% { opacity: .66; } 55% { opacity: .35; } 63% { opacity: .7; } 71% { opacity: .52; } 78% { opacity: .78; } 86% { opacity: .42; } 93% { opacity: .64; } 100% { opacity: .5; } }
 .v-etoile { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: #F4EEDF; box-shadow: 0 0 4px 1px rgba(244,238,223,.35); animation: scintille 6s ease-in-out infinite; }
-@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-lum, .v-etoile, .b-flamme, .b-flamme img, .b-flamme-jour, .b-halo { animation: none; } .v-oiseau { display: none; } }
+@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-oiseau b, .v-lum, .v-etoile, .b-flamme, .b-flamme img, .b-flamme-jour, .b-halo { animation: none; } .v-oiseau { display: none; } }

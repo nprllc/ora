@@ -365,10 +365,12 @@
     var arbres = ARBRES.map(function (a, k) {
       return morceau('img/village-jour.webp', 2048, 618, a[0] - a[3], a[1], a[0] + a[3], a[2], 'v-arbre' + (a[4] < 1 ? ' rond' : ''), 'animation-delay:-' + (k * 0.9).toFixed(1) + 's');
     }).join('');
-    // Deux moineaux : l'un s'envole d'un olivier et disparaît derrière le village, l'autre traverse le ciel et se pose sur un autre arbre.
-    var vol = '<svg class="vol" viewBox="0 0 12 6"><path d="M1 3.4q2.6-3 5 .2q2.4-3.2 5-.2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="6" cy="3.8" rx="1.3" ry=".9" fill="currentColor"/></svg>';
-    var pose = '<svg class="pose" viewBox="0 0 12 6"><path d="M4 4.6q.2-2.4 2.6-2.6q1.6 0 1.9 1.2l1.1.2l-1 .5q-.3 1.4-2 1.5zM4.2 4.4l-2 .9" fill="currentColor" stroke="currentColor" stroke-width=".5" stroke-linecap="round"/></svg>';
-    var oiseaux = '<span class="v-oiseau oa">' + vol + pose + '</span><span class="v-oiseau ob">' + vol + pose + '</span>';
+    // Deux moineaux peints à l'aquarelle (planche de 7 images : 5 de vol, 2 posés). L'un quitte son olivier et passe
+    // derrière le clocher (un calque du clocher et de l'église est posé par-dessus lui) ; l'autre traverse et se pose.
+    var moineau = '<b><i class="vol"></i><i class="pose"></i></b>';
+    var oiseaux = '<span class="v-oiseau oa">' + moineau + '</span>' +
+      '<img class="v-clocher" src="img/village-jour-clocher.webp" alt="" decoding="async" style="left:51.79%;top:8.78%;width:11.28%;height:39.66%">' +
+      '<span class="v-oiseau ob">' + moineau + '</span>';
     return '<div class="respiration village jour" aria-hidden="true"><img src="img/village-jour.webp" alt="" decoding="async">' + arbres + oiseaux + '</div>';
   }
 
