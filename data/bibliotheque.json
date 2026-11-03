@@ -3,6 +3,7 @@
  "citations": [
   {
    "id": "therese-priere",
+   "saint": true,
    "fr": {
     "texte": "Pour moi, la prière c'est un élan du cœur, c'est un simple regard jeté vers le ciel, c'est un cri de reconnaissance et d'amour au sein de l'épreuve comme au sein de la joie.",
     "auteur": "Sainte Thérèse de l'Enfant-Jésus",
@@ -12,6 +13,7 @@
   },
   {
    "id": "jean-paul-ii-peur",
+   "saint": true,
    "fr": {
     "texte": "N'ayez pas peur ! Ouvrez, ouvrez toutes grandes les portes au Christ !",
     "auteur": "Saint Jean-Paul II",
@@ -20,7 +22,18 @@
    }
   },
   {
+   "id": "francois-fatigue",
+   "saint": false,
+   "fr": {
+    "texte": "Dieu ne se fatigue jamais de pardonner, c'est nous qui nous fatiguons de demander sa miséricorde.",
+    "auteur": "Pape François",
+    "source": "Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013), n° 3 (vatican.va)",
+    "auteurId": "pape-francois"
+   }
+  },
+  {
    "id": "gregoire-respire",
+   "saint": true,
    "fr": {
     "texte": "Il faut se souvenir de Dieu plus souvent qu'on ne respire.",
     "auteur": "Saint Grégoire de Nazianze",
@@ -30,6 +43,7 @@
   },
   {
    "id": "jean-de-la-croix-amour",
+   "saint": true,
    "fr": {
     "texte": "Au soir de notre vie, nous serons jugés sur l'amour.",
     "auteur": "Saint Jean de la Croix",
@@ -38,7 +52,17 @@
    }
   },
   {
+   "id": "paysan-ars",
+   "saint": false,
+   "fr": {
+    "texte": "Je L'avise et Il m'avise.",
+    "auteur": "Un paysan d'Ars, en prière devant le tabernacle, selon son curé, saint Jean-Marie Vianney",
+    "source": "Catéchisme de l'Église catholique, n° 2715"
+   }
+  },
+  {
    "id": "augustin-inquiet",
+   "saint": true,
    "fr": {
     "texte": "Seigneur, tu nous as faits pour toi et notre cœur est inquiet tant qu'il ne repose pas en toi.",
     "auteur": "Saint Augustin",
@@ -47,15 +71,8 @@
    }
   },
   {
-   "id": "paysan-ars",
-   "fr": {
-    "texte": "Je L'avise et Il m'avise.",
-    "auteur": "Un paysan d'Ars, en prière devant le tabernacle, selon son curé, saint Jean-Marie Vianney",
-    "source": "Catéchisme de l'Église catholique, n° 2715"
-   }
-  },
-  {
    "id": "chrysostome-marche",
+   "saint": true,
    "fr": {
     "texte": "Il est possible, même au marché ou dans une promenade solitaire, de faire une fréquente et fervente prière.",
     "auteur": "Saint Jean Chrysostome",
@@ -64,16 +81,18 @@
    }
   },
   {
-   "id": "benoit-rencontre",
+   "id": "francois-petit-pas",
+   "saint": false,
    "fr": {
-    "texte": "À l'origine du fait d'être chrétien, il n'y a pas une décision éthique ou une grande idée, mais la rencontre avec un événement, avec une Personne, qui donne à la vie un nouvel horizon et par là son orientation décisive.",
-    "auteur": "Benoît XVI",
-    "source": "Encyclique Deus caritas est, n° 1 (25 décembre 2005)",
-    "auteurId": "benoit-xvi"
+    "texte": "Quand quelqu'un fait un petit pas vers Jésus, il découvre que celui-ci attendait déjà sa venue à bras ouverts.",
+    "auteur": "Pape François",
+    "source": "Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013), n° 3 (vatican.va)",
+    "auteurId": "pape-francois"
    }
   },
   {
    "id": "jeanne-eglise",
+   "saint": true,
    "fr": {
     "texte": "De Jésus-Christ et de l'Église, il m'est avis que c'est tout un, et qu'il n'en faut pas faire difficulté.",
     "auteur": "Sainte Jeanne d'Arc, à ses juges",
@@ -83,11 +102,72 @@
   },
   {
    "id": "vianney-sacerdoce",
+   "saint": true,
    "fr": {
     "texte": "Le Sacerdoce, c'est l'amour du cœur de Jésus.",
     "auteur": "Saint Jean-Marie Vianney, curé d'Ars",
     "source": "Cité par Benoît XVI, lettre pour l'Année sacerdotale (16 juin 2009)",
     "auteurId": "jean-marie-vianney"
+   }
+  },
+  {
+   "id": "benoit-ecoute",
+   "saint": false,
+   "fr": {
+    "texte": "Si personne ne m'écoute plus, Dieu m'écoute encore.",
+    "auteur": "Benoît XVI",
+    "source": "Benoît XVI, encyclique Spe salvi (30 novembre 2007), n° 32 (vatican.va)",
+    "auteurId": "benoit-xvi"
+   }
+  },
+  {
+   "id": "francois-petits-gestes",
+   "saint": false,
+   "fr": {
+    "texte": "Cette sainteté à laquelle le Seigneur t'appelle grandira par de petits gestes.",
+    "auteur": "Pape François",
+    "source": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 16 (vatican.va)",
+    "auteurId": "pape-francois"
+   }
+  },
+  {
+   "id": "benoit-rencontre",
+   "saint": false,
+   "fr": {
+    "texte": "À l'origine du fait d'être chrétien, il n'y a pas une décision éthique ou une grande idée, mais la rencontre avec un événement, avec une Personne, qui donne à la vie un nouvel horizon et par là son orientation décisive.",
+    "auteur": "Benoît XVI",
+    "source": "Encyclique Deus caritas est, n° 1 (25 décembre 2005)",
+    "auteurId": "benoit-xvi"
+   }
+  },
+  {
+   "id": "francois-humour",
+   "saint": false,
+   "fr": {
+    "texte": "Le saint est capable de vivre joyeux et avec le sens de l'humour.",
+    "auteur": "Pape François",
+    "source": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 122 (vatican.va)",
+    "auteurId": "pape-francois"
+   }
+  },
+  {
+   "id": "benoit-esperance",
+   "saint": false,
+   "fr": {
+    "texte": "Celui qui a l'espérance vit différemment ; une vie nouvelle lui a déjà été donnée.",
+    "auteur": "Benoît XVI",
+    "source": "Benoît XVI, encyclique Spe salvi (30 novembre 2007), n° 2 (vatican.va)",
+    "auteurId": "benoit-xvi"
+   }
+  },
+  {
+   "id": "francois-viser",
+   "saint": false,
+   "fr": {
+    "texte": "N'aie pas peur de viser plus haut, de te laisser aimer et libérer par Dieu.",
+    "auteur": "Pape François",
+    "source": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 34 (vatican.va)",
+    "auteurId": "pape-francois"
    }
   }
  ],
@@ -361,6 +441,9 @@
  "histoires": [
   {
    "id": "greccio",
+   "temps": [
+    "noel"
+   ],
    "fr": {
     "titre": "La première crèche vivante",
     "accroche": "Une nuit de Noël, dans une grotte des montagnes d'Italie, saint François d'Assise a voulu voir Bethléem de ses yeux.",
@@ -381,6 +464,7 @@
   },
   {
    "id": "calendrier-gregorien",
+   "date": "10-15",
    "fr": {
     "titre": "Le jour où l'on a sauté dix jours",
     "accroche": "En 1582, des millions de gens se sont couchés un jeudi 4 octobre et se sont réveillés le vendredi 15.",
@@ -391,6 +475,7 @@
   },
   {
    "id": "lourdes",
+   "date": "02-11",
    "fr": {
     "titre": "Lourdes : une jeune fille pauvre et une source",
     "accroche": "En 1858, dans une petite ville des Pyrénées, une adolescente qui ne savait ni lire ni écrire voit une « belle dame ».",
@@ -401,6 +486,7 @@
   },
   {
    "id": "compostelle",
+   "date": "07-25",
    "fr": {
     "titre": "Pourquoi tant de gens marchent jusqu'à Compostelle",
     "accroche": "Depuis plus de mille ans, des pèlerins de toute l'Europe marchent vers l'ouest de l'Espagne. Pourquoi là ?",
@@ -421,6 +507,7 @@
   },
   {
    "id": "rosaire-lepante",
+   "date": "10-07",
    "fr": {
     "titre": "Pourquoi octobre est le mois du chapelet",
     "accroche": "Une fête de la Vierge Marie est née au lendemain d'une grande bataille navale.",
@@ -441,6 +528,7 @@
   },
   {
    "id": "montserrat",
+   "date": "04-27",
    "fr": {
     "titre": "La Moreneta de Montserrat",
     "accroche": "Au-dessus de Barcelone, dans une montagne aux rochers dentelés, une petite Vierge noire veille sur la Catalogne.",
@@ -451,6 +539,7 @@
   },
   {
    "id": "benoit-regle",
+   "date": "07-11",
    "fr": {
     "titre": "Ora et labora : la règle de saint Benoît",
     "accroche": "Il y a quinze siècles, un moine italien a écrit un petit livre qui organise encore la vie de milliers de monastères.",
@@ -458,11 +547,22 @@
     "plusLoin": "La devise « Ora et labora », « prie et travaille », résume bien l'esprit bénédictin, même si elle ne figure pas telle quelle dans la Règle. Beaucoup de laïcs s'en inspirent pour équilibrer leur vie : un temps pour Dieu, un temps pour le travail, un temps pour les autres.",
     "source": "Règle de saint Benoît, chapitres 4, 48 et 53 ; Paul VI, lettre apostolique Pacis nuntius (24 octobre 1964)"
    }
+  },
+  {
+   "id": "arche-ararat",
+   "fr": {
+    "titre": "L'arche de Noé est-elle sur une montagne de Turquie ?",
+    "accroche": "Depuis 1959, une colline en forme de bateau, près du mont Ararat, intrigue les chercheurs. Cette année, on y a commencé des forages.",
+    "texte": "La Bible raconte qu'après le déluge, l'arche de Noé s'est posée « sur les montagnes d'Ararat » (Gn 8, 4). Ararat est le nom ancien d'une région de l'est de la Turquie et de l'Arménie actuelles, où se dresse aujourd'hui le mont Ararat.\n\nEn octobre 1959, un capitaine de l'armée turque, İlhan Durupınar, remarque sur une photo aérienne une étrange forme de bateau, longue d'environ 160 mètres, à une trentaine de kilomètres du mont Ararat. Depuis, des passionnés y voient l'arche.\n\nLes géologues, eux, estiment qu'il s'agit d'une formation naturelle, sculptée par l'érosion : les fouilles faites jusqu'ici n'ont trouvé aucune trace d'un navire. En 2026, une équipe de l'université de Sivas a commencé des forages pour en avoir le cœur net. Rien n'est prouvé à ce jour.",
+    "plusLoin": "Pour la foi chrétienne, l'essentiel de ce récit ne dépend pas d'une découverte : après le déluge, Dieu fait alliance avec toute la Création et pose son arc dans les nuées comme signe de paix (Gn 9, 13).",
+    "source": "Bible, Gn 8, 4 et 9, 13 ; Encyclopædia Britannica, « Mount Ararat » ; L. Collins et D. Fasold, Journal of Geoscience Education, vol. 44 (1996) ; presse internationale, octobre 2026 (forages de l'université Sivas Cumhuriyet)"
+   }
   }
  ],
  "portraits": [
   {
    "id": "kolbe",
+   "saint": true,
    "fr": {
     "nom": "Saint Maximilien Kolbe",
     "dates": "1894-1941",
@@ -473,73 +573,8 @@
    }
   },
   {
-   "id": "bakhita",
-   "fr": {
-    "nom": "Sainte Joséphine Bakhita",
-    "dates": "vers 1869-1947",
-    "accroche": "Enlevée enfant et vendue comme esclave, elle est devenue religieuse et a pardonné à ceux qui l'avaient fait souffrir.",
-    "texte": "Bakhita naît vers 1869 au Darfour, au Soudan. Vers l'âge de sept ans, elle est enlevée par des marchands d'esclaves, qui lui donnent ce nom : « Bakhita » veut dire « chanceuse ». Elle est vendue plusieurs fois et maltraitée.\n\nAchetée par un diplomate italien, elle arrive en Italie, où elle découvre la foi chez les sœurs canossiennes de Venise. En 1889, la justice italienne reconnaît qu'elle est libre. Elle choisit de rester et devient religieuse.\n\nPendant cinquante ans, à Schio, elle est portière, cuisinière, brodeuse, aimée de tous pour sa douceur. Elle meurt en 1947.",
-    "plusLoin": "Elle disait que si elle rencontrait ceux qui l'avaient enlevée, elle les remercierait, parce que sans eux elle n'aurait pas connu Dieu. Proclamée sainte en 2000, elle est la patronne du Soudan. Le 8 février, jour de sa fête, est une journée de prière contre la traite des personnes.",
-    "source": "Benoît XVI, encyclique Spe salvi (2007), n° 3 ; Vatican News, « Sainte Joséphine Bakhita »"
-   }
-  },
-  {
-   "id": "francois-assise",
-   "fr": {
-    "nom": "Saint François d'Assise",
-    "dates": "vers 1181-1226",
-    "accroche": "Le fils d'un riche marchand qui a tout quitté pour vivre pauvre, joyeux et frère de toute la création.",
-    "texte": "François naît à Assise, en Italie, dans une famille aisée. Jeune homme, il aime les fêtes et rêve de gloire. Après une maladie et une guerre, quelque chose change en lui.\n\nUn jour, dans la petite église en ruine de San Damiano, il entend le Christ de la croix lui dire : « Va, répare ma maison. » Il rend à son père jusqu'à ses vêtements et commence une vie de pauvreté, au service des lépreux.\n\nD'autres le rejoignent : ce sont les premiers frères franciscains. François meurt en 1226, après avoir écrit le Cantique des créatures, où il loue Dieu pour « frère Soleil » et « sœur Lune ».",
-    "plusLoin": "Il est le patron de l'Italie et de l'écologie. C'est de lui que le pape François a pris son nom, et son Cantique a donné le titre de l'encyclique Laudato si' (2015) sur le soin de la maison commune.",
-    "source": "Encyclopædia Britannica, « Saint Francis of Assisi » ; Pape François, encyclique Laudato si' (24 mai 2015), n° 1 et 10"
-   }
-  },
-  {
-   "id": "teresa-calcutta",
-   "fr": {
-    "nom": "Sainte Teresa de Calcutta",
-    "dates": "1910-1997",
-    "accroche": "Une petite religieuse qui ramassait les mourants dans les rues de Calcutta pour qu'ils ne meurent pas seuls.",
-    "texte": "Agnès Gonxha Bojaxhiu naît en 1910 à Skopje, dans une famille albanaise. À 18 ans, elle devient religieuse et part enseigner en Inde, à Calcutta.\n\nEn 1946, dans un train, elle ressent un appel : servir les plus pauvres parmi les pauvres. Elle quitte son couvent, revêt un sari blanc bordé de bleu et fonde les Missionnaires de la Charité. Elle ouvre une maison pour les mourants, puis des orphelinats et des maisons pour les lépreux.\n\nElle reçoit le prix Nobel de la paix en 1979. À sa mort en 1997, ses sœurs sont présentes dans plus de cent pays.",
-    "plusLoin": "On a découvert après sa mort qu'elle avait vécu pendant des dizaines d'années une grande nuit intérieure, sans sentir la présence de Dieu, tout en continuant d'aimer et de servir. Elle a été proclamée sainte en 2016 par le pape François.",
-    "source": "Encyclopædia Britannica, « Mother Teresa » ; The Nobel Prize, « Mother Teresa – Facts » ; Pape François, homélie de canonisation (4 septembre 2016)"
-   }
-  },
-  {
-   "id": "frassati",
-   "fr": {
-    "nom": "Saint Pier Giorgio Frassati",
-    "dates": "1901-1925",
-    "accroche": "Un étudiant italien sportif, joyeux et amoureux de la montagne, qui donnait en secret tout ce qu'il avait aux pauvres.",
-    "texte": "Pier Giorgio naît à Turin en 1901, dans une famille riche et célèbre : son père dirige le grand journal La Stampa. Étudiant ingénieur, il adore la montagne, l'escalade et les farces avec ses amis.\n\nMais il passe aussi beaucoup de temps auprès des pauvres de la ville, avec la Société de Saint-Vincent-de-Paul. Il leur donne son argent, ses vêtements, parfois son billet de tram, et rentre à pied.\n\nEn 1925, à 24 ans, il meurt en quelques jours d'une poliomyélite, probablement attrapée chez un malade qu'il visitait. À son enterrement, sa famille découvre avec surprise une foule de pauvres venus lui dire adieu.",
-    "plusLoin": "Il avait écrit « Verso l'alto », « vers le haut », sur une photo de montagne : sa devise est devenue celle de beaucoup de jeunes. Il a été proclamé saint le 7 septembre 2025, le même jour que Carlo Acutis.",
-    "source": "Vatican News, « Pier Giorgio Frassati » ; Pape Léon XIV, homélie de canonisation (7 septembre 2025)"
-   }
-  },
-  {
-   "id": "vianney",
-   "fr": {
-    "nom": "Saint Jean-Marie Vianney, le curé d'Ars",
-    "dates": "1786-1859",
-    "accroche": "Un prêtre de campagne qui avait eu du mal à finir ses études, et vers qui des foules venaient de toute la France.",
-    "texte": "Jean-Marie Vianney naît en 1786 près de Lyon, dans une famille de paysans. Il grandit pendant la Révolution, quand les prêtres doivent se cacher. Il apprend tard le latin et échoue plusieurs fois à ses études ; il est pourtant ordonné prêtre en 1815.\n\nEn 1818, on l'envoie à Ars, un petit village des Dombes. Il y passe le reste de sa vie. Il prie, visite les familles, fonde une maison pour les orphelines.\n\nPeu à peu, des pèlerins viennent de partout pour se confesser à lui : vers la fin de sa vie, il passe plus de dix heures par jour au confessionnal. Il meurt en 1859.",
-    "plusLoin": "Il est le patron des curés du monde entier. Il disait à un enfant qui lui avait montré le chemin d'Ars : « Tu m'as montré le chemin d'Ars, je te montrerai le chemin du Ciel. » Une statue près du village rappelle cette rencontre.",
-    "source": "Benoît XVI, audience générale du 5 août 2009 ; Sanctuaire d'Ars (arsnet.org)"
-   }
-  },
-  {
-   "id": "claire",
-   "fr": {
-    "nom": "Sainte Claire d'Assise",
-    "dates": "1194-1253",
-    "accroche": "Une jeune noble qui s'est enfuie de chez elle une nuit de Rameaux pour suivre saint François.",
-    "texte": "Claire naît en 1194 à Assise, dans une famille noble. Elle entend prêcher François et veut vivre comme lui, pauvre et toute donnée à Dieu.\n\nLa nuit du dimanche des Rameaux 1212, elle quitte la maison familiale en secret et rejoint François, qui lui coupe les cheveux en signe de consécration. Elle s'installe à San Damiano, où d'autres femmes la rejoignent, dont sa propre sœur et, plus tard, sa mère.\n\nPendant plus de quarante ans, elle y vit une vie de prière et de pauvreté joyeuse. Elle est la première femme à écrire une règle de vie religieuse approuvée par un pape, peu avant sa mort en 1253.",
-    "plusLoin": "Malade et alitée, elle ne pouvait aller à la messe de Noël ; la tradition raconte qu'elle la vit et l'entendit depuis son lit. C'est pour cela que Pie XII l'a nommée en 1958 patronne de la télévision. Les sœurs clarisses vivent aujourd'hui dans le monde entier.",
-    "source": "Encyclopædia Britannica, « Saint Clare of Assisi » ; Benoît XVI, audience générale du 15 septembre 2010"
-   }
-  },
-  {
    "id": "gaudi",
+   "saint": false,
    "fr": {
     "nom": "Antoni Gaudí, vénérable",
     "dates": "1852-1926",
@@ -550,7 +585,152 @@
    }
   },
   {
+   "id": "bakhita",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Joséphine Bakhita",
+    "dates": "vers 1869-1947",
+    "accroche": "Enlevée enfant et vendue comme esclave, elle est devenue religieuse et a pardonné à ceux qui l'avaient fait souffrir.",
+    "texte": "Bakhita naît vers 1869 au Darfour, au Soudan. Vers l'âge de sept ans, elle est enlevée par des marchands d'esclaves, qui lui donnent ce nom : « Bakhita » veut dire « chanceuse ». Elle est vendue plusieurs fois et maltraitée.\n\nAchetée par un diplomate italien, elle arrive en Italie, où elle découvre la foi chez les sœurs canossiennes de Venise. En 1889, la justice italienne reconnaît qu'elle est libre. Elle choisit de rester et devient religieuse.\n\nPendant cinquante ans, à Schio, elle est portière, cuisinière, brodeuse, aimée de tous pour sa douceur. Elle meurt en 1947.",
+    "plusLoin": "Elle disait que si elle rencontrait ceux qui l'avaient enlevée, elle les remercierait, parce que sans eux elle n'aurait pas connu Dieu. Proclamée sainte en 2000, elle est la patronne du Soudan. Le 8 février, jour de sa fête, est une journée de prière contre la traite des personnes.",
+    "source": "Benoît XVI, encyclique Spe salvi (2007), n° 3 ; Vatican News, « Sainte Joséphine Bakhita »"
+   }
+  },
+  {
+   "id": "lejeune",
+   "saint": false,
+   "fr": {
+    "nom": "Jérôme Lejeune, vénérable",
+    "dates": "1926-1994",
+    "accroche": "Le médecin qui a découvert l'origine de la trisomie 21 et a passé sa vie au service de ces enfants.",
+    "texte": "Jérôme Lejeune naît en 1926 près de Paris. Jeune médecin, il s'occupe d'enfants que l'on appelait alors « mongoliens », et cherche ce qui leur arrive.\n\nEn 1958, avec ses collègues Marthe Gautier et Raymond Turpin, il découvre que ces enfants ont un chromosome en plus : un troisième chromosome 21. C'est la première fois qu'on relie une maladie à une anomalie des chromosomes. Le mot « trisomie 21 » vient de là.\n\nToute sa vie, il soigne ces enfants, accueille leurs familles et défend leur dignité. Il meurt le jour de Pâques 1994, peu après avoir été nommé par Jean-Paul II premier président de l'Académie pontificale pour la vie.",
+    "plusLoin": "Le 21 janvier 2021, le pape François l'a déclaré « vénérable », une étape vers la béatification. La fondation qui porte son nom poursuit la recherche et l'accueil des personnes trisomiques.",
+    "source": "Dicastère pour les causes des saints, décret du 21 janvier 2021 ; Encyclopædia Britannica, « Jérôme Lejeune » ; Fondation Jérôme Lejeune (fondationlejeune.org)"
+   }
+  },
+  {
+   "id": "francois-assise",
+   "saint": true,
+   "fr": {
+    "nom": "Saint François d'Assise",
+    "dates": "vers 1181-1226",
+    "accroche": "Le fils d'un riche marchand qui a tout quitté pour vivre pauvre, joyeux et frère de toute la création.",
+    "texte": "François naît à Assise, en Italie, dans une famille aisée. Jeune homme, il aime les fêtes et rêve de gloire. Après une maladie et une guerre, quelque chose change en lui.\n\nUn jour, dans la petite église en ruine de San Damiano, il entend le Christ de la croix lui dire : « Va, répare ma maison. » Il rend à son père jusqu'à ses vêtements et commence une vie de pauvreté, au service des lépreux.\n\nD'autres le rejoignent : ce sont les premiers frères franciscains. François meurt en 1226, après avoir écrit le Cantique des créatures, où il loue Dieu pour « frère Soleil » et « sœur Lune ».",
+    "plusLoin": "Il est le patron de l'Italie et de l'écologie. C'est de lui que le pape François a pris son nom, et son Cantique a donné le titre de l'encyclique Laudato si' (2015) sur le soin de la maison commune.",
+    "source": "Encyclopædia Britannica, « Saint Francis of Assisi » ; Pape François, encyclique Laudato si' (24 mai 2015), n° 1 et 10"
+   }
+  },
+  {
+   "id": "pascal",
+   "saint": false,
+   "fr": {
+    "nom": "Blaise Pascal",
+    "dates": "1623-1662",
+    "accroche": "Un génie des mathématiques et des sciences qui, une nuit, a rencontré Dieu.",
+    "texte": "Blaise Pascal naît en 1623 à Clermont, en Auvergne. Enfant, il est déjà un génie. À 19 ans, il invente une machine à calculer pour aider son père, la « pascaline ». Il fait aussi des expériences célèbres sur le vide et la pression de l'air.\n\nLe soir du 23 novembre 1654, il vit une rencontre bouleversante avec Dieu. Il en écrit le récit sur un papier, le « Mémorial », qu'il coud dans la doublure de son manteau et garde sur lui jusqu'à sa mort.\n\nIl prépare alors un grand livre pour défendre la foi chrétienne, qu'il n'aura pas le temps de finir. Ses notes, publiées après sa mort, sont les Pensées.",
+    "plusLoin": "Peu avant sa mort, il a lancé à Paris les « carrosses à cinq sols », les premiers transports en commun. En 2023, le pape François lui a consacré une lettre apostolique, Sublimitas et miseria hominis.",
+    "source": "Encyclopædia Britannica, « Blaise Pascal » ; Pape François, lettre apostolique Sublimitas et miseria hominis (19 juin 2023), vatican.va"
+   }
+  },
+  {
+   "id": "teresa-calcutta",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Teresa de Calcutta",
+    "dates": "1910-1997",
+    "accroche": "Une petite religieuse qui ramassait les mourants dans les rues de Calcutta pour qu'ils ne meurent pas seuls.",
+    "texte": "Agnès Gonxha Bojaxhiu naît en 1910 à Skopje, dans une famille albanaise. À 18 ans, elle devient religieuse et part enseigner en Inde, à Calcutta.\n\nEn 1946, dans un train, elle ressent un appel : servir les plus pauvres parmi les pauvres. Elle quitte son couvent, revêt un sari blanc bordé de bleu et fonde les Missionnaires de la Charité. Elle ouvre une maison pour les mourants, puis des orphelinats et des maisons pour les lépreux.\n\nElle reçoit le prix Nobel de la paix en 1979. À sa mort en 1997, ses sœurs sont présentes dans plus de cent pays.",
+    "plusLoin": "On a découvert après sa mort qu'elle avait vécu pendant des dizaines d'années une grande nuit intérieure, sans sentir la présence de Dieu, tout en continuant d'aimer et de servir. Elle a été proclamée sainte en 2016 par le pape François.",
+    "source": "Encyclopædia Britannica, « Mother Teresa » ; The Nobel Prize, « Mother Teresa – Facts » ; Pape François, homélie de canonisation (4 septembre 2016)"
+   }
+  },
+  {
+   "id": "delbrel",
+   "saint": false,
+   "fr": {
+    "nom": "Madeleine Delbrêl, vénérable",
+    "dates": "1904-1964",
+    "accroche": "Une jeune athée devenue chrétienne, qui a vécu sa foi au milieu des ouvriers d'Ivry, en banlieue parisienne.",
+    "texte": "Madeleine Delbrêl naît en 1904 en Dordogne. Adolescente brillante, elle se dit athée : pour elle, Dieu n'existe pas.\n\nVers vingt ans, des amis chrétiens joyeux l'intriguent. Elle décide de se mettre à prier, et se convertit en 1924. En 1933, elle s'installe à Ivry-sur-Seine, une ville ouvrière, avec quelques amies, comme assistante sociale.\n\nPendant trente ans, elle vit là, simplement, ouverte à tous, croyants ou non. Elle écrit des textes pleins de poésie sur la sainteté des gens ordinaires, ceux qu'elle appelle « les gens des rues ».",
+    "plusLoin": "Le pape François l'a déclarée « vénérable » le 26 janvier 2018. Son livre Nous autres, gens des rues a été publié après sa mort.",
+    "source": "Dicastère pour les causes des saints, décret du 26 janvier 2018 ; Association des Amis de Madeleine Delbrêl (madeleine-delbrel.net)"
+   }
+  },
+  {
+   "id": "frassati",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Pier Giorgio Frassati",
+    "dates": "1901-1925",
+    "accroche": "Un étudiant italien sportif, joyeux et amoureux de la montagne, qui donnait en secret tout ce qu'il avait aux pauvres.",
+    "texte": "Pier Giorgio naît à Turin en 1901, dans une famille riche et célèbre : son père dirige le grand journal La Stampa. Étudiant ingénieur, il adore la montagne, l'escalade et les farces avec ses amis.\n\nMais il passe aussi beaucoup de temps auprès des pauvres de la ville, avec la Société de Saint-Vincent-de-Paul. Il leur donne son argent, ses vêtements, parfois son billet de tram, et rentre à pied.\n\nEn 1925, à 24 ans, il meurt en quelques jours d'une poliomyélite, probablement attrapée chez un malade qu'il visitait. À son enterrement, sa famille découvre avec surprise une foule de pauvres venus lui dire adieu.",
+    "plusLoin": "Il avait écrit « Verso l'alto », « vers le haut », sur une photo de montagne : sa devise est devenue celle de beaucoup de jeunes. Il a été proclamé saint le 7 septembre 2025, le même jour que Carlo Acutis.",
+    "source": "Vatican News, « Pier Giorgio Frassati » ; Pape Léon XIV, homélie de canonisation (7 septembre 2025)"
+   }
+  },
+  {
+   "id": "mendel",
+   "saint": false,
+   "fr": {
+    "nom": "Gregor Mendel",
+    "dates": "1822-1884",
+    "accroche": "Un moine qui cultivait des petits pois et a découvert les lois de l'hérédité.",
+    "texte": "Johann Mendel naît en 1822 dans une famille de paysans, dans l'actuelle République tchèque. Il entre au monastère des Augustins de Brno, où il prend le nom de Gregor.\n\nDans le jardin du monastère, pendant des années, il croise des milliers de plants de petits pois et compte soigneusement la couleur des graines, la forme des cosses, la taille des tiges. Il découvre comment les caractères passent des parents aux enfants.\n\nIl publie ses résultats en 1866, mais presque personne ne les remarque. Il devient abbé de son monastère. Seize ans après sa mort, en 1900, des savants redécouvrent son travail : il est aujourd'hui considéré comme le père de la génétique.",
+    "plusLoin": "Son monastère de Brno abrite aujourd'hui un musée qui lui est consacré.",
+    "source": "Encyclopædia Britannica, « Gregor Mendel » ; Mendel Museum, Université Masaryk (mendelmuseum.muni.cz)"
+   }
+  },
+  {
+   "id": "vianney",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Jean-Marie Vianney, le curé d'Ars",
+    "dates": "1786-1859",
+    "accroche": "Un prêtre de campagne qui avait eu du mal à finir ses études, et vers qui des foules venaient de toute la France.",
+    "texte": "Jean-Marie Vianney naît en 1786 près de Lyon, dans une famille de paysans. Il grandit pendant la Révolution, quand les prêtres doivent se cacher. Il apprend tard le latin et échoue plusieurs fois à ses études ; il est pourtant ordonné prêtre en 1815.\n\nEn 1818, on l'envoie à Ars, un petit village des Dombes. Il y passe le reste de sa vie. Il prie, visite les familles, fonde une maison pour les orphelines.\n\nPeu à peu, des pèlerins viennent de partout pour se confesser à lui : vers la fin de sa vie, il passe plus de dix heures par jour au confessionnal. Il meurt en 1859.",
+    "plusLoin": "Il est le patron des curés du monde entier. Il disait à un enfant qui lui avait montré le chemin d'Ars : « Tu m'as montré le chemin d'Ars, je te montrerai le chemin du Ciel. » Une statue près du village rappelle cette rencontre.",
+    "source": "Benoît XVI, audience générale du 5 août 2009 ; Sanctuaire d'Ars (arsnet.org)"
+   }
+  },
+  {
+   "id": "schuman",
+   "saint": false,
+   "fr": {
+    "nom": "Robert Schuman, vénérable",
+    "dates": "1886-1963",
+    "accroche": "Un homme politique profondément croyant, qui a proposé, cinq ans après la guerre, de réconcilier la France et l'Allemagne.",
+    "texte": "Robert Schuman naît en 1886 au Luxembourg, d'une famille lorraine. Avocat, puis député de la Moselle, il est un homme discret, qui va à la messe chaque jour.\n\nAprès la Seconde Guerre mondiale, il devient ministre des Affaires étrangères. Le 9 mai 1950, il propose que la France et l'Allemagne, ennemies pendant des siècles, mettent en commun leur charbon et leur acier : désormais, se faire la guerre deviendrait impossible.\n\nC'est le premier pas de la construction européenne. Le 9 mai est devenu la journée de l'Europe.",
+    "plusLoin": "Le pape François l'a déclaré « vénérable » le 19 juin 2021. On l'appelle souvent l'un des « pères de l'Europe ».",
+    "source": "Dicastère pour les causes des saints, décret du 19 juin 2021 ; Union européenne (european-union.europa.eu), « Robert Schuman » ; Encyclopædia Britannica, « Robert Schuman »"
+   }
+  },
+  {
+   "id": "claire",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Claire d'Assise",
+    "dates": "1194-1253",
+    "accroche": "Une jeune noble qui s'est enfuie de chez elle une nuit de Rameaux pour suivre saint François.",
+    "texte": "Claire naît en 1194 à Assise, dans une famille noble. Elle entend prêcher François et veut vivre comme lui, pauvre et toute donnée à Dieu.\n\nLa nuit du dimanche des Rameaux 1212, elle quitte la maison familiale en secret et rejoint François, qui lui coupe les cheveux en signe de consécration. Elle s'installe à San Damiano, où d'autres femmes la rejoignent, dont sa propre sœur et, plus tard, sa mère.\n\nPendant plus de quarante ans, elle y vit une vie de prière et de pauvreté joyeuse. Elle est la première femme à écrire une règle de vie religieuse approuvée par un pape, peu avant sa mort en 1253.",
+    "plusLoin": "Malade et alitée, elle ne pouvait aller à la messe de Noël ; la tradition raconte qu'elle la vit et l'entendit depuis son lit. C'est pour cela que Pie XII l'a nommée en 1958 patronne de la télévision. Les sœurs clarisses vivent aujourd'hui dans le monde entier.",
+    "source": "Encyclopædia Britannica, « Saint Clare of Assisi » ; Benoît XVI, audience générale du 15 septembre 2010"
+   }
+  },
+  {
+   "id": "peguy",
+   "saint": false,
+   "fr": {
+    "nom": "Charles Péguy",
+    "dates": "1873-1914",
+    "accroche": "Un poète d'Orléans qui a chanté l'espérance et marché jusqu'à Chartres.",
+    "texte": "Charles Péguy naît en 1873 à Orléans. Son père meurt quand il est bébé ; sa mère rempaille des chaises pour gagner sa vie. Élève brillant, il devient écrivain et se bat pour la justice.\n\nAdulte, il retrouve la foi de son enfance. Il écrit de longs poèmes, comme Le Porche du mystère de la deuxième vertu, où l'espérance est une petite fille qui entraîne ses deux grandes sœurs, la foi et la charité.\n\nEn 1912, il marche à pied de Paris à Chartres pour confier à Marie son fils malade. Il meurt au combat le 5 septembre 1914, au début de la bataille de la Marne.",
+    "plusLoin": "Son pèlerinage à Chartres a inspiré celui que des milliers de jeunes font aujourd'hui à pied chaque printemps.",
+    "source": "Encyclopædia Britannica, « Charles Péguy » ; Amitié Charles Péguy (charlespeguy.fr)"
+   }
+  },
+  {
    "id": "bernadette",
+   "saint": true,
    "fr": {
     "nom": "Sainte Bernadette Soubirous",
     "dates": "1844-1879",
@@ -561,7 +741,20 @@
    }
   },
   {
+   "id": "lemaitre",
+   "saint": false,
+   "fr": {
+    "nom": "Georges Lemaître",
+    "dates": "1894-1966",
+    "accroche": "Un prêtre belge, astronome, à l'origine de la théorie du Big Bang.",
+    "texte": "Georges Lemaître naît en 1894 à Charleroi, en Belgique. Après avoir combattu pendant la Première Guerre mondiale, il devient prêtre en 1923, et aussi physicien et astronome.\n\nEn 1927, il montre que l'univers est en expansion : les galaxies s'éloignent les unes des autres. En 1931, il propose que tout l'univers soit né d'un « atome primitif ». C'est ce qu'on appellera plus tard le Big Bang.\n\nIl tenait à ne pas mélanger les choses : la science explique comment l'univers fonctionne, la foi dit qui en est la source. Il a présidé l'Académie pontificale des sciences.",
+    "plusLoin": "En 2018, l'Union astronomique internationale a recommandé d'appeler la loi de l'expansion de l'univers « loi de Hubble-Lemaître ».",
+    "source": "Encyclopædia Britannica, « Georges Lemaître » ; Union astronomique internationale, résolution B4 (2018) ; Académie pontificale des sciences (pas.va)"
+   }
+  },
+  {
    "id": "ignace",
+   "saint": true,
    "fr": {
     "nom": "Saint Ignace de Loyola",
     "dates": "1491-1556",
@@ -570,34 +763,49 @@
     "plusLoin": "Ses Exercices spirituels aident encore aujourd'hui des milliers de personnes à prier et à faire des choix. Il proposait chaque soir un petit « examen » : remercier pour la journée, voir ce qui nous a rapprochés ou éloignés de Dieu, et confier le lendemain. Le pape François était jésuite.",
     "source": "Saint Ignace de Loyola, Récit du pèlerin, 1-12 ; Encyclopædia Britannica, « Saint Ignatius of Loyola »"
    }
+  },
+  {
+   "id": "marthe-robin",
+   "saint": false,
+   "fr": {
+    "nom": "Marthe Robin, vénérable",
+    "dates": "1902-1981",
+    "accroche": "Une paysanne de la Drôme, malade et alitée pendant cinquante ans, qui a reçu des milliers de visiteurs.",
+    "texte": "Marthe Robin naît en 1902 dans une ferme de Châteauneuf-de-Galaure, dans la Drôme. Adolescente, elle tombe gravement malade. Peu à peu, elle ne peut plus marcher, puis plus bouger.\n\nCouchée dans une petite chambre sombre de la ferme familiale, elle prie et écoute. Des milliers de personnes viennent la voir : des paysans, des prêtres, des inconnus, qui repartent consolés.\n\nEn 1936, avec un prêtre lyonnais, le père Georges Finet, elle fonde les Foyers de charité, des maisons où l'on vient faire une retraite dans le silence. Il en existe aujourd'hui dans le monde entier.",
+    "plusLoin": "Le pape François l'a déclarée « vénérable » le 7 novembre 2014. Sa maison, à Châteauneuf-de-Galaure, se visite.",
+    "source": "Dicastère pour les causes des saints, décret du 7 novembre 2014 ; Foyers de charité (foyersdecharite.com)"
+   }
   }
  ],
  "savaisTu": [
   {
-   "id": "alleluia",
+   "id": "vatican-taille",
    "fr": {
-    "titre": "« Alléluia » est un mot hébreu",
-    "accroche": "On le chante sans y penser. Il veut dire quelque chose de très précis.",
-    "texte": "« Alléluia » vient de l'hébreu hallelou-Yah : hallelou veut dire « louez », et Yah est une forme abrégée du nom de Dieu. Alléluia, c'est donc « Louez Dieu ! ».\n\nOn le trouve déjà dans les psaumes de la Bible. Les chrétiens l'ont gardé tel quel, sans le traduire, et le chantent surtout pendant le temps de Pâques. Pendant le Carême, en revanche, on ne le chante pas, pour mieux le retrouver à Pâques.",
-    "source": "Le Robert, dictionnaire historique de la langue française, « alléluia » ; Psaume 150"
-   }
-  },
-  {
-   "id": "cardinal",
-   "fr": {
-    "titre": "Un cardinal, c'est un « gond »",
-    "accroche": "Le mot qui désigne les conseillers du pape vient d'une pièce de porte.",
-    "texte": "« Cardinal » vient du latin cardo, qui veut dire « gond », la pièce sur laquelle tourne une porte. Les cardinaux étaient à l'origine les prêtres principaux des églises de Rome, ceux sur qui « tournait » la vie de l'Église.\n\nAujourd'hui, ce sont les plus proches collaborateurs du pape, et ce sont eux qui élisent le nouveau pape lors d'un conclave. Le même mot a donné les « points cardinaux » et les « vertus cardinales ».",
-    "source": "Le Robert, dictionnaire historique de la langue française, « cardinal » ; Code de droit canonique, can. 349"
+    "titre": "Le plus petit pays du monde",
+    "accroche": "Le Vatican est un État à part entière, plus petit que bien des parcs de ville.",
+    "texte": "La Cité du Vatican mesure environ 44 hectares : on peut en faire le tour à pied en moins d'une heure. C'est le plus petit État du monde.\n\nIl existe sous sa forme actuelle depuis les accords du Latran, signés en 1929 entre le Saint-Siège et l'Italie. Il a sa poste, ses timbres, sa radio, sa gendarmerie et même sa gare.\n\nSa raison d'être est de garantir la liberté du pape, pour qu'il puisse s'adresser à tous sans dépendre d'aucun gouvernement.",
+    "source": "Encyclopædia Britannica, « Vatican City » ; accords du Latran (11 février 1929)"
    }
   },
   {
    "id": "couronne-avent",
+   "temps": [
+    "avent"
+   ],
    "fr": {
     "titre": "La première couronne de l'Avent avait 24 bougies",
     "accroche": "Elle a été inventée pour aider des enfants pauvres à patienter jusqu'à Noël.",
     "texte": "En 1839, à Hambourg, en Allemagne, le pasteur Johann Hinrich Wichern s'occupe d'enfants pauvres dans une maison d'accueil. Les enfants lui demandent sans cesse combien de jours restent avant Noël.\n\nIl fixe alors sur une roue de charrette des bougies : une petite pour chaque jour de semaine, une grande pour chaque dimanche, et on en allume une de plus chaque jour.\n\nAvec le temps, on n'a gardé que les quatre grandes bougies, une par dimanche de l'Avent, sur une couronne de branches vertes.",
     "source": "Rauhes Haus, Hambourg, « Der Adventskranz » ; Encyclopædia Britannica, « Advent wreath »"
+   }
+  },
+  {
+   "id": "garde-suisse",
+   "fr": {
+    "titre": "Les gardes suisses veillent sur le pape depuis 1506",
+    "accroche": "Leurs uniformes rayés ne sont pas un costume de théâtre : c'est la plus ancienne armée encore en service.",
+    "texte": "Le 22 janvier 1506, 150 soldats suisses arrivent à Rome à la demande du pape Jules II. C'est la naissance de la Garde suisse pontificale.\n\nLe 6 mai 1527, pendant le sac de Rome, 147 d'entre eux meurent en protégeant la fuite du pape Clément VII. Chaque 6 mai, les nouvelles recrues prêtent serment en souvenir de ce jour.\n\nPour y entrer, il faut être suisse, catholique, célibataire, et mesurer au moins 1,74 m. Leur uniforme bleu, jaune et rouge est souvent attribué à Michel-Ange, mais il a été dessiné en 1914.",
+    "source": "Garde suisse pontificale (schweizergarde.ch), « Histoire » ; Encyclopædia Britannica, « Swiss Guard »"
    }
   },
   {
@@ -610,57 +818,64 @@
    }
   },
   {
-   "id": "messe-mot",
+   "id": "fumee-blanche",
    "fr": {
-    "titre": "Le mot « messe » vient de la fin de la messe",
-    "accroche": "Le nom de la célébration vient de ses tout derniers mots.",
-    "texte": "À la fin de la messe en latin, le prêtre dit : Ite, missa est, « Allez, c'est l'envoi ». Le mot missa, l'envoi, a fini par désigner toute la célébration : la « messe ».\n\nC'est une belle idée : la messe ne s'arrête pas à la porte de l'église. Elle se termine par un envoi, pour vivre dans la vie de tous les jours ce que l'on vient de recevoir.",
-    "source": "Catéchisme de l'Église catholique, n° 1332 ; Le Robert, dictionnaire historique de la langue française, « messe »"
+    "titre": "Fumée blanche : « Nous avons un pape »",
+    "accroche": "Comment le monde apprend-il qu'un nouveau pape a été élu ? Par une cheminée.",
+    "texte": "Pendant un conclave, les cardinaux votent dans la chapelle Sixtine, enfermés et coupés du monde. Après chaque vote, on brûle les bulletins dans un poêle dont la cheminée est visible depuis la place Saint-Pierre.\n\nSi la fumée est noire, personne n'a été élu. Si elle est blanche, il y a un nouveau pape. Depuis 2005, pour éviter toute confusion, on ajoute des produits qui colorent bien la fumée, et les cloches de Saint-Pierre sonnent en même temps que la fumée blanche.\n\nPeu après, un cardinal annonce au balcon : Habemus papam, « Nous avons un pape ».",
+    "source": "Jean-Paul II, constitution apostolique Universi Dominici gregis (1996) ; Vatican News, « Conclave : la fumée blanche »"
    }
   },
   {
-   "id": "dimanche",
+   "id": "bible-traduite",
    "fr": {
-    "titre": "« Dimanche » veut dire « jour du Seigneur »",
-    "accroche": "Dans plusieurs langues, le nom du dimanche garde la trace de la Résurrection.",
-    "texte": "« Dimanche » vient du latin dies dominicus, « le jour du Seigneur ». C'est le jour où Jésus est ressuscité, le premier jour de la semaine. Le même mot latin a donné domingo en espagnol et diumenge en catalan.\n\nDès le début, les chrétiens se sont réunis ce jour-là pour célébrer l'eucharistie, en souvenir de la Résurrection. En anglais ou en allemand, en revanche, Sunday et Sonntag ont gardé l'ancien nom de « jour du soleil ».",
-    "source": "Catéchisme de l'Église catholique, n° 2174 ; Le Robert, dictionnaire historique de la langue française, « dimanche »"
-   }
-  },
-  {
-   "id": "pape-mot",
-   "fr": {
-    "titre": "« Pape » veut dire « papa »",
-    "accroche": "Le titre du successeur de saint Pierre est un mot d'enfant.",
-    "texte": "Le mot « pape » vient du grec pappas, une façon affectueuse de dire « père », comme « papa ». Dans les premiers siècles, on l'utilisait pour plusieurs évêques ; peu à peu, il a été réservé en Occident à l'évêque de Rome.\n\nLe pape est le successeur de l'apôtre Pierre, à qui Jésus a confié son Église. Il est aussi appelé « Saint-Père ».",
-    "source": "Le Robert, dictionnaire historique de la langue française, « pape » ; Catéchisme de l'Église catholique, n° 881-882"
-   }
-  },
-  {
-   "id": "amen",
-   "fr": {
-    "titre": "« Amen », un mot qui veut dire « solide »",
-    "accroche": "On finit presque toutes les prières par ce petit mot. D'où vient-il ?",
-    "texte": "« Amen » est un mot hébreu qui vient d'une racine signifiant « être solide, digne de confiance ». Dire « amen », c'est dire « oui, c'est vrai, je m'y fie ».\n\nC'est de la même racine que vient, en hébreu, le mot qui veut dire « foi ». Jésus commençait parfois ses paroles par « Amen, je vous le dis », que l'on traduit par « En vérité, je vous le dis ».",
-    "source": "Catéchisme de l'Église catholique, n° 1062-1065"
-   }
-  },
-  {
-   "id": "paroisse",
-   "fr": {
-    "titre": "« Paroisse » vient d'un mot qui veut dire « étranger »",
-    "accroche": "Le nom de l'église du quartier rappelle que les chrétiens sont des voyageurs.",
-    "texte": "« Paroisse » vient du grec paroikia, qui veut dire « séjour en pays étranger ». Les premiers chrétiens se voyaient comme des voyageurs sur la terre, en route vers la maison de Dieu.\n\nAujourd'hui, la paroisse, c'est la communauté des chrétiens d'un quartier ou d'un village, rassemblée autour d'une église et d'un curé. Chacun en fait partie, qu'il y aille souvent ou rarement.",
-    "source": "Le Robert, dictionnaire historique de la langue française, « paroisse » ; 1re lettre de saint Pierre 2, 11 ; Code de droit canonique, can. 515"
+    "titre": "Le livre le plus traduit du monde",
+    "accroche": "La Bible existe en entier dans plus de 700 langues, et en partie dans plus de 3 000.",
+    "texte": "Aucun livre n'a été traduit dans autant de langues que la Bible. Selon les associations qui en suivent les traductions, elle existe en entier dans plus de 700 langues, et le Nouveau Testament dans plus de 1 600 autres.\n\nLes traductions ont commencé très tôt : dès avant Jésus, l'Ancien Testament était traduit de l'hébreu en grec. Vers l'an 400, saint Jérôme le traduit en latin : c'est la « Vulgate », utilisée pendant plus de mille ans.\n\nAujourd'hui encore, des traducteurs travaillent pour que chacun puisse lire la Parole de Dieu dans sa propre langue.",
+    "source": "Wycliffe Global Alliance, « Global Scripture Access » (statistiques 2023) ; Encyclopædia Britannica, « Vulgate »"
    }
   },
   {
    "id": "cloches-paques",
+   "temps": [
+    "paques"
+   ],
    "fr": {
     "titre": "Pourquoi « les cloches partent à Rome »",
     "accroche": "En France, on raconte aux enfants que les cloches s'envolent avant Pâques. D'où vient cette histoire ?",
     "texte": "Après la messe du Jeudi saint, les cloches des églises se taisent : c'est une manière de faire silence pendant que l'on se souvient de la mort de Jésus. Elles ne sonnent à nouveau qu'à la Vigile pascale, pour annoncer la Résurrection.\n\nPour expliquer ce silence aux enfants, une tradition populaire raconte que les cloches partent à Rome se faire bénir par le pape, et reviennent le jour de Pâques en semant des œufs en chocolat dans les jardins. En Allemagne et ailleurs, c'est un lièvre qui apporte les œufs.",
     "source": "Missel romain, messe en mémoire de la Cène du Seigneur (Jeudi saint), rubrique sur le chant du Gloria"
+   }
+  },
+  {
+   "id": "saint-nicolas",
+   "date": "12-06",
+   "fr": {
+    "titre": "Le Père Noël descend d'un évêque",
+    "accroche": "Derrière la barbe blanche et le manteau rouge se cache un saint très réel.",
+    "texte": "Saint Nicolas était évêque de Myre, dans l'actuelle Turquie, au IVe siècle. Selon la tradition, il aurait jeté en secret de l'argent par la fenêtre d'une famille pauvre, pour que trois jeunes filles puissent se marier. Il est devenu le patron des enfants.\n\nDans le nord de l'Europe, on lui fête le 6 décembre en offrant des cadeaux aux enfants. Les Hollandais l'appellent Sinterklaas. Emportée en Amérique par des émigrés, la coutume a donné, au XIXe siècle, le personnage de Santa Claus.\n\nLe Père Noël garde ainsi un peu de saint Nicolas : un vieil homme bon qui fait des cadeaux en secret.",
+    "source": "Encyclopædia Britannica, « Saint Nicholas » et « Santa Claus »"
+   }
+  },
+  {
+   "id": "sapin-vatican",
+   "temps": [
+    "avent"
+   ],
+   "fr": {
+    "titre": "Un sapin place Saint-Pierre depuis 1982",
+    "accroche": "La crèche est italienne depuis des siècles, mais le sapin du Vatican est une idée récente.",
+    "texte": "Le sapin de Noël vient surtout des pays germaniques. À Rome, on préférait la crèche. En 1982, le pape Jean-Paul II, venu de Pologne, fait installer pour la première fois un grand sapin sur la place Saint-Pierre, à côté de la crèche.\n\nDepuis, chaque année, une région d'Europe offre le sapin, et une autre la crèche. Ils sont inaugurés début décembre et restent jusqu'au baptême du Seigneur.\n\nLe sapin toujours vert rappelle la vie que Dieu donne, même au cœur de l'hiver.",
+    "source": "Gouvernorat de l'État de la Cité du Vatican ; Vatican News, « La crèche et le sapin de la place Saint-Pierre »"
+   }
+  },
+  {
+   "id": "catacombes-marie",
+   "fr": {
+    "titre": "La plus ancienne image de Marie a près de 1 800 ans",
+    "accroche": "Elle se trouve sous les rues de Rome, sur le mur d'une catacombe.",
+    "texte": "Dans les catacombes de Priscille, à Rome, une fresque du IIIe siècle montre une femme assise tenant un enfant sur ses genoux. À côté d'eux, un homme montre une étoile du doigt.\n\nLes spécialistes y voient la Vierge Marie avec l'Enfant Jésus, et un prophète, sans doute Balaam ou Isaïe, qui annonce la venue du Messie. C'est l'une des plus anciennes représentations connues de Marie.\n\nLes premiers chrétiens enterraient leurs morts dans ces galeries souterraines et y décoraient les tombes d'images d'espérance.",
+    "source": "Commission pontificale d'archéologie sacrée, « Catacombes de Priscille » ; Encyclopædia Britannica, « catacomb »"
    }
   }
  ]

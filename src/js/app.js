@@ -237,7 +237,7 @@
     var contenu = chercher(D.contenus, j.cles);
     var messe = chercher(D.lect, j.cles);
     // Un jour avec contenu éditorial garde l'Évangile de la messe, que sa méditation commente.
-    return { j: j, c: contenu ? contenu[LANG] : bibliotheque(dt), contenu: contenu, expl: expl, explSaison: D.explications.saisons[j.saison.id], conseil: conseil, lect: (!contenu && evangileOra(j)) || messe, messe: messe };
+    return { j: j, c: contenu ? contenu[LANG] : bibliotheque(dt, j), contenu: contenu, expl: expl, explSaison: D.explications.saisons[j.saison.id], conseil: conseil, lect: (!contenu && evangileOra(j)) || messe, messe: messe };
   }
   // L'Évangile du jour d'Ora (data/evangiles.json) : un passage court parmi les plus aimés, sans répétition dans l'année.
   // La fête a le sien ; les temps forts suivent le rang du jour dans le temps (Avent : du 17 au 24 décembre, les jours
@@ -255,11 +255,19 @@
   // un élément par jour, dans l'ordre, et la liste recommence quand elle est finie. Les rubriques n'ont pas de lien
   // entre elles ; chacune vaut pour elle-même. Un élément pas encore traduit ne s'affiche pas dans cette langue.
   var RUBRIQUES = { citation: 'citations', reflexion: 'reflexions', histoire: 'histoires', portrait: 'portraits', savaisTu: 'savaisTu' };
-  function bibliotheque(dt) {
+  // Un élément lié à une date (« date » : MM-JJ) ne sort que ce jour-là ; un élément lié à un temps liturgique
+  // (« temps » : avent, noel, careme, triduum, paques) sort pendant ce temps, un par jour depuis son début.
+  // Les autres tournent le reste de l'année, dans l'ordre de la liste (qui respecte l'alternance des saints).
+  function bibliotheque(dt, j) {
     var n = Math.floor(Date.UTC(dt.getFullYear(), dt.getMonth(), dt.getDate()) / 864e5), c = null;
+    var k = j ? j.date.slice(5) : '', s = j ? j.saison.id : '', js = j ? j.jourSaison : null;
     Object.keys(RUBRIQUES).forEach(function (r) {
       var liste = (D.biblio[RUBRIQUES[r]] || []).filter(function (x) { return x[LANG]; });
-      if (liste.length) { c = c || {}; c[r] = liste[n % liste.length][LANG]; }
+      var date = liste.filter(function (x) { return x.date === k; })[0];
+      var temps = liste.filter(function (x) { return x.temps && x.temps.indexOf(s) >= 0; });
+      var libres = liste.filter(function (x) { return !x.date && !x.temps; });
+      var x = date || (js != null && temps[js]) || (libres.length ? libres[n % libres.length] : null);
+      if (x) { c = c || {}; c[r] = x[LANG]; }
     });
     return c;
   }

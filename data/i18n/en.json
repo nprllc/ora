@@ -468,6 +468,17 @@
     "def": "The word means “good news”. These are the four books of the Bible (Matthew, Mark, Luke and John) that tell the life, words, death and resurrection of Jesus."
    },
    {
+    "id": "exegese",
+    "mot": "Exegesis",
+    "formes": [
+     "exegesis",
+     "Exegesis",
+     "exegete",
+     "exegetes"
+    ],
+    "def": "The careful study of a Bible passage to understand what it really means: who wrote it, when, for whom, and with what words. Someone who does it is called an exegete. It helps us read the Bible neither too quickly nor the wrong way."
+   },
+   {
     "id": "grace",
     "mot": "Grace",
     "formes": [

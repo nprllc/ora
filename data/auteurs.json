@@ -5,6 +5,9 @@
     "es": { "nom": "Santa Teresa de Lisieux", "bio": "Religiosa carmelita francesa (1873-1897), murió a los 24 años en el carmelo de Lisieux, en Normandía. Su autobiografía, Historia de un alma, ha conmovido a millones de lectores con su «caminito»: confiar en Dios como un niño. Fue proclamada santa en 1925 y doctora de la Iglesia en 1997." },
     "en": { "nom": "Saint Thérèse of Lisieux", "bio": "French Carmelite nun (1873-1897) who died at 24 in the Carmel of Lisieux, in Normandy. Her autobiography, Story of a Soul, has touched millions of readers with her “little way”: trusting God like a child. She was canonized in 1925 and declared a Doctor of the Church in 1997." }
   },
+  "pape-francois": {
+    "fr": { "nom": "Pape François", "bio": "Jorge Mario Bergoglio (1936-2025), jésuite argentin, archevêque de Buenos Aires, pape de 2013 à 2025. Premier pape venu d'Amérique, il a beaucoup parlé de la miséricorde de Dieu, de la joie de l'Évangile et du soin des plus pauvres et de la Création." }
+  },
   "benoit-xvi": {
     "fr": { "nom": "Benoît XVI", "bio": "Joseph Ratzinger (1927-2022), théologien allemand, pape de 2005 à 2013. Il a écrit trois livres sur Jésus de Nazareth et trois encycliques, dont Deus caritas est (« Dieu est amour »). En 2013, il a renoncé à sa charge, ce qu'aucun pape n'avait fait depuis près de six siècles." },
     "es": { "nom": "Benedicto XVI", "bio": "Joseph Ratzinger (1927-2022), teólogo alemán, papa de 2005 a 2013. Escribió tres libros sobre Jesús de Nazaret y tres encíclicas, entre ellas Deus caritas est («Dios es amor»). En 2013 renunció a su cargo, algo que ningún papa había hecho en casi seis siglos." },

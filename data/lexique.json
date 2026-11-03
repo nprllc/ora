@@ -183,6 +183,18 @@
       "def": "Le mot veut dire « bonne nouvelle ». Ce sont les quatre livres de la Bible (Matthieu, Marc, Luc et Jean) qui racontent la vie, les paroles, la mort et la résurrection de Jésus."
     },
     {
+      "id": "exegese",
+      "mot": "Exégèse",
+      "formes": [
+        "exégèse",
+        "Exégèse",
+        "exégèses",
+        "exégète",
+        "exégètes"
+      ],
+      "def": "L'étude attentive d'un texte de la Bible pour bien comprendre ce qu'il veut dire : qui l'a écrit, quand, pour qui, avec quels mots. Celui qui la pratique s'appelle un exégète. Elle aide à lire la Bible ni trop vite ni de travers."
+    },
+    {
       "id": "grace",
       "mot": "Grâce",
       "formes": [

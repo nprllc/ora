@@ -469,6 +469,17 @@
     "def": "La palabra significa «buena noticia». Son los cuatro libros de la Biblia (Mateo, Marcos, Lucas y Juan) que cuentan la vida, las palabras, la muerte y la resurrección de Jesús."
    },
    {
+    "id": "exegese",
+    "mot": "Exégesis",
+    "formes": [
+     "exégesis",
+     "Exégesis",
+     "exégeta",
+     "exégetas"
+    ],
+    "def": "El estudio atento de un texto de la Biblia para comprender bien lo que quiere decir: quién lo escribió, cuándo, para quién, con qué palabras. Quien la practica se llama exégeta. Ayuda a leer la Biblia sin prisa y sin malinterpretarla."
+   },
+   {
     "id": "grace",
     "mot": "Gracia",
     "formes": [

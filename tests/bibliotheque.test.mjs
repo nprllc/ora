@@ -26,7 +26,7 @@ test('chaque élément a ses champs en français, et un identifiant unique', () 
 });
 
 test('les auteurs cités sont connus et ne reviennent jamais deux jours de suite', () => {
-  const c = BIB.citations;
+  const c = BIB.citations.filter((x) => !x.date && !x.temps);
   c.forEach((x, i) => {
     if (x.fr.auteurId) assert.ok(AUTEURS[x.fr.auteurId], `auteur inconnu : ${x.fr.auteurId}`);
     const suivant = c[(i + 1) % c.length];
@@ -53,5 +53,34 @@ test('pas d\'injonction dans les textes (« il faut », « tu dois »)', () => {
   for (const [r, liste] of Object.entries(BIB)) if (Array.isArray(liste)) for (const x of liste) {
     const t = JSON.stringify(x.fr).toLowerCase();
     for (const m of ['tu dois', 'vous devez']) assert.ok(!t.includes(m), `${r} ${x.id} : « ${m} »`);
+  }
+});
+
+// Les éléments sans date ni temps tournent dans l'ordre de la liste, en boucle.
+const libres = (r) => BIB[r].filter((x) => !x.date && !x.temps);
+
+test('citations : jamais plus de deux saints ou saintes de suite (en boucle)', () => {
+  const c = libres('citations');
+  c.forEach((x, i) => {
+    assert.equal(typeof x.saint, 'boolean', `${x.id} : « saint » manque`);
+    const trois = [x, c[(i + 1) % c.length], c[(i + 2) % c.length]];
+    assert.ok(!trois.every((y) => y.saint), `${trois.map((y) => y.id).join(', ')} : trois saints de suite`);
+  });
+});
+
+test('portraits : jamais deux saints ou saintes de suite (en boucle)', () => {
+  const p = libres('portraits');
+  p.forEach((x, i) => {
+    assert.equal(typeof x.saint, 'boolean', `${x.id} : « saint » manque`);
+    const y = p[(i + 1) % p.length];
+    assert.ok(!(x.saint && y.saint), `${x.id} puis ${y.id} : deux saints de suite`);
+  });
+});
+
+test('périodes : une date MM-JJ ou des temps liturgiques connus', () => {
+  const TEMPS = ['avent', 'noel', 'careme', 'triduum', 'paques'];
+  for (const [r, liste] of Object.entries(BIB)) if (Array.isArray(liste)) for (const x of liste) {
+    if (x.date) assert.match(x.date, /^(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/, `${r} ${x.id}`);
+    if (x.temps) for (const t of x.temps) assert.ok(TEMPS.includes(t), `${r} ${x.id} : temps « ${t} »`);
   }
 });
