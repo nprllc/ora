@@ -9,7 +9,7 @@ test('jours : un titre et une phrase pour chacun des 366 jours', () => {
   for (let t = Date.UTC(2024, 0, 1); t < Date.UTC(2025, 0, 1); t += 864e5) {
     const k = new Date(t).toISOString().slice(5, 10), x = jours[k];
     assert.ok(Array.isArray(x) && (x.length === 2 || x.length === 3), `jour ${k} absent`);
-    if (x[2]) for (const c of ['qui', 'sens', 'vivre']) { assert.ok(typeof x[2][c] === 'string' && x[2][c].length > 20, `${k} : « ${c} » manque`); assert.doesNotMatch(x[2][c], /\b(tu dois|vous devez|il faut)\b/i, k); }
+    if (x[2]) for (const c of ['qui', 'sens', 'vivre']) { assert.ok(typeof x[2][c] === 'string' && x[2][c].length > 20, `${k} : « ${c} » manque`); assert.doesNotMatch(x[2][c].replace(/«[^»]*»/g, ''), /\b(tu dois|vous devez|il faut)\b/i, k); } // une citation entre guillemets reste telle quelle
     assert.ok(x[0].length > 2 && x[0].length <= 50, `titre trop long : ${k}`);
     assert.ok(x[1].length > 10 && x[1].length <= 140, `phrase trop longue : ${k}`);
     assert.match(x[1], /[.!?»)]$/, `phrase sans point final : ${k}`);

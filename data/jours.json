@@ -1103,247 +1103,565 @@
     ],
     "05-01": [
       "Saint Joseph travailleur",
-      "Le jour du travail : Joseph, l'artisan de Nazareth."
+      "Le jour du travail : Joseph, l'artisan de Nazareth.",
+      {
+        "qui": "Joseph, l'époux de Marie, était charpentier à Nazareth ; Jésus a appris le métier avec lui.",
+        "sens": "En 1955, le pape Pie XII a placé le 1er mai, fête du travail dans beaucoup de pays, sous la protection de saint Joseph travailleur, pour dire que le travail humain a de la valeur aux yeux de Dieu. En France, on offre ce jour-là du muguet.",
+        "vivre": "Remercier quelqu'un pour son travail."
+      }
     ],
     "05-02": [
       "Saint Athanase",
-      "Un évêque d'Alexandrie, exilé cinq fois pour avoir défendu la divinité du Christ."
+      "Un évêque d'Alexandrie, exilé cinq fois pour avoir défendu la divinité du Christ.",
+      {
+        "qui": "Athanase (vers 296-373) est évêque d'Alexandrie, en Égypte.",
+        "sens": "Il défend toute sa vie la foi du concile de Nicée : Jésus est vraiment Dieu. Pour cela, il est exilé cinq fois. Il a aussi écrit la Vie de saint Antoine, qui a fait connaître les moines du désert.",
+        "vivre": "Tenir bon dans une conviction juste, sans agressivité.",
+        "fort": true
+      }
     ],
     "05-03": [
       "Saints Philippe et Jacques",
-      "Deux des douze apôtres."
+      "Deux des douze apôtres.",
+      {
+        "qui": "Philippe et Jacques le Mineur sont deux des douze apôtres.",
+        "sens": "Philippe est celui qui dit à Jésus : « Montre-nous le Père » (Jn 14, 8). Jacques, appelé « frère du Seigneur », a dirigé l'Église de Jérusalem. Leurs reliques reposent ensemble à Rome, dans l'église des Saints-Apôtres.",
+        "vivre": "Demander à Jésus de nous montrer le Père.",
+        "fort": true
+      }
     ],
     "05-04": [
       "Saint Florian",
-      "Un officier romain, patron des pompiers."
+      "Un officier romain, patron des pompiers.",
+      {
+        "qui": "Florian est un officier romain, chrétien, en Autriche.",
+        "sens": "Selon la tradition, il refuse de persécuter les chrétiens et est jeté dans une rivière avec une pierre au cou, vers 304. Il est le patron des pompiers, car on raconte qu'il aurait éteint un incendie avec un seau d'eau.",
+        "vivre": "Remercier les pompiers et les secouristes."
+      }
     ],
     "05-05": [
       "Judith",
-      "Le jour de sainte Judith, on peut penser à l'héroïne d'un livre de la Bible, qui a sauvé son peuple par son courage."
+      "Le jour de sainte Judith, on peut penser à l'héroïne d'un livre de la Bible, qui a sauvé son peuple par son courage.",
+      {
+        "qui": "Judith est l'héroïne du livre de Judith, dans l'Ancien Testament.",
+        "sens": "Veuve pieuse, elle sauve sa ville assiégée par le courage et la prière, alors que tous avaient perdu espoir. Le livre de Judith fait partie de la Bible catholique ; le calendrier français fête une sainte Judith ce jour-là.",
+        "vivre": "Garder espoir et prier quand tout semble bloqué."
+      }
     ],
     "05-06": [
       "Saint François de Laval",
-      "Le premier évêque de Québec."
+      "Le premier évêque de Québec.",
+      {
+        "qui": "François de Laval (1623-1708), prêtre français, est le premier évêque de Québec.",
+        "sens": "Il fonde le séminaire de Québec, aujourd'hui l'université Laval, et organise l'Église de la Nouvelle-France. Il a été canonisé en 2014.",
+        "vivre": "Prier pour les chrétiens d'Amérique du Nord."
+      }
     ],
     "05-07": [
       "Sainte Rose Venerini",
-      "Une Italienne qui a ouvert des écoles pour les filles du peuple."
+      "Une Italienne qui a ouvert des écoles pour les filles du peuple.",
+      {
+        "qui": "Rose Venerini (1656-1728) est une Italienne de Viterbe.",
+        "sens": "À une époque où peu de filles allaient à l'école, elle ouvre des écoles pour les filles du peuple. Ses Maîtresses pies Venerini enseignent toujours.",
+        "vivre": "Encourager une fille ou une jeune femme dans ses études."
+      }
     ],
     "05-08": [
       "L'élection du pape Léon XIV",
-      "Le 8 mai 2025, Robert Prevost, missionnaire au Pérou, devient pape."
+      "Le 8 mai 2025, Robert Prevost, missionnaire au Pérou, devient pape.",
+      {
+        "qui": "Le 8 mai 2025, le cardinal Robert Prevost, né à Chicago et longtemps missionnaire au Pérou, est élu pape.",
+        "sens": "Il prend le nom de Léon XIV, en souvenir de Léon XIII, le pape qui avait parlé des droits des ouvriers. Le 8 mai est aussi, en France, l'anniversaire de la fin de la Seconde Guerre mondiale en Europe, en 1945.",
+        "vivre": "Prier pour le pape et pour la paix."
+      }
     ],
     "05-09": [
       "Saint Pacôme",
-      "Un ancien soldat égyptien, qui a fondé les premiers monastères où l'on vit en communauté."
+      "Un ancien soldat égyptien, qui a fondé les premiers monastères où l'on vit en communauté.",
+      {
+        "qui": "Pacôme (vers 292-348) est un ancien soldat égyptien.",
+        "sens": "Touché par la charité des chrétiens qui nourrissaient les recrues, il se convertit. Il fonde les premiers monastères où les moines vivent ensemble, avec une règle commune : c'est le début de la vie monastique en communauté.",
+        "vivre": "Rendre un service dans la vie de famille ou de communauté."
+      }
     ],
     "05-10": [
       "Sainte Solange",
-      "Une jeune bergère du Berry, martyre au IXe siècle, patronne du Berry."
+      "Une jeune bergère du Berry, martyre au IXe siècle, patronne du Berry.",
+      {
+        "qui": "Solange est une jeune bergère du Berry, au IXe siècle.",
+        "sens": "Selon la tradition, elle refuse les avances d'un seigneur et meurt martyre. Elle est la patronne du Berry ; un village près de Bourges porte son nom.",
+        "vivre": "Prier pour les jeunes qui subissent des pressions."
+      }
     ],
     "05-11": [
       "Sainte Estelle",
-      "Une martyre de Saintes, devenue la patronne des poètes provençaux du Félibrige."
+      "Une martyre de Saintes, devenue la patronne des poètes provençaux du Félibrige.",
+      {
+        "qui": "Estelle est, selon la tradition, une martyre de Saintes, en Saintonge.",
+        "sens": "Son nom veut dire « étoile ». Au XIXe siècle, le poète Frédéric Mistral et ses amis, qui voulaient faire revivre la langue provençale, l'ont choisie comme patronne de leur mouvement, le Félibrige, et ont pris l'étoile pour emblème.",
+        "vivre": "Lire un poème dans sa langue maternelle."
+      }
     ],
     "05-12": [
       "Saint Pancrace",
-      "Un adolescent martyr de Rome, au début du IVe siècle."
+      "Un adolescent martyr de Rome, au début du IVe siècle.",
+      {
+        "qui": "Pancrace est un adolescent de Rome, martyr vers 304.",
+        "sens": "Orphelin venu de Phrygie, il est baptisé à Rome et refuse de renier sa foi. Il est l'un des « saints de glace », avec Mamert et Servais : on dit qu'après eux, il n'y a plus de gelées.",
+        "vivre": "Prier pour un adolescent de son entourage."
+      }
     ],
     "05-13": [
       "Notre-Dame de Fatima",
-      "Le 13 mai 1917, Marie apparaît à trois enfants au Portugal."
+      "Le 13 mai 1917, Marie apparaît à trois enfants au Portugal.",
+      {
+        "qui": "Le 13 mai 1917, à Fatima, au Portugal, trois enfants bergers, Lucie, François et Jacinthe, voient la Vierge Marie.",
+        "sens": "Elle leur apparaît six fois, jusqu'au 13 octobre, et leur demande de prier le chapelet pour la paix. Le 13 mai 1981, jour anniversaire, Jean-Paul II est blessé par balles place Saint-Pierre ; il attribue sa survie à Notre-Dame de Fatima.",
+        "vivre": "Prier une dizaine de chapelet pour la paix.",
+        "fort": true
+      }
     ],
     "05-14": [
       "Saint Matthias",
-      "L'apôtre choisi pour remplacer Judas."
+      "L'apôtre choisi pour remplacer Judas.",
+      {
+        "qui": "Matthias est l'apôtre choisi pour remplacer Judas.",
+        "sens": "Après l'Ascension, les apôtres prient puis tirent au sort entre deux disciples qui avaient suivi Jésus depuis le début : le sort tombe sur Matthias (Ac 1, 15-26).",
+        "vivre": "Accepter avec confiance une place qu'on n'avait pas prévue.",
+        "fort": true
+      }
     ],
     "05-15": [
       "Saint Isidore le Laboureur",
-      "Un paysan de Madrid, patron de la ville et des agriculteurs."
+      "Un paysan de Madrid, patron de la ville et des agriculteurs.",
+      {
+        "qui": "Isidore (vers 1070-1130) est un paysan de Madrid, marié à sainte Marie de la Cabeza.",
+        "sens": "Il travaille la terre d'un riche propriétaire et prie en labourant ; on raconte que des anges labouraient avec lui. Il est le patron de Madrid et des agriculteurs.",
+        "vivre": "Prier pendant une tâche ordinaire."
+      }
     ],
     "05-16": [
       "Saint Honoré",
-      "Un évêque d'Amiens, patron des boulangers."
+      "Un évêque d'Amiens, patron des boulangers.",
+      {
+        "qui": "Honoré est évêque d'Amiens au VIe siècle.",
+        "sens": "On raconte que la pelle du boulanger qui lui annonçait son élection aurait reverdi : il est devenu le patron des boulangers. La rue du Faubourg-Saint-Honoré, à Paris, lui doit son nom.",
+        "vivre": "Remercier son boulanger."
+      }
     ],
     "05-17": [
       "Saint Pascal Baylon",
-      "Un berger d'Aragon devenu frère portier, amoureux de l'Eucharistie."
+      "Un berger d'Aragon devenu frère portier, amoureux de l'Eucharistie.",
+      {
+        "qui": "Pascal Baylon (1540-1592) est un berger d'Aragon devenu frère franciscain.",
+        "sens": "Portier de son couvent, il accueille tout le monde avec joie et passe de longues heures en adoration devant le Saint-Sacrement. Il est le patron des congrès eucharistiques.",
+        "vivre": "Passer quelques minutes dans une église, devant le tabernacle."
+      }
     ],
     "05-18": [
       "Saint Éric",
-      "Un roi de Suède au XIIe siècle, patron de son pays."
+      "Un roi de Suède au XIIe siècle, patron de son pays.",
+      {
+        "qui": "Éric (mort en 1160) est roi de Suède.",
+        "sens": "Il organise son royaume avec justice et soutient l'évangélisation de la Finlande avec saint Henri. Il est tué en sortant de la messe. Il est le patron de la Suède ; la cathédrale d'Uppsala garde ses reliques.",
+        "vivre": "Faire son devoir avec justice."
+      }
     ],
     "05-19": [
       "Saint Yves",
-      "Un juge breton, l'avocat des pauvres, patron des juristes."
+      "Un juge breton, l'avocat des pauvres, patron des juristes.",
+      {
+        "qui": "Yves Hélory (1253-1303) est un prêtre et juge breton, à Tréguier.",
+        "sens": "Il défend gratuitement les pauvres devant les tribunaux et refuse les cadeaux. On l'appelait « l'avocat des pauvres ». Il est le patron des juristes et de la Bretagne ; le « pardon de saint Yves » rassemble chaque année des milliers de personnes à Tréguier.",
+        "vivre": "Défendre quelqu'un qui est accusé injustement."
+      }
     ],
     "05-20": [
       "Saint Bernardin de Sienne",
-      "Un prédicateur qui montrait aux foules le nom de Jésus."
+      "Un prédicateur qui montrait aux foules le nom de Jésus.",
+      {
+        "qui": "Bernardin de Sienne (1380-1444) est un franciscain italien, grand prédicateur.",
+        "sens": "Il montrait aux foules une tablette portant les lettres IHS, le monogramme du nom de Jésus, et invitait à prier ce nom. Il est le patron des publicitaires et des communicants.",
+        "vivre": "Prier en répétant doucement le nom de Jésus."
+      }
     ],
     "05-21": [
       "Saint Christophe Magallanes",
-      "Un prêtre mexicain martyr en 1927, qui a pardonné à ses bourreaux."
+      "Un prêtre mexicain martyr en 1927, qui a pardonné à ses bourreaux.",
+      {
+        "qui": "Christophe Magallanes (1869-1927) est un prêtre mexicain.",
+        "sens": "Pendant la persécution des catholiques au Mexique, il continue d'exercer son ministère en secret. Arrêté, il donne l'absolution à ses bourreaux avant d'être fusillé. Il a été canonisé en 2000 avec vingt-quatre compagnons.",
+        "vivre": "Pardonner à quelqu'un qui nous a blessés."
+      }
     ],
     "05-22": [
       "Sainte Rita",
-      "Une épouse et mère de Cascia, patronne des causes désespérées."
+      "Une épouse et mère de Cascia, patronne des causes désespérées.",
+      {
+        "qui": "Rita (1381-1457) est une épouse et mère de Cascia, en Italie.",
+        "sens": "Son mari, violent, finit par changer, puis est assassiné ; elle pardonne aux meurtriers. Veuve, elle devient religieuse. Elle est la patronne des causes désespérées ; on bénit des roses en son honneur.",
+        "vivre": "Confier à Dieu une situation qui semble sans issue."
+      }
     ],
     "05-23": [
       "Saint Didier de Vienne",
-      "Un évêque de Vienne, martyr au VIIe siècle."
+      "Un évêque de Vienne, martyr au VIIe siècle.",
+      {
+        "qui": "Didier est évêque de Vienne, en Dauphiné, au VIIe siècle.",
+        "sens": "Il reproche à la reine Brunehaut sa conduite, est exilé, puis assassiné vers 607. Plusieurs villes et villages de France portent son nom.",
+        "vivre": "Dire une vérité difficile avec respect."
+      }
     ],
     "05-24": [
       "Saints Donatien et Rogatien",
-      "Deux frères de Nantes, martyrs vers l'an 290."
+      "Deux frères de Nantes, martyrs vers l'an 290.",
+      {
+        "qui": "Donatien et Rogatien sont deux frères de Nantes, à la fin du IIIe siècle.",
+        "sens": "Donatien, chrétien, convertit son frère ; Rogatien n'a pas encore pu être baptisé quand ils sont arrêtés. Ils meurent ensemble. On les appelle « les enfants nantais » ; ils sont les patrons de Nantes.",
+        "vivre": "Prier pour son frère, sa sœur ou un ami proche."
+      }
     ],
     "05-25": [
       "Saint Bède le Vénérable",
-      "Un moine anglais, le premier historien de l'Angleterre."
+      "Un moine anglais, le premier historien de l'Angleterre.",
+      {
+        "qui": "Bède (vers 673-735) est un moine anglais du monastère de Jarrow.",
+        "sens": "Il passe sa vie à étudier, prier et enseigner, et écrit l'Histoire ecclésiastique du peuple anglais. C'est lui qui a popularisé la façon de compter les années à partir de la naissance du Christ. Il est docteur de l'Église.",
+        "vivre": "Remercier pour ceux qui ont transmis l'histoire de notre foi."
+      }
     ],
     "05-26": [
       "Saint Philippe Néri",
-      "Le saint de la joie, qui faisait rire Rome tout en la convertissant."
+      "Le saint de la joie, qui faisait rire Rome tout en la convertissant.",
+      {
+        "qui": "Philippe Néri (1515-1595) est un prêtre florentin installé à Rome.",
+        "sens": "Joyeux et plein d'humour, il rassemble des jeunes pour prier, chanter et servir les pauvres. Il fonde l'Oratoire. On l'appelle « le saint de la joie ».",
+        "vivre": "Faire rire quelqu'un qui en a besoin.",
+        "fort": true
+      }
     ],
     "05-27": [
       "Saint Augustin de Cantorbéry",
-      "Un moine envoyé de Rome pour évangéliser les Anglais."
+      "Un moine envoyé de Rome pour évangéliser les Anglais.",
+      {
+        "qui": "Augustin (mort vers 604) est un moine de Rome.",
+        "sens": "Le pape Grégoire le Grand l'envoie en 597 évangéliser les Anglo-Saxons. Il baptise le roi du Kent et devient le premier archevêque de Cantorbéry.",
+        "vivre": "Oser commencer quelque chose de nouveau."
+      }
     ],
     "05-28": [
       "Saint Germain de Paris",
-      "Un évêque de Paris, très généreux envers les pauvres et les captifs."
+      "Un évêque de Paris, très généreux envers les pauvres et les captifs.",
+      {
+        "qui": "Germain (vers 496-576) est évêque de Paris.",
+        "sens": "Très généreux, il rachète des captifs et aide les pauvres. L'église Saint-Germain-des-Prés, à Paris, garde son nom.",
+        "vivre": "Donner à une association d'aide aux plus pauvres."
+      }
     ],
     "05-29": [
       "Saint Paul VI",
-      "Le pape qui a conduit le concile Vatican II à son terme."
+      "Le pape qui a conduit le concile Vatican II à son terme.",
+      {
+        "qui": "Paul VI (1897-1978), Giovanni Battista Montini, est pape de 1963 à 1978.",
+        "sens": "Il conduit le concile Vatican II jusqu'à son terme, entreprend les premiers grands voyages d'un pape et rencontre le patriarche orthodoxe de Constantinople. Il a été canonisé en 2018.",
+        "vivre": "Prier pour l'unité des chrétiens."
+      }
     ],
     "05-30": [
       "Sainte Jeanne d'Arc",
-      "Une jeune paysanne de Lorraine qui a suivi ses voix jusqu'au bout."
+      "Une jeune paysanne de Lorraine qui a suivi ses voix jusqu'au bout.",
+      {
+        "qui": "Jeanne d'Arc (1412-1431) est une jeune paysanne de Domrémy, en Lorraine.",
+        "sens": "À 13 ans, elle entend des voix qui l'envoient délivrer la France. Elle libère Orléans et fait sacrer le roi à Reims. Capturée, jugée par un tribunal d'Église partial, elle est brûlée vive à Rouen le 30 mai 1431. Réhabilitée en 1456, elle a été canonisée en 1920. Elle est l'une des patronnes de la France.",
+        "vivre": "Rester fidèle à ce qu'on sait juste, même seul.",
+        "fort": true
+      }
     ],
     "05-31": [
       "La Visitation",
-      "Marie rend visite à sa cousine Élisabeth."
+      "Marie rend visite à sa cousine Élisabeth.",
+      {
+        "qui": "Marie, qui vient d'apprendre qu'elle attend Jésus, part en hâte rendre visite à sa cousine Élisabeth, enceinte de Jean-Baptiste.",
+        "sens": "À son salut, l'enfant tressaille dans le sein d'Élisabeth, qui s'écrie : « Vous êtes bénie entre les femmes. » Marie chante alors le Magnificat (Lc 1, 39-56). La fête clôt le mois de mai, mois de Marie.",
+        "vivre": "Rendre visite à quelqu'un qu'on n'a pas vu depuis longtemps."
+      }
     ],
     "06-01": [
       "Saint Justin",
-      "Un philosophe qui a cherché la vérité partout, et l'a trouvée dans le Christ."
+      "Un philosophe qui a cherché la vérité partout, et l'a trouvée dans le Christ.",
+      {
+        "qui": "Justin (vers 100-165), né en Samarie, cherche la vérité chez tous les philosophes.",
+        "sens": "Un vieil homme lui fait découvrir les prophètes et le Christ. Devenu chrétien, il explique la foi aux païens ; il décrit la messe du dimanche, telle qu'on la célébrait déjà. Il meurt martyr à Rome.",
+        "vivre": "Chercher la vérité avec honnêteté.",
+        "fort": true
+      }
     ],
     "06-02": [
       "Les martyrs de Lyon",
-      "Sainte Blandine et ses compagnons, martyrs en 177 dans l'amphithéâtre de Lyon."
+      "Sainte Blandine et ses compagnons, martyrs en 177 dans l'amphithéâtre de Lyon.",
+      {
+        "qui": "En 177, à Lyon, une persécution frappe les chrétiens de la ville.",
+        "sens": "L'évêque Pothin, âgé de 90 ans, meurt en prison. La jeune esclave Blandine, fragile, montre un courage extraordinaire dans l'amphithéâtre. Une lettre de l'époque raconte leur martyre. Ce sont les premiers martyrs connus de Gaule.",
+        "vivre": "Prier pour ceux qui ont peur."
+      }
     ],
     "06-03": [
       "Saint Charles Lwanga et ses compagnons",
-      "De jeunes martyrs de l'Ouganda, en 1886."
+      "De jeunes martyrs de l'Ouganda, en 1886.",
+      {
+        "qui": "Charles Lwanga et ses compagnons sont de jeunes chrétiens d'Ouganda.",
+        "sens": "Pages à la cour du roi Mwanga, ils refusent de se plier à ses exigences et meurent brûlés vifs en 1886. Ils ont été canonisés en 1964. Le sanctuaire de Namugongo attire chaque année des centaines de milliers de pèlerins.",
+        "vivre": "Prier pour les jeunes chrétiens d'Afrique.",
+        "fort": true
+      }
     ],
     "06-04": [
       "Sainte Clotilde",
-      "La reine qui a conduit Clovis au baptême."
+      "La reine qui a conduit Clovis au baptême.",
+      {
+        "qui": "Clotilde (vers 475-545) est une princesse burgonde, chrétienne, épouse de Clovis, roi des Francs.",
+        "sens": "Elle prie longtemps pour la conversion de son mari, qui est baptisé par saint Rémi à Reims. Veuve, elle se retire à Tours, près du tombeau de saint Martin.",
+        "vivre": "Prier patiemment pour un proche."
+      }
     ],
     "06-05": [
       "Saint Boniface",
-      "Un moine anglais, l'apôtre de l'Allemagne."
+      "Un moine anglais, l'apôtre de l'Allemagne.",
+      {
+        "qui": "Boniface (vers 675-754), moine anglais, est l'apôtre de l'Allemagne.",
+        "sens": "Il fonde des monastères et des diocèses, dont Fulda. Selon la tradition, il fait abattre un chêne sacré dédié à un dieu païen. Il meurt martyr en Frise avec ses compagnons.",
+        "vivre": "Prier pour l'Église d'Allemagne.",
+        "fort": true
+      }
     ],
     "06-06": [
       "Saint Norbert",
-      "Un noble converti après avoir été jeté à terre par la foudre ; il a fondé les Prémontrés."
+      "Un noble converti après avoir été jeté à terre par la foudre ; il a fondé les Prémontrés.",
+      {
+        "qui": "Norbert (vers 1080-1134) est un noble rhénan qui mène une vie mondaine.",
+        "sens": "Un jour, pendant un orage, la foudre tombe près de lui et le jette à terre : il change de vie. Il fonde l'ordre des Prémontrés, près de Laon, puis devient archevêque de Magdebourg.",
+        "vivre": "Changer une chose dans sa vie, dès aujourd'hui."
+      }
     ],
     "06-07": [
       "Bienheureuse Anne de Saint-Barthélemy",
-      "Une bergère de Castille, compagne de sainte Thérèse d'Avila, venue fonder des carmels en France."
+      "Une bergère de Castille, compagne de sainte Thérèse d'Avila, venue fonder des carmels en France.",
+      {
+        "qui": "Anne de Saint-Barthélemy (1550-1626) est une bergère de Castille.",
+        "sens": "Elle devient carmélite et l'infirmière de sainte Thérèse d'Avila, qui meurt dans ses bras. Elle part ensuite fonder des carmels en France, à Pontoise et Tours, puis en Flandre. Elle a été déclarée bienheureuse.",
+        "vivre": "Servir avec simplicité."
+      }
     ],
     "06-08": [
       "Saint Médard",
-      "Un évêque de Noyon. « S'il pleut à la Saint-Médard, il pleut quarante jours plus tard », dit le dicton."
+      "Un évêque de Noyon. « S'il pleut à la Saint-Médard, il pleut quarante jours plus tard », dit le dicton.",
+      {
+        "qui": "Médard (vers 456-545) est évêque de Noyon, en Picardie.",
+        "sens": "Selon la légende, un aigle l'aurait protégé de la pluie. Le proverbe dit : « S'il pleut à la Saint-Médard, il pleut quarante jours plus tard. » Il est invoqué par les agriculteurs.",
+        "vivre": "Rendre grâce pour la pluie et le soleil."
+      }
     ],
     "06-09": [
       "Saint Éphrem",
-      "Un diacre de Syrie, « la harpe de l'Esprit Saint », auteur de nombreux hymnes."
+      "Un diacre de Syrie, « la harpe de l'Esprit Saint », auteur de nombreux hymnes.",
+      {
+        "qui": "Éphrem (vers 306-373) est un diacre de Syrie, à Nisibe puis à Édesse.",
+        "sens": "Il a écrit des centaines d'hymnes pour faire chanter la foi au peuple : on l'appelle « la harpe de l'Esprit Saint ». Il est docteur de l'Église.",
+        "vivre": "Chanter un chant d'église qu'on aime."
+      }
     ],
     "06-10": [
       "Saint Landry",
-      "Un évêque de Paris qui a fondé le premier hôpital de la ville."
+      "Un évêque de Paris qui a fondé le premier hôpital de la ville.",
+      {
+        "qui": "Landry est évêque de Paris au VIIe siècle.",
+        "sens": "Pendant une famine, il vend les biens de l'Église pour nourrir les pauvres. On lui attribue la fondation du premier hôpital de Paris, l'Hôtel-Dieu, près de Notre-Dame.",
+        "vivre": "Penser à ceux qui ont faim près de chez soi."
+      }
     ],
     "06-11": [
       "Saint Barnabé",
-      "Le compagnon de saint Paul, « un homme bon, rempli d'Esprit Saint »."
+      "Le compagnon de saint Paul, « un homme bon, rempli d'Esprit Saint ».",
+      {
+        "qui": "Barnabé est un juif de Chypre, compagnon de saint Paul, appelé apôtre.",
+        "sens": "Les Actes le décrivent comme « un homme de bien rempli de l'Esprit-Saint, et de foi » (Ac 11, 24). C'est lui qui présente Paul, l'ancien persécuteur, aux apôtres qui se méfiaient de lui.",
+        "vivre": "Faire confiance à quelqu'un dont les autres se méfient.",
+        "fort": true
+      }
     ],
     "06-12": [
       "Saint Onuphre",
-      "Un ermite du désert d'Égypte, longtemps oublié de tous."
+      "Un ermite du désert d'Égypte, longtemps oublié de tous.",
+      {
+        "qui": "Onuphre est un ermite du désert d'Égypte, au IVe siècle.",
+        "sens": "Un moine, Paphnuce, raconte l'avoir trouvé après soixante ans de solitude, vêtu seulement de ses longs cheveux. Il est vénéré en Orient comme en Occident.",
+        "vivre": "Chercher un moment de silence dans la journée."
+      }
     ],
     "06-13": [
       "Saint Antoine de Padoue",
-      "Le prédicateur au grand cœur, qu'on prie pour retrouver ce qu'on a perdu."
+      "Le prédicateur au grand cœur, qu'on prie pour retrouver ce qu'on a perdu.",
+      {
+        "qui": "Antoine (1195-1231), né à Lisbonne, devient franciscain en voyant revenir les corps des martyrs du Maroc.",
+        "sens": "Grand prédicateur, il parle avec tant de force qu'on dit que les poissons venaient l'écouter. Il meurt à Padoue, à 36 ans. Il est docteur de l'Église et on le prie pour retrouver les objets perdus.",
+        "vivre": "Demander à saint Antoine de nous aider à retrouver ce qui compte vraiment.",
+        "fort": true
+      }
     ],
     "06-14": [
       "Le prophète Élisée",
-      "Le disciple d'Élie, qui a guéri Naaman et ressuscité un enfant."
+      "Le disciple d'Élie, qui a guéri Naaman et ressuscité un enfant.",
+      {
+        "qui": "Élisée est un prophète d'Israël, au IXe siècle avant Jésus-Christ, disciple du prophète Élie.",
+        "sens": "Quand Élie est enlevé au ciel, Élisée reçoit son manteau et son esprit. Il guérit Naaman, général syrien lépreux, et ressuscite le fils d'une femme qui l'avait accueilli (deuxième livre des Rois, chapitres 2 à 5). Le martyrologe en fait mémoire le 14 juin.",
+        "vivre": "Accueillir quelqu'un chez soi avec générosité."
+      }
     ],
     "06-15": [
       "Sainte Germaine de Pibrac",
-      "Une petite bergère malmenée, qui partageait son pain avec plus pauvre qu'elle."
+      "Une petite bergère malmenée, qui partageait son pain avec plus pauvre qu'elle.",
+      {
+        "qui": "Germaine Cousin (vers 1579-1601) est une petite bergère de Pibrac, près de Toulouse.",
+        "sens": "Malade, maltraitée par sa belle-mère, elle vit dans l'étable et partage son pain avec plus pauvre qu'elle. On raconte que le pain caché dans son tablier se serait changé en fleurs. Elle meurt à 22 ans.",
+        "vivre": "Partager son repas avec quelqu'un qui en a besoin."
+      }
     ],
     "06-16": [
       "Saint Jean-François Régis",
-      "Un jésuite missionnaire des montagnes du Velay et du Vivarais."
+      "Un jésuite missionnaire des montagnes du Velay et du Vivarais.",
+      {
+        "qui": "Jean-François Régis (1597-1640) est un jésuite français.",
+        "sens": "Missionnaire dans les montagnes du Velay et du Vivarais, il parcourt la campagne en hiver, aide les pauvres et les femmes en détresse. Il meurt à La Louvesc, en Ardèche, où des pèlerins viennent toujours.",
+        "vivre": "Marcher un peu pour rendre visite à quelqu'un."
+      }
     ],
     "06-17": [
       "Saint Hervé",
-      "Un moine breton aveugle, guidé par un loup selon la légende, patron des chanteurs bretons."
+      "Un moine breton aveugle, guidé par un loup selon la légende, patron des chanteurs bretons.",
+      {
+        "qui": "Hervé est un moine breton du VIe siècle, aveugle de naissance.",
+        "sens": "Selon la légende, un loup qui avait dévoré son âne serait devenu son guide. Musicien et chanteur, il est le patron des chanteurs et des bardes bretons.",
+        "vivre": "Chanter pour quelqu'un."
+      }
     ],
     "06-18": [
       "Saint Grégoire Barbarigo",
-      "Un évêque de Padoue, très proche des pauvres et des séminaristes."
+      "Un évêque de Padoue, très proche des pauvres et des séminaristes.",
+      {
+        "qui": "Grégoire Barbarigo (1625-1697), noble vénitien, est évêque de Bergame, puis de Padoue.",
+        "sens": "Il visite toutes ses paroisses, ouvre un séminaire et une imprimerie en plusieurs langues, et se montre très proche des pauvres.",
+        "vivre": "Être proche de ceux qu'on a la charge d'accompagner."
+      }
     ],
     "06-19": [
       "Saint Romuald",
-      "Un moine qui a fondé les Camaldules, entre vie commune et vie d'ermite."
+      "Un moine qui a fondé les Camaldules, entre vie commune et vie d'ermite.",
+      {
+        "qui": "Romuald (vers 951-1027), noble de Ravenne, entre au monastère après avoir vu son père tuer un homme en duel.",
+        "sens": "Il fonde l'ordre des Camaldules, qui unit la vie en communauté et la vie d'ermite.",
+        "vivre": "Trouver un équilibre entre les autres et la solitude."
+      }
     ],
     "06-20": [
       "Sainte Florentine",
-      "La sœur des saints Léandre et Isidore de Séville, abbesse en Espagne."
+      "La sœur des saints Léandre et Isidore de Séville, abbesse en Espagne.",
+      {
+        "qui": "Florentine (VIe-VIIe siècle) est la sœur des saints Léandre, Isidore et Fulgence, en Espagne.",
+        "sens": "Elle devient abbesse et dirige de nombreuses religieuses. Ses frères lui ont écrit des conseils spirituels.",
+        "vivre": "Remercier pour ses frères et sœurs."
+      }
     ],
     "06-21": [
       "Saint Louis de Gonzague",
-      "Un jeune jésuite mort à 23 ans en soignant les malades de la peste."
+      "Un jeune jésuite mort à 23 ans en soignant les malades de la peste.",
+      {
+        "qui": "Louis de Gonzague (1568-1591), fils d'un prince italien, renonce à son héritage pour devenir jésuite.",
+        "sens": "Pendant une épidémie de peste à Rome, il soigne les malades et meurt à 23 ans. Il est le patron des jeunes. Le 21 juin est aussi souvent le jour de l'été et, en France, de la fête de la musique.",
+        "vivre": "Prier pour un jeune qui cherche sa voie.",
+        "fort": true
+      }
     ],
     "06-22": [
       "Saint Thomas More",
-      "Un chancelier d'Angleterre, mari et père, mort pour sa conscience."
+      "Un chancelier d'Angleterre, mari et père, mort pour sa conscience.",
+      {
+        "qui": "Thomas More (1478-1535), juriste, écrivain, père de famille, est chancelier d'Angleterre.",
+        "sens": "Il refuse de reconnaître le roi Henri VIII comme chef de l'Église d'Angleterre, et meurt décapité. Il dit avant de mourir qu'il était « le bon serviteur du roi, mais de Dieu d'abord ». L'Église fête le même jour l'évêque Jean Fisher, mort pour la même raison.",
+        "vivre": "Rester fidèle à sa conscience avec humour et paix."
+      }
     ],
     "06-23": [
       "Saint Joseph Cafasso",
-      "Un prêtre de Turin, le guide de saint Jean Bosco, ami des prisonniers."
+      "Un prêtre de Turin, le guide de saint Jean Bosco, ami des prisonniers.",
+      {
+        "qui": "Joseph Cafasso (1811-1860) est un prêtre de Turin.",
+        "sens": "Il forme les jeunes prêtres, dont saint Jean Bosco, et accompagne les prisonniers jusqu'à l'échafaud : on l'appelait « le prêtre de la potence ». Il est le patron des prisonniers.",
+        "vivre": "Prier pour une personne en prison."
+      }
     ],
     "06-24": [
       "La Nativité de saint Jean-Baptiste",
-      "La naissance de celui qui prépare le chemin de Jésus. C'est la Saint-Jean d'été."
+      "La naissance de celui qui prépare le chemin de Jésus. C'est la Saint-Jean d'été.",
+      {
+        "qui": "Jean-Baptiste est le fils de Zacharie et d'Élisabeth, le cousin de Jésus.",
+        "sens": "C'est le seul saint, avec Marie, dont on fête la naissance. Elle tombe six mois avant Noël, au moment où les jours commencent à raccourcir ; Jean disait de Jésus : « Il faut qu'il croisse et que je diminue » (Jn 3, 30). On allume ce soir-là les feux de la Saint-Jean.",
+        "vivre": "Faire un pas de côté pour laisser la place à un autre."
+      }
     ],
     "06-25": [
       "Saint Guillaume de Montevergine",
-      "Un pèlerin devenu ermite, qui a fondé un monastère près de Naples."
+      "Un pèlerin devenu ermite, qui a fondé un monastère près de Naples.",
+      {
+        "qui": "Guillaume de Verceil (1085-1142) est un pèlerin italien devenu ermite.",
+        "sens": "Il fonde le monastère de Montevergine, près d'Avellino, devenu un grand sanctuaire marial de l'Italie du Sud.",
+        "vivre": "Faire un petit pèlerinage près de chez soi."
+      }
     ],
     "06-26": [
       "Saint Pélage de Cordoue",
-      "Un adolescent de 13 ans, martyr à Cordoue en 925."
+      "Un adolescent de 13 ans, martyr à Cordoue en 925.",
+      {
+        "qui": "Pélage (vers 912-925) est un enfant de Galice, otage à Cordoue à la place de son oncle évêque.",
+        "sens": "À 13 ans, il refuse de renier sa foi et de céder au calife ; il est tué. Il est très vénéré en Espagne.",
+        "vivre": "Prier pour les enfants persécutés."
+      }
     ],
     "06-27": [
       "Saint Cyrille d'Alexandrie",
-      "Un évêque qui a défendu le titre de Marie, Mère de Dieu."
+      "Un évêque qui a défendu le titre de Marie, Mère de Dieu.",
+      {
+        "qui": "Cyrille (vers 376-444) est patriarche d'Alexandrie.",
+        "sens": "Au concile d'Éphèse, en 431, il défend que Marie peut être appelée « Mère de Dieu », puisque Jésus est vraiment Dieu. Il est docteur de l'Église.",
+        "vivre": "Prier le Je vous salue Marie : « Sainte Marie, Mère de Dieu »."
+      }
     ],
     "06-28": [
       "Saint Irénée de Lyon",
-      "Un évêque de Lyon qui disait : « La gloire de Dieu, c'est l'homme vivant. »"
+      "Un évêque de Lyon qui disait : « La gloire de Dieu, c'est l'homme vivant. »",
+      {
+        "qui": "Irénée (vers 130-202), venu de Smyrne, est évêque de Lyon.",
+        "sens": "Il écrit contre les fausses doctrines et montre que la foi est transmise fidèlement depuis les apôtres. Il disait : « La gloire de Dieu, c'est l'homme vivant. » Le pape François l'a proclamé docteur de l'Église en 2022, avec le titre de « docteur de l'unité ».",
+        "vivre": "Faire une chose qui nous rend plus vivant.",
+        "fort": true
+      }
     ],
     "06-29": [
       "Saints Pierre et Paul",
-      "Les deux colonnes de l'Église, morts à Rome."
+      "Les deux colonnes de l'Église, morts à Rome.",
+      {
+        "qui": "Pierre, le pêcheur, et Paul, l'ancien persécuteur, sont les deux grandes colonnes de l'Église.",
+        "sens": "Tous deux sont morts martyrs à Rome, vers 64-67 : Pierre crucifié, Paul décapité. On les fête ensemble pour dire que l'Église a besoin de la fidélité de l'un et de l'élan missionnaire de l'autre. Ce jour-là, le pape remet le pallium aux nouveaux archevêques.",
+        "vivre": "Prier pour le pape et pour les missionnaires."
+      }
     ],
     "06-30": [
       "Les premiers martyrs de Rome",
-      "Les chrétiens tués sous Néron, après l'incendie de Rome en 64."
+      "Les chrétiens tués sous Néron, après l'incendie de Rome en 64.",
+      {
+        "qui": "En 64, un grand incendie ravage Rome.",
+        "sens": "L'empereur Néron en accuse les chrétiens : beaucoup sont tués, livrés aux bêtes ou brûlés comme des torches dans ses jardins. L'historien romain Tacite le raconte. L'Église honore ces premiers martyrs le lendemain de la fête de Pierre et Paul.",
+        "vivre": "Prier pour les chrétiens persécutés aujourd'hui."
+      }
     ],
     "07-01": [
       "Saint Thierry",
