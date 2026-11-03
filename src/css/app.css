@@ -424,18 +424,10 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 @keyframes b-balance { 0%, 100% { transform: rotate(0); } 22% { transform: rotate(-1.4deg); } 41% { transform: rotate(.6deg); } 63% { transform: rotate(1.3deg); } 82% { transform: rotate(-.5deg); } }
 @keyframes b-fremit { 0%, 100% { transform: scale(1, 1); } 13% { transform: scale(.985, 1.035); } 21% { transform: scale(1.01, .985); } 34% { transform: scale(.99, 1.02); }
   46% { transform: scale(1.005, .995); } 58% { transform: scale(.975, 1.05); } 66% { transform: scale(1.01, .98); } 79% { transform: scale(.995, 1.015); } 90% { transform: scale(1.005, .99); } }
-.b-flamme-jour { position: absolute; background-repeat: no-repeat; transform-origin: 50% 92%;
-  -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 60%, transparent 100%); mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 60%, transparent 100%);
-  animation: b-vacille 2.3s ease-in-out infinite; }
-@keyframes b-vacille { 0% { transform: scale(1, 1) skewX(0); } 9% { transform: scale(.97, 1.05) skewX(-2deg); } 17% { transform: scale(1.02, .97) skewX(1.5deg); }
-  28% { transform: scale(.98, 1.07) skewX(-1deg); } 36% { transform: scale(1.01, .99) skewX(2.5deg); } 47% { transform: scale(.96, 1.04) skewX(-3deg); }
-  58% { transform: scale(1.02, .96) skewX(.5deg); } 66% { transform: scale(.99, 1.06) skewX(2deg); } 77% { transform: scale(1.01, .98) skewX(-1.5deg); }
-  88% { transform: scale(.98, 1.03) skewX(1deg); } 100% { transform: scale(1, 1) skewX(0); } }
 .b-halo { position: absolute; width: 46%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%;
   background: radial-gradient(circle, rgba(255,214,150,.55) 0%, rgba(255,200,130,.22) 35%, rgba(255,200,130,0) 70%); animation: b-respire 1.9s ease-in-out infinite; }
 .bougie.nuit .b-halo { mix-blend-mode: screen; width: 60%; animation: b-respire 1.9s ease-in-out infinite; }
-.bougie.jour .b-halo { animation: b-respire-jour 4.2s ease-in-out infinite; }
-@keyframes b-respire-jour { 0%, 100% { opacity: .3; transform: translate(-50%, -50%) scale(.88); } 46% { opacity: .95; transform: translate(-50%, -50%) scale(1.06); } 54% { opacity: .85; transform: translate(-50%, -50%) scale(1.04); } }
+.bougie.jour .b-halo { animation: b-respire 1.9s ease-in-out infinite; }
 .bougie.jour .b-halo { width: 72%; background: radial-gradient(circle, rgba(255,236,190,.85) 0%, rgba(255,206,130,.42) 22%, rgba(250,196,120,.16) 45%, rgba(250,196,120,0) 70%); }
 @keyframes b-respire { 0%, 100% { opacity: .7; } 13% { opacity: .8; } 21% { opacity: .64; } 34% { opacity: .76; } 46% { opacity: .7; } 58% { opacity: .85; } 66% { opacity: .62; } 79% { opacity: .74; } 90% { opacity: .68; } }
 
@@ -462,6 +454,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 @keyframes v-tete { 0% { background-position-x: 83.33%; } 55% { background-position-x: 100%; } 70% { background-position-x: 83.33%; } }
 .v-oiseau.ob { animation: v-moineau-b 22s linear infinite; }
 .v-oiseau.ob b { transform: scaleX(-1); animation: v-bond-b 1.125s ease-in-out infinite; }
+.v-oiseau.ob .pose { transform: scaleX(-1); }
 @keyframes v-bond-b { 0%, 100% { transform: scaleX(-1) translateY(.6px); } 64% { transform: scaleX(-1) translateY(-1.2px); } }
 .v-oiseau.ob .vol { animation: v-batte 1.125s step-end infinite, v-vol-b 22s step-end infinite; }
 .v-oiseau.ob .pose { animation: v-pose-b 22s step-end infinite, v-tete 4.7s step-end infinite; }
@@ -479,4 +472,4 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 @keyframes v-bougie { 0% { opacity: .5; } 7% { opacity: .72; } 12% { opacity: .4; } 20% { opacity: .62; } 27% { opacity: .55; } 34% { opacity: .82; }
   41% { opacity: .46; } 49% { opacity: .66; } 55% { opacity: .35; } 63% { opacity: .7; } 71% { opacity: .52; } 78% { opacity: .78; } 86% { opacity: .42; } 93% { opacity: .64; } 100% { opacity: .5; } }
 .v-etoile { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: #F4EEDF; box-shadow: 0 0 4px 1px rgba(244,238,223,.35); animation: scintille 6s ease-in-out infinite; }
-@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-oiseau b, .v-lum, .v-etoile, .b-flamme, .b-flamme img, .b-flamme-jour, .b-halo { animation: none; } .v-oiseau { display: none; } }
+@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-oiseau b, .v-lum, .v-etoile, .b-flamme, .b-flamme img, .b-halo { animation: none; } .v-oiseau { display: none; } }
