@@ -434,10 +434,9 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .b-halo { position: absolute; width: 46%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%;
   background: radial-gradient(circle, rgba(255,214,150,.55) 0%, rgba(255,200,130,.22) 35%, rgba(255,200,130,0) 70%); animation: b-respire 1.9s ease-in-out infinite; }
 .bougie.nuit .b-halo { mix-blend-mode: screen; width: 60%; animation: b-respire 1.9s ease-in-out infinite; }
-.bougie.jour .b-halo { animation: b-respire-jour 3.1s linear infinite; }
-@keyframes b-respire-jour { 0% { opacity: .55; } 11% { opacity: .8; } 19% { opacity: .45; } 30% { opacity: .7; } 38% { opacity: .6; } 49% { opacity: .9; }
-  57% { opacity: .5; } 68% { opacity: .75; } 76% { opacity: .4; } 87% { opacity: .7; } 100% { opacity: .55; } }
-.bougie.jour .b-halo { background: radial-gradient(circle, rgba(255,226,170,.5) 0%, rgba(255,220,160,.18) 35%, rgba(255,220,160,0) 70%); }
+.bougie.jour .b-halo { animation: b-respire-jour 4.2s ease-in-out infinite; }
+@keyframes b-respire-jour { 0%, 100% { opacity: .3; transform: translate(-50%, -50%) scale(.88); } 46% { opacity: .95; transform: translate(-50%, -50%) scale(1.06); } 54% { opacity: .85; transform: translate(-50%, -50%) scale(1.04); } }
+.bougie.jour .b-halo { width: 72%; background: radial-gradient(circle, rgba(255,236,190,.85) 0%, rgba(255,206,130,.42) 22%, rgba(250,196,120,.16) 45%, rgba(250,196,120,0) 70%); }
 @keyframes b-respire { 0%, 100% { opacity: .7; } 13% { opacity: .8; } 21% { opacity: .64; } 34% { opacity: .76; } 46% { opacity: .7; } 58% { opacity: .85; } 66% { opacity: .62; } 79% { opacity: .74; } 90% { opacity: .68; } }
 
 /* De jour : deux moineaux, sur un cycle de 22 s. L'un quitte son olivier et file derrière le clocher ;
