@@ -347,7 +347,7 @@
     var nuit = estNuit(), m = nuit ? 'nuit' : 'jour';
     // La flamme est détourée à part (le fond de l'image a été comblé dessous) : elle se balance depuis la mèche et frémit,
     // et sa lumière respire au même rythme.
-    var f = nuit ? { l: 47.16, t: 16.95, w: 10.31, h: 23.05, oy: 88.4 } : { l: 47.85, t: 37.09, w: 6.88, h: 17.32, oy: 86.5 };
+    var f = { l: 47.16, t: 16.95, w: 10.31, h: 23.05, oy: 88.4 }; // même dessin le jour et le soir
     return '<div class="respiration bougie ' + m + '" aria-hidden="true"><img src="img/bougie-' + m + '.webp" alt="" decoding="async">' +
       '<span class="b-halo" style="left:' + (f.l + f.w / 2).toFixed(2) + '%;top:' + (f.t + f.h * .55).toFixed(2) + '%"></span>' +
       '<span class="b-flamme" style="left:' + f.l + '%;top:' + f.t + '%;width:' + f.w + '%;height:' + f.h + '%;transform-origin:50% ' + f.oy + '%">' +
