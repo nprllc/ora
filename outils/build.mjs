@@ -23,6 +23,7 @@ const donnees = {
   fr: { fetes: json('fetes.json'), explications: json('explications.json'), prieres: json('prieres.json'), lexique: json('lexique.json'), conseils: json('conseils.json') },
   contenus: json('contenus.json'),
   lectionnaire: json('lectionnaire.json'),
+  coeurs: json('coeur-evangile.json').coeurs,
   prieresJour: json('prieres-jour.json'),
   ui: json('i18n/ui.json'),
   i18n: { es: json('i18n/es.json'), en: json('i18n/en.json') },

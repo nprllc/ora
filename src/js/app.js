@@ -212,7 +212,7 @@
       guideFamille: tr['guide-famille'] || b.guideFamilleFr,
       messe: b.messe ? (b.messe[LANG] || b.messe.fr) : null,
       fetes: fr.fetes, auteurs: b.auteurs || {}, abr: (b.abreviations || {})[LANG] || {},
-      lect: b.lectionnaire.cles, pj: b.prieresJour, contenus: b.contenus
+      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, pj: b.prieresJour, contenus: b.contenus
     };
     OraLiturgie.langue(LANG);
     OraLiturgie.region(regionChoisie());
@@ -254,7 +254,17 @@
     var liste = vv.map(function (x) { return { c: x[0], v: x[1], t: (L.ch[x[0] - 1] || [])[x[1] - 1] || '' }; }).filter(function (x) { return x.t; });
     var debut = vv[0], fin = vv[vv.length - 1];
     // Un passage peut couvrir deux chapitres (Jn 15, 26-27 ; 16, 12-15) : on garde le début et la fin exacts.
-    return { liste: liste, ref: refLocale(a.lect), osis: a.lect.osis, c: debut[0], du: debut[1], au: fin[1], c2: fin[0], id: passageId(a.lect.osis, debut, fin) };
+    // Le cœur du passage : les versets choisis un à un qui portent sa leçon (data/coeur-evangile.json) ;
+    // un passage court est montré en entier.
+    var co = D.coeurs[a.lect.ref], coeur = liste;
+    if (co) { var i = Math.min(co[0], liste.length - 1), j = Math.min(co[1], liste.length); coeur = liste.slice(i, Math.max(j, i + 1)); }
+    return { liste: liste, coeur: coeur, refCoeur: coeur === liste ? refLocale(a.lect) : refVersets(L, coeur), ref: refLocale(a.lect), osis: a.lect.osis, c: debut[0], du: debut[1], au: fin[1], c2: fin[0], id: passageId(a.lect.osis, debut, fin) };
+  }
+  // « Lc 14, 21-23 », ou « Mt 9, 36 – 10, 1 » quand l'extrait change de chapitre.
+  function refVersets(L, vv) {
+    var sep = LANG === 'en' ? ':' : ', ', a = vv[0], b = vv[vv.length - 1];
+    if (a.c !== b.c) return L.abr + ' ' + a.c + sep + a.v + ' – ' + b.c + sep + b.v;
+    return L.abr + ' ' + a.c + sep + a.v + (b.v !== a.v ? '-' + b.v : '');
   }
   function passageId(osis, debut, fin) { return osis + '|' + debut[0] + '|' + debut[1] + '|' + fin[1] + (fin[0] !== debut[0] ? '|' + fin[0] : ''); }
   function refLocale(lect) {
@@ -305,7 +315,7 @@
     if (p.texte) html += section(p.etiquette, blocPriere(p));
     var e = evangile(a);
     if (e && e.attente) html += section(T('evangile-jour'), '<p class="charge">…</p>');
-    else if (e) html += section(T('evangile-jour'), versets(e.liste.slice(0, 4), true) + '<p class="s-ref">' + refsSeules(e.ref) + '</p>', 'evangile', e.liste.length > 4 || c ? T('mediter') : T('lire'));
+    else if (e) html += section(T('evangile-jour'), versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>', 'evangile', e.coeur.length < e.liste.length || c ? T('mediter') : T('lire'));
     html += respiration();
     if (c) {
       var cit = c.citation;
@@ -608,7 +618,7 @@
     if (p.texte) h += section(p.etiquette, blocPriere(p));
     var e = evangile(a);
     // L'Évangile du jour est toujours là ; son explication pour les enfants seulement les jours qui en ont une.
-    if (e && !e.attente) h += section(T('evangile-jour'), versets(e.liste.slice(0, 3), true) + '<p class="s-ref">' + refsSeules(e.ref) + '</p>' + (k && k.evangile ? '<p class="s-accroche">' + lexique(k.evangile.explication) + '</p>' : ''));
+    if (e && !e.attente) h += section(T('evangile-jour'), versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>' + (k && k.evangile ? '<p class="s-accroche">' + lexique(k.evangile.explication) + '</p>' : ''));
     if (k) {
       if (k.citation) h += section(T('citation-jour'), '<blockquote class="s-citation">' + guillemets(esc(k.citation.texte)) + '</blockquote><p class="s-ref">' + auteur(k.citation) + '</p>');
       if (k.reflexion) h += section(T('reflexion-jour'), '<p class="s-titre">' + esc(k.reflexion.titre) + '</p><p class="s-accroche">' + lexique(k.reflexion.texte) + '</p>' + (k.reflexion.question ? '<p class="question">' + esc(k.reflexion.question) + '</p>' : ''));
