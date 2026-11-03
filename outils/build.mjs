@@ -7,6 +7,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { versets as lireRef } from './references.mjs';
+import VERSIF from './sources/versification.mjs';
 
 const RACINE = path.join(path.dirname(new URL(import.meta.url).pathname), '..');
 const SRC = path.join(RACINE, 'src'), DATA = path.join(RACINE, 'data'), DIST = path.join(RACINE, 'dist');
@@ -57,6 +59,29 @@ const donnees = {
     r[l].priere = { texte: p[l], source: p.src[l] };
   }
   donnees.bibliotheque = bib;
+}
+
+// 1 ter. L'Évangile du jour d'Ora (data/evangiles.json) : des références dans la numérotation moderne, lues comme
+// celles du lectionnaire (« vl » : les versets dans la numérotation de chaque Bible) ; chaque verset est vérifié.
+{
+  const ev = json('evangiles.json');
+  const bibles = Object.fromEntries(Object.entries({ fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' }).map(([l, f]) => [l, Object.fromEntries(json(f).livres.map((b) => [b.osis, b]))]));
+  const lire = (ref) => {
+    const { osis, liste } = lireRef(ref, bibles.fr, true);
+    if (!liste.length) throw new Error(`évangiles : ${ref} : aucun verset`);
+    const e = { ref, osis, v: liste, ora: 1 };
+    for (const l of ['fr', 'es', 'en']) {
+      const vl = [];
+      for (const [c, v] of liste) for (const x of VERSIF[l][`${osis}.${c}.${v}`] || [[c, v]]) if (!vl.some((y) => y[0] === x[0] && y[1] === x[1])) vl.push(x);
+      for (const [c, v] of vl) if (!(bibles[l][osis].ch[c - 1] || [])[v - 1]) throw new Error(`évangiles : ${ref} (${l}) : ${c}, ${v} absent`);
+      if (JSON.stringify(vl) !== JSON.stringify(liste)) (e.vl = e.vl || {})[l] = vl;
+    }
+    return e;
+  };
+  const sortie = { fetes: {} };
+  for (const [id, ref] of Object.entries(ev.fetes)) sortie.fetes[id] = lire(ref);
+  for (const [k, v] of Object.entries(ev)) if (Array.isArray(v)) sortie[k] = v.map(lire);
+  donnees.evangiles = sortie;
 }
 
 // 2. Les fichiers copiés tels quels.

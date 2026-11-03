@@ -188,6 +188,8 @@
     var bo = bords(liste.map(function (x) { return x.t; }).join(' '));
     if (bo[0]) h = h.replace(/(<sup>\d+<\/sup>|<span class="vx"><\/span>)/, '$1' + bo[0]);
     if (bo[1]) h = h.replace(/\s+$/, '') + bo[1];
+    // Un extrait qui commence au milieu d'une phrase (« et leur dit ») prend une majuscule.
+    if (sansNumeros) h = h.replace(/^(<span class="vx"><\/span>[«“"\s]*)(\p{Ll})/u, function (m, a, b) { return a + b.toUpperCase(); });
     return '<p class="versets">' + h + '</p>';
   }
 
@@ -212,7 +214,7 @@
       guideFamille: tr['guide-famille'] || b.guideFamilleFr,
       messe: b.messe ? (b.messe[LANG] || b.messe.fr) : null,
       fetes: fr.fetes, auteurs: b.auteurs || {}, abr: (b.abreviations || {})[LANG] || {},
-      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, biblio: b.bibliotheque || {}, jours: b.jours || {}, temps: b.temps || {}, pj: b.prieresJour, contenus: b.contenus
+      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, biblio: b.bibliotheque || {}, evangiles: b.evangiles || null, jours: b.jours || {}, temps: b.temps || {}, pj: b.prieresJour, contenus: b.contenus
     };
     OraLiturgie.langue(LANG);
     OraLiturgie.region(regionChoisie());
@@ -233,7 +235,21 @@
     var expl = (cid && D.explications.fetes[cid]) || null;
     var conseil = expl ? expl.idee : D.conseils.conseils[j.indexAnnee % D.conseils.conseils.length];
     var contenu = chercher(D.contenus, j.cles);
-    return { j: j, c: contenu ? contenu[LANG] : bibliotheque(dt), contenu: contenu, expl: expl, explSaison: D.explications.saisons[j.saison.id], conseil: conseil, lect: chercher(D.lect, j.cles) };
+    var messe = chercher(D.lect, j.cles);
+    // Un jour avec contenu éditorial garde l'Évangile de la messe, que sa méditation commente.
+    return { j: j, c: contenu ? contenu[LANG] : bibliotheque(dt), contenu: contenu, expl: expl, explSaison: D.explications.saisons[j.saison.id], conseil: conseil, lect: (!contenu && evangileOra(j)) || messe, messe: messe };
+  }
+  // L'Évangile du jour d'Ora (data/evangiles.json) : un passage court parmi les plus aimés, sans répétition dans l'année.
+  // La fête a le sien ; les temps forts suivent le rang du jour dans le temps (Avent : du 17 au 24 décembre, les jours
+  // qui précèdent Noël) ; le temps ordinaire suit ses semaines, du dimanche au samedi.
+  function evangileOra(j) {
+    var E = D.evangiles; if (!E || !E.ordinaire) return null;
+    var f = j.celebration && E.fetes[j.celebration.id]; if (f) return f;
+    var s = j.saison.id, k = j.date.slice(5), n = j.jourSaison, L = E[s];
+    if (s === 'avent') return k >= '12-17' ? E.aventFin[Math.min(+k.slice(3) - 17, E.aventFin.length - 1)] : E.avent[n % E.avent.length];
+    if (L && n != null && s !== 'ordinaire') return L[Math.min(n, L.length - 1)];
+    var js = new Date(j.date + 'T12:00:00Z').getUTCDay();
+    return E.ordinaire[(((j.semaine || 1) - 1) * 7 + js) % E.ordinaire.length];
   }
   // Les jours sans contenu propre (la plupart des jours ordinaires), chaque rubrique puise dans la bibliothèque :
   // un élément par jour, dans l'ordre, et la liste recommence quand elle est finie. Les rubriques n'ont pas de lien
@@ -268,7 +284,7 @@
     // Un passage peut couvrir deux chapitres (Jn 15, 26-27 ; 16, 12-15) : on garde le début et la fin exacts.
     // Le cœur du passage : les versets choisis un à un qui portent sa leçon (data/coeur-evangile.json) ;
     // un passage court est montré en entier.
-    var co = D.coeurs[a.lect.ref], coeur = liste;
+    var co = !a.lect.ora && D.coeurs[a.lect.ref], coeur = liste;
     if (co) { var i = Math.min(co[0], liste.length - 1), j = Math.min(co[1], liste.length); coeur = liste.slice(i, Math.max(j, i + 1)); }
     return { liste: liste, coeur: coeur, refCoeur: coeur === liste ? refLocale(a.lect) : refVersets(L, coeur), ref: refLocale(a.lect), osis: a.lect.osis, c: debut[0], du: debut[1], au: fin[1], c2: fin[0], id: passageId(a.lect.osis, debut, fin) };
   }
@@ -432,6 +448,9 @@
       h += '<p class="surtitre">' + esc(T('evangile-jour')) + '</p><h2>' + esc(e.ref) + '</h2>' + versets(e.liste);
       if (c && c.meditation) h += meditation(c.meditation);
       h += '<div class="bloc"><button class="lire" data-action="passage-evangile" data-id="' + esc(e.id) + '">' + esc(T('lire-chapitre')) + icone('fleche') + '</button></div>';
+      // L'Évangile lu à la messe ce jour-là reste à portée de main.
+      var m = a.messe;
+      if (m && a.lect !== m) { var mv = (m.vl && m.vl[LANG]) || m.v; h += '<div class="bloc"><button class="lire" data-action="passage-messe" data-id="' + esc(passageId(m.osis, mv[0], mv[mv.length - 1])) + '">' + esc(T('evangile-messe')) + ' · ' + esc(refLocale(m)) + icone('fleche') + '</button></div>'; }
       return h + '</section>';
     }
     if (!c) return vueAccueil();
@@ -991,6 +1010,7 @@
     else if (act === 'lecture') aller('lecture:' + id);
     else if (act === 'livre') { etat.livreOuvert = etat.livreOuvert === id ? null : id; rendreEnPlace(); }
     else if (act === 'passage') { fermerFeuille(); ouvrirPassage(id); }
+    else if (act === 'passage-messe') { var am = aujourdhui().messe; ouvrirPassage(id, am ? ((am.vl && am.vl[LANG]) || am.v) : null); }
     else if (act === 'passage-evangile') { var ev = evangile(aujourdhui()); ouvrirPassage(id, ev && ev.liste ? ev.liste.map(function (x) { return [x.c, x.v]; }) : null); }
     else if (act === 'chapitre') { etat.bible = Object.assign({}, etat.bible, { ch: +id }); rendre(); window.scrollTo(0, 0); }
     else if (act === 'verset') {

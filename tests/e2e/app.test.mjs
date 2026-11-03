@@ -59,7 +59,7 @@ test('2027-11-05, jour ordinaire : l\'accueil puise dans la bibliothèque (citat
 test('régions : l\'Épiphanie le 6 janvier 2027 en Espagne (Mt 2, 1-12), le 3 janvier en France', async () => {
   let o = await ouvrir('2027-01-06', 'es', { region: 'es' });
   assert.match(await page(o).textContent('h1'), /Epifan/);
-  assert.ok((await texte(o.page, '.section-jour .s-ref')).some((t) => /Mt 2, 9-11/.test(t))); // le cœur de Mt 2, 1-12
+  assert.ok((await texte(o.page, '.section-jour .s-ref')).some((t) => /Mt 2, 11/.test(t))); // le passage d'Ora pour l'Épiphanie
   await o.ctx.close();
   o = await ouvrir('2027-01-03', 'fr', { region: 'fr' });
   assert.match(await o.page.textContent('h1'), /Épiphanie/);
@@ -141,10 +141,10 @@ test('favoris : un favori qui ne désigne aucun verset est retiré du stockage',
   await ctx.close();
 });
 
-test('Pentecôte 2027 : un Évangile sur deux chapitres (Jn 15, 26-27 ; 16, 12-15) est surligné dans les deux chapitres', async () => {
+test('Pentecôte 2027 : l\'Évangile de la messe sur deux chapitres (Jn 15, 26-27 ; 16, 12-15) est surligné dans les deux chapitres', async () => {
   const { ctx, page } = await ouvrir('2027-05-16', 'fr');
   await page.click('[data-action=lecture][data-id=evangile] >> nth=0');
-  await page.click('.lecture [data-action=passage-evangile]');
+  await page.click('.lecture [data-action=passage-messe]'); // « L'Évangile de la messe aujourd'hui »
   await page.waitForSelector('.texte-bible');
   assert.deepEqual(await page.$$eval('.v.surligne', (v) => v.map((x) => x.id)), ['v26', 'v27']);
   await page.click('.nav-chap button:has-text("16")');
