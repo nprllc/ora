@@ -1,0 +1,667 @@
+{
+ "_note": "Bibliothèque des jours ordinaires : chaque jour sans contenu propre, chaque rubrique prend l'élément suivant de sa liste (src/js/app.js, bibliotheque()). Les rubriques n'ont pas de lien entre elles. Règles : chaque citation est vérifiée à sa source et donnée dans sa traduction publiée ; jamais deux fois de suite le même auteur ; les faits portent leurs sources ; aucune prière inventée : la prière d'une réflexion est un verset des prières du jour (prieres-jour.json, par son id) et les versets cités sont désignés par leur référence (le build en lit le texte dans la Bible de chaque langue). Un élément sans sa langue n'est pas montré dans cette langue (l'espagnol et l'anglais suivent).",
+ "citations": [
+  {
+   "id": "therese-priere",
+   "fr": {
+    "texte": "Pour moi, la prière c'est un élan du cœur, c'est un simple regard jeté vers le ciel, c'est un cri de reconnaissance et d'amour au sein de l'épreuve comme au sein de la joie.",
+    "auteur": "Sainte Thérèse de l'Enfant-Jésus",
+    "source": "Manuscrit C, 25 r°, cité par le Catéchisme de l'Église catholique, n° 2558",
+    "auteurId": "therese-de-lisieux"
+   }
+  },
+  {
+   "id": "jean-paul-ii-peur",
+   "fr": {
+    "texte": "N'ayez pas peur ! Ouvrez, ouvrez toutes grandes les portes au Christ !",
+    "auteur": "Saint Jean-Paul II",
+    "source": "Homélie pour le début de son pontificat, place Saint-Pierre, 22 octobre 1978",
+    "auteurId": "jean-paul-ii"
+   }
+  },
+  {
+   "id": "gregoire-respire",
+   "fr": {
+    "texte": "Il faut se souvenir de Dieu plus souvent qu'on ne respire.",
+    "auteur": "Saint Grégoire de Nazianze",
+    "source": "Discours théologique 1 (27), 4, cité par le Catéchisme de l'Église catholique, n° 2697",
+    "auteurId": "gregoire-de-nazianze"
+   }
+  },
+  {
+   "id": "jean-de-la-croix-amour",
+   "fr": {
+    "texte": "Au soir de notre vie, nous serons jugés sur l'amour.",
+    "auteur": "Saint Jean de la Croix",
+    "source": "Paroles de lumière et d'amour, 64, cité par le Catéchisme de l'Église catholique, n° 1022",
+    "auteurId": "jean-de-la-croix"
+   }
+  },
+  {
+   "id": "augustin-inquiet",
+   "fr": {
+    "texte": "Seigneur, tu nous as faits pour toi et notre cœur est inquiet tant qu'il ne repose pas en toi.",
+    "auteur": "Saint Augustin",
+    "source": "Confessions, I, 1, cité par le pape Léon XIV, audience générale du 17 décembre 2025",
+    "auteurId": "augustin"
+   }
+  },
+  {
+   "id": "paysan-ars",
+   "fr": {
+    "texte": "Je L'avise et Il m'avise.",
+    "auteur": "Un paysan d'Ars, en prière devant le tabernacle, selon son curé, saint Jean-Marie Vianney",
+    "source": "Catéchisme de l'Église catholique, n° 2715"
+   }
+  },
+  {
+   "id": "chrysostome-marche",
+   "fr": {
+    "texte": "Il est possible, même au marché ou dans une promenade solitaire, de faire une fréquente et fervente prière.",
+    "auteur": "Saint Jean Chrysostome",
+    "source": "Eclogae, 2, cité par le Catéchisme de l'Église catholique, n° 2743",
+    "auteurId": "jean-chrysostome"
+   }
+  },
+  {
+   "id": "benoit-rencontre",
+   "fr": {
+    "texte": "À l'origine du fait d'être chrétien, il n'y a pas une décision éthique ou une grande idée, mais la rencontre avec un événement, avec une Personne, qui donne à la vie un nouvel horizon et par là son orientation décisive.",
+    "auteur": "Benoît XVI",
+    "source": "Encyclique Deus caritas est, n° 1 (25 décembre 2005)",
+    "auteurId": "benoit-xvi"
+   }
+  },
+  {
+   "id": "jeanne-eglise",
+   "fr": {
+    "texte": "De Jésus-Christ et de l'Église, il m'est avis que c'est tout un, et qu'il n'en faut pas faire difficulté.",
+    "auteur": "Sainte Jeanne d'Arc, à ses juges",
+    "source": "Procès de condamnation (1431), cité par le Catéchisme de l'Église catholique, n° 795",
+    "auteurId": "jeanne-d-arc"
+   }
+  },
+  {
+   "id": "vianney-sacerdoce",
+   "fr": {
+    "texte": "Le Sacerdoce, c'est l'amour du cœur de Jésus.",
+    "auteur": "Saint Jean-Marie Vianney, curé d'Ars",
+    "source": "Cité par Benoît XVI, lettre pour l'Année sacerdotale (16 juin 2009)",
+    "auteurId": "jean-marie-vianney"
+   }
+  }
+ ],
+ "reflexions": [
+  {
+   "id": "fatigue",
+   "versets": [
+    {
+     "osis": "Matt",
+     "c": 11,
+     "v": [
+      28
+     ]
+    },
+    {
+     "osis": "Phil",
+     "c": 4,
+     "v": [
+      13
+     ]
+    }
+   ],
+   "priere": "ps62-2",
+   "fr": {
+    "titre": "Quand on est fatigué de tout",
+    "accroche": "Les journées pleines, la tête qui ne s'arrête pas, le soir où l'on n'a plus d'élan. Que dit la foi de la fatigue ?",
+    "fait": "La fatigue fait partie de toute vie : le travail, les enfants, les soucis, les nuits trop courtes. Elle n'est pas une faute, et elle ne dit rien de notre valeur. L'Évangile raconte d'ailleurs que Jésus lui-même s'est assis, fatigué, au bord d'un puits (Jn 4, 6).",
+    "piste": "Jésus n'attend pas qu'on soit en forme pour qu'on vienne à Lui. On peut lui apporter sa fatigue telle qu'elle est, sans phrases : s'asseoir deux minutes, respirer, et lui dire « je suis là, je n'en peux plus ». C'est déjà une prière. Et peut-être s'autoriser, un vrai temps de repos, comme Jésus le proposait à ses apôtres (Mc 6, 31).",
+    "sources": "Évangile selon saint Jean 4, 6"
+   }
+  },
+  {
+   "id": "colere",
+   "versets": [
+    {
+     "osis": "Eph",
+     "c": 4,
+     "v": [
+      31,
+      32
+     ]
+    },
+    {
+     "osis": "Jas",
+     "c": 1,
+     "v": [
+      19
+     ]
+    }
+   ],
+   "priere": "ps141-3",
+   "fr": {
+    "titre": "Que faire de sa colère ?",
+    "accroche": "Un mot de trop à la maison, une injustice au travail. La colère monte. Est-ce mal d'être en colère ?",
+    "fait": "La colère est une émotion que tout le monde connaît. La Bible ne la condamne pas en elle-même : Jésus s'est mis en colère contre les marchands du Temple (Jn 2, 13-17). Ce qui fait du mal, c'est la colère qu'on laisse durer ou qu'on retourne contre les autres.",
+    "piste": "Saint Paul ne dit pas « ne soyez jamais en colère », mais « que le soleil ne se couche point sur votre irritation » (Ep 4, 26). On peut regarder ce qui, dans sa colère, est juste et ce qui blesse. Et avant de dormir, confier à Dieu ce qui reste, pour ne pas le porter seul jusqu'au lendemain.",
+    "sources": "Évangile selon saint Jean 2, 13-17 ; Catéchisme de l'Église catholique, n° 2302"
+   }
+  },
+  {
+   "id": "merci",
+   "versets": [
+    {
+     "osis": "1Thess",
+     "c": 5,
+     "v": [
+      18
+     ]
+    },
+    {
+     "osis": "Luke",
+     "c": 17,
+     "v": [
+      15,
+      16
+     ]
+    }
+   ],
+   "priere": "ps103-1",
+   "fr": {
+    "titre": "Le pouvoir d'un merci",
+    "accroche": "Dix lépreux sont guéris, un seul revient dire merci. Et nous, qu'est-ce qui nous fait dire merci ?",
+    "fait": "On remercie spontanément pour un cadeau, plus rarement pour ce qui va de soi : un repas, un enfant qui rit, une journée sans souci. L'Évangile de saint Luc raconte que, sur dix malades guéris par Jésus, un seul est revenu le remercier.",
+    "piste": "Rendre grâce, ce n'est pas nier ce qui est difficile ; c'est apprendre à voir aussi ce qui est donné. Ce soir, on peut chercher trois choses de la journée pour lesquelles dire merci, même minuscules. Avec un enfant, c'est un jeu très simple qui change le regard.",
+    "sources": "Évangile selon saint Luc 17, 11-19 ; Catéchisme de l'Église catholique, n° 2637-2638"
+   }
+  },
+  {
+   "id": "demain",
+   "versets": [
+    {
+     "osis": "Matt",
+     "c": 6,
+     "v": [
+      34
+     ]
+    },
+    {
+     "osis": "1Pet",
+     "c": 5,
+     "v": [
+      7
+     ]
+    }
+   ],
+   "priere": "ps37-5",
+   "fr": {
+    "titre": "La peur du lendemain",
+    "accroche": "L'argent, la santé, l'avenir des enfants, le monde qui va mal. Comment vivre avec l'inquiétude ?",
+    "fait": "L'inquiétude pour l'avenir est l'une des préoccupations les plus répandues. Elle vient souvent de ce que l'on ne maîtrise pas. Dans l'Évangile, Jésus parle à des gens qui avaient, eux aussi, de vraies raisons de s'inquiéter du pain du lendemain.",
+    "piste": "Jésus ne dit pas que tout ira bien ; il dit que chaque jour a sa peine et que le Père prend soin de nous. On peut faire, aujourd'hui, ce qui est à notre portée, et déposer le reste dans la prière. Nommer ses inquiétudes une par une devant Dieu suffit parfois à les rendre moins lourdes.",
+    "sources": "Évangile selon saint Matthieu 6, 25-34 ; Catéchisme de l'Église catholique, n° 2830"
+   }
+  },
+  {
+   "id": "pardon",
+   "versets": [
+    {
+     "osis": "Col",
+     "c": 3,
+     "v": [
+      13
+     ]
+    },
+    {
+     "osis": "Luke",
+     "c": 6,
+     "v": [
+      37
+     ]
+    }
+   ],
+   "priere": "ps51-12",
+   "fr": {
+    "titre": "Pardonner, est-ce oublier ?",
+    "accroche": "Il y a des blessures qui ne passent pas. Pardonner voudrait-il dire faire comme si rien n'était arrivé ?",
+    "fait": "Pardonner n'est ni oublier, ni excuser le mal, ni se remettre en danger. C'est renoncer peu à peu à la vengeance et au ressentiment, souvent sur un long chemin. Le Catéchisme reconnaît qu'il n'est pas en notre pouvoir de ne plus sentir l'offense : c'est le cœur qui, offert à l'Esprit Saint, se transforme.",
+    "piste": "On n'arrive pas à pardonner par la seule volonté. On peut commencer par demander à Dieu le désir de pardonner, ou même seulement le désir de ce désir. Et se souvenir que nous aussi, nous avons été pardonnés.",
+    "sources": "Catéchisme de l'Église catholique, n° 2843"
+   }
+  },
+  {
+   "id": "ecrans",
+   "versets": [
+    {
+     "osis": "Matt",
+     "c": 6,
+     "v": [
+      33
+     ]
+    },
+    {
+     "osis": "Phil",
+     "c": 4,
+     "v": [
+      8
+     ]
+    }
+   ],
+   "priere": "ps86-11",
+   "fr": {
+    "titre": "Nos écrans et notre attention",
+    "accroche": "Le téléphone vibre, on fait défiler, et la soirée est passée. Qu'est-ce qui nourrit vraiment notre attention ?",
+    "fait": "Les écrans font partie de la vie de presque tous : travail, nouvelles, amis, jeux. Beaucoup de familles cherchent comment les apprivoiser, en particulier pour les enfants. Le pape François a mis en garde contre le risque que le monde numérique, si riche, nous isole et nous enferme dans des bulles.",
+    "piste": "Marthe s'agitait pour beaucoup de choses ; Marie s'était assise pour écouter (Lc 10, 38-42). On peut s'offrir un petit lieu ou un petit temps sans écran, ne serait-ce que le repas du soir, pour se regarder et se parler. Ce que l'on regarde longtemps finit par nous former.",
+    "sources": "Pape François, exhortation apostolique Christus vivit (2019), n° 88-90"
+   }
+  },
+  {
+   "id": "solitude",
+   "versets": [
+    {
+     "osis": "John",
+     "c": 15,
+     "v": [
+      15
+     ]
+    },
+    {
+     "osis": "Gal",
+     "c": 6,
+     "v": [
+      2
+     ]
+    }
+   ],
+   "priere": "ps25-16",
+   "fr": {
+    "titre": "Se sentir seul",
+    "accroche": "Même entouré, on peut se sentir seul. Comment la foi regarde-t-elle la solitude ?",
+    "fait": "La solitude touche beaucoup de personnes, à tous les âges : les personnes âgées, mais aussi des jeunes, des parents débordés, des gens loin de leur pays. En 2018, le Royaume-Uni a même nommé une ministre chargée de la solitude.",
+    "piste": "Jésus appelle ses disciples « mes amis ». Dans la prière, on n'est jamais seul. Et la foi pousse aussi vers les autres : un appel, un message, une visite à quelqu'un qu'on sait isolé peut être, aujourd'hui, la réponse de Dieu à la solitude d'un autre, et à la nôtre.",
+    "sources": "Gouvernement du Royaume-Uni, A connected society: a strategy for tackling loneliness (octobre 2018)"
+   }
+  },
+  {
+   "id": "argent",
+   "versets": [
+    {
+     "osis": "Matt",
+     "c": 6,
+     "v": [
+      24
+     ]
+    },
+    {
+     "osis": "Matt",
+     "c": 6,
+     "v": [
+      21
+     ]
+    }
+   ],
+   "priere": "ps73-25",
+   "fr": {
+    "titre": "L'argent, bon serviteur ou mauvais maître ?",
+    "accroche": "On en a besoin, on y pense souvent, il fait peur quand il manque. Quelle place lui donner ?",
+    "fait": "L'argent permet de vivre, de nourrir sa famille, de partager. L'Église ne le méprise pas : elle rappelle qu'il est un moyen, et que les biens de la terre sont destinés à tous. Le danger, dit la Bible, n'est pas l'argent lui-même, mais l'amour de l'argent.",
+    "piste": "« Là où est ton trésor, là aussi sera ton cœur. » On peut se demander, sans culpabilité, ce qui occupe le plus nos pensées. Et faire un petit geste de partage, même modeste, rend souvent plus libre que ce qu'on a donné.",
+    "sources": "Catéchisme de l'Église catholique, n° 2402-2404 ; 1re lettre à Timothée 6, 10"
+   }
+  },
+  {
+   "id": "travail",
+   "versets": [
+    {
+     "osis": "Col",
+     "c": 3,
+     "v": [
+      23
+     ]
+    }
+   ],
+   "priere": "ps90-14",
+   "fr": {
+    "titre": "Le sens du travail",
+    "accroche": "On y passe une grande partie de sa vie. Le travail peut-il avoir un sens spirituel ?",
+    "fait": "Pendant trente ans, Jésus a vécu à Nazareth en travaillant de ses mains, comme artisan. Le Catéchisme rappelle que le travail humain peut être une manière de collaborer à l'œuvre de Dieu, et aussi qu'il est fait pour l'homme, et non l'homme pour le travail.",
+    "piste": "On peut offrir sa journée de travail le matin, en deux mots, et la reprendre le soir avec ses joies et ses ratés. Le travail n'est pas toute la vie : le repos, la famille et Dieu ont droit à leur place aussi.",
+    "sources": "Évangile selon saint Marc 6, 3 ; Catéchisme de l'Église catholique, n° 531, 2427-2428"
+   }
+  },
+  {
+   "id": "paix",
+   "versets": [
+    {
+     "osis": "Matt",
+     "c": 5,
+     "v": [
+      9
+     ]
+    },
+    {
+     "osis": "John",
+     "c": 14,
+     "v": [
+      27
+     ]
+    }
+   ],
+   "priere": "ps85-8",
+   "fr": {
+    "titre": "Faire la paix, en petit",
+    "accroche": "Les guerres du monde nous dépassent. Mais la paix commence-t-elle quelque part à notre portée ?",
+    "fait": "Chaque jour apporte des nouvelles de conflits dans le monde, devant lesquels on se sent impuissant. Depuis 1968, l'Église célèbre le 1er janvier une Journée mondiale de la paix, voulue par saint Paul VI.",
+    "piste": "Jésus appelle heureux ceux qui font la paix, pas seulement ceux qui la souhaitent. On peut prier pour la paix là où elle manque, et la faire là où l'on est : réparer une dispute, ne pas répéter une rumeur, apprendre à un enfant à se réconcilier.",
+    "sources": "Saint Paul VI, message pour la première Journée mondiale de la paix (8 décembre 1967)"
+   }
+  }
+ ],
+ "histoires": [
+  {
+   "id": "greccio",
+   "fr": {
+    "titre": "La première crèche vivante",
+    "accroche": "Une nuit de Noël, dans une grotte des montagnes d'Italie, saint François d'Assise a voulu voir Bethléem de ses yeux.",
+    "texte": "En 1223, François d'Assise passe Noël au village de Greccio, au nord de Rome. Il demande à un ami de préparer dans une grotte une mangeoire avec du foin, un bœuf et un âne.\n\nLa nuit de Noël, les gens du village arrivent avec des torches. La messe est célébrée au-dessus de la mangeoire, et François, qui était diacre, chante l'Évangile et parle de « l'enfant de Bethléem » avec une grande tendresse.\n\nC'est de là que vient la tradition de la crèche, qui s'est répandue ensuite dans les églises puis dans les maisons du monde entier.",
+    "plusLoin": "François ne voulait pas d'un spectacle : il voulait voir « avec les yeux du corps » la pauvreté que Dieu a choisie en naissant. En 2019, le pape François est allé à Greccio pour signer une lettre sur la crèche, Admirabile signum.",
+    "source": "Thomas de Celano, Vie de saint François, 84-86 ; Pape François, lettre apostolique Admirabile signum (1er décembre 2019)"
+   }
+  },
+  {
+   "id": "sagrada-familia",
+   "fr": {
+    "titre": "La Sagrada Família, une église qui grandit depuis 1882",
+    "accroche": "À Barcelone, une basilique est en chantier depuis plus d'un siècle. Son architecte savait qu'il ne la verrait jamais finie.",
+    "texte": "La première pierre de la Sagrada Família est posée en 1882. L'année suivante, le jeune architecte Antoni Gaudí reprend le projet et y consacre le reste de sa vie.\n\nIl imagine une église où tout parle de la foi : trois façades pour la Nativité, la Passion et la Gloire, et dix-huit tours pour les apôtres, les évangélistes, la Vierge Marie et le Christ. Les colonnes s'élèvent comme des arbres, pour qu'on prie dans une forêt de lumière.\n\nGaudí meurt en 1926, renversé par un tramway. Le chantier continue grâce aux dons des visiteurs. En 2010, le pape Benoît XVI a consacré l'église et l'a élevée au rang de basilique.",
+    "plusLoin": "À qui s'étonnait de la lenteur des travaux, Gaudí aurait répondu que son client n'était pas pressé. En 2025, l'Église a reconnu les vertus héroïques de Gaudí : il est déclaré « vénérable ».",
+    "source": "Basílica de la Sagrada Família (sagradafamilia.org), « Historia » ; Benoît XVI, homélie pour la dédicace de la Sagrada Família (7 novembre 2010) ; Dicastère pour les causes des saints, décret du 14 avril 2025"
+   }
+  },
+  {
+   "id": "calendrier-gregorien",
+   "fr": {
+    "titre": "Le jour où l'on a sauté dix jours",
+    "accroche": "En 1582, des millions de gens se sont couchés un jeudi 4 octobre et se sont réveillés le vendredi 15.",
+    "texte": "Le calendrier de Jules César comptait une année un peu trop longue : de onze minutes environ. Au fil des siècles, le décalage avait atteint dix jours, et la fête de Pâques, calculée d'après le printemps, s'éloignait de sa saison.\n\nLe pape Grégoire XIII a réuni des savants et, en 1582, il a publié une réforme : on supprimerait dix jours d'un coup, et on ajusterait désormais les années bissextiles.\n\nEn Italie et en Espagne, le jeudi 4 octobre 1582 fut suivi du vendredi 15 octobre. C'est ce calendrier « grégorien » que le monde entier utilise aujourd'hui.",
+    "plusLoin": "La réforme est venue d'abord d'une question de foi : célébrer Pâques au bon moment. La France l'a adoptée quelques semaines plus tard, en décembre 1582 ; d'autres pays ont attendu des siècles. Sainte Thérèse d'Avila est morte dans la nuit du 4 au 15 octobre 1582 !",
+    "source": "Grégoire XIII, bulle Inter gravissimas (24 février 1582) ; Encyclopædia Britannica, « Gregorian calendar »"
+   }
+  },
+  {
+   "id": "lourdes",
+   "fr": {
+    "titre": "Lourdes : une jeune fille pauvre et une source",
+    "accroche": "En 1858, dans une petite ville des Pyrénées, une adolescente qui ne savait ni lire ni écrire voit une « belle dame ».",
+    "texte": "Le 11 février 1858, Bernadette Soubirous, 14 ans, va ramasser du bois près de la grotte de Massabielle, à Lourdes. Elle y voit une jeune dame vêtue de blanc. Entre février et juillet, elle la verra dix-huit fois.\n\nLe 25 février, la dame lui demande de creuser le sol : une source apparaît, qui coule toujours. Le 25 mars, Bernadette lui demande son nom ; la dame répond, en patois : « Que soy era Immaculada Councepciou », « Je suis l'Immaculée Conception ».\n\nAujourd'hui, Lourdes accueille chaque année des millions de pèlerins, dont beaucoup de malades.",
+    "plusLoin": "Bernadette ne comprenait pas ces mots savants : quatre ans plus tôt, en 1854, le pape Pie IX avait proclamé que Marie avait été préservée du péché dès sa conception. L'Église a reconnu les apparitions en 1862. Bernadette, devenue religieuse à Nevers, a été proclamée sainte en 1933.",
+    "source": "Sanctuaire Notre-Dame de Lourdes (lourdes-france.com), « Les apparitions » ; Pie IX, bulle Ineffabilis Deus (8 décembre 1854)"
+   }
+  },
+  {
+   "id": "compostelle",
+   "fr": {
+    "titre": "Pourquoi tant de gens marchent jusqu'à Compostelle",
+    "accroche": "Depuis plus de mille ans, des pèlerins de toute l'Europe marchent vers l'ouest de l'Espagne. Pourquoi là ?",
+    "texte": "Selon la tradition, l'apôtre Jacques, l'un des premiers disciples de Jésus, aurait annoncé l'Évangile en Espagne. Martyrisé à Jérusalem vers l'an 44, il aurait ensuite été enseveli en Galice.\n\nAu IXe siècle, on découvre un tombeau que l'on identifie comme le sien. Une église est construite, puis une ville grandit autour : Santiago de Compostela.\n\nAu Moyen Âge, Compostelle devient, avec Rome et Jérusalem, l'un des trois grands pèlerinages de la chrétienté. Les chemins de Saint-Jacques sont aujourd'hui inscrits au patrimoine mondial de l'UNESCO.",
+    "plusLoin": "Les pèlerins portent une coquille Saint-Jacques, qu'on trouve sur les côtes de Galice. Aujourd'hui, des centaines de milliers de marcheurs arrivent chaque année à Compostelle : certains par foi, d'autres par goût de la marche, et beaucoup découvrent en chemin qu'ils cherchaient quelque chose de plus.",
+    "source": "Actes des Apôtres 12, 2 ; UNESCO, « Chemins de Saint-Jacques-de-Compostelle » (inscriptions de 1993 et 1998)"
+   }
+  },
+  {
+   "id": "gutenberg",
+   "fr": {
+    "titre": "La Bible, premier grand livre imprimé",
+    "accroche": "Avant l'imprimerie, chaque Bible était copiée à la main, mot après mot, pendant des mois.",
+    "texte": "Pendant des siècles, les livres sont copiés à la main, surtout par des moines dans les monastères. Une Bible complète demande des mois de travail et coûte très cher.\n\nVers 1450, à Mayence, en Allemagne, Johannes Gutenberg met au point l'imprimerie à caractères mobiles : des lettres de métal qu'on assemble pour composer une page, puis qu'on réutilise.\n\nLe premier grand livre qu'il imprime, vers 1455, est une Bible en latin : la « Bible de Gutenberg ». Il en reste aujourd'hui une cinquantaine d'exemplaires dans le monde.",
+    "plusLoin": "Grâce à l'imprimerie, la Bible a pu entrer dans les maisons, puis être traduite et diffusée dans toutes les langues. La Bible que tu lis dans cette app est l'héritière lointaine de ce premier livre.",
+    "source": "Encyclopædia Britannica, « Gutenberg Bible »"
+   }
+  },
+  {
+   "id": "rosaire-lepante",
+   "fr": {
+    "titre": "Pourquoi octobre est le mois du chapelet",
+    "accroche": "Une fête de la Vierge Marie est née au lendemain d'une grande bataille navale.",
+    "texte": "Le 7 octobre 1571, une flotte chrétienne affronte la flotte ottomane à Lépante, en Grèce. Pendant ce temps, à l'appel du pape Pie V, des confréries prient le chapelet à Rome.\n\nLa victoire est attribuée à l'intercession de la Vierge Marie. Pie V institue une fête d'action de grâce, qui deviendra la fête de Notre-Dame du Rosaire, le 7 octobre.\n\nAu XIXe siècle, le pape Léon XIII consacre tout le mois d'octobre à la prière du chapelet.",
+    "plusLoin": "Le chapelet est une prière simple : on répète le Je vous salue Marie en méditant les grands moments de la vie de Jésus. En 2002, saint Jean-Paul II y a ajouté les « mystères lumineux », sur la vie publique de Jésus.",
+    "source": "Encyclopædia Britannica, « Battle of Lepanto » ; Léon XIII, encyclique Supremi apostolatus officio (1er septembre 1883) ; Jean-Paul II, lettre apostolique Rosarium Virginis Mariae (16 octobre 2002)"
+   }
+  },
+  {
+   "id": "notre-dame-paris",
+   "fr": {
+    "titre": "Notre-Dame de Paris, du feu à la lumière",
+    "accroche": "Le 15 avril 2019, le monde entier a regardé brûler la cathédrale. Cinq ans plus tard, elle rouvrait ses portes.",
+    "texte": "Le soir du 15 avril 2019, un incendie se déclare dans la charpente de Notre-Dame de Paris, vieille de plus de huit siècles. La flèche s'effondre devant des millions de téléspectateurs. Les pompiers sauvent les tours et la structure.\n\nLa couronne d'épines, que l'on vénère à Notre-Dame, est sauvée cette nuit-là. Dans le monde entier, des dons arrivent pour reconstruire.\n\nAprès plus de cinq ans de travaux, menés par des centaines d'artisans, la cathédrale rouvre les 7 et 8 décembre 2024, avec une nouvelle flèche identique à l'ancienne.",
+    "plusLoin": "Pendant l'incendie, beaucoup de Parisiens, croyants ou non, se sont mis à chanter et à prier dans les rues voisines. Une église n'est pas seulement un monument : c'est une maison où l'on prie depuis des siècles.",
+    "source": "Établissement public Rebâtir Notre-Dame de Paris ; Diocèse de Paris, « Réouverture de Notre-Dame » (décembre 2024)"
+   }
+  },
+  {
+   "id": "montserrat",
+   "fr": {
+    "titre": "La Moreneta de Montserrat",
+    "accroche": "Au-dessus de Barcelone, dans une montagne aux rochers dentelés, une petite Vierge noire veille sur la Catalogne.",
+    "texte": "Le monastère bénédictin de Montserrat est fondé au XIe siècle, au milieu de rochers étonnants à une heure de Barcelone. On y vénère une statue romane de la Vierge Marie tenant l'Enfant Jésus, au visage sombre : la Moreneta, « la petite brune ».\n\nDepuis des siècles, des pèlerins y montent, et l'on y entend chaque jour l'Escolania, l'une des plus anciennes chorales d'enfants d'Europe.\n\nEn 1881, le pape Léon XIII a proclamé la Vierge de Montserrat patronne de la Catalogne.",
+    "plusLoin": "Saint Ignace de Loyola est passé à Montserrat en 1522 : il y a déposé son épée devant la Vierge avant de commencer sa nouvelle vie. On peut monter au monastère en crémaillère ou en téléphérique, une belle sortie à faire en famille.",
+    "source": "Abadia de Montserrat (abadiamontserrat.net), « La Mare de Déu de Montserrat » ; Saint Ignace de Loyola, Récit du pèlerin, 17-18"
+   }
+  },
+  {
+   "id": "benoit-regle",
+   "fr": {
+    "titre": "Ora et labora : la règle de saint Benoît",
+    "accroche": "Il y a quinze siècles, un moine italien a écrit un petit livre qui organise encore la vie de milliers de monastères.",
+    "texte": "Vers 529, Benoît de Nursie fonde un monastère au Mont-Cassin, entre Rome et Naples. Pour ses moines, il écrit une règle de vie : la Règle de saint Benoît.\n\nElle organise la journée entre la prière, le travail et la lecture, avec mesure et bon sens. Benoît y demande d'accueillir chaque hôte « comme le Christ » et de « ne rien préférer à l'amour du Christ ».\n\nLes monastères bénédictins se sont répandus dans toute l'Europe. Ils ont défriché des terres, copié des livres et fait vivre des écoles. En 1964, saint Paul VI a proclamé saint Benoît patron de l'Europe.",
+    "plusLoin": "La devise « Ora et labora », « prie et travaille », résume bien l'esprit bénédictin, même si elle ne figure pas telle quelle dans la Règle. Beaucoup de laïcs s'en inspirent pour équilibrer leur vie : un temps pour Dieu, un temps pour le travail, un temps pour les autres.",
+    "source": "Règle de saint Benoît, chapitres 4, 48 et 53 ; Paul VI, lettre apostolique Pacis nuntius (24 octobre 1964)"
+   }
+  }
+ ],
+ "portraits": [
+  {
+   "id": "kolbe",
+   "fr": {
+    "nom": "Saint Maximilien Kolbe",
+    "dates": "1894-1941",
+    "accroche": "Un prêtre polonais qui a pris la place d'un père de famille condamné à mort à Auschwitz.",
+    "texte": "Raymond Kolbe naît en Pologne en 1894. Devenu frère franciscain sous le nom de Maximilien, il fonde des journaux catholiques et une grande communauté près de Varsovie, Niepokalanów. Il part même en mission au Japon.\n\nPendant la Seconde Guerre mondiale, il est arrêté par les nazis et déporté à Auschwitz en 1941. Cet été-là, un prisonnier s'évade : en représailles, dix hommes sont condamnés à mourir de faim. L'un d'eux, Franciszek Gajowniczek, crie qu'il a une femme et des enfants.\n\nMaximilien s'avance et demande à prendre sa place. Il meurt le 14 août 1941, après avoir soutenu ses compagnons par la prière jusqu'au bout.",
+    "plusLoin": "Franciszek Gajowniczek a survécu à la guerre. Il était présent à Rome en 1982, quand saint Jean-Paul II a proclamé Maximilien Kolbe saint. On le prie comme patron des journalistes et des familles.",
+    "source": "Encyclopædia Britannica, « Saint Maximilian Kolbe » ; Jean-Paul II, homélie de canonisation (10 octobre 1982)"
+   }
+  },
+  {
+   "id": "bakhita",
+   "fr": {
+    "nom": "Sainte Joséphine Bakhita",
+    "dates": "vers 1869-1947",
+    "accroche": "Enlevée enfant et vendue comme esclave, elle est devenue religieuse et a pardonné à ceux qui l'avaient fait souffrir.",
+    "texte": "Bakhita naît vers 1869 au Darfour, au Soudan. Vers l'âge de sept ans, elle est enlevée par des marchands d'esclaves, qui lui donnent ce nom : « Bakhita » veut dire « chanceuse ». Elle est vendue plusieurs fois et maltraitée.\n\nAchetée par un diplomate italien, elle arrive en Italie, où elle découvre la foi chez les sœurs canossiennes de Venise. En 1889, la justice italienne reconnaît qu'elle est libre. Elle choisit de rester et devient religieuse.\n\nPendant cinquante ans, à Schio, elle est portière, cuisinière, brodeuse, aimée de tous pour sa douceur. Elle meurt en 1947.",
+    "plusLoin": "Elle disait que si elle rencontrait ceux qui l'avaient enlevée, elle les remercierait, parce que sans eux elle n'aurait pas connu Dieu. Proclamée sainte en 2000, elle est la patronne du Soudan. Le 8 février, jour de sa fête, est une journée de prière contre la traite des personnes.",
+    "source": "Benoît XVI, encyclique Spe salvi (2007), n° 3 ; Vatican News, « Sainte Joséphine Bakhita »"
+   }
+  },
+  {
+   "id": "francois-assise",
+   "fr": {
+    "nom": "Saint François d'Assise",
+    "dates": "vers 1181-1226",
+    "accroche": "Le fils d'un riche marchand qui a tout quitté pour vivre pauvre, joyeux et frère de toute la création.",
+    "texte": "François naît à Assise, en Italie, dans une famille aisée. Jeune homme, il aime les fêtes et rêve de gloire. Après une maladie et une guerre, quelque chose change en lui.\n\nUn jour, dans la petite église en ruine de San Damiano, il entend le Christ de la croix lui dire : « Va, répare ma maison. » Il rend à son père jusqu'à ses vêtements et commence une vie de pauvreté, au service des lépreux.\n\nD'autres le rejoignent : ce sont les premiers frères franciscains. François meurt en 1226, après avoir écrit le Cantique des créatures, où il loue Dieu pour « frère Soleil » et « sœur Lune ».",
+    "plusLoin": "Il est le patron de l'Italie et de l'écologie. C'est de lui que le pape François a pris son nom, et son Cantique a donné le titre de l'encyclique Laudato si' (2015) sur le soin de la maison commune.",
+    "source": "Encyclopædia Britannica, « Saint Francis of Assisi » ; Pape François, encyclique Laudato si' (24 mai 2015), n° 1 et 10"
+   }
+  },
+  {
+   "id": "teresa-calcutta",
+   "fr": {
+    "nom": "Sainte Teresa de Calcutta",
+    "dates": "1910-1997",
+    "accroche": "Une petite religieuse qui ramassait les mourants dans les rues de Calcutta pour qu'ils ne meurent pas seuls.",
+    "texte": "Agnès Gonxha Bojaxhiu naît en 1910 à Skopje, dans une famille albanaise. À 18 ans, elle devient religieuse et part enseigner en Inde, à Calcutta.\n\nEn 1946, dans un train, elle ressent un appel : servir les plus pauvres parmi les pauvres. Elle quitte son couvent, revêt un sari blanc bordé de bleu et fonde les Missionnaires de la Charité. Elle ouvre une maison pour les mourants, puis des orphelinats et des maisons pour les lépreux.\n\nElle reçoit le prix Nobel de la paix en 1979. À sa mort en 1997, ses sœurs sont présentes dans plus de cent pays.",
+    "plusLoin": "On a découvert après sa mort qu'elle avait vécu pendant des dizaines d'années une grande nuit intérieure, sans sentir la présence de Dieu, tout en continuant d'aimer et de servir. Elle a été proclamée sainte en 2016 par le pape François.",
+    "source": "Encyclopædia Britannica, « Mother Teresa » ; The Nobel Prize, « Mother Teresa – Facts » ; Pape François, homélie de canonisation (4 septembre 2016)"
+   }
+  },
+  {
+   "id": "frassati",
+   "fr": {
+    "nom": "Saint Pier Giorgio Frassati",
+    "dates": "1901-1925",
+    "accroche": "Un étudiant italien sportif, joyeux et amoureux de la montagne, qui donnait en secret tout ce qu'il avait aux pauvres.",
+    "texte": "Pier Giorgio naît à Turin en 1901, dans une famille riche et célèbre : son père dirige le grand journal La Stampa. Étudiant ingénieur, il adore la montagne, l'escalade et les farces avec ses amis.\n\nMais il passe aussi beaucoup de temps auprès des pauvres de la ville, avec la Société de Saint-Vincent-de-Paul. Il leur donne son argent, ses vêtements, parfois son billet de tram, et rentre à pied.\n\nEn 1925, à 24 ans, il meurt en quelques jours d'une poliomyélite, probablement attrapée chez un malade qu'il visitait. À son enterrement, sa famille découvre avec surprise une foule de pauvres venus lui dire adieu.",
+    "plusLoin": "Il avait écrit « Verso l'alto », « vers le haut », sur une photo de montagne : sa devise est devenue celle de beaucoup de jeunes. Il a été proclamé saint le 7 septembre 2025, le même jour que Carlo Acutis.",
+    "source": "Vatican News, « Pier Giorgio Frassati » ; Pape Léon XIV, homélie de canonisation (7 septembre 2025)"
+   }
+  },
+  {
+   "id": "vianney",
+   "fr": {
+    "nom": "Saint Jean-Marie Vianney, le curé d'Ars",
+    "dates": "1786-1859",
+    "accroche": "Un prêtre de campagne qui avait eu du mal à finir ses études, et vers qui des foules venaient de toute la France.",
+    "texte": "Jean-Marie Vianney naît en 1786 près de Lyon, dans une famille de paysans. Il grandit pendant la Révolution, quand les prêtres doivent se cacher. Il apprend tard le latin et échoue plusieurs fois à ses études ; il est pourtant ordonné prêtre en 1815.\n\nEn 1818, on l'envoie à Ars, un petit village des Dombes. Il y passe le reste de sa vie. Il prie, visite les familles, fonde une maison pour les orphelines.\n\nPeu à peu, des pèlerins viennent de partout pour se confesser à lui : vers la fin de sa vie, il passe plus de dix heures par jour au confessionnal. Il meurt en 1859.",
+    "plusLoin": "Il est le patron des curés du monde entier. Il disait à un enfant qui lui avait montré le chemin d'Ars : « Tu m'as montré le chemin d'Ars, je te montrerai le chemin du Ciel. » Une statue près du village rappelle cette rencontre.",
+    "source": "Benoît XVI, audience générale du 5 août 2009 ; Sanctuaire d'Ars (arsnet.org)"
+   }
+  },
+  {
+   "id": "claire",
+   "fr": {
+    "nom": "Sainte Claire d'Assise",
+    "dates": "1194-1253",
+    "accroche": "Une jeune noble qui s'est enfuie de chez elle une nuit de Rameaux pour suivre saint François.",
+    "texte": "Claire naît en 1194 à Assise, dans une famille noble. Elle entend prêcher François et veut vivre comme lui, pauvre et toute donnée à Dieu.\n\nLa nuit du dimanche des Rameaux 1212, elle quitte la maison familiale en secret et rejoint François, qui lui coupe les cheveux en signe de consécration. Elle s'installe à San Damiano, où d'autres femmes la rejoignent, dont sa propre sœur et, plus tard, sa mère.\n\nPendant plus de quarante ans, elle y vit une vie de prière et de pauvreté joyeuse. Elle est la première femme à écrire une règle de vie religieuse approuvée par un pape, peu avant sa mort en 1253.",
+    "plusLoin": "Malade et alitée, elle ne pouvait aller à la messe de Noël ; la tradition raconte qu'elle la vit et l'entendit depuis son lit. C'est pour cela que Pie XII l'a nommée en 1958 patronne de la télévision. Les sœurs clarisses vivent aujourd'hui dans le monde entier.",
+    "source": "Encyclopædia Britannica, « Saint Clare of Assisi » ; Benoît XVI, audience générale du 15 septembre 2010"
+   }
+  },
+  {
+   "id": "gaudi",
+   "fr": {
+    "nom": "Antoni Gaudí, vénérable",
+    "dates": "1852-1926",
+    "accroche": "Le génial architecte de Barcelone, qui a fini sa vie pauvre, au service de l'église qu'il construisait.",
+    "texte": "Antoni Gaudí naît en 1852 en Catalogne. Architecte, il invente un style unique, inspiré de la nature : la Casa Batlló, la Pedrera, le parc Güell sont aujourd'hui célèbres dans le monde entier.\n\nÀ partir de 1883, il travaille sur la Sagrada Família. Avec les années, sa foi grandit : il va à la messe chaque jour, vit simplement et, à la fin, ne se consacre plus qu'à cette église, au point de dormir sur le chantier.\n\nLe 7 juin 1926, il est renversé par un tramway. Mal habillé, on le prend pour un mendiant et il est emmené dans un hôpital pour pauvres, où il meurt trois jours plus tard.",
+    "plusLoin": "Le 14 avril 2025, le pape François a reconnu ses « vertus héroïques » : Gaudí est désormais « vénérable », une étape vers la béatification. Il repose dans la crypte de la Sagrada Família.",
+    "source": "Dicastère pour les causes des saints, décret du 14 avril 2025 ; Basílica de la Sagrada Família (sagradafamilia.org), « Antoni Gaudí »"
+   }
+  },
+  {
+   "id": "bernadette",
+   "fr": {
+    "nom": "Sainte Bernadette Soubirous",
+    "dates": "1844-1879",
+    "accroche": "La jeune fille de Lourdes, pauvre et malade, qui ne cherchait ni gloire ni miracle pour elle-même.",
+    "texte": "Bernadette naît en 1844 à Lourdes, dans une famille de meuniers devenue très pauvre. Ils vivent à six dans une ancienne prison, le « cachot ». Asthmatique, elle ne sait ni lire ni écrire à 14 ans.\n\nEn 1858, elle voit la Vierge Marie à la grotte de Massabielle. Interrogée sans cesse par la police, les curieux et les journalistes, elle répète simplement ce qu'elle a vu, sans rien ajouter.\n\nEn 1866, elle entre chez les sœurs de la Charité de Nevers. Elle y soigne les malades, puis est elle-même très malade. Elle meurt en 1879, à 35 ans.",
+    "plusLoin": "À qui lui demandait si elle n'était pas fière, elle répondait que la Vierge l'avait choisie justement parce qu'elle était la plus ignorante. Son corps repose à Nevers. Elle a été proclamée sainte en 1933.",
+    "source": "Sanctuaire Notre-Dame de Lourdes (lourdes-france.com), « Bernadette Soubirous » ; Espace Bernadette Nevers"
+   }
+  },
+  {
+   "id": "ignace",
+   "fr": {
+    "nom": "Saint Ignace de Loyola",
+    "dates": "1491-1556",
+    "accroche": "Un soldat basque blessé au combat, qui a appris à écouter ce qui se passait dans son cœur.",
+    "texte": "Íñigo de Loyola naît en 1491 au Pays basque espagnol. Gentilhomme ambitieux, il rêve d'exploits. En 1521, à Pampelune, un boulet de canon lui brise la jambe.\n\nPendant sa longue convalescence, faute de romans de chevalerie, on lui donne une vie du Christ et une vie des saints. Il remarque que rêver de gloire le laisse vide, tandis que penser à suivre le Christ le laisse en paix. Il apprend ainsi à « discerner ».\n\nIl devient pèlerin, étudie à Paris et fonde avec des amis la Compagnie de Jésus, les jésuites, approuvée en 1540. Il meurt à Rome en 1556.",
+    "plusLoin": "Ses Exercices spirituels aident encore aujourd'hui des milliers de personnes à prier et à faire des choix. Il proposait chaque soir un petit « examen » : remercier pour la journée, voir ce qui nous a rapprochés ou éloignés de Dieu, et confier le lendemain. Le pape François était jésuite.",
+    "source": "Saint Ignace de Loyola, Récit du pèlerin, 1-12 ; Encyclopædia Britannica, « Saint Ignatius of Loyola »"
+   }
+  }
+ ],
+ "savaisTu": [
+  {
+   "id": "alleluia",
+   "fr": {
+    "titre": "« Alléluia » est un mot hébreu",
+    "accroche": "On le chante sans y penser. Il veut dire quelque chose de très précis.",
+    "texte": "« Alléluia » vient de l'hébreu hallelou-Yah : hallelou veut dire « louez », et Yah est une forme abrégée du nom de Dieu. Alléluia, c'est donc « Louez Dieu ! ».\n\nOn le trouve déjà dans les psaumes de la Bible. Les chrétiens l'ont gardé tel quel, sans le traduire, et le chantent surtout pendant le temps de Pâques. Pendant le Carême, en revanche, on ne le chante pas, pour mieux le retrouver à Pâques.",
+    "source": "Le Robert, dictionnaire historique de la langue française, « alléluia » ; Psaume 150"
+   }
+  },
+  {
+   "id": "cardinal",
+   "fr": {
+    "titre": "Un cardinal, c'est un « gond »",
+    "accroche": "Le mot qui désigne les conseillers du pape vient d'une pièce de porte.",
+    "texte": "« Cardinal » vient du latin cardo, qui veut dire « gond », la pièce sur laquelle tourne une porte. Les cardinaux étaient à l'origine les prêtres principaux des églises de Rome, ceux sur qui « tournait » la vie de l'Église.\n\nAujourd'hui, ce sont les plus proches collaborateurs du pape, et ce sont eux qui élisent le nouveau pape lors d'un conclave. Le même mot a donné les « points cardinaux » et les « vertus cardinales ».",
+    "source": "Le Robert, dictionnaire historique de la langue française, « cardinal » ; Code de droit canonique, can. 349"
+   }
+  },
+  {
+   "id": "couronne-avent",
+   "fr": {
+    "titre": "La première couronne de l'Avent avait 24 bougies",
+    "accroche": "Elle a été inventée pour aider des enfants pauvres à patienter jusqu'à Noël.",
+    "texte": "En 1839, à Hambourg, en Allemagne, le pasteur Johann Hinrich Wichern s'occupe d'enfants pauvres dans une maison d'accueil. Les enfants lui demandent sans cesse combien de jours restent avant Noël.\n\nIl fixe alors sur une roue de charrette des bougies : une petite pour chaque jour de semaine, une grande pour chaque dimanche, et on en allume une de plus chaque jour.\n\nAvec le temps, on n'a gardé que les quatre grandes bougies, une par dimanche de l'Avent, sur une couronne de branches vertes.",
+    "source": "Rauhes Haus, Hambourg, « Der Adventskranz » ; Encyclopædia Britannica, « Advent wreath »"
+   }
+  },
+  {
+   "id": "ichthus",
+   "fr": {
+    "titre": "Le poisson, signe secret des premiers chrétiens",
+    "accroche": "Pourquoi trouve-t-on des poissons dessinés dans les catacombes de Rome ?",
+    "texte": "En grec, « poisson » se dit ichthus (ΙΧΘΥΣ). Les premiers chrétiens ont remarqué que ses cinq lettres sont les initiales de la phrase : « Jésus-Christ, Fils de Dieu, Sauveur ».\n\nLe poisson est donc devenu l'un des premiers symboles chrétiens. On le retrouve gravé dans les catacombes de Rome dès le IIe siècle. Il rappelle aussi que plusieurs apôtres étaient pêcheurs et que Jésus a multiplié les pains et les poissons.",
+    "source": "Encyclopædia Britannica, « ichthys » ; Évangile selon saint Matthieu 4, 18-19"
+   }
+  },
+  {
+   "id": "messe-mot",
+   "fr": {
+    "titre": "Le mot « messe » vient de la fin de la messe",
+    "accroche": "Le nom de la célébration vient de ses tout derniers mots.",
+    "texte": "À la fin de la messe en latin, le prêtre dit : Ite, missa est, « Allez, c'est l'envoi ». Le mot missa, l'envoi, a fini par désigner toute la célébration : la « messe ».\n\nC'est une belle idée : la messe ne s'arrête pas à la porte de l'église. Elle se termine par un envoi, pour vivre dans la vie de tous les jours ce que l'on vient de recevoir.",
+    "source": "Catéchisme de l'Église catholique, n° 1332 ; Le Robert, dictionnaire historique de la langue française, « messe »"
+   }
+  },
+  {
+   "id": "dimanche",
+   "fr": {
+    "titre": "« Dimanche » veut dire « jour du Seigneur »",
+    "accroche": "Dans plusieurs langues, le nom du dimanche garde la trace de la Résurrection.",
+    "texte": "« Dimanche » vient du latin dies dominicus, « le jour du Seigneur ». C'est le jour où Jésus est ressuscité, le premier jour de la semaine. Le même mot latin a donné domingo en espagnol et diumenge en catalan.\n\nDès le début, les chrétiens se sont réunis ce jour-là pour célébrer l'eucharistie, en souvenir de la Résurrection. En anglais ou en allemand, en revanche, Sunday et Sonntag ont gardé l'ancien nom de « jour du soleil ».",
+    "source": "Catéchisme de l'Église catholique, n° 2174 ; Le Robert, dictionnaire historique de la langue française, « dimanche »"
+   }
+  },
+  {
+   "id": "pape-mot",
+   "fr": {
+    "titre": "« Pape » veut dire « papa »",
+    "accroche": "Le titre du successeur de saint Pierre est un mot d'enfant.",
+    "texte": "Le mot « pape » vient du grec pappas, une façon affectueuse de dire « père », comme « papa ». Dans les premiers siècles, on l'utilisait pour plusieurs évêques ; peu à peu, il a été réservé en Occident à l'évêque de Rome.\n\nLe pape est le successeur de l'apôtre Pierre, à qui Jésus a confié son Église. Il est aussi appelé « Saint-Père ».",
+    "source": "Le Robert, dictionnaire historique de la langue française, « pape » ; Catéchisme de l'Église catholique, n° 881-882"
+   }
+  },
+  {
+   "id": "amen",
+   "fr": {
+    "titre": "« Amen », un mot qui veut dire « solide »",
+    "accroche": "On finit presque toutes les prières par ce petit mot. D'où vient-il ?",
+    "texte": "« Amen » est un mot hébreu qui vient d'une racine signifiant « être solide, digne de confiance ». Dire « amen », c'est dire « oui, c'est vrai, je m'y fie ».\n\nC'est de la même racine que vient, en hébreu, le mot qui veut dire « foi ». Jésus commençait parfois ses paroles par « Amen, je vous le dis », que l'on traduit par « En vérité, je vous le dis ».",
+    "source": "Catéchisme de l'Église catholique, n° 1062-1065"
+   }
+  },
+  {
+   "id": "paroisse",
+   "fr": {
+    "titre": "« Paroisse » vient d'un mot qui veut dire « étranger »",
+    "accroche": "Le nom de l'église du quartier rappelle que les chrétiens sont des voyageurs.",
+    "texte": "« Paroisse » vient du grec paroikia, qui veut dire « séjour en pays étranger ». Les premiers chrétiens se voyaient comme des voyageurs sur la terre, en route vers la maison de Dieu.\n\nAujourd'hui, la paroisse, c'est la communauté des chrétiens d'un quartier ou d'un village, rassemblée autour d'une église et d'un curé. Chacun en fait partie, qu'il y aille souvent ou rarement.",
+    "source": "Le Robert, dictionnaire historique de la langue française, « paroisse » ; 1re lettre de saint Pierre 2, 11 ; Code de droit canonique, can. 515"
+   }
+  },
+  {
+   "id": "cloches-paques",
+   "fr": {
+    "titre": "Pourquoi « les cloches partent à Rome »",
+    "accroche": "En France, on raconte aux enfants que les cloches s'envolent avant Pâques. D'où vient cette histoire ?",
+    "texte": "Après la messe du Jeudi saint, les cloches des églises se taisent : c'est une manière de faire silence pendant que l'on se souvient de la mort de Jésus. Elles ne sonnent à nouveau qu'à la Vigile pascale, pour annoncer la Résurrection.\n\nPour expliquer ce silence aux enfants, une tradition populaire raconte que les cloches partent à Rome se faire bénir par le pape, et reviennent le jour de Pâques en semant des œufs en chocolat dans les jardins. En Allemagne et ailleurs, c'est un lièvre qui apporte les œufs.",
+    "source": "Missel romain, messe en mémoire de la Cène du Seigneur (Jeudi saint), rubrique sur le chant du Gloria"
+   }
+  }
+ ]
+}

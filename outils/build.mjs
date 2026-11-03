@@ -33,6 +33,30 @@ const donnees = {
   abreviations: json('abreviations.json')
 };
 
+// 1 bis. La bibliothèque des jours ordinaires (data/bibliotheque.json) : une citation, une réflexion, une histoire,
+// un personnage et un « Le savais-tu ? » qui tournent chaque jour sans contenu propre. Les versets de la Bible
+// cités par les réflexions sont désignés par leur référence : le build en lit le texte dans la Bible de chaque langue ;
+// la prière de la réflexion est un verset déjà vérifié des prières du jour (prieres-jour.json, par son id).
+{
+  const bib = json('bibliotheque.json');
+  const livres = Object.fromEntries(Object.entries({ fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' }).map(([l, f]) => [l, Object.fromEntries(json(f).livres.map((b) => [b.osis, b]))]));
+  const pool = {};
+  for (const liste of Object.values(donnees.prieresJour.pools)) for (const x of liste) pool[x.id] = x;
+  const verset = (l, r) => {
+    const b = livres[l][r.osis]; if (!b) throw new Error(`bibliothèque : livre ${r.osis} absent (${l})`);
+    const t = r.v.map((v) => (b.ch[r.c - 1] || [])[v - 1]); if (t.some((x) => !x)) throw new Error(`bibliothèque : ${r.osis} ${r.c}, ${r.v} absent (${l})`);
+    const sep = l === 'en' ? ':' : ', ', v = r.v.length > 1 ? r.v[0] + '-' + r.v[r.v.length - 1] : r.v[0];
+    return { texte: t.join(' ').replace(/\s+/g, ' ').trim(), source: b.abr + ' ' + r.c + sep + v };
+  };
+  for (const r of bib.reflexions) for (const l of ['fr', 'es', 'en']) {
+    if (!r[l]) continue;
+    r[l].citations = (r.versets || []).map((x) => verset(l, x)).concat(r[l].citations || []);
+    const p = pool[r.priere]; if (!p) throw new Error(`bibliothèque : prière ${r.priere} inconnue`);
+    r[l].priere = { texte: p[l], source: p.src[l] };
+  }
+  donnees.bibliotheque = bib;
+}
+
 // 2. Les fichiers copiés tels quels.
 const BIBLES = { fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' };
 for (const [l, f] of Object.entries(BIBLES)) fs.copyFileSync(path.join(DATA, f), path.join(DIST, `bible-${l}.json`));

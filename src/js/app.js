@@ -212,7 +212,7 @@
       guideFamille: tr['guide-famille'] || b.guideFamilleFr,
       messe: b.messe ? (b.messe[LANG] || b.messe.fr) : null,
       fetes: fr.fetes, auteurs: b.auteurs || {}, abr: (b.abreviations || {})[LANG] || {},
-      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, pj: b.prieresJour, contenus: b.contenus
+      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, biblio: b.bibliotheque || {}, pj: b.prieresJour, contenus: b.contenus
     };
     OraLiturgie.langue(LANG);
     OraLiturgie.region(regionChoisie());
@@ -233,7 +233,19 @@
     var expl = (cid && D.explications.fetes[cid]) || null;
     var conseil = expl ? expl.idee : D.conseils.conseils[j.indexAnnee % D.conseils.conseils.length];
     var contenu = chercher(D.contenus, j.cles);
-    return { j: j, c: contenu ? contenu[LANG] : null, contenu: contenu, expl: expl, explSaison: D.explications.saisons[j.saison.id], conseil: conseil, lect: chercher(D.lect, j.cles) };
+    return { j: j, c: contenu ? contenu[LANG] : bibliotheque(dt), contenu: contenu, expl: expl, explSaison: D.explications.saisons[j.saison.id], conseil: conseil, lect: chercher(D.lect, j.cles) };
+  }
+  // Les jours sans contenu propre (la plupart des jours ordinaires), chaque rubrique puise dans la bibliothèque :
+  // un élément par jour, dans l'ordre, et la liste recommence quand elle est finie. Les rubriques n'ont pas de lien
+  // entre elles ; chacune vaut pour elle-même. Un élément pas encore traduit ne s'affiche pas dans cette langue.
+  var RUBRIQUES = { citation: 'citations', reflexion: 'reflexions', histoire: 'histoires', portrait: 'portraits', savaisTu: 'savaisTu' };
+  function bibliotheque(dt) {
+    var n = Math.floor(Date.UTC(dt.getFullYear(), dt.getMonth(), dt.getDate()) / 864e5), c = null;
+    Object.keys(RUBRIQUES).forEach(function (r) {
+      var liste = (D.biblio[RUBRIQUES[r]] || []).filter(function (x) { return x[LANG]; });
+      if (liste.length) { c = c || {}; c[r] = liste[n % liste.length][LANG]; }
+    });
+    return c;
   }
   // La prière change entre le jour et le soir : c'est le seul contenu qui change.
   // Une célébration peut avoir ses prières ; sinon, une rotation fixe sur l'année liturgique.
@@ -416,8 +428,8 @@
       h += '<p class="surtitre">' + esc(T('reflexion-jour')) + '</p><h2>' + esc(r.titre) + '</h2><div class="texte-lecture">' + paragraphes(r.fait) + '</div>';
       (r.citations || []).forEach(function (q) { h += '<blockquote class="s-citation">' + guillemets(esc(q.texte)) + '</blockquote><p class="s-ref">' + refsSeules(q.source) + '</p>'; });
       h += '<div class="bloc"><h3>' + esc(T('pour-reflechir')) + '</h3><p>' + lexique(r.piste) + '</p></div>';
-      var rp = chercher(D.pj.reflexions, a.j.cles);
-      if (rp) h += '<div class="bloc"><h3>' + esc(T('une-priere')) + '</h3><p class="s-priere">' + esc(rp[LANG]) + '</p><p class="s-ref">' + refsSeules(rp.src[LANG]) + '</p></div>';
+      var rp = r.priere ? { src: {}, x: r.priere } : chercher(D.pj.reflexions, a.j.cles);
+      if (rp) h += '<div class="bloc"><h3>' + esc(T('une-priere')) + '</h3><p class="s-priere">' + esc(rp.x ? rp.x.texte : rp[LANG]) + '</p><p class="s-ref">' + refsSeules(rp.x ? rp.x.source : rp.src[LANG]) + '</p></div>';
       h += sources(r.sources);
     } else if (type === 'histoire') {
       var hi = c.histoire;

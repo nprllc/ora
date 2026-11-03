@@ -45,11 +45,11 @@ for (const date of DATES) for (const langue of ['fr', 'es', 'en']) {
   });
 }
 
-test('2027-11-05, sans contenu éditorial : l\'accueil n\'est pas réduit à l\'idée du jour, « En famille » n\'est pas vide', async () => {
+test('2027-11-05, jour ordinaire : l\'accueil puise dans la bibliothèque (citation, réflexion, histoire, portrait, « Le savais-tu ? »), « En famille » n\'est pas vide', async () => {
   const { ctx, page } = await ouvrir('2027-11-05', 'fr');
   const etiquettes = await texte(page, '.section-jour .etiquette');
   assert.ok(etiquettes.length >= 4, String(etiquettes));
-  assert.ok(etiquettes.some((e) => /ÉVANGILE/i.test(e)) && etiquettes.some((e) => /PRIÈRE/i.test(e)) && etiquettes.some((e) => /TEMPS|FÊTE/i.test(e)), String(etiquettes));
+  assert.ok(etiquettes.some((e) => /ÉVANGILE/i.test(e)) && etiquettes.some((e) => /PRIÈRE/i.test(e)) && ['CITATION', 'RÉFLEXION', 'HISTOIRE', 'PORTRAIT', 'SAVAIS'].every((m) => etiquettes.some((e) => e.toUpperCase().includes(m))), String(etiquettes));
   await page.click('.barre [data-id=famille]');
   await page.waitForTimeout(800);
   assert.ok((await page.$$('.section-jour')).length >= 2, 'En famille : prière et Évangile');

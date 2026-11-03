@@ -1,5 +1,5 @@
 {
-  "_note": "Courtes présentations des personnes citées. Faits vérifiés : Vatican (vatican.va), Encyclopædia Britannica, sanctuaire de Lisieux.",
+  "_note": "Courtes présentations des personnes citées. Faits vérifiés : Vatican (vatican.va), Encyclopædia Britannica, sanctuaire de Lisieux ; Catéchisme de l'Église catholique ; sanctuaire d'Ars. Les auteurs ajoutés pour la bibliothèque des jours ordinaires n'ont pour l'instant que leur présentation en français.",
   "therese-de-lisieux": {
     "fr": { "nom": "Sainte Thérèse de Lisieux", "bio": "Religieuse carmélite française (1873-1897), morte à 24 ans au carmel de Lisieux, en Normandie. Son autobiographie, Histoire d'une âme, a touché des millions de lecteurs par sa « petite voie » : faire confiance à Dieu comme un enfant. Elle a été proclamée sainte en 1925 et docteur de l'Église en 1997." },
     "es": { "nom": "Santa Teresa de Lisieux", "bio": "Religiosa carmelita francesa (1873-1897), murió a los 24 años en el carmelo de Lisieux, en Normandía. Su autobiografía, Historia de un alma, ha conmovido a millones de lectores con su «caminito»: confiar en Dios como un niño. Fue proclamada santa en 1925 y doctora de la Iglesia en 1997." },
@@ -24,5 +24,26 @@
     "fr": { "nom": "Catéchisme de l'Église catholique", "bio": "Le résumé officiel de la foi catholique, publié en 1992 par le pape Jean-Paul II. Il explique en quatre parties ce que l'Église croit, célèbre, vit et prie. C'est la référence d'Ora pour tout ce qui touche à la doctrine." },
     "es": { "nom": "Catecismo de la Iglesia Católica", "bio": "El resumen oficial de la fe católica, publicado en 1992 por el papa Juan Pablo II. Explica en cuatro partes lo que la Iglesia cree, celebra, vive y reza. Es la referencia de Ora para todo lo que toca a la doctrina." },
     "en": { "nom": "Catechism of the Catholic Church", "bio": "The official summary of the Catholic faith, published in 1992 by Pope John Paul II. In four parts it explains what the Church believes, celebrates, lives and prays. It is Ora's reference for everything to do with doctrine." }
+  },
+  "jean-paul-ii": {
+    "fr": { "nom": "Saint Jean-Paul II", "bio": "Karol Wojtyła (1920-2005), archevêque de Cracovie, élu pape en 1978 : le premier pape polonais. Pendant près de vingt-sept ans de pontificat, il a voyagé dans le monde entier et lancé les Journées mondiales de la jeunesse. Il a été proclamé saint en 2014." }
+  },
+  "gregoire-de-nazianze": {
+    "fr": { "nom": "Saint Grégoire de Nazianze", "bio": "Évêque et théologien grec du IVe siècle (vers 329-390), né en Cappadoce, dans l'actuelle Turquie. Ami de saint Basile, il a défendu la foi en la Trinité par des discours restés célèbres. Il est docteur de l'Église." }
+  },
+  "jean-de-la-croix": {
+    "fr": { "nom": "Saint Jean de la Croix", "bio": "Carme espagnol (1542-1591), ami de sainte Thérèse d'Avila, avec qui il a réformé l'ordre du Carmel. Emprisonné par ses frères, il y a écrit des poèmes mystiques parmi les plus beaux de la langue espagnole. Il est docteur de l'Église." }
+  },
+  "augustin": {
+    "fr": { "nom": "Saint Augustin", "bio": "Né en Afrique du Nord (354-430), il a longtemps cherché le sens de sa vie avant de se convertir à 32 ans, grâce notamment aux prières de sa mère, sainte Monique. Devenu évêque d'Hippone, il a raconté son chemin dans les Confessions. Il est docteur de l'Église." }
+  },
+  "jean-chrysostome": {
+    "fr": { "nom": "Saint Jean Chrysostome", "bio": "Prêtre d'Antioche puis archevêque de Constantinople (vers 349-407). Son surnom, « Bouche d'or », vient de son talent de prédicateur. Il défendait les pauvres avec une grande liberté, ce qui lui valut l'exil. Il est docteur de l'Église." }
+  },
+  "jeanne-d-arc": {
+    "fr": { "nom": "Sainte Jeanne d'Arc", "bio": "Jeune paysanne de Lorraine (vers 1412-1431) qui, à 17 ans, a conduit l'armée du roi de France pendant la guerre de Cent Ans. Condamnée et brûlée à Rouen à 19 ans, elle a été réhabilitée en 1456 et proclamée sainte en 1920. Elle est patronne secondaire de la France." }
+  },
+  "jean-marie-vianney": {
+    "fr": { "nom": "Saint Jean-Marie Vianney", "bio": "Le curé d'Ars (1786-1859), prêtre d'un petit village des Dombes, près de Lyon. Des foules venaient de toute la France pour se confesser à lui. Il est le patron des curés du monde entier." }
   }
 }
