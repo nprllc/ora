@@ -341,11 +341,13 @@
   function titreDuJour(j) {
     if (j.celebration && j.celebration.rang !== 'memoire') return { titre: j.celebration.nom };
     if (j.premierRang) return { titre: j.titre || j.libelleDuJour };
-    // Pendant les temps forts, chaque jour parle du temps lui-même (data/temps.json), sauf à partir du 17 décembre.
-    var tp = (D.temps[LANG] || {})[j.saison.id], k = j.date.slice(5);
-    if (tp && j.jourSaison != null && tp[j.jourSaison] && !(j.saison.id === 'avent' && k >= '12-17')) return { titre: tp[j.jourSaison][0], phrase: tp[j.jourSaison][1] };
-    var x = (D.jours[LANG] || {})[k];
-    if (x) return { titre: x[0], phrase: x[1] };
+    var k = j.date.slice(5), x = (D.jours[LANG] || {})[k], ex = x && x[2];
+    // Pendant les temps forts, chaque jour parle du temps lui-même (data/temps.json), sauf à partir du 17 décembre ;
+    // hors Carême et Triduum, un grand saint du calendrier (« fort ») garde sa place.
+    var tp = (D.temps[LANG] || {})[j.saison.id];
+    var fort = ex && ex.fort && j.saison.id !== 'careme' && j.saison.id !== 'triduum';
+    if (!fort && tp && j.jourSaison != null && tp[j.jourSaison] && !(j.saison.id === 'avent' && k >= '12-17')) return { titre: tp[j.jourSaison][0], phrase: tp[j.jourSaison][1] };
+    if (x) return { titre: x[0], phrase: x[1], ex: ex };
     return { titre: j.celebration ? j.celebration.nom : j.saison.nom };
   }
   function vueAccueil() {
@@ -1036,7 +1038,11 @@
     else if (act === 'reglage') { R[el.getAttribute('data-cle')] = id; ecrireReglages(); rendreEnPlace(); majVivant(); }
     else if (act === 'explication') {
       var a = aujourdhui(), e = a.expl || a.explSaison, nom = a.expl ? a.j.celebration.nom : a.j.saison.nom;
-      feuille(nom, '<div class="bloc" style="border:0;margin-top:8px;padding:0"><h3>' + esc(T('ce-que-cest')) + '</h3><p>' + lexique(e.quoi) + '</p></div><div class="bloc"><h3>' + esc(T('pourquoi-important')) + '</h3><p>' + lexique(e.pourquoi) + '</p></div><div class="bloc"><h3>' + esc(T('idee-vivre')) + '</h3><p>' + lexique(e.idee) + '</p></div>');
+      // Le saint ou le sens du jour : qui l'on fête, d'où vient ce jour et ce qu'il signifie, une idée à vivre ;
+      // puis, plus bas, le temps liturgique.
+      var tj = !a.expl && titreDuJour(a.j), sj = '';
+      if (tj && tj.ex) sj = '<div class="bloc" style="border:0;margin-top:8px;padding:0"><h3>' + esc(T('qui-est-ce')) + '</h3><p>' + lexique(tj.ex.qui) + '</p></div><div class="bloc"><h3>' + esc(T('pourquoi-ce-jour')) + '</h3><p>' + lexique(tj.ex.sens) + '</p></div><div class="bloc"><h3>' + esc(T('idee-vivre')) + '</h3><p>' + lexique(tj.ex.vivre) + '</p></div><div class="bloc"><h3>' + esc(nom) + '</h3><p>' + lexique(e.quoi) + '</p></div>';
+      if (sj) feuille(tj.titre, sj); else feuille(nom, '<div class="bloc" style="border:0;margin-top:8px;padding:0"><h3>' + esc(T('ce-que-cest')) + '</h3><p>' + lexique(e.quoi) + '</p></div><div class="bloc"><h3>' + esc(T('pourquoi-important')) + '</h3><p>' + lexique(e.pourquoi) + '</p></div><div class="bloc"><h3>' + esc(T('idee-vivre')) + '</h3><p>' + lexique(e.idee) + '</p></div>');
     }
   });
   document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape') fermerFeuille(); });

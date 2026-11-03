@@ -1,371 +1,1736 @@
 {
   "_note": "Le titre de chaque jour (écran Aujourd'hui), rangé par date civile MM-JJ : le saint du jour du calendrier romain ou du martyrologe, un personnage de la Bible, un grand anniversaire de l'histoire chrétienne, ou, du 17 au 23 décembre, les grandes antiennes « Ô ». Les fêtes et solennités du calendrier (fetes.json, fêtes mobiles) passent avant ; les jours de premier rang (Semaine sainte, octave de Pâques, dimanches de l'Avent, du Carême et de Pâques) gardent leur nom liturgique. Chaque entrée : [titre, phrase d'accroche]. Le français d'abord ; l'espagnol et l'anglais suivront (sans traduction, le nom du temps liturgique reste affiché).",
   "fr": {
-    "01-01": ["Sainte Marie, Mère de Dieu", "L'année commence avec Marie, la mère de Jésus."],
-    "01-02": ["Saints Basile et Grégoire", "Deux amis d'études devenus évêques, qui ont défendu la foi au IVe siècle."],
-    "01-03": ["Sainte Geneviève", "La patronne de Paris, qui a rassuré la ville quand Attila approchait."],
-    "01-04": ["Sainte Elizabeth Seton", "Mère de cinq enfants, veuve, elle a fondé les premières écoles catholiques des États-Unis."],
-    "01-05": ["Saint Édouard le Confesseur", "Un roi d'Angleterre doux et juste, bâtisseur de l'abbaye de Westminster."],
-    "01-06": ["Saint André Bessette", "Le frère portier de Montréal, qui accueillait les malades et a fait bâtir l'oratoire Saint-Joseph."],
-    "01-07": ["Saint Raymond de Peñafort", "Un dominicain de Barcelone, juriste et homme de paix, qui a vécu presque cent ans."],
-    "01-08": ["Saint Séverin du Norique", "Un moine qui a nourri et protégé les gens du Danube pendant les invasions."],
-    "01-09": ["Saint Adrien de Cantorbéry", "Un abbé venu d'Afrique, grand maître d'école en Angleterre."],
-    "01-10": ["Saint Guillaume de Bourges", "Un archevêque connu pour sa douceur avec les pauvres et les prisonniers."],
-    "01-11": ["Saint Paulin d'Aquilée", "Un évêque poète, ami de Charlemagne, qui a écrit de beaux chants pour l'Église."],
-    "01-12": ["Sainte Marguerite Bourgeoys", "Partie de Troyes, elle a ouvert la première école de Montréal dans une étable."],
-    "01-13": ["Saint Hilaire de Poitiers", "Un évêque de Gaule, marié avant d'être prêtre, défenseur courageux de la foi."],
-    "01-14": ["Saint Sava", "Un prince serbe devenu moine, qui a donné à son peuple ses églises et ses écoles."],
-    "01-15": ["Saint Paul de Thèbes", "On le dit le premier ermite chrétien, qui a vécu dans le désert d'Égypte."],
-    "01-16": ["Les martyrs du Maroc", "Cinq frères franciscains dont l'exemple a décidé saint Antoine de Padoue à partir."],
-    "01-17": ["Saint Antoine le Grand", "Le père des moines, parti au désert pour chercher Dieu dans le silence."],
-    "01-18": ["L'unité des chrétiens", "Aujourd'hui commence la semaine de prière pour l'unité des chrétiens, jusqu'au 25 janvier."],
-    "01-19": ["Saint Henri d'Uppsala", "Un évêque venu d'Angleterre, que la Finlande honore comme son premier apôtre."],
-    "01-20": ["Saint Sébastien", "Un soldat romain resté fidèle au Christ, l'un des martyrs les plus aimés de Rome."],
-    "01-21": ["Sainte Agnès", "Une jeune fille de Rome, martyre vers 13 ans, symbole de pureté et de courage."],
-    "01-22": ["Saint Vincent", "Un diacre d'Espagne, martyr à Valence, que les vignerons prennent pour patron."],
-    "01-23": ["Saint Ildefonse de Tolède", "Un évêque de Tolède qui a écrit sur Marie avec une immense tendresse."],
-    "01-24": ["Saint François de Sales", "L'évêque de la douceur, patron des journalistes et des écrivains."],
-    "01-25": ["La conversion de saint Paul", "Sur la route de Damas, le persécuteur devient l'apôtre."],
-    "01-26": ["Saints Timothée et Tite", "Deux jeunes compagnons de saint Paul, à qui il a écrit des lettres."],
-    "01-27": ["Sainte Angèle Merici", "Une Italienne qui a voulu instruire les filles, à une époque où on ne le faisait guère."],
-    "01-28": ["Saint Thomas d'Aquin", "Un très grand penseur, qui a dit à la fin que tout ce qu'il avait écrit n'était que de la paille à côté de Dieu."],
-    "01-29": ["Saint Gildas", "Un moine venu de Grande-Bretagne en Bretagne, qui a fondé l'abbaye de Rhuys."],
-    "01-30": ["Sainte Bathilde", "Une esclave devenue reine des Francs, qui a racheté des captifs."],
-    "01-31": ["Saint Jean Bosco", "Le prêtre des jeunes des rues de Turin, qui éduquait par la joie et la confiance."],
-    "02-01": ["Sainte Brigitte de Kildare", "Une abbesse d'Irlande, célèbre pour sa générosité et son hospitalité."],
-    "02-02": ["La Présentation du Seigneur", "Marie et Joseph portent Jésus au Temple : c'est la Chandeleur."],
-    "02-03": ["Saint Blaise", "Un évêque d'Arménie ; on bénit encore les gorges en son nom aujourd'hui."],
-    "02-04": ["Sainte Jeanne de France", "Une fille de roi, rejetée par son mari, qui a fondé un ordre consacré à Marie."],
-    "02-05": ["Sainte Agathe", "Une martyre de Sicile, patronne de Catane et de ceux qui souffrent."],
-    "02-06": ["Saint Paul Miki et ses compagnons", "Vingt-six chrétiens crucifiés à Nagasaki en 1597, en chantant."],
-    "02-07": ["Bienheureuse Marie de la Providence", "Née à Lille, elle a fondé une congrégation pour prier pour les défunts et servir les vivants."],
-    "02-08": ["Sainte Joséphine Bakhita", "Enlevée enfant au Soudan, vendue comme esclave, elle est devenue religieuse en Italie."],
-    "02-09": ["Sainte Apolline", "Une martyre d'Alexandrie, patronne des dentistes."],
-    "02-10": ["Sainte Scholastique", "La sœur jumelle de saint Benoît, dont la prière a fait tomber l'orage."],
-    "02-11": ["Notre-Dame de Lourdes", "Le 11 février 1858, Marie apparaît à Bernadette. C'est aussi la Journée mondiale des malades."],
-    "02-12": ["Sainte Eulalie de Barcelone", "Une jeune martyre, patronne de Barcelone avec la Vierge de la Merci."],
-    "02-13": ["Bienheureux Jourdain de Saxe", "Le successeur de saint Dominique, grand prédicateur auprès des étudiants."],
-    "02-14": ["Saints Cyrille et Méthode", "Deux frères qui ont inventé un alphabet pour donner la Bible aux peuples slaves."],
-    "02-15": ["Saint Claude La Colombière", "Un jésuite, ami et soutien de sainte Marguerite-Marie à Paray-le-Monial."],
-    "02-16": ["Sainte Julienne", "Une martyre de Nicomédie, dans l'actuelle Turquie, au début du IVe siècle."],
-    "02-17": ["Les sept fondateurs des Servites", "Sept marchands de Florence qui ont tout quitté pour servir Marie."],
-    "02-18": ["Bienheureux Fra Angelico", "Un frère dominicain peintre, patron des artistes, qui priait avant de peindre."],
-    "02-19": ["Saint Conrad de Plaisance", "Un noble qui avait causé un grand incendie et qui a passé sa vie à réparer."],
-    "02-20": ["Saints François et Jacinthe Marto", "Deux enfants bergers de Fatima, frère et sœur, à qui Marie est apparue."],
-    "02-21": ["Saint Pierre Damien", "Un moine réformateur qui a appelé l'Église à la simplicité."],
-    "02-22": ["La Chaire de saint Pierre", "On fête la mission confiée à Pierre : affermir ses frères."],
-    "02-23": ["Saint Polycarpe", "Un évêque de Smyrne qui avait connu l'apôtre Jean, martyr à 86 ans."],
-    "02-24": ["L'appel de saint François", "Selon la tradition, c'est un 24 février que François d'Assise a entendu l'Évangile qui a changé sa vie."],
-    "02-25": ["Sainte Walburge", "Une moniale anglaise partie évangéliser l'Allemagne avec ses frères."],
-    "02-26": ["Saint Porphyre de Gaza", "Un évêque de Gaza au Ve siècle, venu de Thessalonique."],
-    "02-27": ["Saint Grégoire de Narek", "Un moine arménien poète, docteur de l'Église, auteur d'un grand livre de prières."],
-    "02-28": ["Saint Romain du Jura", "Un ermite parti dans les forêts du Jura, où des moines l'ont rejoint."],
-    "02-29": ["Saint Oswald de Worcester", "Un évêque anglais qui lavait chaque jour les pieds de douze pauvres."],
-    "03-01": ["Saint David", "Le patron du pays de Galles, qui disait : « Faites les petites choses. »"],
-    "03-02": ["Bienheureux Charles le Bon", "Un comte de Flandre qui a nourri son peuple pendant une famine."],
-    "03-03": ["Sainte Katharine Drexel", "Une riche héritière de Philadelphie qui a donné sa fortune pour l'école des plus pauvres."],
-    "03-04": ["Saint Casimir", "Un jeune prince de Pologne, connu pour son amour des pauvres."],
-    "03-05": ["Saint Jean-Joseph de la Croix", "Un franciscain de Naples, d'une grande humilité."],
-    "03-06": ["Sainte Colette", "Une jeune femme de Corbie qui a renouvelé l'ordre de sainte Claire."],
-    "03-07": ["Saintes Perpétue et Félicité", "Une jeune mère et sa servante, martyres ensemble à Carthage en 203."],
-    "03-08": ["Saint Jean de Dieu", "Un Portugais de Grenade qui a fondé un hôpital pour ceux dont personne ne voulait."],
-    "03-09": ["Sainte Françoise Romaine", "Une mère de famille de Rome, au service des malades pendant la peste."],
-    "03-10": ["Saint Jean Ogilvie", "Un prêtre jésuite écossais, martyr à Glasgow en 1615."],
-    "03-11": ["Saint Euloge de Cordoue", "Un prêtre de Cordoue qui a soutenu les chrétiens persécutés, martyr en 859."],
-    "03-12": ["Saint Maximilien de Tébessa", "Un jeune homme de 21 ans qui a refusé de porter les armes, martyr en 295."],
-    "03-13": ["L'élection du pape François", "Le 13 mars 2013, un Argentin devient pape et prend le nom de François."],
-    "03-14": ["Sainte Mathilde", "Une reine de Germanie, généreuse jusqu'à vider le trésor pour les pauvres."],
-    "03-15": ["Saint Clément-Marie Hofbauer", "Un ancien boulanger devenu prêtre, l'apôtre de Vienne."],
-    "03-16": ["Saint Héribert de Cologne", "Un archevêque de Cologne connu pour sa charité pendant une famine."],
-    "03-17": ["Saint Patrick", "Enlevé par des pirates, esclave en Irlande, il y est revenu pour l'évangéliser."],
-    "03-18": ["Saint Cyrille de Jérusalem", "Un évêque qui a expliqué la foi aux nouveaux baptisés avec une grande clarté."],
-    "03-19": ["Saint Joseph", "L'époux de Marie, qui a veillé sur Jésus dans le silence."],
-    "03-20": ["Saint Cuthbert", "Un berger devenu moine et évêque, très aimé dans le nord de l'Angleterre."],
-    "03-21": ["Saint Nicolas de Flue", "Un père de dix enfants devenu ermite, qui a sauvé la Suisse de la guerre civile."],
-    "03-22": ["Sainte Léa", "Une veuve de Rome qui a choisi une vie de prière et de service."],
-    "03-23": ["Saint Turibio de Mogrovejo", "Un archevêque de Lima qui a parcouru son immense diocèse à pied."],
-    "03-24": ["Saint Oscar Romero", "Un archevêque du Salvador, tué pendant la messe le 24 mars 1980 parce qu'il défendait les pauvres."],
-    "03-25": ["L'Annonciation", "L'ange Gabriel vient chez Marie, et elle dit oui."],
-    "03-26": ["Saint Ludger", "Un évêque de Münster, élève d'Alcuin, missionnaire en Frise."],
-    "03-27": ["Saint Rupert de Salzbourg", "L'évêque qui a fondé la ville et l'abbaye de Salzbourg."],
-    "03-28": ["Saint Gontran", "Un roi de Burgondie qui a changé de vie et soigné son peuple pendant la peste."],
-    "03-29": ["Saint Eustase de Luxeuil", "Un abbé de Luxeuil, disciple de saint Colomban."],
-    "03-30": ["Saint Jean Climaque", "Un moine du Sinaï qui a décrit la vie spirituelle comme une échelle."],
-    "03-31": ["Saint Benjamin", "Un diacre de Perse, martyr au Ve siècle pour n'avoir pas voulu se taire."],
-    "04-01": ["Saint Hugues de Grenoble", "L'évêque qui a accueilli saint Bruno et l'a aidé à fonder la Grande Chartreuse."],
-    "04-02": ["Saint François de Paule", "Un ermite de Calabre qui a fondé l'ordre des Minimes, les « plus petits »."],
-    "04-03": ["Saint Richard de Chichester", "Un évêque anglais qui a écrit une prière célèbre pour mieux connaître le Christ."],
-    "04-04": ["Saint Isidore de Séville", "Un évêque savant qui a voulu rassembler tout le savoir de son temps."],
-    "04-05": ["Saint Vincent Ferrier", "Un dominicain de Valence qui a prêché à travers toute l'Europe."],
-    "04-06": ["Saint Marcellin de Carthage", "Un haut fonctionnaire romain, ami de saint Augustin, martyr en 413."],
-    "04-07": ["Saint Jean-Baptiste de La Salle", "Un prêtre de Reims qui a fondé des écoles gratuites pour les enfants pauvres."],
-    "04-08": ["Sainte Julie Billiart", "Paralysée pendant vingt ans, elle a fondé une congrégation pour l'éducation des filles."],
-    "04-09": ["Sainte Marie, femme de Cléophas", "L'une des femmes qui se tenaient au pied de la croix (Jn 19, 25)."],
-    "04-10": ["Saint Fulbert de Chartres", "L'évêque qui a reconstruit la cathédrale de Chartres après un incendie."],
-    "04-11": ["Saint Stanislas", "Un évêque de Cracovie, martyr en 1079, patron de la Pologne."],
-    "04-12": ["Sainte Teresa de los Andes", "Une jeune carmélite chilienne, morte à 19 ans, pleine de joie."],
-    "04-13": ["Saint Martin Ier", "Un pape exilé en Crimée, mort pour avoir défendu la foi."],
-    "04-14": ["Sainte Lydwine de Schiedam", "Une jeune Hollandaise blessée en patinant, qui a offert ses longues souffrances."],
-    "04-15": ["Saint César de Bus", "Un prêtre d'Avignon qui a fondé des prêtres pour enseigner le catéchisme simplement."],
-    "04-16": ["Sainte Bernadette Soubirous", "La jeune bergère de Lourdes, morte religieuse à Nevers le 16 avril 1879."],
-    "04-17": ["Sainte Kateri Tekakwitha", "Une jeune Iroquoise devenue chrétienne, première sainte amérindienne."],
-    "04-18": ["Saint Parfait de Cordoue", "Un prêtre de Cordoue, martyr en 850."],
-    "04-19": ["Saint Léon IX", "Un pape né en Alsace, qui a beaucoup voyagé pour réformer l'Église."],
-    "04-20": ["Sainte Agnès de Montepulciano", "Une moniale toscane, entrée au couvent à 9 ans."],
-    "04-21": ["Saint Anselme", "Un moine d'Aoste devenu archevêque de Cantorbéry : « la foi qui cherche à comprendre »."],
-    "04-22": ["Saint Caïus", "Un pape de Rome à la fin du IIIe siècle."],
-    "04-23": ["Saint Georges", "Le saint du dragon. En Catalogne, c'est Sant Jordi : on offre une rose et un livre."],
-    "04-24": ["Saint Fidèle de Sigmaringen", "Un avocat des pauvres devenu capucin, martyr en Suisse."],
-    "04-25": ["Saint Marc", "L'auteur du plus court des quatre Évangiles."],
-    "04-26": ["Notre-Dame du Bon Conseil", "Une image de Marie vénérée à Genazzano, près de Rome."],
-    "04-27": ["Notre-Dame de Montserrat", "La Vierge noire de la montagne, patronne de la Catalogne."],
-    "04-28": ["Saint Louis-Marie Grignion de Montfort", "Un prêtre breton, missionnaire des campagnes de l'Ouest, tout donné à Marie."],
-    "04-29": ["Sainte Catherine de Sienne", "Une jeune laïque qui a osé écrire au pape pour lui demander de revenir à Rome."],
-    "04-30": ["Saint Pie V", "Un pape dominicain qui a mis en œuvre le concile de Trente."],
-    "05-01": ["Saint Joseph travailleur", "Le jour du travail : Joseph, l'artisan de Nazareth."],
-    "05-02": ["Saint Athanase", "Un évêque d'Alexandrie, exilé cinq fois pour avoir défendu la divinité du Christ."],
-    "05-03": ["Saints Philippe et Jacques", "Deux des douze apôtres."],
-    "05-04": ["Saint Florian", "Un officier romain, patron des pompiers."],
-    "05-05": ["Saint Hilaire d'Arles", "Un jeune évêque d'Arles qui a vendu les vases sacrés pour racheter des captifs."],
-    "05-06": ["Saint François de Laval", "Le premier évêque de Québec."],
-    "05-07": ["Sainte Rose Venerini", "Une Italienne qui a ouvert des écoles pour les filles du peuple."],
-    "05-08": ["L'élection du pape Léon XIV", "Le 8 mai 2025, Robert Prevost, missionnaire au Pérou, devient pape."],
-    "05-09": ["Sainte Louise de Marillac", "Avec saint Vincent de Paul, elle a fondé les Filles de la Charité."],
-    "05-10": ["Saint Jean d'Avila", "Un prêtre andalou, conseiller de grands saints, docteur de l'Église."],
-    "05-11": ["Saint Mamert", "Un évêque de Vienne qui a lancé les Rogations, des processions pour les récoltes."],
-    "05-12": ["Saint Pancrace", "Un adolescent martyr de Rome, au début du IVe siècle."],
-    "05-13": ["Notre-Dame de Fatima", "Le 13 mai 1917, Marie apparaît à trois enfants au Portugal."],
-    "05-14": ["Saint Matthias", "L'apôtre choisi pour remplacer Judas."],
-    "05-15": ["Saint Isidore le Laboureur", "Un paysan de Madrid, patron de la ville et des agriculteurs."],
-    "05-16": ["Saint Honoré", "Un évêque d'Amiens, patron des boulangers."],
-    "05-17": ["Saint Pascal Baylon", "Un berger d'Aragon devenu frère portier, amoureux de l'Eucharistie."],
-    "05-18": ["Saint Jean Ier", "Un pape mort en prison à Ravenne en 526."],
-    "05-19": ["Saint Yves", "Un juge breton, l'avocat des pauvres, patron des juristes."],
-    "05-20": ["Saint Bernardin de Sienne", "Un prédicateur qui montrait aux foules le nom de Jésus."],
-    "05-21": ["Saint Christophe Magallanes", "Un prêtre mexicain martyr en 1927, qui a pardonné à ses bourreaux."],
-    "05-22": ["Sainte Rita", "Une épouse et mère de Cascia, patronne des causes désespérées."],
-    "05-23": ["Saint Didier de Vienne", "Un évêque de Vienne, martyr au VIIe siècle."],
-    "05-24": ["Notre-Dame Auxiliatrice", "Marie, « secours des chrétiens », si chère à saint Jean Bosco."],
-    "05-25": ["Saint Bède le Vénérable", "Un moine anglais, le premier historien de l'Angleterre."],
-    "05-26": ["Saint Philippe Néri", "Le saint de la joie, qui faisait rire Rome tout en la convertissant."],
-    "05-27": ["Saint Augustin de Cantorbéry", "Un moine envoyé de Rome pour évangéliser les Anglais."],
-    "05-28": ["Saint Germain de Paris", "Un évêque de Paris, très généreux envers les pauvres et les captifs."],
-    "05-29": ["Saint Paul VI", "Le pape qui a conduit le concile Vatican II à son terme."],
-    "05-30": ["Sainte Jeanne d'Arc", "Une jeune paysanne de Lorraine qui a suivi ses voix jusqu'au bout."],
-    "05-31": ["La Visitation", "Marie rend visite à sa cousine Élisabeth."],
-    "06-01": ["Saint Justin", "Un philosophe qui a cherché la vérité partout, et l'a trouvée dans le Christ."],
-    "06-02": ["Les martyrs de Lyon", "Sainte Blandine et ses compagnons, martyrs en 177 dans l'amphithéâtre de Lyon."],
-    "06-03": ["Saint Charles Lwanga et ses compagnons", "De jeunes martyrs de l'Ouganda, en 1886."],
-    "06-04": ["Sainte Clotilde", "La reine qui a conduit Clovis au baptême."],
-    "06-05": ["Saint Boniface", "Un moine anglais, l'apôtre de l'Allemagne."],
-    "06-06": ["Saint Norbert", "Un noble converti après avoir été jeté à terre par la foudre ; il a fondé les Prémontrés."],
-    "06-07": ["Bienheureuse Anne de Saint-Barthélemy", "Une bergère de Castille, compagne de sainte Thérèse d'Avila, venue fonder des carmels en France."],
-    "06-08": ["Saint Médard", "Un évêque de Noyon. « S'il pleut à la Saint-Médard, il pleut quarante jours plus tard », dit le dicton."],
-    "06-09": ["Saint Éphrem", "Un diacre de Syrie, « la harpe de l'Esprit Saint », auteur de nombreux hymnes."],
-    "06-10": ["Saint Landry", "Un évêque de Paris qui a fondé le premier hôpital de la ville."],
-    "06-11": ["Saint Barnabé", "Le compagnon de saint Paul, « un homme bon, rempli d'Esprit Saint »."],
-    "06-12": ["Saint Onuphre", "Un ermite du désert d'Égypte, longtemps oublié de tous."],
-    "06-13": ["Saint Antoine de Padoue", "Le prédicateur au grand cœur, qu'on prie pour retrouver ce qu'on a perdu."],
-    "06-14": ["Le prophète Élisée", "Le disciple d'Élie, qui a guéri Naaman et ressuscité un enfant."],
-    "06-15": ["Sainte Germaine de Pibrac", "Une petite bergère malmenée, qui partageait son pain avec plus pauvre qu'elle."],
-    "06-16": ["Saint Jean-François Régis", "Un jésuite missionnaire des montagnes du Velay et du Vivarais."],
-    "06-17": ["Saint Albert Chmielowski", "Un peintre polonais qui a tout quitté pour servir les sans-abri."],
-    "06-18": ["Saint Grégoire Barbarigo", "Un évêque de Padoue, très proche des pauvres et des séminaristes."],
-    "06-19": ["Saint Romuald", "Un moine qui a fondé les Camaldules, entre vie commune et vie d'ermite."],
-    "06-20": ["Sainte Florentine", "La sœur des saints Léandre et Isidore de Séville, abbesse en Espagne."],
-    "06-21": ["Saint Louis de Gonzague", "Un jeune jésuite mort à 23 ans en soignant les malades de la peste."],
-    "06-22": ["Saint Thomas More", "Un chancelier d'Angleterre, mari et père, mort pour sa conscience."],
-    "06-23": ["Saint Joseph Cafasso", "Un prêtre de Turin, le guide de saint Jean Bosco, ami des prisonniers."],
-    "06-24": ["La Nativité de saint Jean-Baptiste", "La naissance de celui qui prépare le chemin de Jésus. C'est la Saint-Jean d'été."],
-    "06-25": ["Saint Guillaume de Montevergine", "Un pèlerin devenu ermite, qui a fondé un monastère près de Naples."],
-    "06-26": ["Saint Pélage de Cordoue", "Un adolescent de 13 ans, martyr à Cordoue en 925."],
-    "06-27": ["Saint Cyrille d'Alexandrie", "Un évêque qui a défendu le titre de Marie, Mère de Dieu."],
-    "06-28": ["Saint Irénée de Lyon", "Un évêque de Lyon qui disait : « La gloire de Dieu, c'est l'homme vivant. »"],
-    "06-29": ["Saints Pierre et Paul", "Les deux colonnes de l'Église, morts à Rome."],
-    "06-30": ["Les premiers martyrs de Rome", "Les chrétiens tués sous Néron, après l'incendie de Rome en 64."],
-    "07-01": ["Saint Junípero Serra", "Un franciscain de Majorque, fondateur des missions de Californie."],
-    "07-02": ["Saints Processus et Martinien", "Selon la tradition, les gardiens de prison de saint Pierre, baptisés par lui."],
-    "07-03": ["Saint Thomas", "L'apôtre qui a douté, puis a dit à Jésus : « Mon Seigneur et mon Dieu ! »"],
-    "07-04": ["Sainte Élisabeth de Portugal", "Une reine artisane de paix, qui a réconcilié son mari et son fils."],
-    "07-05": ["Saint Antoine-Marie Zaccaria", "Un médecin devenu prêtre, fondateur des Barnabites."],
-    "07-06": ["Sainte Maria Goretti", "Une jeune fille de 11 ans qui a pardonné à celui qui l'a tuée."],
-    "07-07": ["Saint Firmin", "Le premier évêque d'Amiens, né à Pampelune, où l'on fête la San Fermín."],
-    "07-08": ["Saints Aquila et Priscille", "Un couple de fabricants de tentes, amis et collaborateurs de saint Paul."],
-    "07-09": ["Saint Augustin Zhao Rong et ses compagnons", "Les martyrs de Chine, 120 saints canonisés en 2000."],
-    "07-10": ["Saint Antoine des Grottes de Kiev", "Un moine qui a fondé la laure des Grottes de Kiev."],
-    "07-11": ["Saint Benoît", "Le père des moines d'Occident et patron de l'Europe."],
-    "07-12": ["Saints Louis et Zélie Martin", "Les parents de sainte Thérèse de Lisieux, le premier couple canonisé ensemble."],
-    "07-13": ["Saint Henri", "Un empereur germanique, juste et pieux, avec son épouse sainte Cunégonde."],
-    "07-14": ["Saint Camille de Lellis", "Un ancien soldat joueur qui a fondé un ordre pour soigner les malades."],
-    "07-15": ["Saint Bonaventure", "Un franciscain, théologien et biographe de saint François."],
-    "07-16": ["Notre-Dame du Mont-Carmel", "Marie honorée par les carmes, sur la montagne du prophète Élie."],
-    "07-17": ["Les carmélites de Compiègne", "Seize religieuses guillotinées en 1794 en chantant."],
-    "07-18": ["Saint Frédéric d'Utrecht", "Un évêque d'Utrecht, martyr au IXe siècle."],
-    "07-19": ["Saint Arsène le Grand", "Un précepteur d'empereurs parti au désert d'Égypte."],
-    "07-20": ["Le prophète Élie", "Le prophète qui a entendu Dieu dans le murmure d'une brise légère."],
-    "07-21": ["Saint Laurent de Brindes", "Un capucin qui parlait de nombreuses langues, docteur de l'Église."],
-    "07-22": ["Sainte Marie-Madeleine", "La première à voir Jésus ressuscité, « l'apôtre des apôtres »."],
-    "07-23": ["Sainte Brigitte de Suède", "Une mère de huit enfants, mystique, patronne de l'Europe."],
-    "07-24": ["Saint Charbel Makhlouf", "Un moine ermite du Liban, homme de silence et de prière."],
-    "07-25": ["Saint Jacques le Majeur", "L'apôtre que l'on vénère à Saint-Jacques-de-Compostelle."],
-    "07-26": ["Saints Joachim et Anne", "Les parents de Marie, les grands-parents de Jésus."],
-    "07-27": ["Saints Aurèle et Nathalie", "Un couple de Cordoue, martyrs en 852."],
-    "07-28": ["Sainte Alphonsa", "Une religieuse du Kerala, la première sainte née en Inde."],
-    "07-29": ["Saints Marthe, Marie et Lazare", "Les amis de Jésus à Béthanie."],
-    "07-30": ["Saint Pierre Chrysologue", "Un évêque de Ravenne au « verbe d'or »."],
-    "07-31": ["Saint Ignace de Loyola", "Un soldat blessé qui a fondé les Jésuites et appris à discerner."],
-    "08-01": ["Saint Alphonse de Liguori", "Un avocat de Naples devenu prêtre, docteur de l'Église, plein de douceur."],
-    "08-02": ["Saint Pierre-Julien Eymard", "Un prêtre de l'Isère, l'apôtre de l'Eucharistie."],
-    "08-03": ["Sainte Lydie", "Une marchande de pourpre de Philippes, la première baptisée d'Europe (Ac 16)."],
-    "08-04": ["Saint Jean-Marie Vianney", "Le curé d'Ars, qui passait ses journées à confesser et consoler."],
-    "08-05": ["Notre-Dame des Neiges", "La dédicace de Sainte-Marie-Majeure, la grande basilique de Marie à Rome."],
-    "08-06": ["La Transfiguration", "Sur la montagne, Jésus apparaît dans sa lumière."],
-    "08-07": ["Saint Gaétan", "Un prêtre de Vicence qui a tout misé sur la Providence."],
-    "08-08": ["Saint Dominique", "Le fondateur des frères prêcheurs, qui parlait « à Dieu ou de Dieu »."],
-    "08-09": ["Sainte Thérèse-Bénédicte de la Croix", "Edith Stein, philosophe juive devenue carmélite, morte à Auschwitz."],
-    "08-10": ["Saint Laurent", "Un diacre de Rome qui montrait les pauvres en disant : « Voilà les trésors de l'Église. »"],
-    "08-11": ["Sainte Claire", "L'amie de saint François, fondatrice des Clarisses."],
-    "08-12": ["Sainte Jeanne de Chantal", "Une veuve et mère de famille, amie de saint François de Sales."],
-    "08-13": ["Saints Pontien et Hippolyte", "Un pape et un prêtre, adversaires réconciliés dans l'exil."],
-    "08-14": ["Saint Maximilien Kolbe", "Un franciscain qui a pris la place d'un père de famille à Auschwitz."],
-    "08-15": ["L'Assomption", "Marie entre, corps et âme, dans la gloire de Dieu."],
-    "08-16": ["Saint Roch", "Un pèlerin de Montpellier qui soignait les malades de la peste, et qu'un chien a nourri."],
-    "08-17": ["Sainte Jeanne Delanoue", "Une marchande de Saumur qui a ouvert sa maison aux pauvres."],
-    "08-18": ["Sainte Hélène", "La mère de l'empereur Constantin, partie en pèlerinage à Jérusalem."],
-    "08-19": ["Saint Jean Eudes", "Un prêtre normand, missionnaire, apôtre du Cœur de Jésus et de Marie."],
-    "08-20": ["Saint Bernard de Clairvaux", "Un moine bourguignon, grand chantre de Marie."],
-    "08-21": ["Saint Pie X", "Le pape qui a ouvert la communion aux jeunes enfants."],
-    "08-22": ["Marie Reine", "Une semaine après l'Assomption, Marie couronnée reine."],
-    "08-23": ["Sainte Rose de Lima", "La première sainte des Amériques, qui soignait les pauvres chez elle."],
-    "08-24": ["Saint Barthélemy", "L'apôtre que Jésus a vu sous le figuier."],
-    "08-25": ["Saint Louis", "Le roi de France qui servait lui-même les pauvres à sa table."],
-    "08-26": ["Sainte Thérèse Jornet", "Une Catalane qui a fondé les Petites Sœurs des anciens abandonnés."],
-    "08-27": ["Sainte Monique", "La mère qui a prié des années pour son fils Augustin."],
-    "08-28": ["Saint Augustin", "« Tu nous as faits pour toi, et notre cœur est sans repos tant qu'il ne repose en toi. »"],
-    "08-29": ["La passion de saint Jean-Baptiste", "Jean-Baptiste meurt pour avoir dit la vérité."],
-    "08-30": ["Sainte Jeanne Jugan", "Une Bretonne qui a accueilli dans son lit une vieille femme aveugle : les Petites Sœurs des pauvres sont nées."],
-    "08-31": ["Saints Joseph d'Arimathie et Nicodème", "Les deux hommes qui ont mis Jésus au tombeau."],
-    "09-01": ["La sauvegarde de la Création", "Aujourd'hui, l'Église prie pour la Création, notre maison commune."],
-    "09-02": ["Les martyrs de septembre 1792", "Des prêtres et des évêques tués à Paris pendant la Révolution."],
-    "09-03": ["Saint Grégoire le Grand", "Un pape qui se disait « serviteur des serviteurs de Dieu »."],
-    "09-04": ["Moïse", "Le martyrologe fait mémoire aujourd'hui de Moïse, qui a conduit son peuple hors d'Égypte."],
-    "09-05": ["Sainte Teresa de Calcutta", "Une religieuse qui a servi les mourants des rues de Calcutta."],
-    "09-06": ["Le prophète Zacharie", "Le prophète qui a annoncé un roi humble, monté sur un âne."],
-    "09-07": ["Sainte Reine", "Une jeune martyre de Bourgogne, vénérée à Alise-Sainte-Reine."],
-    "09-08": ["La Nativité de Marie", "La naissance de la mère de Jésus."],
-    "09-09": ["Saint Pierre Claver", "Un jésuite catalan, « l'esclave des esclaves » à Carthagène des Indes."],
-    "09-10": ["Saint Nicolas de Tolentino", "Un frère augustin, consolateur des malades et des défunts."],
-    "09-11": ["Saint Jean-Gabriel Perboyre", "Un prêtre lotois, missionnaire en Chine, martyr en 1840."],
-    "09-12": ["Le saint Nom de Marie", "On fête le nom de Marie, que tant de chrétiens portent."],
-    "09-13": ["Saint Jean Chrysostome", "Un évêque de Constantinople à la « bouche d'or »."],
-    "09-14": ["La Croix glorieuse", "La croix, signe de mort devenu signe d'amour."],
-    "09-15": ["Notre-Dame des Douleurs", "Marie debout au pied de la croix."],
-    "09-16": ["Saints Corneille et Cyprien", "Un pape et un évêque de Carthage, amis et martyrs."],
-    "09-17": ["Sainte Hildegarde de Bingen", "Une abbesse allemande, musicienne, savante et docteur de l'Église."],
-    "09-18": ["Saint Joseph de Cupertino", "Un frère simple, peu doué pour les études, patron des étudiants qui passent un examen."],
-    "09-19": ["Saint Janvier", "Un évêque martyr, patron de Naples."],
-    "09-20": ["Saint André Kim et ses compagnons", "Les martyrs de Corée, dont l'Église est née de laïcs."],
-    "09-21": ["Saint Matthieu", "Le collecteur d'impôts que Jésus a appelé à sa table."],
-    "09-22": ["Saint Maurice", "Un officier de la légion thébaine, martyr à Agaune, en Suisse."],
-    "09-23": ["Saint Pio de Pietrelcina", "Le Padre Pio, capucin, confesseur de foules."],
-    "09-24": ["Notre-Dame de la Merci", "La Mercè, patronne de Barcelone, fête de toute la ville."],
-    "09-25": ["Saint Serge de Radonège", "Un moine de la forêt russe, père de la vie monastique en Russie."],
-    "09-26": ["Saints Côme et Damien", "Deux frères médecins qui soignaient sans se faire payer."],
-    "09-27": ["Saint Vincent de Paul", "Le prêtre de la charité, au service des pauvres de France."],
-    "09-28": ["Saint Venceslas", "Un duc de Bohême, patron des Tchèques."],
-    "09-29": ["Saints Michel, Gabriel et Raphaël", "Les trois archanges."],
-    "09-30": ["Saint Jérôme", "Le savant qui a traduit la Bible en latin : « Ignorer les Écritures, c'est ignorer le Christ. »"],
-    "10-01": ["Sainte Thérèse de l'Enfant-Jésus", "La « petite voie » de la confiance, patronne des missions."],
-    "10-02": ["Les saints anges gardiens", "Chacun a un ange qui veille sur lui."],
-    "10-03": ["Le Transitus de saint François", "Le soir du 3 octobre 1226, François d'Assise meurt en chantant un psaume."],
-    "10-04": ["Saint François d'Assise", "Le petit pauvre d'Assise, frère de toute la Création."],
-    "10-05": ["Sainte Faustine", "Une religieuse polonaise, messagère de la miséricorde de Dieu."],
-    "10-06": ["Saint Bruno", "Un professeur de Reims parti au désert de Chartreuse."],
-    "10-07": ["Notre-Dame du Rosaire", "Le chapelet, prière des petits et des grands."],
-    "10-08": ["Sainte Pélagie", "Une actrice célèbre d'Antioche, convertie, qui a fini sa vie en ermite à Jérusalem."],
-    "10-09": ["Saint Denis", "Le premier évêque de Paris, martyr à Montmartre."],
-    "10-10": ["Saint Daniel Comboni", "Un missionnaire italien qui voulait « sauver l'Afrique par l'Afrique »."],
-    "10-11": ["Saint Jean XXIII", "Le « bon pape Jean », qui a ouvert le concile Vatican II le 11 octobre 1962."],
-    "10-12": ["Notre-Dame du Pilar", "La patronne de l'Espagne, vénérée à Saragosse."],
-    "10-13": ["Le miracle du soleil", "Le 13 octobre 1917, à Fatima, des milliers de personnes disent avoir vu le soleil danser."],
-    "10-14": ["Saint Calixte Ier", "Un ancien esclave devenu pape, au IIIe siècle."],
-    "10-15": ["Sainte Thérèse d'Avila", "Une carmélite de Castille, qui parlait à Dieu comme à un ami."],
-    "10-16": ["Sainte Marguerite-Marie", "Une religieuse de Paray-le-Monial, confidente du Cœur de Jésus."],
-    "10-17": ["Saint Ignace d'Antioche", "Un évêque qui a écrit sept lettres en route vers son martyre à Rome."],
-    "10-18": ["Saint Luc", "Le médecin qui a écrit un Évangile et les Actes des Apôtres."],
-    "10-19": ["Les martyrs canadiens", "Jean de Brébeuf, Isaac Jogues et leurs compagnons, missionnaires français."],
-    "10-20": ["Saint Caprais d'Agen", "Un jeune chrétien d'Agen, martyr au début du IVe siècle."],
-    "10-21": ["Sainte Ursule", "Une martyre de Cologne qui a donné son nom aux Ursulines."],
-    "10-22": ["Saint Jean-Paul II", "Le pape venu de Pologne : « N'ayez pas peur ! »"],
-    "10-23": ["Saint Jean de Capistran", "Un juriste italien devenu franciscain, grand prédicateur."],
-    "10-24": ["Saint Antoine-Marie Claret", "Un tisserand catalan devenu missionnaire et archevêque de Cuba."],
-    "10-25": ["Saints Crépin et Crépinien", "Deux frères cordonniers de Soissons, patrons des cordonniers."],
-    "10-26": ["Saint Démétrius", "Un martyr de Thessalonique, très aimé des chrétiens d'Orient."],
-    "10-27": ["La prière d'Assise", "Le 27 octobre 1986, Jean-Paul II réunit à Assise les religions du monde pour prier pour la paix."],
-    "10-28": ["Saints Simon et Jude", "Deux apôtres partis annoncer l'Évangile en Orient."],
-    "10-29": ["Saint Narcisse", "Un évêque, patron de Gérone, en Catalogne."],
-    "10-30": ["Saint Alphonse Rodriguez", "Un frère portier de Majorque, qui accueillait chacun comme le Christ."],
-    "10-31": ["Saint Quentin", "Un jeune Romain venu évangéliser la Picardie, martyr."],
-    "11-01": ["La Toussaint", "La fête de tous les saints, connus et inconnus."],
-    "11-02": ["Les fidèles défunts", "On prie pour tous ceux qui sont morts."],
-    "11-03": ["Saint Martin de Porres", "Un frère dominicain de Lima, ami des pauvres et des animaux."],
-    "11-04": ["Saint Charles Borromée", "Un archevêque de Milan, resté auprès des malades pendant la peste."],
-    "11-05": ["Saints Zacharie et Élisabeth", "Les parents de Jean-Baptiste, qui ont attendu longtemps un enfant."],
-    "11-06": ["Saint Léonard de Noblat", "Un ermite du Limousin, patron des prisonniers."],
-    "11-07": ["Saint Willibrord", "Un moine anglais, l'apôtre des Pays-Bas et du Luxembourg."],
-    "11-08": ["Sainte Élisabeth de la Trinité", "Une carmélite de Dijon, morte à 26 ans : « Je vais à la lumière, à l'amour, à la vie. »"],
-    "11-09": ["La dédicace du Latran", "La cathédrale du pape, « mère de toutes les églises »."],
-    "11-10": ["Saint Léon le Grand", "Le pape qui a rencontré Attila aux portes de Rome."],
-    "11-11": ["Saint Martin de Tours", "Le soldat qui a partagé son manteau avec un pauvre."],
-    "11-12": ["Saint Josaphat", "Un évêque d'Ukraine, martyr de l'unité des chrétiens."],
-    "11-13": ["Saint Diego d'Alcalá", "Un frère franciscain andalou, cuisinier et ami des pauvres."],
-    "11-14": ["Saint Laurent O'Toole", "Un archevêque de Dublin, artisan de paix."],
-    "11-15": ["Saint Albert le Grand", "Un savant dominicain, maître de saint Thomas d'Aquin."],
-    "11-16": ["Sainte Gertrude", "Une moniale allemande, mystique du Cœur de Jésus."],
-    "11-17": ["Sainte Élisabeth de Hongrie", "Une jeune princesse qui a fondé un hôpital pour les pauvres."],
-    "11-18": ["La dédicace des basiliques de Pierre et Paul", "Les deux grandes églises de Rome bâties sur leurs tombeaux."],
-    "11-19": ["Sainte Mechtilde", "Une moniale de Helfta, chantre de l'abbaye, mystique."],
-    "11-20": ["Saint Edmond", "Un jeune roi d'Est-Anglie, martyr en 869."],
-    "11-21": ["La Présentation de Marie", "Marie, enfant, consacrée à Dieu."],
-    "11-22": ["Sainte Cécile", "Une martyre de Rome, patronne des musiciens."],
-    "11-23": ["Saint Colomban", "Un moine irlandais qui a fondé Luxeuil et traversé l'Europe."],
-    "11-24": ["Les martyrs du Vietnam", "Saint André Dung-Lac et 116 compagnons, morts au XIXe siècle."],
-    "11-25": ["Sainte Catherine d'Alexandrie", "Une jeune savante d'Alexandrie, patronne des philosophes."],
-    "11-26": ["Saint Léonard de Port-Maurice", "Un franciscain qui a répandu le chemin de croix."],
-    "11-27": ["La Médaille miraculeuse", "Le 27 novembre 1830, à Paris, Marie montre à Catherine Labouré une médaille à faire frapper."],
-    "11-28": ["Saint Jacques de la Marche", "Un franciscain prédicateur, qui a parcouru l'Europe de l'Est."],
-    "11-29": ["Saint Saturnin", "Le premier évêque de Toulouse, saint Sernin."],
-    "11-30": ["Saint André", "Le premier appelé, frère de Pierre."],
-    "12-01": ["Saint Charles de Foucauld", "Un ancien officier devenu le « frère universel » au Sahara."],
-    "12-02": ["Bienheureux Jean Ruysbroeck", "Un prêtre de Bruxelles, mystique de la forêt de Soignes."],
-    "12-03": ["Saint François Xavier", "Un Navarrais, compagnon d'Ignace, missionnaire jusqu'au Japon."],
-    "12-04": ["Sainte Barbe", "Une martyre, patronne des pompiers et des mineurs."],
-    "12-05": ["Saint Sabbas", "Un moine de Palestine, fondateur d'un monastère qui existe encore."],
-    "12-06": ["Saint Nicolas", "L'évêque de Myre, protecteur des enfants."],
-    "12-07": ["Saint Ambroise", "Un évêque de Milan, qui a baptisé saint Augustin."],
-    "12-08": ["L'Immaculée Conception", "Marie préservée du péché dès le premier instant de sa vie."],
-    "12-09": ["Saint Juan Diego", "Un Indien du Mexique à qui la Vierge de Guadalupe est apparue."],
-    "12-10": ["Notre-Dame de Lorette", "La « sainte maison » de Nazareth vénérée à Lorette."],
-    "12-11": ["Saint Damase", "Un pape qui a demandé à saint Jérôme de traduire la Bible."],
-    "12-12": ["Notre-Dame de Guadalupe", "La patronne des Amériques."],
-    "12-13": ["Sainte Lucie", "Une martyre de Syracuse, dont le nom veut dire « lumière »."],
-    "12-14": ["Saint Jean de la Croix", "Un carme de Castille, poète de la nuit et de l'amour."],
-    "12-15": ["Sainte Virginie Centurione Bracelli", "Une veuve de Gênes qui a ouvert sa maison aux pauvres et aux orphelins."],
-    "12-16": ["Sainte Adélaïde", "Une impératrice, artisane de paix, au Xe siècle."],
-    "12-17": ["Ô Sagesse", "Aujourd'hui commencent les grandes antiennes « Ô », qui appellent le Christ par ses noms avant Noël."],
-    "12-18": ["Ô Adonaï", "Le Seigneur qui a parlé à Moïse dans le buisson ardent, appelé à venir nous libérer."],
-    "12-19": ["Ô Rameau de Jessé", "Le Christ, rejeton du roi David, appelé à venir sans tarder."],
-    "12-20": ["Ô Clé de David", "Celui qui ouvre et que nul ne ferme, appelé à libérer les captifs."],
-    "12-21": ["Ô Orient", "« Astre levant, splendeur de la lumière éternelle » : le Christ, soleil qui se lève."],
-    "12-22": ["Ô Roi des nations", "Le Christ, pierre angulaire qui rassemble tous les peuples."],
-    "12-23": ["Ô Emmanuel", "« Dieu avec nous », la dernière antienne avant Noël."],
-    "12-24": ["La veille de Noël", "Ce soir, l'Église veille et attend la naissance de Jésus."],
-    "12-25": ["Noël", "La naissance de Jésus à Bethléem."],
-    "12-26": ["Saint Étienne", "Le premier martyr, qui a pardonné à ceux qui le lapidaient."],
-    "12-27": ["Saint Jean", "L'apôtre « que Jésus aimait »."],
-    "12-28": ["Les saints Innocents", "Les enfants de Bethléem tués sur l'ordre d'Hérode."],
-    "12-29": ["Saint Thomas Becket", "Un archevêque de Cantorbéry assassiné dans sa cathédrale."],
-    "12-30": ["Anne la prophétesse", "Une veuve très âgée qui a reconnu l'enfant Jésus au Temple (Lc 2, 36-38)."],
-    "12-31": ["Saint Sylvestre", "Le pape du temps de Constantin, qui ferme l'année."]
+    "01-01": [
+      "Sainte Marie, Mère de Dieu",
+      "L'année commence avec Marie, la mère de Jésus."
+    ],
+    "01-02": [
+      "Saints Basile et Grégoire",
+      "Deux amis d'études devenus évêques, qui ont défendu la foi au IVe siècle."
+    ],
+    "01-03": [
+      "Sainte Geneviève",
+      "La patronne de Paris, qui a rassuré la ville quand Attila approchait."
+    ],
+    "01-04": [
+      "Saint Odilon",
+      "Un abbé de Cluny ; c'est lui qui a institué, le 2 novembre, la journée de prière pour les défunts."
+    ],
+    "01-05": [
+      "Saint Édouard le Confesseur",
+      "Un roi d'Angleterre doux et juste, bâtisseur de l'abbaye de Westminster."
+    ],
+    "01-06": [
+      "Saint Mélaine",
+      "Un évêque de Rennes au VIe siècle, très aimé en Bretagne."
+    ],
+    "01-07": [
+      "Saint Raymond de Peñafort",
+      "Un dominicain de Barcelone, juriste et homme de paix, qui a vécu presque cent ans."
+    ],
+    "01-08": [
+      "Saint Lucien de Beauvais",
+      "Le premier évêque de Beauvais, martyr vers l'an 290."
+    ],
+    "01-09": [
+      "Bienheureuse Alix Le Clerc",
+      "Une Lorraine qui a fondé, avec saint Pierre Fourier, des écoles gratuites pour les filles."
+    ],
+    "01-10": [
+      "Saint Guillaume de Bourges",
+      "Un archevêque connu pour sa douceur avec les pauvres et les prisonniers."
+    ],
+    "01-11": [
+      "Saint Paulin d'Aquilée",
+      "Un évêque poète, ami de Charlemagne, qui a écrit de beaux chants pour l'Église."
+    ],
+    "01-12": [
+      "Sainte Tatiana",
+      "Une martyre de Rome au IIIe siècle, très fêtée en Russie, où c'est aussi le jour des étudiants."
+    ],
+    "01-13": [
+      "Saint Hilaire de Poitiers",
+      "Un évêque de Gaule, marié avant d'être prêtre, défenseur courageux de la foi."
+    ],
+    "01-14": [
+      "Sainte Nino",
+      "Une jeune femme qui a apporté l'Évangile en Géorgie au IVe siècle."
+    ],
+    "01-15": [
+      "Saint Rémi",
+      "L'évêque de Reims qui a baptisé Clovis, roi des Francs."
+    ],
+    "01-16": [
+      "Saint Marcel",
+      "Un pape de Rome au début du IVe siècle, au temps des persécutions."
+    ],
+    "01-17": [
+      "Saint Antoine le Grand",
+      "Le père des moines, parti au désert pour chercher Dieu dans le silence."
+    ],
+    "01-18": [
+      "L'unité des chrétiens",
+      "Aujourd'hui commence la semaine de prière pour l'unité des chrétiens, jusqu'au 25 janvier."
+    ],
+    "01-19": [
+      "Saint Henri d'Uppsala",
+      "Un évêque venu d'Angleterre, que la Finlande honore comme son premier apôtre."
+    ],
+    "01-20": [
+      "Saint Sébastien",
+      "Un soldat romain resté fidèle au Christ, l'un des martyrs les plus aimés de Rome."
+    ],
+    "01-21": [
+      "Sainte Agnès",
+      "Une jeune fille de Rome, martyre vers 13 ans, symbole de pureté et de courage."
+    ],
+    "01-22": [
+      "Saint Vincent",
+      "Un diacre d'Espagne, martyr à Valence, que les vignerons prennent pour patron."
+    ],
+    "01-23": [
+      "Saint Barnard",
+      "Un archevêque de Vienne, en Dauphiné, au IXe siècle, fondateur d'abbayes."
+    ],
+    "01-24": [
+      "Saint François de Sales",
+      "L'évêque de la douceur, patron des journalistes et des écrivains."
+    ],
+    "01-25": [
+      "La conversion de saint Paul",
+      "Sur la route de Damas, le persécuteur devient l'apôtre."
+    ],
+    "01-26": [
+      "Saints Timothée et Tite",
+      "Deux jeunes compagnons de saint Paul, à qui il a écrit des lettres."
+    ],
+    "01-27": [
+      "Sainte Angèle Merici",
+      "Une Italienne qui a voulu instruire les filles, à une époque où on ne le faisait guère."
+    ],
+    "01-28": [
+      "Saint Thomas d'Aquin",
+      "Un très grand penseur, qui a dit à la fin que tout ce qu'il avait écrit n'était que de la paille à côté de Dieu."
+    ],
+    "01-29": [
+      "Saint Gildas",
+      "Un moine venu de Grande-Bretagne en Bretagne, qui a fondé l'abbaye de Rhuys."
+    ],
+    "01-30": [
+      "Sainte Martine",
+      "Une martyre de Rome, honorée comme l'une des patronnes de la ville."
+    ],
+    "01-31": [
+      "Saint Jean Bosco",
+      "Le prêtre des jeunes des rues de Turin, qui éduquait par la joie et la confiance."
+    ],
+    "02-01": [
+      "Sainte Brigitte de Kildare",
+      "Une abbesse d'Irlande, célèbre pour sa générosité et son hospitalité."
+    ],
+    "02-02": [
+      "La Présentation du Seigneur",
+      "Marie et Joseph portent Jésus au Temple : c'est la Chandeleur."
+    ],
+    "02-03": [
+      "Saint Blaise",
+      "Un évêque d'Arménie ; on bénit encore les gorges en son nom aujourd'hui."
+    ],
+    "02-04": [
+      "Sainte Véronique",
+      "Selon la tradition, la femme qui a essuyé le visage de Jésus sur le chemin de la croix."
+    ],
+    "02-05": [
+      "Sainte Agathe",
+      "Une martyre de Sicile, patronne de Catane et de ceux qui souffrent."
+    ],
+    "02-06": [
+      "Saint Paul Miki et ses compagnons",
+      "Vingt-six chrétiens crucifiés à Nagasaki en 1597, en chantant."
+    ],
+    "02-07": [
+      "Bienheureuse Marie de la Providence",
+      "Née à Lille, elle a fondé une congrégation pour prier pour les défunts et servir les vivants."
+    ],
+    "02-08": [
+      "Sainte Joséphine Bakhita",
+      "Enlevée enfant au Soudan, vendue comme esclave, elle est devenue religieuse en Italie."
+    ],
+    "02-09": [
+      "Sainte Apolline",
+      "Une martyre d'Alexandrie, patronne des dentistes."
+    ],
+    "02-10": [
+      "Sainte Scholastique",
+      "La sœur jumelle de saint Benoît, dont la prière a fait tomber l'orage."
+    ],
+    "02-11": [
+      "Notre-Dame de Lourdes",
+      "Le 11 février 1858, Marie apparaît à Bernadette. C'est aussi la Journée mondiale des malades."
+    ],
+    "02-12": [
+      "Sainte Eulalie de Barcelone",
+      "Une jeune martyre, patronne de Barcelone avec la Vierge de la Merci."
+    ],
+    "02-13": [
+      "Bienheureux Jourdain de Saxe",
+      "Le successeur de saint Dominique, grand prédicateur auprès des étudiants."
+    ],
+    "02-14": [
+      "Saints Cyrille et Méthode",
+      "Deux frères qui ont inventé un alphabet pour donner la Bible aux peuples slaves."
+    ],
+    "02-15": [
+      "Saint Claude La Colombière",
+      "Un jésuite, ami et soutien de sainte Marguerite-Marie à Paray-le-Monial."
+    ],
+    "02-16": [
+      "Sainte Julienne",
+      "Une martyre de Nicomédie, dans l'actuelle Turquie, au début du IVe siècle."
+    ],
+    "02-17": [
+      "Les sept fondateurs des Servites",
+      "Sept marchands de Florence qui ont tout quitté pour servir Marie."
+    ],
+    "02-18": [
+      "Sainte Bernadette",
+      "La jeune bergère de Lourdes, à qui Marie est apparue en 1858."
+    ],
+    "02-19": [
+      "Saint Conrad de Plaisance",
+      "Un noble qui avait causé un grand incendie et qui a passé sa vie à réparer."
+    ],
+    "02-20": [
+      "Saints François et Jacinthe Marto",
+      "Deux enfants bergers de Fatima, frère et sœur, à qui Marie est apparue."
+    ],
+    "02-21": [
+      "Saint Pierre Damien",
+      "Un moine réformateur qui a appelé l'Église à la simplicité."
+    ],
+    "02-22": [
+      "La Chaire de saint Pierre",
+      "On fête la mission confiée à Pierre : affermir ses frères."
+    ],
+    "02-23": [
+      "Saint Polycarpe",
+      "Un évêque de Smyrne qui avait connu l'apôtre Jean, martyr à 86 ans."
+    ],
+    "02-24": [
+      "L'appel de saint François",
+      "Selon la tradition, c'est un 24 février que François d'Assise a entendu l'Évangile qui a changé sa vie."
+    ],
+    "02-25": [
+      "Sainte Walburge",
+      "Une moniale anglaise partie évangéliser l'Allemagne avec ses frères."
+    ],
+    "02-26": [
+      "Saint Porphyre de Gaza",
+      "Un évêque de Gaza au Ve siècle, venu de Thessalonique."
+    ],
+    "02-27": [
+      "Saint Grégoire de Narek",
+      "Un moine arménien poète, docteur de l'Église, auteur d'un grand livre de prières."
+    ],
+    "02-28": [
+      "Saint Romain du Jura",
+      "Un ermite parti dans les forêts du Jura, où des moines l'ont rejoint."
+    ],
+    "02-29": [
+      "Saint Oswald de Worcester",
+      "Un évêque anglais qui lavait chaque jour les pieds de douze pauvres."
+    ],
+    "03-01": [
+      "Saint Aubin",
+      "Un évêque d'Angers au VIe siècle, qui rachetait les prisonniers."
+    ],
+    "03-02": [
+      "Bienheureux Charles le Bon",
+      "Un comte de Flandre qui a nourri son peuple pendant une famine."
+    ],
+    "03-03": [
+      "Saint Guénolé",
+      "Un moine breton, fondateur de l'abbaye de Landévennec."
+    ],
+    "03-04": [
+      "Saint Casimir",
+      "Un jeune prince de Pologne, connu pour son amour des pauvres."
+    ],
+    "03-05": [
+      "Saint Jean-Joseph de la Croix",
+      "Un franciscain de Naples, d'une grande humilité."
+    ],
+    "03-06": [
+      "Sainte Colette",
+      "Une jeune femme de Corbie qui a renouvelé l'ordre de sainte Claire."
+    ],
+    "03-07": [
+      "Saintes Perpétue et Félicité",
+      "Une jeune mère et sa servante, martyres ensemble à Carthage en 203."
+    ],
+    "03-08": [
+      "Saint Jean de Dieu",
+      "Un Portugais de Grenade qui a fondé un hôpital pour ceux dont personne ne voulait."
+    ],
+    "03-09": [
+      "Sainte Françoise Romaine",
+      "Une mère de famille de Rome, au service des malades pendant la peste."
+    ],
+    "03-10": [
+      "Saint Jean Ogilvie",
+      "Un prêtre jésuite écossais, martyr à Glasgow en 1615."
+    ],
+    "03-11": [
+      "Saint Euloge de Cordoue",
+      "Un prêtre de Cordoue qui a soutenu les chrétiens persécutés, martyr en 859."
+    ],
+    "03-12": [
+      "Saint Maximilien de Tébessa",
+      "Un jeune homme de 21 ans qui a refusé de porter les armes, martyr en 295."
+    ],
+    "03-13": [
+      "Saint Rodrigue",
+      "Un prêtre de Cordoue, martyr en 857. Le 13 mars 2013, le pape François était élu."
+    ],
+    "03-14": [
+      "Sainte Mathilde",
+      "Une reine de Germanie, généreuse jusqu'à vider le trésor pour les pauvres."
+    ],
+    "03-15": [
+      "Sainte Louise de Marillac",
+      "Avec saint Vincent de Paul, elle a fondé les Filles de la Charité."
+    ],
+    "03-16": [
+      "Saint Héribert de Cologne",
+      "Un archevêque de Cologne connu pour sa charité pendant une famine."
+    ],
+    "03-17": [
+      "Saint Patrick",
+      "Enlevé par des pirates, esclave en Irlande, il y est revenu pour l'évangéliser."
+    ],
+    "03-18": [
+      "Saint Cyrille de Jérusalem",
+      "Un évêque qui a expliqué la foi aux nouveaux baptisés avec une grande clarté."
+    ],
+    "03-19": [
+      "Saint Joseph",
+      "L'époux de Marie, qui a veillé sur Jésus dans le silence."
+    ],
+    "03-20": [
+      "Saint Cuthbert",
+      "Un berger devenu moine et évêque, très aimé dans le nord de l'Angleterre."
+    ],
+    "03-21": [
+      "Saint Nicolas de Flue",
+      "Un père de dix enfants devenu ermite, qui a sauvé la Suisse de la guerre civile."
+    ],
+    "03-22": [
+      "Sainte Léa",
+      "Une veuve de Rome qui a choisi une vie de prière et de service."
+    ],
+    "03-23": [
+      "Saint Turibio de Mogrovejo",
+      "Un archevêque de Lima qui a parcouru son immense diocèse à pied."
+    ],
+    "03-24": [
+      "Saint Oscar Romero",
+      "Un archevêque du Salvador, tué pendant la messe le 24 mars 1980 parce qu'il défendait les pauvres."
+    ],
+    "03-25": [
+      "L'Annonciation",
+      "L'ange Gabriel vient chez Marie, et elle dit oui."
+    ],
+    "03-26": [
+      "Saint Ludger",
+      "Un évêque de Münster, élève d'Alcuin, missionnaire en Frise."
+    ],
+    "03-27": [
+      "Saint Rupert de Salzbourg",
+      "L'évêque qui a fondé la ville et l'abbaye de Salzbourg."
+    ],
+    "03-28": [
+      "Saint Gontran",
+      "Un roi de Burgondie qui a changé de vie et soigné son peuple pendant la peste."
+    ],
+    "03-29": [
+      "Saint Eustase de Luxeuil",
+      "Un abbé de Luxeuil, disciple de saint Colomban."
+    ],
+    "03-30": [
+      "Saint Jean Climaque",
+      "Un moine du Sinaï qui a décrit la vie spirituelle comme une échelle."
+    ],
+    "03-31": [
+      "Saint Benjamin",
+      "Un diacre de Perse, martyr au Ve siècle pour n'avoir pas voulu se taire."
+    ],
+    "04-01": [
+      "Saint Hugues de Grenoble",
+      "L'évêque qui a accueilli saint Bruno et l'a aidé à fonder la Grande Chartreuse."
+    ],
+    "04-02": [
+      "Saint François de Paule",
+      "Un ermite de Calabre qui a fondé l'ordre des Minimes, les « plus petits »."
+    ],
+    "04-03": [
+      "Saint Richard de Chichester",
+      "Un évêque anglais qui a écrit une prière célèbre pour mieux connaître le Christ."
+    ],
+    "04-04": [
+      "Saint Isidore de Séville",
+      "Un évêque savant qui a voulu rassembler tout le savoir de son temps."
+    ],
+    "04-05": [
+      "Saint Vincent Ferrier",
+      "Un dominicain de Valence qui a prêché à travers toute l'Europe."
+    ],
+    "04-06": [
+      "Saint Marcellin de Carthage",
+      "Un haut fonctionnaire romain, ami de saint Augustin, martyr en 413."
+    ],
+    "04-07": [
+      "Saint Jean-Baptiste de La Salle",
+      "Un prêtre de Reims qui a fondé des écoles gratuites pour les enfants pauvres."
+    ],
+    "04-08": [
+      "Sainte Julie Billiart",
+      "Paralysée pendant vingt ans, elle a fondé une congrégation pour l'éducation des filles."
+    ],
+    "04-09": [
+      "Saint Gautier",
+      "Un abbé de Pontoise, au XIe siècle, qui fuyait les honneurs."
+    ],
+    "04-10": [
+      "Saint Fulbert de Chartres",
+      "L'évêque qui a reconstruit la cathédrale de Chartres après un incendie."
+    ],
+    "04-11": [
+      "Saint Stanislas",
+      "Un évêque de Cracovie, martyr en 1079, patron de la Pologne."
+    ],
+    "04-12": [
+      "Sainte Teresa de los Andes",
+      "Une jeune carmélite chilienne, morte à 19 ans, pleine de joie."
+    ],
+    "04-13": [
+      "Saint Martin Ier",
+      "Un pape exilé en Crimée, mort pour avoir défendu la foi."
+    ],
+    "04-14": [
+      "Sainte Lydwine de Schiedam",
+      "Une jeune Hollandaise blessée en patinant, qui a offert ses longues souffrances."
+    ],
+    "04-15": [
+      "Saint César de Bus",
+      "Un prêtre d'Avignon qui a fondé des prêtres pour enseigner le catéchisme simplement."
+    ],
+    "04-16": [
+      "Saint Benoît-Joseph Labre",
+      "Un pèlerin pauvre, qui a vécu dans les rues de Rome en priant dans les églises."
+    ],
+    "04-17": [
+      "Sainte Kateri Tekakwitha",
+      "Une jeune Iroquoise devenue chrétienne, première sainte amérindienne."
+    ],
+    "04-18": [
+      "Saint Parfait de Cordoue",
+      "Un prêtre de Cordoue, martyr en 850."
+    ],
+    "04-19": [
+      "Saint Léon IX",
+      "Un pape né en Alsace, qui a beaucoup voyagé pour réformer l'Église."
+    ],
+    "04-20": [
+      "Sainte Agnès de Montepulciano",
+      "Une moniale toscane, entrée au couvent à 9 ans."
+    ],
+    "04-21": [
+      "Saint Anselme",
+      "Un moine d'Aoste devenu archevêque de Cantorbéry : « la foi qui cherche à comprendre »."
+    ],
+    "04-22": [
+      "Saint Caïus",
+      "Un pape de Rome à la fin du IIIe siècle."
+    ],
+    "04-23": [
+      "Saint Georges",
+      "Le saint du dragon. En Catalogne, c'est Sant Jordi : on offre une rose et un livre."
+    ],
+    "04-24": [
+      "Saint Fidèle de Sigmaringen",
+      "Un avocat des pauvres devenu capucin, martyr en Suisse."
+    ],
+    "04-25": [
+      "Saint Marc",
+      "L'auteur du plus court des quatre Évangiles."
+    ],
+    "04-26": [
+      "Notre-Dame du Bon Conseil",
+      "Une image de Marie vénérée à Genazzano, près de Rome."
+    ],
+    "04-27": [
+      "Sainte Zita",
+      "Une servante de Lucques, en Italie, patronne des employés de maison."
+    ],
+    "04-28": [
+      "Saint Louis-Marie Grignion de Montfort",
+      "Un prêtre breton, missionnaire des campagnes de l'Ouest, tout donné à Marie."
+    ],
+    "04-29": [
+      "Sainte Catherine de Sienne",
+      "Une jeune laïque qui a osé écrire au pape pour lui demander de revenir à Rome."
+    ],
+    "04-30": [
+      "Saint Robert de Molesme",
+      "Le fondateur de l'abbaye de Cîteaux, d'où sont nés les cisterciens."
+    ],
+    "05-01": [
+      "Saint Joseph travailleur",
+      "Le jour du travail : Joseph, l'artisan de Nazareth."
+    ],
+    "05-02": [
+      "Saint Athanase",
+      "Un évêque d'Alexandrie, exilé cinq fois pour avoir défendu la divinité du Christ."
+    ],
+    "05-03": [
+      "Saints Philippe et Jacques",
+      "Deux des douze apôtres."
+    ],
+    "05-04": [
+      "Saint Florian",
+      "Un officier romain, patron des pompiers."
+    ],
+    "05-05": [
+      "Judith",
+      "Le jour de sainte Judith, on peut penser à l'héroïne d'un livre de la Bible, qui a sauvé son peuple par son courage."
+    ],
+    "05-06": [
+      "Saint François de Laval",
+      "Le premier évêque de Québec."
+    ],
+    "05-07": [
+      "Sainte Rose Venerini",
+      "Une Italienne qui a ouvert des écoles pour les filles du peuple."
+    ],
+    "05-08": [
+      "L'élection du pape Léon XIV",
+      "Le 8 mai 2025, Robert Prevost, missionnaire au Pérou, devient pape."
+    ],
+    "05-09": [
+      "Saint Pacôme",
+      "Un ancien soldat égyptien, qui a fondé les premiers monastères où l'on vit en communauté."
+    ],
+    "05-10": [
+      "Sainte Solange",
+      "Une jeune bergère du Berry, martyre au IXe siècle, patronne du Berry."
+    ],
+    "05-11": [
+      "Sainte Estelle",
+      "Une martyre de Saintes, devenue la patronne des poètes provençaux du Félibrige."
+    ],
+    "05-12": [
+      "Saint Pancrace",
+      "Un adolescent martyr de Rome, au début du IVe siècle."
+    ],
+    "05-13": [
+      "Notre-Dame de Fatima",
+      "Le 13 mai 1917, Marie apparaît à trois enfants au Portugal."
+    ],
+    "05-14": [
+      "Saint Matthias",
+      "L'apôtre choisi pour remplacer Judas."
+    ],
+    "05-15": [
+      "Saint Isidore le Laboureur",
+      "Un paysan de Madrid, patron de la ville et des agriculteurs."
+    ],
+    "05-16": [
+      "Saint Honoré",
+      "Un évêque d'Amiens, patron des boulangers."
+    ],
+    "05-17": [
+      "Saint Pascal Baylon",
+      "Un berger d'Aragon devenu frère portier, amoureux de l'Eucharistie."
+    ],
+    "05-18": [
+      "Saint Éric",
+      "Un roi de Suède au XIIe siècle, patron de son pays."
+    ],
+    "05-19": [
+      "Saint Yves",
+      "Un juge breton, l'avocat des pauvres, patron des juristes."
+    ],
+    "05-20": [
+      "Saint Bernardin de Sienne",
+      "Un prédicateur qui montrait aux foules le nom de Jésus."
+    ],
+    "05-21": [
+      "Saint Christophe Magallanes",
+      "Un prêtre mexicain martyr en 1927, qui a pardonné à ses bourreaux."
+    ],
+    "05-22": [
+      "Sainte Rita",
+      "Une épouse et mère de Cascia, patronne des causes désespérées."
+    ],
+    "05-23": [
+      "Saint Didier de Vienne",
+      "Un évêque de Vienne, martyr au VIIe siècle."
+    ],
+    "05-24": [
+      "Saints Donatien et Rogatien",
+      "Deux frères de Nantes, martyrs vers l'an 290."
+    ],
+    "05-25": [
+      "Saint Bède le Vénérable",
+      "Un moine anglais, le premier historien de l'Angleterre."
+    ],
+    "05-26": [
+      "Saint Philippe Néri",
+      "Le saint de la joie, qui faisait rire Rome tout en la convertissant."
+    ],
+    "05-27": [
+      "Saint Augustin de Cantorbéry",
+      "Un moine envoyé de Rome pour évangéliser les Anglais."
+    ],
+    "05-28": [
+      "Saint Germain de Paris",
+      "Un évêque de Paris, très généreux envers les pauvres et les captifs."
+    ],
+    "05-29": [
+      "Saint Paul VI",
+      "Le pape qui a conduit le concile Vatican II à son terme."
+    ],
+    "05-30": [
+      "Sainte Jeanne d'Arc",
+      "Une jeune paysanne de Lorraine qui a suivi ses voix jusqu'au bout."
+    ],
+    "05-31": [
+      "La Visitation",
+      "Marie rend visite à sa cousine Élisabeth."
+    ],
+    "06-01": [
+      "Saint Justin",
+      "Un philosophe qui a cherché la vérité partout, et l'a trouvée dans le Christ."
+    ],
+    "06-02": [
+      "Les martyrs de Lyon",
+      "Sainte Blandine et ses compagnons, martyrs en 177 dans l'amphithéâtre de Lyon."
+    ],
+    "06-03": [
+      "Saint Charles Lwanga et ses compagnons",
+      "De jeunes martyrs de l'Ouganda, en 1886."
+    ],
+    "06-04": [
+      "Sainte Clotilde",
+      "La reine qui a conduit Clovis au baptême."
+    ],
+    "06-05": [
+      "Saint Boniface",
+      "Un moine anglais, l'apôtre de l'Allemagne."
+    ],
+    "06-06": [
+      "Saint Norbert",
+      "Un noble converti après avoir été jeté à terre par la foudre ; il a fondé les Prémontrés."
+    ],
+    "06-07": [
+      "Bienheureuse Anne de Saint-Barthélemy",
+      "Une bergère de Castille, compagne de sainte Thérèse d'Avila, venue fonder des carmels en France."
+    ],
+    "06-08": [
+      "Saint Médard",
+      "Un évêque de Noyon. « S'il pleut à la Saint-Médard, il pleut quarante jours plus tard », dit le dicton."
+    ],
+    "06-09": [
+      "Saint Éphrem",
+      "Un diacre de Syrie, « la harpe de l'Esprit Saint », auteur de nombreux hymnes."
+    ],
+    "06-10": [
+      "Saint Landry",
+      "Un évêque de Paris qui a fondé le premier hôpital de la ville."
+    ],
+    "06-11": [
+      "Saint Barnabé",
+      "Le compagnon de saint Paul, « un homme bon, rempli d'Esprit Saint »."
+    ],
+    "06-12": [
+      "Saint Onuphre",
+      "Un ermite du désert d'Égypte, longtemps oublié de tous."
+    ],
+    "06-13": [
+      "Saint Antoine de Padoue",
+      "Le prédicateur au grand cœur, qu'on prie pour retrouver ce qu'on a perdu."
+    ],
+    "06-14": [
+      "Le prophète Élisée",
+      "Le disciple d'Élie, qui a guéri Naaman et ressuscité un enfant."
+    ],
+    "06-15": [
+      "Sainte Germaine de Pibrac",
+      "Une petite bergère malmenée, qui partageait son pain avec plus pauvre qu'elle."
+    ],
+    "06-16": [
+      "Saint Jean-François Régis",
+      "Un jésuite missionnaire des montagnes du Velay et du Vivarais."
+    ],
+    "06-17": [
+      "Saint Hervé",
+      "Un moine breton aveugle, guidé par un loup selon la légende, patron des chanteurs bretons."
+    ],
+    "06-18": [
+      "Saint Grégoire Barbarigo",
+      "Un évêque de Padoue, très proche des pauvres et des séminaristes."
+    ],
+    "06-19": [
+      "Saint Romuald",
+      "Un moine qui a fondé les Camaldules, entre vie commune et vie d'ermite."
+    ],
+    "06-20": [
+      "Sainte Florentine",
+      "La sœur des saints Léandre et Isidore de Séville, abbesse en Espagne."
+    ],
+    "06-21": [
+      "Saint Louis de Gonzague",
+      "Un jeune jésuite mort à 23 ans en soignant les malades de la peste."
+    ],
+    "06-22": [
+      "Saint Thomas More",
+      "Un chancelier d'Angleterre, mari et père, mort pour sa conscience."
+    ],
+    "06-23": [
+      "Saint Joseph Cafasso",
+      "Un prêtre de Turin, le guide de saint Jean Bosco, ami des prisonniers."
+    ],
+    "06-24": [
+      "La Nativité de saint Jean-Baptiste",
+      "La naissance de celui qui prépare le chemin de Jésus. C'est la Saint-Jean d'été."
+    ],
+    "06-25": [
+      "Saint Guillaume de Montevergine",
+      "Un pèlerin devenu ermite, qui a fondé un monastère près de Naples."
+    ],
+    "06-26": [
+      "Saint Pélage de Cordoue",
+      "Un adolescent de 13 ans, martyr à Cordoue en 925."
+    ],
+    "06-27": [
+      "Saint Cyrille d'Alexandrie",
+      "Un évêque qui a défendu le titre de Marie, Mère de Dieu."
+    ],
+    "06-28": [
+      "Saint Irénée de Lyon",
+      "Un évêque de Lyon qui disait : « La gloire de Dieu, c'est l'homme vivant. »"
+    ],
+    "06-29": [
+      "Saints Pierre et Paul",
+      "Les deux colonnes de l'Église, morts à Rome."
+    ],
+    "06-30": [
+      "Les premiers martyrs de Rome",
+      "Les chrétiens tués sous Néron, après l'incendie de Rome en 64."
+    ],
+    "07-01": [
+      "Saint Thierry",
+      "Un abbé du Mont-d'Or, près de Reims, au VIe siècle."
+    ],
+    "07-02": [
+      "Saints Processus et Martinien",
+      "Selon la tradition, les gardiens de prison de saint Pierre, baptisés par lui."
+    ],
+    "07-03": [
+      "Saint Thomas",
+      "L'apôtre qui a douté, puis a dit à Jésus : « Mon Seigneur et mon Dieu ! »"
+    ],
+    "07-04": [
+      "Sainte Élisabeth de Portugal",
+      "Une reine artisane de paix, qui a réconcilié son mari et son fils."
+    ],
+    "07-05": [
+      "Saint Antoine-Marie Zaccaria",
+      "Un médecin devenu prêtre, fondateur des Barnabites."
+    ],
+    "07-06": [
+      "Sainte Maria Goretti",
+      "Une jeune fille de 11 ans qui a pardonné à celui qui l'a tuée."
+    ],
+    "07-07": [
+      "Saint Firmin",
+      "Le premier évêque d'Amiens, né à Pampelune, où l'on fête la San Fermín."
+    ],
+    "07-08": [
+      "Saints Aquila et Priscille",
+      "Un couple de fabricants de tentes, amis et collaborateurs de saint Paul."
+    ],
+    "07-09": [
+      "Saint Augustin Zhao Rong et ses compagnons",
+      "Les martyrs de Chine, 120 saints canonisés en 2000."
+    ],
+    "07-10": [
+      "Saint Antoine des Grottes de Kiev",
+      "Un moine qui a fondé la laure des Grottes de Kiev."
+    ],
+    "07-11": [
+      "Saint Benoît",
+      "Le père des moines d'Occident et patron de l'Europe."
+    ],
+    "07-12": [
+      "Saints Louis et Zélie Martin",
+      "Les parents de sainte Thérèse de Lisieux, le premier couple canonisé ensemble."
+    ],
+    "07-13": [
+      "Saint Henri",
+      "Un empereur germanique, juste et pieux, avec son épouse sainte Cunégonde."
+    ],
+    "07-14": [
+      "Saint Camille de Lellis",
+      "Un ancien soldat joueur qui a fondé un ordre pour soigner les malades."
+    ],
+    "07-15": [
+      "Saint Bonaventure",
+      "Un franciscain, théologien et biographe de saint François."
+    ],
+    "07-16": [
+      "Notre-Dame du Mont-Carmel",
+      "Marie honorée par les carmes, sur la montagne du prophète Élie."
+    ],
+    "07-17": [
+      "Les carmélites de Compiègne",
+      "Seize religieuses guillotinées en 1794 en chantant."
+    ],
+    "07-18": [
+      "Saint Frédéric d'Utrecht",
+      "Un évêque d'Utrecht, martyr au IXe siècle."
+    ],
+    "07-19": [
+      "Saint Arsène le Grand",
+      "Un précepteur d'empereurs parti au désert d'Égypte."
+    ],
+    "07-20": [
+      "Le prophète Élie",
+      "Le prophète qui a entendu Dieu dans le murmure d'une brise légère."
+    ],
+    "07-21": [
+      "Saint Laurent de Brindes",
+      "Un capucin qui parlait de nombreuses langues, docteur de l'Église."
+    ],
+    "07-22": [
+      "Sainte Marie-Madeleine",
+      "La première à voir Jésus ressuscité, « l'apôtre des apôtres »."
+    ],
+    "07-23": [
+      "Sainte Brigitte de Suède",
+      "Une mère de huit enfants, mystique, patronne de l'Europe."
+    ],
+    "07-24": [
+      "Saint Charbel Makhlouf",
+      "Un moine ermite du Liban, homme de silence et de prière."
+    ],
+    "07-25": [
+      "Saint Jacques le Majeur",
+      "L'apôtre que l'on vénère à Saint-Jacques-de-Compostelle."
+    ],
+    "07-26": [
+      "Saints Joachim et Anne",
+      "Les parents de Marie, les grands-parents de Jésus."
+    ],
+    "07-27": [
+      "Saints Aurèle et Nathalie",
+      "Un couple de Cordoue, martyrs en 852."
+    ],
+    "07-28": [
+      "Saint Samson",
+      "Un moine venu du pays de Galles, fondateur de Dol-de-Bretagne."
+    ],
+    "07-29": [
+      "Saints Marthe, Marie et Lazare",
+      "Les amis de Jésus à Béthanie."
+    ],
+    "07-30": [
+      "Saint Pierre Chrysologue",
+      "Un évêque de Ravenne au « verbe d'or »."
+    ],
+    "07-31": [
+      "Saint Ignace de Loyola",
+      "Un soldat blessé qui a fondé les Jésuites et appris à discerner."
+    ],
+    "08-01": [
+      "Saint Alphonse de Liguori",
+      "Un avocat de Naples devenu prêtre, docteur de l'Église, plein de douceur."
+    ],
+    "08-02": [
+      "Saint Pierre-Julien Eymard",
+      "Un prêtre de l'Isère, l'apôtre de l'Eucharistie."
+    ],
+    "08-03": [
+      "Sainte Lydie",
+      "Une marchande de pourpre de Philippes, la première baptisée d'Europe (Ac 16)."
+    ],
+    "08-04": [
+      "Saint Jean-Marie Vianney",
+      "Le curé d'Ars, qui passait ses journées à confesser et consoler."
+    ],
+    "08-05": [
+      "Abel",
+      "Le jour de saint Abel, on pense au fils d'Adam et Ève, le premier juste de la Bible."
+    ],
+    "08-06": [
+      "La Transfiguration",
+      "Sur la montagne, Jésus apparaît dans sa lumière."
+    ],
+    "08-07": [
+      "Saint Gaétan",
+      "Un prêtre de Vicence qui a tout misé sur la Providence."
+    ],
+    "08-08": [
+      "Saint Dominique",
+      "Le fondateur des frères prêcheurs, qui parlait « à Dieu ou de Dieu »."
+    ],
+    "08-09": [
+      "Sainte Thérèse-Bénédicte de la Croix",
+      "Edith Stein, philosophe juive devenue carmélite, morte à Auschwitz."
+    ],
+    "08-10": [
+      "Saint Laurent",
+      "Un diacre de Rome qui montrait les pauvres en disant : « Voilà les trésors de l'Église. »"
+    ],
+    "08-11": [
+      "Sainte Claire",
+      "L'amie de saint François, fondatrice des Clarisses."
+    ],
+    "08-12": [
+      "Sainte Jeanne de Chantal",
+      "Une veuve et mère de famille, amie de saint François de Sales."
+    ],
+    "08-13": [
+      "Saints Pontien et Hippolyte",
+      "Un pape et un prêtre, adversaires réconciliés dans l'exil."
+    ],
+    "08-14": [
+      "Saint Maximilien Kolbe",
+      "Un franciscain qui a pris la place d'un père de famille à Auschwitz."
+    ],
+    "08-15": [
+      "L'Assomption",
+      "Marie entre, corps et âme, dans la gloire de Dieu."
+    ],
+    "08-16": [
+      "Saint Roch",
+      "Un pèlerin de Montpellier qui soignait les malades de la peste, et qu'un chien a nourri."
+    ],
+    "08-17": [
+      "Sainte Jeanne Delanoue",
+      "Une marchande de Saumur qui a ouvert sa maison aux pauvres."
+    ],
+    "08-18": [
+      "Sainte Hélène",
+      "La mère de l'empereur Constantin, partie en pèlerinage à Jérusalem."
+    ],
+    "08-19": [
+      "Saint Jean Eudes",
+      "Un prêtre normand, missionnaire, apôtre du Cœur de Jésus et de Marie."
+    ],
+    "08-20": [
+      "Saint Bernard de Clairvaux",
+      "Un moine bourguignon, grand chantre de Marie."
+    ],
+    "08-21": [
+      "Saint Pie X",
+      "Le pape qui a ouvert la communion aux jeunes enfants."
+    ],
+    "08-22": [
+      "Marie Reine",
+      "Une semaine après l'Assomption, Marie couronnée reine."
+    ],
+    "08-23": [
+      "Sainte Rose de Lima",
+      "La première sainte des Amériques, qui soignait les pauvres chez elle."
+    ],
+    "08-24": [
+      "Saint Barthélemy",
+      "L'apôtre que Jésus a vu sous le figuier."
+    ],
+    "08-25": [
+      "Saint Louis",
+      "Le roi de France qui servait lui-même les pauvres à sa table."
+    ],
+    "08-26": [
+      "Sainte Thérèse Jornet",
+      "Une Catalane qui a fondé les Petites Sœurs des anciens abandonnés."
+    ],
+    "08-27": [
+      "Sainte Monique",
+      "La mère qui a prié des années pour son fils Augustin."
+    ],
+    "08-28": [
+      "Saint Augustin",
+      "« Tu nous as faits pour toi, et notre cœur est sans repos tant qu'il ne repose en toi. »"
+    ],
+    "08-29": [
+      "La passion de saint Jean-Baptiste",
+      "Jean-Baptiste meurt pour avoir dit la vérité."
+    ],
+    "08-30": [
+      "Saint Fiacre",
+      "Un ermite venu d'Irlande, près de Meaux, patron des jardiniers."
+    ],
+    "08-31": [
+      "Saints Joseph d'Arimathie et Nicodème",
+      "Les deux hommes qui ont mis Jésus au tombeau."
+    ],
+    "09-01": [
+      "Saint Gilles",
+      "Un ermite de Provence, protecteur d'une biche selon la légende. C'est aussi la journée de prière pour la Création."
+    ],
+    "09-02": [
+      "Les martyrs de septembre 1792",
+      "Des prêtres et des évêques tués à Paris pendant la Révolution."
+    ],
+    "09-03": [
+      "Saint Grégoire le Grand",
+      "Un pape qui se disait « serviteur des serviteurs de Dieu »."
+    ],
+    "09-04": [
+      "Moïse",
+      "Le martyrologe fait mémoire aujourd'hui de Moïse, qui a conduit son peuple hors d'Égypte."
+    ],
+    "09-05": [
+      "Sainte Teresa de Calcutta",
+      "Une religieuse qui a servi les mourants des rues de Calcutta."
+    ],
+    "09-06": [
+      "Le prophète Zacharie",
+      "Le prophète qui a annoncé un roi humble, monté sur un âne."
+    ],
+    "09-07": [
+      "Sainte Reine",
+      "Une jeune martyre de Bourgogne, vénérée à Alise-Sainte-Reine."
+    ],
+    "09-08": [
+      "La Nativité de Marie",
+      "La naissance de la mère de Jésus."
+    ],
+    "09-09": [
+      "Saint Pierre Claver",
+      "Un jésuite catalan, « l'esclave des esclaves » à Carthagène des Indes."
+    ],
+    "09-10": [
+      "Saint Nicolas de Tolentino",
+      "Un frère augustin, consolateur des malades et des défunts."
+    ],
+    "09-11": [
+      "Saint Jean-Gabriel Perboyre",
+      "Un prêtre lotois, missionnaire en Chine, martyr en 1840."
+    ],
+    "09-12": [
+      "Le saint Nom de Marie",
+      "On fête le nom de Marie, que tant de chrétiens portent."
+    ],
+    "09-13": [
+      "Saint Jean Chrysostome",
+      "Un évêque de Constantinople à la « bouche d'or »."
+    ],
+    "09-14": [
+      "La Croix glorieuse",
+      "La croix, signe de mort devenu signe d'amour."
+    ],
+    "09-15": [
+      "Notre-Dame des Douleurs",
+      "Marie debout au pied de la croix."
+    ],
+    "09-16": [
+      "Saints Corneille et Cyprien",
+      "Un pape et un évêque de Carthage, amis et martyrs."
+    ],
+    "09-17": [
+      "Sainte Hildegarde de Bingen",
+      "Une abbesse allemande, musicienne, savante et docteur de l'Église."
+    ],
+    "09-18": [
+      "Saint Joseph de Cupertino",
+      "Un frère simple, peu doué pour les études, patron des étudiants qui passent un examen."
+    ],
+    "09-19": [
+      "Saint Janvier",
+      "Un évêque martyr, patron de Naples."
+    ],
+    "09-20": [
+      "Saint André Kim et ses compagnons",
+      "Les martyrs de Corée, dont l'Église est née de laïcs."
+    ],
+    "09-21": [
+      "Saint Matthieu",
+      "Le collecteur d'impôts que Jésus a appelé à sa table."
+    ],
+    "09-22": [
+      "Saint Maurice",
+      "Un officier de la légion thébaine, martyr à Agaune, en Suisse."
+    ],
+    "09-23": [
+      "Saint Pio de Pietrelcina",
+      "Le Padre Pio, capucin, confesseur de foules."
+    ],
+    "09-24": [
+      "Notre-Dame de la Merci",
+      "La Mercè, patronne de Barcelone, fête de toute la ville."
+    ],
+    "09-25": [
+      "Saint Serge de Radonège",
+      "Un moine de la forêt russe, père de la vie monastique en Russie."
+    ],
+    "09-26": [
+      "Saints Côme et Damien",
+      "Deux frères médecins qui soignaient sans se faire payer."
+    ],
+    "09-27": [
+      "Saint Vincent de Paul",
+      "Le prêtre de la charité, au service des pauvres de France."
+    ],
+    "09-28": [
+      "Saint Venceslas",
+      "Un duc de Bohême, patron des Tchèques."
+    ],
+    "09-29": [
+      "Saints Michel, Gabriel et Raphaël",
+      "Les trois archanges."
+    ],
+    "09-30": [
+      "Saint Jérôme",
+      "Le savant qui a traduit la Bible en latin : « Ignorer les Écritures, c'est ignorer le Christ. »"
+    ],
+    "10-01": [
+      "Sainte Thérèse de l'Enfant-Jésus",
+      "La « petite voie » de la confiance, patronne des missions."
+    ],
+    "10-02": [
+      "Les saints anges gardiens",
+      "Chacun a un ange qui veille sur lui."
+    ],
+    "10-03": [
+      "Le Transitus de saint François",
+      "Le soir du 3 octobre 1226, François d'Assise meurt en chantant un psaume."
+    ],
+    "10-04": [
+      "Saint François d'Assise",
+      "Le petit pauvre d'Assise, frère de toute la Création."
+    ],
+    "10-05": [
+      "Sainte Faustine",
+      "Une religieuse polonaise, messagère de la miséricorde de Dieu."
+    ],
+    "10-06": [
+      "Saint Bruno",
+      "Un professeur de Reims parti au désert de Chartreuse."
+    ],
+    "10-07": [
+      "Notre-Dame du Rosaire",
+      "Le chapelet, prière des petits et des grands."
+    ],
+    "10-08": [
+      "Sainte Pélagie",
+      "Une actrice célèbre d'Antioche, convertie, qui a fini sa vie en ermite à Jérusalem."
+    ],
+    "10-09": [
+      "Saint Denis",
+      "Le premier évêque de Paris, martyr à Montmartre."
+    ],
+    "10-10": [
+      "Saint Daniel Comboni",
+      "Un missionnaire italien qui voulait « sauver l'Afrique par l'Afrique »."
+    ],
+    "10-11": [
+      "Saint Jean XXIII",
+      "Le « bon pape Jean », qui a ouvert le concile Vatican II le 11 octobre 1962."
+    ],
+    "10-12": [
+      "Notre-Dame du Pilar",
+      "La patronne de l'Espagne, vénérée à Saragosse."
+    ],
+    "10-13": [
+      "Saint Géraud",
+      "Un comte d'Auvergne, laïc juste et généreux, fondateur de l'abbaye d'Aurillac."
+    ],
+    "10-14": [
+      "Saint Calixte Ier",
+      "Un ancien esclave devenu pape, au IIIe siècle."
+    ],
+    "10-15": [
+      "Sainte Thérèse d'Avila",
+      "Une carmélite de Castille, qui parlait à Dieu comme à un ami."
+    ],
+    "10-16": [
+      "Sainte Marguerite-Marie",
+      "Une religieuse de Paray-le-Monial, confidente du Cœur de Jésus."
+    ],
+    "10-17": [
+      "Saint Ignace d'Antioche",
+      "Un évêque qui a écrit sept lettres en route vers son martyre à Rome."
+    ],
+    "10-18": [
+      "Saint Luc",
+      "Le médecin qui a écrit un Évangile et les Actes des Apôtres."
+    ],
+    "10-19": [
+      "Les martyrs canadiens",
+      "Jean de Brébeuf, Isaac Jogues et leurs compagnons, missionnaires français."
+    ],
+    "10-20": [
+      "Saint Caprais d'Agen",
+      "Un jeune chrétien d'Agen, martyr au début du IVe siècle."
+    ],
+    "10-21": [
+      "Sainte Céline",
+      "La mère de saint Rémi, l'évêque qui a baptisé Clovis."
+    ],
+    "10-22": [
+      "Saint Jean-Paul II",
+      "Le pape venu de Pologne : « N'ayez pas peur ! »"
+    ],
+    "10-23": [
+      "Saint Jean de Capistran",
+      "Un juriste italien devenu franciscain, grand prédicateur."
+    ],
+    "10-24": [
+      "Saint Antoine-Marie Claret",
+      "Un tisserand catalan devenu missionnaire et archevêque de Cuba."
+    ],
+    "10-25": [
+      "Saints Crépin et Crépinien",
+      "Deux frères cordonniers de Soissons, patrons des cordonniers."
+    ],
+    "10-26": [
+      "Saint Démétrius",
+      "Un martyr de Thessalonique, très aimé des chrétiens d'Orient."
+    ],
+    "10-27": [
+      "La prière d'Assise",
+      "Le 27 octobre 1986, Jean-Paul II réunit à Assise les religions du monde pour prier pour la paix."
+    ],
+    "10-28": [
+      "Saints Simon et Jude",
+      "Deux apôtres partis annoncer l'Évangile en Orient."
+    ],
+    "10-29": [
+      "Saint Narcisse",
+      "Un évêque, patron de Gérone, en Catalogne."
+    ],
+    "10-30": [
+      "Saint Alphonse Rodriguez",
+      "Un frère portier de Majorque, qui accueillait chacun comme le Christ."
+    ],
+    "10-31": [
+      "Saint Quentin",
+      "Un jeune Romain venu évangéliser la Picardie, martyr."
+    ],
+    "11-01": [
+      "La Toussaint",
+      "La fête de tous les saints, connus et inconnus."
+    ],
+    "11-02": [
+      "Les fidèles défunts",
+      "On prie pour tous ceux qui sont morts."
+    ],
+    "11-03": [
+      "Saint Hubert",
+      "L'évêque de Liège, patron des chasseurs, des forestiers et de l'Ardenne.",
+      {
+        "qui": "Hubert vit au VIIIe siècle. Selon la tradition, c'est un jeune noble passionné de chasse ; après la mort de sa femme, il change de vie, devient prêtre, puis évêque de Maastricht et de Liège, où il évangélise l'Ardenne. Il meurt en 727.",
+        "sens": "La légende raconte qu'un jour de chasse, un cerf portant une croix lumineuse entre ses bois lui serait apparu, et qu'il aurait entendu l'appel du Christ. On fête Hubert le 3 novembre, jour où ses reliques ont été transférées en 743. C'est pour cela que les chasseurs et les forestiers l'ont pris pour patron : ce jour-là, on célèbre encore des messes de la Saint-Hubert au son des trompes de chasse, et l'on bénit les animaux.",
+        "vivre": "Faire une promenade en forêt et remercier Dieu pour la nature et les animaux qu'il nous confie."
+      }
+    ],
+    "11-04": [
+      "Saint Charles Borromée",
+      "Un archevêque de Milan, resté auprès des malades pendant la peste.",
+      {
+        "qui": "Charles Borromée (1538-1584), neveu d'un pape, devient très jeune archevêque de Milan. Au lieu de profiter de son rang, il réforme son diocèse, ouvre des séminaires et des écoles de catéchisme.",
+        "sens": "Quand la peste frappe Milan en 1576, beaucoup de nobles fuient ; lui reste, soigne les malades, vend ses biens pour nourrir la ville. On le fête le 4 novembre, lendemain de sa mort.",
+        "vivre": "Rendre un service concret à quelqu'un qui traverse une épreuve, sans attendre qu'on le demande.",
+        "fort": true
+      }
+    ],
+    "11-05": [
+      "Saints Zacharie et Élisabeth",
+      "Les parents de Jean-Baptiste, qui ont attendu longtemps un enfant.",
+      {
+        "qui": "Zacharie, prêtre du Temple, et Élisabeth, cousine de Marie, sont les parents de Jean-Baptiste. Ils sont âgés et n'ont pas d'enfant.",
+        "sens": "L'Évangile de Luc raconte que l'ange Gabriel annonce à Zacharie la naissance d'un fils ; il doute et devient muet jusqu'à la naissance de Jean (Lc 1). Le martyrologe romain fait mémoire d'eux le 5 novembre.",
+        "vivre": "Confier à Dieu une attente ancienne, même si on n'y croit presque plus."
+      }
+    ],
+    "11-06": [
+      "Saint Léonard de Noblat",
+      "Un ermite du Limousin, patron des prisonniers.",
+      {
+        "qui": "Léonard, au VIe siècle, est un noble franc baptisé par saint Rémi. Il refuse les honneurs et se retire comme ermite près de Limoges, à Noblat.",
+        "sens": "On raconte qu'il obtenait la libération des prisonniers et les accueillait ; il est devenu le patron des prisonniers, et des chaînes ont été offertes en ex-voto dans son église de Saint-Léonard-de-Noblat.",
+        "vivre": "Penser à une personne « enfermée » dans la solitude ou une épreuve, et lui faire signe."
+      }
+    ],
+    "11-07": [
+      "Saint Willibrord",
+      "Un moine anglais, l'apôtre des Pays-Bas et du Luxembourg.",
+      {
+        "qui": "Willibrord (658-739), moine anglais, part évangéliser la Frise, l'actuelle Hollande. Il devient le premier évêque d'Utrecht.",
+        "sens": "Il fonde l'abbaye d'Echternach, au Luxembourg, où il est enterré. Chaque année, le mardi de Pentecôte, une procession dansante y a lieu en son honneur : elle est inscrite au patrimoine culturel de l'humanité par l'Unesco.",
+        "vivre": "Saluer quelqu'un d'une autre culture ou d'un autre pays qu'on croise souvent sans lui parler."
+      }
+    ],
+    "11-08": [
+      "Sainte Élisabeth de la Trinité",
+      "Une carmélite de Dijon, morte à 26 ans : « Je vais à la lumière, à l'amour, à la vie. »",
+      {
+        "qui": "Élisabeth Catez (1880-1906) est une jeune fille de Dijon, pianiste douée et au caractère vif. Elle entre au carmel de Dijon et meurt à 26 ans d'une maladie douloureuse.",
+        "sens": "Elle a découvert que Dieu habite au fond de chacun : sa vie de prière est tout entière tournée vers cette présence. Elle a été canonisée en 2016 par le pape François. On la fête le 8 novembre, quelques jours avant l'anniversaire de sa mort, le 9.",
+        "vivre": "Prendre une minute de silence pour se rappeler que Dieu est là, au fond de soi."
+      }
+    ],
+    "11-09": [
+      "La dédicace du Latran",
+      "La cathédrale du pape, « mère de toutes les églises »."
+    ],
+    "11-10": [
+      "Saint Léon le Grand",
+      "Le pape qui a rencontré Attila aux portes de Rome.",
+      {
+        "qui": "Léon le Grand est pape de 440 à 461, à une époque où l'Empire romain s'effondre.",
+        "sens": "En 452, il va à la rencontre d'Attila, qui menace Rome, et obtient qu'il se retire. Il a aussi écrit des lettres et des sermons très clairs sur Jésus, vrai Dieu et vrai homme. On le fête le 10 novembre, jour de sa mort.",
+        "vivre": "Oser une parole de paix dans une situation tendue.",
+        "fort": true
+      }
+    ],
+    "11-11": [
+      "Saint Martin de Tours",
+      "Le soldat qui a partagé son manteau avec un pauvre.",
+      {
+        "qui": "Martin (vers 316-397) est un soldat romain né en Hongrie. Un jour d'hiver, à Amiens, il coupe son manteau en deux pour un pauvre transi de froid ; la nuit suivante, il voit en rêve le Christ vêtu de ce morceau de manteau.",
+        "sens": "Il se fait baptiser, devient moine puis évêque de Tours, et parcourt les campagnes de Gaule. Il est l'un des saints les plus populaires de France : des milliers de villages et d'églises portent son nom. Le 11 novembre est aussi, en France, le jour de l'armistice de 1918.",
+        "vivre": "Partager quelque chose de chaud : un vêtement, un repas, un moment.",
+        "fort": true
+      }
+    ],
+    "11-12": [
+      "Saint Josaphat",
+      "Un évêque d'Ukraine, martyr de l'unité des chrétiens.",
+      {
+        "qui": "Josaphat Kuntsevych (vers 1580-1623) est un moine puis archevêque de Polotsk, dans l'actuelle Biélorussie.",
+        "sens": "Chrétien de rite oriental uni à Rome, il a travaillé toute sa vie à l'unité entre catholiques et orthodoxes. Il a été tué en 1623 au milieu de violentes tensions. On le fête le 12 novembre, jour de sa mort.",
+        "vivre": "Prier pour l'unité des chrétiens, et pour un proche avec qui on est fâché.",
+        "fort": true
+      }
+    ],
+    "11-13": [
+      "Saint Brice",
+      "Le successeur de saint Martin à Tours, longtemps turbulent avant de changer de vie.",
+      {
+        "qui": "Brice (vers 370-444) est un jeune clerc formé par saint Martin à Tours. Il est orgueilleux et bagarreur, et donne bien des soucis à son maître.",
+        "sens": "Martin aurait dit que Brice deviendrait pourtant son successeur ; c'est ce qui arrive. Évêque contesté, exilé un temps, il change peu à peu et revient à Tours, où il meurt en paix. Un saint qui montre que personne n'est jamais perdu.",
+        "vivre": "Accorder une seconde chance à quelqu'un qui nous a déçus."
+      }
+    ],
+    "11-14": [
+      "Saint Laurent O'Toole",
+      "Un archevêque de Dublin, artisan de paix.",
+      {
+        "qui": "Laurent O'Toole (1128-1180) est archevêque de Dublin, en Irlande.",
+        "sens": "À une époque de guerres entre Irlandais et Anglais, il cherche sans cesse la paix. Il meurt en Normandie, à Eu, en allant plaider la cause de son peuple auprès du roi d'Angleterre ; il y est enterré.",
+        "vivre": "Faire un pas vers la réconciliation dans une dispute."
+      }
+    ],
+    "11-15": [
+      "Saint Albert le Grand",
+      "Un savant dominicain, maître de saint Thomas d'Aquin.",
+      {
+        "qui": "Albert le Grand (vers 1200-1280) est un dominicain allemand, évêque de Ratisbonne. Il étudie tout : les plantes, les animaux, les minéraux, l'astronomie, la philosophie.",
+        "sens": "Il a été le maître de saint Thomas d'Aquin à Paris et à Cologne. Proclamé docteur de l'Église, il est le patron des scientifiques : pour lui, étudier la nature, c'est aussi admirer son Créateur.",
+        "vivre": "Observer de près une plante, une pierre ou un insecte, et s'émerveiller."
+      }
+    ],
+    "11-16": [
+      "Sainte Marguerite d'Écosse",
+      "Une reine d'Écosse, mère de huit enfants, très généreuse envers les pauvres.",
+      {
+        "qui": "Marguerite (vers 1045-1093), princesse anglaise, devient reine d'Écosse en épousant le roi Malcolm. Ils ont huit enfants.",
+        "sens": "Elle nourrit chaque jour des pauvres à sa table, fonde des églises et des refuges pour les pèlerins. Elle est la patronne de l'Écosse. On la fête le 16 novembre, jour de sa mort.",
+        "vivre": "Inviter quelqu'un de seul à partager un repas."
+      }
+    ],
+    "11-17": [
+      "Sainte Élisabeth de Hongrie",
+      "Une jeune princesse qui a fondé un hôpital pour les pauvres.",
+      {
+        "qui": "Élisabeth de Hongrie (1207-1231), fille du roi de Hongrie, épouse très jeune le landgrave de Thuringe. Veuve à 20 ans avec trois enfants, elle quitte la cour.",
+        "sens": "Elle consacre le reste de sa courte vie aux malades, dans un hôpital qu'elle a fondé à Marbourg. On raconte que du pain qu'elle portait aux pauvres se serait changé en roses. Elle meurt à 24 ans.",
+        "vivre": "Donner un peu de son temps à une association qui aide les malades ou les pauvres."
+      }
+    ],
+    "11-18": [
+      "La dédicace des basiliques de Pierre et Paul",
+      "Les deux grandes églises de Rome bâties sur leurs tombeaux.",
+      {
+        "qui": "Les basiliques Saint-Pierre et Saint-Paul-hors-les-Murs, à Rome, sont bâties sur les tombeaux des deux apôtres.",
+        "sens": "Le 18 novembre, l'Église fête l'anniversaire de leur dédicace, c'est-à-dire de leur consécration. Elle rappelle ainsi que la foi des chrétiens repose sur le témoignage de ces apôtres, morts à Rome.",
+        "vivre": "Penser à l'église où l'on a été baptisé et rendre grâce pour ceux qui nous ont transmis la foi."
+      }
+    ],
+    "11-19": [
+      "Saint Tanguy",
+      "Un moine breton, fondateur de l'abbaye de Saint-Mathieu, près de Brest.",
+      {
+        "qui": "Tanguy est un moine breton du VIe siècle.",
+        "sens": "Selon la tradition, il aurait commis un crime terrible dans sa jeunesse avant de se convertir et de fonder l'abbaye de Saint-Mathieu, à la pointe du Finistère. Il est très aimé en Bretagne : son histoire dit que le pardon de Dieu peut relever n'importe qui.",
+        "vivre": "Demander pardon pour une faute qui nous pèse depuis longtemps."
+      }
+    ],
+    "11-20": [
+      "Saint Edmond",
+      "Un jeune roi d'Est-Anglie, martyr en 869.",
+      {
+        "qui": "Edmond (vers 841-869) est un jeune roi d'Est-Anglie, en Angleterre.",
+        "sens": "Vaincu par les envahisseurs vikings, il refuse de renier sa foi et meurt martyr. La ville de Bury St Edmunds porte son nom ; il a longtemps été le patron de l'Angleterre.",
+        "vivre": "Rester fidèle à ce que l'on croit, même quand ce n'est pas facile."
+      }
+    ],
+    "11-21": [
+      "La Présentation de Marie",
+      "Marie, enfant, consacrée à Dieu.",
+      {
+        "qui": "Ce jour fait mémoire de la présentation de Marie, enfant, au Temple de Jérusalem.",
+        "sens": "Ce récit ne vient pas de la Bible mais d'un texte ancien, le Protévangile de Jacques. L'Église y voit Marie tout entière donnée à Dieu dès son enfance. En Orient, c'est l'une des grandes fêtes de l'année.",
+        "vivre": "Offrir sa journée à Dieu, simplement, le matin.",
+        "fort": true
+      }
+    ],
+    "11-22": [
+      "Sainte Cécile",
+      "Une martyre de Rome, patronne des musiciens.",
+      {
+        "qui": "Cécile est une jeune martyre de Rome, au IIIe siècle, l'une des saintes les plus anciennement honorées.",
+        "sens": "Selon le récit de sa passion, le jour de ses noces, elle « chantait à Dieu dans son cœur » pendant que jouaient les instruments : elle est devenue la patronne des musiciens. Partout, des chorales et des fanfares portent son nom et font la fête à la Sainte-Cécile.",
+        "vivre": "Chanter ou écouter un beau chant, en pensant à Dieu.",
+        "fort": true
+      }
+    ],
+    "11-23": [
+      "Saint Clément",
+      "Le troisième successeur de saint Pierre, auteur d'une lettre aux chrétiens de Corinthe.",
+      {
+        "qui": "Clément est le troisième successeur de saint Pierre comme évêque de Rome, à la fin du Ier siècle.",
+        "sens": "Il a écrit une lettre aux chrétiens de Corinthe, divisés par des querelles, pour les appeler à la paix et à l'humilité : c'est l'un des plus anciens textes chrétiens après le Nouveau Testament. Selon la tradition, il serait mort martyr en Crimée.",
+        "vivre": "Écrire un mot pour apaiser une dispute dans sa famille ou entre amis."
+      }
+    ],
+    "11-24": [
+      "Les martyrs du Vietnam",
+      "Saint André Dung-Lac et 116 compagnons, morts au XIXe siècle.",
+      {
+        "qui": "André Dung-Lac et ses 116 compagnons sont des martyrs du Vietnam, tués entre 1745 et 1862 : prêtres, catéchistes, pères et mères de famille, vietnamiens, espagnols et français.",
+        "sens": "Des milliers de chrétiens ont été persécutés au Vietnam ; ceux-ci ont été canonisés ensemble par Jean-Paul II en 1988. Leur fidélité a fait naître une Église vivante, encore très active aujourd'hui.",
+        "vivre": "Prier pour les chrétiens qui, aujourd'hui encore, sont persécutés pour leur foi.",
+        "fort": true
+      }
+    ],
+    "11-25": [
+      "Sainte Catherine d'Alexandrie",
+      "Une jeune savante d'Alexandrie, patronne des philosophes.",
+      {
+        "qui": "Catherine d'Alexandrie est, selon la tradition, une jeune fille très savante d'Égypte, martyre au début du IVe siècle.",
+        "sens": "Elle aurait tenu tête à des philosophes chargés de la faire renoncer à sa foi, et en aurait convaincu plusieurs. Patronne des philosophes et des étudiants, elle a donné en France la fête des « catherinettes », les jeunes femmes de 25 ans encore célibataires, qui portent ce jour-là des chapeaux extravagants.",
+        "vivre": "Prendre le temps de réfléchir à une question de foi qui nous travaille."
+      }
+    ],
+    "11-26": [
+      "Bienheureuse Delphine",
+      "Une Provençale, épouse de saint Elzéar, qui a choisi avec lui une vie simple et donnée.",
+      {
+        "qui": "Delphine de Sabran (vers 1284-1360) est une noble provençale. Mariée à Elzéar de Sabran, elle partage avec lui une vie de prière et de charité.",
+        "sens": "Après la mort de son mari, reconnu saint, elle vend ses biens et vit pauvrement, au service des plus petits. Elle a été déclarée bienheureuse. Une sainte de la vie de couple et de la simplicité.",
+        "vivre": "Faire une petite chose ensemble, en couple ou en famille, pour quelqu'un d'autre."
+      }
+    ],
+    "11-27": [
+      "La Médaille miraculeuse",
+      "Le 27 novembre 1830, à Paris, Marie montre à Catherine Labouré une médaille à faire frapper.",
+      {
+        "qui": "En 1830, à Paris, rue du Bac, une jeune religieuse de 24 ans, Catherine Labouré, dit avoir vu la Vierge Marie.",
+        "sens": "Le 27 novembre, Marie lui aurait demandé de faire frapper une médaille, avec la prière : « Ô Marie conçue sans péché, priez pour nous qui avons recours à vous. » Des millions de « médailles miraculeuses » ont été distribuées dans le monde. La chapelle de la rue du Bac accueille toujours de nombreux visiteurs.",
+        "vivre": "Dire une fois, aujourd'hui, la prière de la médaille."
+      }
+    ],
+    "11-28": [
+      "Saint Jacques de la Marche",
+      "Un franciscain prédicateur, qui a parcouru l'Europe de l'Est.",
+      {
+        "qui": "Jacques de la Marche (1394-1476) est un franciscain italien, grand prédicateur.",
+        "sens": "Il parcourt l'Europe centrale et l'Italie pour prêcher la paix et la conversion, et aide à fonder des « monts-de-piété », des banques de prêt sans intérêt pour protéger les pauvres de l'usure.",
+        "vivre": "Prêter quelque chose sans rien attendre en retour."
+      }
+    ],
+    "11-29": [
+      "Saint Saturnin",
+      "Le premier évêque de Toulouse, saint Sernin.",
+      {
+        "qui": "Saturnin, qu'on appelle aussi Sernin, est le premier évêque de Toulouse, au IIIe siècle.",
+        "sens": "Selon la tradition, il refusa de sacrifier aux idoles et fut attaché à un taureau qui le traîna dans les rues de la ville. La grande basilique Saint-Sernin de Toulouse s'élève sur son tombeau.",
+        "vivre": "Visiter une église ancienne de sa ville et chercher qui en est le saint patron."
+      }
+    ],
+    "11-30": [
+      "Saint André",
+      "Le premier appelé, frère de Pierre."
+    ],
+    "12-01": [
+      "Saint Charles de Foucauld",
+      "Un ancien officier devenu le « frère universel » au Sahara.",
+      {
+        "qui": "Charles de Foucauld (1858-1916), officier de cavalerie fêtard, puis explorateur du Maroc, retrouve la foi à 28 ans.",
+        "sens": "Il devient prêtre et part vivre au Sahara, parmi les Touaregs, comme un « frère universel », en priant et en servant. Il est tué à Tamanrasset le 1er décembre 1916. Il a été canonisé en 2022.",
+        "vivre": "Être simplement présent et attentif à quelqu'un qu'on ne connaît pas bien."
+      }
+    ],
+    "12-02": [
+      "Bienheureux Jean Ruysbroeck",
+      "Un prêtre de Bruxelles, mystique de la forêt de Soignes.",
+      {
+        "qui": "Jean Ruysbroeck (1293-1381) est un prêtre de Bruxelles.",
+        "sens": "À cinquante ans, il se retire dans la forêt de Soignes avec quelques compagnons et y écrit des livres sur la vie intérieure, qui ont influencé de nombreux spirituels. Il a été déclaré bienheureux.",
+        "vivre": "Faire une marche en silence, en écoutant ce qui se passe au fond de soi."
+      }
+    ],
+    "12-03": [
+      "Saint François Xavier",
+      "Un Navarrais, compagnon d'Ignace, missionnaire jusqu'au Japon.",
+      {
+        "qui": "François Xavier (1506-1552), noble de Navarre, est l'un des premiers compagnons de saint Ignace de Loyola.",
+        "sens": "Il part en Inde, puis au Japon, et meurt aux portes de la Chine. Infatigable, il a baptisé des milliers de personnes. Il est le patron des missions avec sainte Thérèse de Lisieux.",
+        "vivre": "Parler simplement de sa foi à quelqu'un qui pose une question.",
+        "fort": true
+      }
+    ],
+    "12-04": [
+      "Sainte Barbe",
+      "Une martyre, patronne des pompiers et des mineurs.",
+      {
+        "qui": "Barbe est une martyre des premiers siècles, très populaire, dont l'histoire est surtout connue par la légende.",
+        "sens": "On raconte que son père l'avait enfermée dans une tour et qu'il fut frappé par la foudre après l'avoir tuée. Elle est devenue la patronne de tous ceux qui travaillent avec le feu et les explosions : pompiers, mineurs, artificiers. En Provence, on sème ce jour-là du blé dans une coupelle, qui sera vert à Noël.",
+        "vivre": "Semer quelques grains de blé ou de lentilles dans une coupelle et les regarder pousser jusqu'à Noël."
+      }
+    ],
+    "12-05": [
+      "Saint Sabbas",
+      "Un moine de Palestine, fondateur d'un monastère qui existe encore.",
+      {
+        "qui": "Sabbas (439-532) est un moine né en Cappadoce, dans l'actuelle Turquie.",
+        "sens": "Il fonde en Palestine, dans le désert près de Jérusalem, un monastère accroché à la falaise, Mar Saba, où des moines prient encore aujourd'hui, quinze siècles plus tard.",
+        "vivre": "Prendre un moment de calme, loin des écrans."
+      }
+    ],
+    "12-06": [
+      "Saint Nicolas",
+      "L'évêque de Myre, protecteur des enfants.",
+      {
+        "qui": "Nicolas est évêque de Myre, dans l'actuelle Turquie, au IVe siècle.",
+        "sens": "On raconte qu'il aurait jeté discrètement de l'or par la fenêtre de trois jeunes filles pauvres pour qu'elles puissent se marier, et qu'il aurait sauvé trois enfants. Il est devenu le protecteur des enfants. Dans l'est de la France, en Belgique ou aux Pays-Bas, il apporte des friandises dans la nuit du 5 au 6 décembre : c'est de lui que vient le Père Noël.",
+        "vivre": "Faire un cadeau en secret, sans dire que c'est soi.",
+        "fort": true
+      }
+    ],
+    "12-07": [
+      "Saint Ambroise",
+      "Un évêque de Milan, qui a baptisé saint Augustin.",
+      {
+        "qui": "Ambroise (vers 340-397) est gouverneur de Milan quand le peuple, pendant une élection mouvementée, réclame qu'il devienne évêque ; il n'est même pas encore baptisé.",
+        "sens": "Il devient un pasteur courageux, qui ose tenir tête à l'empereur, et un grand prédicateur : c'est en l'écoutant qu'Augustin s'est converti. Il a composé des hymnes que l'on chante encore. On le fête le jour de son ordination épiscopale.",
+        "vivre": "Écouter ou lire un hymne ancien de l'Église.",
+        "fort": true
+      }
+    ],
+    "12-08": [
+      "L'Immaculée Conception",
+      "Marie préservée du péché dès le premier instant de sa vie."
+    ],
+    "12-09": [
+      "Saint Pierre Fourier",
+      "Un curé lorrain qui a ouvert des écoles gratuites et une caisse d'entraide pour les pauvres.",
+      {
+        "qui": "Pierre Fourier (1565-1640) est curé de Mattaincourt, dans les Vosges.",
+        "sens": "Il ouvre des écoles gratuites pour les filles avec Alix Le Clerc, crée une caisse d'entraide pour que les pauvres ne s'endettent pas, et visite chaque famille de sa paroisse. On l'a appelé « le bon père de Mattaincourt ».",
+        "vivre": "Aider un enfant à faire ses devoirs ou à apprendre quelque chose."
+      }
+    ],
+    "12-10": [
+      "Notre-Dame de Lorette",
+      "La « sainte maison » de Nazareth vénérée à Lorette.",
+      {
+        "qui": "Lorette est une petite ville d'Italie, près de la mer Adriatique.",
+        "sens": "Selon une tradition, on y vénère la « sainte maison » de Nazareth, où Marie aurait reçu l'annonce de l'ange. C'est l'un des plus grands sanctuaires mariaux d'Italie ; Notre-Dame de Lorette est aussi la patronne des aviateurs.",
+        "vivre": "Prier un Je vous salue Marie en pensant à la maison de Nazareth."
+      }
+    ],
+    "12-11": [
+      "Saint Damase",
+      "Un pape qui a demandé à saint Jérôme de traduire la Bible.",
+      {
+        "qui": "Damase est pape de 366 à 384.",
+        "sens": "Il a demandé à saint Jérôme de traduire la Bible en latin, la langue que tout le monde parlait alors : c'est la Vulgate. Il a aussi fait rechercher et orner les tombes des martyrs dans les catacombes de Rome.",
+        "vivre": "Lire un passage de la Bible dans sa langue, en pensant à ceux qui l'ont traduite."
+      }
+    ],
+    "12-12": [
+      "Notre-Dame de Guadalupe",
+      "La patronne des Amériques."
+    ],
+    "12-13": [
+      "Sainte Lucie",
+      "Une martyre de Syracuse, dont le nom veut dire « lumière ».",
+      {
+        "qui": "Lucie est une jeune martyre de Syracuse, en Sicile, vers 304.",
+        "sens": "Son nom vient du latin lux, « lumière ». Sa fête tombait autrefois au jour le plus court de l'année : en Suède, on la célèbre par des processions de jeunes filles couronnées de bougies, qui chantent dans la nuit.",
+        "vivre": "Allumer une bougie ce soir, en signe de la lumière qui vient à Noël.",
+        "fort": true
+      }
+    ],
+    "12-14": [
+      "Saint Jean de la Croix",
+      "Un carme de Castille, poète de la nuit et de l'amour.",
+      {
+        "qui": "Jean de la Croix (1542-1591) est un carme espagnol, ami de sainte Thérèse d'Avila, avec qui il réforme le Carmel.",
+        "sens": "Emprisonné par ses propres frères, il écrit dans sa cellule des poèmes parmi les plus beaux de la langue espagnole. Il parle de la « nuit obscure », ces moments où Dieu semble absent, mais où il est tout proche. Il est docteur de l'Église.",
+        "vivre": "Se rappeler qu'un passage difficile peut être un chemin vers la lumière.",
+        "fort": true
+      }
+    ],
+    "12-15": [
+      "Sainte Virginie Centurione Bracelli",
+      "Une veuve de Gênes qui a ouvert sa maison aux pauvres et aux orphelins.",
+      {
+        "qui": "Virginie Centurione Bracelli (1587-1651) est une noble de Gênes, veuve à 20 ans avec deux filles.",
+        "sens": "Pendant une famine, elle ouvre sa maison aux jeunes filles abandonnées, puis fonde des œuvres pour les malades et les pauvres de la ville. Elle a été canonisée en 2003.",
+        "vivre": "Ouvrir sa porte : inviter un voisin ou un ami pour un café."
+      }
+    ],
+    "12-16": [
+      "Sainte Adélaïde",
+      "Une impératrice, artisane de paix, au Xe siècle.",
+      {
+        "qui": "Adélaïde (vers 931-999) est impératrice du Saint-Empire romain germanique.",
+        "sens": "Veuve, emprisonnée, puis libérée, elle gouverne avec sagesse, apaise les conflits et fonde des monastères. Elle finit sa vie dans la prière, en Alsace, à Seltz.",
+        "vivre": "Calmer une tension autour de soi par un mot doux."
+      }
+    ],
+    "12-17": [
+      "Ô Sagesse",
+      "Aujourd'hui commencent les grandes antiennes « Ô », qui appellent le Christ par ses noms avant Noël.",
+      {
+        "qui": "Du 17 au 23 décembre, l'Église chante avant le Magnificat, au soir, sept « grandes antiennes » qui commencent toutes par « Ô ».",
+        "sens": "Chacune appelle le Christ d'un nom tiré de l'Ancien Testament. La première, « Ô Sagesse », demande au Christ, Sagesse sortie de la bouche du Très-Haut, de venir nous enseigner le chemin. Lues à l'envers, les initiales latines des sept antiennes forment « ERO CRAS » : « Je serai là demain ».",
+        "vivre": "Dire ce soir : « Viens, Seigneur Jésus ! »"
+      }
+    ],
+    "12-18": [
+      "Ô Adonaï",
+      "Le Seigneur qui a parlé à Moïse dans le buisson ardent, appelé à venir nous libérer.",
+      {
+        "qui": "Adonaï est un nom hébreu de Dieu, qui veut dire « Seigneur ».",
+        "sens": "L'antienne rappelle le buisson ardent, où Dieu s'est révélé à Moïse, et le don de la Loi au Sinaï : elle demande au Christ de venir nous libérer « le bras étendu », comme Dieu a libéré son peuple d'Égypte.",
+        "vivre": "Penser à ce qui nous retient prisonnier, et le confier à Dieu."
+      }
+    ],
+    "12-19": [
+      "Ô Rameau de Jessé",
+      "Le Christ, rejeton du roi David, appelé à venir sans tarder.",
+      {
+        "qui": "Jessé est le père du roi David.",
+        "sens": "Le prophète Isaïe annonce qu'« un rameau sortira de la souche de Jessé » (Is 11, 1) : un descendant de David, le Messie. L'antienne voit en Jésus ce rameau, devant qui les rois se tairont.",
+        "vivre": "Regarder son arbre généalogique et remercier pour ceux qui nous ont précédés."
+      }
+    ],
+    "12-20": [
+      "Ô Clé de David",
+      "Celui qui ouvre et que nul ne ferme, appelé à libérer les captifs.",
+      {
+        "qui": "La clé de David est une image tirée d'Isaïe (Is 22, 22) : celui qui ouvre, et nul ne ferme.",
+        "sens": "L'antienne demande au Christ de venir ouvrir la prison et faire sortir ceux qui sont assis dans les ténèbres.",
+        "vivre": "Faire un geste pour libérer quelqu'un d'une gêne ou d'un poids."
+      }
+    ],
+    "12-21": [
+      "Ô Orient",
+      "« Astre levant, splendeur de la lumière éternelle » : le Christ, soleil qui se lève.",
+      {
+        "qui": "Le 21 décembre est souvent le jour le plus court de l'année.",
+        "sens": "L'antienne de ce jour appelle le Christ « Orient », l'astre qui se lève, soleil de justice qui vient illuminer ceux qui sont dans la nuit (Lc 1, 78-79). C'est aussi l'un des noms qui ont inspiré Ora.",
+        "vivre": "Regarder le lever du soleil, si possible, et prier pour ceux qui sont dans la nuit."
+      }
+    ],
+    "12-22": [
+      "Ô Roi des nations",
+      "Le Christ, pierre angulaire qui rassemble tous les peuples.",
+      {
+        "qui": "Cette antienne appelle le Christ « Roi des nations » et « pierre angulaire ».",
+        "sens": "La pierre angulaire est celle qui tient ensemble deux murs : le Christ rassemble tous les peuples en un seul. L'antienne lui demande de venir sauver l'homme qu'il a façonné de la terre.",
+        "vivre": "Prier pour un pays en guerre."
+      }
+    ],
+    "12-23": [
+      "Ô Emmanuel",
+      "« Dieu avec nous », la dernière antienne avant Noël.",
+      {
+        "qui": "Emmanuel est un mot hébreu qui veut dire « Dieu avec nous ».",
+        "sens": "C'est le nom annoncé par Isaïe (Is 7, 14) et repris par l'Évangile de Matthieu (Mt 1, 23). La dernière antienne avant Noël résume toute l'attente : Dieu vient habiter au milieu de nous.",
+        "vivre": "Se rappeler, dans un moment ordinaire de la journée, que Dieu est avec nous."
+      }
+    ],
+    "12-24": [
+      "La veille de Noël",
+      "Ce soir, l'Église veille et attend la naissance de Jésus.",
+      {
+        "qui": "Le 24 décembre est le dernier jour de l'Avent.",
+        "sens": "Le soir, on célèbre la messe de la veille de Noël, puis la messe de la nuit. Dans beaucoup de familles, c'est le moment du réveillon, de la crèche où l'on dépose l'enfant Jésus, et des cadeaux.",
+        "vivre": "Déposer ensemble, en famille, l'enfant Jésus dans la crèche."
+      }
+    ],
+    "12-25": [
+      "Noël",
+      "La naissance de Jésus à Bethléem."
+    ],
+    "12-26": [
+      "Saint Étienne",
+      "Le premier martyr, qui a pardonné à ceux qui le lapidaient."
+    ],
+    "12-27": [
+      "Saint Jean",
+      "L'apôtre « que Jésus aimait »."
+    ],
+    "12-28": [
+      "Les saints Innocents",
+      "Les enfants de Bethléem tués sur l'ordre d'Hérode."
+    ],
+    "12-29": [
+      "Le roi David",
+      "Le jour de saint David, on pense au berger devenu roi, auteur de nombreux psaumes.",
+      {
+        "qui": "David est le plus jeune des fils de Jessé, un berger de Bethléem.",
+        "sens": "Choisi par Dieu, il vainc Goliath, devient roi d'Israël, et la tradition lui attribue de nombreux psaumes. Il a péché gravement, puis a demandé pardon (Ps 51). Jésus est appelé « fils de David » : c'est à Bethléem, sa ville, qu'il naît. Le 29 décembre est aussi la fête de saint Thomas Becket.",
+        "vivre": "Prier un psaume, par exemple le psaume 23 : « Le Seigneur est mon pasteur »."
+      }
+    ],
+    "12-30": [
+      "Anne la prophétesse",
+      "Une veuve très âgée qui a reconnu l'enfant Jésus au Temple (Lc 2, 36-38).",
+      {
+        "qui": "Anne est une prophétesse très âgée, veuve depuis longtemps, qui ne quittait pas le Temple de Jérusalem.",
+        "sens": "Quand Marie et Joseph présentent Jésus au Temple, elle le reconnaît et parle de lui à tous ceux qui attendaient la délivrance (Lc 2, 36-38). Une figure de la fidélité et de la patience.",
+        "vivre": "Appeler une personne âgée de sa famille pendant les fêtes."
+      }
+    ],
+    "12-31": [
+      "Saint Sylvestre",
+      "Le pape du temps de Constantin, qui ferme l'année.",
+      {
+        "qui": "Sylvestre est pape de 314 à 335, au moment où l'empereur Constantin met fin aux persécutions.",
+        "sens": "Sous son pontificat, les grandes basiliques de Rome commencent à être construites. Comme il est fêté le dernier jour de l'année, son nom est resté attaché au réveillon de la Saint-Sylvestre.",
+        "vivre": "Remercier Dieu pour trois belles choses de l'année qui s'achève."
+      }
+    ]
   }
 }
