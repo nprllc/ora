@@ -344,11 +344,17 @@
   }
   // Seconde respiration, avant « Le savais-tu ? » : des mains qui protègent une bougie ; la flamme vacille et sa lumière respire.
   function bougie() {
-    var nuit = estNuit(), src = 'img/bougie-' + (nuit ? 'nuit' : 'jour') + '.webp';
-    var f = nuit ? [1213, 820, 590, 150, 680, 318] : [1672, 941, 816, 356, 900, 506];
-    var cx = ((f[2] + f[4]) / 2 / f[0] * 100).toFixed(2), cy = ((f[3] + f[5]) / 2 / f[1] * 100).toFixed(2);
-    return '<div class="respiration bougie ' + (nuit ? 'nuit' : 'jour') + '" aria-hidden="true"><img src="' + src + '" alt="" decoding="async">' +
-      '<span class="b-halo" style="left:' + cx + '%;top:' + cy + '%"></span>' + morceau(src, f[0], f[1], f[2], f[3], f[4], f[5], 'b-flamme') + '</div>';
+    var nuit = estNuit(), m = nuit ? 'nuit' : 'jour', src = 'img/bougie-' + m + '.webp';
+    var h = '<div class="respiration bougie ' + m + '" aria-hidden="true"><img src="' + src + '" alt="" decoding="async">';
+    if (!nuit) {
+      // De jour : un morceau de l'image autour de la flamme, qui vacille depuis la mèche, et un halo qui respire.
+      return h + '<span class="b-halo" style="left:51.32%;top:45.81%"></span>' + morceau(src, 1672, 941, 816, 356, 900, 506, 'b-flamme-jour') + '</div>';
+    }
+    // Le soir : la flamme est détourée à part (le fond de l'image a été comblé dessous) ; elle se balance depuis la mèche et frémit.
+    var f = { l: 47.16, t: 16.95, w: 10.31, h: 23.05, oy: 88.4 };
+    return h + '<span class="b-halo" style="left:' + (f.l + f.w / 2).toFixed(2) + '%;top:' + (f.t + f.h * .55).toFixed(2) + '%"></span>' +
+      '<span class="b-flamme" style="left:' + f.l + '%;top:' + f.t + '%;width:' + f.w + '%;height:' + f.h + '%;transform-origin:50% ' + f.oy + '%">' +
+      '<img src="img/bougie-nuit-flamme.webp" alt="" decoding="async" style="transform-origin:50% ' + f.oy + '%"></span></div>';
   }
   function respiration() {
     if (estNuit()) {

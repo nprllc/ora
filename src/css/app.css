@@ -418,7 +418,13 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 /* La bougie : l'image entière, plus fondue sur les côtés ; la flamme vacille depuis la mèche, son halo respire. */
 .respiration.bougie { aspect-ratio: 1672 / 941; margin-top: 4px; }
 .respiration.bougie.nuit { aspect-ratio: 1213 / 820; }
-.b-flamme { position: absolute; background-repeat: no-repeat; transform-origin: 50% 92%;
+.b-flamme { position: absolute; animation: b-balance 5.3s ease-in-out infinite; }
+.b-flamme img { display: block; width: 100%; height: 100%; animation: b-fremit 1.9s ease-in-out infinite; }
+/* Une flamme dans l'air calme : un lent balancement, et de petits frémissements irréguliers qui l'étirent et l'affinent. */
+@keyframes b-balance { 0%, 100% { transform: rotate(0); } 22% { transform: rotate(-1.4deg); } 41% { transform: rotate(.6deg); } 63% { transform: rotate(1.3deg); } 82% { transform: rotate(-.5deg); } }
+@keyframes b-fremit { 0%, 100% { transform: scale(1, 1); } 13% { transform: scale(.985, 1.035); } 21% { transform: scale(1.01, .985); } 34% { transform: scale(.99, 1.02); }
+  46% { transform: scale(1.005, .995); } 58% { transform: scale(.975, 1.05); } 66% { transform: scale(1.01, .98); } 79% { transform: scale(.995, 1.015); } 90% { transform: scale(1.005, .99); } }
+.b-flamme-jour { position: absolute; background-repeat: no-repeat; transform-origin: 50% 92%;
   -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 60%, transparent 100%); mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 60%, transparent 100%);
   animation: b-vacille 2.3s ease-in-out infinite; }
 @keyframes b-vacille { 0% { transform: scale(1, 1) skewX(0); } 9% { transform: scale(.97, 1.05) skewX(-2deg); } 17% { transform: scale(1.02, .97) skewX(1.5deg); }
@@ -426,11 +432,13 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
   58% { transform: scale(1.02, .96) skewX(.5deg); } 66% { transform: scale(.99, 1.06) skewX(2deg); } 77% { transform: scale(1.01, .98) skewX(-1.5deg); }
   88% { transform: scale(.98, 1.03) skewX(1deg); } 100% { transform: scale(1, 1) skewX(0); } }
 .b-halo { position: absolute; width: 46%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,214,150,.55) 0%, rgba(255,200,130,.22) 35%, rgba(255,200,130,0) 70%); animation: b-respire 3.1s linear infinite; }
-.bougie.nuit .b-halo { mix-blend-mode: screen; width: 60%; }
-.bougie.jour .b-halo { background: radial-gradient(circle, rgba(255,226,170,.5) 0%, rgba(255,220,160,.18) 35%, rgba(255,220,160,0) 70%); }
-@keyframes b-respire { 0% { opacity: .55; } 11% { opacity: .8; } 19% { opacity: .45; } 30% { opacity: .7; } 38% { opacity: .6; } 49% { opacity: .9; }
+  background: radial-gradient(circle, rgba(255,214,150,.55) 0%, rgba(255,200,130,.22) 35%, rgba(255,200,130,0) 70%); animation: b-respire 1.9s ease-in-out infinite; }
+.bougie.nuit .b-halo { mix-blend-mode: screen; width: 60%; animation: b-respire 1.9s ease-in-out infinite; }
+.bougie.jour .b-halo { animation: b-respire-jour 3.1s linear infinite; }
+@keyframes b-respire-jour { 0% { opacity: .55; } 11% { opacity: .8; } 19% { opacity: .45; } 30% { opacity: .7; } 38% { opacity: .6; } 49% { opacity: .9; }
   57% { opacity: .5; } 68% { opacity: .75; } 76% { opacity: .4; } 87% { opacity: .7; } 100% { opacity: .55; } }
+.bougie.jour .b-halo { background: radial-gradient(circle, rgba(255,226,170,.5) 0%, rgba(255,220,160,.18) 35%, rgba(255,220,160,0) 70%); }
+@keyframes b-respire { 0%, 100% { opacity: .7; } 13% { opacity: .8; } 21% { opacity: .64; } 34% { opacity: .76; } 46% { opacity: .7; } 58% { opacity: .85; } 66% { opacity: .62; } 79% { opacity: .74; } 90% { opacity: .68; } }
 
 /* De jour : deux moineaux, sur un cycle de 22 s. L'un quitte son olivier et file derrière le clocher ;
    l'autre arrive de la droite et se pose sur un olivier, puis s'efface. */
@@ -463,4 +471,4 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 @keyframes v-bougie { 0% { opacity: .5; } 7% { opacity: .72; } 12% { opacity: .4; } 20% { opacity: .62; } 27% { opacity: .55; } 34% { opacity: .82; }
   41% { opacity: .46; } 49% { opacity: .66; } 55% { opacity: .35; } 63% { opacity: .7; } 71% { opacity: .52; } 78% { opacity: .78; } 86% { opacity: .42; } 93% { opacity: .64; } 100% { opacity: .5; } }
 .v-etoile { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: #F4EEDF; box-shadow: 0 0 4px 1px rgba(244,238,223,.35); animation: scintille 6s ease-in-out infinite; }
-@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-lum, .v-etoile, .b-flamme, .b-halo { animation: none; } .v-oiseau { display: none; } }
+@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-lum, .v-etoile, .b-flamme, .b-flamme img, .b-flamme-jour, .b-halo { animation: none; } .v-oiseau { display: none; } }
