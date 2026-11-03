@@ -1665,251 +1665,581 @@
     ],
     "07-01": [
       "Saint Thierry",
-      "Un abbé du Mont-d'Or, près de Reims, au VIe siècle."
+      "Un abbé du Mont-d'Or, près de Reims, au VIe siècle.",
+      {
+        "qui": "Thierry (mort vers 533) est un disciple de saint Rémi.",
+        "sens": "Il fonde un monastère au Mont-d'Or, près de Reims, et y attire de nombreux moines. On raconte qu'il avait d'abord converti son propre père, un brigand.",
+        "vivre": "Prier pour un membre de sa famille qui s'est éloigné."
+      }
     ],
     "07-02": [
       "Saints Processus et Martinien",
-      "Selon la tradition, les gardiens de prison de saint Pierre, baptisés par lui."
+      "Selon la tradition, les gardiens de prison de saint Pierre, baptisés par lui.",
+      {
+        "qui": "Processus et Martinien sont, selon la tradition, les gardiens de prison de saint Pierre et saint Paul à Rome.",
+        "sens": "Témoins de leur foi, ils se seraient convertis et auraient été baptisés par Pierre, avec l'eau d'une source jaillie dans la prison Mamertine, avant de mourir martyrs.",
+        "vivre": "Laisser sa foi se voir dans ses actes."
+      }
     ],
     "07-03": [
       "Saint Thomas",
-      "L'apôtre qui a douté, puis a dit à Jésus : « Mon Seigneur et mon Dieu ! »"
+      "L'apôtre qui a douté, puis a dit à Jésus : « Mon Seigneur et mon Dieu ! »",
+      {
+        "qui": "Thomas est l'un des douze apôtres, appelé aussi Didyme, « le jumeau ».",
+        "sens": "Absent quand Jésus ressuscité apparaît aux disciples, il veut voir et toucher ses plaies. Huit jours plus tard, il dit : « Mon Seigneur, et mon Dieu ! » (Jn 20, 28). Selon la tradition, il a annoncé l'Évangile jusqu'en Inde.",
+        "vivre": "Confier ses doutes à Dieu, sans honte.",
+        "fort": true
+      }
     ],
     "07-04": [
       "Sainte Élisabeth de Portugal",
-      "Une reine artisane de paix, qui a réconcilié son mari et son fils."
+      "Une reine artisane de paix, qui a réconcilié son mari et son fils.",
+      {
+        "qui": "Élisabeth (1271-1336), princesse d'Aragon, devient reine du Portugal.",
+        "sens": "Elle intervient plusieurs fois pour empêcher la guerre entre son mari et son fils, et entre les royaumes voisins. Elle fonde des hôpitaux et des refuges. On l'appelle « la reine de la paix ».",
+        "vivre": "Être artisan de paix dans sa famille."
+      }
     ],
     "07-05": [
       "Saint Antoine-Marie Zaccaria",
-      "Un médecin devenu prêtre, fondateur des Barnabites."
+      "Un médecin devenu prêtre, fondateur des Barnabites.",
+      {
+        "qui": "Antoine-Marie Zaccaria (1502-1539) est un médecin de Crémone devenu prêtre.",
+        "sens": "Il fonde les Barnabites, un ordre de prêtres, et répand l'adoration du Saint-Sacrement pendant quarante heures. Il meurt à 36 ans.",
+        "vivre": "Prendre soin des corps et des âmes."
+      }
     ],
     "07-06": [
       "Sainte Maria Goretti",
-      "Une jeune fille de 11 ans qui a pardonné à celui qui l'a tuée."
+      "Une jeune fille de 11 ans qui a pardonné à celui qui l'a tuée.",
+      {
+        "qui": "Maria Goretti (1890-1902) est une jeune fille pauvre des marais d'Italie.",
+        "sens": "À 11 ans, elle résiste à un jeune voisin, Alessandro, qui la poignarde ; elle meurt en lui pardonnant. Alessandro, en prison, se convertit ; il sera présent à Rome lors de sa canonisation, en 1950. Il finira sa vie chez des capucins.",
+        "vivre": "Pardonner, même ce qui semble impardonnable, et prier pour la conversion des cœurs."
+      }
     ],
     "07-07": [
       "Saint Firmin",
-      "Le premier évêque d'Amiens, né à Pampelune, où l'on fête la San Fermín."
+      "Le premier évêque d'Amiens, né à Pampelune, où l'on fête la San Fermín.",
+      {
+        "qui": "Firmin est, selon la tradition, né à Pampelune, en Navarre, et baptisé par saint Saturnin.",
+        "sens": "Devenu évêque, il évangélise la Gaule et meurt martyr à Amiens, dont il est le premier évêque. À Pampelune, dont il est le patron, les fêtes de la San Fermín commencent le 6 juillet et rassemblent des foules du monde entier.",
+        "vivre": "Prier pour sa ville et ses fêtes."
+      }
     ],
     "07-08": [
       "Saints Aquila et Priscille",
-      "Un couple de fabricants de tentes, amis et collaborateurs de saint Paul."
+      "Un couple de fabricants de tentes, amis et collaborateurs de saint Paul.",
+      {
+        "qui": "Aquila et Priscille sont un couple de juifs convertis, fabricants de tentes, comme saint Paul.",
+        "sens": "Chassés de Rome, ils accueillent Paul à Corinthe et travaillent avec lui ; leur maison sert d'église (Ac 18 ; Rm 16, 3-5). Paul dit qu'ils ont risqué leur vie pour lui.",
+        "vivre": "Ouvrir sa maison pour un moment de prière ou d'amitié."
+      }
     ],
     "07-09": [
       "Saint Augustin Zhao Rong et ses compagnons",
-      "Les martyrs de Chine, 120 saints canonisés en 2000."
+      "Les martyrs de Chine, 120 saints canonisés en 2000.",
+      {
+        "qui": "Augustin Zhao Rong, prêtre chinois, et ses 119 compagnons sont des martyrs de Chine, tués entre 1648 et 1930.",
+        "sens": "Parmi eux, des évêques et des prêtres chinois et européens, mais surtout des laïcs, dont des enfants. Ils ont été canonisés ensemble en 2000.",
+        "vivre": "Prier pour les catholiques de Chine."
+      }
     ],
     "07-10": [
       "Saint Antoine des Grottes de Kiev",
-      "Un moine qui a fondé la laure des Grottes de Kiev."
+      "Un moine qui a fondé la laure des Grottes de Kiev.",
+      {
+        "qui": "Antoine (983-1073), moine du mont Athos, revient dans son pays, la Rus' de Kiev.",
+        "sens": "Il s'installe dans une grotte au bord du Dniepr ; des disciples le rejoignent : c'est l'origine de la laure des Grottes de Kiev, l'un des plus grands monastères orthodoxes.",
+        "vivre": "Prier pour la paix en Ukraine."
+      }
     ],
     "07-11": [
       "Saint Benoît",
-      "Le père des moines d'Occident et patron de l'Europe."
+      "Le père des moines d'Occident et patron de l'Europe.",
+      {
+        "qui": "Benoît (vers 480-547), né à Nursie, en Italie, quitte ses études à Rome pour vivre en ermite.",
+        "sens": "Il fonde le monastère du Mont-Cassin et écrit une Règle, pleine de mesure, qui organise la vie des moines autour de la prière et du travail : « Prie et travaille ». Elle est suivie depuis quinze siècles. Il est le patron de l'Europe.",
+        "vivre": "Alterner travail et prière dans sa journée.",
+        "fort": true
+      }
     ],
     "07-12": [
       "Saints Louis et Zélie Martin",
-      "Les parents de sainte Thérèse de Lisieux, le premier couple canonisé ensemble."
+      "Les parents de sainte Thérèse de Lisieux, le premier couple canonisé ensemble.",
+      {
+        "qui": "Louis Martin (1823-1894), horloger, et Zélie Guérin (1831-1877), dentellière, sont un couple d'Alençon.",
+        "sens": "Ils ont neuf enfants, dont quatre meurent jeunes ; les cinq filles deviennent religieuses, dont sainte Thérèse de Lisieux. Zélie meurt d'un cancer ; Louis élève seul ses filles. Ils ont été canonisés ensemble en 2015, le premier couple canonisé ainsi.",
+        "vivre": "Remercier pour sa famille, avec ses joies et ses épreuves."
+      }
     ],
     "07-13": [
       "Saint Henri",
-      "Un empereur germanique, juste et pieux, avec son épouse sainte Cunégonde."
+      "Un empereur germanique, juste et pieux, avec son épouse sainte Cunégonde.",
+      {
+        "qui": "Henri II (973-1024) est empereur du Saint-Empire.",
+        "sens": "Avec son épouse, sainte Cunégonde, il gouverne avec justice, soutient la réforme de l'Église et fonde le diocèse de Bamberg, en Allemagne, où ils sont enterrés.",
+        "vivre": "Exercer avec justice la responsabilité qu'on a."
+      }
     ],
     "07-14": [
       "Saint Camille de Lellis",
-      "Un ancien soldat joueur qui a fondé un ordre pour soigner les malades."
+      "Un ancien soldat joueur qui a fondé un ordre pour soigner les malades.",
+      {
+        "qui": "Camille de Lellis (1550-1614), ancien soldat et joueur invétéré, se convertit.",
+        "sens": "Infirmier, il est choqué par la façon dont on traite les malades : il fonde les Camilliens, qui portent une croix rouge sur leur habit. Il est le patron des malades et des soignants. Le 14 juillet est aussi la fête nationale française.",
+        "vivre": "Remercier un soignant."
+      }
     ],
     "07-15": [
       "Saint Bonaventure",
-      "Un franciscain, théologien et biographe de saint François."
+      "Un franciscain, théologien et biographe de saint François.",
+      {
+        "qui": "Bonaventure (1217-1274) est un franciscain italien, professeur à Paris.",
+        "sens": "Ministre général de son ordre, il écrit une vie de saint François et des livres sur le chemin de l'âme vers Dieu. Cardinal, il meurt pendant le concile de Lyon. Il est docteur de l'Église.",
+        "vivre": "Lire quelques lignes de la vie de saint François.",
+        "fort": true
+      }
     ],
     "07-16": [
       "Notre-Dame du Mont-Carmel",
-      "Marie honorée par les carmes, sur la montagne du prophète Élie."
+      "Marie honorée par les carmes, sur la montagne du prophète Élie.",
+      {
+        "qui": "Le mont Carmel est une montagne d'Israël, liée au prophète Élie.",
+        "sens": "Au XIIe siècle, des ermites s'y installent et donnent naissance à l'ordre du Carmel, consacré à Marie. Selon la tradition, Marie aurait remis le scapulaire à saint Simon Stock, en 1251.",
+        "vivre": "Confier sa journée à Marie."
+      }
     ],
     "07-17": [
       "Les carmélites de Compiègne",
-      "Seize religieuses guillotinées en 1794 en chantant."
+      "Seize religieuses guillotinées en 1794 en chantant.",
+      {
+        "qui": "Seize carmélites de Compiègne refusent de quitter la vie religieuse pendant la Révolution.",
+        "sens": "Condamnées à mort, elles montent à l'échafaud à Paris le 17 juillet 1794 en chantant le Veni Creator, une à une. Dix jours plus tard, la Terreur prend fin. Leur histoire a inspiré le Dialogue des carmélites de Bernanos. Le pape François les a déclarées saintes en 2024.",
+        "vivre": "Chanter ou prier le Veni Creator."
+      }
     ],
     "07-18": [
       "Saint Frédéric d'Utrecht",
-      "Un évêque d'Utrecht, martyr au IXe siècle."
+      "Un évêque d'Utrecht, martyr au IXe siècle.",
+      {
+        "qui": "Frédéric (vers 780-838) est évêque d'Utrecht, aux Pays-Bas.",
+        "sens": "Il évangélise la Frise et reproche à l'impératrice sa conduite. Il est assassiné après la messe.",
+        "vivre": "Avoir le courage d'une parole juste."
+      }
     ],
     "07-19": [
       "Saint Arsène le Grand",
-      "Un précepteur d'empereurs parti au désert d'Égypte."
+      "Un précepteur d'empereurs parti au désert d'Égypte.",
+      {
+        "qui": "Arsène (vers 354-450), savant romain, est précepteur des fils de l'empereur Théodose à Constantinople.",
+        "sens": "Il quitte tout pour le désert d'Égypte. On rapporte qu'il disait avoir souvent regretté d'avoir parlé, jamais de s'être tu.",
+        "vivre": "Garder le silence plutôt qu'une parole inutile."
+      }
     ],
     "07-20": [
       "Le prophète Élie",
-      "Le prophète qui a entendu Dieu dans le murmure d'une brise légère."
+      "Le prophète qui a entendu Dieu dans le murmure d'une brise légère.",
+      {
+        "qui": "Élie est un grand prophète d'Israël, au IXe siècle avant Jésus-Christ.",
+        "sens": "Il défend la foi au Dieu unique, nourri par des corbeaux au désert, et rencontre Dieu non dans l'ouragan, mais dans « un murmure doux et léger » (1 R 19, 12). Il est enlevé au ciel sur un char de feu. Le Carmel le considère comme son père.",
+        "vivre": "Écouter Dieu dans le calme."
+      }
     ],
     "07-21": [
       "Saint Laurent de Brindes",
-      "Un capucin qui parlait de nombreuses langues, docteur de l'Église."
+      "Un capucin qui parlait de nombreuses langues, docteur de l'Église.",
+      {
+        "qui": "Laurent de Brindes (1559-1619) est un capucin italien.",
+        "sens": "Il parle de nombreuses langues, dont l'hébreu, prêche dans toute l'Europe et sert de diplomate entre les princes. Il est docteur de l'Église.",
+        "vivre": "Apprendre un mot ou une phrase dans une autre langue."
+      }
     ],
     "07-22": [
       "Sainte Marie-Madeleine",
-      "La première à voir Jésus ressuscité, « l'apôtre des apôtres »."
+      "La première à voir Jésus ressuscité, « l'apôtre des apôtres ».",
+      {
+        "qui": "Marie-Madeleine, de Magdala, au bord du lac de Tibériade, suit Jésus après avoir été délivrée de sept démons.",
+        "sens": "Au pied de la croix, puis au tombeau le matin de Pâques, elle est la première à voir Jésus ressuscité, qui l'envoie l'annoncer aux apôtres. C'est pourquoi on l'appelle « l'apôtre des apôtres ». Le pape François a élevé sa mémoire au rang de fête en 2016.",
+        "vivre": "Annoncer une bonne nouvelle à quelqu'un.",
+        "fort": true
+      }
     ],
     "07-23": [
       "Sainte Brigitte de Suède",
-      "Une mère de huit enfants, mystique, patronne de l'Europe."
+      "Une mère de huit enfants, mystique, patronne de l'Europe.",
+      {
+        "qui": "Brigitte (1303-1373), noble suédoise, mère de huit enfants, dont sainte Catherine de Suède.",
+        "sens": "Veuve, elle fonde l'ordre du Très-Saint-Sauveur et part à Rome, où elle demande au pape de quitter Avignon. Elle a eu des visions qu'elle a écrites. Elle est l'une des patronnes de l'Europe.",
+        "vivre": "Prier pour l'Europe et pour ceux qui la gouvernent."
+      }
     ],
     "07-24": [
       "Saint Charbel Makhlouf",
-      "Un moine ermite du Liban, homme de silence et de prière."
+      "Un moine ermite du Liban, homme de silence et de prière.",
+      {
+        "qui": "Charbel Makhlouf (1828-1898) est un moine maronite du Liban.",
+        "sens": "Il vit les vingt-trois dernières années de sa vie en ermite, dans le silence et la prière. Des milliers de pèlerins, chrétiens et musulmans, viennent prier sur son tombeau, à Annaya.",
+        "vivre": "Prier pour le Liban et le Proche-Orient."
+      }
     ],
     "07-25": [
       "Saint Jacques le Majeur",
-      "L'apôtre que l'on vénère à Saint-Jacques-de-Compostelle."
+      "L'apôtre que l'on vénère à Saint-Jacques-de-Compostelle.",
+      {
+        "qui": "Jacques, fils de Zébédée et frère de Jean, est l'un des douze apôtres.",
+        "sens": "Pêcheur du lac de Galilée, il est le premier apôtre martyr, à Jérusalem, vers 44 (Ac 12, 2). Selon la tradition, ses reliques reposent à Saint-Jacques-de-Compostelle, en Galice : depuis le Moyen Âge, des pèlerins y marchent de toute l'Europe. Il est le patron de l'Espagne.",
+        "vivre": "Marcher un moment en priant.",
+        "fort": true
+      }
     ],
     "07-26": [
       "Saints Joachim et Anne",
-      "Les parents de Marie, les grands-parents de Jésus."
+      "Les parents de Marie, les grands-parents de Jésus.",
+      {
+        "qui": "Joachim et Anne sont, selon la tradition, les parents de la Vierge Marie, donc les grands-parents de Jésus.",
+        "sens": "Leurs noms viennent d'un récit ancien, le Protévangile de Jacques. Anne est très fêtée en Bretagne, à Sainte-Anne-d'Auray. Depuis 2021, le quatrième dimanche de juillet est la Journée mondiale des grands-parents et des personnes âgées.",
+        "vivre": "Appeler ou visiter ses grands-parents.",
+        "fort": true
+      }
     ],
     "07-27": [
       "Saints Aurèle et Nathalie",
-      "Un couple de Cordoue, martyrs en 852."
+      "Un couple de Cordoue, martyrs en 852.",
+      {
+        "qui": "Aurèle et Nathalie sont un couple de Cordoue, au IXe siècle.",
+        "sens": "Chrétiens en secret, ils finissent par proclamer leur foi et meurent martyrs en 852 avec trois compagnons. Ils ont fait garder leurs deux filles en sécurité.",
+        "vivre": "Prier pour les couples."
+      }
     ],
     "07-28": [
       "Saint Samson",
-      "Un moine venu du pays de Galles, fondateur de Dol-de-Bretagne."
+      "Un moine venu du pays de Galles, fondateur de Dol-de-Bretagne.",
+      {
+        "qui": "Samson (vers 485-565) est un moine gallois.",
+        "sens": "Il traverse la mer, fonde l'abbaye de Dol, en Bretagne, et devient évêque. Il est l'un des sept saints fondateurs de la Bretagne, dont le « Tro Breiz », un pèlerinage, fait le tour.",
+        "vivre": "Remercier pour ceux qui ont fondé les lieux de foi qu'on fréquente."
+      }
     ],
     "07-29": [
       "Saints Marthe, Marie et Lazare",
-      "Les amis de Jésus à Béthanie."
+      "Les amis de Jésus à Béthanie.",
+      {
+        "qui": "Marthe, Marie et Lazare sont deux sœurs et un frère, amis de Jésus, à Béthanie.",
+        "sens": "Marthe s'active pour recevoir Jésus, Marie l'écoute à ses pieds (Lc 10, 38-42) ; à la mort de Lazare, Marthe dit : « Je crois que vous êtes le Christ » et Jésus ressuscite son ami (Jn 11). Depuis 2021, l'Église les fête tous les trois ensemble.",
+        "vivre": "Accueillir quelqu'un à sa table avec simplicité.",
+        "fort": true
+      }
     ],
     "07-30": [
       "Saint Pierre Chrysologue",
-      "Un évêque de Ravenne au « verbe d'or »."
+      "Un évêque de Ravenne au « verbe d'or ».",
+      {
+        "qui": "Pierre (vers 380-450) est évêque de Ravenne, en Italie.",
+        "sens": "Ses sermons, courts et clairs, lui ont valu le surnom de Chrysologue, « parole d'or ». Il est docteur de l'Église.",
+        "vivre": "Dire en peu de mots une parole qui encourage."
+      }
     ],
     "07-31": [
       "Saint Ignace de Loyola",
-      "Un soldat blessé qui a fondé les Jésuites et appris à discerner."
+      "Un soldat blessé qui a fondé les Jésuites et appris à discerner.",
+      {
+        "qui": "Ignace (1491-1556), noble basque, est blessé par un boulet de canon à Pampelune.",
+        "sens": "Pendant sa convalescence, il lit des vies de saints et se convertit. Il écrit les Exercices spirituels, qui apprennent à discerner la volonté de Dieu, et fonde la Compagnie de Jésus, les jésuites. Sa devise : « Pour la plus grande gloire de Dieu ».",
+        "vivre": "Relire sa journée le soir : qu'est-ce qui m'a rapproché de Dieu ?",
+        "fort": true
+      }
     ],
     "08-01": [
       "Saint Alphonse de Liguori",
-      "Un avocat de Naples devenu prêtre, docteur de l'Église, plein de douceur."
+      "Un avocat de Naples devenu prêtre, docteur de l'Église, plein de douceur.",
+      {
+        "qui": "Alphonse de Liguori (1696-1787) est un brillant avocat de Naples.",
+        "sens": "Après avoir perdu un procès, il devient prêtre et prêche dans les campagnes pauvres. Il fonde les Rédemptoristes et écrit beaucoup sur la morale, avec douceur et bon sens. Il est docteur de l'Église et patron des confesseurs.",
+        "vivre": "Juger les autres avec douceur.",
+        "fort": true
+      }
     ],
     "08-02": [
       "Saint Pierre-Julien Eymard",
-      "Un prêtre de l'Isère, l'apôtre de l'Eucharistie."
+      "Un prêtre de l'Isère, l'apôtre de l'Eucharistie.",
+      {
+        "qui": "Pierre-Julien Eymard (1811-1868) est un prêtre de La Mure, dans l'Isère.",
+        "sens": "Il fonde les Pères du Saint-Sacrement, pour l'adoration et pour aider les pauvres à communier. On l'a appelé « l'apôtre de l'Eucharistie ».",
+        "vivre": "Faire une visite au Saint-Sacrement."
+      }
     ],
     "08-03": [
       "Sainte Lydie",
-      "Une marchande de pourpre de Philippes, la première baptisée d'Europe (Ac 16)."
+      "Une marchande de pourpre de Philippes, la première baptisée d'Europe (Ac 16).",
+      {
+        "qui": "Lydie est une marchande de pourpre de Thyatire, installée à Philippes, en Macédoine.",
+        "sens": "En écoutant saint Paul au bord d'une rivière, elle ouvre son cœur, est baptisée avec sa maison et accueille les apôtres chez elle (Ac 16, 14-15). Elle est considérée comme la première chrétienne d'Europe.",
+        "vivre": "Ouvrir son cœur à une parole entendue aujourd'hui."
+      }
     ],
     "08-04": [
       "Saint Jean-Marie Vianney",
-      "Le curé d'Ars, qui passait ses journées à confesser et consoler."
+      "Le curé d'Ars, qui passait ses journées à confesser et consoler.",
+      {
+        "qui": "Jean-Marie Vianney (1786-1859) a du mal à faire ses études ; il devient pourtant prêtre.",
+        "sens": "Envoyé dans le petit village d'Ars, près de Lyon, il y passe quarante ans. Il confesse jusqu'à quinze heures par jour, et des foules viennent de toute la France. Il est le patron des curés.",
+        "vivre": "Se confesser, ou se préparer à le faire.",
+        "fort": true
+      }
     ],
     "08-05": [
       "Abel",
-      "Le jour de saint Abel, on pense au fils d'Adam et Ève, le premier juste de la Bible."
+      "Le jour de saint Abel, on pense au fils d'Adam et Ève, le premier juste de la Bible.",
+      {
+        "qui": "Abel est le deuxième fils d'Adam et Ève, berger.",
+        "sens": "Il offre à Dieu le meilleur de son troupeau, et son frère Caïn, jaloux, le tue (Gn 4). Jésus l'appelle « Abel le juste ». Le calendrier fête un saint Abel ce jour-là. Le 5 août est aussi la dédicace de Sainte-Marie-Majeure, à Rome.",
+        "vivre": "Se réjouir du bien qui arrive aux autres, sans jalousie."
+      }
     ],
     "08-06": [
       "La Transfiguration",
-      "Sur la montagne, Jésus apparaît dans sa lumière."
+      "Sur la montagne, Jésus apparaît dans sa lumière.",
+      {
+        "qui": "Jésus emmène Pierre, Jacques et Jean sur une haute montagne.",
+        "sens": "Il est transfiguré devant eux : son visage brille comme le soleil, Moïse et Élie apparaissent, et une voix venue de la nuée invite à écouter le Fils bien-aimé (Mt 17, 1-9). Jésus fortifie ainsi ses disciples avant sa Passion.",
+        "vivre": "Prendre un moment pour contempler une belle lumière."
+      }
     ],
     "08-07": [
       "Saint Gaétan",
-      "Un prêtre de Vicence qui a tout misé sur la Providence."
+      "Un prêtre de Vicence qui a tout misé sur la Providence.",
+      {
+        "qui": "Gaétan de Thiene (1480-1547) est un prêtre de Vicence.",
+        "sens": "Il fonde les Théatins, des prêtres qui vivent sans rien posséder, comptant sur la Providence. Il est très invoqué en Amérique latine comme patron du travail et du pain.",
+        "vivre": "Faire confiance à Dieu pour le lendemain."
+      }
     ],
     "08-08": [
       "Saint Dominique",
-      "Le fondateur des frères prêcheurs, qui parlait « à Dieu ou de Dieu »."
+      "Le fondateur des frères prêcheurs, qui parlait « à Dieu ou de Dieu ».",
+      {
+        "qui": "Dominique de Guzmán (1170-1221) est un prêtre castillan.",
+        "sens": "En voyage dans le sud de la France, il fonde à Toulouse les frères prêcheurs, les dominicains, pour annoncer l'Évangile par la parole et l'exemple d'une vie pauvre. On disait qu'il ne parlait qu'à Dieu ou de Dieu.",
+        "vivre": "Parler de Dieu avec simplicité.",
+        "fort": true
+      }
     ],
     "08-09": [
       "Sainte Thérèse-Bénédicte de la Croix",
-      "Edith Stein, philosophe juive devenue carmélite, morte à Auschwitz."
+      "Edith Stein, philosophe juive devenue carmélite, morte à Auschwitz.",
+      {
+        "qui": "Edith Stein (1891-1942) est une philosophe juive allemande.",
+        "sens": "Après avoir lu la vie de sainte Thérèse d'Avila, elle devient catholique, puis carmélite sous le nom de Thérèse-Bénédicte de la Croix. Déportée par les nazis, elle meurt à Auschwitz. Elle est l'une des patronnes de l'Europe.",
+        "vivre": "Prier pour le peuple juif."
+      }
     ],
     "08-10": [
       "Saint Laurent",
-      "Un diacre de Rome qui montrait les pauvres en disant : « Voilà les trésors de l'Église. »"
+      "Un diacre de Rome qui montrait les pauvres en disant : « Voilà les trésors de l'Église. »",
+      {
+        "qui": "Laurent est l'un des sept diacres de Rome, chargé des biens de l'Église et des pauvres.",
+        "sens": "Sommé de livrer les trésors de l'Église, il présente les pauvres : « Voilà les trésors de l'Église. » Il meurt martyr en 258. Les étoiles filantes du mois d'août sont appelées « larmes de saint Laurent ».",
+        "vivre": "Regarder les étoiles filantes et prier pour les pauvres.",
+        "fort": true
+      }
     ],
     "08-11": [
       "Sainte Claire",
-      "L'amie de saint François, fondatrice des Clarisses."
+      "L'amie de saint François, fondatrice des Clarisses.",
+      {
+        "qui": "Claire (1194-1253), jeune noble d'Assise, s'enfuit à 18 ans pour suivre saint François.",
+        "sens": "Elle fonde l'ordre des Pauvres Dames, les Clarisses, vit à Saint-Damien dans une grande pauvreté et est la première femme à écrire une règle de vie religieuse. Elle est la patronne de la télévision, car, malade, elle aurait vu la messe sur le mur de sa chambre.",
+        "vivre": "Simplifier quelque chose dans sa vie.",
+        "fort": true
+      }
     ],
     "08-12": [
       "Sainte Jeanne de Chantal",
-      "Une veuve et mère de famille, amie de saint François de Sales."
+      "Une veuve et mère de famille, amie de saint François de Sales.",
+      {
+        "qui": "Jeanne-Françoise de Chantal (1572-1641), baronne bourguignonne, est veuve à 28 ans avec quatre enfants.",
+        "sens": "Guidée par saint François de Sales, elle fonde avec lui l'ordre de la Visitation, ouvert aux femmes de santé fragile. Elle est la grand-mère de Madame de Sévigné.",
+        "vivre": "Écrire à un ami un mot de soutien."
+      }
     ],
     "08-13": [
       "Saints Pontien et Hippolyte",
-      "Un pape et un prêtre, adversaires réconciliés dans l'exil."
+      "Un pape et un prêtre, adversaires réconciliés dans l'exil.",
+      {
+        "qui": "Pontien, pape, et Hippolyte, prêtre de Rome, s'étaient opposés : Hippolyte avait même été un antipape.",
+        "sens": "Déportés tous deux aux mines de Sardaigne vers 235, ils s'y réconcilient avant de mourir. L'Église les fête ensemble.",
+        "vivre": "Faire le premier pas pour se réconcilier."
+      }
     ],
     "08-14": [
       "Saint Maximilien Kolbe",
-      "Un franciscain qui a pris la place d'un père de famille à Auschwitz."
+      "Un franciscain qui a pris la place d'un père de famille à Auschwitz.",
+      {
+        "qui": "Maximilien Kolbe (1894-1941) est un franciscain polonais, fondateur de journaux catholiques.",
+        "sens": "Déporté à Auschwitz, il prend la place d'un père de famille condamné à mourir de faim et meurt après deux semaines dans le bunker. Jean-Paul II l'a canonisé en 1982 comme « martyr de la charité ».",
+        "vivre": "Prendre une charge à la place de quelqu'un de fatigué.",
+        "fort": true
+      }
     ],
     "08-15": [
       "L'Assomption",
-      "Marie entre, corps et âme, dans la gloire de Dieu."
+      "Marie entre, corps et âme, dans la gloire de Dieu.",
+      {
+        "qui": "Marie, au terme de sa vie terrestre, est élevée corps et âme dans la gloire de Dieu.",
+        "sens": "C'est l'Assomption, dogme proclamé par Pie XII en 1950, mais fêtée depuis les premiers siècles. Marie est la première à vivre pleinement la résurrection promise à tous. En France, c'est la fête de la patronne principale du pays, et l'on fait des processions.",
+        "vivre": "Prier Marie pour la France et pour son pays."
+      }
     ],
     "08-16": [
       "Saint Roch",
-      "Un pèlerin de Montpellier qui soignait les malades de la peste, et qu'un chien a nourri."
+      "Un pèlerin de Montpellier qui soignait les malades de la peste, et qu'un chien a nourri.",
+      {
+        "qui": "Roch (vers 1350-1379) est un jeune noble de Montpellier.",
+        "sens": "Pèlerin vers Rome, il soigne les malades de la peste, tombe malade à son tour et se retire dans un bois, où un chien lui apporte chaque jour du pain. Il est invoqué contre les épidémies et protège les animaux.",
+        "vivre": "Prendre soin d'un animal ou d'un malade."
+      }
     ],
     "08-17": [
       "Sainte Jeanne Delanoue",
-      "Une marchande de Saumur qui a ouvert sa maison aux pauvres."
+      "Une marchande de Saumur qui a ouvert sa maison aux pauvres.",
+      {
+        "qui": "Jeanne Delanoue (1666-1736) est une marchande de Saumur, attachée à l'argent.",
+        "sens": "Bouleversée par une rencontre, elle ouvre sa maison aux pauvres, aux orphelins et aux malades, puis fonde une congrégation, les Sœurs de Sainte-Anne de la Providence. Elle a été canonisée en 1982.",
+        "vivre": "Accueillir une personne qu'on ne connaît pas."
+      }
     ],
     "08-18": [
       "Sainte Hélène",
-      "La mère de l'empereur Constantin, partie en pèlerinage à Jérusalem."
+      "La mère de l'empereur Constantin, partie en pèlerinage à Jérusalem.",
+      {
+        "qui": "Hélène (vers 248-329) est la mère de l'empereur Constantin.",
+        "sens": "Devenue chrétienne, elle fait un pèlerinage en Terre sainte et fait construire des basiliques à Bethléem et sur le mont des Oliviers. Selon la tradition, elle aurait retrouvé la croix du Christ à Jérusalem.",
+        "vivre": "Se recueillir devant une croix."
+      }
     ],
     "08-19": [
       "Saint Jean Eudes",
-      "Un prêtre normand, missionnaire, apôtre du Cœur de Jésus et de Marie."
+      "Un prêtre normand, missionnaire, apôtre du Cœur de Jésus et de Marie.",
+      {
+        "qui": "Jean Eudes (1601-1680) est un prêtre normand.",
+        "sens": "Missionnaire infatigable, il prêche dans les campagnes, fonde des séminaires pour former les prêtres et une congrégation pour accueillir les femmes en détresse. Il est le premier à avoir fait célébrer une fête du Cœur de Jésus.",
+        "vivre": "Prier le Cœur de Jésus."
+      }
     ],
     "08-20": [
       "Saint Bernard de Clairvaux",
-      "Un moine bourguignon, grand chantre de Marie."
+      "Un moine bourguignon, grand chantre de Marie.",
+      {
+        "qui": "Bernard (1090-1153), noble bourguignon, entre à Cîteaux avec trente compagnons.",
+        "sens": "Il fonde l'abbaye de Clairvaux et en fait partir des dizaines d'autres. Grand prédicateur, conseiller des papes, il écrit de magnifiques textes sur Marie. On lui attribue la prière « Souvenez-vous ».",
+        "vivre": "Prier le « Souvenez-vous ».",
+        "fort": true
+      }
     ],
     "08-21": [
       "Saint Pie X",
-      "Le pape qui a ouvert la communion aux jeunes enfants."
+      "Le pape qui a ouvert la communion aux jeunes enfants.",
+      {
+        "qui": "Pie X (1835-1914), Giuseppe Sarto, fils d'un facteur de Vénétie, est pape de 1903 à 1914.",
+        "sens": "Il permet aux enfants de communier dès l'âge de raison, encourage la communion fréquente et réforme la musique sacrée. Il meurt au début de la Première Guerre mondiale.",
+        "vivre": "Aider un enfant à préparer sa première communion.",
+        "fort": true
+      }
     ],
     "08-22": [
       "Marie Reine",
-      "Une semaine après l'Assomption, Marie couronnée reine."
+      "Une semaine après l'Assomption, Marie couronnée reine.",
+      {
+        "qui": "Une semaine après l'Assomption, l'Église fête Marie Reine.",
+        "sens": "Pie XII a institué cette fête en 1954. Marie est reine non à la manière des puissants, mais en servante, mère du Roi qui s'est fait serviteur.",
+        "vivre": "Prier le « Salut, Reine ».",
+        "fort": true
+      }
     ],
     "08-23": [
       "Sainte Rose de Lima",
-      "La première sainte des Amériques, qui soignait les pauvres chez elle."
+      "La première sainte des Amériques, qui soignait les pauvres chez elle.",
+      {
+        "qui": "Rose de Lima (1586-1617) est une jeune fille du Pérou.",
+        "sens": "Membre du tiers-ordre dominicain, elle vit dans la prière et soigne chez ses parents les pauvres et les malades. Elle est la première sainte du continent américain et la patronne de l'Amérique latine.",
+        "vivre": "Prier pour l'Amérique latine."
+      }
     ],
     "08-24": [
       "Saint Barthélemy",
-      "L'apôtre que Jésus a vu sous le figuier."
+      "L'apôtre que Jésus a vu sous le figuier.",
+      {
+        "qui": "Barthélemy est l'un des douze apôtres, souvent identifié à Nathanaël.",
+        "sens": "Jésus l'a vu sous le figuier et a dit de lui : « Voici vraiment un Israélite, en qui il n'y a nul artifice » (Jn 1, 47). Selon la tradition, il aurait évangélisé l'Arménie et y serait mort martyr. En France, ce jour rappelle aussi le massacre de la Saint-Barthélemy, en 1572.",
+        "vivre": "Prier pour la paix entre les chrétiens."
+      }
     ],
     "08-25": [
       "Saint Louis",
-      "Le roi de France qui servait lui-même les pauvres à sa table."
+      "Le roi de France qui servait lui-même les pauvres à sa table.",
+      {
+        "qui": "Louis IX (1214-1270) est roi de France.",
+        "sens": "Il rend la justice sous un chêne à Vincennes, sert lui-même les pauvres à sa table, fait construire la Sainte-Chapelle. Il meurt de maladie à Tunis, pendant une croisade. Il est le patron de la France avec sainte Jeanne d'Arc.",
+        "vivre": "Rendre un service avec humilité."
+      }
     ],
     "08-26": [
       "Sainte Thérèse Jornet",
-      "Une Catalane qui a fondé les Petites Sœurs des anciens abandonnés."
+      "Une Catalane qui a fondé les Petites Sœurs des anciens abandonnés.",
+      {
+        "qui": "Thérèse de Jésus Jornet (1843-1897) est une Catalane.",
+        "sens": "Elle fonde les Petites Sœurs des anciens abandonnés, qui accueillent les personnes âgées sans ressources : leurs maisons sont aujourd'hui dans le monde entier. Elle a été canonisée en 1974.",
+        "vivre": "Rendre visite à une personne âgée seule."
+      }
     ],
     "08-27": [
       "Sainte Monique",
-      "La mère qui a prié des années pour son fils Augustin."
+      "La mère qui a prié des années pour son fils Augustin.",
+      {
+        "qui": "Monique (331-387), née en Afrique du Nord, est la mère de saint Augustin.",
+        "sens": "Pendant des années, elle prie et pleure pour la conversion de son fils, qui mène une vie dissipée. Un évêque lui dit : « Il est impossible que le fils de tant de larmes périsse. » Elle meurt peu après le baptême d'Augustin. Elle est la patronne des mères.",
+        "vivre": "Prier pour un enfant, avec confiance.",
+        "fort": true
+      }
     ],
     "08-28": [
       "Saint Augustin",
-      "« Tu nous as faits pour toi, et notre cœur est sans repos tant qu'il ne repose en toi. »"
+      "« Tu nous as faits pour toi, et notre cœur est sans repos tant qu'il ne repose en toi. »",
+      {
+        "qui": "Augustin (354-430), né en Afrique du Nord, est un brillant professeur qui cherche la vérité partout.",
+        "sens": "À Milan, touché par saint Ambroise et par la prière de sa mère, il se convertit à 32 ans. Évêque d'Hippone, il écrit les Confessions et La Cité de Dieu. Il y dit à Dieu : « Tu nous as faits pour toi, et notre cœur est sans repos tant qu'il ne repose en toi. » Il est docteur de l'Église.",
+        "vivre": "Laisser son cœur se reposer en Dieu quelques instants.",
+        "fort": true
+      }
     ],
     "08-29": [
       "La passion de saint Jean-Baptiste",
-      "Jean-Baptiste meurt pour avoir dit la vérité."
+      "Jean-Baptiste meurt pour avoir dit la vérité.",
+      {
+        "qui": "Jean-Baptiste dénonce le mariage du roi Hérode Antipas avec la femme de son frère.",
+        "sens": "Emprisonné, il est décapité à la demande d'Hérodiade, après la danse de sa fille (Mc 6, 17-29). Il meurt pour avoir dit la vérité.",
+        "vivre": "Dire la vérité avec courage et charité.",
+        "fort": true
+      }
     ],
     "08-30": [
       "Saint Fiacre",
-      "Un ermite venu d'Irlande, près de Meaux, patron des jardiniers."
+      "Un ermite venu d'Irlande, près de Meaux, patron des jardiniers.",
+      {
+        "qui": "Fiacre est un ermite venu d'Irlande au VIIe siècle.",
+        "sens": "L'évêque de Meaux lui donne un terrain dans la forêt, à Breuil, où il cultive un jardin pour nourrir les pauvres et les pèlerins. Il est le patron des jardiniers. Les fiacres, voitures de louage parisiennes, tirent leur nom d'une enseigne à son effigie. Le 30 août est aussi le jour de sainte Jeanne Jugan.",
+        "vivre": "Planter ou arroser quelque chose."
+      }
     ],
     "08-31": [
       "Saints Joseph d'Arimathie et Nicodème",
-      "Les deux hommes qui ont mis Jésus au tombeau."
+      "Les deux hommes qui ont mis Jésus au tombeau.",
+      {
+        "qui": "Joseph d'Arimathie et Nicodème sont deux notables juifs, membres du Sanhédrin, disciples cachés de Jésus.",
+        "sens": "Nicodème était venu voir Jésus la nuit (Jn 3). Après la crucifixion, ils osent demander son corps à Pilate et le déposent dans un tombeau neuf (Jn 19, 38-42). Le martyrologe en fait mémoire le 31 août.",
+        "vivre": "Oser montrer sa foi, même tard."
+      }
     ],
     "09-01": [
       "Saint Gilles",
