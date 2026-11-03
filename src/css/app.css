@@ -416,7 +416,8 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 @keyframes v-brise { from { transform: skewX(-1.6deg); } to { transform: skewX(1.9deg); } }
 @keyframes v-brise-rond { from { transform: skewX(-1.2deg) scaleX(.995); } to { transform: skewX(1.4deg) scaleX(1.008); } }
 /* La bougie : l'image entière, plus fondue sur les côtés ; la flamme vacille depuis la mèche, son halo respire. */
-.respiration.bougie { aspect-ratio: 1213 / 820; margin-top: 4px; }
+.respiration.bougie { aspect-ratio: 1672 / 941; margin-top: 4px; }
+.respiration.bougie.nuit { aspect-ratio: 1213 / 820; }
 .b-flamme { position: absolute; animation: b-balance 5.3s ease-in-out infinite; }
 .b-flamme img { display: block; width: 100%; height: 100%; animation: b-fremit 1.9s ease-in-out infinite; }
 /* Une flamme dans l'air calme : un lent balancement, et de petits frémissements irréguliers qui l'étirent et l'affinent. */
@@ -427,7 +428,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
   background: radial-gradient(circle, rgba(255,214,150,.55) 0%, rgba(255,200,130,.22) 35%, rgba(255,200,130,0) 70%); animation: b-respire 1.9s ease-in-out infinite; }
 .bougie.nuit .b-halo { mix-blend-mode: screen; width: 60%; animation: b-respire 1.9s ease-in-out infinite; }
 .bougie.jour .b-halo { animation: b-respire 1.9s ease-in-out infinite; }
-.bougie.jour .b-halo { width: 60%; background: radial-gradient(circle, rgba(255,236,190,.85) 0%, rgba(255,206,130,.42) 22%, rgba(250,196,120,.16) 45%, rgba(250,196,120,0) 70%); }
+.bougie.jour .b-halo { width: 72%; background: radial-gradient(circle, rgba(255,236,190,.85) 0%, rgba(255,206,130,.42) 22%, rgba(250,196,120,.16) 45%, rgba(250,196,120,0) 70%); }
 @keyframes b-respire { 0%, 100% { opacity: .7; } 13% { opacity: .8; } 21% { opacity: .64; } 34% { opacity: .76; } 46% { opacity: .7; } 58% { opacity: .85; } 66% { opacity: .62; } 79% { opacity: .74; } 90% { opacity: .68; } }
 
 /* De jour : deux moineaux peints, sur un cycle de 22 s. Vol de moineau : trois battements rapides, puis ailes
