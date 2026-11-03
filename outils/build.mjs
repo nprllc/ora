@@ -24,6 +24,7 @@ const donnees = {
   contenus: json('contenus.json'),
   lectionnaire: json('lectionnaire.json'),
   coeurs: json('coeur-evangile.json').coeurs,
+  jours: (({ _note, ...l }) => l)(json('jours.json')),
   prieresJour: json('prieres-jour.json'),
   ui: json('i18n/ui.json'),
   i18n: { es: json('i18n/es.json'), en: json('i18n/en.json') },
