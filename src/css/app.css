@@ -264,7 +264,6 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 
 /* Réglages : présentation */
 .presentation { margin-top: 10px; font-size: 1rem; line-height: 1.65; color: var(--doux); }
-.presentation strong { color: var(--encre); font-weight: 500; }
 
 /* ==========================================================================
    CIEL VIVANT — animation d'ambiance, après l'animation d'entrée.
@@ -416,17 +415,52 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .v-arbre.rond { animation-name: v-brise-rond; animation-duration: 9s; }
 @keyframes v-brise { from { transform: skewX(-1.6deg); } to { transform: skewX(1.9deg); } }
 @keyframes v-brise-rond { from { transform: skewX(-1.2deg) scaleX(.995); } to { transform: skewX(1.4deg) scaleX(1.008); } }
-/* De jour : quelques oiseaux traversent lentement le ciel. */
-.v-oiseau { position: absolute; left: 0; width: 11px; color: rgba(110,98,88,.55); animation: v-traverse 46s linear infinite; }
-.v-oiseau.o1 { width: 9px; } .v-oiseau.o2 { width: 8px; color: rgba(110,98,88,.4); }
-.v-oiseau i { display: block; animation: v-aile 1.1s ease-in-out infinite alternate; transform-origin: 50% 70%; }
-.v-oiseau.o1 i { animation-duration: .9s; } .v-oiseau.o2 i { animation-duration: 1.3s; }
-.v-oiseau svg { display: block; width: 100%; height: auto; overflow: visible; }
-@keyframes v-traverse { 0% { transform: translate(-30px, 0); } 50% { transform: translate(calc(50vw), -6px); } 100% { transform: translate(calc(100vw + 30px), 4px); } }
-@keyframes v-aile { from { transform: scaleY(1); } to { transform: scaleY(.35); } }
+/* La bougie : l'image entière, plus fondue sur les côtés ; la flamme vacille depuis la mèche, son halo respire. */
+.respiration.bougie { aspect-ratio: 1672 / 941; margin-top: 4px; }
+.respiration.bougie.nuit { aspect-ratio: 1213 / 820; }
+.b-flamme { position: absolute; background-repeat: no-repeat; transform-origin: 50% 92%;
+  -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 60%, transparent 100%); mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 60%, transparent 100%);
+  animation: b-vacille 2.3s ease-in-out infinite; }
+@keyframes b-vacille { 0% { transform: scale(1, 1) skewX(0); } 9% { transform: scale(.97, 1.05) skewX(-2deg); } 17% { transform: scale(1.02, .97) skewX(1.5deg); }
+  28% { transform: scale(.98, 1.07) skewX(-1deg); } 36% { transform: scale(1.01, .99) skewX(2.5deg); } 47% { transform: scale(.96, 1.04) skewX(-3deg); }
+  58% { transform: scale(1.02, .96) skewX(.5deg); } 66% { transform: scale(.99, 1.06) skewX(2deg); } 77% { transform: scale(1.01, .98) skewX(-1.5deg); }
+  88% { transform: scale(.98, 1.03) skewX(1deg); } 100% { transform: scale(1, 1) skewX(0); } }
+.b-halo { position: absolute; width: 46%; aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,214,150,.55) 0%, rgba(255,200,130,.22) 35%, rgba(255,200,130,0) 70%); animation: b-respire 3.1s linear infinite; }
+.bougie.nuit .b-halo { mix-blend-mode: screen; width: 60%; }
+.bougie.jour .b-halo { background: radial-gradient(circle, rgba(255,226,170,.5) 0%, rgba(255,220,160,.18) 35%, rgba(255,220,160,0) 70%); }
+@keyframes b-respire { 0% { opacity: .55; } 11% { opacity: .8; } 19% { opacity: .45; } 30% { opacity: .7; } 38% { opacity: .6; } 49% { opacity: .9; }
+  57% { opacity: .5; } 68% { opacity: .75; } 76% { opacity: .4; } 87% { opacity: .7; } 100% { opacity: .55; } }
+
+/* De jour : deux moineaux, sur un cycle de 22 s. L'un quitte son olivier et file derrière le clocher ;
+   l'autre arrive de la droite et se pose sur un olivier, puis s'efface. */
+.v-oiseau { position: absolute; width: 6px; height: 3px; margin: -3px 0 0 -3px; color: rgba(62,52,44,.85); opacity: 0; }
+.v-oiseau svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.v-oiseau .vol { animation: v-aile .14s ease-in-out infinite alternate; transform-origin: 50% 65%; }
+@keyframes v-aile { from { transform: scaleY(1); } to { transform: scaleY(-.5); } }
+.v-oiseau.oa { animation: v-moineau-a 22s ease-in-out infinite; }
+.v-oiseau.oa .vol { animation: v-aile .14s ease-in-out infinite alternate, v-vol-a 22s linear infinite; }
+.v-oiseau.oa .pose { animation: v-pose-a 22s linear infinite; }
+@keyframes v-moineau-a {
+  0% { left: 50.4%; top: 45.6%; opacity: 0; } 4%, 17% { left: 50.4%; top: 45.6%; opacity: 1; }
+  21% { left: 53.5%; top: 33%; opacity: 1; } 25% { left: 58%; top: 27%; opacity: 1; } 28% { left: 60.8%; top: 31%; opacity: 0; } 100% { left: 60.8%; top: 31%; opacity: 0; } }
+@keyframes v-vol-a { 0%, 16.9% { opacity: 0; } 17%, 100% { opacity: 1; } }
+@keyframes v-pose-a { 0%, 16.9% { opacity: 1; } 17%, 100% { opacity: 0; } }
+.v-oiseau.ob { animation: v-moineau-b 22s ease-in-out infinite; }
+.v-oiseau.ob svg { transform: scaleX(-1); }
+.v-oiseau.ob .vol { animation: v-aile .14s ease-in-out infinite alternate, v-vol-b 22s linear infinite; }
+.v-oiseau.ob .pose { animation: v-pose-b 22s linear infinite; }
+@keyframes v-moineau-b {
+  0%, 42% { left: 104%; top: 14%; opacity: 0; } 43% { left: 102%; top: 13.5%; opacity: 1; }
+  50% { left: 76%; top: 9%; } 56% { left: 50%; top: 24%; } 60% { left: 38%; top: 46%; } 62%, 92% { left: 34.3%; top: 58%; opacity: 1; }
+  97%, 100% { left: 34.3%; top: 58%; opacity: 0; } }
+@keyframes v-vol-b { 0%, 61.9% { opacity: 1; } 62%, 100% { opacity: 0; } }
+@keyframes v-pose-b { 0%, 61.9% { opacity: 0; } 62%, 100% { opacity: 1; } }
 /* Le soir : les fenêtres luisent doucement, chaque quartier à son rythme, et quelques étoiles scintillent. */
-.v-lum { mix-blend-mode: screen; opacity: .15; animation: v-luit 7s ease-in-out infinite alternate; }
-.v-lum.l1 { animation-duration: 9s; animation-delay: -3s; } .v-lum.l2 { animation-duration: 11s; animation-delay: -6s; }
-@keyframes v-luit { from { opacity: .1; } to { opacity: .75; } }
+/* Les lumières vacillent comme des bougies : trois quartiers, trois rythmes irréguliers qui ne se recoupent jamais. */
+.v-lum { mix-blend-mode: screen; opacity: .5; animation: v-bougie 2.9s linear infinite; }
+.v-lum.l1 { animation-duration: 3.7s; animation-delay: -1.2s; } .v-lum.l2 { animation-duration: 4.3s; animation-delay: -2.5s; }
+@keyframes v-bougie { 0% { opacity: .5; } 7% { opacity: .72; } 12% { opacity: .4; } 20% { opacity: .62; } 27% { opacity: .55; } 34% { opacity: .82; }
+  41% { opacity: .46; } 49% { opacity: .66; } 55% { opacity: .35; } 63% { opacity: .7; } 71% { opacity: .52; } 78% { opacity: .78; } 86% { opacity: .42; } 93% { opacity: .64; } 100% { opacity: .5; } }
 .v-etoile { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: #F4EEDF; box-shadow: 0 0 4px 1px rgba(244,238,223,.35); animation: scintille 6s ease-in-out infinite; }
-@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-lum, .v-etoile { animation: none; } .v-oiseau { display: none; } }
+@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-lum, .v-etoile, .b-flamme, .b-halo { animation: none; } .v-oiseau { display: none; } }

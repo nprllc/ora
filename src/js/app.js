@@ -313,11 +313,13 @@
       if (c.reflexion) html += section(T('reflexion-jour'), '<p class="s-titre">' + esc(c.reflexion.titre) + '</p><p class="s-accroche">' + lexique(c.reflexion.accroche) + '</p>', 'reflexion', T('lire'));
       if (c.histoire) html += section(T('histoire-jour'), '<p class="s-titre">' + esc(c.histoire.titre) + '</p><p class="s-accroche">' + lexique(c.histoire.accroche) + '</p>', 'histoire', T('lire'));
       if (c.portrait) html += section(T('portrait-jour'), '<p class="s-titre">' + esc(c.portrait.nom) + ' <span class="s-dates">' + esc(c.portrait.dates) + '</span></p><p class="s-accroche">' + lexique(c.portrait.accroche) + '</p>', 'portrait', T('lire'));
+      if (c.savaisTu) html += bougie();
       if (c.savaisTu) html += section(T('savais-tu'), '<p class="s-titre">' + esc(c.savaisTu.titre) + '</p><p class="s-accroche">' + lexique(c.savaisTu.accroche) + '</p>', 'savais-tu', T('lire'));
     } else {
       // Jour sans contenu éditorial : l'explication de la fête ou du temps liturgique, puis l'idée du jour.
       var ex = a.expl || a.explSaison;
       if (ex) html += section(a.expl ? T('la-fete') : T('le-temps'), '<p class="s-titre">' + esc(a.expl ? a.j.celebration.nom : a.j.saison.nom) + '</p><p class="s-accroche">' + lexique(ex.pourquoi || ex.quoi) + '</p>');
+      html += bougie();
       html += section(T('idee-jour'), '<p class="s-accroche">' + lexique(a.conseil) + '</p>');
     }
     var mot = motDuJour(dateDuJour());
@@ -332,7 +334,22 @@
   var ARBRES = [[632, 195, 362, 26, 1], [678, 205, 352, 22, 1], [857, 265, 432, 24, 1], [826, 324, 430, 20, 1], [1305, 186, 272, 18, 1],
     [1658, 355, 484, 22, 1], [1828, 297, 404, 20, 1], [1860, 313, 414, 20, 1], [354, 317, 392, 16, 1],
     [180, 362, 438, 50, .5], [298, 330, 408, 50, .5], [700, 365, 468, 64, .5], [1235, 342, 462, 62, .5], [1940, 388, 468, 52, .5], [1030, 280, 378, 64, .5]];
-  var ETOILES_VILLAGE = [[6, 8], [15, 26], [24, 5], [37, 16], [46, 4], [63, 10], [72, 22], [81, 5], [90, 17], [96, 32]];
+  var ETOILES_VILLAGE = [[15, 24], [37, 12], [63, 8], [81, 18], [90, 6]];
+  // Un morceau d'une image (rectangle x0,y0 → x1,y1 en pixels de l'image d'origine), posé exactement à sa place,
+  // pour l'animer seul (un arbre qui ondule, une flamme qui vacille).
+  function morceau(src, IW, IH, x0, y0, x1, y1, cls, style) {
+    var x = x0 / IW, y = y0 / IH, w = (x1 - x0) / IW, h = (y1 - y0) / IH;
+    return '<span class="' + cls + '" style="background-image:url(' + src + ');left:' + (x * 100).toFixed(2) + '%;top:' + (y * 100).toFixed(2) + '%;width:' + (w * 100).toFixed(2) + '%;height:' + (h * 100).toFixed(2) +
+      '%;background-size:' + (100 / w).toFixed(1) + '% ' + (100 / h).toFixed(1) + '%;background-position:' + (x / (1 - w) * 100).toFixed(2) + '% ' + (y / (1 - h) * 100).toFixed(2) + '%;' + (style || '') + '"></span>';
+  }
+  // Seconde respiration, avant « Le savais-tu ? » : des mains qui protègent une bougie ; la flamme vacille et sa lumière respire.
+  function bougie() {
+    var nuit = estNuit(), src = 'img/bougie-' + (nuit ? 'nuit' : 'jour') + '.webp';
+    var f = nuit ? [1213, 820, 590, 150, 680, 318] : [1672, 941, 816, 356, 900, 506];
+    var cx = ((f[2] + f[4]) / 2 / f[0] * 100).toFixed(2), cy = ((f[3] + f[5]) / 2 / f[1] * 100).toFixed(2);
+    return '<div class="respiration bougie ' + (nuit ? 'nuit' : 'jour') + '" aria-hidden="true"><img src="' + src + '" alt="" decoding="async">' +
+      '<span class="b-halo" style="left:' + cx + '%;top:' + cy + '%"></span>' + morceau(src, f[0], f[1], f[2], f[3], f[4], f[5], 'b-flamme') + '</div>';
+  }
   function respiration() {
     if (estNuit()) {
       return '<div class="respiration village nuit" aria-hidden="true"><img src="img/village-nuit.webp" alt="" decoding="async">' +
@@ -340,14 +357,12 @@
         ETOILES_VILLAGE.map(function (p, k) { return '<span class="v-etoile" style="left:' + p[0] + '%;top:' + p[1] + '%;animation-duration:' + (5 + k % 4 * 1.7) + 's;animation-delay:-' + (k * 1.3) + 's"></span>'; }).join('') + '</div>';
     }
     var arbres = ARBRES.map(function (a, k) {
-      var x = (a[0] - a[3]) / 2048, w = 2 * a[3] / 2048, y = a[1] / 618, h = (a[2] - a[1]) / 618;
-      return '<span class="v-arbre' + (a[4] < 1 ? ' rond' : '') + '" style="background-image:url(img/village-jour.webp);left:' + (x * 100).toFixed(2) + '%;top:' + (y * 100).toFixed(2) + '%;width:' + (w * 100).toFixed(2) + '%;height:' + (h * 100).toFixed(2) +
-        '%;background-size:' + (100 / w).toFixed(1) + '% ' + (100 / h).toFixed(1) + '%;background-position:' + (x / (1 - w) * 100).toFixed(2) + '% ' + (y / (1 - h) * 100).toFixed(2) + '%;animation-delay:-' + (k * 0.9).toFixed(1) + 's"></span>';
+      return morceau('img/village-jour.webp', 2048, 618, a[0] - a[3], a[1], a[0] + a[3], a[2], 'v-arbre' + (a[4] < 1 ? ' rond' : ''), 'animation-delay:-' + (k * 0.9).toFixed(1) + 's');
     }).join('');
-    var oiseau = '<svg viewBox="0 0 20 8"><path d="M1 6q4.5-5 9 0q4.5-5 9 0" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg>';
-    var oiseaux = [[10, 0, 46], [18, -17, 52], [6, -33, 58]].map(function (o, k) {
-      return '<span class="v-oiseau o' + k + '" style="top:' + o[0] + '%;animation-delay:' + o[1] + 's;animation-duration:' + o[2] + 's"><i>' + oiseau + '</i></span>';
-    }).join('');
+    // Deux moineaux : l'un s'envole d'un olivier et disparaît derrière le village, l'autre traverse le ciel et se pose sur un autre arbre.
+    var vol = '<svg class="vol" viewBox="0 0 12 6"><path d="M1 3.4q2.6-3 5 .2q2.4-3.2 5-.2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><ellipse cx="6" cy="3.8" rx="1.3" ry=".9" fill="currentColor"/></svg>';
+    var pose = '<svg class="pose" viewBox="0 0 12 6"><path d="M4 4.6q.2-2.4 2.6-2.6q1.6 0 1.9 1.2l1.1.2l-1 .5q-.3 1.4-2 1.5zM4.2 4.4l-2 .9" fill="currentColor" stroke="currentColor" stroke-width=".5" stroke-linecap="round"/></svg>';
+    var oiseaux = '<span class="v-oiseau oa">' + vol + pose + '</span><span class="v-oiseau ob">' + vol + pose + '</span>';
     return '<div class="respiration village jour" aria-hidden="true"><img src="img/village-jour.webp" alt="" decoding="async">' + arbres + oiseaux + '</div>';
   }
 
@@ -694,7 +709,7 @@
         '<div class="be-nuages" id="be-nuages" aria-hidden="true"></div><div class="be-nuages be-nuages-2" id="be-nuages-2" aria-hidden="true"></div>' +
         (cle === 'nuit' ? '<div class="be-etoiles" aria-hidden="true">' + ETOILES_HAUT.map(function (p) { return '<span class="etoile" style="left:calc(50% - 195px + ' + p[0] + 'px);top:' + p[1] + 'px;--d:' + p[2] + 's;--r:-' + p[3] + 's"></span>'; }).join('') + '</div>' : '') +
         '<div class="be-mer be-mer-loin" id="be-mer-loin" aria-hidden="true"></div><div class="be-mer" id="be-mer" aria-hidden="true"></div><div class="be-lumiere" aria-hidden="true"></div>' +
-        '<div class="be-contenu"><div class="be-o" aria-hidden="true">' + LOGO.replace('width="68" height="27"', 'width="170" height="65"') + '</div>' +
+        '<div class="be-contenu"><div class="be-o" aria-hidden="true">' + LOGO.replace('width="68" height="27" viewBox="0 0 84 32"', 'width="134" height="65" viewBox="0 0 66 32"') + '</div>' +
         '<h1 class="be-titre">' + esc(T('menu-titre')) + '</h1><p class="be-texte">' + T('presentation') + '</p>' +
         '<button class="be-commencer" data-action="bienvenue">' + esc(T('commencer')) + '</button></div>' +
         '<div class="be-balai" aria-hidden="true">' + BALAI.map(function (n, k) { return '<div class="bb bb-' + n[0] + '" id="bb-' + k + '" style="left:calc(50% + ' + n[1] + 'px);top:' + n[2] + 'px;--bb-d:' + n[5] + 's"></div>'; }).join('') + '</div>' +
