@@ -188,6 +188,8 @@
     var bo = bords(liste.map(function (x) { return x.t; }).join(' '));
     if (bo[0]) h = h.replace(/(<sup>\d+<\/sup>|<span class="vx"><\/span>)/, '$1' + bo[0]);
     if (bo[1]) h = h.replace(/\s+$/, '') + bo[1];
+    // Un extrait ne finit pas sur le tiret qui annonce la réplique suivante.
+    if (sansNumeros) h = h.replace(/\s*—\s*$/, '');
     // Un extrait qui commence au milieu d'une phrase (« et leur dit ») prend une majuscule.
     if (sansNumeros) h = h.replace(/^(<span class="vx"><\/span>[«“"\s]*)(\p{Ll})/u, function (m, a, b) { return a + b.toUpperCase(); });
     return '<p class="versets">' + h + '</p>';
@@ -367,7 +369,7 @@
     if (p.texte) html += section(p.etiquette, blocPriere(p));
     var e = evangile(a);
     if (e && e.attente) html += section(T('evangile-jour'), '<p class="charge">…</p>');
-    else if (e) html += section(T('evangile-jour'), versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>', 'evangile', e.coeur.length < e.liste.length || c ? T('mediter') : T('lire'));
+    else if (e) html += section(T('evangile-jour'), (a.lect.titre && LANG === 'fr' ? '<p class="ev-titre">' + esc(a.lect.titre) + '</p>' : '') + versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>', 'evangile', e.coeur.length < e.liste.length || c ? T('mediter') : T('lire'));
     html += respiration();
     if (c) {
       var cit = c.citation;

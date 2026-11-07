@@ -66,10 +66,10 @@ const donnees = {
 {
   const ev = json('evangiles.json');
   const bibles = Object.fromEntries(Object.entries({ fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' }).map(([l, f]) => [l, Object.fromEntries(json(f).livres.map((b) => [b.osis, b]))]));
-  const lire = (ref) => {
+  const lire = ([ref, titre]) => {
     const { osis, liste } = lireRef(ref, bibles.fr, true);
     if (!liste.length) throw new Error(`évangiles : ${ref} : aucun verset`);
-    const e = { ref, osis, v: liste, ora: 1 };
+    const e = { ref, titre, osis, v: liste, ora: 1 };
     for (const l of ['fr', 'es', 'en']) {
       const vl = [];
       for (const [c, v] of liste) for (const x of VERSIF[l][`${osis}.${c}.${v}`] || [[c, v]]) if (!vl.some((y) => y[0] === x[0] && y[1] === x[1])) vl.push(x);

@@ -1,426 +1,1335 @@
 {
- "_note": "L'Évangile du jour d'Ora : des passages courts choisis parmi les plus aimés de la tradition (Béatitudes, paraboles, « Venez à moi », Jn 3, 16…), en très grande majorité des paroles de Jésus. Un passage par jour, sans répétition dans l'année : les temps forts ont le leur, rangé par rang du jour dans le temps (Avent : jusqu'au 16 décembre, puis aventFin du 17 au 24 ; Noël depuis le 25 décembre ; Carême depuis les Cendres ; Triduum depuis le Jeudi saint ; Pâques depuis le dimanche de Pâques) ; le temps ordinaire suit ses semaines (semaine 1 à 34, du dimanche au samedi). Les fêtes ont leur passage (fetes, par identifiant de célébration). Les références suivent la Bible Crampon ; le build vérifie chaque verset dans les trois Bibles. L'Évangile de la messe reste indiqué à côté.",
+ "_note": "L'Évangile du jour d'Ora. Chaque passage est une unité complète (un épisode, une parabole ou une parole entière, qui commence et finit avec la phrase), choisi pour sa force et sa signification ; la grande majorité sont des paroles de Jésus. Chaque entrée : [référence, titre]. Les temps forts ont leurs passages, rangés par rang du jour dans le temps (Avent jusqu'au 16 décembre, puis aventFin du 17 au 24 ; Noël depuis le 25 décembre ; Carême depuis les Cendres ; Triduum depuis le Jeudi saint ; Pâques depuis le dimanche de Pâques) ; le temps ordinaire suit ses semaines. Les fêtes ont le leur. Références dans la numérotation moderne ; le build vérifie chaque verset dans les trois Bibles. Aucun verset ne figure dans deux passages (testé).",
  "fetes": {
-  "sainte-famille": "Lc 2, 51-52",
-  "epiphanie": "Mt 2, 11",
-  "bapteme": "Mt 3, 16-17",
-  "presentation": "Lc 2, 29-32",
-  "joseph": "Mt 1, 24",
-  "annonciation": "Lc 1, 38",
-  "ascension": "Mt 28, 18-19",
-  "trinite": "Jn 16, 14-15",
-  "saint-sacrement": "Mc 14, 22-24",
-  "sacre-coeur": "Jn 19, 34",
-  "christ-roi": "Jn 18, 36",
-  "transfiguration": "Mt 17, 1-2",
-  "croix-glorieuse": "Jn 8, 28",
-  "assomption": "Lc 1, 48-49",
-  "immaculee-conception": "Lc 1, 28",
-  "nativite-jean-baptiste": "Lc 1, 63-64",
-  "pierre-paul": "Mt 16, 17",
-  "marie-madeleine": "Jn 20, 17",
-  "visitation": "Lc 1, 41-42",
-  "archanges": "Jn 1, 51",
-  "andre": "Jn 1, 40-41",
-  "thomas": "Jn 20, 28-29",
-  "matthieu": "Mt 9, 10",
-  "conversion-paul": "Lc 21, 15"
+  "epiphanie": [
+   "Mt 2, 1-12",
+   "Les mages venus d'Orient"
+  ],
+  "bapteme": [
+   "Mt 3, 13-17",
+   "Le baptême de Jésus"
+  ],
+  "sainte-famille": [
+   "Lc 2, 41-52",
+   "Jésus au Temple à douze ans"
+  ],
+  "presentation": [
+   "Lc 2, 22-32",
+   "Mes yeux ont vu ton salut"
+  ],
+  "ascension": [
+   "Mt 28, 16-20",
+   "Je suis avec vous tous les jours"
+  ],
+  "saint-sacrement": [
+   "Mc 14, 22-25",
+   "Ceci est mon corps"
+  ],
+  "sacre-coeur": [
+   "Jn 19, 31-37",
+   "Ils regarderont celui qu'ils ont transpercé"
+  ],
+  "christ-roi": [
+   "Jn 18, 33-37",
+   "Ma royauté n'est pas de ce monde"
+  ],
+  "transfiguration": [
+   "Mc 9, 2-8",
+   "Celui-ci est mon Fils bien-aimé"
+  ],
+  "croix-glorieuse": [
+   "Jn 19, 17-18",
+   "Il porta lui-même sa croix"
+  ],
+  "archanges": [
+   "Jn 1, 51",
+   "Les anges de Dieu monter et descendre"
+  ],
+  "matthieu": [
+   "Mt 9, 9-13",
+   "Suis-moi"
+  ],
+  "conversion-paul": [
+   "Mt 19, 27-29",
+   "Vous qui m'avez suivi"
+  ]
  },
  "avent": [
-  "Mc 13, 31-32",
-  "Mt 24, 42-44",
-  "Lc 21, 36",
-  "Mc 13, 33",
-  "Lc 21, 28",
-  "Lc 12, 35-37",
-  "Mt 3, 1-3",
-  "Lc 3, 10-11",
-  "Jn 1, 6-9",
-  "Mt 11, 4-5",
-  "Lc 3, 15-16",
-  "Jn 1, 26-27",
-  "Jn 1, 15-16",
-  "Mt 25, 10-13",
-  "Lc 12, 39-40",
-  "Jn 3, 29-30",
-  "Mc 1, 14-15",
-  "Mt 1, 20-21",
-  "Mt 1, 22-23",
-  "Lc 17, 20-21"
+  [
+   "Mc 13, 33-37",
+   "Veillez"
+  ],
+  [
+   "Lc 21, 34-36",
+   "Restez éveillés et priez"
+  ],
+  [
+   "Mt 24, 42-44",
+   "Tenez-vous prêts"
+  ],
+  [
+   "Lc 12, 35-38",
+   "Heureux les serviteurs qui veillent"
+  ],
+  [
+   "Mt 3, 1-6",
+   "Jean-Baptiste au désert"
+  ],
+  [
+   "Lc 3, 10-14",
+   "Que devons-nous faire ?"
+  ],
+  [
+   "Jn 1, 6-9",
+   "Un témoin de la lumière"
+  ],
+  [
+   "Mt 11, 2-6",
+   "Es-tu celui qui doit venir ?"
+  ],
+  [
+   "Lc 3, 15-18",
+   "Il vous baptisera dans l'Esprit Saint"
+  ],
+  [
+   "Jn 1, 19-23",
+   "Je suis la voix qui crie dans le désert"
+  ],
+  [
+   "Mt 1, 18-21",
+   "Joseph accueille Marie"
+  ],
+  [
+   "Mt 1, 22-25",
+   "Dieu avec nous"
+  ],
+  [
+   "Mt 25, 1-13",
+   "Les jeunes filles et leurs lampes"
+  ],
+  [
+   "Lc 17, 20-21",
+   "Le Règne de Dieu est au milieu de vous"
+  ],
+  [
+   "Jn 3, 27-30",
+   "Il faut qu'il croisse"
+  ],
+  [
+   "Mc 1, 14-15",
+   "Convertissez-vous et croyez à l'Évangile"
+  ],
+  [
+   "Mt 11, 7-11",
+   "Qu'êtes-vous allés voir au désert ?"
+  ],
+  [
+   "Lc 21, 25-28",
+   "Redressez-vous et relevez la tête"
+  ],
+  [
+   "Mt 21, 28-32",
+   "Les deux fils"
+  ],
+  [
+   "Mc 1, 1-8",
+   "Préparez le chemin du Seigneur"
+  ]
  ],
  "aventFin": [
-  "Lc 1, 26-27",
-  "Lc 1, 30-33",
-  "Lc 1, 37",
-  "Lc 1, 39-40",
-  "Lc 1, 43-45",
-  "Lc 1, 46-47",
-  "Lc 1, 51-53",
-  "Lc 1, 78-79"
+  [
+   "Lc 1, 26-33",
+   "L'ange Gabriel chez Marie"
+  ],
+  [
+   "Lc 1, 34-38",
+   "Voici la servante du Seigneur"
+  ],
+  [
+   "Lc 1, 11-17",
+   "Ta prière a été exaucée"
+  ],
+  [
+   "Lc 1, 39-45",
+   "Marie chez Élisabeth"
+  ],
+  [
+   "Lc 1, 46-55",
+   "Le chant de Marie"
+  ],
+  [
+   "Lc 1, 57-66",
+   "Son nom est Jean"
+  ],
+  [
+   "Lc 1, 67-75",
+   "Le chant de Zacharie"
+  ],
+  [
+   "Lc 1, 76-79",
+   "Le soleil levant nous visitera"
+  ]
  ],
  "noel": [
-  "Lc 2, 10-12",
-  "Mt 10, 19-20",
-  "Jn 19, 26-27",
-  "Mt 18, 10",
-  "Lc 2, 13-14",
-  "Lc 2, 15-16",
-  "Jn 1, 1-5",
-  "Lc 2, 19-21",
-  "Jn 1, 9-12",
-  "Jn 1, 14",
-  "Mt 2, 1-2",
-  "Mt 2, 9-10",
-  "Mt 2, 12",
-  "Jn 1, 38-39",
-  "Mt 2, 13-14",
-  "Lc 2, 39-40",
-  "Lc 2, 48-49",
-  "Jn 2, 3-5",
-  "Jn 1, 32-34",
-  "Lc 4, 18-19",
-  "Mt 2, 23"
+  [
+   "Lc 2, 1-7",
+   "La naissance de Jésus"
+  ],
+  [
+   "Mt 10, 17-22",
+   "L'Esprit parlera en vous"
+  ],
+  [
+   "Jn 21, 24-25",
+   "Son témoignage est vrai"
+  ],
+  [
+   "Mt 2, 13-18",
+   "La fuite en Égypte"
+  ],
+  [
+   "Lc 2, 8-14",
+   "Les anges et les bergers"
+  ],
+  [
+   "Jn 1, 1-5",
+   "Au commencement était le Verbe"
+  ],
+  [
+   "Jn 1, 10-14",
+   "Le Verbe s'est fait chair"
+  ],
+  [
+   "Lc 2, 15-21",
+   "Marie gardait tout dans son cœur"
+  ],
+  [
+   "Jn 1, 15-18",
+   "Grâce sur grâce"
+  ],
+  [
+   "Lc 2, 33-40",
+   "L'enfant grandissait"
+  ],
+  [
+   "Jn 1, 35-42",
+   "Venez et voyez"
+  ],
+  [
+   "Jn 1, 43-50",
+   "Tu verras le ciel ouvert"
+  ],
+  [
+   "Jn 2, 1-11",
+   "Les noces de Cana"
+  ],
+  [
+   "Lc 4, 14-21",
+   "Aujourd'hui s'accomplit cette parole"
+  ],
+  [
+   "Mt 4, 12-17",
+   "Le peuple qui marchait dans les ténèbres"
+  ],
+  [
+   "Jn 1, 29-34",
+   "Voici l'Agneau de Dieu"
+  ],
+  [
+   "Mt 2, 19-23",
+   "Le retour à Nazareth"
+  ],
+  [
+   "Mc 1, 16-20",
+   "Je vous ferai pêcheurs d'hommes"
+  ],
+  [
+   "Lc 5, 12-16",
+   "Je le veux, sois purifié"
+  ],
+  [
+   "Mc 1, 35-39",
+   "Jésus prie avant l'aube"
+  ],
+  [
+   "Mt 4, 23-25",
+   "Jésus parcourait la Galilée"
+  ]
  ],
  "careme": [
-  "Mt 6, 17-18",
-  "Lc 9, 23-24",
-  "Mt 9, 12-13",
-  "Mt 4, 4",
-  "Mt 4, 10",
-  "Mt 6, 5-6",
-  "Mt 6, 2-4",
-  "Mt 6, 7-8",
-  "Mt 6, 9-13",
-  "Mt 6, 14-15",
-  "Mt 7, 7-8",
-  "Mt 17, 5-7",
-  "Mt 5, 23-24",
-  "Mt 5, 44-45",
-  "Lc 6, 36-38",
-  "Mt 23, 11-12",
-  "Mt 20, 26-28",
-  "Jn 3, 14-15",
-  "Jn 4, 13-14",
-  "Jn 4, 23-24",
-  "Lc 13, 8-9",
-  "Mt 18, 21-22",
-  "Mc 12, 29-31",
-  "Jn 8, 12",
-  "Lc 18, 13-14",
-  "Jn 3, 16-17",
-  "Lc 15, 20",
-  "Lc 15, 31-32",
-  "Jn 5, 24",
-  "Jn 7, 37-38",
-  "Jn 12, 24-25",
-  "Jn 11, 25-26",
-  "Jn 11, 43-44",
-  "Jn 8, 10-11",
-  "Mt 16, 24-26",
-  "Jn 12, 31-32",
-  "Jn 10, 17-18",
-  "Jn 15, 13",
-  "Lc 19, 41-42",
-  "Mt 21, 8-9",
-  "Jn 12, 3",
-  "Jn 13, 36-38",
-  "Mt 26, 14-16"
+  [
+   "Mt 6, 16-18",
+   "Quand tu jeûnes"
+  ],
+  [
+   "Lc 9, 23-25",
+   "Prendre sa croix chaque jour"
+  ],
+  [
+   "Mt 9, 14-15",
+   "Les invités de l'époux"
+  ],
+  [
+   "Lc 5, 27-32",
+   "Je suis venu appeler les pécheurs"
+  ],
+  [
+   "Mt 4, 1-11",
+   "Jésus au désert"
+  ],
+  [
+   "Mt 25, 31-40",
+   "C'est à moi que vous l'avez fait"
+  ],
+  [
+   "Mt 6, 7-15",
+   "Le Notre Père"
+  ],
+  [
+   "Mt 7, 7-11",
+   "Demandez, et l'on vous donnera"
+  ],
+  [
+   "Mt 5, 20-26",
+   "Va d'abord te réconcilier"
+  ],
+  [
+   "Mt 5, 43-48",
+   "Aimez vos ennemis"
+  ],
+  [
+   "Lc 6, 36-38",
+   "Soyez miséricordieux"
+  ],
+  [
+   "Mt 17, 1-9",
+   "La Transfiguration"
+  ],
+  [
+   "Mt 23, 8-12",
+   "Vous êtes tous frères"
+  ],
+  [
+   "Mt 20, 25-28",
+   "Venu pour servir"
+  ],
+  [
+   "Lc 16, 19-31",
+   "Le riche et le pauvre Lazare"
+  ],
+  [
+   "Lc 15, 1-10",
+   "La brebis et la pièce perdues"
+  ],
+  [
+   "Lc 15, 11-24",
+   "Le fils qui revient"
+  ],
+  [
+   "Lc 15, 25-32",
+   "Le fils aîné"
+  ],
+  [
+   "Jn 4, 5-15",
+   "L'eau vive"
+  ],
+  [
+   "Jn 4, 16-26",
+   "Adorer en esprit et en vérité"
+  ],
+  [
+   "Mt 18, 21-35",
+   "Pardonner du fond du cœur"
+  ],
+  [
+   "Mc 12, 28-34",
+   "Le premier commandement"
+  ],
+  [
+   "Lc 18, 9-14",
+   "Le pharisien et le publicain"
+  ],
+  [
+   "Jn 3, 14-21",
+   "Dieu a tant aimé le monde"
+  ],
+  [
+   "Jn 9, 1-7",
+   "L'aveugle de naissance"
+  ],
+  [
+   "Jn 9, 35-41",
+   "Crois-tu au Fils de l'homme ?"
+  ],
+  [
+   "Jn 5, 1-9",
+   "Veux-tu être guéri ?"
+  ],
+  [
+   "Jn 5, 19-24",
+   "Qui écoute ma parole a la vie"
+  ],
+  [
+   "Mt 7, 21-27",
+   "La maison bâtie sur le roc"
+  ],
+  [
+   "Jn 8, 1-11",
+   "Moi non plus, je ne te condamne pas"
+  ],
+  [
+   "Jn 8, 31-36",
+   "La vérité vous rendra libres"
+  ],
+  [
+   "Jn 11, 17-27",
+   "Je suis la résurrection et la vie"
+  ],
+  [
+   "Jn 11, 32-44",
+   "Lazare, sors !"
+  ],
+  [
+   "Jn 12, 20-26",
+   "Le grain de blé"
+  ],
+  [
+   "Jn 12, 27-33",
+   "J'attirerai tous les hommes à moi"
+  ],
+  [
+   "Lc 13, 6-9",
+   "Laisse-le encore cette année"
+  ],
+  [
+   "Lc 22, 39-46",
+   "Que ta volonté soit faite"
+  ],
+  [
+   "Mt 16, 21-23",
+   "Tes pensées ne sont pas celles de Dieu"
+  ],
+  [
+   "Jn 11, 45-53",
+   "Un seul homme pour le peuple"
+  ],
+  [
+   "Lc 19, 35-40",
+   "Béni soit le Roi"
+  ],
+  [
+   "Jn 12, 1-8",
+   "Le parfum de Béthanie"
+  ],
+  [
+   "Jn 13, 21-30",
+   "Il faisait nuit"
+  ],
+  [
+   "Mt 26, 14-25",
+   "Serait-ce moi, Seigneur ?"
+  ]
  ],
  "triduum": [
-  "Jn 13, 14-15",
-  "Lc 23, 33-34",
-  "Mt 27, 59-61"
+  [
+   "Jn 13, 1-15",
+   "Il les aima jusqu'au bout"
+  ],
+  [
+   "Jn 19, 25-30",
+   "Tout est accompli"
+  ],
+  [
+   "Lc 23, 50-56",
+   "Le corps de Jésus au tombeau"
+  ]
  ],
  "paques": [
-  "Mt 28, 5-6",
-  "Mt 28, 8-10",
-  "Jn 20, 15-16",
-  "Lc 24, 30-32",
-  "Lc 24, 36",
-  "Jn 21, 4-6",
-  "Mc 16, 15",
-  "Jn 20, 21",
-  "Jn 20, 27",
-  "Lc 24, 5-6",
-  "Jn 12, 46",
-  "Jn 10, 10",
-  "Jn 20, 30-31",
-  "Jn 16, 22",
-  "Lc 24, 45-48",
-  "Lc 24, 28-29",
-  "Mc 16, 6-7",
-  "Jn 6, 35",
-  "Jn 3, 5",
-  "Jn 21, 12-13",
-  "Jn 21, 17",
-  "Jn 10, 11",
-  "Jn 10, 14-15",
-  "Jn 10, 27-28",
-  "Lc 24, 38-39",
-  "Jn 6, 37",
-  "Jn 6, 51",
-  "Jn 6, 68-69",
-  "Jn 14, 1-3",
-  "Jn 14, 6",
-  "Jn 15, 4-5",
-  "Jn 13, 34-35",
-  "Jn 14, 15-17",
-  "Jn 14, 27",
-  "Jn 15, 9-11",
-  "Jn 14, 18-19",
-  "Jn 15, 14-15",
-  "Jn 17, 20-21",
-  "Jn 16, 33",
-  "Lc 24, 50-51",
-  "Jn 16, 7",
-  "Lc 11, 13",
-  "Jn 17, 3",
-  "Jn 16, 12-13",
-  "Jn 14, 26",
-  "Jn 3, 8",
-  "Lc 12, 49",
-  "Jn 15, 26-27",
-  "Lc 24, 49",
-  "Jn 20, 22-23"
+  [
+   "Jn 20, 1-9",
+   "Le tombeau vide"
+  ],
+  [
+   "Mt 28, 1-10",
+   "Il n'est pas ici, il est ressuscité"
+  ],
+  [
+   "Jn 20, 11-18",
+   "Marie !"
+  ],
+  [
+   "Lc 24, 13-27",
+   "Sur la route d'Emmaüs"
+  ],
+  [
+   "Lc 24, 28-35",
+   "Ils le reconnurent à la fraction du pain"
+  ],
+  [
+   "Lc 24, 36-49",
+   "La paix soit avec vous"
+  ],
+  [
+   "Jn 21, 1-14",
+   "Le repas au bord du lac"
+  ],
+  [
+   "Jn 20, 19-23",
+   "Recevez l'Esprit Saint"
+  ],
+  [
+   "Jn 20, 24-29",
+   "Heureux ceux qui croient sans avoir vu"
+  ],
+  [
+   "Mc 16, 9-14",
+   "Ils ne crurent pas"
+  ],
+  [
+   "Jn 3, 1-8",
+   "Naître d'en haut"
+  ],
+  [
+   "Jn 6, 1-15",
+   "Cinq pains et deux poissons"
+  ],
+  [
+   "Jn 6, 22-29",
+   "L'œuvre de Dieu, c'est de croire"
+  ],
+  [
+   "Jn 6, 30-35",
+   "Je suis le pain de vie"
+  ],
+  [
+   "Jn 21, 15-19",
+   "M'aimes-tu ?"
+  ],
+  [
+   "Jn 6, 36-40",
+   "Je ne rejetterai pas celui qui vient à moi"
+  ],
+  [
+   "Jn 6, 44-51",
+   "Le pain vivant descendu du ciel"
+  ],
+  [
+   "Jn 6, 60-69",
+   "À qui irions-nous ?"
+  ],
+  [
+   "Jn 10, 1-10",
+   "La vie en abondance"
+  ],
+  [
+   "Jn 10, 11-18",
+   "Le bon pasteur"
+  ],
+  [
+   "Jn 10, 27-30",
+   "Mes brebis écoutent ma voix"
+  ],
+  [
+   "Mt 18, 12-14",
+   "La brebis égarée"
+  ],
+  [
+   "Jn 12, 44-50",
+   "Je suis venu comme lumière"
+  ],
+  [
+   "Jn 14, 1-6",
+   "Le chemin, la vérité et la vie"
+  ],
+  [
+   "Jn 14, 7-14",
+   "Qui m'a vu a vu le Père"
+  ],
+  [
+   "Jn 14, 18-21",
+   "Je ne vous laisserai pas orphelins"
+  ],
+  [
+   "Jn 14, 22-26",
+   "Nous ferons chez lui notre demeure"
+  ],
+  [
+   "Jn 14, 27-31",
+   "Je vous laisse la paix"
+  ],
+  [
+   "Jn 15, 1-8",
+   "La vigne et les sarments"
+  ],
+  [
+   "Jn 15, 9-11",
+   "Demeurez dans mon amour"
+  ],
+  [
+   "Jn 15, 12-17",
+   "Je vous appelle amis"
+  ],
+  [
+   "Jn 15, 18-21",
+   "Si le monde vous hait"
+  ],
+  [
+   "Jn 16, 5-11",
+   "Il vaut mieux que je parte"
+  ],
+  [
+   "Jn 16, 12-15",
+   "L'Esprit de vérité"
+  ],
+  [
+   "Jn 16, 16-19",
+   "Encore un peu de temps"
+  ],
+  [
+   "Jn 16, 20-24",
+   "Votre tristesse se changera en joie"
+  ],
+  [
+   "Jn 16, 25-28",
+   "Je suis sorti du Père"
+  ],
+  [
+   "Jn 16, 29-33",
+   "J'ai vaincu le monde"
+  ],
+  [
+   "Jn 17, 1-11",
+   "La prière de Jésus"
+  ],
+  [
+   "Lc 24, 50-52",
+   "Il fut emporté au ciel"
+  ],
+  [
+   "Jn 17, 12-19",
+   "Consacre-les dans la vérité"
+  ],
+  [
+   "Jn 17, 20-26",
+   "Que tous soient un"
+  ],
+  [
+   "Mc 16, 15-20",
+   "Allez dans le monde entier"
+  ],
+  [
+   "Lc 11, 9-13",
+   "Le Père donnera l'Esprit Saint"
+  ],
+  [
+   "Lc 12, 8-12",
+   "L'Esprit Saint vous enseignera"
+  ],
+  [
+   "Lc 24, 1-12",
+   "Pourquoi chercher le Vivant parmi les morts ?"
+  ],
+  [
+   "Mt 12, 15-21",
+   "Il ne brisera pas le roseau froissé"
+  ],
+  [
+   "Jn 21, 20-23",
+   "Toi, suis-moi"
+  ],
+  [
+   "Jn 7, 37-39",
+   "Des fleuves d'eau vive"
+  ],
+  [
+   "Jn 14, 15-17",
+   "Le Défenseur"
+  ]
  ],
  "ordinaire": [
-  "Mt 6, 28-29",
-  "Mc 11, 22-23",
-  "Mc 8, 24-25",
-  "Lc 24, 15",
-  "Mt 5, 39",
-  "Lc 18, 1",
-  "Jn 19, 30",
-  "Mc 4, 21-22",
-  "Mt 7, 9-11",
-  "Mt 13, 29-30",
-  "Mt 6, 19-21",
-  "Mt 28, 20",
-  "Mt 5, 9",
-  "Mt 16, 18",
-  "Lc 10, 21",
-  "Lc 6, 20-21",
-  "Mt 18, 14",
-  "Jn 12, 21",
-  "Mt 10, 16",
-  "Jn 6, 27",
-  "Mt 6, 1",
-  "Jn 17, 24",
-  "Lc 19, 9-10",
-  "Mc 10, 47",
-  "Jn 14, 13-14",
-  "Mt 26, 52",
-  "Lc 4, 43",
-  "Lc 11, 1",
-  "Mt 9, 36-38",
-  "Mt 5, 5",
-  "Lc 12, 15",
-  "Mt 8, 20",
-  "Jn 8, 29",
-  "Jn 13, 1",
-  "Mt 5, 11-12",
-  "Mc 2, 27",
-  "Mt 10, 29-31",
-  "Mc 9, 41",
-  "Jn 4, 34",
-  "Mt 13, 33",
-  "Mc 14, 8",
-  "Mt 23, 37",
-  "Lc 7, 47-48",
-  "Lc 15, 17-19",
-  "Jn 5, 17",
-  "Jn 21, 22",
-  "Mt 7, 24-25",
-  "Mc 9, 35",
-  "Mt 9, 17",
-  "Mc 5, 41-42",
-  "Jn 17, 15",
-  "Lc 13, 29",
-  "Mt 5, 42",
-  "Mt 21, 16",
-  "Jn 10, 30",
-  "Jn 1, 42",
-  "Mt 10, 32",
-  "Mt 22, 21",
-  "Lc 23, 46",
-  "Mt 13, 31-32",
-  "Lc 14, 28",
-  "Lc 22, 31-32",
-  "Mt 10, 26-27",
-  "Lc 7, 50",
-  "Lc 20, 38",
-  "Lc 9, 49-50",
-  "Mt 11, 28-30",
-  "Mc 4, 26-28",
-  "Mt 5, 7",
-  "Mt 5, 46-48",
-  "Jn 6, 66-67",
-  "Jn 13, 7",
-  "Mt 5, 13",
-  "Mt 22, 9-10",
-  "Jn 6, 40",
-  "Jn 4, 50",
-  "Jn 14, 23",
-  "Mt 5, 14-16",
-  "Mt 5, 3",
-  "Mc 6, 34",
-  "Mt 6, 22-23",
-  "Mt 13, 45-46",
-  "Mt 6, 34",
-  "Lc 23, 28",
-  "Mt 13, 16-17",
-  "Jn 4, 42",
-  "Mt 8, 10",
-  "Jn 10, 3-4",
-  "Jn 1, 29",
-  "Jn 15, 1-2",
-  "Mt 14, 27",
-  "Jn 2, 10",
-  "Jn 11, 41-42",
-  "Lc 4, 21",
-  "Lc 19, 5-6",
-  "Jn 11, 5",
-  "Mc 15, 34",
-  "Mt 15, 11",
-  "Jn 15, 8",
-  "Lc 6, 35",
-  "Mt 10, 7-8",
-  "Mt 9, 9",
-  "Mt 5, 6",
-  "Mc 3, 34-35",
-  "Mt 23, 8-9",
-  "Mt 14, 29-31",
-  "Mc 10, 27",
-  "Mt 18, 15",
-  "Mc 10, 51-52",
-  "Mc 9, 36-37",
-  "Mt 19, 6",
-  "Mt 16, 15-16",
-  "Jn 6, 12",
-  "Mc 5, 34",
-  "Lc 17, 5-6",
-  "Jn 13, 17",
-  "Mt 12, 20",
-  "Mt 18, 5",
-  "Jn 3, 21",
-  "Lc 22, 19",
-  "Jn 1, 45-46",
-  "Lc 14, 10",
-  "Lc 22, 26-27",
-  "Mt 26, 41",
-  "Jn 15, 7",
-  "Mc 3, 13-14",
-  "Jn 10, 16",
-  "Mt 5, 10",
-  "Jn 13, 4-5",
-  "Mt 21, 31",
-  "Mt 25, 40",
-  "Mt 13, 44",
-  "Mc 13, 11",
-  "Jn 8, 31-32",
-  "Jn 14, 21",
-  "Mt 12, 11-12",
-  "Mt 27, 54",
-  "Jn 1, 47-48",
-  "Jn 18, 37",
-  "Lc 12, 20-21",
-  "Jn 21, 7",
-  "Lc 5, 10-11",
-  "Mt 7, 21",
-  "Mt 15, 32",
-  "Lc 7, 13-15",
-  "Jn 6, 9-11",
-  "Lc 6, 27-28",
-  "Mc 12, 43-44",
-  "Jn 15, 17",
-  "Lc 10, 38-39",
-  "Mt 5, 37",
-  "Mt 8, 8",
-  "Jn 8, 51",
-  "Jn 5, 6-8",
-  "Jn 4, 35",
-  "Lc 10, 36-37",
-  "Jn 16, 23-24",
-  "Lc 6, 45",
-  "Lc 14, 13-14",
-  "Mt 13, 47-48",
-  "Mt 20, 15-16",
-  "Lc 10, 41-42",
-  "Jn 17, 17",
-  "Jn 12, 47",
-  "Jn 6, 47",
-  "Lc 10, 20",
-  "Jn 12, 35-36",
-  "Mt 7, 13-14",
-  "Lc 9, 62",
-  "Jn 8, 7",
-  "Lc 16, 10",
-  "Mc 10, 21",
-  "Mt 6, 31-33",
-  "Mc 12, 34",
-  "Lc 6, 12",
-  "Mc 7, 33-35",
-  "Mc 7, 37",
-  "Mt 5, 8",
-  "Mc 1, 35",
-  "Lc 15, 9-10",
-  "Jn 20, 18",
-  "Mt 9, 2",
-  "Lc 5, 16",
-  "Jn 14, 9",
-  "Mt 25, 35-36",
-  "Lc 11, 28",
-  "Jn 11, 40",
-  "Mt 6, 30",
-  "Mc 4, 39-40",
-  "Jn 6, 63",
-  "Mt 6, 24",
-  "Lc 22, 61-62",
-  "Mt 9, 29",
-  "Jn 9, 25",
-  "Mc 9, 23-24",
-  "Mc 6, 31",
-  "Mc 5, 36",
-  "Mt 18, 19-20",
-  "Mc 10, 14-16",
-  "Mt 14, 16",
-  "Mc 1, 40-41",
-  "Jn 3, 3",
-  "Jn 16, 27",
-  "Jn 4, 10",
-  "Mt 5, 4",
-  "Lc 5, 4-6",
-  "Mt 7, 1-2",
-  "Mt 25, 21",
-  "Mt 7, 12",
-  "Mt 6, 25-26",
-  "Lc 19, 40",
-  "Mt 4, 18-20",
-  "Mt 18, 3-4",
-  "Mc 14, 36",
-  "Lc 16, 19-21",
-  "Jn 11, 28",
-  "Jn 10, 9",
-  "Lc 8, 15",
-  "Jn 11, 27",
-  "Jn 11, 35",
-  "Jn 7, 46",
-  "Jn 15, 16",
-  "Lc 12, 32",
-  "Lc 15, 4-5",
-  "Jn 12, 26",
-  "Mc 11, 24-25",
-  "Lc 13, 12-13",
-  "Lc 21, 18-19",
-  "Lc 17, 15-17",
-  "Mt 15, 27-28",
-  "Lc 10, 16",
-  "Mt 7, 3-5",
-  "Jn 17, 26",
-  "Lc 23, 42-43",
-  "Lc 10, 33-34",
-  "Lc 10, 5",
-  "Mc 2, 4-5",
-  "Mt 7, 16-17"
+  [
+   "Mt 13, 24-30",
+   "Le bon grain et l'ivraie"
+  ],
+  [
+   "Lc 11, 27-28",
+   "Heureux ceux qui écoutent la parole"
+  ],
+  [
+   "Mt 5, 6",
+   "Heureux ceux qui ont faim et soif de justice"
+  ],
+  [
+   "Lc 6, 39-40",
+   "L'aveugle qui guide un aveugle"
+  ],
+  [
+   "Mt 10, 40-42",
+   "Un verre d'eau fraîche"
+  ],
+  [
+   "Lc 13, 1-5",
+   "Si vous ne vous convertissez pas"
+  ],
+  [
+   "Mt 5, 8",
+   "Heureux les cœurs purs"
+  ],
+  [
+   "Lc 17, 5-6",
+   "Augmente en nous la foi"
+  ],
+  [
+   "Mt 10, 7-8",
+   "Vous avez reçu gratuitement"
+  ],
+  [
+   "Lc 23, 33-38",
+   "Père, pardonne-leur"
+  ],
+  [
+   "Mt 24, 35",
+   "Mes paroles ne passeront pas"
+  ],
+  [
+   "Lc 12, 49",
+   "Un feu sur la terre"
+  ],
+  [
+   "Mt 6, 28-30",
+   "Regardez les lis des champs"
+  ],
+  [
+   "Lc 13, 10-17",
+   "La femme courbée"
+  ],
+  [
+   "Mt 24, 45-47",
+   "Le serviteur fidèle"
+  ],
+  [
+   "Lc 14, 31-33",
+   "Le roi qui part en guerre"
+  ],
+  [
+   "Mt 6, 31-34",
+   "Cherchez d'abord le Royaume"
+  ],
+  [
+   "Lc 19, 1-10",
+   "Zachée"
+  ],
+  [
+   "Mt 7, 1-2",
+   "Ne jugez pas"
+  ],
+  [
+   "Lc 17, 11-19",
+   "Les dix lépreux"
+  ],
+  [
+   "Mt 20, 20-23",
+   "Pouvez-vous boire la coupe ?"
+  ],
+  [
+   "Lc 17, 3-4",
+   "Pardonner sept fois"
+  ],
+  [
+   "Mt 11, 25-27",
+   "Révélé aux tout-petits"
+  ],
+  [
+   "Lc 6, 12",
+   "Une nuit entière à prier"
+  ],
+  [
+   "Mt 5, 13",
+   "Le sel de la terre"
+  ],
+  [
+   "Lc 7, 44-50",
+   "Elle a beaucoup aimé"
+  ],
+  [
+   "Mt 13, 1-9",
+   "Le semeur"
+  ],
+  [
+   "Lc 11, 5-8",
+   "L'ami qui frappe à minuit"
+  ],
+  [
+   "Mt 9, 27-31",
+   "Croyez-vous que je puisse faire cela ?"
+  ],
+  [
+   "Lc 14, 25-30",
+   "Bâtir une tour"
+  ],
+  [
+   "Mt 21, 14-16",
+   "La louange des enfants"
+  ],
+  [
+   "Lc 7, 36-43",
+   "Celui à qui l'on a remis davantage"
+  ],
+  [
+   "Mt 18, 1-4",
+   "Devenir comme un enfant"
+  ],
+  [
+   "Lc 10, 17-20",
+   "Vos noms sont inscrits dans les cieux"
+  ],
+  [
+   "Mt 24, 12-13",
+   "Celui qui persévérera"
+  ],
+  [
+   "Lc 20, 34-38",
+   "Le Dieu des vivants"
+  ],
+  [
+   "Mt 7, 12",
+   "Ce que vous voulez qu'on fasse pour vous"
+  ],
+  [
+   "Lc 10, 30-37",
+   "Le bon Samaritain"
+  ],
+  [
+   "Mt 10, 37-39",
+   "Qui perd sa vie à cause de moi la trouvera"
+  ],
+  [
+   "Mc 9, 38-41",
+   "Celui qui n'est pas contre nous"
+  ],
+  [
+   "Mt 6, 5-6",
+   "Prier dans le secret"
+  ],
+  [
+   "Lc 14, 7-11",
+   "La dernière place"
+  ],
+  [
+   "Mt 12, 46-50",
+   "Ma mère et mes frères"
+  ],
+  [
+   "Mc 1, 29-34",
+   "Il la prit par la main"
+  ],
+  [
+   "Mt 10, 16",
+   "Prudents comme les serpents"
+  ],
+  [
+   "Lc 10, 16",
+   "Qui vous écoute m'écoute"
+  ],
+  [
+   "Mt 26, 51-52",
+   "Remets ton épée"
+  ],
+  [
+   "Mc 12, 41-44",
+   "La veuve et ses deux piécettes"
+  ],
+  [
+   "Mt 22, 15-21",
+   "Rendez à César"
+  ],
+  [
+   "Lc 10, 5-6",
+   "Paix à cette maison"
+  ],
+  [
+   "Mt 14, 22-33",
+   "Pierre marche sur l'eau"
+  ],
+  [
+   "Mc 7, 6-8",
+   "Ce peuple m'honore des lèvres"
+  ],
+  [
+   "Mt 23, 23-24",
+   "La justice, la miséricorde et la fidélité"
+  ],
+  [
+   "Lc 22, 47-51",
+   "Jésus guérit l'oreille du serviteur"
+  ],
+  [
+   "Mt 10, 32-33",
+   "Se déclarer pour Jésus"
+  ],
+  [
+   "Mc 10, 17-22",
+   "Jésus le regarda et l'aima"
+  ],
+  [
+   "Mt 19, 3-6",
+   "Ce que Dieu a uni"
+  ],
+  [
+   "Lc 23, 44-49",
+   "Père, entre tes mains"
+  ],
+  [
+   "Mt 5, 1-3",
+   "Heureux les pauvres de cœur"
+  ],
+  [
+   "Mc 5, 35-43",
+   "Talitha koum"
+  ],
+  [
+   "Mt 7, 13-14",
+   "La porte étroite"
+  ],
+  [
+   "Lc 12, 32",
+   "Sois sans crainte, petit troupeau"
+  ],
+  [
+   "Mt 8, 5-13",
+   "Dis seulement une parole"
+  ],
+  [
+   "Mc 11, 22-24",
+   "Ayez foi en Dieu"
+  ],
+  [
+   "Mt 9, 16-17",
+   "Le vin nouveau"
+  ],
+  [
+   "Lc 17, 7-10",
+   "Nous sommes de simples serviteurs"
+  ],
+  [
+   "Mt 6, 19-21",
+   "Là où est ton trésor"
+  ],
+  [
+   "Mc 4, 35-41",
+   "Pourquoi avez-vous peur ?"
+  ],
+  [
+   "Mt 23, 25-26",
+   "Purifier l'intérieur"
+  ],
+  [
+   "Lc 10, 25-29",
+   "Qui est mon prochain ?"
+  ],
+  [
+   "Mt 20, 1-16",
+   "Les ouvriers de la dernière heure"
+  ],
+  [
+   "Mc 11, 25",
+   "Quand vous priez, pardonnez"
+  ],
+  [
+   "Mt 16, 13-19",
+   "Tu es Pierre"
+  ],
+  [
+   "Lc 18, 1-8",
+   "Prier sans se décourager"
+  ],
+  [
+   "Mt 5, 10-12",
+   "Réjouissez-vous"
+  ],
+  [
+   "Mc 6, 1-6",
+   "Un prophète dans son pays"
+  ],
+  [
+   "Mt 13, 47-50",
+   "Le filet"
+  ],
+  [
+   "Lc 4, 42-44",
+   "Il faut que j'annonce la Bonne Nouvelle"
+  ],
+  [
+   "Mt 5, 7",
+   "Heureux les miséricordieux"
+  ],
+  [
+   "Mc 4, 26-29",
+   "La semence qui pousse toute seule"
+  ],
+  [
+   "Mt 6, 22-23",
+   "La lampe du corps"
+  ],
+  [
+   "Lc 22, 54-62",
+   "Le regard de Jésus sur Pierre"
+  ],
+  [
+   "Mt 10, 26-28",
+   "Ne craignez pas"
+  ],
+  [
+   "Mc 4, 24-25",
+   "La mesure dont vous vous servez"
+  ],
+  [
+   "Mt 25, 14-30",
+   "Les talents"
+  ],
+  [
+   "Jn 13, 16-17",
+   "Heureux êtes-vous si vous le faites"
+  ],
+  [
+   "Mt 18, 15-17",
+   "Va le trouver seul à seul"
+  ],
+  [
+   "Lc 5, 1-11",
+   "Avance au large"
+  ],
+  [
+   "Mt 13, 33",
+   "Le levain"
+  ],
+  [
+   "Mc 5, 18-20",
+   "Annonce ce que le Seigneur a fait pour toi"
+  ],
+  [
+   "Mt 13, 16-17",
+   "Heureux vos yeux"
+  ],
+  [
+   "Jn 7, 45-46",
+   "Jamais homme n'a parlé ainsi"
+  ],
+  [
+   "Mt 11, 28-30",
+   "Venez à moi"
+  ],
+  [
+   "Lc 8, 1-3",
+   "Les femmes qui suivaient Jésus"
+  ],
+  [
+   "Mt 10, 29-31",
+   "Vous valez plus que les moineaux"
+  ],
+  [
+   "Mc 8, 22-26",
+   "L'aveugle de Bethsaïde"
+  ],
+  [
+   "Mt 15, 21-28",
+   "La foi de la Cananéenne"
+  ],
+  [
+   "Jn 5, 17",
+   "Mon Père travaille toujours"
+  ],
+  [
+   "Mt 13, 44",
+   "Le trésor caché"
+  ],
+  [
+   "Lc 6, 46",
+   "Pourquoi m'appelez-vous Seigneur ?"
+  ],
+  [
+   "Mt 18, 10",
+   "Leurs anges voient la face du Père"
+  ],
+  [
+   "Mc 5, 25-34",
+   "Ta foi t'a sauvée"
+  ],
+  [
+   "Mt 6, 1-4",
+   "Donner dans le secret"
+  ],
+  [
+   "Jn 7, 16-17",
+   "Ma doctrine vient de celui qui m'a envoyé"
+  ],
+  [
+   "Mt 5, 38-42",
+   "Tendre l'autre joue"
+  ],
+  [
+   "Lc 14, 12-14",
+   "Invite les pauvres"
+  ],
+  [
+   "Mt 13, 31-32",
+   "La graine de moutarde"
+  ],
+  [
+   "Mc 7, 31-37",
+   "Ephphata : ouvre-toi"
+  ],
+  [
+   "Mt 7, 3-5",
+   "La paille et la poutre"
+  ],
+  [
+   "Jn 4, 46-53",
+   "Va, ton fils est vivant"
+  ],
+  [
+   "Mt 10, 24-25",
+   "Le disciple et le maître"
+  ],
+  [
+   "Lc 23, 26-31",
+   "Simon de Cyrène et les femmes de Jérusalem"
+  ],
+  [
+   "Mt 5, 17",
+   "Je suis venu accomplir"
+  ],
+  [
+   "Mc 3, 13-15",
+   "Pour être avec lui"
+  ],
+  [
+   "Mt 5, 33-37",
+   "Que votre oui soit oui"
+  ],
+  [
+   "Jn 8, 28-30",
+   "Il ne m'a pas laissé seul"
+  ],
+  [
+   "Mt 6, 24",
+   "On ne peut servir deux maîtres"
+  ],
+  [
+   "Lc 6, 20-23",
+   "Heureux, vous les pauvres"
+  ],
+  [
+   "Mc 10, 46-52",
+   "Que veux-tu que je fasse pour toi ?"
+  ],
+  [
+   "Jn 18, 3-9",
+   "C'est moi"
+  ],
+  [
+   "Mt 9, 36-38",
+   "La moisson est abondante"
+  ],
+  [
+   "Lc 12, 13-21",
+   "Le riche insensé"
+  ],
+  [
+   "Mc 9, 36-37",
+   "Accueillir un enfant"
+  ],
+  [
+   "Jn 8, 51",
+   "Il ne verra jamais la mort"
+  ],
+  [
+   "Mt 13, 51-52",
+   "Du neuf et de l'ancien"
+  ],
+  [
+   "Lc 22, 14-20",
+   "Faites cela en mémoire de moi"
+  ],
+  [
+   "Mc 4, 21-23",
+   "La lampe sur le chandelier"
+  ],
+  [
+   "Jn 9, 24-25",
+   "J'étais aveugle, et maintenant je vois"
+  ],
+  [
+   "Mt 13, 45-46",
+   "La perle de grand prix"
+  ],
+  [
+   "Lc 14, 15-24",
+   "Le grand repas"
+  ],
+  [
+   "Mc 1, 21-28",
+   "Un enseignement nouveau"
+  ],
+  [
+   "Jn 12, 35-36",
+   "Marchez pendant que vous avez la lumière"
+  ],
+  [
+   "Mt 5, 4-5",
+   "Heureux ceux qui pleurent"
+  ],
+  [
+   "Lc 19, 41-44",
+   "Jésus pleure sur Jérusalem"
+  ],
+  [
+   "Mc 10, 23-27",
+   "Tout est possible à Dieu"
+  ],
+  [
+   "Jn 4, 39-42",
+   "Le Sauveur du monde"
+  ],
+  [
+   "Mt 5, 14-16",
+   "La lumière du monde"
+  ],
+  [
+   "Lc 6, 43-45",
+   "De l'abondance du cœur"
+  ],
+  [
+   "Mc 2, 1-12",
+   "Le paralysé descendu par le toit"
+  ],
+  [
+   "Jn 19, 4-5",
+   "Voici l'homme"
+  ],
+  [
+   "Mt 18, 19-20",
+   "Deux ou trois réunis en mon nom"
+  ],
+  [
+   "Lc 21, 17-19",
+   "Par votre persévérance"
+  ],
+  [
+   "Mc 2, 23-28",
+   "Le sabbat est fait pour l'homme"
+  ],
+  [
+   "Jn 13, 31-35",
+   "Aimez-vous les uns les autres"
+  ],
+  [
+   "Mt 13, 18-23",
+   "La bonne terre"
+  ],
+  [
+   "Lc 16, 10-12",
+   "Fidèle dans les petites choses"
+  ],
+  [
+   "Mc 9, 21-27",
+   "Je crois, viens au secours de mon incrédulité"
+  ],
+  [
+   "Jn 2, 13-22",
+   "La maison de mon Père"
+  ],
+  [
+   "Mt 6, 25-27",
+   "Regardez les oiseaux du ciel"
+  ],
+  [
+   "Lc 23, 39-43",
+   "Aujourd'hui, avec moi, au paradis"
+  ],
+  [
+   "Mc 9, 33-35",
+   "Le premier et le dernier"
+  ],
+  [
+   "Jn 13, 36-38",
+   "Je donnerai ma vie pour toi"
+  ],
+  [
+   "Mt 15, 10-11",
+   "Ce qui sort du cœur"
+  ],
+  [
+   "Lc 10, 38-42",
+   "Marthe et Marie"
+  ],
+  [
+   "Mc 3, 1-5",
+   "Faire le bien le jour du sabbat"
+  ],
+  [
+   "Jn 4, 31-38",
+   "Levez les yeux, les champs sont blancs"
+  ],
+  [
+   "Mt 21, 33-43",
+   "La pierre rejetée"
+  ],
+  [
+   "Lc 7, 11-17",
+   "Jeune homme, lève-toi"
+  ],
+  [
+   "Mc 6, 30-34",
+   "Venez à l'écart et reposez-vous"
+  ],
+  [
+   "Jn 18, 19-23",
+   "Pourquoi me frappes-tu ?"
+  ],
+  [
+   "Mt 23, 37",
+   "Comme une poule rassemble ses poussins"
+  ],
+  [
+   "Lc 9, 57-62",
+   "Suivre Jésus"
+  ],
+  [
+   "Mc 6, 7-13",
+   "Jésus envoie les Douze"
+  ],
+  [
+   "Jn 8, 12",
+   "Je suis la lumière du monde"
+  ],
+  [
+   "Mt 26, 40-41",
+   "Veillez et priez"
+  ],
+  [
+   "Lc 22, 31-32",
+   "J'ai prié pour toi"
+  ],
+  [
+   "Mc 10, 28-31",
+   "Nous avons tout quitté"
+  ],
+  [
+   "Jn 8, 56-58",
+   "Avant qu'Abraham fût, je suis"
+  ],
+  [
+   "Mt 5, 9",
+   "Heureux les artisans de paix"
+  ],
+  [
+   "Lc 9, 51-56",
+   "Jésus refuse la vengeance"
+  ],
+  [
+   "Mc 10, 13-16",
+   "Laissez venir à moi les petits enfants"
+  ]
  ]
 }
