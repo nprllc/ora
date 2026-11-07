@@ -353,11 +353,13 @@
   function vueAccueil() {
     var a = aujourdhui(), j = a.j, c = a.c, nuit = estNuit();
     var t = titreDuJour(j), titre = t.titre;
-    var chapeau = a.expl ? a.expl.quoi : (t.phrase ? t.phrase + ' ' : (j.celebration ? j.celebration.nom + '. ' : '')) + j.libelleDuJour + '.';
+    // Sous le titre, seulement qui l'on fête (ou ce qu'est la fête) : jamais « mardi de la 31e semaine du temps ordinaire ».
+    var chapeau = a.expl ? a.expl.quoi : (t.phrase || '');
     var html = '<section class="vue accueil' + (etat.premiereOuverture ? ' anime' : '') + '">';
     html += '<p class="surtitre">' + esc(j.dateLongue) + '</p>';
-    html += '<h1>' + esc(titre) + '</h1>';
-    html += '<p class="chapeau">' + lexique(chapeau) + '</p>';
+    // Toucher le nom ouvre sa fiche (qui c'est, pourquoi ce jour, une idée à vivre).
+    html += '<h1><button class="titre-jour" data-action="explication">' + esc(titre) + '</button></h1>';
+    if (chapeau) html += '<p class="chapeau">' + lexique(chapeau) + '</p>';
     html += '<button class="couleur-lit" data-action="explication" aria-label="' + esc(T('en-savoir-plus') + '. ' + T('couleur') + ' ' + NOM_COULEUR[LANG][j.couleur]) + '"><i style="background:' + COULEURS[j.couleur] + '"></i>' + esc(T('en-savoir-plus')) + '</button>';
 
     html += '<div class="sections">';
@@ -1041,7 +1043,7 @@
       // Le saint ou le sens du jour : qui l'on fête, d'où vient ce jour et ce qu'il signifie, une idée à vivre ;
       // puis, plus bas, le temps liturgique.
       var tj = !a.expl && titreDuJour(a.j), sj = '';
-      if (tj && tj.ex) sj = '<div class="bloc" style="border:0;margin-top:8px;padding:0"><h3>' + esc(T('qui-est-ce')) + '</h3><p>' + lexique(tj.ex.qui) + '</p></div><div class="bloc"><h3>' + esc(T('pourquoi-ce-jour')) + '</h3><p>' + lexique(tj.ex.sens) + '</p></div><div class="bloc"><h3>' + esc(T('idee-vivre')) + '</h3><p>' + lexique(tj.ex.vivre) + '</p></div><div class="bloc"><h3>' + esc(nom) + '</h3><p>' + lexique(e.quoi) + '</p></div>';
+      if (tj && tj.ex) sj = '<div class="bloc" style="border:0;margin-top:8px;padding:0"><h3>' + esc(T('qui-est-ce')) + '</h3><p>' + lexique(tj.ex.qui) + '</p></div><div class="bloc"><h3>' + esc(T('pourquoi-ce-jour')) + '</h3><p>' + lexique(tj.ex.sens) + '</p></div><div class="bloc"><h3>' + esc(T('idee-vivre')) + '</h3><p>' + lexique(tj.ex.vivre) + '</p></div>' + (a.j.saison.id !== 'ordinaire' ? '<div class="bloc"><h3>' + esc(nom) + '</h3><p>' + lexique(e.quoi) + '</p></div>' : '');
       if (sj) feuille(tj.titre, sj); else feuille(nom, '<div class="bloc" style="border:0;margin-top:8px;padding:0"><h3>' + esc(T('ce-que-cest')) + '</h3><p>' + lexique(e.quoi) + '</p></div><div class="bloc"><h3>' + esc(T('pourquoi-important')) + '</h3><p>' + lexique(e.pourquoi) + '</p></div><div class="bloc"><h3>' + esc(T('idee-vivre')) + '</h3><p>' + lexique(e.idee) + '</p></div>');
     }
   });
