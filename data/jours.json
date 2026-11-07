@@ -2243,247 +2243,570 @@
     ],
     "09-01": [
       "Saint Gilles",
-      "Un ermite de Provence, protecteur d'une biche selon la légende. C'est aussi la journée de prière pour la Création."
+      "Un ermite de Provence, protecteur d'une biche selon la légende. C'est aussi la journée de prière pour la Création.",
+      {
+        "qui": "Gilles est un ermite du VIIe siècle, venu de Grèce selon la tradition, installé près du Rhône.",
+        "sens": "On raconte qu'il nourrissait une biche de son lait et qu'il fut blessé par la flèche d'un chasseur en la protégeant. L'abbaye de Saint-Gilles, en Camargue, a été une grande étape vers Compostelle. Depuis 2015, le 1er septembre est aussi la Journée mondiale de prière pour la sauvegarde de la Création.",
+        "vivre": "Faire un geste concret pour la nature."
+      }
     ],
     "09-02": [
       "Les martyrs de septembre 1792",
-      "Des prêtres et des évêques tués à Paris pendant la Révolution."
+      "Des prêtres et des évêques tués à Paris pendant la Révolution.",
+      {
+        "qui": "Au début de septembre 1792, pendant la Révolution, des émeutiers massacrent à Paris les prisonniers, dont plus de deux cents prêtres et trois évêques qui avaient refusé de prêter serment à la constitution civile du clergé.",
+        "sens": "Cent quatre-vingt-onze d'entre eux, tués notamment au couvent des Carmes, ont été déclarés bienheureux en 1926.",
+        "vivre": "Prier pour ceux qui souffrent pour leur conscience."
+      }
     ],
     "09-03": [
       "Saint Grégoire le Grand",
-      "Un pape qui se disait « serviteur des serviteurs de Dieu »."
+      "Un pape qui se disait « serviteur des serviteurs de Dieu ».",
+      {
+        "qui": "Grégoire (vers 540-604), préfet de Rome, devient moine, puis pape en 590.",
+        "sens": "Il nourrit Rome pendant les famines, envoie des missionnaires en Angleterre et écrit beaucoup. Il se disait « serviteur des serviteurs de Dieu ». On lui attribue l'origine du chant grégorien. Il est docteur de l'Église.",
+        "vivre": "Écouter un chant grégorien.",
+        "fort": true
+      }
     ],
     "09-04": [
       "Moïse",
-      "Le martyrologe fait mémoire aujourd'hui de Moïse, qui a conduit son peuple hors d'Égypte."
+      "Le martyrologe fait mémoire aujourd'hui de Moïse, qui a conduit son peuple hors d'Égypte.",
+      {
+        "qui": "Moïse est le grand prophète de l'Ancien Testament.",
+        "sens": "Sauvé des eaux du Nil, il voit Dieu dans le buisson ardent, conduit le peuple hébreu hors d'Égypte et reçoit la Loi au Sinaï (Exode). Le martyrologe romain fait mémoire de lui le 4 septembre.",
+        "vivre": "Relire les dix commandements."
+      }
     ],
     "09-05": [
       "Sainte Teresa de Calcutta",
-      "Une religieuse qui a servi les mourants des rues de Calcutta."
+      "Une religieuse qui a servi les mourants des rues de Calcutta.",
+      {
+        "qui": "Teresa (1910-1997), née Agnès Gonxha Bojaxhiu à Skopje, est religieuse en Inde.",
+        "sens": "En 1946, dans un train, elle entend l'appel à servir « les plus pauvres des pauvres ». Elle fonde les Missionnaires de la Charité et accueille les mourants des rues de Calcutta. Prix Nobel de la paix en 1979, elle a été canonisée en 2016. Elle meurt le 5 septembre 1997.",
+        "vivre": "Sourire à quelqu'un que personne ne regarde."
+      }
     ],
     "09-06": [
       "Le prophète Zacharie",
-      "Le prophète qui a annoncé un roi humble, monté sur un âne."
+      "Le prophète qui a annoncé un roi humble, monté sur un âne.",
+      {
+        "qui": "Zacharie est l'un des douze « petits prophètes » de l'Ancien Testament, au VIe siècle avant Jésus-Christ.",
+        "sens": "Il annonce un roi humble, monté sur un âne (Za 9, 9) : les Évangiles voient cette prophétie accomplie le jour des Rameaux. Le martyrologe en fait mémoire le 6 septembre.",
+        "vivre": "Choisir l'humilité dans une situation où l'on voudrait briller."
+      }
     ],
     "09-07": [
       "Sainte Reine",
-      "Une jeune martyre de Bourgogne, vénérée à Alise-Sainte-Reine."
+      "Une jeune martyre de Bourgogne, vénérée à Alise-Sainte-Reine.",
+      {
+        "qui": "Reine est, selon la tradition, une jeune bergère d'Alésia, en Bourgogne, martyre au IIIe siècle.",
+        "sens": "Elle refuse d'épouser le gouverneur romain et meurt pour sa foi. Le village d'Alise-Sainte-Reine organise chaque année une procession en son honneur.",
+        "vivre": "Prier pour les jeunes filles qui doivent dire non."
+      }
     ],
     "09-08": [
       "La Nativité de Marie",
-      "La naissance de la mère de Jésus."
+      "La naissance de la mère de Jésus.",
+      {
+        "qui": "Neuf mois après l'Immaculée Conception, l'Église fête la naissance de Marie.",
+        "sens": "Ses parents, selon la tradition, sont Joachim et Anne. C'est l'une des trois naissances fêtées dans l'année liturgique, avec celles de Jésus et de Jean-Baptiste.",
+        "vivre": "Souhaiter un bon anniversaire à Marie par un Je vous salue Marie."
+      }
     ],
     "09-09": [
       "Saint Pierre Claver",
-      "Un jésuite catalan, « l'esclave des esclaves » à Carthagène des Indes."
+      "Un jésuite catalan, « l'esclave des esclaves » à Carthagène des Indes.",
+      {
+        "qui": "Pierre Claver (1580-1654), jésuite catalan, part à Carthagène des Indes, en Colombie.",
+        "sens": "Dans ce grand port de la traite, il accueille pendant quarante ans les Africains réduits en esclavage à leur arrivée, les soigne, les nourrit et les baptise. Il signait : « esclave des esclaves pour toujours ».",
+        "vivre": "Se renseigner sur une forme d'esclavage moderne."
+      }
     ],
     "09-10": [
       "Saint Nicolas de Tolentino",
-      "Un frère augustin, consolateur des malades et des défunts."
+      "Un frère augustin, consolateur des malades et des défunts.",
+      {
+        "qui": "Nicolas de Tolentino (1245-1305) est un frère augustin d'Italie.",
+        "sens": "Prédicateur et confesseur, il visite les malades et prie beaucoup pour les défunts. On bénit en son honneur des petits pains que l'on porte aux malades.",
+        "vivre": "Porter quelque chose à manger à un malade."
+      }
     ],
     "09-11": [
       "Saint Jean-Gabriel Perboyre",
-      "Un prêtre lotois, missionnaire en Chine, martyr en 1840."
+      "Un prêtre lotois, missionnaire en Chine, martyr en 1840.",
+      {
+        "qui": "Jean-Gabriel Perboyre (1802-1840), né dans le Lot, est prêtre lazariste.",
+        "sens": "Missionnaire en Chine, il est arrêté pendant une persécution, torturé et étranglé sur une croix à Wuchang, en 1840. Il est le premier saint de Chine canonisé.",
+        "vivre": "Prier pour les missionnaires."
+      }
     ],
     "09-12": [
       "Le saint Nom de Marie",
-      "On fête le nom de Marie, que tant de chrétiens portent."
+      "On fête le nom de Marie, que tant de chrétiens portent.",
+      {
+        "qui": "Le 12 septembre, l'Église fête le nom de Marie.",
+        "sens": "Cette fête a été étendue à toute l'Église en 1683, après la victoire de Vienne, attribuée à la prière. Marie, en hébreu Myriam, est le prénom le plus porté par les chrétiennes du monde entier.",
+        "vivre": "Prier pour toutes les personnes qui portent le nom de Marie."
+      }
     ],
     "09-13": [
       "Saint Jean Chrysostome",
-      "Un évêque de Constantinople à la « bouche d'or »."
+      "Un évêque de Constantinople à la « bouche d'or ».",
+      {
+        "qui": "Jean (vers 349-407), prêtre d'Antioche, devient archevêque de Constantinople.",
+        "sens": "Ses sermons sont si beaux qu'on l'appelle Chrysostome, « bouche d'or ». Il dénonce le luxe de la cour et défend les pauvres ; il meurt en exil. Il est docteur de l'Église.",
+        "vivre": "Lire un passage d'Évangile à haute voix.",
+        "fort": true
+      }
     ],
     "09-14": [
       "La Croix glorieuse",
-      "La croix, signe de mort devenu signe d'amour."
+      "La croix, signe de mort devenu signe d'amour.",
+      {
+        "qui": "Selon la tradition, sainte Hélène a retrouvé la croix du Christ à Jérusalem ; la basilique du Saint-Sépulcre est consacrée un 14 septembre, en 335.",
+        "sens": "On fête la croix non comme un instrument de mort, mais comme le signe de l'amour de Dieu qui donne sa vie. « Dieu a tellement aimé le monde » (Jn 3, 16).",
+        "vivre": "Faire lentement le signe de croix."
+      }
     ],
     "09-15": [
       "Notre-Dame des Douleurs",
-      "Marie debout au pied de la croix."
+      "Marie debout au pied de la croix.",
+      {
+        "qui": "Le lendemain de la Croix glorieuse, l'Église fête Marie debout au pied de la croix.",
+        "sens": "On médite ses sept douleurs, depuis la prophétie de Syméon jusqu'à la mise au tombeau. Le chant du Stabat Mater, « Debout, la mère douloureuse », est chanté ce jour-là.",
+        "vivre": "Prier pour une mère qui souffre.",
+        "fort": true
+      }
     ],
     "09-16": [
       "Saints Corneille et Cyprien",
-      "Un pape et un évêque de Carthage, amis et martyrs."
+      "Un pape et un évêque de Carthage, amis et martyrs.",
+      {
+        "qui": "Corneille, pape (251-253), et Cyprien, évêque de Carthage, sont amis malgré la distance.",
+        "sens": "Tous deux défendent qu'on accueille avec miséricorde les chrétiens qui avaient renié leur foi pendant la persécution et qui se repentent. Ils meurent tous deux martyrs, Corneille en exil, Cyprien décapité en 258.",
+        "vivre": "Accueillir avec miséricorde quelqu'un qui revient.",
+        "fort": true
+      }
     ],
     "09-17": [
       "Sainte Hildegarde de Bingen",
-      "Une abbesse allemande, musicienne, savante et docteur de l'Église."
+      "Une abbesse allemande, musicienne, savante et docteur de l'Église.",
+      {
+        "qui": "Hildegarde (1098-1179) est une abbesse bénédictine de Bingen, en Allemagne.",
+        "sens": "Visionnaire, musicienne, elle compose des chants, écrit sur les plantes et la médecine, et correspond avec les papes et les empereurs. Elle a été proclamée docteur de l'Église en 2012.",
+        "vivre": "Écouter une musique de Hildegarde de Bingen."
+      }
     ],
     "09-18": [
       "Saint Joseph de Cupertino",
-      "Un frère simple, peu doué pour les études, patron des étudiants qui passent un examen."
+      "Un frère simple, peu doué pour les études, patron des étudiants qui passent un examen.",
+      {
+        "qui": "Joseph de Cupertino (1603-1663) est un frère franciscain des Pouilles.",
+        "sens": "Peu doué pour les études, il réussit pourtant l'examen pour devenir prêtre en tombant sur les seules questions qu'il connaissait. Il est le patron des étudiants qui passent un examen. On rapporte qu'il entrait en extase pendant la prière.",
+        "vivre": "Confier à Dieu un examen ou une épreuve à venir."
+      }
     ],
     "09-19": [
       "Saint Janvier",
-      "Un évêque martyr, patron de Naples."
+      "Un évêque martyr, patron de Naples.",
+      {
+        "qui": "Janvier est évêque de Bénévent, martyr vers 305.",
+        "sens": "Il est le patron de Naples, où l'on conserve une ampoule de son sang : trois fois par an, la foule attend qu'il se liquéfie, ce qu'elle considère comme un signe de protection pour la ville.",
+        "vivre": "Prier pour Naples et pour sa propre ville."
+      }
     ],
     "09-20": [
       "Saint André Kim et ses compagnons",
-      "Les martyrs de Corée, dont l'Église est née de laïcs."
+      "Les martyrs de Corée, dont l'Église est née de laïcs.",
+      {
+        "qui": "André Kim Taegon (1821-1846), premier prêtre coréen, et Paul Chong Hasang, laïc, sont morts martyrs avec cent un compagnons.",
+        "sens": "L'Église de Corée est née au XVIIIe siècle de laïcs qui avaient découvert la foi dans des livres, sans missionnaire. Ils ont été canonisés en 1984 par Jean-Paul II, à Séoul.",
+        "vivre": "Remercier pour les laïcs qui transmettent la foi.",
+        "fort": true
+      }
     ],
     "09-21": [
       "Saint Matthieu",
-      "Le collecteur d'impôts que Jésus a appelé à sa table."
+      "Le collecteur d'impôts que Jésus a appelé à sa table.",
+      {
+        "qui": "Matthieu est collecteur d'impôts à Capharnaüm, un métier méprisé.",
+        "sens": "Jésus lui dit : « Suis-moi », et il se lève (Mt 9, 9). Il organise un repas pour Jésus avec d'autres pécheurs. La tradition lui attribue le premier Évangile. Son symbole est un homme ailé.",
+        "vivre": "Inviter quelqu'un qu'on juge différent de soi.",
+        "fort": true
+      }
     ],
     "09-22": [
       "Saint Maurice",
-      "Un officier de la légion thébaine, martyr à Agaune, en Suisse."
+      "Un officier de la légion thébaine, martyr à Agaune, en Suisse.",
+      {
+        "qui": "Maurice est le chef de la légion thébaine, venue d'Égypte.",
+        "sens": "Selon la tradition, ses soldats et lui refusent de massacrer des chrétiens et sont mis à mort à Agaune, en Suisse, vers 287. L'abbaye de Saint-Maurice, fondée en 515 sur leur tombeau, est le plus ancien monastère d'Occident encore en activité.",
+        "vivre": "Refuser de faire du mal, même sur ordre."
+      }
     ],
     "09-23": [
       "Saint Pio de Pietrelcina",
-      "Le Padre Pio, capucin, confesseur de foules."
+      "Le Padre Pio, capucin, confesseur de foules.",
+      {
+        "qui": "Pio de Pietrelcina (1887-1968) est un capucin italien, le Padre Pio.",
+        "sens": "À San Giovanni Rotondo, il passe de longues heures à confesser et attire des foules. Il porte pendant cinquante ans les stigmates, des plaies semblables à celles du Christ. Il fonde un grand hôpital, la Maison du soulagement de la souffrance. Il a été canonisé en 2002.",
+        "vivre": "Prier pour les personnes qui souffrent à l'hôpital.",
+        "fort": true
+      }
     ],
     "09-24": [
       "Notre-Dame de la Merci",
-      "La Mercè, patronne de Barcelone, fête de toute la ville."
+      "La Mercè, patronne de Barcelone, fête de toute la ville.",
+      {
+        "qui": "Notre-Dame de la Merci est la patronne de Barcelone.",
+        "sens": "En 1218, selon la tradition, Marie aurait inspiré à saint Pierre Nolasque la fondation de l'ordre de la Merci, pour racheter les chrétiens captifs, quitte à prendre leur place. La Mercè est la grande fête de Barcelone, avec ses géants et ses châteaux humains.",
+        "vivre": "Prier pour les personnes privées de liberté."
+      }
     ],
     "09-25": [
       "Saint Serge de Radonège",
-      "Un moine de la forêt russe, père de la vie monastique en Russie."
+      "Un moine de la forêt russe, père de la vie monastique en Russie.",
+      {
+        "qui": "Serge de Radonège (1314-1392) est un moine russe.",
+        "sens": "Il s'installe en ermite dans la forêt ; des disciples le rejoignent et il fonde le monastère de la Trinité, autour duquel est née la ville de Serguiev Possad. Il est le saint le plus aimé de Russie.",
+        "vivre": "Prier pour la paix entre Russes et Ukrainiens."
+      }
     ],
     "09-26": [
       "Saints Côme et Damien",
-      "Deux frères médecins qui soignaient sans se faire payer."
+      "Deux frères médecins qui soignaient sans se faire payer.",
+      {
+        "qui": "Côme et Damien sont deux frères jumeaux médecins, martyrs en Syrie vers 300.",
+        "sens": "Ils soignaient sans se faire payer : on les appelait les « anargyres », ceux qui refusent l'argent. Ils sont les patrons des médecins et des pharmaciens. Leurs noms sont cités dans la prière de la messe.",
+        "vivre": "Remercier son médecin ou un soignant."
+      }
     ],
     "09-27": [
       "Saint Vincent de Paul",
-      "Le prêtre de la charité, au service des pauvres de France."
+      "Le prêtre de la charité, au service des pauvres de France.",
+      {
+        "qui": "Vincent de Paul (1581-1660), fils de paysans des Landes, devient prêtre pour avoir une vie confortable.",
+        "sens": "Touché par la misère, il change de vie : il fonde les Lazaristes pour évangéliser les campagnes et, avec Louise de Marillac, les Filles de la Charité. Il organise des secours pour les pauvres, les enfants abandonnés et les galériens. Il est le patron des œuvres de charité.",
+        "vivre": "Donner à une association de solidarité.",
+        "fort": true
+      }
     ],
     "09-28": [
       "Saint Venceslas",
-      "Un duc de Bohême, patron des Tchèques."
+      "Un duc de Bohême, patron des Tchèques.",
+      {
+        "qui": "Venceslas (vers 907-935) est duc de Bohême.",
+        "sens": "Prince chrétien et juste, il est assassiné par son frère en allant à la messe. Il est le patron de la République tchèque ; un chant de Noël anglais, Good King Wenceslas, raconte sa charité.",
+        "vivre": "Faire un geste de charité discret."
+      }
     ],
     "09-29": [
       "Saints Michel, Gabriel et Raphaël",
-      "Les trois archanges."
+      "Les trois archanges.",
+      {
+        "qui": "L'Église fête les trois archanges dont la Bible donne le nom.",
+        "sens": "Michel, « Qui est comme Dieu ? », combat le mal. Gabriel, « Force de Dieu », annonce à Marie la naissance de Jésus. Raphaël, « Dieu guérit », accompagne le jeune Tobie. En France, la Saint-Michel était autrefois un jour de fête et de foires.",
+        "vivre": "Prier saint Michel de nous protéger du mal.",
+        "fort": true
+      }
     ],
     "09-30": [
       "Saint Jérôme",
-      "Le savant qui a traduit la Bible en latin : « Ignorer les Écritures, c'est ignorer le Christ. »"
+      "Le savant qui a traduit la Bible en latin : « Ignorer les Écritures, c'est ignorer le Christ. »",
+      {
+        "qui": "Jérôme (vers 347-420), né en Dalmatie, est un savant au caractère difficile.",
+        "sens": "À la demande du pape Damase, il traduit la Bible en latin à partir de l'hébreu et du grec : c'est la Vulgate, utilisée pendant plus de mille ans. Il vit ses dernières années à Bethléem. Il disait : « Ignorer les Écritures, c'est ignorer le Christ. » Il est le patron des traducteurs.",
+        "vivre": "Lire un chapitre de la Bible.",
+        "fort": true
+      }
     ],
     "10-01": [
       "Sainte Thérèse de l'Enfant-Jésus",
-      "La « petite voie » de la confiance, patronne des missions."
+      "La « petite voie » de la confiance, patronne des missions.",
+      {
+        "qui": "Thérèse Martin (1873-1897), la plus jeune des filles de Louis et Zélie Martin, entre au carmel de Lisieux à 15 ans.",
+        "sens": "Elle meurt de la tuberculose à 24 ans. Son autobiographie, Histoire d'une âme, fait connaître sa « petite voie » : la confiance d'un enfant envers Dieu. Elle est docteur de l'Église et patronne des missions, sans jamais avoir quitté son carmel.",
+        "vivre": "Faire une petite chose avec beaucoup d'amour.",
+        "fort": true
+      }
     ],
     "10-02": [
       "Les saints anges gardiens",
-      "Chacun a un ange qui veille sur lui."
+      "Chacun a un ange qui veille sur lui.",
+      {
+        "qui": "Le 2 octobre, l'Église fête les anges gardiens.",
+        "sens": "Elle croit que chacun a, dès sa naissance, un ange qui veille sur lui et le guide (Catéchisme, n° 336). Jésus dit des enfants que leurs anges voient sans cesse la face du Père (Mt 18, 10).",
+        "vivre": "Dire la prière à l'ange gardien.",
+        "fort": true
+      }
     ],
     "10-03": [
       "Le Transitus de saint François",
-      "Le soir du 3 octobre 1226, François d'Assise meurt en chantant un psaume."
+      "Le soir du 3 octobre 1226, François d'Assise meurt en chantant un psaume.",
+      {
+        "qui": "François d'Assise meurt le soir du 3 octobre 1226, à la Portioncule, près d'Assise.",
+        "sens": "Couché sur la terre nue, il demande qu'on lise la Passion selon saint Jean et chante le psaume 141. Les franciscains célèbrent chaque année ce « Transitus », son passage de la mort à la vie.",
+        "vivre": "Prier pour une personne qui va mourir."
+      }
     ],
     "10-04": [
       "Saint François d'Assise",
-      "Le petit pauvre d'Assise, frère de toute la Création."
+      "Le petit pauvre d'Assise, frère de toute la Création.",
+      {
+        "qui": "François (1182-1226), fils d'un riche marchand d'Assise, rêve d'être chevalier.",
+        "sens": "Après une maladie et une rencontre avec un lépreux, il se dépouille de tout et vit dans la pauvreté, la joie et la louange. Il fonde les frères mineurs, reçoit les stigmates et compose le Cantique des créatures. Il est le patron de l'Italie et de l'écologie.",
+        "vivre": "Remercier Dieu pour une créature : le soleil, l'eau, un animal.",
+        "fort": true
+      }
     ],
     "10-05": [
       "Sainte Faustine",
-      "Une religieuse polonaise, messagère de la miséricorde de Dieu."
+      "Une religieuse polonaise, messagère de la miséricorde de Dieu.",
+      {
+        "qui": "Faustine Kowalska (1905-1938) est une religieuse polonaise d'origine très simple.",
+        "sens": "Elle reçoit de Jésus des messages sur sa miséricorde, qu'elle écrit dans son Petit Journal, et fait peindre l'image « Jésus, j'ai confiance en toi ». Jean-Paul II l'a canonisée en 2000 et a institué le dimanche de la Divine Miséricorde.",
+        "vivre": "Dire : « Jésus, j'ai confiance en toi. »"
+      }
     ],
     "10-06": [
       "Saint Bruno",
-      "Un professeur de Reims parti au désert de Chartreuse."
+      "Un professeur de Reims parti au désert de Chartreuse.",
+      {
+        "qui": "Bruno (vers 1030-1101), né à Cologne, est professeur réputé à Reims.",
+        "sens": "En 1084, il part avec six compagnons dans le désert de Chartreuse, près de Grenoble : c'est l'origine des chartreux, qui vivent dans le silence et la solitude. La Grande Chartreuse est toujours habitée.",
+        "vivre": "Garder un vrai moment de silence."
+      }
     ],
     "10-07": [
       "Notre-Dame du Rosaire",
-      "Le chapelet, prière des petits et des grands."
+      "Le chapelet, prière des petits et des grands.",
+      {
+        "qui": "Le 7 octobre, l'Église fête Notre-Dame du Rosaire.",
+        "sens": "La fête est née après la victoire de Lépante, en 1571, attribuée à la prière du rosaire demandée par le pape Pie V. Le rosaire médite les mystères de la vie de Jésus avec Marie. Octobre est le mois du rosaire.",
+        "vivre": "Prier une dizaine de chapelet.",
+        "fort": true
+      }
     ],
     "10-08": [
       "Sainte Pélagie",
-      "Une actrice célèbre d'Antioche, convertie, qui a fini sa vie en ermite à Jérusalem."
+      "Une actrice célèbre d'Antioche, convertie, qui a fini sa vie en ermite à Jérusalem.",
+      {
+        "qui": "Pélagie est une actrice et danseuse célèbre d'Antioche, au Ve siècle.",
+        "sens": "Touchée par la prédication d'un évêque, elle se convertit, distribue sa fortune et part vivre en ermite au mont des Oliviers, à Jérusalem, déguisée en moine.",
+        "vivre": "Croire que tout le monde peut changer."
+      }
     ],
     "10-09": [
       "Saint Denis",
-      "Le premier évêque de Paris, martyr à Montmartre."
+      "Le premier évêque de Paris, martyr à Montmartre.",
+      {
+        "qui": "Denis est le premier évêque de Paris, au IIIe siècle.",
+        "sens": "Selon la tradition, il est décapité à Montmartre, le « mont des martyrs », avec ses compagnons Rustique et Éleuthère ; la légende dit qu'il aurait marché en portant sa tête jusqu'au lieu de sa sépulture. La basilique de Saint-Denis, où reposent les rois de France, est bâtie sur son tombeau.",
+        "vivre": "Prier pour Paris et la France."
+      }
     ],
     "10-10": [
       "Saint Daniel Comboni",
-      "Un missionnaire italien qui voulait « sauver l'Afrique par l'Afrique »."
+      "Un missionnaire italien qui voulait « sauver l'Afrique par l'Afrique ».",
+      {
+        "qui": "Daniel Comboni (1831-1881) est un missionnaire italien.",
+        "sens": "Il consacre sa vie à l'Afrique, avec une conviction : « Sauver l'Afrique par l'Afrique », en formant des Africains pour évangéliser leur continent. Il fonde les Missionnaires comboniens et meurt à Khartoum. Il a été canonisé en 2003.",
+        "vivre": "Prier pour l'Afrique."
+      }
     ],
     "10-11": [
       "Saint Jean XXIII",
-      "Le « bon pape Jean », qui a ouvert le concile Vatican II le 11 octobre 1962."
+      "Le « bon pape Jean », qui a ouvert le concile Vatican II le 11 octobre 1962.",
+      {
+        "qui": "Jean XXIII (1881-1963), Angelo Roncalli, fils de paysans de Bergame, est élu pape à 76 ans.",
+        "sens": "On pensait à un pape de transition ; il ouvre le concile Vatican II le 11 octobre 1962. On l'appelle « le bon pape Jean ». Il a été canonisé en 2014 avec Jean-Paul II.",
+        "vivre": "Être bon avec simplicité."
+      }
     ],
     "10-12": [
       "Notre-Dame du Pilar",
-      "La patronne de l'Espagne, vénérée à Saragosse."
+      "La patronne de l'Espagne, vénérée à Saragosse.",
+      {
+        "qui": "Selon la tradition, la Vierge Marie serait apparue sur un pilier à l'apôtre Jacques, à Saragosse, en l'an 40.",
+        "sens": "Notre-Dame du Pilar est la patronne de l'Espagne et de l'Hispanité ; le 12 octobre est la fête nationale espagnole. La basilique du Pilar, à Saragosse, accueille chaque année une offrande de fleurs.",
+        "vivre": "Offrir une fleur à Marie."
+      }
     ],
     "10-13": [
       "Saint Géraud",
-      "Un comte d'Auvergne, laïc juste et généreux, fondateur de l'abbaye d'Aurillac."
+      "Un comte d'Auvergne, laïc juste et généreux, fondateur de l'abbaye d'Aurillac.",
+      {
+        "qui": "Géraud (855-909) est un comte d'Aurillac, en Auvergne.",
+        "sens": "Laïc, il gouverne ses terres avec justice, libère ses serfs et fonde l'abbaye d'Aurillac. Sa vie, écrite par saint Odon de Cluny, a présenté pour la première fois un laïc comme modèle de sainteté. Le 13 octobre 1917 est aussi le jour du « miracle du soleil » à Fatima.",
+        "vivre": "Être juste dans son travail."
+      }
     ],
     "10-14": [
       "Saint Calixte Ier",
-      "Un ancien esclave devenu pape, au IIIe siècle."
+      "Un ancien esclave devenu pape, au IIIe siècle.",
+      {
+        "qui": "Calixte, ancien esclave, devient pape en 217.",
+        "sens": "Il organise le cimetière de la voie Appienne, les catacombes qui portent son nom, et se montre miséricordieux envers les pécheurs repentis. Il meurt martyr vers 222.",
+        "vivre": "Visiter un cimetière et prier pour les défunts."
+      }
     ],
     "10-15": [
       "Sainte Thérèse d'Avila",
-      "Une carmélite de Castille, qui parlait à Dieu comme à un ami."
+      "Une carmélite de Castille, qui parlait à Dieu comme à un ami.",
+      {
+        "qui": "Thérèse (1515-1582), carmélite d'Avila, en Castille, réforme le Carmel et fonde dix-sept monastères.",
+        "sens": "Elle décrit la prière comme une conversation d'amitié avec Dieu et écrit Le Château intérieur. Pleine d'humour et d'énergie, elle est la première femme proclamée docteur de l'Église, en 1970. Elle meurt dans la nuit du 4 au 15 octobre 1582, celle du passage au calendrier grégorien.",
+        "vivre": "Parler à Dieu comme à un ami, cinq minutes.",
+        "fort": true
+      }
     ],
     "10-16": [
       "Sainte Marguerite-Marie",
-      "Une religieuse de Paray-le-Monial, confidente du Cœur de Jésus."
+      "Une religieuse de Paray-le-Monial, confidente du Cœur de Jésus.",
+      {
+        "qui": "Marguerite-Marie Alacoque (1647-1690) est religieuse de la Visitation à Paray-le-Monial.",
+        "sens": "Jésus lui révèle son Cœur « qui a tant aimé les hommes », et lui demande une fête en son honneur. Soutenue par saint Claude La Colombière, elle a répandu la dévotion au Sacré-Cœur. Paray-le-Monial est un grand lieu de pèlerinage.",
+        "vivre": "Prier le Cœur de Jésus."
+      }
     ],
     "10-17": [
       "Saint Ignace d'Antioche",
-      "Un évêque qui a écrit sept lettres en route vers son martyre à Rome."
+      "Un évêque qui a écrit sept lettres en route vers son martyre à Rome.",
+      {
+        "qui": "Ignace est évêque d'Antioche, en Syrie, à la fin du Ier siècle.",
+        "sens": "Condamné aux bêtes, il est emmené à Rome et écrit en route sept lettres aux Églises, où il parle de l'Eucharistie et de l'unité. Il est l'un des premiers à employer l'expression « Église catholique ».",
+        "vivre": "Prier pour l'unité de sa paroisse.",
+        "fort": true
+      }
     ],
     "10-18": [
       "Saint Luc",
-      "Le médecin qui a écrit un Évangile et les Actes des Apôtres."
+      "Le médecin qui a écrit un Évangile et les Actes des Apôtres.",
+      {
+        "qui": "Luc, médecin grec, compagnon de saint Paul, a écrit un Évangile et les Actes des Apôtres.",
+        "sens": "Son Évangile, celui de la miséricorde, est le seul à raconter les paraboles du fils prodigue et du bon Samaritain, et l'enfance de Jésus du côté de Marie. Une tradition dit qu'il aurait peint la Vierge ; il est le patron des médecins et des artistes.",
+        "vivre": "Lire la parabole du fils prodigue (Lc 15).",
+        "fort": true
+      }
     ],
     "10-19": [
       "Les martyrs canadiens",
-      "Jean de Brébeuf, Isaac Jogues et leurs compagnons, missionnaires français."
+      "Jean de Brébeuf, Isaac Jogues et leurs compagnons, missionnaires français.",
+      {
+        "qui": "Jean de Brébeuf, Isaac Jogues et six compagnons sont des jésuites et des laïcs français, missionnaires chez les Hurons et les Iroquois.",
+        "sens": "Ils meurent martyrs entre 1642 et 1649, dans l'actuel Canada et dans l'État de New York. Brébeuf avait écrit un chant de Noël en langue huronne. Ils ont été canonisés en 1930.",
+        "vivre": "Prier pour les peuples du Canada."
+      }
     ],
     "10-20": [
       "Saint Caprais d'Agen",
-      "Un jeune chrétien d'Agen, martyr au début du IVe siècle."
+      "Un jeune chrétien d'Agen, martyr au début du IVe siècle.",
+      {
+        "qui": "Caprais est un jeune chrétien d'Agen, au début du IVe siècle.",
+        "sens": "Caché dans une grotte pendant la persécution, il voit sainte Foy mourir avec courage et se livre à son tour ; il meurt martyr. La cathédrale d'Agen porte son nom.",
+        "vivre": "Être encouragé par le courage d'un autre."
+      }
     ],
     "10-21": [
       "Sainte Céline",
-      "La mère de saint Rémi, l'évêque qui a baptisé Clovis."
+      "La mère de saint Rémi, l'évêque qui a baptisé Clovis.",
+      {
+        "qui": "Céline est la mère de saint Rémi, au Ve siècle.",
+        "sens": "Selon la tradition, déjà âgée, elle avait eu ce fils annoncé par un ermite. Elle meurt à Cerny, dans l'Aisne. Le 21 octobre est aussi le jour de sainte Ursule et de ses compagnes, martyres de Cologne.",
+        "vivre": "Remercier pour sa mère."
+      }
     ],
     "10-22": [
       "Saint Jean-Paul II",
-      "Le pape venu de Pologne : « N'ayez pas peur ! »"
+      "Le pape venu de Pologne : « N'ayez pas peur ! »",
+      {
+        "qui": "Jean-Paul II (1920-2005), Karol Wojtyła, né en Pologne, est pape de 1978 à 2005.",
+        "sens": "Il commence son pontificat en lançant : « N'ayez pas peur ! », voyage dans le monde entier, crée les Journées mondiales de la jeunesse et contribue à la chute du communisme en Europe. Il a été canonisé en 2014. On le fête le jour de la messe d'inauguration de son pontificat.",
+        "vivre": "Oser une chose qui nous fait peur."
+      }
     ],
     "10-23": [
       "Saint Jean de Capistran",
-      "Un juriste italien devenu franciscain, grand prédicateur."
+      "Un juriste italien devenu franciscain, grand prédicateur.",
+      {
+        "qui": "Jean de Capistran (1386-1456), juriste et gouverneur de Pérouse, devient franciscain après un emprisonnement.",
+        "sens": "Grand prédicateur, il parcourt l'Europe. Il meurt de la peste après la défense de Belgrade. Il est le patron des aumôniers militaires.",
+        "vivre": "Prier pour ceux qui servent dans l'armée."
+      }
     ],
     "10-24": [
       "Saint Antoine-Marie Claret",
-      "Un tisserand catalan devenu missionnaire et archevêque de Cuba."
+      "Un tisserand catalan devenu missionnaire et archevêque de Cuba.",
+      {
+        "qui": "Antoine-Marie Claret (1807-1870), tisserand catalan, devient prêtre.",
+        "sens": "Missionnaire en Catalogne et aux Canaries, archevêque de Santiago de Cuba, il fonde les Clarétains et une maison d'édition pour diffuser de bons livres. Il est le patron de la presse catholique.",
+        "vivre": "Partager un bon livre."
+      }
     ],
     "10-25": [
       "Saints Crépin et Crépinien",
-      "Deux frères cordonniers de Soissons, patrons des cordonniers."
+      "Deux frères cordonniers de Soissons, patrons des cordonniers.",
+      {
+        "qui": "Crépin et Crépinien sont deux frères romains venus évangéliser Soissons, au IIIe siècle.",
+        "sens": "Ils travaillent comme cordonniers, fabriquant des chaussures pour les pauvres sans se faire payer, et meurent martyrs. Ils sont les patrons des cordonniers. Dans Henri V de Shakespeare, la bataille d'Azincourt a lieu le jour de la Saint-Crépin.",
+        "vivre": "Rendre un service avec ce qu'on sait faire."
+      }
     ],
     "10-26": [
       "Saint Démétrius",
-      "Un martyr de Thessalonique, très aimé des chrétiens d'Orient."
+      "Un martyr de Thessalonique, très aimé des chrétiens d'Orient.",
+      {
+        "qui": "Démétrius est un diacre ou un officier martyr de Thessalonique, vers 306.",
+        "sens": "Il est l'un des saints les plus vénérés de l'Orient chrétien, patron de Thessalonique, où une grande basilique abrite son tombeau.",
+        "vivre": "Prier pour les chrétiens d'Orient."
+      }
     ],
     "10-27": [
       "La prière d'Assise",
-      "Le 27 octobre 1986, Jean-Paul II réunit à Assise les religions du monde pour prier pour la paix."
+      "Le 27 octobre 1986, Jean-Paul II réunit à Assise les religions du monde pour prier pour la paix.",
+      {
+        "qui": "Le 27 octobre 1986, Jean-Paul II invite à Assise des responsables des grandes religions du monde.",
+        "sens": "Chacun prie selon sa tradition pour la paix, côte à côte : une première dans l'histoire. Depuis, des rencontres semblables, dans « l'esprit d'Assise », ont lieu régulièrement.",
+        "vivre": "Prier pour la paix dans le monde."
+      }
     ],
     "10-28": [
       "Saints Simon et Jude",
-      "Deux apôtres partis annoncer l'Évangile en Orient."
+      "Deux apôtres partis annoncer l'Évangile en Orient.",
+      {
+        "qui": "Simon, appelé le Zélote, et Jude, appelé aussi Thaddée, sont deux des douze apôtres.",
+        "sens": "Selon la tradition, ils auraient annoncé l'Évangile en Perse et y seraient morts martyrs. Jude est invoqué pour les causes désespérées ; une lettre du Nouveau Testament porte son nom.",
+        "vivre": "Confier à saint Jude une situation difficile.",
+        "fort": true
+      }
     ],
     "10-29": [
       "Saint Narcisse",
-      "Un évêque, patron de Gérone, en Catalogne."
+      "Un évêque, patron de Gérone, en Catalogne.",
+      {
+        "qui": "Narcisse est, selon la tradition de Catalogne, un évêque de Gérone, martyr au IVe siècle.",
+        "sens": "Il est le patron de Gérone, où l'on raconte que des mouches sorties de son tombeau auraient chassé les envahisseurs français en 1285. La Fira de Sant Narcís est la grande fête de la ville. Un autre saint Narcisse, évêque de Jérusalem au IIe siècle, est aussi fêté ce jour-là.",
+        "vivre": "Découvrir le saint patron de sa ville."
+      }
     ],
     "10-30": [
       "Saint Alphonse Rodriguez",
-      "Un frère portier de Majorque, qui accueillait chacun comme le Christ."
+      "Un frère portier de Majorque, qui accueillait chacun comme le Christ.",
+      {
+        "qui": "Alphonse Rodriguez (1531-1617), commerçant de Ségovie, perd sa femme et ses enfants.",
+        "sens": "Devenu frère jésuite, il est pendant quarante ans le portier du collège de Palma de Majorque : il accueille chaque visiteur comme le Christ. Il a inspiré saint Pierre Claver.",
+        "vivre": "Ouvrir la porte avec le sourire."
+      }
     ],
     "10-31": [
       "Saint Quentin",
-      "Un jeune Romain venu évangéliser la Picardie, martyr."
+      "Un jeune Romain venu évangéliser la Picardie, martyr.",
+      {
+        "qui": "Quentin est, selon la tradition, un jeune Romain venu évangéliser la Picardie au IIIe siècle.",
+        "sens": "Il meurt martyr à Augusta Viromanduorum, la ville qui a pris son nom : Saint-Quentin, dans l'Aisne. Le 31 octobre est aussi la veille de la Toussaint.",
+        "vivre": "Préparer la fête de la Toussaint."
+      }
     ],
     "11-01": [
       "La Toussaint",
