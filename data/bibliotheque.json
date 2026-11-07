@@ -1832,19 +1832,19 @@
    "fr": {
     "titre": "La Vierge du Pilier",
     "accroche": "Selon une tradition très ancienne, l'apôtre Jacques, découragé au bord de l'Èbre, reçoit la visite de Marie, debout sur une colonne.",
-    "texte": "La tradition raconte que l'apôtre Jacques est venu annoncer l'Évangile en Espagne, mais que peu de gens l'écoutent. Une nuit, à Saragosse, au bord de l'Èbre, la Vierge Marie, qui vit encore à Jérusalem, lui apparaît sur une colonne de jaspe et l'encourage.\n\nCette colonne, le Pilar, est vénérée depuis des siècles dans une grande basilique. Les fidèles viennent toucher la pierre, usée par les mains et les baisers. Le 12 octobre, c'est la fête de Notre-Dame du Pilier, patronne de l'Espagne et des peuples hispaniques.\n\nLe pilier est un symbole parlant : une foi qui tient debout, même quand tout semble difficile.",
+    "texte": "La tradition raconte que l'apôtre Jacques est venu annoncer l'Évangile en Espagne, mais que peu de gens l'écoutent. Une nuit, à Saragosse, au bord de l'Èbre, la Vierge Marie, qui vit encore à Jérusalem, lui apparaît sur une colonne de jaspe et l'encourage.\n\nCette colonne, le Pilar, est vénérée depuis des siècles dans une grande basilique. Les fidèles viennent toucher la pierre, usée par les mains et les baisers. Le 12 octobre, c'est la fête de Notre-Dame du Pilier, patronne de l'Hispanité, c'est-à-dire de tous les peuples de langue espagnole ; c'est aussi la fête nationale de l'Espagne.\n\nLe pilier est un symbole parlant : une foi qui tient debout, même quand tout semble difficile.",
     "source": "Basilique Notre-Dame du Pilier, Saragosse ; calendrier liturgique d'Espagne, 12 octobre"
    },
    "es": {
     "titre": "La Virgen del Pilar",
     "accroche": "Según una tradición muy antigua, el apóstol Santiago, desanimado a orillas del Ebro, recibe la visita de María de pie sobre una columna.",
-    "texte": "La tradición cuenta que el apóstol Santiago vino a anunciar el Evangelio a Hispania, pero poca gente lo escuchaba. Una noche, en Zaragoza, a orillas del Ebro, la Virgen María, que todavía vive en Jerusalén, se le aparece sobre una columna de jaspe y le da ánimo.\n\nEsa columna, el Pilar, se venera desde hace siglos en una gran basílica. Los fieles van a tocar la piedra, gastada por las manos y los besos. El 12 de octubre es la fiesta de Nuestra Señora del Pilar, patrona de España y de la Hispanidad.\n\nEl pilar es un símbolo elocuente: una fe que se mantiene en pie, incluso cuando todo parece difícil.",
+    "texte": "La tradición cuenta que el apóstol Santiago vino a anunciar el Evangelio a Hispania, pero poca gente lo escuchaba. Una noche, en Zaragoza, a orillas del Ebro, la Virgen María, que todavía vive en Jerusalén, se le aparece sobre una columna de jaspe y le da ánimo.\n\nEsa columna, el Pilar, se venera desde hace siglos en una gran basílica. Los fieles van a tocar la piedra, gastada por las manos y los besos. El 12 de octubre es la fiesta de Nuestra Señora del Pilar, patrona de la Hispanidad; es también la Fiesta Nacional de España.\n\nEl pilar es un símbolo elocuente: una fe que se mantiene en pie, incluso cuando todo parece difícil.",
     "source": "Basílica de Nuestra Señora del Pilar, Zaragoza; calendario litúrgico de España, 12 de octubre"
    },
    "en": {
     "titre": "Our Lady of the Pillar",
     "accroche": "According to a very old tradition, the apostle James, discouraged on the banks of the Ebro, was visited by Mary standing on a pillar.",
-    "texte": "Tradition says that the apostle James came to preach the Gospel in Spain, but few people listened to him. One night in Zaragoza, on the banks of the Ebro, the Virgin Mary, still living in Jerusalem, appeared to him on a jasper pillar and encouraged him.\n\nThat pillar, the Pilar, has been venerated for centuries in a great basilica. The faithful come to touch the stone, worn by hands and kisses. On 12 October Spain celebrates Our Lady of the Pillar, patroness of Spain and of the Hispanic peoples.\n\nThe pillar is a telling symbol: a faith that stands firm, even when everything seems hard.",
+    "texte": "Tradition says that the apostle James came to preach the Gospel in Spain, but few people listened to him. One night in Zaragoza, on the banks of the Ebro, the Virgin Mary, still living in Jerusalem, appeared to him on a jasper pillar and encouraged him.\n\nThat pillar, the Pilar, has been venerated for centuries in a great basilica. The faithful come to touch the stone, worn by hands and kisses. On 12 October Spain celebrates Our Lady of the Pillar, patroness of the Hispanic world; it is also Spain's National Day.\n\nThe pillar is a telling symbol: a faith that stands firm, even when everything seems hard.",
     "source": "Basilica of Our Lady of the Pillar, Zaragoza; liturgical calendar of Spain, 12 October"
    }
   },
@@ -1933,6 +1933,176 @@
     "accroche": "On the shore of the Sea of Galilee, a fifth-century mosaic shows a basket of loaves between two fish. One loaf is missing.",
     "texte": "At Tabgha, on the lakeshore, a very old tradition places the multiplication of the loaves. In the fourth century a pilgrim named Egeria already described a church there, and the stone on which Jesus was said to have placed the loaves.\n\nDuring excavations in 1932, German archaeologists found the mosaics of a Byzantine church beneath the ground. In front of the altar, a small mosaic shows a basket of loaves with a fish on either side. If you count, you see only four loaves.\n\nAn explanation often given: the fifth loaf is the one placed on the altar at every Mass. The church was rebuilt over the site, and the mosaic has become one of the symbols of the Holy Land.",
     "source": "Itinerary of Egeria (4th century); Church of the Multiplication, Tabgha (excavations of 1932); Mk 6:30-44"
+   }
+  },
+  {
+   "id": "saint-sepulcre-echelle",
+   "fr": {
+    "titre": "L'échelle que personne n'ose déplacer",
+    "accroche": "Sur la façade du Saint-Sépulcre, à Jérusalem, une petite échelle de bois est posée sous une fenêtre depuis près de trois siècles.",
+    "texte": "L'église du Saint-Sépulcre abrite à la fois le lieu de la crucifixion et le tombeau de Jésus. Plusieurs Églises chrétiennes se la partagent : catholiques, grecs orthodoxes, arméniens, coptes, syriaques et éthiopiens. Chaque pierre, chaque lampe, chaque horaire est réglé par un accord très ancien, le « statu quo ».\n\nPour éviter les disputes, rien ne peut être changé sans l'accord de tous. C'est ainsi qu'une échelle, posée là au XVIIIe siècle, n'a presque jamais bougé : personne ne sait plus vraiment à qui elle appartient.\n\nAutre surprise : depuis des siècles, la clé de la grande porte est confiée à deux familles musulmanes de Jérusalem, qui l'ouvrent et la ferment chaque jour. L'échelle immobile rappelle avec humour que l'unité des chrétiens reste un chemin.",
+    "source": "Statu quo des Lieux saints (firman de 1852) ; Custodie franciscaine de Terre sainte"
+   },
+   "es": {
+    "titre": "La escalera que nadie se atreve a mover",
+    "accroche": "En la fachada del Santo Sepulcro, en Jerusalén, una pequeña escalera de madera está apoyada bajo una ventana desde hace casi tres siglos.",
+    "texte": "La iglesia del Santo Sepulcro alberga a la vez el lugar de la crucifixión y la tumba de Jesús. Varias Iglesias cristianas la comparten: católicos, griegos ortodoxos, armenios, coptos, siríacos y etíopes. Cada piedra, cada lámpara, cada horario se rige por un acuerdo muy antiguo, el «statu quo».\n\nPara evitar disputas, no se puede cambiar nada sin el acuerdo de todos. Por eso una escalera, colocada allí en el siglo XVIII, casi nunca se ha movido: ya nadie sabe muy bien a quién pertenece.\n\nOtra sorpresa: desde hace siglos, la llave de la gran puerta está confiada a dos familias musulmanas de Jerusalén, que la abren y la cierran cada día. La escalera inmóvil recuerda con humor que la unidad de los cristianos sigue siendo un camino.",
+    "source": "Statu quo de los Santos Lugares (firmán de 1852); Custodia Franciscana de Tierra Santa"
+   },
+   "en": {
+    "titre": "The ladder no one dares to move",
+    "accroche": "On the façade of the Holy Sepulchre in Jerusalem, a small wooden ladder has been leaning beneath a window for almost three centuries.",
+    "texte": "The Church of the Holy Sepulchre contains both the place of the crucifixion and the tomb of Jesus. Several Christian Churches share it: Catholics, Greek Orthodox, Armenians, Copts, Syriacs and Ethiopians. Every stone, every lamp, every schedule is governed by a very old agreement, the “Status Quo”.\n\nTo avoid disputes, nothing can be changed without everyone's agreement. That is how a ladder placed there in the eighteenth century has hardly ever moved: no one really knows any more whom it belongs to.\n\nAnother surprise: for centuries the key to the great door has been entrusted to two Muslim families of Jerusalem, who open and close it every day. The immovable ladder is a wry reminder that Christian unity is still a journey.",
+    "source": "Status Quo of the Holy Places (firman of 1852); Franciscan Custody of the Holy Land"
+   }
+  },
+  {
+   "id": "therese-ascenseur",
+   "fr": {
+    "titre": "L'ascenseur de Thérèse",
+    "accroche": "Une jeune carmélite qui se trouvait trop petite pour devenir sainte a trouvé la solution dans une invention de son temps.",
+    "texte": "Thérèse de Lisieux admire les grands saints, mais elle se compare à eux comme un grain de sable à une montagne. Elle ne se décourage pas : elle cherche un chemin pour les petits.\n\nÀ la fin du XIXe siècle, on commence à installer des ascenseurs dans les maisons riches. Thérèse écrit qu'elle aussi voudrait trouver un ascenseur pour monter jusqu'à Jésus, car elle est trop petite pour gravir « le rude escalier de la perfection ». Elle le trouve dans la Bible : « Si quelqu'un est tout petit, qu'il vienne à moi » (Pr 9, 4).\n\nL'ascenseur, ce sont les bras de Jésus. Pas besoin de devenir grand : il faut au contraire rester petit, et faire confiance. C'est sa « petite voie ».",
+    "source": "Thérèse de Lisieux, Manuscrit C, 2v-3r (1897) ; Pr 9, 4 ; Is 66, 12-13"
+   },
+   "es": {
+    "titre": "El ascensor de Teresa",
+    "accroche": "Una joven carmelita que se veía demasiado pequeña para llegar a ser santa encontró la solución en un invento de su época.",
+    "texte": "Teresa de Lisieux admira a los grandes santos, pero se compara con ellos como un grano de arena con una montaña. No se desanima: busca un camino para los pequeños.\n\nA finales del siglo XIX empiezan a instalarse ascensores en las casas ricas. Teresa escribe que ella también quisiera encontrar un ascensor para subir hasta Jesús, porque es demasiado pequeña para subir «la dura escalera de la perfección». Lo encuentra en la Biblia: «Si alguno es pequeñito, que venga a mí» (Prov 9, 4).\n\nEl ascensor son los brazos de Jesús. No hace falta hacerse grande: al contrario, hay que seguir siendo pequeño y confiar. Es su «caminito».",
+    "source": "Teresa de Lisieux, Manuscrito C, 2v-3r (1897); Prov 9, 4; Is 66, 12-13"
+   },
+   "en": {
+    "titre": "Thérèse's lift",
+    "accroche": "A young Carmelite nun who felt too small to become a saint found the answer in an invention of her day.",
+    "texte": "Thérèse of Lisieux admired the great saints, but she compared herself to them as a grain of sand to a mountain. She did not lose heart: she looked for a way for little ones.\n\nAt the end of the nineteenth century, lifts were starting to appear in wealthy homes. Thérèse wrote that she too wanted to find a lift to raise her up to Jesus, because she was too small to climb “the rough stairway of perfection”. She found it in the Bible: “Whoever is a little one, let him come to me” (Prov 9:4).\n\nThe lift is the arms of Jesus. There is no need to become big: on the contrary, we stay little and trust. This is her “little way”.",
+    "source": "Thérèse of Lisieux, Manuscript C, 2v-3r (1897); Prov 9:4; Is 66:12-13"
+   }
+  },
+  {
+   "id": "pline-dimanche",
+   "fr": {
+    "titre": "Ce qu'un gouverneur romain a vu des chrétiens",
+    "accroche": "Vers l'an 112, un gouverneur romain écrit à l'empereur pour lui demander quoi faire de ces gens étranges qu'on appelle chrétiens.",
+    "texte": "Pline le Jeune gouverne une province d'Asie Mineure, au bord de la mer Noire. On lui dénonce des chrétiens et il mène l'enquête. Dans une lettre à l'empereur Trajan, il raconte ce qu'il a appris.\n\nLes chrétiens, écrit-il, se réunissent un jour fixe, avant le lever du soleil. Ils chantent ensemble un hymne au Christ « comme à un dieu ». Ils s'engagent à ne pas voler, ne pas tromper, ne pas trahir leur parole. Puis ils se retrouvent pour un repas simple.\n\nC'est l'un des plus anciens témoignages non chrétiens sur les chrétiens. Ce « jour fixe », c'est le dimanche, jour de la résurrection. Deux mille ans plus tard, on continue de se réunir ce jour-là.",
+    "source": "Pline le Jeune, Lettres, X, 96 (vers 112)"
+   },
+   "es": {
+    "titre": "Lo que un gobernador romano vio de los cristianos",
+    "accroche": "Hacia el año 112, un gobernador romano escribe al emperador para preguntarle qué hacer con esa gente extraña a la que llaman cristianos.",
+    "texte": "Plinio el Joven gobierna una provincia de Asia Menor, a orillas del mar Negro. Le denuncian a unos cristianos y él investiga. En una carta al emperador Trajano cuenta lo que ha averiguado.\n\nLos cristianos, escribe, se reúnen un día fijo, antes de que salga el sol. Cantan juntos un himno a Cristo «como a un dios». Se comprometen a no robar, no engañar, no faltar a su palabra. Después se reúnen para una comida sencilla.\n\nEs uno de los testimonios no cristianos más antiguos sobre los cristianos. Ese «día fijo» es el domingo, día de la resurrección. Dos mil años después, seguimos reuniéndonos ese día.",
+    "source": "Plinio el Joven, Cartas, X, 96 (hacia 112)"
+   },
+   "en": {
+    "titre": "What a Roman governor saw of the Christians",
+    "accroche": "Around the year 112, a Roman governor wrote to the emperor asking what to do about these strange people called Christians.",
+    "texte": "Pliny the Younger governed a province in Asia Minor, on the shores of the Black Sea. Christians were reported to him and he investigated. In a letter to the Emperor Trajan, he described what he had learned.\n\nThe Christians, he wrote, met on a fixed day before sunrise. They sang together a hymn to Christ “as to a god”. They bound themselves not to steal, not to cheat, not to break their word. Then they met again for a simple meal.\n\nThis is one of the oldest non-Christian accounts of Christians. That “fixed day” is Sunday, the day of the resurrection. Two thousand years later, we still gather on that day.",
+    "source": "Pliny the Younger, Letters, X, 96 (c. 112)"
+   }
+  },
+  {
+   "id": "paul6-athenagoras",
+   "date": "01-05",
+   "fr": {
+    "titre": "L'accolade de Jérusalem",
+    "accroche": "Le 5 janvier 1964, sur le mont des Oliviers, un pape et un patriarche s'embrassent. Cela n'était pas arrivé depuis des siècles.",
+    "texte": "En 1054, les Églises de Rome et de Constantinople se sont séparées, en s'excommuniant mutuellement. Pendant plus de neuf cents ans, les chefs des deux Églises ne se sont pratiquement plus rencontrés.\n\nEn janvier 1964, Paul VI fait un voyage historique en Terre sainte : c'est la première fois depuis très longtemps qu'un pape quitte l'Italie. À Jérusalem, il rencontre le patriarche œcuménique Athénagoras. Les deux hommes s'embrassent comme des frères, puis prient ensemble le Notre Père.\n\nL'année suivante, le 7 décembre 1965, ils lèvent ensemble les excommunications de 1054. Les deux Églises ne sont pas encore réunies, mais un mur venait de tomber.",
+    "source": "Paul VI et Athénagoras Ier, déclaration commune du 7 décembre 1965 (vatican.va) ; pèlerinage de Paul VI en Terre sainte, 4-6 janvier 1964"
+   },
+   "es": {
+    "titre": "El abrazo de Jerusalén",
+    "accroche": "El 5 de enero de 1964, en el monte de los Olivos, un papa y un patriarca se abrazan. No ocurría desde hacía siglos.",
+    "texte": "En 1054, las Iglesias de Roma y de Constantinopla se separaron, excomulgándose mutuamente. Durante más de novecientos años, los jefes de las dos Iglesias prácticamente no volvieron a encontrarse.\n\nEn enero de 1964, Pablo VI hace un viaje histórico a Tierra Santa: hacía muchísimo tiempo que un papa no salía de Italia. En Jerusalén se encuentra con el patriarca ecuménico Atenágoras. Los dos se abrazan como hermanos y rezan juntos el Padre nuestro.\n\nAl año siguiente, el 7 de diciembre de 1965, levantan juntos las excomuniones de 1054. Las dos Iglesias todavía no están unidas, pero acababa de caer un muro.",
+    "source": "Pablo VI y Atenágoras I, declaración común del 7 de diciembre de 1965 (vatican.va); peregrinación de Pablo VI a Tierra Santa, 4-6 de enero de 1964"
+   },
+   "en": {
+    "titre": "The embrace in Jerusalem",
+    "accroche": "On 5 January 1964, on the Mount of Olives, a pope and a patriarch embraced. It had not happened for centuries.",
+    "texte": "In 1054 the Churches of Rome and Constantinople split apart, each excommunicating the other. For more than nine hundred years, the heads of the two Churches hardly ever met.\n\nIn January 1964 Paul VI made a historic journey to the Holy Land: it was the first time in a very long while that a pope had left Italy. In Jerusalem he met the Ecumenical Patriarch Athenagoras. The two men embraced as brothers, then prayed the Our Father together.\n\nThe following year, on 7 December 1965, they jointly lifted the excommunications of 1054. The two Churches are not yet reunited, but a wall had come down.",
+    "source": "Paul VI and Athenagoras I, Joint Declaration of 7 December 1965 (vatican.va); Paul VI's pilgrimage to the Holy Land, 4-6 January 1964"
+   }
+  },
+  {
+   "id": "pater-noster-langues",
+   "fr": {
+    "titre": "Le Notre Père dans toutes les langues",
+    "accroche": "Sur le mont des Oliviers, à Jérusalem, les murs d'une église sont couverts du Notre Père, écrit dans plus de 140 langues.",
+    "texte": "Une tradition ancienne situe sur le mont des Oliviers une grotte où Jésus enseignait ses disciples. C'est là, dit-on, qu'il leur aurait appris le Notre Père.\n\nAu XIXe siècle, une princesse française, Aurelia de La Tour d'Auvergne, achète le terrain et fait construire un cloître. Elle y fait poser des plaques de céramique avec le Notre Père en différentes langues. Depuis, on en ajoute régulièrement.\n\nOn y trouve aujourd'hui le Notre Père en breton, en swahili, en catalan, en langue des signes, en braille, en araméen, la langue de Jésus… Les pèlerins cherchent la leur et la prient à voix basse. C'est une image de ce que voulait Jésus : une prière pour tous les peuples.",
+    "source": "Carmel du Pater Noster, Jérusalem ; Lc 11, 1-4"
+   },
+   "es": {
+    "titre": "El Padre nuestro en todas las lenguas",
+    "accroche": "En el monte de los Olivos, en Jerusalén, las paredes de una iglesia están cubiertas del Padre nuestro escrito en más de 140 lenguas.",
+    "texte": "Una tradición antigua sitúa en el monte de los Olivos una gruta donde Jesús enseñaba a sus discípulos. Allí, se dice, les habría enseñado el Padre nuestro.\n\nEn el siglo XIX, una princesa francesa, Aurelia de La Tour d'Auvergne, compra el terreno y manda construir un claustro. Hace colocar placas de cerámica con el Padre nuestro en distintas lenguas. Desde entonces se añaden regularmente.\n\nHoy se encuentra el Padre nuestro en bretón, en suajili, en catalán, en lengua de signos, en braille, en arameo, la lengua de Jesús… Los peregrinos buscan la suya y la rezan en voz baja. Es una imagen de lo que quería Jesús: una oración para todos los pueblos.",
+    "source": "Carmelo del Pater Noster, Jerusalén; Lc 11, 1-4"
+   },
+   "en": {
+    "titre": "The Our Father in every language",
+    "accroche": "On the Mount of Olives in Jerusalem, the walls of a church are covered with the Our Father written in more than 140 languages.",
+    "texte": "An ancient tradition places on the Mount of Olives a cave where Jesus taught his disciples. It was there, people say, that he taught them the Our Father.\n\nIn the nineteenth century, a French princess, Aurelia de La Tour d'Auvergne, bought the land and had a cloister built. She had ceramic panels put up with the Our Father in different languages. More have been added ever since.\n\nToday you can find the Our Father in Breton, Swahili, Catalan, sign language, braille, and Aramaic, the language of Jesus… Pilgrims look for their own and pray it quietly. It is a picture of what Jesus wanted: a prayer for every people.",
+    "source": "Carmel of the Pater Noster, Jerusalem; Lk 11:1-4"
+   }
+  },
+  {
+   "id": "denys-le-petit",
+   "fr": {
+    "titre": "Le moine qui a inventé « l'an 1 »",
+    "accroche": "Si nous sommes en 2026, c'est grâce à un moine du VIe siècle. Mais il s'est sans doute trompé de quelques années.",
+    "texte": "Au VIe siècle, à Rome, un moine savant nommé Denys le Petit est chargé de calculer les dates de Pâques. À l'époque, on comptait les années à partir du règne de l'empereur Dioclétien, un grand persécuteur des chrétiens.\n\nDenys propose de compter plutôt à partir de la naissance du Christ, « l'an du Seigneur ». Son idée met des siècles à s'imposer, mais elle finit par devenir le calendrier utilisé dans presque le monde entier.\n\nPetit problème : les historiens savent aujourd'hui que le roi Hérode, qui a cherché à tuer Jésus enfant, est mort en l'an 4 avant notre ère. Jésus est donc probablement né quelques années « avant Jésus-Christ » ! Et il n'y a pas d'année zéro : on passe directement de l'an 1 avant à l'an 1 après.",
+    "source": "Denys le Petit, Liber de Paschate (525) ; Flavius Josèphe, Antiquités juives, XVII ; Mt 2, 1-19"
+   },
+   "es": {
+    "titre": "El monje que inventó «el año 1»",
+    "accroche": "Si estamos en 2026, es gracias a un monje del siglo VI. Pero seguramente se equivocó en unos años.",
+    "texte": "En el siglo VI, en Roma, un monje sabio llamado Dionisio el Exiguo recibe el encargo de calcular las fechas de la Pascua. Entonces se contaban los años desde el reinado del emperador Diocleciano, un gran perseguidor de los cristianos.\n\nDionisio propone contar más bien desde el nacimiento de Cristo, «el año del Señor». Su idea tarda siglos en imponerse, pero acaba siendo el calendario que se usa en casi todo el mundo.\n\nPequeño problema: los historiadores saben hoy que el rey Herodes, que intentó matar a Jesús niño, murió el año 4 antes de nuestra era. ¡Así que Jesús nació probablemente unos años «antes de Cristo»! Y no hay año cero: se pasa directamente del año 1 antes al año 1 después.",
+    "source": "Dionisio el Exiguo, Liber de Paschate (525); Flavio Josefo, Antigüedades judías, XVII; Mt 2, 1-19"
+   },
+   "en": {
+    "titre": "The monk who invented “year 1”",
+    "accroche": "If it's 2026 now, we owe it to a sixth-century monk. But he was probably a few years off.",
+    "texte": "In the sixth century in Rome, a learned monk named Dionysius Exiguus (“the Small”) was asked to calculate the dates of Easter. At the time, years were counted from the reign of the Emperor Diocletian, a great persecutor of Christians.\n\nDionysius proposed counting instead from the birth of Christ, “the year of the Lord”. His idea took centuries to catch on, but it ended up as the calendar used almost all over the world.\n\nOne small problem: historians now know that King Herod, who tried to kill the child Jesus, died in 4 BC. So Jesus was probably born a few years “before Christ”! And there is no year zero: the count jumps straight from 1 BC to AD 1.",
+    "source": "Dionysius Exiguus, Liber de Paschate (525); Josephus, Jewish Antiquities, XVII; Mt 2:1-19"
+   }
+  },
+  {
+   "id": "christ-redempteur",
+   "fr": {
+    "titre": "Le Christ de Rio et sa mosaïque cachée",
+    "accroche": "La statue du Christ qui domine Rio de Janeiro est recouverte de milliers de petits triangles de pierre, posés un à un.",
+    "texte": "Dans les années 1920, les catholiques du Brésil veulent dresser une grande statue du Christ au sommet du Corcovado, une montagne de 700 mètres au-dessus de Rio. L'ingénieur brésilien Heitor da Silva Costa dirige le projet ; le sculpteur français Paul Landowski modèle le visage et les mains.\n\nLa statue mesure 30 mètres, sans le socle, et ses bras ouverts s'étendent sur 28 mètres. Pour la protéger des intempéries, on la recouvre d'une mosaïque de petits triangles de stéatite, une pierre douce. On raconte que des femmes de Rio les ont collés à la main, en écrivant parfois au dos le nom de personnes aimées.\n\nInaugurée en 1931, la statue est devenue le symbole du Brésil. Ses bras ouverts semblent accueillir toute la ville.",
+    "source": "Sanctuaire du Christ Rédempteur, archidiocèse de Rio de Janeiro ; Musée Landowski, Boulogne-Billancourt"
+   },
+   "es": {
+    "titre": "El Cristo de Río y su mosaico escondido",
+    "accroche": "La estatua de Cristo que domina Río de Janeiro está cubierta de miles de triangulitos de piedra, colocados uno a uno.",
+    "texte": "En los años 1920, los católicos de Brasil quieren levantar una gran estatua de Cristo en la cima del Corcovado, una montaña de 700 metros sobre Río. El ingeniero brasileño Heitor da Silva Costa dirige el proyecto; el escultor francés Paul Landowski modela el rostro y las manos.\n\nLa estatua mide 30 metros, sin el pedestal, y sus brazos abiertos se extienden 28 metros. Para protegerla de la intemperie, se cubre con un mosaico de pequeños triángulos de esteatita, una piedra blanda. Se cuenta que mujeres de Río los pegaron a mano, escribiendo a veces por detrás el nombre de personas queridas.\n\nInaugurada en 1931, la estatua se ha convertido en el símbolo de Brasil. Sus brazos abiertos parecen acoger a toda la ciudad.",
+    "source": "Santuario del Cristo Redentor, archidiócesis de Río de Janeiro; Museo Landowski, Boulogne-Billancourt"
+   },
+   "en": {
+    "titre": "Rio's Christ and its hidden mosaic",
+    "accroche": "The statue of Christ that towers over Rio de Janeiro is covered in thousands of small stone triangles, laid one by one.",
+    "texte": "In the 1920s, Brazil's Catholics wanted to raise a great statue of Christ on the summit of Corcovado, a mountain 700 metres above Rio. The Brazilian engineer Heitor da Silva Costa led the project; the French sculptor Paul Landowski modelled the face and hands.\n\nThe statue is 30 metres tall, not counting the pedestal, and its outstretched arms span 28 metres. To protect it from the weather, it was covered with a mosaic of small triangles of soapstone, a soft stone. It is said that women of Rio stuck them on by hand, sometimes writing the names of loved ones on the back.\n\nInaugurated in 1931, the statue has become the symbol of Brazil. Its open arms seem to welcome the whole city.",
+    "source": "Sanctuary of Christ the Redeemer, Archdiocese of Rio de Janeiro; Musée Landowski, Boulogne-Billancourt"
+   }
+  },
+  {
+   "id": "jean-marie-vianney-ars",
+   "date": "08-04",
+   "fr": {
+    "titre": "« Montre-moi le chemin d'Ars »",
+    "accroche": "En 1818, un jeune prêtre se perd dans le brouillard en cherchant son petit village. Un enfant lui indique la route.",
+    "texte": "Jean-Marie Vianney a eu beaucoup de mal à devenir prêtre : il avait du mal avec le latin et on a failli le renvoyer. On l'envoie dans un petit village de la Dombes, Ars, où l'on dit qu'il ne fera pas grand mal.\n\nEn arrivant, il se perd dans le brouillard. Il rencontre un jeune berger, Antoine Givre, et lui demande le chemin. Il lui aurait dit : « Tu m'as montré le chemin d'Ars, je te montrerai le chemin du ciel. » Une statue rappelle cette rencontre.\n\nQuelques années plus tard, des milliers de pèlerins viennent de toute la France pour se confesser à lui. Il passe jusqu'à quinze heures par jour au confessionnal. Il est devenu le patron des curés du monde entier.",
+    "source": "Sanctuaire d'Ars ; Benoît XVI, lettre pour l'Année sacerdotale, 16 juin 2009 ; Martyrologe romain, 4 août"
+   },
+   "es": {
+    "titre": "«Enséñame el camino de Ars»",
+    "accroche": "En 1818, un joven sacerdote se pierde en la niebla buscando su pueblecito. Un niño le indica el camino.",
+    "texte": "A Juan María Vianney le costó mucho llegar a ser sacerdote: le costaba el latín y estuvieron a punto de despedirlo. Lo envían a un pueblecito de la Dombes, Ars, donde se dice que no hará mucho daño.\n\nAl llegar, se pierde en la niebla. Se encuentra con un joven pastor, Antoine Givre, y le pregunta el camino. Le habría dicho: «Tú me has enseñado el camino de Ars, yo te enseñaré el camino del cielo». Una estatua recuerda este encuentro.\n\nPocos años después, miles de peregrinos llegan de toda Francia para confesarse con él. Pasa hasta quince horas al día en el confesionario. Se ha convertido en el patrono de los párrocos del mundo entero.",
+    "source": "Santuario de Ars; Benedicto XVI, carta para el Año Sacerdotal, 16 de junio de 2009; Martirologio romano, 4 de agosto"
+   },
+   "en": {
+    "titre": "“Show me the way to Ars”",
+    "accroche": "In 1818 a young priest got lost in the fog looking for his little village. A boy showed him the way.",
+    "texte": "Jean-Marie Vianney had a hard time becoming a priest: he struggled with Latin and was nearly sent away. He was posted to a small village in the Dombes, Ars, where people thought he could do little harm.\n\nOn his way there he got lost in the fog. He met a young shepherd boy, Antoine Givre, and asked him the way. He is said to have told him: “You have shown me the way to Ars; I will show you the way to heaven.” A statue recalls their meeting.\n\nA few years later, thousands of pilgrims came from all over France to go to confession to him. He spent up to fifteen hours a day in the confessional. He has become the patron saint of parish priests throughout the world.",
+    "source": "Shrine of Ars; Benedict XVI, Letter for the Year for Priests, 16 June 2009; Roman Martyrology, 4 August"
    }
   }
  ],
