@@ -3156,6 +3156,683 @@
     "texte": "Saint Nicholas, bishop of Myra on the coast of today's Turkey, was venerated throughout the Christian world. In the eleventh century the region was invaded, and the sailors of Bari, a port in southern Italy, decided to take his relics to safety, and to draw pilgrims to their own city.\n\nThey landed at Myra, opened the tomb and took the bones. On 9 May 1087 they arrived in Bari to cheering crowds. A great basilica was built for Nicholas.\n\nEvery year since, on 9 May, Bari celebrates his arrival with a procession at sea. Catholics and Orthodox pray there together, because Nicholas is loved by all.",
     "source": "Basilica of San Nicola, Bari; John the Archdeacon, Translatio sancti Nicolai (11th century)"
    }
+  },
+  {
+   "id": "copernic",
+   "fr": {
+    "titre": "Copernic, chanoine et astronome",
+    "accroche": "L'homme qui a montré que la Terre tourne autour du Soleil était chanoine d'une cathédrale.",
+    "texte": "Nicolas Copernic (1473-1543) est un savant polonais. Il étudie à Cracovie, Bologne et Padoue, puis devient chanoine de la cathédrale de Frombork, au bord de la Baltique : il administre les biens du chapitre, soigne des malades et observe le ciel depuis une tour.\n\nIl conclut que le Soleil, et non la Terre, est au centre du système. Des hommes d'Église l'encouragent à publier : le cardinal Schönberg lui écrit en 1536 pour lui demander son travail. Son livre, Sur les révolutions des orbes célestes, paraît en 1543, l'année de sa mort, avec une dédicace au pape Paul III.\n\nLa suite, avec l'affaire Galilée, sera plus douloureuse. Mais Copernic montre qu'on pouvait être homme de foi et révolutionner la science.",
+    "source": "N. Copernic, De revolutionibus orbium coelestium (1543), dédicace à Paul III ; lettre du cardinal N. von Schönberg (1er novembre 1536)"
+   },
+   "es": {
+    "titre": "Copérnico, canónigo y astrónomo",
+    "accroche": "El hombre que mostró que la Tierra gira alrededor del Sol era canónigo de una catedral.",
+    "texte": "Nicolás Copérnico (1473-1543) es un sabio polaco. Estudia en Cracovia, Bolonia y Padua, y luego es canónigo de la catedral de Frombork, junto al Báltico: administra los bienes del cabildo, atiende a enfermos y observa el cielo desde una torre.\n\nLlega a la conclusión de que el Sol, y no la Tierra, está en el centro del sistema. Varios hombres de Iglesia le animan a publicar: el cardenal Schönberg le escribe en 1536 para pedirle su trabajo. Su libro, Sobre las revoluciones de los orbes celestes, sale en 1543, el año de su muerte, dedicado al papa Pablo III.\n\nLo que vino después, con el caso Galileo, fue más doloroso. Pero Copérnico muestra que se podía ser hombre de fe y revolucionar la ciencia.",
+    "source": "N. Copérnico, De revolutionibus orbium coelestium (1543), dedicatoria a Pablo III; carta del cardenal N. von Schönberg (1 de noviembre de 1536)"
+   },
+   "en": {
+    "titre": "Copernicus, canon and astronomer",
+    "accroche": "The man who showed that the Earth goes round the Sun was a canon of a cathedral.",
+    "texte": "Nicolaus Copernicus (1473-1543) was a Polish scholar. He studied in Kraków, Bologna and Padua, then became a canon of Frombork Cathedral on the Baltic: he managed the chapter's estates, treated the sick and watched the sky from a tower.\n\nHe concluded that the Sun, not the Earth, is at the centre of the system. Churchmen encouraged him to publish: Cardinal Schönberg wrote to him in 1536 asking for his work. His book, On the Revolutions of the Heavenly Spheres, came out in 1543, the year he died, dedicated to Pope Paul III.\n\nWhat followed, with the Galileo affair, was more painful. But Copernicus shows that one could be a man of faith and revolutionize science.",
+    "source": "N. Copernicus, De revolutionibus orbium coelestium (1543), dedication to Paul III; letter of Cardinal N. von Schönberg (1 November 1536)"
+   }
+  },
+  {
+   "id": "riccioli-lune",
+   "fr": {
+    "titre": "Les jésuites qui ont nommé la Lune",
+    "accroche": "Si un cratère de la Lune s'appelle Copernic et un autre Platon, c'est grâce à deux prêtres italiens.",
+    "texte": "En 1651, le jésuite Giovanni Battista Riccioli publie à Bologne un grand traité d'astronomie, avec une carte de la Lune dessinée par son confrère Francesco Maria Grimaldi.\n\nPour nommer les cratères, il choisit les noms de philosophes et de savants : Platon, Ptolémée, Copernic, Kepler, Galilée… Il appelle les grandes plaines sombres des « mers » : mer de la Tranquillité, mer de la Sérénité. Beaucoup de ces noms sont toujours utilisés aujourd'hui par l'Union astronomique internationale.\n\nEn 1969, les astronautes d'Apollo 11 se sont posés dans la mer de la Tranquillité, un nom choisi trois siècles plus tôt par un prêtre. Deux cratères portent aussi les noms de Riccioli et Grimaldi.",
+    "source": "G. B. Riccioli, Almagestum novum (1651) ; Union astronomique internationale, Gazetteer of Planetary Nomenclature"
+   },
+   "es": {
+    "titre": "Los jesuitas que pusieron nombre a la Luna",
+    "accroche": "Si un cráter de la Luna se llama Copérnico y otro Platón, es gracias a dos sacerdotes italianos.",
+    "texte": "En 1651, el jesuita Giovanni Battista Riccioli publica en Bolonia un gran tratado de astronomía, con un mapa de la Luna dibujado por su compañero Francesco Maria Grimaldi.\n\nPara nombrar los cráteres, elige nombres de filósofos y sabios: Platón, Ptolomeo, Copérnico, Kepler, Galileo… A las grandes llanuras oscuras las llama «mares»: mar de la Tranquilidad, mar de la Serenidad. Muchos de esos nombres los sigue usando hoy la Unión Astronómica Internacional.\n\nEn 1969, los astronautas del Apolo 11 alunizaron en el mar de la Tranquilidad, un nombre elegido tres siglos antes por un sacerdote. Dos cráteres llevan también los nombres de Riccioli y Grimaldi.",
+    "source": "G. B. Riccioli, Almagestum novum (1651); Unión Astronómica Internacional, Gazetteer of Planetary Nomenclature"
+   },
+   "en": {
+    "titre": "The Jesuits who named the Moon",
+    "accroche": "If one crater on the Moon is called Copernicus and another Plato, it's thanks to two Italian priests.",
+    "texte": "In 1651 the Jesuit Giovanni Battista Riccioli published a great astronomy treatise in Bologna, with a map of the Moon drawn by his fellow Jesuit Francesco Maria Grimaldi.\n\nTo name the craters he chose philosophers and scientists: Plato, Ptolemy, Copernicus, Kepler, Galileo… He called the large dark plains “seas”: the Sea of Tranquillity, the Sea of Serenity. Many of these names are still used today by the International Astronomical Union.\n\nIn 1969 the Apollo 11 astronauts landed in the Sea of Tranquillity, a name chosen three centuries earlier by a priest. Two craters also bear the names of Riccioli and Grimaldi.",
+    "source": "G. B. Riccioli, Almagestum novum (1651); International Astronomical Union, Gazetteer of Planetary Nomenclature"
+   }
+  },
+  {
+   "id": "secchi-etoiles",
+   "fr": {
+    "titre": "Le prêtre qui a classé les étoiles",
+    "accroche": "Au XIXe siècle, depuis le toit d'une église de Rome, un jésuite a eu l'idée de trier les étoiles selon leurs couleurs.",
+    "texte": "Angelo Secchi (1818-1878) dirige l'observatoire du Collège romain, installé sur le toit de l'église Saint-Ignace, à Rome. Il est l'un des premiers à utiliser un spectroscope, un instrument qui décompose la lumière des étoiles en arc-en-ciel.\n\nEn observant des milliers d'étoiles, il remarque qu'on peut les ranger en quelques grandes familles, selon les raies qui apparaissent dans leur lumière. C'est l'une des premières classifications des étoiles, à l'origine de celle qu'on utilise encore.\n\nSecchi s'intéressait à tout : les taches du Soleil, la météo, le magnétisme terrestre. Pour lui, étudier le ciel était une manière d'admirer le Créateur.",
+    "source": "Specola Vaticana ; A. Secchi, Le Stelle (1877)"
+   },
+   "es": {
+    "titre": "El sacerdote que clasificó las estrellas",
+    "accroche": "En el siglo XIX, desde el tejado de una iglesia de Roma, un jesuita tuvo la idea de ordenar las estrellas por colores.",
+    "texte": "Angelo Secchi (1818-1878) dirige el observatorio del Colegio Romano, instalado en el tejado de la iglesia de San Ignacio, en Roma. Es uno de los primeros en usar un espectroscopio, un instrumento que descompone la luz de las estrellas en arcoíris.\n\nObservando miles de estrellas, se da cuenta de que se pueden agrupar en unas pocas grandes familias, según las rayas que aparecen en su luz. Es una de las primeras clasificaciones de las estrellas, origen de la que se sigue usando.\n\nA Secchi le interesaba todo: las manchas del Sol, el tiempo, el magnetismo terrestre. Para él, estudiar el cielo era una manera de admirar al Creador.",
+    "source": "Specola Vaticana; A. Secchi, Le Stelle (1877)"
+   },
+   "en": {
+    "titre": "The priest who sorted the stars",
+    "accroche": "In the nineteenth century, from the roof of a Roman church, a Jesuit had the idea of sorting stars by their colours.",
+    "texte": "Angelo Secchi (1818-1878) ran the observatory of the Roman College, set up on the roof of the church of Saint Ignatius in Rome. He was one of the first to use a spectroscope, an instrument that splits starlight into a rainbow.\n\nObserving thousands of stars, he noticed that they could be grouped into a few large families, according to the lines in their light. It was one of the first classifications of stars, the ancestor of the one still used today.\n\nSecchi was interested in everything: sunspots, the weather, the Earth's magnetism. For him, studying the sky was a way of admiring the Creator.",
+    "source": "Vatican Observatory; A. Secchi, Le Stelle (1877)"
+   }
+  },
+  {
+   "id": "specola-vaticana",
+   "fr": {
+    "titre": "Le Vatican a un observatoire… en Arizona",
+    "accroche": "Le pape possède un télescope sur une montagne des États-Unis. Des jésuites y étudient les galaxies.",
+    "texte": "L'Église s'intéresse au ciel depuis longtemps, ne serait-ce que pour calculer la date de Pâques. En 1891, le pape Léon XIII fonde officiellement l'Observatoire du Vatican, la Specola Vaticana, pour montrer que l'Église soutient la vraie science.\n\nAu XXe siècle, le ciel de Rome devient trop lumineux. L'observatoire s'installe à Castel Gandolfo, puis ouvre en 1993 un télescope moderne sur le mont Graham, en Arizona.\n\nSes astronomes, souvent jésuites, étudient les étoiles, les météorites et l'univers lointain. L'un d'eux, frère Guy Consolmagno, a reçu en 2014 une grande médaille de planétologie. Un astéroïde porte son nom.",
+    "source": "Specola Vaticana (vaticanobservatory.org) ; Léon XIII, motu proprio Ut mysticam (14 mars 1891)"
+   },
+   "es": {
+    "titre": "El Vaticano tiene un observatorio… en Arizona",
+    "accroche": "El papa tiene un telescopio en una montaña de Estados Unidos. Allí, unos jesuitas estudian las galaxias.",
+    "texte": "La Iglesia se interesa por el cielo desde hace mucho, aunque solo sea para calcular la fecha de la Pascua. En 1891, el papa León XIII funda oficialmente el Observatorio Vaticano, la Specola Vaticana, para mostrar que la Iglesia apoya la verdadera ciencia.\n\nEn el siglo XX, el cielo de Roma se vuelve demasiado luminoso. El observatorio se traslada a Castel Gandolfo y, en 1993, abre un telescopio moderno en el monte Graham, en Arizona.\n\nSus astrónomos, a menudo jesuitas, estudian estrellas, meteoritos y el universo lejano. Uno de ellos, el hermano Guy Consolmagno, recibió en 2014 una gran medalla de ciencias planetarias. Un asteroide lleva su nombre.",
+    "source": "Specola Vaticana (vaticanobservatory.org); León XIII, motu proprio Ut mysticam (14 de marzo de 1891)"
+   },
+   "en": {
+    "titre": "The Vatican has an observatory… in Arizona",
+    "accroche": "The Pope owns a telescope on a mountain in the United States. Jesuits use it to study galaxies.",
+    "texte": "The Church has long been interested in the sky, if only to calculate the date of Easter. In 1891 Pope Leo XIII officially founded the Vatican Observatory, the Specola Vaticana, to show that the Church supports genuine science.\n\nIn the twentieth century Rome's sky became too bright. The observatory moved to Castel Gandolfo and, in 1993, opened a modern telescope on Mount Graham in Arizona.\n\nIts astronomers, often Jesuits, study stars, meteorites and the distant universe. One of them, Brother Guy Consolmagno, received a major planetary science medal in 2014. An asteroid bears his name.",
+    "source": "Vatican Observatory (vaticanobservatory.org); Leo XIII, motu proprio Ut mysticam (14 March 1891)"
+   }
+  },
+  {
+   "id": "gerbert-chiffres",
+   "fr": {
+    "titre": "Le pape de l'an mil et les chiffres",
+    "accroche": "Le pape qui régnait en l'an 1000 était un savant qui a aidé à faire connaître en Europe les chiffres venus du monde arabe.",
+    "texte": "Gerbert d'Aurillac naît vers 945 en Auvergne. Moine, il part étudier en Catalogne, au monastère de Ripoll, où l'on traduit des ouvrages scientifiques arabes. Il y découvre les mathématiques et l'astronomie.\n\nDevenu maître à l'école de la cathédrale de Reims, il enseigne avec un abaque, une table à calculer, sur laquelle il utilise des jetons marqués de chiffres d'origine indienne et arabe. Il fabrique aussi des sphères pour montrer le mouvement des astres.\n\nEn 999, il devient pape sous le nom de Sylvestre II. Il est le premier pape français, et l'un des plus grands savants de son temps.",
+    "source": "Richer de Reims, Histoires, III ; Encyclopædia Britannica, « Sylvester II »"
+   },
+   "es": {
+    "titre": "El papa del año mil y los números",
+    "accroche": "El papa que reinaba en el año 1000 era un sabio que ayudó a dar a conocer en Europa los números venidos del mundo árabe.",
+    "texte": "Gerberto de Aurillac nace hacia el año 945 en Auvernia. Monje, va a estudiar a Cataluña, al monasterio de Ripoll, donde se traducen obras científicas árabes. Allí descubre las matemáticas y la astronomía.\n\nYa maestro en la escuela de la catedral de Reims, enseña con un ábaco, una tabla de cálculo, en la que usa fichas marcadas con cifras de origen indio y árabe. También fabrica esferas para mostrar el movimiento de los astros.\n\nEn 999 llega a papa con el nombre de Silvestre II. Es el primer papa francés, y uno de los mayores sabios de su tiempo.",
+    "source": "Richer de Reims, Historias, III; Encyclopædia Britannica, «Sylvester II»"
+   },
+   "en": {
+    "titre": "The pope of the year 1000 and numbers",
+    "accroche": "The pope who reigned in the year 1000 was a scholar who helped introduce to Europe the numerals that came from the Arab world.",
+    "texte": "Gerbert of Aurillac was born around 945 in Auvergne. As a monk he went to study in Catalonia, at the monastery of Ripoll, where Arabic scientific works were being translated. There he discovered mathematics and astronomy.\n\nAs master of the cathedral school at Reims, he taught with an abacus, a counting board, using counters marked with numerals of Indian and Arabic origin. He also built spheres to show the movement of the stars.\n\nIn 999 he became pope as Sylvester II. He was the first French pope and one of the greatest scholars of his time.",
+    "source": "Richer of Reims, Histories, III; Encyclopædia Britannica, “Sylvester II”"
+   }
+  },
+  {
+   "id": "abbe-breuil",
+   "fr": {
+    "titre": "L'abbé qui a lu les grottes ornées",
+    "accroche": "Un prêtre a passé sa vie à quatre pattes dans les grottes, à recopier les peintures des premiers hommes. On l'a appelé « le pape de la préhistoire ».",
+    "texte": "Henri Breuil (1877-1961) est ordonné prêtre en 1900, mais il consacre sa vie à la préhistoire. Il explore des dizaines de grottes en France et en Espagne, comme Font-de-Gaume ou Altamira, et recopie patiemment des milliers de dessins de chevaux, de bisons et de mains.\n\nEn septembre 1940, quand quatre adolescents découvrent la grotte de Lascaux, en Dordogne, c'est lui qu'on appelle pour l'authentifier. Il est l'un des premiers à en comprendre l'importance.\n\nProfesseur au Collège de France, il a montré que les hommes de la préhistoire avaient un vrai sens de la beauté, et sans doute du sacré.",
+    "source": "Muséum national d'histoire naturelle ; Collège de France ; H. Breuil, Quatre cents siècles d'art pariétal (1952)"
+   },
+   "es": {
+    "titre": "El abate que leyó las cuevas pintadas",
+    "accroche": "Un sacerdote pasó su vida a gatas por las cuevas, copiando las pinturas de los primeros hombres. Le llamaron «el papa de la prehistoria».",
+    "texte": "Henri Breuil (1877-1961) se ordena sacerdote en 1900, pero dedica su vida a la prehistoria. Explora decenas de cuevas en Francia y en España, como Font-de-Gaume o Altamira, y copia con paciencia miles de dibujos de caballos, bisontes y manos.\n\nEn septiembre de 1940, cuando cuatro adolescentes descubren la cueva de Lascaux, en Dordoña, lo llaman a él para autentificarla. Es uno de los primeros en comprender su importancia.\n\nProfesor en el Collège de France, mostró que los hombres de la prehistoria tenían un verdadero sentido de la belleza, y seguramente de lo sagrado.",
+    "source": "Museo Nacional de Historia Natural de París; Collège de France; H. Breuil, Quatre cents siècles d'art pariétal (1952)"
+   },
+   "en": {
+    "titre": "The priest who read the painted caves",
+    "accroche": "A priest spent his life crawling through caves, copying the paintings of the first humans. He was called “the pope of prehistory”.",
+    "texte": "Henri Breuil (1877-1961) was ordained a priest in 1900, but devoted his life to prehistory. He explored dozens of caves in France and Spain, such as Font-de-Gaume and Altamira, patiently copying thousands of drawings of horses, bison and hands.\n\nIn September 1940, when four teenagers discovered the cave of Lascaux in the Dordogne, he was the one called in to authenticate it. He was among the first to grasp its importance.\n\nA professor at the Collège de France, he showed that prehistoric people had a real sense of beauty, and probably of the sacred.",
+    "source": "Muséum national d'histoire naturelle; Collège de France; H. Breuil, Four Hundred Centuries of Cave Art (1952)"
+   }
+  },
+  {
+   "id": "matteo-ricci",
+   "fr": {
+    "titre": "Matteo Ricci, le jésuite devenu lettré chinois",
+    "accroche": "Il a passé vingt-huit ans en Chine, appris le chinois classique et dessiné une carte du monde où la Chine était au centre.",
+    "texte": "Matteo Ricci (1552-1610), jésuite italien, arrive en Chine en 1582. Plutôt que d'imposer des manières européennes, il apprend la langue, s'habille comme les lettrés chinois et étudie Confucius.\n\nIl partage aussi les sciences d'Europe : mathématiques, astronomie, horloges. En 1602, il dessine une grande carte du monde en chinois, la première qui montre aux Chinois l'Amérique, en plaçant la Chine au centre pour ne pas froisser ses hôtes.\n\nIl est le premier Européen autorisé à vivre dans la Cité interdite de Pékin, et l'empereur lui offre un lieu de sépulture, honneur exceptionnel. En 2022, le pape François l'a déclaré « vénérable ».",
+    "source": "Dicastère pour les causes des saints, décret du 17 décembre 2022 ; Bibliothèque apostolique vaticane, carte de Ricci (1602)"
+   },
+   "es": {
+    "titre": "Matteo Ricci, el jesuita que se hizo letrado chino",
+    "accroche": "Pasó veintiocho años en China, aprendió chino clásico y dibujó un mapa del mundo con China en el centro.",
+    "texte": "Matteo Ricci (1552-1610), jesuita italiano, llega a China en 1582. En lugar de imponer costumbres europeas, aprende la lengua, se viste como los letrados chinos y estudia a Confucio.\n\nComparte también las ciencias de Europa: matemáticas, astronomía, relojes. En 1602 dibuja un gran mapa del mundo en chino, el primero que muestra América a los chinos, colocando China en el centro para no ofender a sus anfitriones.\n\nEs el primer europeo autorizado a vivir en la Ciudad Prohibida de Pekín, y el emperador le concede un lugar de sepultura, un honor excepcional. En 2022, el papa Francisco lo declaró «venerable».",
+    "source": "Dicasterio para las Causas de los Santos, decreto del 17 de diciembre de 2022; Biblioteca Apostólica Vaticana, mapa de Ricci (1602)"
+   },
+   "en": {
+    "titre": "Matteo Ricci, the Jesuit who became a Chinese scholar",
+    "accroche": "He spent twenty-eight years in China, learned classical Chinese and drew a map of the world with China at its centre.",
+    "texte": "Matteo Ricci (1552-1610), an Italian Jesuit, arrived in China in 1582. Rather than impose European ways, he learned the language, dressed like the Chinese scholars and studied Confucius.\n\nHe also shared European science: mathematics, astronomy, clocks. In 1602 he drew a great map of the world in Chinese, the first to show America to the Chinese, placing China at the centre so as not to offend his hosts.\n\nHe was the first European allowed to live in the Forbidden City in Beijing, and the emperor granted him a burial place, an exceptional honour. In 2022 Pope Francis declared him “Venerable”.",
+    "source": "Dicastery for the Causes of Saints, decree of 17 December 2022; Vatican Apostolic Library, Ricci map (1602)"
+   }
+  },
+  {
+   "id": "dom-perignon",
+   "fr": {
+    "titre": "Non, un moine n'a pas inventé le champagne",
+    "accroche": "On raconte que le moine Dom Pérignon aurait inventé les bulles du champagne en s'écriant : « Venez vite, je bois des étoiles ! » C'est une légende.",
+    "texte": "Dom Pierre Pérignon (1638-1715) est un moine bénédictin, cellérier de l'abbaye d'Hautvillers, en Champagne : il s'occupe des caves et des vignes. C'est un vigneron remarquable, qui sait assembler les raisins de différentes parcelles pour faire de meilleurs vins.\n\nMais à son époque, les bulles étaient plutôt un défaut : elles faisaient exploser les bouteilles ! La célèbre phrase sur les étoiles a été inventée bien plus tard, pour une publicité.\n\nCe que les moines ont vraiment fait, et pas seulement en Champagne, c'est travailler la terre pendant des siècles, avec patience, observer, transmettre : beaucoup de grands vignobles d'Europe sont nés autour des abbayes.",
+    "source": "Abbaye Saint-Pierre d'Hautvillers ; T. Stevenson, Christie's World Encyclopedia of Champagne (2003)"
+   },
+   "es": {
+    "titre": "No, un monje no inventó el champán",
+    "accroche": "Se cuenta que el monje Dom Pérignon inventó las burbujas del champán exclamando: «¡Venid deprisa, estoy bebiendo estrellas!». Es una leyenda.",
+    "texte": "Dom Pierre Pérignon (1638-1715) es un monje benedictino, cillerero de la abadía de Hautvillers, en Champaña: se ocupa de las bodegas y las viñas. Es un viticultor extraordinario, que sabe mezclar uvas de distintas parcelas para hacer mejores vinos.\n\nPero en su época las burbujas eran más bien un defecto: ¡hacían estallar las botellas! La famosa frase de las estrellas se inventó mucho más tarde, para un anuncio.\n\nLo que sí hicieron los monjes, y no solo en Champaña, fue trabajar la tierra durante siglos, con paciencia, observar y transmitir: muchos grandes viñedos de Europa nacieron alrededor de las abadías.",
+    "source": "Abadía de Saint-Pierre d'Hautvillers; T. Stevenson, Christie's World Encyclopedia of Champagne (2003)"
+   },
+   "en": {
+    "titre": "No, a monk didn't invent champagne",
+    "accroche": "It is said the monk Dom Pérignon invented champagne's bubbles, crying: “Come quickly, I'm drinking the stars!” It's a legend.",
+    "texte": "Dom Pierre Pérignon (1638-1715) was a Benedictine monk, cellarer of the abbey of Hautvillers in Champagne: he looked after the cellars and vineyards. He was a remarkable winemaker who knew how to blend grapes from different plots to make better wines.\n\nBut in his day bubbles were seen as a fault: they made bottles explode! The famous line about the stars was invented much later, for an advertisement.\n\nWhat monks really did, and not only in Champagne, was to work the land for centuries, patiently observing and passing on what they learned: many of Europe's great vineyards grew up around abbeys.",
+    "source": "Abbey of Saint-Pierre d'Hautvillers; T. Stevenson, Christie's World Encyclopedia of Champagne (2003)"
+   }
+  },
+  {
+   "id": "chartreuse-recette",
+   "fr": {
+    "titre": "La recette secrète des chartreux",
+    "accroche": "Depuis plus de quatre siècles, seuls deux moines à la fois connaissent la recette complète de la liqueur de Chartreuse.",
+    "texte": "En 1605, le maréchal d'Estrées offre aux chartreux de Vauvert, près de Paris, un vieux manuscrit : la recette d'un « élixir de longue vie », au mélange compliqué de plantes. Le manuscrit arrive plus tard au monastère de la Grande Chartreuse, dans les Alpes.\n\nLes moines mettent au point la formule au XVIIIe siècle. Elle comprend 130 plantes. Aujourd'hui encore, seuls deux moines connaissent toute la recette ; ils préparent eux-mêmes le mélange de plantes, qui part ensuite à la distillerie.\n\nL'argent des ventes fait vivre les monastères chartreux du monde entier. Et les moines, qui vivent dans le silence, n'en boivent quasiment pas.",
+    "source": "Chartreuse Diffusion (chartreuse.fr), « Histoire » ; Grande Chartreuse (chartreux.org)"
+   },
+   "es": {
+    "titre": "La receta secreta de los cartujos",
+    "accroche": "Desde hace más de cuatro siglos, solo dos monjes a la vez conocen la receta completa del licor de Chartreuse.",
+    "texte": "En 1605, el mariscal d'Estrées regala a los cartujos de Vauvert, cerca de París, un viejo manuscrito: la receta de un «elixir de larga vida», con una complicada mezcla de plantas. El manuscrito llega más tarde al monasterio de la Gran Cartuja, en los Alpes.\n\nLos monjes ponen a punto la fórmula en el siglo XVIII. Contiene 130 plantas. Todavía hoy, solo dos monjes conocen toda la receta; preparan ellos mismos la mezcla de plantas, que luego va a la destilería.\n\nEl dinero de las ventas mantiene los monasterios cartujos de todo el mundo. Y los monjes, que viven en silencio, casi no lo beben.",
+    "source": "Chartreuse Diffusion (chartreuse.fr), «Historia»; Gran Cartuja (chartreux.org)"
+   },
+   "en": {
+    "titre": "The Carthusians' secret recipe",
+    "accroche": "For more than four centuries, only two monks at a time have known the full recipe for Chartreuse liqueur.",
+    "texte": "In 1605 the Marshal d'Estrées gave the Carthusians of Vauvert, near Paris, an old manuscript: the recipe for an “elixir of long life”, a complicated blend of plants. The manuscript later reached the monastery of the Grande Chartreuse in the Alps.\n\nThe monks perfected the formula in the eighteenth century. It contains 130 plants. Even today only two monks know the whole recipe; they prepare the plant mixture themselves, which then goes to the distillery.\n\nThe money from sales supports Carthusian monasteries all over the world. And the monks, who live in silence, hardly drink it at all.",
+    "source": "Chartreuse Diffusion (chartreuse.fr), “History”; Grande Chartreuse (chartreux.org)"
+   }
+  },
+  {
+   "id": "etoile-kepler",
+   "temps": [
+    "noel"
+   ],
+   "fr": {
+    "titre": "Kepler et l'étoile de Bethléem",
+    "accroche": "Un grand astronome du XVIIe siècle a cherché ce qu'avaient pu voir les mages dans le ciel.",
+    "texte": "En 1603, Johannes Kepler observe une rencontre rare dans le ciel : les planètes Jupiter et Saturne paraissent très proches l'une de l'autre. Il calcule qu'une rencontre semblable a eu lieu en l'an 7 avant notre ère, à trois reprises dans l'année, dans la constellation des Poissons.\n\nKepler se demande si les mages, des astronomes d'Orient, n'y auraient pas vu le signe de la naissance d'un grand roi. Pour les savants de Babylone, Jupiter était l'astre royal.\n\nPersonne ne peut affirmer ce qu'était l'étoile de Bethléem : une conjonction, une comète, un signe unique. Mais l'idée de Kepler rappelle qu'il n'est pas absurde que des savants aient scruté le ciel… et se soient mis en route.",
+    "source": "J. Kepler, De Jesu Christi Servatoris nostri vero anno natalitio (1606) ; Mt 2, 1-10"
+   },
+   "es": {
+    "titre": "Kepler y la estrella de Belén",
+    "accroche": "Un gran astrónomo del siglo XVII buscó lo que pudieron ver los Magos en el cielo.",
+    "texte": "En 1603, Johannes Kepler observa un encuentro poco frecuente en el cielo: los planetas Júpiter y Saturno parecen muy cerca el uno del otro. Calcula que un encuentro parecido ocurrió en el año 7 antes de nuestra era, tres veces en el año, en la constelación de Piscis.\n\nKepler se pregunta si los Magos, astrónomos de Oriente, no vieron en ello la señal del nacimiento de un gran rey. Para los sabios de Babilonia, Júpiter era el astro real.\n\nNadie puede afirmar qué fue la estrella de Belén: una conjunción, un cometa, una señal única. Pero la idea de Kepler recuerda que no es absurdo que unos sabios escrutaran el cielo… y se pusieran en camino.",
+    "source": "J. Kepler, De Jesu Christi Servatoris nostri vero anno natalitio (1606); Mt 2, 1-10"
+   },
+   "en": {
+    "titre": "Kepler and the star of Bethlehem",
+    "accroche": "A great seventeenth-century astronomer tried to work out what the Magi might have seen in the sky.",
+    "texte": "In 1603 Johannes Kepler observed a rare meeting in the sky: the planets Jupiter and Saturn appeared very close together. He calculated that a similar meeting had taken place in 7 BC, three times that year, in the constellation of Pisces.\n\nKepler wondered whether the Magi, astronomers from the East, might have seen it as the sign of a great king's birth. For the scholars of Babylon, Jupiter was the royal star.\n\nNo one can say for certain what the star of Bethlehem was: a conjunction, a comet, a unique sign. But Kepler's idea is a reminder that it is not absurd to think that scholars studied the sky… and set out on a journey.",
+    "source": "J. Kepler, De Jesu Christi Servatoris nostri vero anno natalitio (1606); Mt 2:1-10"
+   }
+  },
+  {
+   "id": "papyrus-p52",
+   "fr": {
+    "titre": "Le plus vieux morceau d'Évangile",
+    "accroche": "Un petit bout de papyrus, pas plus grand qu'une carte de crédit, contient quelques lignes de l'Évangile de Jean copiées il y a environ dix-neuf siècles.",
+    "texte": "En 1920, un chercheur achète en Égypte un lot de papyrus. Parmi eux, un fragment grec de quelques centimètres reste longtemps dans un tiroir de la bibliothèque John Rylands, à Manchester.\n\nEn 1934, un jeune chercheur, Colin Roberts, l'identifie : on y lit, au recto, un passage de la Passion où Pilate interroge Jésus (Jn 18, 31-33) et, au verso, sa réponse sur la vérité (Jn 18, 37-38). L'écriture le fait dater de la première moitié du IIe siècle.\n\nC'est l'un des plus anciens manuscrits connus du Nouveau Testament. Il montre que l'Évangile de Jean circulait déjà en Égypte très peu de temps après avoir été écrit.",
+    "source": "John Rylands Library, Université de Manchester, papyrus P52 (Rylands Greek Papyrus 457)"
+   },
+   "es": {
+    "titre": "El trozo de Evangelio más antiguo",
+    "accroche": "Un pedacito de papiro, no mayor que una tarjeta de crédito, contiene unas líneas del Evangelio de Juan copiadas hace unos diecinueve siglos.",
+    "texte": "En 1920, un investigador compra en Egipto un lote de papiros. Entre ellos, un fragmento griego de pocos centímetros se queda mucho tiempo en un cajón de la biblioteca John Rylands, en Mánchester.\n\nEn 1934, un joven investigador, Colin Roberts, lo identifica: en el anverso se lee un pasaje de la Pasión en el que Pilato interroga a Jesús (Jn 18, 31-33) y, en el reverso, su respuesta sobre la verdad (Jn 18, 37-38). La escritura permite datarlo en la primera mitad del siglo II.\n\nEs uno de los manuscritos más antiguos que se conocen del Nuevo Testamento. Muestra que el Evangelio de Juan ya circulaba por Egipto muy poco tiempo después de escribirse.",
+    "source": "John Rylands Library, Universidad de Mánchester, papiro P52 (Rylands Greek Papyrus 457)"
+   },
+   "en": {
+    "titre": "The oldest scrap of Gospel",
+    "accroche": "A tiny piece of papyrus, no bigger than a credit card, holds a few lines of John's Gospel copied about nineteen centuries ago.",
+    "texte": "In 1920 a scholar bought a batch of papyri in Egypt. Among them was a Greek fragment a few centimetres across that sat for years in a drawer at the John Rylands Library in Manchester.\n\nIn 1934 a young researcher, Colin Roberts, identified it: on one side was a passage from the Passion in which Pilate questions Jesus (Jn 18:31-33), and on the other, his answer about truth (Jn 18:37-38). The handwriting dates it to the first half of the second century.\n\nIt is one of the oldest known manuscripts of the New Testament. It shows that John's Gospel was already circulating in Egypt very soon after it was written.",
+    "source": "John Rylands Library, University of Manchester, Papyrus P52 (Rylands Greek Papyrus 457)"
+   }
+  },
+  {
+   "id": "ketef-hinnom",
+   "fr": {
+    "titre": "La bénédiction sur deux minuscules rouleaux d'argent",
+    "accroche": "En 1979, à Jérusalem, un garçon de treize ans trouve dans un tombeau deux petits rouleaux d'argent. Ils contiennent le plus ancien texte biblique connu.",
+    "texte": "L'archéologue Gabriel Barkay fouille des tombes taillées dans la roche à Ketef Hinnom, juste à l'extérieur des murs de Jérusalem. Un jeune bénévole découvre sous le sol d'une chambre funéraire deux minuscules rouleaux de feuille d'argent, de la taille d'une cigarette.\n\nIl faudra trois ans pour les dérouler sans les détruire. On y lit, gravée, une prière qu'on connaît par le livre des Nombres : « Que le Seigneur te bénisse et te garde ! Que le Seigneur fasse briller sur toi son visage… » (Nb 6, 24-26).\n\nLes rouleaux datent d'environ 600 ans avant Jésus-Christ. Cette bénédiction est encore prononcée aujourd'hui, à la fin de certaines messes.",
+    "source": "Musée d'Israël, Jérusalem (amulettes de Ketef Hinnom) ; G. Barkay et al., Bulletin of the American Schools of Oriental Research 334 (2004) ; Nb 6, 24-26"
+   },
+   "es": {
+    "titre": "La bendición en dos diminutos rollos de plata",
+    "accroche": "En 1979, en Jerusalén, un chico de trece años encuentra en una tumba dos rollitos de plata. Contienen el texto bíblico más antiguo que se conoce.",
+    "texte": "El arqueólogo Gabriel Barkay excava tumbas talladas en la roca en Ketef Hinnom, justo fuera de las murallas de Jerusalén. Un joven voluntario descubre bajo el suelo de una cámara funeraria dos minúsculos rollos de lámina de plata, del tamaño de un cigarrillo.\n\nHarán falta tres años para desenrollarlos sin destruirlos. En ellos se lee, grabada, una oración que conocemos por el libro de los Números: «El Señor te bendiga y te proteja, ilumine su rostro sobre ti…» (Nm 6, 24-26).\n\nLos rollos datan de unos 600 años antes de Cristo. Esta bendición se sigue pronunciando hoy al final de algunas misas.",
+    "source": "Museo de Israel, Jerusalén (amuletos de Ketef Hinnom); G. Barkay et al., Bulletin of the American Schools of Oriental Research 334 (2004); Nm 6, 24-26"
+   },
+   "en": {
+    "titre": "The blessing on two tiny silver scrolls",
+    "accroche": "In 1979 in Jerusalem, a thirteen-year-old boy found two little silver scrolls in a tomb. They contain the oldest known biblical text.",
+    "texte": "Archaeologist Gabriel Barkay was excavating rock-cut tombs at Ketef Hinnom, just outside the walls of Jerusalem. A young volunteer found under the floor of a burial chamber two tiny rolls of silver foil, the size of a cigarette.\n\nIt took three years to unroll them without destroying them. Engraved on them is a prayer we know from the book of Numbers: “The Lord bless you and keep you; the Lord make his face shine upon you…” (Num 6:24-26).\n\nThe scrolls date from about 600 BC. This blessing is still said today at the end of some Masses.",
+    "source": "Israel Museum, Jerusalem (Ketef Hinnom amulets); G. Barkay et al., Bulletin of the American Schools of Oriental Research 334 (2004); Num 6:24-26"
+   }
+  },
+  {
+   "id": "megiddo-mosaique",
+   "fr": {
+    "titre": "Une église sous une prison",
+    "accroche": "En 2005, des détenus qui creusent dans une prison israélienne mettent au jour une mosaïque dédiée « au Dieu Jésus-Christ ».",
+    "texte": "À Megiddo, dans le nord d'Israël, on agrandit une prison. Des prisonniers participent aux fouilles préalables. Sous le sol, ils découvrent une salle avec une mosaïque du IIIe siècle, l'un des plus anciens lieux de culte chrétien connus.\n\nLa mosaïque porte des inscriptions en grec. L'une indique qu'une femme nommée Akeptous a offert « la table au Dieu Jésus-Christ, en mémoire ». Une autre nomme un officier romain, Gaianus, qui a payé le sol. Au centre, deux poissons, symbole chrétien.\n\nCette table servait sans doute pour l'Eucharistie, à une époque où les chrétiens se réunissaient encore dans des maisons.",
+    "source": "Israel Antiquities Authority ; Y. Tepper et L. Di Segni, A Christian Prayer Hall of the Third Century CE at Kefar 'Othnay (Legio) (2006)"
+   },
+   "es": {
+    "titre": "Una iglesia bajo una cárcel",
+    "accroche": "En 2005, unos presos que excavan en una cárcel israelí sacan a la luz un mosaico dedicado «al Dios Jesucristo».",
+    "texte": "En Meguido, en el norte de Israel, se amplía una cárcel. Unos presos participan en las excavaciones previas. Bajo el suelo descubren una sala con un mosaico del siglo III, uno de los lugares de culto cristiano más antiguos que se conocen.\n\nEl mosaico tiene inscripciones en griego. Una indica que una mujer llamada Akeptous ofreció «la mesa al Dios Jesucristo, en memoria». Otra nombra a un oficial romano, Gaianus, que pagó el suelo. En el centro, dos peces, símbolo cristiano.\n\nEsta mesa servía seguramente para la Eucaristía, en una época en que los cristianos todavía se reunían en casas.",
+    "source": "Israel Antiquities Authority; Y. Tepper y L. Di Segni, A Christian Prayer Hall of the Third Century CE at Kefar 'Othnay (Legio) (2006)"
+   },
+   "en": {
+    "titre": "A church under a prison",
+    "accroche": "In 2005 prisoners digging at an Israeli jail uncovered a mosaic dedicated “to God Jesus Christ”.",
+    "texte": "At Megiddo, in northern Israel, a prison was being extended. Inmates took part in the preliminary dig. Beneath the ground they found a hall with a third-century mosaic, one of the oldest known Christian places of worship.\n\nThe mosaic bears inscriptions in Greek. One says that a woman named Akeptous offered “the table to God Jesus Christ, as a memorial”. Another names a Roman officer, Gaianus, who paid for the floor. In the centre are two fish, a Christian symbol.\n\nThe table was probably used for the Eucharist, at a time when Christians still met in houses.",
+    "source": "Israel Antiquities Authority; Y. Tepper and L. Di Segni, A Christian Prayer Hall of the Third Century CE at Kefar 'Othnay (Legio) (2006)"
+   }
+  },
+  {
+   "id": "ossuaire-caiphe",
+   "fr": {
+    "titre": "La boîte d'ossements du grand prêtre Caïphe",
+    "accroche": "En 1990, des ouvriers qui construisent un parc à Jérusalem effondrent par accident le toit d'un tombeau. Dedans, un nom connu des Évangiles.",
+    "texte": "Caïphe est le grand prêtre qui préside le procès de Jésus devant le Sanhédrin (Mt 26, 57). L'historien juif Flavius Josèphe le mentionne aussi, sous le nom de Joseph Caïphe.\n\nEn novembre 1990, au sud de la vieille ville de Jérusalem, des travaux mettent au jour un tombeau familial. On y trouve une douzaine d'ossuaires, des coffres de pierre où l'on rangeait les os des défunts. Le plus richement décoré porte une inscription en araméen : « Joseph fils de Caïphe ».\n\nBeaucoup de spécialistes pensent qu'il s'agit bien du grand prêtre des Évangiles. L'ossuaire est exposé au musée d'Israël.",
+    "source": "Musée d'Israël, Jérusalem ; Z. Greenhut, « Burial Cave of the Caiaphas Family », Biblical Archaeology Review 18/5 (1992) ; Mt 26, 57 ; Flavius Josèphe, Antiquités juives, XVIII, 35"
+   },
+   "es": {
+    "titre": "La caja de huesos del sumo sacerdote Caifás",
+    "accroche": "En 1990, unos obreros que construyen un parque en Jerusalén hunden por accidente el techo de una tumba. Dentro hay un nombre conocido de los Evangelios.",
+    "texte": "Caifás es el sumo sacerdote que preside el juicio de Jesús ante el Sanedrín (Mt 26, 57). El historiador judío Flavio Josefo también lo menciona, con el nombre de José Caifás.\n\nEn noviembre de 1990, al sur de la ciudad vieja de Jerusalén, unas obras sacan a la luz una tumba familiar. Dentro hay una docena de osarios, cofres de piedra donde se guardaban los huesos de los difuntos. El más ricamente decorado lleva una inscripción en arameo: «José hijo de Caifás».\n\nMuchos especialistas piensan que se trata del sumo sacerdote de los Evangelios. El osario se expone en el Museo de Israel.",
+    "source": "Museo de Israel, Jerusalén; Z. Greenhut, «Burial Cave of the Caiaphas Family», Biblical Archaeology Review 18/5 (1992); Mt 26, 57; Flavio Josefo, Antigüedades judías, XVIII, 35"
+   },
+   "en": {
+    "titre": "The bone box of the high priest Caiaphas",
+    "accroche": "In 1990 workers building a park in Jerusalem accidentally caved in the roof of a tomb. Inside was a name known from the Gospels.",
+    "texte": "Caiaphas is the high priest who presided at Jesus' trial before the Sanhedrin (Mt 26:57). The Jewish historian Josephus also mentions him, as Joseph Caiaphas.\n\nIn November 1990, south of Jerusalem's Old City, building work uncovered a family tomb. Inside were a dozen ossuaries, stone boxes in which the bones of the dead were kept. The most richly decorated bears an Aramaic inscription: “Joseph son of Caiaphas”.\n\nMany scholars think this is indeed the high priest of the Gospels. The ossuary is on display at the Israel Museum.",
+    "source": "Israel Museum, Jerusalem; Z. Greenhut, “Burial Cave of the Caiaphas Family”, Biblical Archaeology Review 18/5 (1992); Mt 26:57; Josephus, Jewish Antiquities, XVIII, 35"
+   }
+  },
+  {
+   "id": "tel-dan",
+   "fr": {
+    "titre": "La « maison de David » gravée par un ennemi",
+    "accroche": "Pendant longtemps, certains historiens ont douté que le roi David ait existé. En 1993, une pierre a parlé.",
+    "texte": "À Tel Dan, dans le nord d'Israël, l'archéologue Avraham Biran fouille depuis des années. En juillet 1993, une de ses collaboratrices, Gila Cook, remarque une pierre de basalte réutilisée dans un mur. Elle est couverte d'écriture araméenne.\n\nC'est une stèle de victoire dressée au IXe siècle avant Jésus-Christ par un roi araméen, ennemi d'Israël. Il se vante d'avoir vaincu le roi d'Israël et le roi de la « maison de David ».\n\nC'est la première mention de David trouvée en dehors de la Bible, et elle vient d'un adversaire. Un peu plus d'un siècle après sa mort, la dynastie de David était connue jusque chez ses ennemis.",
+    "source": "Musée d'Israël, Jérusalem (stèle de Tel Dan) ; A. Biran et J. Naveh, Israel Exploration Journal 43 (1993) et 45 (1995)"
+   },
+   "es": {
+    "titre": "La «casa de David» grabada por un enemigo",
+    "accroche": "Durante mucho tiempo, algunos historiadores dudaron de que el rey David hubiera existido. En 1993, una piedra habló.",
+    "texte": "En Tel Dan, en el norte de Israel, el arqueólogo Avraham Biran excava desde hace años. En julio de 1993, una colaboradora, Gila Cook, ve una piedra de basalto reutilizada en un muro. Está cubierta de escritura aramea.\n\nEs una estela de victoria levantada en el siglo IX antes de Cristo por un rey arameo, enemigo de Israel. Presume de haber vencido al rey de Israel y al rey de la «casa de David».\n\nEs la primera mención de David hallada fuera de la Biblia, y procede de un adversario. Poco más de un siglo después de su muerte, la dinastía de David era conocida hasta por sus enemigos.",
+    "source": "Museo de Israel, Jerusalén (estela de Tel Dan); A. Biran y J. Naveh, Israel Exploration Journal 43 (1993) y 45 (1995)"
+   },
+   "en": {
+    "titre": "The “House of David” carved by an enemy",
+    "accroche": "For a long time some historians doubted that King David ever existed. In 1993 a stone spoke.",
+    "texte": "At Tel Dan in northern Israel, archaeologist Avraham Biran had been digging for years. In July 1993 one of his team, Gila Cook, noticed a basalt stone reused in a wall. It was covered in Aramaic writing.\n\nIt was a victory stele set up in the ninth century BC by an Aramean king, an enemy of Israel. He boasts of defeating the king of Israel and the king of the “House of David”.\n\nIt is the first mention of David found outside the Bible, and it comes from an opponent. A little over a century after his death, David's dynasty was known even to his enemies.",
+    "source": "Israel Museum, Jerusalem (Tel Dan Stele); A. Biran and J. Naveh, Israel Exploration Journal 43 (1993) and 45 (1995)"
+   }
+  },
+  {
+   "id": "magdala",
+   "fr": {
+    "titre": "La synagogue de Magdala",
+    "accroche": "En 2009, en voulant construire un centre d'accueil pour pèlerins au bord du lac de Tibériade, des prêtres trouvent une synagogue de l'époque de Jésus.",
+    "texte": "Magdala est la ville de Marie-Madeleine, au bord du lac de Galilée. Un prêtre mexicain, le père Juan Solana, achète un terrain pour y bâtir une maison pour les pèlerins. Comme la loi l'exige, des archéologues font d'abord des sondages.\n\nIls découvrent une synagogue du Ier siècle, utilisée au temps de Jésus. Au centre se trouve une pierre sculptée, unique : on y voit une menorah, le chandelier à sept branches du Temple de Jérusalem.\n\nL'Évangile dit que Jésus « parcourait toute la Galilée, enseignant dans leurs synagogues » (Mt 4, 23). Il est très possible qu'il soit passé par celle-ci. Le centre pour pèlerins a été construit à côté.",
+    "source": "Israel Antiquities Authority ; Magdala Center (magdala.org) ; Mt 4, 23"
+   },
+   "es": {
+    "titre": "La sinagoga de Magdala",
+    "accroche": "En 2009, queriendo construir un centro para peregrinos junto al lago de Tiberíades, unos sacerdotes encuentran una sinagoga de la época de Jesús.",
+    "texte": "Magdala es la ciudad de María Magdalena, a orillas del lago de Galilea. Un sacerdote mexicano, el padre Juan Solana, compra un terreno para construir una casa para peregrinos. Como exige la ley, unos arqueólogos hacen primero sondeos.\n\nDescubren una sinagoga del siglo I, usada en tiempos de Jesús. En el centro hay una piedra esculpida, única: en ella se ve una menorá, el candelabro de siete brazos del Templo de Jerusalén.\n\nEl Evangelio dice que Jesús «recorría toda Galilea enseñando en sus sinagogas» (Mt 4, 23). Es muy posible que pasara por esta. El centro para peregrinos se construyó al lado.",
+    "source": "Israel Antiquities Authority; Magdala Center (magdala.org); Mt 4, 23"
+   },
+   "en": {
+    "titre": "The synagogue of Magdala",
+    "accroche": "In 2009, while trying to build a pilgrim centre by the Sea of Galilee, priests found a synagogue from the time of Jesus.",
+    "texte": "Magdala is the town of Mary Magdalene, on the shore of the Sea of Galilee. A Mexican priest, Father Juan Solana, bought land to build a guesthouse for pilgrims. As the law requires, archaeologists first dug test trenches.\n\nThey found a first-century synagogue, in use in Jesus' time. In the middle was a unique carved stone showing a menorah, the seven-branched lampstand of the Temple in Jerusalem.\n\nThe Gospel says Jesus “went throughout Galilee, teaching in their synagogues” (Mt 4:23). It is quite possible that he came to this one. The pilgrim centre was built next to it.",
+    "source": "Israel Antiquities Authority; Magdala Center (magdala.org); Mt 4:23"
+   }
+  },
+  {
+   "id": "maison-pierre-capharnaum",
+   "fr": {
+    "titre": "La maison de Pierre à Capharnaüm",
+    "accroche": "À Capharnaüm, sous une église moderne en forme de vaisseau, on voit les restes d'une maison de pêcheur où les premiers chrétiens venaient prier.",
+    "texte": "Les Évangiles racontent que Jésus logeait souvent chez Simon-Pierre, à Capharnaüm, où il guérit sa belle-mère (Mc 1, 29-31). Des pèlerins anciens parlent d'une maison de Pierre transformée en église.\n\nAu XXe siècle, des archéologues franciscains fouillent le site. Ils trouvent une maison du Ier siècle dont une pièce a été transformée très tôt en lieu de réunion : on y a refait le sol, enduit les murs, et des visiteurs y ont gravé des prières et le nom de Jésus. Au Ve siècle, on construit par-dessus une église octogonale.\n\nOn ne peut pas prouver qu'il s'agit de la maison de Pierre, mais les premiers chrétiens l'ont vénérée comme telle très tôt.",
+    "source": "Custodie franciscaine de Terre sainte ; V. Corbo et S. Loffreda, fouilles de Capharnaüm (1968-1986) ; Itinéraire d'Égérie"
+   },
+   "es": {
+    "titre": "La casa de Pedro en Cafarnaún",
+    "accroche": "En Cafarnaún, bajo una iglesia moderna en forma de barco, se ven los restos de una casa de pescador donde los primeros cristianos iban a rezar.",
+    "texte": "Los Evangelios cuentan que Jesús se alojaba a menudo en casa de Simón Pedro, en Cafarnaún, donde curó a su suegra (Mc 1, 29-31). Antiguos peregrinos hablan de una casa de Pedro convertida en iglesia.\n\nEn el siglo XX, unos arqueólogos franciscanos excavan el lugar. Encuentran una casa del siglo I en la que una habitación se transformó muy pronto en lugar de reunión: rehicieron el suelo, enlucieron las paredes, y los visitantes grabaron oraciones y el nombre de Jesús. En el siglo V se construyó encima una iglesia octogonal.\n\nNo se puede probar que sea la casa de Pedro, pero los primeros cristianos la veneraron como tal desde muy pronto.",
+    "source": "Custodia Franciscana de Tierra Santa; V. Corbo y S. Loffreda, excavaciones de Cafarnaún (1968-1986); Itinerario de Egeria"
+   },
+   "en": {
+    "titre": "Peter's house at Capernaum",
+    "accroche": "At Capernaum, under a modern church shaped like a boat, you can see the remains of a fisherman's house where the first Christians came to pray.",
+    "texte": "The Gospels tell how Jesus often stayed with Simon Peter at Capernaum, where he healed Peter's mother-in-law (Mk 1:29-31). Early pilgrims speak of Peter's house turned into a church.\n\nIn the twentieth century Franciscan archaeologists excavated the site. They found a first-century house in which one room had very early been turned into a meeting place: the floor was redone, the walls plastered, and visitors scratched prayers and the name of Jesus on them. In the fifth century an octagonal church was built over it.\n\nIt cannot be proved that this was Peter's house, but the first Christians venerated it as such from very early on.",
+    "source": "Franciscan Custody of the Holy Land; V. Corbo and S. Loffreda, Capernaum excavations (1968-1986); Itinerary of Egeria"
+   }
+  },
+  {
+   "id": "dura-europos",
+   "fr": {
+    "titre": "La plus ancienne église du monde dans une ville ensevelie",
+    "accroche": "Dans le désert syrien, une ville romaine ensevelie sous le sable a conservé une maison chrétienne de l'an 232, avec ses peintures.",
+    "texte": "Doura-Europos est une ville de garnison romaine sur l'Euphrate. Vers 256, menacés par une armée perse, les habitants remblaient les maisons proches des remparts avec de la terre pour renforcer les murs. La ville tombe quand même et est abandonnée.\n\nAu XXe siècle, des archéologues dégagent ces maisons remblayées, parfaitement conservées. L'une d'elles, aménagée vers 232, est une maison-église, avec une salle de baptême décorée de peintures : le Bon Pasteur, Jésus marchant sur l'eau, la guérison du paralytique, les femmes au tombeau.\n\nCe sont parmi les plus anciennes images de Jésus connues. Les peintures sont aujourd'hui conservées à l'université Yale, aux États-Unis.",
+    "source": "Yale University Art Gallery, Dura-Europos Collection"
+   },
+   "es": {
+    "titre": "La iglesia más antigua del mundo en una ciudad sepultada",
+    "accroche": "En el desierto sirio, una ciudad romana sepultada bajo la arena conservó una casa cristiana del año 232, con sus pinturas.",
+    "texte": "Dura Europos es una ciudad de guarnición romana junto al Éufrates. Hacia el año 256, amenazados por un ejército persa, los habitantes rellenan de tierra las casas cercanas a las murallas para reforzarlas. La ciudad cae de todos modos y queda abandonada.\n\nEn el siglo XX, los arqueólogos sacan a la luz esas casas rellenas, perfectamente conservadas. Una de ellas, acondicionada hacia el año 232, es una casa-iglesia, con una sala de bautismo decorada con pinturas: el Buen Pastor, Jesús caminando sobre el agua, la curación del paralítico, las mujeres en el sepulcro.\n\nSon de las imágenes de Jesús más antiguas que se conocen. Las pinturas se conservan hoy en la Universidad de Yale, en Estados Unidos.",
+    "source": "Yale University Art Gallery, Dura-Europos Collection"
+   },
+   "en": {
+    "titre": "The world's oldest church in a buried city",
+    "accroche": "In the Syrian desert, a Roman town buried under sand preserved a Christian house from the year 232, complete with paintings.",
+    "texte": "Dura-Europos was a Roman garrison town on the Euphrates. Around 256, threatened by a Persian army, the inhabitants filled the houses near the ramparts with earth to strengthen the walls. The town fell anyway and was abandoned.\n\nIn the twentieth century archaeologists dug out these filled-in houses, perfectly preserved. One, fitted out around 232, was a house church, with a baptism room decorated with paintings: the Good Shepherd, Jesus walking on water, the healing of the paralysed man, the women at the tomb.\n\nThey are among the oldest known images of Jesus. The paintings are now kept at Yale University in the United States.",
+    "source": "Yale University Art Gallery, Dura-Europos Collection"
+   }
+  },
+  {
+   "id": "graffito-alexamenos",
+   "fr": {
+    "titre": "Le premier dessin de la crucifixion est une moquerie",
+    "accroche": "Sur un mur de Rome, un graffiti du IIe ou IIIe siècle se moque d'un chrétien. C'est l'une des plus anciennes représentations de la croix.",
+    "texte": "En 1857, sur le mont Palatin, à Rome, on dégage un bâtiment qui servait sans doute d'école pour les pages de l'empereur. Sur un mur, quelqu'un a gravé un dessin : un homme crucifié avec une tête d'âne, et à côté un jeune homme qui lève la main vers lui.\n\nEn dessous, une inscription grecque maladroite : « Alexamenos adore son dieu ». Un camarade se moquait d'Alexamenos, un jeune chrétien, en le montrant en train d'adorer un âne crucifié.\n\nOn a retrouvé dans une pièce voisine une autre inscription, peut-être une réponse : « Alexamenos est fidèle ». La croix, signe de honte pour les Romains, était déjà au cœur de la foi des chrétiens.",
+    "source": "Musée du Palatin, Rome (graffito d'Alexamenos) ; 1 Co 1, 23"
+   },
+   "es": {
+    "titre": "El primer dibujo de la crucifixión es una burla",
+    "accroche": "En un muro de Roma, un grafito del siglo II o III se burla de un cristiano. Es una de las representaciones más antiguas de la cruz.",
+    "texte": "En 1857, en el monte Palatino de Roma, se descubre un edificio que seguramente servía de escuela para los pajes del emperador. En un muro, alguien grabó un dibujo: un hombre crucificado con cabeza de asno, y al lado un joven que alza la mano hacia él.\n\nDebajo, una torpe inscripción griega: «Alexámenos adora a su dios». Un compañero se burlaba de Alexámenos, un joven cristiano, mostrándolo adorando a un asno crucificado.\n\nEn una sala vecina se encontró otra inscripción, quizá una respuesta: «Alexámenos es fiel». La cruz, signo de vergüenza para los romanos, ya estaba en el centro de la fe de los cristianos.",
+    "source": "Museo del Palatino, Roma (grafito de Alexámenos); 1 Cor 1, 23"
+   },
+   "en": {
+    "titre": "The first drawing of the crucifixion is a mockery",
+    "accroche": "On a wall in Rome, a graffito from the second or third century makes fun of a Christian. It is one of the oldest depictions of the cross.",
+    "texte": "In 1857, on the Palatine Hill in Rome, a building was uncovered that probably served as a school for the emperor's pages. On a wall someone had scratched a drawing: a crucified man with a donkey's head, and beside him a young man raising his hand towards him.\n\nUnderneath is a clumsy Greek inscription: “Alexamenos worships his god”. A schoolmate was mocking Alexamenos, a young Christian, by showing him worshipping a crucified donkey.\n\nIn a neighbouring room another inscription was found, perhaps a reply: “Alexamenos is faithful”. The cross, a sign of shame to the Romans, was already at the heart of Christian faith.",
+    "source": "Palatine Museum, Rome (Alexamenos graffito); 1 Cor 1:23"
+   }
+  },
+  {
+   "id": "stele-mesha",
+   "fr": {
+    "titre": "La stèle d'un roi qui se vante",
+    "accroche": "En 1868, un missionnaire découvre en Jordanie une pierre noire où un roi de Moab raconte sa victoire sur Israël. Le même épisode est dans la Bible, vu de l'autre côté.",
+    "texte": "Le deuxième livre des Rois raconte que Mesha, roi de Moab, payait un lourd tribut à Israël, puis se révolta (2 R 3, 4-5). En 1868, un missionnaire alsacien, Frederick Klein, voit à Dhiban, en Jordanie, une stèle de basalte couverte d'écriture.\n\nC'est la stèle de Mesha, vers 840 avant Jésus-Christ. Le roi y raconte, à sa manière, comment il s'est libéré d'Israël. Il nomme le roi Omri, connu par la Bible, et cite le nom du Dieu d'Israël.\n\nAvant qu'on puisse l'emporter, des habitants la brisent. Heureusement, un jeune savant français, Charles Clermont-Ganneau, avait fait faire une empreinte du texte. La stèle reconstituée est au musée du Louvre.",
+    "source": "Musée du Louvre, stèle de Mesha (AO 5066) ; 2 R 3, 4-27"
+   },
+   "es": {
+    "titre": "La estela de un rey que presume",
+    "accroche": "En 1868, un misionero descubre en Jordania una piedra negra en la que un rey de Moab cuenta su victoria sobre Israel. El mismo episodio está en la Biblia, visto desde el otro lado.",
+    "texte": "El segundo libro de los Reyes cuenta que Mesá, rey de Moab, pagaba un fuerte tributo a Israel y luego se rebeló (2 Re 3, 4-5). En 1868, un misionero alsaciano, Frederick Klein, ve en Dibón, en Jordania, una estela de basalto cubierta de escritura.\n\nEs la estela de Mesá, hacia el año 840 antes de Cristo. El rey cuenta a su manera cómo se liberó de Israel. Nombra al rey Omrí, conocido por la Biblia, y cita el nombre del Dios de Israel.\n\nAntes de que puedan llevársela, unos lugareños la rompen. Por suerte, un joven sabio francés, Charles Clermont-Ganneau, había hecho sacar un calco del texto. La estela reconstruida está en el Museo del Louvre.",
+    "source": "Museo del Louvre, estela de Mesá (AO 5066); 2 Re 3, 4-27"
+   },
+   "en": {
+    "titre": "The stele of a boasting king",
+    "accroche": "In 1868 a missionary found in Jordan a black stone on which a king of Moab tells of his victory over Israel. The same episode is in the Bible, seen from the other side.",
+    "texte": "The second book of Kings tells how Mesha, king of Moab, paid heavy tribute to Israel and then rebelled (2 Kgs 3:4-5). In 1868 an Alsatian missionary, Frederick Klein, saw at Dhiban in Jordan a basalt stele covered in writing.\n\nIt is the Mesha Stele, from about 840 BC. In it the king tells, in his own way, how he freed himself from Israel. He names King Omri, known from the Bible, and mentions the name of the God of Israel.\n\nBefore it could be taken away, local people broke it. Fortunately a young French scholar, Charles Clermont-Ganneau, had had a squeeze impression made of the text. The reconstructed stele is in the Louvre.",
+    "source": "Louvre Museum, Mesha Stele (AO 5066); 2 Kgs 3:4-27"
+   }
+  },
+  {
+   "id": "herodion-tombeau",
+   "fr": {
+    "titre": "Le tombeau d'Hérode retrouvé",
+    "accroche": "Pendant trente-cinq ans, un archéologue a cherché le tombeau du roi qui avait voulu tuer l'enfant Jésus. Il l'a trouvé en 2007.",
+    "texte": "Hérode le Grand, roi de Judée, est celui qui, selon l'Évangile de Matthieu, fit massacrer les enfants de Bethléem. C'était aussi un grand bâtisseur : il agrandit le Temple de Jérusalem et construisit, près de Bethléem, une forteresse en forme de volcan, l'Hérodion.\n\nL'historien Flavius Josèphe dit qu'Hérode y fut enterré, mais on ne trouvait pas sa tombe. L'archéologue israélien Ehud Netzer la cherche à partir de 1972. En 2007, il découvre enfin, sur le flanc de la colline, les restes d'un mausolée et d'un sarcophage richement décoré, mis en pièces dans l'Antiquité.\n\nLe roi qui craignait tant de perdre son trône avait voulu un tombeau visible de loin. Il n'en restait que des fragments.",
+    "source": "E. Netzer, Hebrew University of Jerusalem (2007) ; Flavius Josèphe, Guerre des Juifs, I, 673 ; Mt 2, 16"
+   },
+   "es": {
+    "titre": "Hallada la tumba de Herodes",
+    "accroche": "Durante treinta y cinco años, un arqueólogo buscó la tumba del rey que había querido matar al niño Jesús. La encontró en 2007.",
+    "texte": "Herodes el Grande, rey de Judea, es quien, según el Evangelio de Mateo, mandó matar a los niños de Belén. Era también un gran constructor: amplió el Templo de Jerusalén y construyó, cerca de Belén, una fortaleza en forma de volcán, el Herodión.\n\nEl historiador Flavio Josefo dice que Herodes fue enterrado allí, pero no se encontraba su tumba. El arqueólogo israelí Ehud Netzer la busca desde 1972. En 2007 descubre por fin, en la ladera de la colina, los restos de un mausoleo y de un sarcófago ricamente decorado, hecho pedazos en la Antigüedad.\n\nEl rey que tanto temía perder su trono quiso una tumba visible desde lejos. Solo quedaban fragmentos.",
+    "source": "E. Netzer, Universidad Hebrea de Jerusalén (2007); Flavio Josefo, La guerra de los judíos, I, 673; Mt 2, 16"
+   },
+   "en": {
+    "titre": "Herod's tomb found",
+    "accroche": "For thirty-five years an archaeologist searched for the tomb of the king who had tried to kill the child Jesus. He found it in 2007.",
+    "texte": "Herod the Great, king of Judea, is the one who, according to Matthew's Gospel, had the children of Bethlehem massacred. He was also a great builder: he enlarged the Temple in Jerusalem and built, near Bethlehem, a volcano-shaped fortress, the Herodium.\n\nThe historian Josephus says Herod was buried there, but his tomb had not been found. The Israeli archaeologist Ehud Netzer began looking for it in 1972. In 2007 he finally found, on the slope of the hill, the remains of a mausoleum and a richly decorated sarcophagus, smashed to pieces in antiquity.\n\nThe king who so feared losing his throne had wanted a tomb visible from afar. Only fragments remained.",
+    "source": "E. Netzer, Hebrew University of Jerusalem (2007); Josephus, Jewish War, I, 673; Mt 2:16"
+   }
+  },
+  {
+   "id": "abbe-pierre-hiver-54",
+   "date": "02-01",
+   "fr": {
+    "titre": "L'hiver 1954 et l'appel de l'abbé Pierre",
+    "accroche": "Le 1er février 1954, un prêtre lance un appel à la radio. Le lendemain, la France entière se mobilise pour les sans-abri.",
+    "texte": "L'hiver 1954 est terrible en France. Des gens meurent de froid dans la rue. Le 1er février, une femme expulsée de son logement est retrouvée morte, sur un trottoir de Paris, son avis d'expulsion à la main.\n\nLe soir même, l'abbé Pierre, prêtre et fondateur d'Emmaüs, lance un appel sur Radio-Luxembourg : « Mes amis, au secours… » Il demande des couvertures, des tentes, des poêles, et qu'on ouvre partout des centres d'accueil.\n\nLa réponse est immense : des tonnes de dons arrivent, des anonymes et des célébrités se mobilisent. On a appelé ce mouvement « l'insurrection de la bonté ».",
+    "source": "Fondation Abbé Pierre ; Emmaüs France, « L'appel du 1er février 1954 »"
+   },
+   "es": {
+    "titre": "El invierno de 1954 y el llamamiento del abate Pierre",
+    "accroche": "El 1 de febrero de 1954, un sacerdote lanza un llamamiento por la radio. Al día siguiente, toda Francia se moviliza por los sin techo.",
+    "texte": "El invierno de 1954 es terrible en Francia. Hay gente que muere de frío en la calle. El 1 de febrero aparece muerta en una acera de París una mujer desahuciada, con la orden de desalojo en la mano.\n\nEsa misma noche, el abate Pierre, sacerdote y fundador de Emaús, lanza un llamamiento por Radio Luxemburgo: «Amigos míos, socorro…». Pide mantas, tiendas, estufas, y que se abran centros de acogida por todas partes.\n\nLa respuesta es inmensa: llegan toneladas de donativos, y anónimos y famosos se movilizan. A este movimiento se le llamó «la insurrección de la bondad».",
+    "source": "Fundación Abbé Pierre; Emaús Francia, «El llamamiento del 1 de febrero de 1954»"
+   },
+   "en": {
+    "titre": "The winter of 1954 and Abbé Pierre's appeal",
+    "accroche": "On 1 February 1954 a priest made an appeal on the radio. The next day all France rallied to help the homeless.",
+    "texte": "The winter of 1954 was terrible in France. People were dying of cold in the streets. On 1 February a woman who had been evicted was found dead on a Paris pavement, her eviction notice in her hand.\n\nThat evening Abbé Pierre, a priest and founder of Emmaus, made an appeal on Radio Luxembourg: “My friends, help…” He asked for blankets, tents and stoves, and for shelters to be opened everywhere.\n\nThe response was immense: tonnes of donations poured in, and ordinary people and celebrities alike got involved. The movement was called “the uprising of kindness”.",
+    "source": "Fondation Abbé Pierre; Emmaus France, “The appeal of 1 February 1954”"
+   }
+  },
+  {
+   "id": "pere-jacques-avon",
+   "fr": {
+    "titre": "Le père Jacques et les enfants cachés",
+    "accroche": "Le film « Au revoir les enfants » raconte une histoire vraie : celle d'un prêtre carme qui cachait des enfants juifs dans son collège.",
+    "texte": "Pendant la Seconde Guerre mondiale, le père Jacques de Jésus dirige le petit collège des Carmes d'Avon, près de Fontainebleau. Il accueille secrètement trois garçons juifs parmi les élèves, sous de faux noms, et cache aussi un professeur juif.\n\nLe 15 janvier 1944, la Gestapo fait irruption dans le collège. Les trois enfants sont arrêtés et mourront à Auschwitz. Le père Jacques est déporté. Dans les camps, il soutient ses compagnons, partage sa nourriture. Il meurt en juin 1945, épuisé, peu après la libération du camp de Mauthausen.\n\nUn de ses anciens élèves, Louis Malle, a raconté cette histoire au cinéma. Le père Jacques a été reconnu « Juste parmi les nations ».",
+    "source": "Yad Vashem, Lucien Bunel (père Jacques de Jésus), Juste parmi les nations (1985) ; Carmel d'Avon"
+   },
+   "es": {
+    "titre": "El padre Jacques y los niños escondidos",
+    "accroche": "La película «Adiós, muchachos» cuenta una historia real: la de un sacerdote carmelita que escondía a niños judíos en su colegio.",
+    "texte": "Durante la Segunda Guerra Mundial, el padre Jacques de Jesús dirige el pequeño colegio de los carmelitas de Avon, cerca de Fontainebleau. Acoge en secreto a tres chicos judíos entre los alumnos, con nombres falsos, y esconde también a un profesor judío.\n\nEl 15 de enero de 1944, la Gestapo irrumpe en el colegio. Los tres niños son detenidos y morirán en Auschwitz. El padre Jacques es deportado. En los campos sostiene a sus compañeros y comparte su comida. Muere en junio de 1945, agotado, poco después de la liberación del campo de Mauthausen.\n\nUno de sus antiguos alumnos, Louis Malle, contó esta historia en el cine. El padre Jacques fue reconocido como «Justo entre las Naciones».",
+    "source": "Yad Vashem, Lucien Bunel (padre Jacques de Jesús), Justo entre las Naciones (1985); Carmelo de Avon"
+   },
+   "en": {
+    "titre": "Father Jacques and the hidden children",
+    "accroche": "The film “Au revoir les enfants” tells a true story: that of a Carmelite priest who hid Jewish children in his school.",
+    "texte": "During the Second World War, Father Jacques of Jesus ran the small Carmelite school at Avon, near Fontainebleau. He secretly took in three Jewish boys among the pupils, under false names, and also hid a Jewish teacher.\n\nOn 15 January 1944 the Gestapo burst into the school. The three boys were arrested and would die at Auschwitz. Father Jacques was deported. In the camps he supported his companions and shared his food. He died in June 1945, exhausted, shortly after the liberation of Mauthausen.\n\nOne of his former pupils, Louis Malle, told the story on film. Father Jacques was recognized as “Righteous Among the Nations”.",
+    "source": "Yad Vashem, Lucien Bunel (Father Jacques of Jesus), Righteous Among the Nations (1985); Carmel of Avon"
+   }
+  },
+  {
+   "id": "gino-bartali",
+   "fr": {
+    "titre": "Le champion cycliste et les faux papiers",
+    "accroche": "Gino Bartali, vainqueur du Tour de France, a sauvé des centaines de Juifs en cachant des documents dans le cadre de son vélo.",
+    "texte": "Gino Bartali est l'un des plus grands cyclistes italiens, catholique fervent. Pendant la guerre, l'archevêque de Florence, le cardinal Elia Dalla Costa, organise avec un rabbin un réseau pour sauver des Juifs.\n\nBartali, sous prétexte de s'entraîner, parcourt des centaines de kilomètres entre Florence, Assise et Gênes. Dans le tube de selle et le guidon de son vélo, il transporte des photos et de faux papiers d'identité. Personne n'ose fouiller le champion.\n\nIl n'en a presque jamais parlé, disant : « Le bien, on le fait, on ne le dit pas. » Après sa mort, des témoignages ont révélé son action. En 2013, il a été reconnu « Juste parmi les nations ».",
+    "source": "Yad Vashem, Gino Bartali, Juste parmi les nations (2013)"
+   },
+   "es": {
+    "titre": "El campeón ciclista y los papeles falsos",
+    "accroche": "Gino Bartali, ganador del Tour de Francia, salvó a cientos de judíos escondiendo documentos en el cuadro de su bicicleta.",
+    "texte": "Gino Bartali es uno de los mayores ciclistas italianos, católico ferviente. Durante la guerra, el arzobispo de Florencia, el cardenal Elia Dalla Costa, organiza con un rabino una red para salvar a judíos.\n\nBartali, con la excusa de entrenar, recorre cientos de kilómetros entre Florencia, Asís y Génova. En el tubo del sillín y en el manillar de su bicicleta lleva fotos y documentos de identidad falsos. Nadie se atreve a registrar al campeón.\n\nCasi nunca habló de ello, y decía: «El bien se hace, no se dice». Tras su muerte, varios testimonios revelaron lo que hizo. En 2013 fue reconocido como «Justo entre las Naciones».",
+    "source": "Yad Vashem, Gino Bartali, Justo entre las Naciones (2013)"
+   },
+   "en": {
+    "titre": "The cycling champion and the forged papers",
+    "accroche": "Gino Bartali, winner of the Tour de France, saved hundreds of Jews by hiding documents in the frame of his bicycle.",
+    "texte": "Gino Bartali was one of Italy's greatest cyclists and a devout Catholic. During the war, the Archbishop of Florence, Cardinal Elia Dalla Costa, set up a network with a rabbi to save Jews.\n\nBartali, on the pretext of training, rode hundreds of kilometres between Florence, Assisi and Genoa. Inside the seat tube and handlebars of his bike he carried photos and forged identity papers. No one dared search the champion.\n\nHe almost never spoke about it, saying: “Good is something you do, not something you talk about.” After his death, testimonies revealed what he had done. In 2013 he was recognized as “Righteous Among the Nations”.",
+    "source": "Yad Vashem, Gino Bartali, Righteous Among the Nations (2013)"
+   }
+  },
+  {
+   "id": "van-thuan",
+   "fr": {
+    "titre": "La messe dans le creux de la main",
+    "accroche": "Pendant treize ans de prison au Vietnam, un évêque a célébré la messe avec trois gouttes de vin et une miette de pain.",
+    "texte": "François-Xavier Nguyễn Văn Thuận est nommé archevêque coadjuteur de Saïgon en 1975. Quelques mois plus tard, le nouveau pouvoir l'arrête. Il passe treize ans en prison, dont neuf à l'isolement.\n\nIl demande à sa famille de lui envoyer du « médicament pour l'estomac » : en réalité, un peu de vin. Chaque jour, avec trois gouttes de vin et une goutte d'eau dans le creux de sa main, et une miette de pain, il célèbre la messe de mémoire. Il fabrique une croix avec du bois et des fils, et gagne l'amitié de ses gardiens.\n\nLibéré en 1988 et exilé, il devient cardinal. Il a raconté son expérience dans un livre, Cinq pains et deux poissons. L'Église l'a déclaré vénérable en 2017.",
+    "source": "F.-X. Nguyễn Văn Thuận, Cinq pains et deux poissons (1997) ; Dicastère pour les causes des saints, décret du 4 mai 2017"
+   },
+   "es": {
+    "titre": "La misa en el hueco de la mano",
+    "accroche": "Durante trece años de cárcel en Vietnam, un obispo celebró la misa con tres gotas de vino y una miga de pan.",
+    "texte": "Francisco Javier Nguyễn Văn Thuận es nombrado arzobispo coadjutor de Saigón en 1975. Pocos meses después, el nuevo régimen lo detiene. Pasa trece años en la cárcel, nueve de ellos aislado.\n\nPide a su familia que le envíe «medicina para el estómago»: en realidad, un poco de vino. Cada día, con tres gotas de vino y una de agua en el hueco de la mano, y una miga de pan, celebra la misa de memoria. Fabrica una cruz con madera e hilos, y se gana la amistad de sus guardianes.\n\nLiberado en 1988 y exiliado, llega a cardenal. Contó su experiencia en un libro, Cinco panes y dos peces. La Iglesia lo declaró venerable en 2017.",
+    "source": "F. X. Nguyễn Văn Thuận, Cinco panes y dos peces (1997); Dicasterio para las Causas de los Santos, decreto del 4 de mayo de 2017"
+   },
+   "en": {
+    "titre": "Mass in the palm of his hand",
+    "accroche": "During thirteen years in prison in Vietnam, a bishop celebrated Mass with three drops of wine and a crumb of bread.",
+    "texte": "Francis Xavier Nguyễn Văn Thuận was appointed coadjutor archbishop of Saigon in 1975. A few months later the new regime arrested him. He spent thirteen years in prison, nine of them in solitary confinement.\n\nHe asked his family to send him “medicine for stomach pain”: in fact, a little wine. Every day, with three drops of wine and one of water in the palm of his hand and a crumb of bread, he celebrated Mass from memory. He made a cross from wood and wire, and won the friendship of his guards.\n\nReleased in 1988 and exiled, he became a cardinal. He told his story in a book, Five Loaves and Two Fish. The Church declared him Venerable in 2017.",
+    "source": "F. X. Nguyễn Văn Thuận, Five Loaves and Two Fish (1997); Dicastery for the Causes of Saints, decree of 4 May 2017"
+   }
+  },
+  {
+   "id": "therese-pranzini",
+   "fr": {
+    "titre": "Le premier « enfant » de Thérèse",
+    "accroche": "À 14 ans, Thérèse de Lisieux prie de toutes ses forces pour un assassin condamné à mort qui refuse de se repentir.",
+    "texte": "En 1887, toute la France parle de Henri Pranzini, condamné à mort pour un triple meurtre à Paris. Il refuse de voir un prêtre et ne montre aucun regret.\n\nThérèse Martin, 14 ans, décide de prier pour lui. Elle fait dire une messe pour lui et demande à Dieu un signe de son repentir, « pour sa simple consolation ». Le lendemain de l'exécution, elle lit dans le journal que, juste avant de mourir, Pranzini a soudain demandé le crucifix au prêtre et l'a embrassé trois fois.\n\nThérèse a appelé Pranzini « mon premier enfant ». Cette histoire a été le début de sa vocation : prier pour les autres, surtout ceux que tout le monde croit perdus.",
+    "source": "Thérèse de Lisieux, Manuscrit A, 45v-46v ; La Croix, 1er septembre 1887"
+   },
+   "es": {
+    "titre": "El primer «hijo» de Teresa",
+    "accroche": "A los 14 años, Teresa de Lisieux reza con todas sus fuerzas por un asesino condenado a muerte que se niega a arrepentirse.",
+    "texte": "En 1887, toda Francia habla de Henri Pranzini, condenado a muerte por un triple asesinato en París. Se niega a ver a un sacerdote y no muestra ningún arrepentimiento.\n\nTeresa Martin, de 14 años, decide rezar por él. Hace celebrar una misa por él y pide a Dios una señal de su arrepentimiento, «para su simple consuelo». Al día siguiente de la ejecución lee en el periódico que, justo antes de morir, Pranzini pidió de pronto el crucifijo al sacerdote y lo besó tres veces.\n\nTeresa llamó a Pranzini «mi primer hijo». Esta historia fue el comienzo de su vocación: rezar por los demás, sobre todo por quienes todos dan por perdidos.",
+    "source": "Teresa de Lisieux, Manuscrito A, 45v-46v; La Croix, 1 de septiembre de 1887"
+   },
+   "en": {
+    "titre": "Thérèse's first “child”",
+    "accroche": "At fourteen, Thérèse of Lisieux prayed with all her might for a murderer sentenced to death who refused to repent.",
+    "texte": "In 1887 all France was talking about Henri Pranzini, sentenced to death for a triple murder in Paris. He refused to see a priest and showed no remorse.\n\nThérèse Martin, aged fourteen, decided to pray for him. She had a Mass said for him and asked God for a sign of his repentance, “just for my consolation”. The day after the execution she read in the paper that just before he died, Pranzini had suddenly asked the priest for the crucifix and kissed it three times.\n\nThérèse called Pranzini “my first child”. This story was the beginning of her vocation: to pray for others, especially those everyone thinks are lost.",
+    "source": "Thérèse of Lisieux, Manuscript A, 45v-46v; La Croix, 1 September 1887"
+   }
+  },
+  {
+   "id": "follereau-lepreux",
+   "fr": {
+    "titre": "Raoul Follereau et la journée des lépreux",
+    "accroche": "Un journaliste français a consacré sa vie à changer le regard du monde sur les malades de la lèpre.",
+    "texte": "En 1936, Raoul Follereau, journaliste et poète catholique, voyage en Afrique. Près d'Adzopé, en Côte d'Ivoire, il voit des malades de la lèpre parqués à l'écart, abandonnés par peur de la contagion. Il en est bouleversé.\n\nIl décide de leur consacrer sa vie. Il parcourt le monde, donne des milliers de conférences, et soutient la création de villages de soins, comme celui d'Adzopé. En 1954, il lance la Journée mondiale des lépreux, célébrée le dernier dimanche de janvier.\n\nGrâce aux traitements découverts depuis, la lèpre se soigne aujourd'hui. La fondation qui porte son nom continue de lutter contre la maladie et contre l'exclusion.",
+    "source": "Fondation Raoul Follereau (raoul-follereau.org)"
+   },
+   "es": {
+    "titre": "Raoul Follereau y la jornada de los leprosos",
+    "accroche": "Un periodista francés dedicó su vida a cambiar la mirada del mundo sobre los enfermos de lepra.",
+    "texte": "En 1936, Raoul Follereau, periodista y poeta católico, viaja por África. Cerca de Adzopé, en Costa de Marfil, ve a enfermos de lepra apartados, abandonados por miedo al contagio. Se queda conmocionado.\n\nDecide dedicarles su vida. Recorre el mundo, da miles de conferencias y apoya la creación de pueblos de atención, como el de Adzopé. En 1954 lanza la Jornada Mundial de los Leprosos, que se celebra el último domingo de enero.\n\nGracias a los tratamientos descubiertos después, hoy la lepra se cura. La fundación que lleva su nombre sigue luchando contra la enfermedad y la exclusión.",
+    "source": "Fundación Raoul Follereau (raoul-follereau.org)"
+   },
+   "en": {
+    "titre": "Raoul Follereau and World Leprosy Day",
+    "accroche": "A French journalist devoted his life to changing how the world saw people with leprosy.",
+    "texte": "In 1936 Raoul Follereau, a Catholic journalist and poet, was travelling in Africa. Near Adzopé, in Côte d'Ivoire, he saw people with leprosy kept apart and abandoned out of fear of contagion. He was deeply shaken.\n\nHe decided to devote his life to them. He travelled the world, gave thousands of talks and supported the creation of care villages, such as the one at Adzopé. In 1954 he launched World Leprosy Day, held on the last Sunday of January.\n\nThanks to treatments discovered since, leprosy can now be cured. The foundation that bears his name continues to fight the disease and the exclusion that comes with it.",
+    "source": "Raoul Follereau Foundation (raoul-follereau.org)"
+   }
+  },
+  {
+   "id": "jagerstatter",
+   "fr": {
+    "titre": "Le paysan qui a dit non",
+    "accroche": "Un fermier autrichien, père de trois petites filles, a refusé de combattre pour Hitler. Il l'a payé de sa vie.",
+    "texte": "Franz Jägerstätter (1907-1943) est un paysan du village de Sankt Radegund, en Autriche. Jeune homme, il était bagarreur ; marié à Franziska, il est devenu un homme de foi profonde, sacristain de sa paroisse.\n\nEn 1943, il est appelé dans l'armée allemande. Il refuse : pour lui, servir le régime nazi et sa guerre est contraire à sa conscience de chrétien. Tout le monde, même des prêtres, lui conseille de céder pour sa famille. Il reste ferme, avec le soutien de sa femme.\n\nIl est condamné et exécuté le 9 août 1943. Ses lettres à Franziska, pleines de tendresse, ont été publiées. Il a été béatifié en 2007, en présence de Franziska, alors âgée de 94 ans.",
+    "source": "Diocèse de Linz ; béatification de Franz Jägerstätter (26 octobre 2007) ; F. Jägerstätter, Lettres de prison"
+   },
+   "es": {
+    "titre": "El campesino que dijo no",
+    "accroche": "Un granjero austríaco, padre de tres niñas, se negó a combatir por Hitler. Lo pagó con su vida.",
+    "texte": "Franz Jägerstätter (1907-1943) es un campesino del pueblo de Sankt Radegund, en Austria. De joven era pendenciero; casado con Franziska, se convirtió en un hombre de fe profunda, sacristán de su parroquia.\n\nEn 1943 es llamado al ejército alemán. Se niega: para él, servir al régimen nazi y a su guerra va contra su conciencia de cristiano. Todos, incluso algunos sacerdotes, le aconsejan ceder por su familia. Él se mantiene firme, con el apoyo de su esposa.\n\nEs condenado y ejecutado el 9 de agosto de 1943. Sus cartas a Franziska, llenas de ternura, se han publicado. Fue beatificado en 2007, en presencia de Franziska, que tenía entonces 94 años.",
+    "source": "Diócesis de Linz; beatificación de Franz Jägerstätter (26 de octubre de 2007); F. Jägerstätter, Cartas desde la cárcel"
+   },
+   "en": {
+    "titre": "The farmer who said no",
+    "accroche": "An Austrian farmer, father of three little girls, refused to fight for Hitler. It cost him his life.",
+    "texte": "Franz Jägerstätter (1907-1943) was a farmer in the village of Sankt Radegund, in Austria. As a young man he was a brawler; married to Franziska, he became a man of deep faith and sacristan of his parish.\n\nIn 1943 he was called up into the German army. He refused: for him, serving the Nazi regime and its war went against his Christian conscience. Everyone, even some priests, urged him to give in for his family's sake. He stood firm, with his wife's support.\n\nHe was sentenced and executed on 9 August 1943. His letters to Franziska, full of tenderness, have been published. He was beatified in 2007, in the presence of Franziska, then 94 years old.",
+    "source": "Diocese of Linz; beatification of Franz Jägerstätter (26 October 2007); F. Jägerstätter, Letters from Prison"
+   }
+  },
+  {
+   "id": "frassati-acutis",
+   "fr": {
+    "titre": "Deux jeunes saints du même jour",
+    "accroche": "Le 7 septembre 2025, l'Église a canonisé ensemble un alpiniste italien des années 1920 et un adolescent passionné d'informatique.",
+    "texte": "Pier Giorgio Frassati (1901-1925) est un étudiant de Turin, fils d'une famille riche. Il adore la montagne, rit beaucoup, et passe une grande partie de son temps à aider les pauvres de la ville, en secret. Il meurt à 24 ans d'une poliomyélite, sans doute attrapée auprès des malades qu'il visitait. Sa devise : « Verso l'alto », « vers le haut ».\n\nCarlo Acutis (1991-2006) est un adolescent de Milan, doué pour l'informatique. Il crée un site internet qui présente les miracles eucharistiques du monde entier. Il meurt d'une leucémie à 15 ans. Il disait que l'Eucharistie était son « autoroute vers le ciel ».\n\nLe pape Léon XIV les a canonisés le même jour : deux visages de la sainteté jeune et joyeuse.",
+    "source": "Léon XIV, homélie de canonisation, 7 septembre 2025 (vatican.va)"
+   },
+   "es": {
+    "titre": "Dos jóvenes santos el mismo día",
+    "accroche": "El 7 de septiembre de 2025, la Iglesia canonizó juntos a un alpinista italiano de los años veinte y a un adolescente apasionado por la informática.",
+    "texte": "Pier Giorgio Frassati (1901-1925) es un estudiante de Turín, de familia rica. Le encanta la montaña, se ríe mucho y pasa gran parte de su tiempo ayudando en secreto a los pobres de la ciudad. Muere a los 24 años de poliomielitis, seguramente contagiada por los enfermos a los que visitaba. Su lema: «Verso l'alto», «hacia lo alto».\n\nCarlo Acutis (1991-2006) es un adolescente de Milán, dotado para la informática. Crea una web que presenta los milagros eucarísticos del mundo entero. Muere de leucemia a los 15 años. Decía que la Eucaristía era su «autopista hacia el cielo».\n\nEl papa León XIV los canonizó el mismo día: dos rostros de la santidad joven y alegre.",
+    "source": "León XIV, homilía de canonización, 7 de septiembre de 2025 (vatican.va)"
+   },
+   "en": {
+    "titre": "Two young saints on the same day",
+    "accroche": "On 7 September 2025 the Church canonized together an Italian mountaineer of the 1920s and a teenager who loved computers.",
+    "texte": "Pier Giorgio Frassati (1901-1925) was a student in Turin from a wealthy family. He loved the mountains, laughed a lot, and spent much of his time secretly helping the city's poor. He died at 24 of polio, probably caught from the sick people he visited. His motto: “Verso l'alto”, “Towards the heights”.\n\nCarlo Acutis (1991-2006) was a teenager in Milan with a gift for computing. He created a website presenting Eucharistic miracles from around the world. He died of leukaemia at 15. He said the Eucharist was his “highway to heaven”.\n\nPope Leo XIV canonized them on the same day: two faces of young and joyful holiness.",
+    "source": "Leo XIV, canonization homily, 7 September 2025 (vatican.va)"
+   }
+  },
+  {
+   "id": "mere-teresa-train",
+   "date": "09-10",
+   "fr": {
+    "titre": "Mère Teresa et le train de Darjeeling",
+    "accroche": "Le 10 septembre 1946, dans un train qui monte vers l'Himalaya, une religieuse entend un « appel dans l'appel ».",
+    "texte": "Sœur Teresa, née à Skopje, est religieuse de Lorette depuis près de vingt ans et enseigne dans un collège de Calcutta. Le 10 septembre 1946, elle prend le train pour Darjeeling, où elle part faire une retraite.\n\nPendant le voyage, elle ressent clairement que Jésus lui demande de quitter son couvent pour servir « les plus pauvres des pauvres », en vivant parmi eux. Elle appellera ce jour son « jour d'inspiration ».\n\nIl lui faudra deux ans pour obtenir les autorisations. En 1948, elle revêt un simple sari blanc bordé de bleu et commence à soigner les mourants dans les rues de Calcutta. Les Missionnaires de la Charité sont nées.",
+    "source": "Missionnaires de la Charité ; Mère Teresa, Viens, sois ma lumière (2007) ; François, homélie de canonisation, 4 septembre 2016"
+   },
+   "es": {
+    "titre": "La Madre Teresa y el tren de Darjeeling",
+    "accroche": "El 10 de septiembre de 1946, en un tren que sube hacia el Himalaya, una religiosa oye una «llamada dentro de la llamada».",
+    "texte": "La hermana Teresa, nacida en Skopie, es religiosa de Loreto desde hace casi veinte años y da clase en un colegio de Calcuta. El 10 de septiembre de 1946 toma el tren a Darjeeling, donde va a hacer un retiro.\n\nDurante el viaje siente con claridad que Jesús le pide dejar su convento para servir a «los más pobres de los pobres», viviendo entre ellos. Llamará a ese día su «día de inspiración».\n\nTardará dos años en conseguir los permisos. En 1948 se pone un sencillo sari blanco con ribete azul y empieza a cuidar a los moribundos en las calles de Calcuta. Han nacido las Misioneras de la Caridad.",
+    "source": "Misioneras de la Caridad; Madre Teresa, Ven, sé mi luz (2007); Francisco, homilía de canonización, 4 de septiembre de 2016"
+   },
+   "en": {
+    "titre": "Mother Teresa and the Darjeeling train",
+    "accroche": "On 10 September 1946, on a train climbing towards the Himalayas, a nun heard a “call within a call”.",
+    "texte": "Sister Teresa, born in Skopje, had been a Loreto sister for nearly twenty years and was teaching at a school in Calcutta. On 10 September 1946 she took the train to Darjeeling to make a retreat.\n\nDuring the journey she felt clearly that Jesus was asking her to leave her convent and serve “the poorest of the poor”, living among them. She would call that day her “Inspiration Day”.\n\nIt took her two years to get permission. In 1948 she put on a simple white sari with a blue border and began caring for the dying on the streets of Calcutta. The Missionaries of Charity were born.",
+    "source": "Missionaries of Charity; Mother Teresa, Come Be My Light (2007); Francis, canonization homily, 4 September 2016"
+   }
+  },
+  {
+   "id": "soeur-emmanuelle",
+   "fr": {
+    "titre": "Sœur Emmanuelle chez les chiffonniers du Caire",
+    "accroche": "À 62 ans, quand d'autres prennent leur retraite, une religieuse française part vivre dans un bidonville d'Égypte.",
+    "texte": "Madeleine Cinquin, devenue sœur Emmanuelle, a enseigné pendant des décennies en Turquie, en Tunisie et en Égypte. En 1971, à 62 ans, elle obtient de partager la vie des zabbalines, les chiffonniers du Caire, qui vivent au milieu des ordures qu'ils trient.\n\nElle s'installe dans une cabane, sans eau ni électricité. Avec les habitants, coptes et musulmans, elle fait construire des écoles, des dispensaires, des jardins d'enfants. Elle lève des fonds dans le monde entier, avec un franc-parler et une énergie qui la rendent célèbre.\n\nElle disait « Yallah ! », « En avant ! » en arabe. Elle est morte en 2008, à presque cent ans.",
+    "source": "Asmae, association sœur Emmanuelle (asmae.fr)"
+   },
+   "es": {
+    "titre": "Sor Emmanuelle con los traperos de El Cairo",
+    "accroche": "A los 62 años, cuando otros se jubilan, una religiosa francesa se va a vivir a un barrio de chabolas de Egipto.",
+    "texte": "Madeleine Cinquin, que tomó el nombre de sor Emmanuelle, enseñó durante décadas en Turquía, Túnez y Egipto. En 1971, a los 62 años, consigue compartir la vida de los zabbalín, los traperos de El Cairo, que viven entre la basura que clasifican.\n\nSe instala en una cabaña, sin agua ni electricidad. Con los vecinos, coptos y musulmanes, construye escuelas, dispensarios y guarderías. Recauda fondos en todo el mundo, con una franqueza y una energía que la hacen famosa.\n\nDecía «¡Yallah!», «¡Adelante!» en árabe. Murió en 2008, con casi cien años.",
+    "source": "Asmae, asociación sor Emmanuelle (asmae.fr)"
+   },
+   "en": {
+    "titre": "Sister Emmanuelle among the rubbish collectors of Cairo",
+    "accroche": "At 62, when others retire, a French nun went to live in an Egyptian slum.",
+    "texte": "Madeleine Cinquin, who became Sister Emmanuelle, taught for decades in Turkey, Tunisia and Egypt. In 1971, at 62, she was allowed to share the life of the zabbaleen, the rubbish collectors of Cairo, who live among the waste they sort.\n\nShe moved into a shack with no water or electricity. With the local people, Copts and Muslims, she had schools, clinics and kindergartens built. She raised money all over the world, with a frankness and energy that made her famous.\n\nShe used to say “Yallah!”, “Let's go!” in Arabic. She died in 2008, aged almost a hundred.",
+    "source": "Asmae, Sister Emmanuelle association (asmae.fr)"
+   }
+  },
+  {
+   "id": "kapaun",
+   "fr": {
+    "titre": "L'aumônier qui volait du grain pour ses camarades",
+    "accroche": "En Corée, un prêtre américain prisonnier a soutenu ses compagnons de captivité jusqu'à en mourir. Il a reçu la plus haute décoration militaire des États-Unis.",
+    "texte": "Emil Kapaun est un prêtre du Kansas, fils de fermiers, devenu aumônier militaire. En novembre 1950, pendant la guerre de Corée, son unité est encerclée. Il refuse de s'enfuir pour rester avec les blessés, et est fait prisonnier.\n\nDans le camp, où les hommes meurent de faim et de froid, il se glisse la nuit pour voler du grain et le partager, lave les vêtements des malades, prie avec eux, catholiques ou non, et leur redonne courage. Affaibli, il meurt en captivité en mai 1951.\n\nEn 2013, il a reçu à titre posthume la médaille d'honneur des États-Unis. En 2021, ses restes ont été identifiés et ramenés au Kansas. L'Église l'a déclaré « serviteur de Dieu ».",
+    "source": "Diocèse de Wichita, Father Kapaun Guild ; Maison-Blanche, cérémonie de la médaille d'honneur (11 avril 2013)"
+   },
+   "es": {
+    "titre": "El capellán que robaba grano para sus compañeros",
+    "accroche": "En Corea, un sacerdote estadounidense prisionero sostuvo a sus compañeros de cautiverio hasta morir. Recibió la más alta condecoración militar de Estados Unidos.",
+    "texte": "Emil Kapaun es un sacerdote de Kansas, hijo de granjeros, que se hizo capellán militar. En noviembre de 1950, durante la guerra de Corea, su unidad queda rodeada. Se niega a huir para quedarse con los heridos, y lo hacen prisionero.\n\nEn el campo, donde los hombres mueren de hambre y de frío, sale de noche a robar grano para repartirlo, lava la ropa de los enfermos, reza con ellos, católicos o no, y les devuelve el ánimo. Debilitado, muere en cautiverio en mayo de 1951.\n\nEn 2013 recibió a título póstumo la Medalla de Honor de Estados Unidos. En 2021 se identificaron sus restos y se llevaron a Kansas. La Iglesia lo ha declarado «siervo de Dios».",
+    "source": "Diócesis de Wichita, Father Kapaun Guild; Casa Blanca, ceremonia de la Medalla de Honor (11 de abril de 2013)"
+   },
+   "en": {
+    "titre": "The chaplain who stole grain for his comrades",
+    "accroche": "In Korea, an American priest held prisoner kept up his fellow captives' spirits until it killed him. He received the highest US military decoration.",
+    "texte": "Emil Kapaun was a priest from Kansas, a farmer's son who became an army chaplain. In November 1950, during the Korean War, his unit was surrounded. He refused to escape so he could stay with the wounded, and was taken prisoner.\n\nIn the camp, where men were dying of hunger and cold, he crept out at night to steal grain and share it, washed the clothes of the sick, prayed with them, Catholic or not, and gave them back their courage. Weakened, he died in captivity in May 1951.\n\nIn 2013 he was posthumously awarded the Medal of Honor. In 2021 his remains were identified and brought home to Kansas. The Church has declared him a “Servant of God”.",
+    "source": "Diocese of Wichita, Father Kapaun Guild; White House, Medal of Honor ceremony (11 April 2013)"
+   }
   }
  ],
  "portraits": [
