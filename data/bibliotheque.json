@@ -902,6 +902,354 @@
     "texte": "Apollo 8 was the first crewed mission to orbit the Moon. On board were Frank Borman, Jim Lovell and Bill Anders. They were also the first people to see the Earth rise above the lunar horizon; Bill Anders took a photograph of it that became famous.\n\nOn Christmas Eve, in a broadcast watched by hundreds of millions of people, they took turns reading the first ten verses of Genesis: “In the beginning God created the heaven and the earth…”\n\nThen they wished a merry Christmas to “all of you on the good Earth”. Seen from so far away, the Earth looked small, fragile and very beautiful.",
     "source": "NASA, Apollo 8 Christmas Eve broadcast, 24 December 1968; Gen 1:1-10"
    }
+  },
+  {
+   "id": "lemaitre-atome",
+   "fr": {
+    "titre": "Le prêtre qui a imaginé le Big Bang",
+    "accroche": "En 1927, un prêtre belge propose une idée qui fera sourire, puis convaincra : l'univers a eu un commencement.",
+    "texte": "Georges Lemaître est prêtre et physicien à l'université de Louvain. En étudiant les équations d'Einstein et les mesures des galaxies, il conclut que l'univers est en expansion.\n\nEn remontant le temps, il imagine que tout est parti d'un « atome primitif », extrêmement dense. Beaucoup de savants trouvent l'idée étrange ; un astronome anglais la surnomme même, pour s'en moquer, le « Big Bang ». Le nom est resté.\n\nEn 1965, la découverte d'un rayonnement venu des débuts de l'univers donne raison à Lemaître. Lui disait que la science et la foi ne se font pas concurrence : elles regardent le monde de deux manières différentes.",
+    "source": "G. Lemaître, Annales de la Société scientifique de Bruxelles (1927) ; Nature (1931) ; Archives Lemaître, UCLouvain"
+   },
+   "es": {
+    "titre": "El sacerdote que imaginó el Big Bang",
+    "accroche": "En 1927, un sacerdote belga propone una idea que hará sonreír y luego convencerá: el universo tuvo un comienzo.",
+    "texte": "Georges Lemaître es sacerdote y físico en la Universidad de Lovaina. Estudiando las ecuaciones de Einstein y las mediciones de las galaxias, llega a la conclusión de que el universo se está expandiendo.\n\nAl remontarse en el tiempo, imagina que todo partió de un «átomo primitivo» extremadamente denso. A muchos científicos la idea les parece extraña; un astrónomo inglés incluso la apoda, para burlarse, el «Big Bang». El nombre se quedó.\n\nEn 1965, el descubrimiento de una radiación procedente de los comienzos del universo da la razón a Lemaître. Él decía que la ciencia y la fe no compiten: miran el mundo de dos maneras distintas.",
+    "source": "G. Lemaître, Annales de la Société scientifique de Bruxelles (1927); Nature (1931); Archivos Lemaître, UCLouvain"
+   },
+   "en": {
+    "titre": "The priest who imagined the Big Bang",
+    "accroche": "In 1927 a Belgian priest proposed an idea that people first smiled at, then accepted: the universe had a beginning.",
+    "texte": "Georges Lemaître was a priest and a physicist at the University of Louvain. Studying Einstein's equations and measurements of galaxies, he concluded that the universe is expanding.\n\nRunning time backwards, he imagined that everything began from a “primeval atom”, extremely dense. Many scientists found the idea strange; an English astronomer even nicknamed it, mockingly, the “Big Bang”. The name stuck.\n\nIn 1965 the discovery of radiation left over from the early universe proved Lemaître right. He used to say that science and faith are not rivals: they look at the world in two different ways.",
+    "source": "G. Lemaître, Annales de la Société scientifique de Bruxelles (1927); Nature (1931); Lemaître Archives, UCLouvain"
+   }
+  },
+  {
+   "id": "mendel-pois",
+   "fr": {
+    "titre": "Les petits pois du moine Mendel",
+    "accroche": "Dans le jardin de son monastère, un moine compte des petits pois pendant huit ans. Il découvre les lois de l'hérédité.",
+    "texte": "Gregor Mendel est moine augustin à Brno, dans l'actuelle République tchèque. Dans le jardin de l'abbaye, il cultive des milliers de plants de pois et note tout : la couleur des graines, leur forme, la hauteur des tiges.\n\nEn croisant les plantes et en comptant patiemment les résultats, il découvre que certains caractères se transmettent selon des règles précises, d'une génération à l'autre.\n\nIl publie ses résultats en 1866, mais presque personne n'y prête attention. Ce n'est qu'en 1900, après sa mort, que des savants redécouvrent son travail. On le considère aujourd'hui comme le père de la génétique.",
+    "source": "G. Mendel, Versuche über Pflanzen-Hybriden (1866) ; Musée Mendel, abbaye Saint-Thomas de Brno"
+   },
+   "es": {
+    "titre": "Los guisantes del monje Mendel",
+    "accroche": "En el huerto de su monasterio, un monje cuenta guisantes durante ocho años. Descubre las leyes de la herencia.",
+    "texte": "Gregor Mendel es monje agustino en Brno, en la actual República Checa. En el huerto de la abadía cultiva miles de plantas de guisantes y lo anota todo: el color de las semillas, su forma, la altura de los tallos.\n\nCruzando las plantas y contando con paciencia los resultados, descubre que algunos rasgos se transmiten según reglas precisas, de una generación a otra.\n\nPublica sus resultados en 1866, pero casi nadie les presta atención. Solo en 1900, después de su muerte, unos científicos redescubren su trabajo. Hoy se le considera el padre de la genética.",
+    "source": "G. Mendel, Versuche über Pflanzen-Hybriden (1866); Museo Mendel, abadía de Santo Tomás de Brno"
+   },
+   "en": {
+    "titre": "Brother Mendel's peas",
+    "accroche": "In his monastery garden, a monk counted peas for eight years. He discovered the laws of heredity.",
+    "texte": "Gregor Mendel was an Augustinian friar in Brno, in today's Czech Republic. In the abbey garden he grew thousands of pea plants and recorded everything: the colour of the seeds, their shape, the height of the stems.\n\nBy crossing the plants and patiently counting the results, he discovered that certain traits are passed on according to precise rules, from one generation to the next.\n\nHe published his findings in 1866, but almost no one paid attention. Only in 1900, after his death, did scientists rediscover his work. Today he is regarded as the father of genetics.",
+    "source": "G. Mendel, Versuche über Pflanzen-Hybriden (1866); Mendel Museum, Abbey of Saint Thomas, Brno"
+   }
+  },
+  {
+   "id": "douce-nuit",
+   "temps": [
+    "noel"
+   ],
+   "fr": {
+    "titre": "Douce nuit, un chant né d'un orgue en panne",
+    "accroche": "La veille de Noël 1818, dans un petit village d'Autriche, l'orgue de l'église ne marche plus. On chante à la guitare.",
+    "texte": "À Oberndorf, près de Salzbourg, le jeune prêtre Joseph Mohr a écrit quelques années plus tôt un poème sur la nuit de Noël. Le 24 décembre 1818, il le confie à l'organiste du village, Franz Xaver Gruber, pour qu'il le mette en musique.\n\nCe soir-là, à la messe de minuit, les deux hommes chantent le nouveau cantique, accompagnés à la guitare. Une tradition ajoute que l'orgue était en panne, abîmé par l'humidité.\n\nLe chant, Stille Nacht, est repris par des chanteurs ambulants, puis traverse le monde. Il est aujourd'hui traduit dans des centaines de langues, et l'UNESCO l'a inscrit au patrimoine culturel immatériel de l'Autriche.",
+    "source": "Stille Nacht Gesellschaft, Oberndorf ; autographe de F. X. Gruber, « Authentische Veranlassung » (1854)"
+   },
+   "es": {
+    "titre": "Noche de paz, un canto nacido de un órgano estropeado",
+    "accroche": "En Nochebuena de 1818, en un pueblecito de Austria, el órgano de la iglesia no funciona. Se canta con guitarra.",
+    "texte": "En Oberndorf, cerca de Salzburgo, el joven sacerdote Joseph Mohr había escrito unos años antes un poema sobre la noche de Navidad. El 24 de diciembre de 1818 se lo confía al organista del pueblo, Franz Xaver Gruber, para que le ponga música.\n\nEsa noche, en la misa del gallo, los dos cantan el nuevo villancico acompañados con guitarra. Una tradición añade que el órgano estaba estropeado por la humedad.\n\nEl canto, Stille Nacht, lo recogen cantores ambulantes y después recorre el mundo. Hoy está traducido a cientos de lenguas, y la UNESCO lo ha inscrito en el patrimonio cultural inmaterial de Austria.",
+    "source": "Stille Nacht Gesellschaft, Oberndorf; autógrafo de F. X. Gruber, «Authentische Veranlassung» (1854)"
+   },
+   "en": {
+    "titre": "Silent Night, a carol born of a broken organ",
+    "accroche": "On Christmas Eve 1818, in a small Austrian village, the church organ isn't working. They sing with a guitar.",
+    "texte": "In Oberndorf, near Salzburg, the young priest Joseph Mohr had written a poem about Christmas night a few years earlier. On 24 December 1818 he gave it to the village organist, Franz Xaver Gruber, to set to music.\n\nThat night, at Midnight Mass, the two men sang the new carol with a guitar. Tradition adds that the organ had been damaged by damp.\n\nThe carol, Stille Nacht, was taken up by travelling singers and went on to cross the world. Today it has been translated into hundreds of languages, and UNESCO has listed it as part of Austria's intangible cultural heritage.",
+    "source": "Stille Nacht Gesellschaft, Oberndorf; F. X. Gruber's manuscript “Authentische Veranlassung” (1854)"
+   }
+  },
+  {
+   "id": "treve-noel-1914",
+   "temps": [
+    "noel"
+   ],
+   "fr": {
+    "titre": "La trêve de Noël 1914",
+    "accroche": "Dans les tranchées de la Première Guerre mondiale, la nuit de Noël, des soldats ennemis se mettent à chanter.",
+    "texte": "En décembre 1914, la guerre dure depuis cinq mois. Le pape Benoît XV a demandé une trêve pour Noël ; les gouvernements refusent.\n\nPourtant, en plusieurs endroits du front, en Belgique et dans le nord de la France, des soldats allemands allument des bougies sur de petits sapins et chantent. En face, des soldats britanniques répondent par d'autres chants.\n\nLe lendemain, certains sortent des tranchées sans armes. Ils se serrent la main, échangent du chocolat, du tabac, des photos de famille, et enterrent ensemble leurs morts. Quelques heures de paix, au milieu de la guerre, parce que c'était Noël.",
+    "source": "Imperial War Museums, « The Christmas Truce » ; Benoît XV, appel du 7 décembre 1914"
+   },
+   "es": {
+    "titre": "La tregua de Navidad de 1914",
+    "accroche": "En las trincheras de la Primera Guerra Mundial, en Nochebuena, soldados enemigos se ponen a cantar.",
+    "texte": "En diciembre de 1914, la guerra dura ya cinco meses. El papa Benedicto XV ha pedido una tregua por Navidad; los gobiernos se niegan.\n\nSin embargo, en varios puntos del frente, en Bélgica y en el norte de Francia, soldados alemanes encienden velas en pequeños abetos y cantan. Enfrente, soldados británicos responden con otros cantos.\n\nAl día siguiente, algunos salen de las trincheras sin armas. Se dan la mano, intercambian chocolate, tabaco, fotos de familia, y entierran juntos a sus muertos. Unas horas de paz en medio de la guerra, porque era Navidad.",
+    "source": "Imperial War Museums, «The Christmas Truce»; Benedicto XV, llamamiento del 7 de diciembre de 1914"
+   },
+   "en": {
+    "titre": "The Christmas Truce of 1914",
+    "accroche": "In the trenches of the First World War, on Christmas Eve, enemy soldiers start to sing.",
+    "texte": "In December 1914 the war had been going on for five months. Pope Benedict XV had asked for a truce at Christmas; the governments refused.\n\nYet at several points along the front, in Belgium and northern France, German soldiers lit candles on little fir trees and sang. Across the way, British soldiers answered with carols of their own.\n\nThe next day some climbed out of the trenches unarmed. They shook hands, swapped chocolate, tobacco and family photos, and buried their dead together. A few hours of peace in the middle of war, because it was Christmas.",
+    "source": "Imperial War Museums, “The Christmas Truce”; Benedict XV, appeal of 7 December 1914"
+   }
+  },
+  {
+   "id": "couronne-avent",
+   "temps": [
+    "avent"
+   ],
+   "fr": {
+    "titre": "La première couronne de l'Avent",
+    "accroche": "Elle avait d'abord vingt-quatre bougies, et elle est née dans une maison pour enfants pauvres de Hambourg.",
+    "texte": "En 1839, Johann Hinrich Wichern, un pasteur allemand, s'occupe d'enfants des rues dans une maison d'accueil de Hambourg. Pendant l'Avent, les enfants lui demandent sans cesse combien de jours il reste avant Noël.\n\nIl fixe alors une grande roue de charrette avec une bougie pour chaque jour : de petites bougies rouges pour les jours de semaine, de grandes bougies blanches pour les dimanches. Chaque soir, on en allume une de plus.\n\nPlus tard, la couronne se simplifie et ne garde que les quatre bougies des dimanches, entourées de branches de sapin. La tradition s'est répandue dans les familles et les églises, catholiques comme protestantes.",
+    "source": "Rauhes Haus, Hambourg (fondation de J. H. Wichern) ; histoire de la couronne de l'Avent"
+   },
+   "es": {
+    "titre": "La primera corona de Adviento",
+    "accroche": "Al principio tenía veinticuatro velas, y nació en una casa para niños pobres de Hamburgo.",
+    "texte": "En 1839, Johann Hinrich Wichern, un pastor alemán, se ocupa de niños de la calle en una casa de acogida de Hamburgo. Durante el Adviento, los niños le preguntan sin parar cuántos días faltan para Navidad.\n\nEntonces fija una gran rueda de carro con una vela para cada día: velitas rojas para los días de semana y grandes velas blancas para los domingos. Cada tarde se enciende una más.\n\nMás tarde, la corona se simplifica y conserva solo las cuatro velas de los domingos, rodeadas de ramas de abeto. La tradición se extendió por las familias y las iglesias, católicas y protestantes.",
+    "source": "Rauhes Haus, Hamburgo (fundación de J. H. Wichern); historia de la corona de Adviento"
+   },
+   "en": {
+    "titre": "The first Advent wreath",
+    "accroche": "At first it had twenty-four candles, and it was born in a home for poor children in Hamburg.",
+    "texte": "In 1839 Johann Hinrich Wichern, a German pastor, was caring for street children in a home in Hamburg. During Advent, the children kept asking him how many days were left until Christmas.\n\nSo he fixed up a large cartwheel with a candle for each day: small red candles for weekdays and big white candles for Sundays. Each evening one more was lit.\n\nLater the wreath was simplified, keeping only the four Sunday candles, surrounded by fir branches. The tradition spread to families and churches, Catholic and Protestant alike.",
+    "source": "Rauhes Haus, Hamburg (founded by J. H. Wichern); history of the Advent wreath"
+   }
+  },
+  {
+   "id": "saint-nicolas",
+   "date": "12-06",
+   "fr": {
+    "titre": "Saint Nicolas et les trois bourses d'or",
+    "accroche": "Bien avant le Père Noël, il y avait un évêque qui faisait des cadeaux en cachette.",
+    "texte": "Nicolas est évêque de Myre, dans l'actuelle Turquie, au IVe siècle. Une des histoires les plus anciennes à son sujet raconte qu'un homme ruiné ne pouvait pas marier ses trois filles.\n\nUne nuit, Nicolas jette discrètement une bourse d'or par la fenêtre de leur maison. Il recommence une deuxième, puis une troisième nuit, sans jamais se faire voir.\n\nC'est de là que vient la tradition des cadeaux de la Saint-Nicolas, le 6 décembre, encore très vivante en Lorraine, en Belgique, aux Pays-Bas ou en Allemagne. Son nom néerlandais, Sinterklaas, a donné en Amérique « Santa Claus ».",
+    "source": "Méthode de Constantinople, Vie de saint Nicolas (IXe siècle) ; Martyrologe romain, 6 décembre"
+   },
+   "es": {
+    "titre": "San Nicolás y las tres bolsas de oro",
+    "accroche": "Mucho antes de Papá Noel, hubo un obispo que hacía regalos a escondidas.",
+    "texte": "Nicolás es obispo de Mira, en la actual Turquía, en el siglo IV. Una de las historias más antiguas sobre él cuenta que un hombre arruinado no podía casar a sus tres hijas.\n\nUna noche, Nicolás lanza discretamente una bolsa de oro por la ventana de su casa. Lo repite una segunda y una tercera noche, sin dejarse ver nunca.\n\nDe ahí viene la tradición de los regalos de San Nicolás, el 6 de diciembre, todavía muy viva en Bélgica, los Países Bajos o Alemania. Su nombre neerlandés, Sinterklaas, dio en América «Santa Claus».",
+    "source": "Metodio de Constantinopla, Vida de san Nicolás (siglo IX); Martirologio romano, 6 de diciembre"
+   },
+   "en": {
+    "titre": "Saint Nicholas and the three bags of gold",
+    "accroche": "Long before Father Christmas, there was a bishop who gave presents in secret.",
+    "texte": "Nicholas was bishop of Myra, in today's Turkey, in the fourth century. One of the oldest stories about him tells of a ruined man who could not afford to marry off his three daughters.\n\nOne night Nicholas quietly threw a bag of gold through the window of their house. He did the same on a second and a third night, without ever being seen.\n\nThis is where the tradition of Saint Nicholas' Day gifts on 6 December comes from, still very much alive in Belgium, the Netherlands and Germany. His Dutch name, Sinterklaas, became “Santa Claus” in America.",
+    "source": "Methodius of Constantinople, Life of Saint Nicholas (9th century); Roman Martyrology, 6 December"
+   }
+  },
+  {
+   "id": "guadalupe-tilma",
+   "date": "12-12",
+   "fr": {
+    "titre": "Guadalupe : l'image sur le manteau de Juan Diego",
+    "accroche": "En décembre 1531, près de Mexico, un pauvre Indien rapporte à l'évêque des roses cueillies en plein hiver.",
+    "texte": "Juan Diego est un Indien aztèque baptisé depuis quelques années. Sur la colline du Tepeyac, une dame lui apparaît et lui parle dans sa langue, le nahuatl. Elle lui demande d'aller voir l'évêque pour qu'on construise une église à cet endroit.\n\nL'évêque demande un signe. La dame invite Juan Diego à cueillir des roses au sommet de la colline, où rien ne pousse en cette saison. Il les rapporte dans son manteau, sa tilma. Quand il l'ouvre devant l'évêque, les roses tombent, et sur le tissu apparaît l'image de la Vierge.\n\nCette image est vénérée aujourd'hui dans la basilique de Guadalupe, l'un des sanctuaires les plus visités du monde.",
+    "source": "Nican Mopohua (XVIe siècle) ; Jean-Paul II, homélie de canonisation de Juan Diego, 31 juillet 2002"
+   },
+   "es": {
+    "titre": "Guadalupe: la imagen en la tilma de Juan Diego",
+    "accroche": "En diciembre de 1531, cerca de México, un indio pobre lleva al obispo unas rosas cortadas en pleno invierno.",
+    "texte": "Juan Diego es un indígena bautizado hace pocos años. En el cerro del Tepeyac se le aparece una señora que le habla en su lengua, el náhuatl. Le pide que vaya a ver al obispo para que se construya allí una iglesia.\n\nEl obispo pide una señal. La señora invita a Juan Diego a cortar rosas en lo alto del cerro, donde en esa época no crece nada. Él las lleva en su manto, su tilma. Cuando lo abre ante el obispo, caen las rosas, y en la tela aparece la imagen de la Virgen.\n\nEsta imagen se venera hoy en la basílica de Guadalupe, uno de los santuarios más visitados del mundo.",
+    "source": "Nican Mopohua (siglo XVI); Juan Pablo II, homilía de canonización de Juan Diego, 31 de julio de 2002"
+   },
+   "en": {
+    "titre": "Guadalupe: the image on Juan Diego's cloak",
+    "accroche": "In December 1531, near Mexico City, a poor Indigenous man brings the bishop roses picked in the middle of winter.",
+    "texte": "Juan Diego was an Aztec man who had been baptized a few years earlier. On the hill of Tepeyac, a lady appeared to him and spoke to him in his own language, Nahuatl. She asked him to go to the bishop so that a church could be built there.\n\nThe bishop asked for a sign. The lady invited Juan Diego to pick roses at the top of the hill, where nothing grew at that time of year. He carried them back in his cloak, his tilma. When he opened it before the bishop, the roses fell out, and the image of the Virgin appeared on the cloth.\n\nThat image is venerated today in the Basilica of Guadalupe, one of the most visited shrines in the world.",
+    "source": "Nican Mopohua (16th century); John Paul II, homily for the canonization of Juan Diego, 31 July 2002"
+   }
+  },
+  {
+   "id": "saint-martin-manteau",
+   "date": "11-11",
+   "fr": {
+    "titre": "Saint Martin partage son manteau",
+    "accroche": "Un soir d'hiver, à Amiens, un jeune soldat croise un pauvre qui grelotte. Il n'a plus qu'un manteau.",
+    "texte": "Martin est un jeune officier de l'armée romaine, au IVe siècle. Il n'est pas encore baptisé, mais il se prépare à le devenir. Un jour de grand froid, à la porte de la ville d'Amiens, il voit un pauvre presque nu que tout le monde ignore.\n\nMartin n'a plus d'argent. Il prend son épée, coupe son manteau en deux et en donne la moitié au pauvre. La nuit suivante, il voit en rêve Jésus vêtu de ce morceau de manteau, qui dit : « Martin m'a couvert de ce vêtement. »\n\nMartin devient plus tard évêque de Tours. Le mot « chapelle » viendrait de la cape (capella) de saint Martin, que les rois de France gardaient comme une relique.",
+    "source": "Sulpice Sévère, Vie de saint Martin, 3 (vers 397) ; Martyrologe romain, 11 novembre"
+   },
+   "es": {
+    "titre": "San Martín comparte su capa",
+    "accroche": "Una tarde de invierno, en Amiens, un joven soldado se cruza con un pobre que tirita. Solo le queda una capa.",
+    "texte": "Martín es un joven oficial del ejército romano, en el siglo IV. Todavía no está bautizado, pero se prepara para ello. Un día de mucho frío, a la puerta de la ciudad de Amiens, ve a un pobre casi desnudo al que todos ignoran.\n\nMartín ya no tiene dinero. Toma su espada, corta su capa en dos y le da la mitad al pobre. La noche siguiente ve en sueños a Jesús vestido con ese trozo de capa, que dice: «Martín me ha cubierto con este vestido».\n\nMartín llegó a ser obispo de Tours. La palabra «capilla» vendría de la capa (capella) de san Martín, que los reyes de Francia guardaban como una reliquia.",
+    "source": "Sulpicio Severo, Vida de san Martín, 3 (hacia 397); Martirologio romano, 11 de noviembre"
+   },
+   "en": {
+    "titre": "Saint Martin shares his cloak",
+    "accroche": "One winter evening in Amiens, a young soldier meets a beggar shivering in the cold. He has only one cloak left.",
+    "texte": "Martin was a young officer in the Roman army in the fourth century. He was not yet baptized, but he was preparing for it. One bitterly cold day, at the gate of the city of Amiens, he saw a beggar, almost naked, whom everyone else ignored.\n\nMartin had no money left. He took his sword, cut his cloak in two and gave half to the poor man. The next night he saw Jesus in a dream, wearing that piece of cloak and saying: “Martin has clothed me with this garment.”\n\nMartin later became bishop of Tours. The word “chapel” is said to come from Saint Martin's cape (capella), which the kings of France kept as a relic.",
+    "source": "Sulpicius Severus, Life of Saint Martin, 3 (c. 397); Roman Martyrology, 11 November"
+   }
+  },
+  {
+   "id": "louis-braille",
+   "fr": {
+    "titre": "Six petits points pour lire",
+    "accroche": "Un garçon devenu aveugle à cinq ans invente, à quinze ans, une écriture que l'on lit du bout des doigts.",
+    "texte": "Louis Braille naît en 1809 près de Paris. À trois ans, il se blesse à l'œil avec un outil de l'atelier de son père ; l'infection gagne l'autre œil, et il devient aveugle.\n\nÀ l'Institution des jeunes aveugles de Paris, on lit avec de grosses lettres en relief, lentes et lourdes. Louis découvre un code militaire fait de points en relief et le simplifie : six points suffisent pour former toutes les lettres, les chiffres et même les notes de musique.\n\nIl n'a que quinze ans. Croyant fervent et organiste d'église, il enseigne toute sa vie. Aujourd'hui, le braille est utilisé dans presque toutes les langues du monde.",
+    "source": "Musée Louis Braille, Coupvray ; Institut national des jeunes aveugles, Paris"
+   },
+   "es": {
+    "titre": "Seis puntitos para leer",
+    "accroche": "Un niño que se quedó ciego a los cinco años inventa, a los quince, una escritura que se lee con la punta de los dedos.",
+    "texte": "Louis Braille nace en 1809 cerca de París. A los tres años se hiere un ojo con una herramienta del taller de su padre; la infección pasa al otro ojo y se queda ciego.\n\nEn la Institución de Jóvenes Ciegos de París se lee con grandes letras en relieve, lentas y pesadas. Louis descubre un código militar de puntos en relieve y lo simplifica: seis puntos bastan para formar todas las letras, las cifras e incluso las notas musicales.\n\nTiene solo quince años. Creyente fervoroso y organista de iglesia, enseña toda su vida. Hoy el braille se utiliza en casi todas las lenguas del mundo.",
+    "source": "Museo Louis Braille, Coupvray; Institut national des jeunes aveugles, París"
+   },
+   "en": {
+    "titre": "Six little dots for reading",
+    "accroche": "A boy who went blind at five invented, at fifteen, a script you read with your fingertips.",
+    "texte": "Louis Braille was born in 1809 near Paris. At three he injured his eye with a tool in his father's workshop; the infection spread to the other eye, and he went blind.\n\nAt the Royal Institute for Blind Youth in Paris, pupils read large raised letters, slow and heavy. Louis came across a military code made of raised dots and simplified it: six dots are enough to form every letter, number and even musical notes.\n\nHe was only fifteen. A devout believer and a church organist, he taught all his life. Today braille is used in almost every language in the world.",
+    "source": "Louis Braille Museum, Coupvray; Institut national des jeunes aveugles, Paris"
+   }
+  },
+  {
+   "id": "hospice-grand-saint-bernard",
+   "fr": {
+    "titre": "Les chiens du Grand-Saint-Bernard",
+    "accroche": "À 2 469 mètres d'altitude, des chanoines accueillent les voyageurs depuis près de mille ans.",
+    "texte": "Au XIe siècle, saint Bernard de Menthon fonde un hospice au sommet d'un col des Alpes, entre la Suisse et l'Italie. Le passage est dangereux : tempêtes, avalanches, brouillard. Des religieux y vivent toute l'année pour accueillir et secourir les voyageurs.\n\nÀ partir du XVIIe siècle, ils élèvent de grands chiens capables de retrouver des personnes perdues dans la neige. Le plus célèbre, Barry, aurait sauvé plus de quarante personnes au début du XIXe siècle.\n\nL'hospice existe toujours. Les chanoines continuent d'y accueillir marcheurs et skieurs, et les chiens, devenus la race « saint-bernard », portent le nom de ce lieu.",
+    "source": "Congrégation des chanoines du Grand-Saint-Bernard ; Fondation Barry, Martigny ; Musée d'histoire naturelle de Berne (Barry)"
+   },
+   "es": {
+    "titre": "Los perros del Gran San Bernardo",
+    "accroche": "A 2469 metros de altitud, unos canónigos acogen a los viajeros desde hace casi mil años.",
+    "texte": "En el siglo XI, san Bernardo de Menthon funda un hospicio en lo alto de un paso de los Alpes, entre Suiza e Italia. El camino es peligroso: tormentas, aludes, niebla. Unos religiosos viven allí todo el año para acoger y socorrer a los viajeros.\n\nA partir del siglo XVII crían grandes perros capaces de encontrar a personas perdidas en la nieve. El más famoso, Barry, habría salvado a más de cuarenta personas a comienzos del siglo XIX.\n\nEl hospicio sigue existiendo. Los canónigos siguen acogiendo a caminantes y esquiadores, y los perros, convertidos en la raza «san bernardo», llevan el nombre de este lugar.",
+    "source": "Congregación de los canónigos del Gran San Bernardo; Fundación Barry, Martigny; Museo de Historia Natural de Berna (Barry)"
+   },
+   "en": {
+    "titre": "The dogs of the Great Saint Bernard",
+    "accroche": "At 2,469 metres above sea level, canons have welcomed travellers for nearly a thousand years.",
+    "texte": "In the eleventh century, Saint Bernard of Menthon founded a hospice at the top of an Alpine pass between Switzerland and Italy. The crossing was dangerous: storms, avalanches, fog. Religious brothers lived there all year round to welcome and rescue travellers.\n\nFrom the seventeenth century they bred large dogs that could find people lost in the snow. The most famous, Barry, is said to have saved more than forty people in the early nineteenth century.\n\nThe hospice still exists. The canons still welcome hikers and skiers, and the dogs, now the “Saint Bernard” breed, bear the name of the place.",
+    "source": "Congregation of the Canons of the Great Saint Bernard; Barry Foundation, Martigny; Natural History Museum of Bern (Barry)"
+   }
+  },
+  {
+   "id": "tombeau-pierre",
+   "fr": {
+    "titre": "Sous la basilique, le tombeau de Pierre",
+    "accroche": "En 1939, des ouvriers creusent sous Saint-Pierre de Rome pour préparer la tombe d'un pape. Ils trouvent une ville des morts.",
+    "texte": "La tradition a toujours dit que l'apôtre Pierre, mort martyr à Rome vers l'an 64, était enterré sur la colline du Vatican, et que la basilique avait été construite au-dessus de sa tombe.\n\nEn 1939, le pape Pie XII autorise des fouilles sous l'autel. Pendant dix ans, les archéologues dégagent une nécropole romaine : des rues de tombeaux, avec des peintures et des inscriptions. Sous l'autel, ils trouvent un petit monument du IIe siècle et un mur couvert de graffitis de pèlerins.\n\nEn 1950, Pie XII annonce que la tombe de Pierre a été identifiée. On peut aujourd'hui visiter ces fouilles, sous le sol de la basilique.",
+    "source": "Fabbrica di San Pietro, Ufficio Scavi ; Pie XII, radiomessage du 23 décembre 1950"
+   },
+   "es": {
+    "titre": "Bajo la basílica, la tumba de Pedro",
+    "accroche": "En 1939, unos obreros cavan bajo San Pedro de Roma para preparar la tumba de un papa. Encuentran una ciudad de los muertos.",
+    "texte": "La tradición siempre dijo que el apóstol Pedro, que murió mártir en Roma hacia el año 64, estaba enterrado en la colina del Vaticano, y que la basílica se construyó encima de su tumba.\n\nEn 1939, el papa Pío XII autoriza excavaciones bajo el altar. Durante diez años, los arqueólogos sacan a la luz una necrópolis romana: calles de tumbas, con pinturas e inscripciones. Bajo el altar encuentran un pequeño monumento del siglo II y un muro cubierto de grafitis de peregrinos.\n\nEn 1950, Pío XII anuncia que se ha identificado la tumba de Pedro. Hoy se pueden visitar estas excavaciones, bajo el suelo de la basílica.",
+    "source": "Fabbrica di San Pietro, Ufficio Scavi; Pío XII, radiomensaje del 23 de diciembre de 1950"
+   },
+   "en": {
+    "titre": "Beneath the basilica, the tomb of Peter",
+    "accroche": "In 1939 workmen digging beneath Saint Peter's in Rome to prepare a pope's grave found a city of the dead.",
+    "texte": "Tradition had always held that the apostle Peter, martyred in Rome around the year 64, was buried on the Vatican hill, and that the basilica was built over his grave.\n\nIn 1939 Pope Pius XII authorized excavations beneath the altar. For ten years archaeologists uncovered a Roman necropolis: streets of tombs, with paintings and inscriptions. Beneath the altar they found a small second-century monument and a wall covered in pilgrims' graffiti.\n\nIn 1950 Pius XII announced that Peter's tomb had been identified. Today visitors can tour these excavations beneath the floor of the basilica.",
+    "source": "Fabbrica di San Pietro, Excavations Office; Pius XII, radio message of 23 December 1950"
+   }
+  },
+  {
+   "id": "piscine-siloe",
+   "fr": {
+    "titre": "La piscine de Siloé retrouvée",
+    "accroche": "En 2004, des ouvriers qui réparent une canalisation à Jérusalem tombent sur de grandes marches de pierre.",
+    "texte": "Dans l'Évangile de Jean, Jésus met un peu de boue sur les yeux d'un aveugle de naissance et lui dit : « Va te laver à la piscine de Siloé. » L'homme y va et revient en voyant (Jn 9).\n\nPendant des siècles, on montrait aux pèlerins un petit bassin, mais on n'était pas sûr qu'il s'agissait du bon. En 2004, des travaux sur une canalisation d'égout font apparaître de larges marches. Les archéologues dégagent un grand bassin de l'époque de Jésus, où les pèlerins se purifiaient avant de monter au Temple.\n\nDes pièces de monnaie trouvées dans le plâtre permettent de dater le lieu. Le récit de l'aveugle guéri a désormais un décor que l'on peut voir.",
+    "source": "Israel Antiquities Authority ; R. Reich et E. Shukron, fouilles de la piscine de Siloé (2004-2005) ; Jn 9, 1-7"
+   },
+   "es": {
+    "titre": "La piscina de Siloé, reencontrada",
+    "accroche": "En 2004, unos obreros que reparan una tubería en Jerusalén se topan con grandes escalones de piedra.",
+    "texte": "En el Evangelio de Juan, Jesús pone un poco de barro en los ojos de un ciego de nacimiento y le dice: «Ve a lavarte a la piscina de Siloé». El hombre va y vuelve viendo (Jn 9).\n\nDurante siglos se mostraba a los peregrinos un pequeño estanque, pero no se sabía con seguridad si era el auténtico. En 2004, unas obras en una tubería de alcantarillado hacen aparecer anchos escalones. Los arqueólogos descubren un gran estanque de la época de Jesús, donde los peregrinos se purificaban antes de subir al Templo.\n\nUnas monedas halladas en el yeso permiten fechar el lugar. El relato del ciego curado tiene ahora un escenario que se puede ver.",
+    "source": "Israel Antiquities Authority; R. Reich y E. Shukron, excavaciones de la piscina de Siloé (2004-2005); Jn 9, 1-7"
+   },
+   "en": {
+    "titre": "The Pool of Siloam rediscovered",
+    "accroche": "In 2004 workmen repairing a pipe in Jerusalem came across wide stone steps.",
+    "texte": "In John's Gospel, Jesus puts a little mud on the eyes of a man born blind and tells him: “Go, wash in the pool of Siloam.” The man goes and comes back able to see (Jn 9).\n\nFor centuries pilgrims were shown a small pool, but no one was sure it was the right one. In 2004, work on a sewage pipe revealed broad steps. Archaeologists uncovered a large pool from the time of Jesus, where pilgrims purified themselves before going up to the Temple.\n\nCoins found in the plaster made it possible to date the site. The story of the man born blind now has a setting we can see.",
+    "source": "Israel Antiquities Authority; R. Reich and E. Shukron, excavations of the Pool of Siloam (2004-2005); Jn 9:1-7"
+   }
+  },
+  {
+   "id": "ozanam",
+   "fr": {
+    "titre": "Frédéric Ozanam et la Société de Saint-Vincent-de-Paul",
+    "accroche": "En 1833, un étudiant de vingt ans se fait dire : « Vous, chrétiens, que faites-vous pour les pauvres ? »",
+    "texte": "Frédéric Ozanam est étudiant à Paris. Lors d'un débat, un camarade lui lance que les chrétiens parlent beaucoup mais n'agissent guère. Piqué, Frédéric décide avec quelques amis d'aller voir les pauvres chez eux.\n\nGuidés par sœur Rosalie Rendu, une religieuse du quartier Mouffetard, ils visitent des familles, apportent du bois, du pain, et surtout du temps et de l'amitié. Ils se placent sous la protection de saint Vincent de Paul.\n\nOzanam meurt à quarante ans, mais la petite « conférence » d'étudiants est devenue une immense famille : la Société de Saint-Vincent-de-Paul compte aujourd'hui des centaines de milliers de bénévoles dans le monde.",
+    "source": "Société de Saint-Vincent-de-Paul, histoire ; Jean-Paul II, béatification de F. Ozanam, 22 août 1997"
+   },
+   "es": {
+    "titre": "Federico Ozanam y la Sociedad de San Vicente de Paúl",
+    "accroche": "En 1833, a un estudiante de veinte años le dicen: «Vosotros, los cristianos, ¿qué hacéis por los pobres?».",
+    "texte": "Federico Ozanam es estudiante en París. En un debate, un compañero le suelta que los cristianos hablan mucho pero hacen poco. Picado, Federico decide con unos amigos ir a ver a los pobres a sus casas.\n\nGuiados por sor Rosalie Rendu, una religiosa del barrio Mouffetard, visitan a familias, llevan leña, pan y, sobre todo, tiempo y amistad. Se ponen bajo la protección de san Vicente de Paúl.\n\nOzanam muere a los cuarenta años, pero la pequeña «conferencia» de estudiantes se ha convertido en una inmensa familia: la Sociedad de San Vicente de Paúl cuenta hoy con cientos de miles de voluntarios en el mundo.",
+    "source": "Sociedad de San Vicente de Paúl, historia; Juan Pablo II, beatificación de F. Ozanam, 22 de agosto de 1997"
+   },
+   "en": {
+    "titre": "Frédéric Ozanam and the Society of Saint Vincent de Paul",
+    "accroche": "In 1833 a twenty-year-old student was challenged: “You Christians, what are you doing for the poor?”",
+    "texte": "Frédéric Ozanam was a student in Paris. During a debate, a fellow student told him that Christians talked a lot but did little. Stung, Frédéric and a few friends decided to visit poor people in their homes.\n\nGuided by Sister Rosalie Rendu, a nun in the Mouffetard district, they visited families, bringing firewood, bread and, above all, time and friendship. They placed themselves under the patronage of Saint Vincent de Paul.\n\nOzanam died at forty, but the little student “conference” has become an enormous family: the Society of Saint Vincent de Paul now has hundreds of thousands of volunteers around the world.",
+    "source": "Society of Saint Vincent de Paul, history; John Paul II, beatification of F. Ozanam, 22 August 1997"
+   }
+  },
+  {
+   "id": "jeanne-jugan",
+   "fr": {
+    "titre": "Jeanne Jugan ouvre sa porte",
+    "accroche": "Un soir d'hiver 1839, à Saint-Servan en Bretagne, une servante de 47 ans porte une vieille femme aveugle jusqu'à son lit.",
+    "texte": "Jeanne Jugan est une femme simple, sans fortune. Un soir, elle rencontre Anne Chauvin, une vieille femme aveugle et paralysée, restée seule. Jeanne la porte chez elle et lui donne son propre lit ; elle dormira au grenier.\n\nD'autres personnes âgées arrivent. Pour les nourrir, Jeanne fait la quête de porte en porte, un panier au bras. Des jeunes femmes la rejoignent : ce sont les débuts des Petites Sœurs des Pauvres.\n\nLa congrégation accueille aujourd'hui des personnes âgées pauvres dans plus de trente pays. Jeanne Jugan a été canonisée en 2009 par Benoît XVI.",
+    "source": "Petites Sœurs des Pauvres, vie de Jeanne Jugan ; Benoît XVI, homélie de canonisation, 11 octobre 2009"
+   },
+   "es": {
+    "titre": "Juana Jugan abre su puerta",
+    "accroche": "Una noche de invierno de 1839, en Saint-Servan, en Bretaña, una sirvienta de 47 años lleva en brazos a una anciana ciega hasta su cama.",
+    "texte": "Juana Jugan es una mujer sencilla y sin fortuna. Una noche conoce a Anne Chauvin, una anciana ciega y paralítica que se ha quedado sola. Juana la lleva a su casa y le da su propia cama; ella dormirá en el desván.\n\nLlegan otros ancianos. Para alimentarlos, Juana pide de puerta en puerta, con una cesta al brazo. Se le unen unas jóvenes: es el comienzo de las Hermanitas de los Pobres.\n\nLa congregación acoge hoy a ancianos pobres en más de treinta países. Juana Jugan fue canonizada en 2009 por Benedicto XVI.",
+    "source": "Hermanitas de los Pobres, vida de Juana Jugan; Benedicto XVI, homilía de canonización, 11 de octubre de 2009"
+   },
+   "en": {
+    "titre": "Jeanne Jugan opens her door",
+    "accroche": "One winter evening in 1839, in Saint-Servan in Brittany, a 47-year-old servant carries an old blind woman to her own bed.",
+    "texte": "Jeanne Jugan was a simple woman with no money. One evening she met Anne Chauvin, an old woman who was blind, paralysed and alone. Jeanne carried her home and gave her her own bed; she herself slept in the attic.\n\nOther elderly people came. To feed them, Jeanne went begging from door to door with a basket on her arm. Young women joined her: this was the beginning of the Little Sisters of the Poor.\n\nToday the congregation cares for poor elderly people in more than thirty countries. Jeanne Jugan was canonized in 2009 by Benedict XVI.",
+    "source": "Little Sisters of the Poor, life of Jeanne Jugan; Benedict XVI, canonization homily, 11 October 2009"
+   }
+  },
+  {
+   "id": "codex-sinaiticus",
+   "fr": {
+    "titre": "La Bible du Sinaï",
+    "accroche": "Au pied du mont Sinaï, dans un monastère, un savant découvre l'une des plus anciennes Bibles complètes du monde.",
+    "texte": "Le monastère Sainte-Catherine, au Sinaï, est habité par des moines depuis le VIe siècle. En 1844, un chercheur allemand, Constantin von Tischendorf, y découvre des feuilles de parchemin très anciennes, couvertes d'écriture grecque.\n\nIl revient plusieurs fois et finit par identifier un manuscrit exceptionnel, copié au IVe siècle : il contient tout le Nouveau Testament et une grande partie de l'Ancien. On l'appelle le Codex Sinaiticus.\n\nAujourd'hui, ses feuilles sont partagées entre Londres, Leipzig, Saint-Pétersbourg et le monastère. Elles ont été photographiées et réunies en ligne, pour que chacun puisse feuilleter cette Bible copiée seize siècles plus tôt.",
+    "source": "Codex Sinaiticus Project (British Library, Universitätsbibliothek Leipzig, Bibliothèque nationale de Russie, monastère Sainte-Catherine)"
+   },
+   "es": {
+    "titre": "La Biblia del Sinaí",
+    "accroche": "Al pie del monte Sinaí, en un monasterio, un estudioso descubre una de las Biblias completas más antiguas del mundo.",
+    "texte": "El monasterio de Santa Catalina, en el Sinaí, está habitado por monjes desde el siglo VI. En 1844, un investigador alemán, Constantin von Tischendorf, descubre allí hojas de pergamino muy antiguas, cubiertas de escritura griega.\n\nVuelve varias veces y acaba identificando un manuscrito excepcional, copiado en el siglo IV: contiene todo el Nuevo Testamento y gran parte del Antiguo. Se le llama Codex Sinaiticus.\n\nHoy sus hojas están repartidas entre Londres, Leipzig, San Petersburgo y el monasterio. Han sido fotografiadas y reunidas en internet, para que cualquiera pueda hojear esta Biblia copiada dieciséis siglos atrás.",
+    "source": "Codex Sinaiticus Project (British Library, Universitätsbibliothek Leipzig, Biblioteca Nacional de Rusia, monasterio de Santa Catalina)"
+   },
+   "en": {
+    "titre": "The Bible of Sinai",
+    "accroche": "At the foot of Mount Sinai, in a monastery, a scholar discovers one of the oldest complete Bibles in the world.",
+    "texte": "Saint Catherine's Monastery in Sinai has been home to monks since the sixth century. In 1844 a German scholar, Constantin von Tischendorf, found very old sheets of parchment there, covered in Greek writing.\n\nHe returned several times and eventually identified an exceptional manuscript, copied in the fourth century: it contains the whole New Testament and much of the Old. It is called the Codex Sinaiticus.\n\nToday its leaves are divided between London, Leipzig, Saint Petersburg and the monastery. They have been photographed and brought together online, so anyone can leaf through this Bible copied sixteen centuries ago.",
+    "source": "Codex Sinaiticus Project (British Library, Leipzig University Library, National Library of Russia, Saint Catherine's Monastery)"
+   }
+  },
+  {
+   "id": "universites",
+   "fr": {
+    "titre": "Les premières universités",
+    "accroche": "Bologne, Paris, Oxford, Salamanque : les premières universités d'Europe sont nées à l'ombre des églises.",
+    "texte": "Au Moyen Âge, les écoles se trouvent souvent près des cathédrales et des monastères. Vers la fin du XIIe siècle, maîtres et étudiants commencent à s'organiser en corporations, qu'on appelle universitas.\n\nÀ Paris, l'université se développe autour de l'école de Notre-Dame et reçoit la protection des papes. On y enseigne les arts, le droit, la médecine et la théologie. Salamanque, en Espagne, est fondée au début du XIIIe siècle.\n\nC'est là qu'est née une idée qui nous paraît évidente : un lieu où l'on discute librement, où l'on cherche la vérité par la raison, et où l'on délivre des diplômes reconnus partout.",
+    "source": "Université de Paris, statuts de 1215 (légat Robert de Courçon) ; Université de Salamanque, histoire (1218)"
+   },
+   "es": {
+    "titre": "Las primeras universidades",
+    "accroche": "Bolonia, París, Oxford, Salamanca: las primeras universidades de Europa nacieron a la sombra de las iglesias.",
+    "texte": "En la Edad Media, las escuelas suelen estar junto a las catedrales y los monasterios. Hacia finales del siglo XII, maestros y estudiantes empiezan a organizarse en corporaciones, llamadas universitas.\n\nEn París, la universidad crece en torno a la escuela de Notre-Dame y recibe la protección de los papas. Allí se enseñan artes, derecho, medicina y teología. Salamanca, en España, se funda a comienzos del siglo XIII.\n\nAllí nació una idea que hoy nos parece evidente: un lugar donde se discute libremente, donde se busca la verdad por la razón y donde se dan títulos reconocidos en todas partes.",
+    "source": "Universidad de París, estatutos de 1215 (legado Robert de Courçon); Universidad de Salamanca, historia (1218)"
+   },
+   "en": {
+    "titre": "The first universities",
+    "accroche": "Bologna, Paris, Oxford, Salamanca: Europe's first universities grew up in the shadow of its churches.",
+    "texte": "In the Middle Ages, schools were often attached to cathedrals and monasteries. Towards the end of the twelfth century, teachers and students began organizing themselves into guilds, called universitas.\n\nIn Paris, the university grew out of the cathedral school of Notre-Dame and received the protection of the popes. It taught the arts, law, medicine and theology. Salamanca, in Spain, was founded early in the thirteenth century.\n\nThis is where an idea we now take for granted was born: a place for free discussion, where truth is sought through reason, and where degrees are recognized everywhere.",
+    "source": "University of Paris, statutes of 1215 (legate Robert of Courçon); University of Salamanca, history (1218)"
+   }
   }
  ],
  "portraits": [
