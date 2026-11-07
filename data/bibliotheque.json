@@ -727,6 +727,181 @@
     "plusLoin": "Pour la foi chrétienne, l'essentiel de ce récit ne dépend pas d'une découverte : après le déluge, Dieu fait alliance avec toute la Création et pose son arc dans les nuées comme signe de paix (Gn 9, 13).",
     "source": "Bible, Gn 8, 4 et 9, 13 ; Encyclopædia Britannica, « Mount Ararat » ; L. Collins et D. Fasold, Journal of Geoscience Education, vol. 44 (1996) ; presse internationale, octobre 2026 (forages de l'université Sivas Cumhuriyet)"
    }
+  },
+  {
+   "id": "qumran",
+   "fr": {
+    "titre": "Les manuscrits de la mer Morte",
+    "accroche": "En 1947, un jeune berger lance une pierre dans une grotte. Il entend un bruit de poterie cassée.",
+    "texte": "Près de la mer Morte, un jeune berger bédouin cherche une chèvre égarée. Il lance une pierre dans l'ouverture d'une grotte et entend quelque chose se briser. À l'intérieur, il trouve de grandes jarres contenant de vieux rouleaux enveloppés de lin.\n\nDans les années suivantes, onze grottes livrent des centaines de manuscrits. Parmi eux, un rouleau entier du livre d'Isaïe, copié environ un siècle avant Jésus.\n\nIl a environ mille ans de plus que les plus anciens manuscrits hébreux d'Isaïe connus jusque-là. Et pourtant, le texte est presque identique : des générations de copistes l'avaient transmis avec un soin extraordinaire.",
+    "plusLoin": "Le grand rouleau d'Isaïe est aujourd'hui conservé à Jérusalem, au Sanctuaire du Livre du musée d'Israël.",
+    "source": "Musée d'Israël, Sanctuaire du Livre ; Israel Antiquities Authority, Leon Levy Dead Sea Scrolls Digital Library"
+   },
+   "es": {
+    "titre": "Los manuscritos del mar Muerto",
+    "accroche": "En 1947, un joven pastor lanza una piedra dentro de una cueva. Oye un ruido de cerámica rota.",
+    "texte": "Cerca del mar Muerto, un joven pastor beduino busca una cabra perdida. Lanza una piedra dentro de una cueva y oye que algo se rompe. Dentro encuentra grandes vasijas con viejos rollos envueltos en lino.\n\nEn los años siguientes, once cuevas entregan cientos de manuscritos. Entre ellos, un rollo completo del libro de Isaías, copiado aproximadamente un siglo antes de Jesús.\n\nEs unos mil años más antiguo que los manuscritos hebreos de Isaías más antiguos que se conocían. Y sin embargo, el texto es casi idéntico: generaciones de copistas lo habían transmitido con un cuidado extraordinario.",
+    "plusLoin": "El gran rollo de Isaías se conserva hoy en Jerusalén, en el Santuario del Libro del Museo de Israel.",
+    "source": "Museo de Israel, Santuario del Libro; Israel Antiquities Authority, Leon Levy Dead Sea Scrolls Digital Library"
+   },
+   "en": {
+    "titre": "The Dead Sea Scrolls",
+    "accroche": "In 1947 a young shepherd throws a stone into a cave. He hears the sound of breaking pottery.",
+    "texte": "Near the Dead Sea, a young Bedouin shepherd is looking for a lost goat. He throws a stone into the mouth of a cave and hears something shatter. Inside he finds tall jars holding old scrolls wrapped in linen.\n\nIn the following years, eleven caves yield hundreds of manuscripts. Among them is a complete scroll of the book of Isaiah, copied about a century before Jesus.\n\nIt is around a thousand years older than the oldest Hebrew manuscripts of Isaiah known until then. And yet the text is almost identical: generations of scribes had passed it on with extraordinary care.",
+    "plusLoin": "The Great Isaiah Scroll is kept today in Jerusalem, in the Shrine of the Book at the Israel Museum.",
+    "source": "Israel Museum, Shrine of the Book; Israel Antiquities Authority, Leon Levy Dead Sea Scrolls Digital Library"
+   }
+  },
+  {
+   "id": "pierre-pilate",
+   "fr": {
+    "titre": "Le nom de Pilate gravé dans la pierre",
+    "accroche": "Pendant longtemps, on ne connaissait Ponce Pilate que par les livres. Puis une pierre est sortie de terre.",
+    "texte": "Ponce Pilate est le gouverneur romain qui a condamné Jésus. On le connaissait par les Évangiles et par quelques historiens anciens, mais aucune trace archéologique ne portait son nom.\n\nEn 1961, des archéologues italiens fouillent le théâtre antique de Césarée, au bord de la Méditerranée. Ils dégagent un bloc de calcaire réutilisé dans un escalier. Sur sa face, une inscription latine en partie effacée : on y lit le nom de Pilate et son titre de préfet de Judée.\n\nC'est la première inscription de son époque qui le mentionne. Le personnage des Évangiles avait laissé sa marque dans la pierre.",
+    "source": "Musée d'Israël, Jérusalem (inscription de Pilate, découverte à Césarée en 1961)"
+   },
+   "es": {
+    "titre": "El nombre de Pilato grabado en piedra",
+    "accroche": "Durante mucho tiempo, a Poncio Pilato solo se le conocía por los libros. Hasta que una piedra salió de la tierra.",
+    "texte": "Poncio Pilato es el gobernador romano que condenó a Jesús. Se le conocía por los Evangelios y por algunos historiadores antiguos, pero ningún resto arqueológico llevaba su nombre.\n\nEn 1961, unos arqueólogos italianos excavan el teatro antiguo de Cesarea, a orillas del Mediterráneo. Sacan a la luz un bloque de piedra caliza reutilizado en una escalera. En una de sus caras hay una inscripción latina en parte borrada: se lee el nombre de Pilato y su título de prefecto de Judea.\n\nEs la primera inscripción de su época que lo menciona. El personaje de los Evangelios había dejado su huella en la piedra.",
+    "source": "Museo de Israel, Jerusalén (inscripción de Pilato, hallada en Cesarea en 1961)"
+   },
+   "en": {
+    "titre": "Pilate's name carved in stone",
+    "accroche": "For a long time, Pontius Pilate was known only from books. Then a stone came out of the ground.",
+    "texte": "Pontius Pilate is the Roman governor who condemned Jesus. He was known from the Gospels and from a few ancient historians, but no archaeological find bore his name.\n\nIn 1961, Italian archaeologists were excavating the ancient theatre of Caesarea, on the Mediterranean coast. They uncovered a limestone block that had been reused in a stairway. On one face was a partly worn Latin inscription: it gave Pilate's name and his title, prefect of Judea.\n\nIt is the first inscription from his own time to mention him. The figure from the Gospels had left his mark in stone.",
+    "source": "Israel Museum, Jerusalem (Pilate inscription, found at Caesarea in 1961)"
+   }
+  },
+  {
+   "id": "barque-galilee",
+   "fr": {
+    "titre": "La barque sortie de la boue",
+    "accroche": "En 1986, le lac de Tibériade est si bas que deux pêcheurs aperçoivent quelque chose dans la vase.",
+    "texte": "Cette année-là, une grande sécheresse fait baisser le niveau du lac de Tibériade, en Galilée. Deux frères pêcheurs du kibboutz Ginosar marchent sur le rivage découvert et remarquent des clous et des bois noircis dans la boue.\n\nC'est une barque de pêche d'environ huit mètres, vieille de deux mille ans. Pour la sauver avant que l'eau ne remonte, on l'enveloppe de mousse puis on la fait flotter jusqu'au rivage. Il faudra des années pour la sécher sans qu'elle tombe en poussière.\n\nPersonne ne prétend que Jésus y soit monté. Mais c'est exactement le genre de bateau sur lequel Pierre, André, Jacques et Jean pêchaient.",
+    "source": "Centre Yigal Allon, kibboutz Ginosar (barque de Galilée, découverte en 1986)"
+   },
+   "es": {
+    "titre": "La barca que salió del barro",
+    "accroche": "En 1986, el lago de Tiberíades está tan bajo que dos pescadores ven algo en el fango.",
+    "texte": "Ese año, una gran sequía hace bajar el nivel del lago de Tiberíades, en Galilea. Dos hermanos pescadores del kibutz Ginosar caminan por la orilla al descubierto y ven clavos y maderas ennegrecidas en el barro.\n\nEs una barca de pesca de unos ocho metros, de hace dos mil años. Para salvarla antes de que suba el agua, la envuelven en espuma y la hacen flotar hasta la orilla. Harán falta años para secarla sin que se convierta en polvo.\n\nNadie pretende que Jesús subiera a ella. Pero es exactamente el tipo de barca en la que pescaban Pedro, Andrés, Santiago y Juan.",
+    "source": "Centro Yigal Allon, kibutz Ginosar (barca de Galilea, hallada en 1986)"
+   },
+   "en": {
+    "titre": "The boat that came out of the mud",
+    "accroche": "In 1986 the Sea of Galilee is so low that two fishermen spot something in the mud.",
+    "texte": "That year a severe drought lowers the level of the Sea of Galilee. Two fishermen brothers from kibbutz Ginosar are walking along the exposed shore when they notice nails and blackened timber in the mud.\n\nIt is a fishing boat about eight metres long, two thousand years old. To save it before the water rises again, it is wrapped in foam and floated to the shore. It will take years to dry it without it crumbling to dust.\n\nNo one claims that Jesus ever sat in it. But it is exactly the kind of boat Peter, Andrew, James and John fished from.",
+    "source": "Yigal Allon Centre, kibbutz Ginosar (the Galilee boat, found in 1986)"
+   }
+  },
+  {
+   "id": "sant-jordi",
+   "date": "04-23",
+   "fr": {
+    "titre": "Sant Jordi : une rose et un livre",
+    "accroche": "Le 23 avril, Barcelone se couvre de roses et de livres. Tout part d'un saint et d'un dragon.",
+    "texte": "Saint Georges (Sant Jordi en catalan) est un soldat chrétien mort martyr au début du IVe siècle. Une légende du Moyen Âge le montre délivrant une princesse d'un dragon ; du sang du dragon aurait poussé un rosier.\n\nSaint patron de la Catalogne, il est fêté le 23 avril. Depuis longtemps, on y offre une rose. Au XXe siècle, les libraires de Barcelone ont ajouté le livre, car le 23 avril est aussi la date retenue pour la mort de Cervantès et de Shakespeare en 1616.\n\nAujourd'hui, les rues se remplissent d'étals : on s'offre une rose et un livre. L'UNESCO a fait de ce jour la Journée mondiale du livre.",
+    "source": "Martyrologe romain, 23 avril ; UNESCO, Journée mondiale du livre et du droit d'auteur (1995)"
+   },
+   "es": {
+    "titre": "Sant Jordi: una rosa y un libro",
+    "accroche": "El 23 de abril, Barcelona se llena de rosas y de libros. Todo empieza con un santo y un dragón.",
+    "texte": "San Jorge (Sant Jordi en catalán) es un soldado cristiano que murió mártir a comienzos del siglo IV. Una leyenda medieval lo muestra liberando a una princesa de un dragón; de la sangre del dragón habría brotado un rosal.\n\nPatrón de Cataluña, se celebra el 23 de abril. Desde hace mucho se regala una rosa. En el siglo XX, los libreros de Barcelona añadieron el libro, porque el 23 de abril es también la fecha que se recuerda como la muerte de Cervantes y de Shakespeare en 1616.\n\nHoy las calles se llenan de puestos: nos regalamos una rosa y un libro. La UNESCO hizo de este día el Día Mundial del Libro.",
+    "source": "Martirologio romano, 23 de abril; UNESCO, Día Mundial del Libro y del Derecho de Autor (1995)"
+   },
+   "en": {
+    "titre": "Sant Jordi: a rose and a book",
+    "accroche": "On 23 April, Barcelona is covered in roses and books. It all starts with a saint and a dragon.",
+    "texte": "Saint George (Sant Jordi in Catalan) was a Christian soldier martyred at the beginning of the fourth century. A medieval legend shows him rescuing a princess from a dragon; a rose bush is said to have grown from the dragon's blood.\n\nAs patron saint of Catalonia, he is celebrated on 23 April. A rose has been given on that day for a long time. In the twentieth century, Barcelona's booksellers added a book, since 23 April is also the date remembered for the deaths of Cervantes and Shakespeare in 1616.\n\nToday the streets fill with stalls, and people give each other a rose and a book. UNESCO made the day World Book Day.",
+    "source": "Roman Martyrology, 23 April; UNESCO, World Book and Copyright Day (1995)"
+   }
+  },
+  {
+   "id": "ut-queant-laxis",
+   "date": "06-24",
+   "fr": {
+    "titre": "Do, ré, mi… un chant pour saint Jean-Baptiste",
+    "accroche": "Les noms des notes de musique viennent d'une prière chantée pour la fête de saint Jean-Baptiste.",
+    "texte": "Au XIe siècle, un moine italien, Guido d'Arezzo, cherche un moyen d'aider les jeunes chanteurs à retenir les mélodies. Il utilise une hymne à saint Jean-Baptiste, Ut queant laxis, dont chaque vers commence une note plus haut que le précédent.\n\nLes premières syllabes des vers donnent ut, ré, mi, fa, sol, la. Plus tard, on ajoute si, formé des initiales de « Sancte Iohannes », et ut devient do, plus facile à chanter.\n\nAinsi, chaque fois qu'un enfant apprend sa gamme, il chante sans le savoir le début d'une prière à Jean-Baptiste, fêté le 24 juin.",
+    "source": "Guido d'Arezzo, Epistola de ignoto cantu (vers 1030) ; hymne Ut queant laxis, attribuée à Paul Diacre"
+   },
+   "es": {
+    "titre": "Do, re, mi… un canto a san Juan Bautista",
+    "accroche": "Los nombres de las notas musicales vienen de una oración cantada en la fiesta de san Juan Bautista.",
+    "texte": "En el siglo XI, un monje italiano, Guido d'Arezzo, busca la manera de ayudar a los jóvenes cantores a recordar las melodías. Utiliza un himno a san Juan Bautista, Ut queant laxis, en el que cada verso empieza una nota más alta que el anterior.\n\nLas primeras sílabas de los versos dan ut, re, mi, fa, sol, la. Más tarde se añade si, formado con las iniciales de «Sancte Iohannes», y ut se convierte en do, más fácil de cantar.\n\nAsí, cada vez que un niño aprende la escala, canta sin saberlo el comienzo de una oración a Juan Bautista, cuya fiesta es el 24 de junio.",
+    "source": "Guido d'Arezzo, Epistola de ignoto cantu (hacia 1030); himno Ut queant laxis, atribuido a Pablo Diácono"
+   },
+   "en": {
+    "titre": "Do, re, mi… a hymn to Saint John the Baptist",
+    "accroche": "The names of the musical notes come from a prayer sung on the feast of Saint John the Baptist.",
+    "texte": "In the eleventh century, an Italian monk, Guido of Arezzo, was looking for a way to help young singers remember melodies. He used a hymn to Saint John the Baptist, Ut queant laxis, in which each line begins one note higher than the one before.\n\nThe first syllables of the lines give ut, re, mi, fa, sol, la. Later si was added, from the initials of “Sancte Iohannes”, and ut became do, which is easier to sing.\n\nSo whenever a child learns the scale, they are singing, without knowing it, the opening of a prayer to John the Baptist, whose feast is on 24 June.",
+    "source": "Guido of Arezzo, Epistola de ignoto cantu (c. 1030); hymn Ut queant laxis, attributed to Paul the Deacon"
+   }
+  },
+  {
+   "id": "abbe-de-lepee",
+   "fr": {
+    "titre": "L'abbé qui parlait avec les mains",
+    "accroche": "Vers 1760, à Paris, un prêtre rencontre deux sœurs sourdes. Cette rencontre va changer la vie de milliers d'enfants.",
+    "texte": "À l'époque, les enfants sourds sont souvent laissés de côté : on pense qu'on ne peut rien leur apprendre. Charles-Michel de l'Épée, un prêtre parisien, fait la connaissance de deux jumelles sourdes qui communiquent entre elles par gestes.\n\nIl comprend que ces gestes sont un vrai langage. Il ouvre chez lui une école gratuite, apprend les signes de ses élèves et les enrichit pour pouvoir tout enseigner : la lecture, l'écriture, la foi. Il organise même des démonstrations publiques pour montrer que les sourds sont aussi intelligents que les autres.\n\nSon école est devenue l'Institut national de jeunes sourds de Paris. On le considère comme l'un des pères de l'éducation des sourds.",
+    "source": "Institut national de jeunes sourds de Paris ; Charles-Michel de l'Épée, Institution des sourds et muets par la voie des signes méthodiques (1776)"
+   },
+   "es": {
+    "titre": "El abad que hablaba con las manos",
+    "accroche": "Hacia 1760, en París, un sacerdote conoce a dos hermanas sordas. Ese encuentro cambiará la vida de miles de niños.",
+    "texte": "En aquella época, a los niños sordos se les dejaba a menudo de lado: se pensaba que no se les podía enseñar nada. Charles-Michel de l'Épée, un sacerdote de París, conoce a dos gemelas sordas que se comunican entre ellas con gestos.\n\nComprende que esos gestos son un verdadero lenguaje. Abre en su casa una escuela gratuita, aprende los signos de sus alumnos y los amplía para poder enseñarlo todo: la lectura, la escritura, la fe. Incluso organiza demostraciones públicas para mostrar que los sordos son tan inteligentes como los demás.\n\nSu escuela se convirtió en el Instituto Nacional de Jóvenes Sordos de París. Se le considera uno de los padres de la educación de las personas sordas.",
+    "source": "Institut national de jeunes sourds de París; Charles-Michel de l'Épée, Institution des sourds et muets par la voie des signes méthodiques (1776)"
+   },
+   "en": {
+    "titre": "The priest who spoke with his hands",
+    "accroche": "Around 1760 in Paris, a priest meets two deaf sisters. That meeting will change the lives of thousands of children.",
+    "texte": "At the time, deaf children were often left aside: people thought they could not be taught anything. Charles-Michel de l'Épée, a Paris priest, met two deaf twin sisters who communicated with each other by gestures.\n\nHe realized these gestures were a real language. He opened a free school in his own home, learned his pupils' signs and expanded them so he could teach everything: reading, writing, the faith. He even held public demonstrations to show that deaf people were as intelligent as anyone else.\n\nHis school became the National Institute for Deaf Youth in Paris. He is regarded as one of the fathers of deaf education.",
+    "source": "Institut national de jeunes sourds, Paris; Charles-Michel de l'Épée, Institution des sourds et muets par la voie des signes méthodiques (1776)"
+   }
+  },
+  {
+   "id": "discours-lune",
+   "date": "10-11",
+   "fr": {
+    "titre": "Le « discours de la lune »",
+    "accroche": "Le soir du 11 octobre 1962, le pape Jean XXIII n'avait pas prévu de parler. La foule était venue avec des flambeaux.",
+    "texte": "Ce jour-là s'est ouvert à Rome le concile Vatican II, une grande assemblée de tous les évêques du monde. Le soir, des milliers de personnes remplissent la place Saint-Pierre avec des flambeaux.\n\nJean XXIII se met à la fenêtre et improvise. Il remarque que même la lune semble être venue regarder. Puis il dit aux gens de rentrer chez eux et de faire une caresse à leurs enfants, en leur disant que c'est « la caresse du pape ».\n\nCe petit discours, sans papier ni solennité, est resté l'un des plus aimés de l'histoire des papes. On l'appelle le « discours de la lune ».",
+    "source": "Jean XXIII, salut aux fidèles venus en procession aux flambeaux, 11 octobre 1962 (vatican.va)"
+   },
+   "es": {
+    "titre": "El «discurso de la luna»",
+    "accroche": "La noche del 11 de octubre de 1962, el papa Juan XXIII no tenía previsto hablar. La multitud había venido con antorchas.",
+    "texte": "Ese día se inauguró en Roma el Concilio Vaticano II, una gran asamblea de todos los obispos del mundo. Por la noche, miles de personas llenan la plaza de San Pedro con antorchas.\n\nJuan XXIII se asoma a la ventana e improvisa. Comenta que hasta la luna parece haber venido a mirar. Después dice a la gente que vuelva a casa y haga una caricia a sus hijos, diciéndoles que es «la caricia del papa».\n\nEste pequeño discurso, sin papeles ni solemnidad, sigue siendo uno de los más queridos de la historia de los papas. Se le llama el «discurso de la luna».",
+    "source": "Juan XXIII, saludo a los fieles en la procesión de antorchas, 11 de octubre de 1962 (vatican.va)"
+   },
+   "en": {
+    "titre": "The “Moonlight Speech”",
+    "accroche": "On the evening of 11 October 1962, Pope John XXIII had not planned to speak. The crowd had come with torches.",
+    "texte": "That day the Second Vatican Council opened in Rome, a great gathering of all the world's bishops. In the evening, thousands of people filled Saint Peter's Square carrying torches.\n\nJohn XXIII came to the window and spoke off the cuff. He remarked that even the moon seemed to have come out to watch. Then he told people to go home and give their children a caress, telling them it was “the caress of the Pope”.\n\nThis little speech, with no notes and no ceremony, remains one of the best loved in the history of the popes. It is known as the “Moonlight Speech”.",
+    "source": "John XXIII, greeting to the faithful at the torchlight procession, 11 October 1962 (vatican.va)"
+   }
+  },
+  {
+   "id": "apollo8-genese",
+   "date": "12-24",
+   "fr": {
+    "titre": "La Genèse lue depuis la Lune",
+    "accroche": "Le soir du 24 décembre 1968, trois astronautes en orbite autour de la Lune lisent les premiers mots de la Bible.",
+    "texte": "Apollo 8 est la première mission humaine à tourner autour de la Lune. À bord, Frank Borman, Jim Lovell et Bill Anders. Ce sont aussi les premiers hommes à voir la Terre se lever au-dessus de l'horizon lunaire ; Bill Anders en prend une photo devenue célèbre.\n\nLe soir de Noël, lors d'une retransmission suivie par des centaines de millions de personnes, ils lisent à tour de rôle les dix premiers versets de la Genèse : « Au commencement, Dieu créa le ciel et la terre… »\n\nPuis ils souhaitent un joyeux Noël à « tous ceux qui sont sur la bonne Terre ». Vue de si loin, la Terre leur paraissait petite, fragile et très belle.",
+    "source": "NASA, Apollo 8 Christmas Eve broadcast, 24 décembre 1968 ; Gn 1, 1-10"
+   },
+   "es": {
+    "titre": "El Génesis leído desde la Luna",
+    "accroche": "La noche del 24 de diciembre de 1968, tres astronautas en órbita alrededor de la Luna leen las primeras palabras de la Biblia.",
+    "texte": "El Apolo 8 es la primera misión tripulada que da vueltas alrededor de la Luna. A bordo van Frank Borman, Jim Lovell y Bill Anders. Son también los primeros hombres que ven la Tierra salir por encima del horizonte lunar; Bill Anders saca una foto que se hará famosa.\n\nEn Nochebuena, en una retransmisión seguida por cientos de millones de personas, leen por turnos los diez primeros versículos del Génesis: «Al principio creó Dios el cielo y la tierra…».\n\nDespués desean feliz Navidad a «todos los que estáis en la buena Tierra». Vista desde tan lejos, la Tierra les parecía pequeña, frágil y muy hermosa.",
+    "source": "NASA, retransmisión de Nochebuena del Apolo 8, 24 de diciembre de 1968; Gn 1, 1-10"
+   },
+   "en": {
+    "titre": "Genesis read from the Moon",
+    "accroche": "On the evening of 24 December 1968, three astronauts orbiting the Moon read the first words of the Bible.",
+    "texte": "Apollo 8 was the first crewed mission to orbit the Moon. On board were Frank Borman, Jim Lovell and Bill Anders. They were also the first people to see the Earth rise above the lunar horizon; Bill Anders took a photograph of it that became famous.\n\nOn Christmas Eve, in a broadcast watched by hundreds of millions of people, they took turns reading the first ten verses of Genesis: “In the beginning God created the heaven and the earth…”\n\nThen they wished a merry Christmas to “all of you on the good Earth”. Seen from so far away, the Earth looked small, fragile and very beautiful.",
+    "source": "NASA, Apollo 8 Christmas Eve broadcast, 24 December 1968; Gen 1:1-10"
+   }
   }
  ],
  "portraits": [
