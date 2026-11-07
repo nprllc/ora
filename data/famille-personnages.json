@@ -1,0 +1,803 @@
+{
+ "_note": "Personnage du jour (En famille) : un personnage de la Bible raconté aux 4-8 ans. « temps » : réservé à ce temps liturgique ; sans « temps » : le reste de l'année.",
+ "personnages": [
+  {
+   "id": "marie-avent",
+   "temps": [
+    "avent"
+   ],
+   "fr": {
+    "nom": "Marie",
+    "histoire": "Marie habitait à Nazareth, un petit village. Un jour, l'ange Gabriel est venu lui dire : « Dieu t'a choisie pour être la maman de son Fils, Jésus. » Marie a été très étonnée, mais elle a fait confiance à Dieu et elle a dit oui. Pendant neuf mois, elle a attendu la naissance de Jésus, comme on attend Noël.",
+    "idee": "Et toi, à quoi peux-tu dire oui aujourd'hui pour faire plaisir à quelqu'un ?"
+   },
+   "es": {
+    "nom": "María",
+    "histoire": "María vivía en Nazaret, un pueblo pequeño. Un día, el ángel Gabriel vino a decirle: «Dios te ha elegido para ser la mamá de su Hijo, Jesús». María se sorprendió mucho, pero confió en Dios y dijo que sí. Durante nueve meses esperó el nacimiento de Jesús, como nosotros esperamos la Navidad.",
+    "idee": "¿Y tú? ¿A qué puedes decir que sí hoy para alegrar a alguien?"
+   },
+   "en": {
+    "nom": "Mary",
+    "histoire": "Mary lived in Nazareth, a small village. One day the angel Gabriel came to tell her: “God has chosen you to be the mother of his Son, Jesus.” Mary was very surprised, but she trusted God and said yes. For nine months she waited for Jesus to be born, the way we wait for Christmas.",
+    "idee": "What could you say yes to today to make someone happy?"
+   }
+  },
+  {
+   "id": "joseph-avent",
+   "temps": [
+    "avent"
+   ],
+   "fr": {
+    "nom": "Joseph",
+    "histoire": "Joseph était charpentier : il fabriquait des tables, des portes et des charrues avec du bois. Il allait se marier avec Marie. Une nuit, un ange lui a dit en rêve : « N'aie pas peur, l'enfant que Marie attend vient de Dieu. » Joseph a fait confiance et il a pris soin de Marie et de Jésus toute sa vie.",
+    "idee": "Qui prend soin de toi comme Joseph ? Tu peux lui dire merci ce soir."
+   },
+   "es": {
+    "nom": "José",
+    "histoire": "José era carpintero: hacía mesas, puertas y arados con madera. Iba a casarse con María. Una noche, un ángel le dijo en sueños: «No tengas miedo, el niño que espera María viene de Dios». José confió y cuidó de María y de Jesús toda su vida.",
+    "idee": "¿Quién te cuida como José? Puedes darle las gracias esta noche."
+   },
+   "en": {
+    "nom": "Joseph",
+    "histoire": "Joseph was a carpenter: he made tables, doors and ploughs out of wood. He was going to marry Mary. One night an angel told him in a dream: “Do not be afraid, the baby Mary is expecting comes from God.” Joseph trusted, and he took care of Mary and Jesus all his life.",
+    "idee": "Who takes care of you like Joseph? You can thank them tonight."
+   }
+  },
+  {
+   "id": "elisabeth",
+   "temps": [
+    "avent"
+   ],
+   "fr": {
+    "nom": "Élisabeth",
+    "histoire": "Élisabeth était la cousine de Marie. Elle était déjà âgée et elle n'avait pas d'enfant. Mais Dieu lui a donné un bébé : Jean-Baptiste ! Quand Marie est venue la voir, le bébé a sauté de joie dans son ventre, et Élisabeth a dit : « Tu es bénie, Marie ! »",
+    "idee": "À qui peux-tu rendre visite pour lui faire plaisir, comme Marie ?"
+   },
+   "es": {
+    "nom": "Isabel",
+    "histoire": "Isabel era la prima de María. Ya era mayor y no tenía hijos. ¡Pero Dios le dio un bebé: Juan el Bautista! Cuando María fue a visitarla, el bebé saltó de alegría en su vientre, e Isabel dijo: «¡Bendita tú, María!».",
+    "idee": "¿A quién puedes visitar para darle una alegría, como María?"
+   },
+   "en": {
+    "nom": "Elizabeth",
+    "histoire": "Elizabeth was Mary's cousin. She was already old and had no children. But God gave her a baby: John the Baptist! When Mary came to visit, the baby leapt for joy inside her, and Elizabeth said: “Blessed are you, Mary!”",
+    "idee": "Who could you visit to make them happy, like Mary?"
+   }
+  },
+  {
+   "id": "jean-baptiste",
+   "temps": [
+    "avent"
+   ],
+   "fr": {
+    "nom": "Jean-Baptiste",
+    "histoire": "Jean-Baptiste vivait dans le désert. Il portait un vêtement en poils de chameau et mangeait des sauterelles et du miel sauvage. Il disait à tout le monde : « Préparez-vous, Jésus va venir ! » Et il baptisait les gens dans l'eau du fleuve Jourdain.",
+    "idee": "Comment peux-tu préparer ton cœur pour Noël ?"
+   },
+   "es": {
+    "nom": "Juan el Bautista",
+    "histoire": "Juan el Bautista vivía en el desierto. Llevaba un vestido de pelo de camello y comía saltamontes y miel silvestre. Decía a todo el mundo: «¡Preparaos, Jesús va a venir!». Y bautizaba a la gente en el agua del río Jordán.",
+    "idee": "¿Cómo puedes preparar tu corazón para la Navidad?"
+   },
+   "en": {
+    "nom": "John the Baptist",
+    "histoire": "John the Baptist lived in the desert. He wore clothes made of camel hair and ate locusts and wild honey. He told everyone: “Get ready, Jesus is coming!” And he baptized people in the water of the river Jordan.",
+    "idee": "How can you get your heart ready for Christmas?"
+   }
+  },
+  {
+   "id": "bergers",
+   "temps": [
+    "noel"
+   ],
+   "fr": {
+    "nom": "Les bergers",
+    "histoire": "La nuit où Jésus est né, des bergers gardaient leurs moutons dans les champs. Tout à coup, un ange est apparu dans une grande lumière : « Ne craignez pas ! Un Sauveur est né pour vous à Bethléem. » Les bergers ont couru et ils ont trouvé le bébé Jésus couché dans une mangeoire.",
+    "idee": "Tu peux chercher les bergers dans ta crèche et les approcher de Jésus."
+   },
+   "es": {
+    "nom": "Los pastores",
+    "histoire": "La noche en que nació Jesús, unos pastores cuidaban sus ovejas en el campo. De repente, un ángel apareció en una gran luz: «¡No temáis! Os ha nacido un Salvador en Belén». Los pastores corrieron y encontraron al niño Jesús acostado en un pesebre.",
+    "idee": "Puedes buscar a los pastores en tu belén y acercarlos a Jesús."
+   },
+   "en": {
+    "nom": "The shepherds",
+    "histoire": "On the night Jesus was born, some shepherds were watching their sheep in the fields. Suddenly an angel appeared in a great light: “Do not be afraid! A Saviour has been born for you in Bethlehem.” The shepherds ran and found baby Jesus lying in a manger.",
+    "idee": "Find the shepherds in your nativity set and move them closer to Jesus."
+   }
+  },
+  {
+   "id": "mages",
+   "temps": [
+    "noel"
+   ],
+   "fr": {
+    "nom": "Les mages",
+    "histoire": "Des mages, des savants venus de très loin, ont vu une étoile nouvelle dans le ciel. Ils ont compris qu'un grand roi était né. Ils ont suivi l'étoile pendant longtemps, et ils ont trouvé Jésus avec Marie. Ils lui ont offert de l'or, de l'encens et de la myrrhe.",
+    "idee": "Quel cadeau pourrais-tu offrir à Jésus ? Un sourire, une prière, un dessin…"
+   },
+   "es": {
+    "nom": "Los Reyes Magos",
+    "histoire": "Unos magos, sabios venidos de muy lejos, vieron una estrella nueva en el cielo. Entendieron que había nacido un gran rey. Siguieron la estrella durante mucho tiempo y encontraron a Jesús con María. Le ofrecieron oro, incienso y mirra.",
+    "idee": "¿Qué regalo podrías ofrecer a Jesús? Una sonrisa, una oración, un dibujo…"
+   },
+   "en": {
+    "nom": "The Wise Men",
+    "histoire": "Some wise men from far away saw a new star in the sky. They understood that a great king had been born. They followed the star for a long time, and they found Jesus with Mary. They gave him gold, frankincense and myrrh.",
+    "idee": "What gift could you give Jesus? A smile, a prayer, a drawing…"
+   }
+  },
+  {
+   "id": "simeon-anne",
+   "temps": [
+    "noel"
+   ],
+   "fr": {
+    "nom": "Syméon et Anne",
+    "histoire": "Quand Jésus était tout petit, Marie et Joseph l'ont porté au Temple de Jérusalem. Là, un vieil homme, Syméon, l'a pris dans ses bras et a remercié Dieu : il attendait ce moment depuis toute sa vie ! Une vieille dame, Anne, a aussi reconnu Jésus et elle en a parlé à tout le monde.",
+    "idee": "Tu peux faire un câlin à un grand-parent et lui dire que tu l'aimes."
+   },
+   "es": {
+    "nom": "Simeón y Ana",
+    "histoire": "Cuando Jesús era muy pequeño, María y José lo llevaron al Templo de Jerusalén. Allí, un anciano, Simeón, lo tomó en brazos y dio gracias a Dios: ¡llevaba toda la vida esperando ese momento! Una anciana, Ana, también reconoció a Jesús y habló de él a todo el mundo.",
+    "idee": "Puedes dar un abrazo a un abuelo o una abuela y decirle que lo quieres."
+   },
+   "en": {
+    "nom": "Simeon and Anna",
+    "histoire": "When Jesus was very little, Mary and Joseph carried him to the Temple in Jerusalem. There an old man, Simeon, took him in his arms and thanked God: he had been waiting for this moment all his life! An old woman, Anna, also recognized Jesus and told everyone about him.",
+    "idee": "You can give a grandparent a hug and tell them you love them."
+   }
+  },
+  {
+   "id": "adam-eve",
+   "fr": {
+    "nom": "Adam et Ève",
+    "histoire": "Au commencement, Dieu a créé le monde : la lumière, les étoiles, les arbres et les animaux. Puis il a créé l'homme et la femme, Adam et Ève, et il les a aimés. Il leur a confié son beau jardin pour qu'ils en prennent soin.",
+    "idee": "Toi aussi, tu peux prendre soin d'une plante ou d'un animal."
+   },
+   "es": {
+    "nom": "Adán y Eva",
+    "histoire": "Al principio, Dios creó el mundo: la luz, las estrellas, los árboles y los animales. Después creó al hombre y a la mujer, Adán y Eva, y los amó. Les confió su hermoso jardín para que lo cuidaran.",
+    "idee": "Tú también puedes cuidar de una planta o de un animal."
+   },
+   "en": {
+    "nom": "Adam and Eve",
+    "histoire": "In the beginning, God made the world: the light, the stars, the trees and the animals. Then he made the man and the woman, Adam and Eve, and he loved them. He gave them his beautiful garden to look after.",
+    "idee": "You can look after a plant or an animal too."
+   }
+  },
+  {
+   "id": "noe",
+   "fr": {
+    "nom": "Noé",
+    "histoire": "Dieu a demandé à Noé de construire un énorme bateau, l'arche. Noé a obéi. Il est monté dans l'arche avec sa famille et des animaux de toutes sortes, deux par deux. Pendant le déluge, ils étaient à l'abri. Après la pluie, Dieu a mis un arc-en-ciel dans le ciel pour promettre son amitié.",
+    "idee": "La prochaine fois que tu verras un arc-en-ciel, pense à l'amitié de Dieu."
+   },
+   "es": {
+    "nom": "Noé",
+    "histoire": "Dios pidió a Noé que construyera un barco enorme, el arca. Noé obedeció. Subió al arca con su familia y con animales de todo tipo, de dos en dos. Durante el diluvio estaban a salvo. Después de la lluvia, Dios puso un arcoíris en el cielo para prometer su amistad.",
+    "idee": "La próxima vez que veas un arcoíris, piensa en la amistad de Dios."
+   },
+   "en": {
+    "nom": "Noah",
+    "histoire": "God asked Noah to build a huge boat, the ark. Noah obeyed. He went into the ark with his family and all kinds of animals, two by two. During the flood they were safe. After the rain, God put a rainbow in the sky as a promise of his friendship.",
+    "idee": "Next time you see a rainbow, think of God's friendship."
+   }
+  },
+  {
+   "id": "pierre",
+   "fr": {
+    "nom": "Pierre",
+    "histoire": "Pierre était pêcheur sur un grand lac. Un jour, Jésus lui a dit : « Viens, suis-moi ! » Pierre a laissé ses filets et il a suivi Jésus. Il était courageux, mais il avait parfois peur et faisait des erreurs. Jésus lui a toujours pardonné, et Pierre est devenu le chef des apôtres.",
+    "idee": "Quand tu fais une erreur, tu peux demander pardon : Jésus pardonne toujours."
+   },
+   "es": {
+    "nom": "Pedro",
+    "histoire": "Pedro era pescador en un gran lago. Un día, Jesús le dijo: «¡Ven, sígueme!». Pedro dejó sus redes y siguió a Jesús. Era valiente, pero a veces tenía miedo y se equivocaba. Jesús siempre lo perdonó, y Pedro llegó a ser el jefe de los apóstoles.",
+    "idee": "Cuando te equivocas, puedes pedir perdón: Jesús siempre perdona."
+   },
+   "en": {
+    "nom": "Peter",
+    "histoire": "Peter was a fisherman on a big lake. One day Jesus said to him: “Come, follow me!” Peter left his nets and followed Jesus. He was brave, but sometimes he was afraid and made mistakes. Jesus always forgave him, and Peter became the leader of the apostles.",
+    "idee": "When you make a mistake, you can say sorry: Jesus always forgives."
+   }
+  },
+  {
+   "id": "abraham",
+   "fr": {
+    "nom": "Abraham",
+    "histoire": "Abraham vivait il y a très longtemps. Dieu lui a dit : « Pars vers le pays que je vais te montrer. » Abraham a fait confiance et il est parti avec sa femme Sara. Dieu lui a promis une famille aussi nombreuse que les étoiles du ciel. Et Sara a eu un fils, Isaac.",
+    "idee": "Ce soir, regarde les étoiles et pense à la promesse de Dieu."
+   },
+   "es": {
+    "nom": "Abrahán",
+    "histoire": "Abrahán vivió hace muchísimo tiempo. Dios le dijo: «Vete al país que yo te mostraré». Abrahán confió y se puso en camino con su esposa Sara. Dios le prometió una familia tan numerosa como las estrellas del cielo. Y Sara tuvo un hijo, Isaac.",
+    "idee": "Esta noche, mira las estrellas y piensa en la promesa de Dios."
+   },
+   "en": {
+    "nom": "Abraham",
+    "histoire": "Abraham lived a very long time ago. God said to him: “Go to the land I will show you.” Abraham trusted and set off with his wife Sarah. God promised him a family as many as the stars in the sky. And Sarah had a son, Isaac.",
+    "idee": "Tonight, look at the stars and think of God's promise."
+   }
+  },
+  {
+   "id": "zachee",
+   "temps": [
+    "careme"
+   ],
+   "fr": {
+    "nom": "Zachée",
+    "histoire": "Zachée était très petit et il n'avait pas beaucoup d'amis, parce qu'il prenait trop d'argent aux gens. Il voulait voir Jésus, alors il est monté dans un arbre. Jésus s'est arrêté et lui a dit : « Zachée, descends vite, je viens chez toi ! » Zachée était si heureux qu'il a rendu l'argent et donné aux pauvres.",
+    "idee": "Jésus aime chacun, même ceux qui ont fait des bêtises. Qui peux-tu inviter à jouer ?"
+   },
+   "es": {
+    "nom": "Zaqueo",
+    "histoire": "Zaqueo era muy bajito y no tenía muchos amigos, porque cobraba demasiado dinero a la gente. Quería ver a Jesús, así que se subió a un árbol. Jesús se paró y le dijo: «Zaqueo, baja enseguida, ¡voy a tu casa!». Zaqueo se puso tan contento que devolvió el dinero y dio a los pobres.",
+    "idee": "Jesús quiere a todos, incluso a los que se han portado mal. ¿A quién puedes invitar a jugar?"
+   },
+   "en": {
+    "nom": "Zacchaeus",
+    "histoire": "Zacchaeus was very short and did not have many friends, because he took too much money from people. He wanted to see Jesus, so he climbed a tree. Jesus stopped and said to him: “Zacchaeus, come down quickly, I'm coming to your house!” Zacchaeus was so happy that he gave the money back and gave to the poor.",
+    "idee": "Jesus loves everyone, even people who have done wrong. Who could you invite to play?"
+   }
+  },
+  {
+   "id": "bartimee",
+   "temps": [
+    "careme"
+   ],
+   "fr": {
+    "nom": "Bartimée",
+    "histoire": "Bartimée était aveugle et il demandait de l'argent au bord de la route. Quand il a entendu que Jésus passait, il a crié très fort : « Jésus, aie pitié de moi ! » Jésus l'a appelé et lui a demandé : « Que veux-tu que je fasse pour toi ? » Bartimée a dit : « Que je voie ! » Et il a vu.",
+    "idee": "Qu'est-ce que tu voudrais demander à Jésus ce soir ?"
+   },
+   "es": {
+    "nom": "Bartimeo",
+    "histoire": "Bartimeo era ciego y pedía dinero al borde del camino. Cuando oyó que pasaba Jesús, gritó muy fuerte: «¡Jesús, ten compasión de mí!». Jesús lo llamó y le preguntó: «¿Qué quieres que haga por ti?». Bartimeo dijo: «¡Que vea!». Y vio.",
+    "idee": "¿Qué te gustaría pedirle a Jesús esta noche?"
+   },
+   "en": {
+    "nom": "Bartimaeus",
+    "histoire": "Bartimaeus was blind and begged by the side of the road. When he heard that Jesus was passing by, he shouted very loudly: “Jesus, have mercy on me!” Jesus called him and asked: “What do you want me to do for you?” Bartimaeus said: “Let me see!” And he could see.",
+    "idee": "What would you like to ask Jesus tonight?"
+   }
+  },
+  {
+   "id": "samaritaine",
+   "temps": [
+    "careme"
+   ],
+   "fr": {
+    "nom": "La femme au puits",
+    "histoire": "Il faisait très chaud. Jésus était fatigué et il s'est assis près d'un puits. Une femme est venue chercher de l'eau. Jésus lui a demandé à boire, puis il lui a parlé d'une eau qui donne la vraie joie : l'amour de Dieu. La femme a couru le raconter à tout son village.",
+    "idee": "Quand tu bois un verre d'eau, tu peux dire merci à Dieu."
+   },
+   "es": {
+    "nom": "La mujer del pozo",
+    "histoire": "Hacía mucho calor. Jesús estaba cansado y se sentó junto a un pozo. Una mujer vino a sacar agua. Jesús le pidió de beber y después le habló de un agua que da la verdadera alegría: el amor de Dios. La mujer corrió a contarlo a todo su pueblo.",
+    "idee": "Cuando bebas un vaso de agua, puedes dar gracias a Dios."
+   },
+   "en": {
+    "nom": "The woman at the well",
+    "histoire": "It was very hot. Jesus was tired and sat down by a well. A woman came to draw water. Jesus asked her for a drink, then told her about a water that gives true joy: God's love. The woman ran to tell her whole village.",
+    "idee": "When you drink a glass of water, you can say thank you to God."
+   }
+  },
+  {
+   "id": "lazare",
+   "temps": [
+    "careme"
+   ],
+   "fr": {
+    "nom": "Lazare",
+    "histoire": "Lazare était un grand ami de Jésus, avec ses sœurs Marthe et Marie. Un jour, Lazare est tombé malade et il est mort. Jésus a pleuré, parce qu'il l'aimait. Puis il a appelé : « Lazare, sors ! » Et Lazare est revenu à la vie !",
+    "idee": "Jésus est triste quand nous sommes tristes. Tu peux lui confier ce qui te fait de la peine."
+   },
+   "es": {
+    "nom": "Lázaro",
+    "histoire": "Lázaro era un gran amigo de Jesús, igual que sus hermanas Marta y María. Un día, Lázaro se puso enfermo y murió. Jesús lloró, porque lo quería. Después llamó: «¡Lázaro, sal fuera!». ¡Y Lázaro volvió a la vida!",
+    "idee": "Jesús se pone triste cuando estamos tristes. Puedes contarle lo que te da pena."
+   },
+   "en": {
+    "nom": "Lazarus",
+    "histoire": "Lazarus was a good friend of Jesus, and so were his sisters Martha and Mary. One day Lazarus became ill and died. Jesus wept, because he loved him. Then he called out: “Lazarus, come out!” And Lazarus came back to life!",
+    "idee": "Jesus is sad when we are sad. You can tell him what makes you sad."
+   }
+  },
+  {
+   "id": "moise-bebe",
+   "fr": {
+    "nom": "Moïse bébé",
+    "histoire": "Il y a très longtemps, en Égypte, un méchant roi voulait faire du mal aux bébés du peuple de Dieu. La maman de Moïse l'a caché dans un panier, au bord du fleuve. La fille du roi l'a trouvé et elle l'a adopté. Dieu veillait sur lui.",
+    "idee": "Dieu veille sur toi aussi. Tu peux lui dire merci de te protéger."
+   },
+   "es": {
+    "nom": "Moisés bebé",
+    "histoire": "Hace mucho tiempo, en Egipto, un rey malo quería hacer daño a los bebés del pueblo de Dios. La mamá de Moisés lo escondió en una cesta, a la orilla del río. La hija del rey lo encontró y lo adoptó. Dios cuidaba de él.",
+    "idee": "Dios también cuida de ti. Puedes darle las gracias por protegerte."
+   },
+   "en": {
+    "nom": "Baby Moses",
+    "histoire": "A long time ago in Egypt, a wicked king wanted to harm the babies of God's people. Moses' mother hid him in a basket by the river. The king's daughter found him and adopted him. God was watching over him.",
+    "idee": "God watches over you too. You can thank him for keeping you safe."
+   }
+  },
+  {
+   "id": "moise-mer",
+   "fr": {
+    "nom": "Moïse et la mer",
+    "histoire": "Quand Moïse a été grand, Dieu lui a demandé de libérer son peuple, qui était esclave en Égypte. Ils sont partis, mais devant eux, il y avait la mer ! Moïse a levé son bâton, et Dieu a ouvert un chemin au milieu de l'eau. Tout le monde est passé à pied sec.",
+    "idee": "Quand quelque chose te fait peur, tu peux demander à Dieu de t'aider."
+   },
+   "es": {
+    "nom": "Moisés y el mar",
+    "histoire": "Cuando Moisés fue mayor, Dios le pidió que liberara a su pueblo, que era esclavo en Egipto. Se marcharon, pero ¡delante tenían el mar! Moisés levantó su bastón, y Dios abrió un camino en medio del agua. Todos pasaron a pie enjuto.",
+    "idee": "Cuando algo te da miedo, puedes pedirle a Dios que te ayude."
+   },
+   "en": {
+    "nom": "Moses and the sea",
+    "histoire": "When Moses grew up, God asked him to set his people free, because they were slaves in Egypt. They left, but in front of them was the sea! Moses lifted his staff, and God opened a path through the water. Everyone walked across on dry ground.",
+    "idee": "When something frightens you, you can ask God to help you."
+   }
+  },
+  {
+   "id": "marie-madeleine",
+   "temps": [
+    "paques"
+   ],
+   "fr": {
+    "nom": "Marie-Madeleine",
+    "histoire": "Le dimanche matin, très tôt, Marie-Madeleine est allée au tombeau de Jésus. Elle pleurait. Mais le tombeau était vide ! Quelqu'un l'a appelée : « Marie ! » C'était Jésus, vivant ! Elle a couru annoncer la bonne nouvelle aux apôtres : « J'ai vu le Seigneur ! »",
+    "idee": "Quelle bonne nouvelle peux-tu annoncer à ta famille aujourd'hui ?"
+   },
+   "es": {
+    "nom": "María Magdalena",
+    "histoire": "El domingo por la mañana, muy temprano, María Magdalena fue al sepulcro de Jesús. Lloraba. ¡Pero el sepulcro estaba vacío! Alguien la llamó: «¡María!». ¡Era Jesús, vivo! Corrió a dar la buena noticia a los apóstoles: «¡He visto al Señor!».",
+    "idee": "¿Qué buena noticia puedes contarle hoy a tu familia?"
+   },
+   "en": {
+    "nom": "Mary Magdalene",
+    "histoire": "On Sunday morning, very early, Mary Magdalene went to Jesus' tomb. She was crying. But the tomb was empty! Someone called her: “Mary!” It was Jesus, alive! She ran to tell the apostles the good news: “I have seen the Lord!”",
+    "idee": "What good news could you share with your family today?"
+   }
+  },
+  {
+   "id": "thomas",
+   "temps": [
+    "paques"
+   ],
+   "fr": {
+    "nom": "Thomas",
+    "histoire": "Thomas n'était pas là quand Jésus ressuscité est venu voir ses amis. Il a dit : « Je ne le croirai que si je le vois ! » Huit jours plus tard, Jésus est revenu et lui a dit : « Viens, regarde mes mains. » Thomas a dit : « Mon Seigneur et mon Dieu ! »",
+    "idee": "On peut parler à Jésus même quand on a des questions."
+   },
+   "es": {
+    "nom": "Tomás",
+    "histoire": "Tomás no estaba cuando Jesús resucitado vino a ver a sus amigos. Dijo: «¡Si no lo veo, no lo creo!». Ocho días después, Jesús volvió y le dijo: «Ven, mira mis manos». Tomás dijo: «¡Señor mío y Dios mío!».",
+    "idee": "Podemos hablar con Jesús incluso cuando tenemos preguntas."
+   },
+   "en": {
+    "nom": "Thomas",
+    "histoire": "Thomas was not there when the risen Jesus came to see his friends. He said: “I won't believe it unless I see him!” Eight days later Jesus came back and said to him: “Come, look at my hands.” Thomas said: “My Lord and my God!”",
+    "idee": "We can talk to Jesus even when we have questions."
+   }
+  },
+  {
+   "id": "emmaus",
+   "temps": [
+    "paques"
+   ],
+   "fr": {
+    "nom": "Les deux amis d'Emmaüs",
+    "histoire": "Deux amis de Jésus marchaient, tout tristes. Un homme a marché avec eux et leur a expliqué la Bible. Le soir, à table, il a pris le pain, il a dit merci à Dieu et il l'a partagé. Alors ils ont reconnu Jésus ! Leur cœur était tout chaud de joie.",
+    "idee": "À table, ce soir, vous pouvez dire merci à Dieu pour le repas."
+   },
+   "es": {
+    "nom": "Los dos amigos de Emaús",
+    "histoire": "Dos amigos de Jesús caminaban muy tristes. Un hombre caminó con ellos y les explicó la Biblia. Por la noche, en la mesa, tomó el pan, dio gracias a Dios y lo partió. ¡Entonces reconocieron a Jesús! Su corazón ardía de alegría.",
+    "idee": "Esta noche, en la mesa, podéis dar gracias a Dios por la comida."
+   },
+   "en": {
+    "nom": "The two friends of Emmaus",
+    "histoire": "Two friends of Jesus were walking along, very sad. A man walked with them and explained the Bible to them. In the evening, at supper, he took the bread, thanked God and broke it. Then they recognized Jesus! Their hearts were glowing with joy.",
+    "idee": "At the table tonight, you can thank God for your meal."
+   }
+  },
+  {
+   "id": "ruth",
+   "fr": {
+    "nom": "Ruth",
+    "histoire": "Ruth était étrangère. Quand son mari est mort, elle aurait pu rentrer chez elle, mais elle n'a pas voulu laisser Noémi, sa belle-mère, toute seule. Elle lui a dit : « Où tu iras, j'irai. » Elle travaillait dans les champs pour la nourrir. Ruth est devenue l'arrière-grand-mère du roi David.",
+    "idee": "Qui peux-tu aider aujourd'hui, comme Ruth ?"
+   },
+   "es": {
+    "nom": "Rut",
+    "histoire": "Rut era extranjera. Cuando murió su marido, podría haber vuelto a su tierra, pero no quiso dejar sola a Noemí, su suegra. Le dijo: «Adonde tú vayas, iré yo». Trabajaba en el campo para darle de comer. Rut llegó a ser la bisabuela del rey David.",
+    "idee": "¿A quién puedes ayudar hoy, como Rut?"
+   },
+   "en": {
+    "nom": "Ruth",
+    "histoire": "Ruth came from another country. When her husband died, she could have gone back home, but she did not want to leave Naomi, her mother-in-law, all alone. She said to her: “Where you go, I will go.” She worked in the fields to feed her. Ruth became the great-grandmother of King David.",
+    "idee": "Who could you help today, like Ruth?"
+   }
+  },
+  {
+   "id": "samuel",
+   "fr": {
+    "nom": "Samuel enfant",
+    "histoire": "Samuel était un petit garçon qui vivait au Temple avec le prêtre Éli. Une nuit, il a entendu une voix qui l'appelait : « Samuel ! » Il croyait que c'était Éli. Mais c'était Dieu ! Alors Samuel a répondu : « Parle, Seigneur, ton serviteur écoute. »",
+    "idee": "Ce soir, tu peux rester un moment en silence pour écouter Dieu dans ton cœur."
+   },
+   "es": {
+    "nom": "Samuel niño",
+    "histoire": "Samuel era un niño que vivía en el Templo con el sacerdote Elí. Una noche oyó una voz que lo llamaba: «¡Samuel!». Creía que era Elí. ¡Pero era Dios! Entonces Samuel respondió: «Habla, Señor, que tu siervo escucha».",
+    "idee": "Esta noche puedes quedarte un momento en silencio para escuchar a Dios en tu corazón."
+   },
+   "en": {
+    "nom": "Young Samuel",
+    "histoire": "Samuel was a little boy who lived in the Temple with Eli the priest. One night he heard a voice calling him: “Samuel!” He thought it was Eli. But it was God! So Samuel answered: “Speak, Lord, your servant is listening.”",
+    "idee": "Tonight you can stay quiet for a moment to listen to God in your heart."
+   }
+  },
+  {
+   "id": "david-goliath",
+   "fr": {
+    "nom": "David et Goliath",
+    "histoire": "David était un jeune berger. Goliath était un géant qui faisait peur à toute l'armée. Personne n'osait l'affronter. David a dit : « Dieu est avec moi. » Avec sa fronde et une petite pierre, il a vaincu le géant !",
+    "idee": "Même quand tu te sens petit, Dieu est avec toi."
+   },
+   "es": {
+    "nom": "David y Goliat",
+    "histoire": "David era un joven pastor. Goliat era un gigante que asustaba a todo el ejército. Nadie se atrevía a enfrentarse a él. David dijo: «Dios está conmigo». ¡Con su honda y una piedrecita venció al gigante!",
+    "idee": "Aunque te sientas pequeño, Dios está contigo."
+   },
+   "en": {
+    "nom": "David and Goliath",
+    "histoire": "David was a young shepherd. Goliath was a giant who frightened the whole army. Nobody dared to fight him. David said: “God is with me.” With his sling and one small stone, he beat the giant!",
+    "idee": "Even when you feel small, God is with you."
+   }
+  },
+  {
+   "id": "david-harpe",
+   "fr": {
+    "nom": "David le musicien",
+    "histoire": "David aimait jouer de la harpe et chanter pour Dieu. Il a écrit beaucoup de chants, les psaumes, pour dire à Dieu merci, pardon ou s'il te plaît. Le plus connu dit : « Le Seigneur est mon berger, je ne manque de rien. »",
+    "idee": "Tu peux chanter une chanson pour Dieu, même toute petite."
+   },
+   "es": {
+    "nom": "David el músico",
+    "histoire": "A David le encantaba tocar el arpa y cantar para Dios. Escribió muchos cantos, los salmos, para decirle a Dios gracias, perdón o por favor. El más conocido dice: «El Señor es mi pastor, nada me falta».",
+    "idee": "Puedes cantar una canción para Dios, aunque sea muy cortita."
+   },
+   "en": {
+    "nom": "David the musician",
+    "histoire": "David loved to play the harp and sing to God. He wrote many songs, the psalms, to tell God thank you, sorry or please. The best known says: “The Lord is my shepherd, I shall not want.”",
+    "idee": "You can sing a song to God, even a very short one."
+   }
+  },
+  {
+   "id": "salomon",
+   "fr": {
+    "nom": "Le roi Salomon",
+    "histoire": "Salomon, le fils de David, est devenu roi très jeune. Dieu lui a dit : « Demande-moi ce que tu veux. » Salomon aurait pu demander de l'or. Mais il a demandé un cœur sage, pour bien s'occuper de son peuple. Dieu était très content de sa réponse.",
+    "idee": "Si Dieu te demandait ce que tu veux, que répondrais-tu ?"
+   },
+   "es": {
+    "nom": "El rey Salomón",
+    "histoire": "Salomón, el hijo de David, llegó a ser rey muy joven. Dios le dijo: «Pídeme lo que quieras». Salomón podría haber pedido oro. Pero pidió un corazón sabio, para cuidar bien de su pueblo. A Dios le gustó mucho su respuesta.",
+    "idee": "Si Dios te preguntara qué quieres, ¿qué le responderías?"
+   },
+   "en": {
+    "nom": "King Solomon",
+    "histoire": "Solomon, David's son, became king when he was very young. God said to him: “Ask me for whatever you want.” Solomon could have asked for gold. But he asked for a wise heart, to look after his people well. God was very pleased with his answer.",
+    "idee": "If God asked you what you wanted, what would you say?"
+   }
+  },
+  {
+   "id": "elie",
+   "fr": {
+    "nom": "Le prophète Élie",
+    "histoire": "Élie était un ami de Dieu. Un jour, il avait faim et soif dans le désert. Dieu a envoyé des corbeaux qui lui apportaient du pain et de la viande, matin et soir. Plus tard, Élie a entendu Dieu, non dans le vent ni dans le tonnerre, mais dans un petit souffle très doux.",
+    "idee": "Dieu parle souvent tout doucement. Tu peux faire silence un instant pour l'écouter."
+   },
+   "es": {
+    "nom": "El profeta Elías",
+    "histoire": "Elías era amigo de Dios. Un día tenía hambre y sed en el desierto. Dios le envió unos cuervos que le llevaban pan y carne, por la mañana y por la tarde. Más tarde, Elías oyó a Dios, no en el viento ni en el trueno, sino en una brisa muy suave.",
+    "idee": "Dios habla muchas veces muy bajito. Puedes hacer silencio un momento para escucharlo."
+   },
+   "en": {
+    "nom": "The prophet Elijah",
+    "histoire": "Elijah was a friend of God. One day he was hungry and thirsty in the desert. God sent ravens that brought him bread and meat, morning and evening. Later, Elijah heard God, not in the wind or the thunder, but in a very gentle whisper.",
+    "idee": "God often speaks very softly. You can be quiet for a moment to listen."
+   }
+  },
+  {
+   "id": "jonas",
+   "fr": {
+    "nom": "Jonas",
+    "histoire": "Dieu a demandé à Jonas d'aller dans la grande ville de Ninive. Mais Jonas avait peur et il s'est enfui en bateau. Une tempête est arrivée, et Jonas a été avalé par un énorme poisson ! Dans le poisson, il a prié. Le poisson l'a recraché sur la plage, et Jonas est enfin allé à Ninive.",
+    "idee": "On peut toujours revenir vers Dieu, même quand on s'est sauvé."
+   },
+   "es": {
+    "nom": "Jonás",
+    "histoire": "Dios pidió a Jonás que fuera a la gran ciudad de Nínive. Pero Jonás tenía miedo y huyó en un barco. Llegó una tormenta, ¡y un pez enorme se tragó a Jonás! Dentro del pez, rezó. El pez lo devolvió a la playa, y por fin Jonás fue a Nínive.",
+    "idee": "Siempre podemos volver a Dios, incluso cuando nos hemos escapado."
+   },
+   "en": {
+    "nom": "Jonah",
+    "histoire": "God asked Jonah to go to the big city of Nineveh. But Jonah was afraid and ran away on a boat. A storm came, and Jonah was swallowed by an enormous fish! Inside the fish, he prayed. The fish spat him out onto the beach, and Jonah finally went to Nineveh.",
+    "idee": "We can always come back to God, even when we have run away."
+   }
+  },
+  {
+   "id": "daniel",
+   "fr": {
+    "nom": "Daniel",
+    "histoire": "Daniel priait Dieu trois fois par jour, même quand le roi l'avait interdit. On l'a jeté dans une fosse pleine de lions ! Mais Dieu a envoyé un ange qui a fermé la gueule des lions. Le lendemain matin, Daniel était sain et sauf.",
+    "idee": "Tu peux prier Dieu le matin, à midi et le soir, comme Daniel."
+   },
+   "es": {
+    "nom": "Daniel",
+    "histoire": "Daniel rezaba a Dios tres veces al día, aunque el rey lo había prohibido. ¡Lo echaron a un foso lleno de leones! Pero Dios envió un ángel que cerró la boca de los leones. A la mañana siguiente, Daniel estaba sano y salvo.",
+    "idee": "Puedes rezar a Dios por la mañana, a mediodía y por la noche, como Daniel."
+   },
+   "en": {
+    "nom": "Daniel",
+    "histoire": "Daniel prayed to God three times a day, even when the king had forbidden it. He was thrown into a pit full of lions! But God sent an angel who shut the lions' mouths. The next morning, Daniel was safe and sound.",
+    "idee": "You can pray to God in the morning, at midday and in the evening, like Daniel."
+   }
+  },
+  {
+   "id": "esther",
+   "fr": {
+    "nom": "La reine Esther",
+    "histoire": "Esther était une jeune femme juive devenue reine. Un méchant homme voulait faire du mal à tout son peuple. Esther a prié, puis elle a eu le courage d'aller voir le roi pour le supplier. Grâce à elle, son peuple a été sauvé.",
+    "idee": "Le courage, c'est aussi oser parler pour défendre les autres."
+   },
+   "es": {
+    "nom": "La reina Ester",
+    "histoire": "Ester era una joven judía que llegó a ser reina. Un hombre malo quería hacer daño a todo su pueblo. Ester rezó y después tuvo el valor de ir a ver al rey para suplicarle. Gracias a ella, su pueblo se salvó.",
+    "idee": "Ser valiente también es atreverse a hablar para defender a los demás."
+   },
+   "en": {
+    "nom": "Queen Esther",
+    "histoire": "Esther was a young Jewish woman who became queen. A wicked man wanted to harm all her people. Esther prayed, and then she found the courage to go to the king and plead with him. Thanks to her, her people were saved.",
+    "idee": "Being brave also means daring to speak up for others."
+   }
+  },
+  {
+   "id": "tobie",
+   "fr": {
+    "nom": "Tobie et l'ange",
+    "histoire": "Tobie a fait un long voyage pour aider son papa aveugle. Un compagnon de route l'accompagnait et le protégeait : c'était l'ange Raphaël, mais Tobie ne le savait pas ! À son retour, il a guéri les yeux de son père.",
+    "idee": "Ton ange gardien t'accompagne toi aussi. Tu peux lui dire bonsoir."
+   },
+   "es": {
+    "nom": "Tobías y el ángel",
+    "histoire": "Tobías hizo un largo viaje para ayudar a su papá, que estaba ciego. Un compañero de camino lo acompañaba y lo protegía: ¡era el ángel Rafael, pero Tobías no lo sabía! Al volver, curó los ojos de su padre.",
+    "idee": "Tu ángel de la guarda también te acompaña. Puedes darle las buenas noches."
+   },
+   "en": {
+    "nom": "Tobias and the angel",
+    "histoire": "Tobias went on a long journey to help his father, who was blind. A travelling companion went with him and protected him: it was the angel Raphael, but Tobias did not know! When he came home, he healed his father's eyes.",
+    "idee": "Your guardian angel goes with you too. You can say good night to him."
+   }
+  },
+  {
+   "id": "andre",
+   "fr": {
+    "nom": "André",
+    "histoire": "André était pêcheur, comme son frère Pierre. Un jour, il a rencontré Jésus et il est resté avec lui toute la journée. Il était si heureux qu'il a couru chercher son frère : « Nous avons trouvé le Messie ! » Il a amené Pierre à Jésus.",
+    "idee": "À qui pourrais-tu parler de Jésus ?"
+   },
+   "es": {
+    "nom": "Andrés",
+    "histoire": "Andrés era pescador, como su hermano Pedro. Un día conoció a Jesús y se quedó con él todo el día. Estaba tan contento que corrió a buscar a su hermano: «¡Hemos encontrado al Mesías!». Y llevó a Pedro hasta Jesús.",
+    "idee": "¿A quién podrías hablarle de Jesús?"
+   },
+   "en": {
+    "nom": "Andrew",
+    "histoire": "Andrew was a fisherman, like his brother Peter. One day he met Jesus and stayed with him all day. He was so happy that he ran to find his brother: “We have found the Messiah!” And he brought Peter to Jesus.",
+    "idee": "Who could you tell about Jesus?"
+   }
+  },
+  {
+   "id": "enfant-pains",
+   "fr": {
+    "nom": "Le garçon aux cinq pains",
+    "histoire": "Une grande foule écoutait Jésus et tout le monde avait faim. Un petit garçon avait cinq pains et deux poissons. Il les a donnés à Jésus. Jésus a dit merci à Dieu et les a partagés : il y en a eu assez pour plus de cinq mille personnes !",
+    "idee": "Même un petit partage peut devenir très grand avec Jésus."
+   },
+   "es": {
+    "nom": "El niño de los cinco panes",
+    "histoire": "Una gran multitud escuchaba a Jesús y todos tenían hambre. Un niño tenía cinco panes y dos peces. Se los dio a Jesús. Jesús dio gracias a Dios y los repartió: ¡hubo bastante para más de cinco mil personas!",
+    "idee": "Incluso un pequeño gesto de compartir puede hacerse muy grande con Jesús."
+   },
+   "en": {
+    "nom": "The boy with five loaves",
+    "histoire": "A big crowd was listening to Jesus, and everyone was hungry. A little boy had five loaves and two fish. He gave them to Jesus. Jesus thanked God and shared them out: there was enough for more than five thousand people!",
+    "idee": "Even a small act of sharing can become very big with Jesus."
+   }
+  },
+  {
+   "id": "fille-jaire",
+   "fr": {
+    "nom": "La fille de Jaïre",
+    "histoire": "Jaïre était le papa d'une fillette de douze ans, très malade. Il a supplié Jésus de venir. Quand Jésus est arrivé, on lui a dit qu'elle était morte. Jésus a pris sa main et a dit : « Talitha koum », ce qui veut dire « Petite fille, lève-toi ! » Et elle s'est levée.",
+    "idee": "Jésus aime les enfants. Tu peux lui confier ceux qui sont malades."
+   },
+   "es": {
+    "nom": "La hija de Jairo",
+    "histoire": "Jairo era el papá de una niña de doce años muy enferma. Le suplicó a Jesús que viniera. Cuando Jesús llegó, le dijeron que había muerto. Jesús le tomó la mano y dijo: «Talitha kum», que quiere decir «¡Niña, levántate!». Y ella se levantó.",
+    "idee": "Jesús quiere a los niños. Puedes confiarle a los que están enfermos."
+   },
+   "en": {
+    "nom": "Jairus' daughter",
+    "histoire": "Jairus was the father of a twelve-year-old girl who was very ill. He begged Jesus to come. When Jesus arrived, they told him she had died. Jesus took her hand and said: “Talitha koum,” which means “Little girl, get up!” And she got up.",
+    "idee": "Jesus loves children. You can pray to him for those who are ill."
+   }
+  },
+  {
+   "id": "marthe-marie",
+   "fr": {
+    "nom": "Marthe et Marie",
+    "histoire": "Jésus est venu chez ses amies Marthe et Marie. Marthe courait partout pour préparer le repas. Marie, elle, s'est assise près de Jésus pour l'écouter. Jésus a dit à Marthe que Marie avait choisi le plus important : être avec lui.",
+    "idee": "Aujourd'hui, prends un petit moment rien que pour être avec Jésus."
+   },
+   "es": {
+    "nom": "Marta y María",
+    "histoire": "Jesús fue a casa de sus amigas Marta y María. Marta corría de un lado a otro preparando la comida. María, en cambio, se sentó junto a Jesús para escucharlo. Jesús le dijo a Marta que María había elegido lo más importante: estar con él.",
+    "idee": "Hoy, busca un ratito solo para estar con Jesús."
+   },
+   "en": {
+    "nom": "Martha and Mary",
+    "histoire": "Jesus came to the house of his friends Martha and Mary. Martha rushed about getting the meal ready. Mary sat down next to Jesus to listen to him. Jesus told Martha that Mary had chosen the most important thing: being with him.",
+    "idee": "Today, take a little moment just to be with Jesus."
+   }
+  },
+  {
+   "id": "veuve",
+   "fr": {
+    "nom": "La veuve et ses deux pièces",
+    "histoire": "Au Temple, des gens riches donnaient beaucoup d'argent. Une dame pauvre a donné deux toutes petites pièces. Jésus a dit : « Elle a donné plus que tous les autres, car elle a donné tout ce qu'elle avait. » Pour Dieu, ce qui compte, c'est le cœur.",
+    "idee": "Donner avec le cœur, même un tout petit peu, c'est beaucoup pour Dieu."
+   },
+   "es": {
+    "nom": "La viuda y sus dos monedas",
+    "histoire": "En el Templo, algunos ricos daban mucho dinero. Una señora pobre dio dos monedas muy pequeñas. Jesús dijo: «Ella ha dado más que todos, porque ha dado todo lo que tenía». Para Dios, lo que cuenta es el corazón.",
+    "idee": "Dar con el corazón, aunque sea muy poquito, es mucho para Dios."
+   },
+   "en": {
+    "nom": "The widow's two coins",
+    "histoire": "In the Temple, rich people were giving lots of money. A poor woman gave two tiny coins. Jesus said: “She has given more than all the others, because she gave all she had.” For God, what counts is the heart.",
+    "idee": "Giving with your heart, even a very little, means a lot to God."
+   }
+  },
+  {
+   "id": "nicodeme",
+   "fr": {
+    "nom": "Nicodème",
+    "histoire": "Nicodème était un homme savant. Il avait plein de questions, alors il est venu voir Jésus la nuit, en cachette. Jésus lui a expliqué que Dieu aime tellement le monde qu'il a donné son Fils. Plus tard, Nicodème a aidé à prendre soin du corps de Jésus.",
+    "idee": "Tu as des questions sur Dieu ? Tu peux les poser à tes parents."
+   },
+   "es": {
+    "nom": "Nicodemo",
+    "histoire": "Nicodemo era un hombre sabio. Tenía muchas preguntas, así que fue a ver a Jesús de noche, a escondidas. Jesús le explicó que Dios ama tanto al mundo que le ha dado a su Hijo. Más tarde, Nicodemo ayudó a cuidar el cuerpo de Jesús.",
+    "idee": "¿Tienes preguntas sobre Dios? Puedes hacérselas a tus padres."
+   },
+   "en": {
+    "nom": "Nicodemus",
+    "histoire": "Nicodemus was a learned man. He had lots of questions, so he came to see Jesus at night, in secret. Jesus explained to him that God loves the world so much that he gave his Son. Later, Nicodemus helped to care for Jesus' body.",
+    "idee": "Do you have questions about God? You can ask your parents."
+   }
+  },
+  {
+   "id": "paul",
+   "fr": {
+    "nom": "Paul",
+    "histoire": "Paul n'aimait pas les amis de Jésus. Un jour, sur la route de Damas, une grande lumière l'a fait tomber, et il a entendu Jésus lui parler. Paul a changé de vie ! Il a fait de longs voyages en bateau pour parler de Jésus partout, et il a écrit beaucoup de lettres.",
+    "idee": "Tu peux écrire un petit mot gentil à quelqu'un, comme Paul écrivait ses lettres."
+   },
+   "es": {
+    "nom": "Pablo",
+    "histoire": "A Pablo no le gustaban los amigos de Jesús. Un día, en el camino de Damasco, una gran luz lo hizo caer, y oyó a Jesús que le hablaba. ¡Pablo cambió de vida! Hizo largos viajes en barco para hablar de Jesús por todas partes, y escribió muchas cartas.",
+    "idee": "Puedes escribir una notita cariñosa a alguien, como Pablo escribía sus cartas."
+   },
+   "en": {
+    "nom": "Paul",
+    "histoire": "Paul did not like Jesus' friends. One day, on the road to Damascus, a great light made him fall, and he heard Jesus speaking to him. Paul changed his life! He went on long journeys by boat to tell everyone about Jesus, and he wrote many letters.",
+    "idee": "You can write a kind little note to someone, like Paul wrote his letters."
+   }
+  },
+  {
+   "id": "jacob",
+   "fr": {
+    "nom": "Jacob et l'échelle",
+    "histoire": "Jacob était parti loin de chez lui. Une nuit, il a dormi dehors, la tête sur une pierre. Il a rêvé d'une grande échelle qui montait jusqu'au ciel, avec des anges qui montaient et descendaient. Dieu lui a dit : « Je suis avec toi, je te garderai partout où tu iras. »",
+    "idee": "Avant de dormir, tu peux dire : « Merci Dieu d'être avec moi partout. »"
+   },
+   "es": {
+    "nom": "Jacob y la escalera",
+    "histoire": "Jacob se había ido lejos de su casa. Una noche durmió al aire libre, con la cabeza sobre una piedra. Soñó con una gran escalera que subía hasta el cielo, con ángeles que subían y bajaban. Dios le dijo: «Yo estoy contigo, te guardaré dondequiera que vayas».",
+    "idee": "Antes de dormir, puedes decir: «Gracias, Dios, por estar conmigo en todas partes»."
+   },
+   "en": {
+    "nom": "Jacob's ladder",
+    "histoire": "Jacob had gone far from home. One night he slept outside, with his head on a stone. He dreamed of a great ladder that reached up to heaven, with angels going up and down. God said to him: “I am with you, I will keep you wherever you go.”",
+    "idee": "Before you sleep, you can say: “Thank you, God, for being with me everywhere.”"
+   }
+  },
+  {
+   "id": "joseph-egypte",
+   "fr": {
+    "nom": "Joseph et ses frères",
+    "histoire": "Joseph avait onze frères. Ils étaient jaloux de lui et l'ont vendu à des marchands. Joseph est devenu un homme important en Égypte. Des années plus tard, ses frères sont venus chercher de la nourriture. Joseph aurait pu se venger, mais il leur a pardonné et les a serrés dans ses bras.",
+    "idee": "Y a-t-il quelqu'un à qui tu pourrais pardonner ?"
+   },
+   "es": {
+    "nom": "José y sus hermanos",
+    "histoire": "José tenía once hermanos. Le tenían envidia y lo vendieron a unos mercaderes. José llegó a ser un hombre importante en Egipto. Muchos años después, sus hermanos vinieron a buscar comida. José podría haberse vengado, pero los perdonó y los abrazó.",
+    "idee": "¿Hay alguien a quien podrías perdonar?"
+   },
+   "en": {
+    "nom": "Joseph and his brothers",
+    "histoire": "Joseph had eleven brothers. They were jealous of him and sold him to some merchants. Joseph became an important man in Egypt. Years later, his brothers came looking for food. Joseph could have taken revenge, but he forgave them and hugged them.",
+    "idee": "Is there someone you could forgive?"
+   }
+  },
+  {
+   "id": "josue",
+   "fr": {
+    "nom": "Josué et Jéricho",
+    "histoire": "Josué guidait le peuple de Dieu. Devant eux, il y avait la ville de Jéricho, avec de grands murs. Dieu leur a dit de faire le tour de la ville pendant sept jours, en jouant de la trompette. Le septième jour, ils ont crié, et les murs sont tombés !",
+    "idee": "Faire confiance à Dieu, c'est parfois suivre son chemin même quand on ne comprend pas tout."
+   },
+   "es": {
+    "nom": "Josué y Jericó",
+    "histoire": "Josué guiaba al pueblo de Dios. Delante de ellos estaba la ciudad de Jericó, con grandes murallas. Dios les dijo que dieran la vuelta a la ciudad durante siete días tocando la trompeta. ¡El séptimo día gritaron, y las murallas se cayeron!",
+    "idee": "Confiar en Dios es a veces seguir su camino aunque no lo entendamos todo."
+   },
+   "en": {
+    "nom": "Joshua and Jericho",
+    "histoire": "Joshua led God's people. In front of them was the city of Jericho, with high walls. God told them to march around the city for seven days, blowing trumpets. On the seventh day they shouted, and the walls fell down!",
+    "idee": "Trusting God sometimes means following his way even when we don't understand everything."
+   }
+  },
+  {
+   "id": "myriam",
+   "fr": {
+    "nom": "Myriam",
+    "histoire": "Myriam était la grande sœur de Moïse. Quand il était bébé dans son panier, elle le surveillait, cachée dans les roseaux. Plus tard, après la traversée de la mer, elle a pris un tambourin et elle a dansé et chanté pour remercier Dieu.",
+    "idee": "Tu peux danser ou chanter pour dire merci à Dieu."
+   },
+   "es": {
+    "nom": "Miriam",
+    "histoire": "Miriam era la hermana mayor de Moisés. Cuando él era un bebé en su cesta, ella lo vigilaba escondida entre los juncos. Más tarde, después de cruzar el mar, tomó un pandero y bailó y cantó para dar gracias a Dios.",
+    "idee": "Puedes bailar o cantar para dar gracias a Dios."
+   },
+   "en": {
+    "nom": "Miriam",
+    "histoire": "Miriam was Moses' big sister. When he was a baby in his basket, she watched over him, hidden in the reeds. Later, after crossing the sea, she took a tambourine and danced and sang to thank God.",
+    "idee": "You can dance or sing to say thank you to God."
+   }
+  },
+  {
+   "id": "timothee",
+   "fr": {
+    "nom": "Timothée",
+    "histoire": "Timothée était un jeune homme qui aimait Jésus. Sa maman Eunice et sa grand-mère Loïs lui avaient appris la foi quand il était petit. Il est devenu l'ami et le compagnon de voyage de Paul.",
+    "idee": "Qui t'a parlé de Jésus pour la première fois ? Tu peux prier pour cette personne."
+   },
+   "es": {
+    "nom": "Timoteo",
+    "histoire": "Timoteo era un joven que quería mucho a Jesús. Su mamá Eunice y su abuela Loida le habían enseñado la fe cuando era pequeño. Llegó a ser amigo y compañero de viaje de Pablo.",
+    "idee": "¿Quién te habló de Jesús por primera vez? Puedes rezar por esa persona."
+   },
+   "en": {
+    "nom": "Timothy",
+    "histoire": "Timothy was a young man who loved Jesus. His mother Eunice and his grandmother Lois had taught him the faith when he was little. He became Paul's friend and travelling companion.",
+    "idee": "Who first told you about Jesus? You can pray for that person."
+   }
+  }
+ ]
+}

@@ -114,7 +114,9 @@
   "pour-toi": "Pour toi aujourd'hui",
   "pour-finir": "Pour finir",
   "la-fete": "La fête du jour",
-  "le-temps": "Le temps liturgique"
+  "le-temps": "Le temps liturgique",
+  "personnage-jour": "Personnage du jour",
+  "autres-prieres-enfants": "D’autres prières à dire ensemble"
  },
  "es": {
   "onglet.accueil": "Hoy",
@@ -230,7 +232,9 @@
   "pour-toi": "Para ti hoy",
   "pour-finir": "Para terminar",
   "la-fete": "La fiesta del día",
-  "le-temps": "El tiempo litúrgico"
+  "le-temps": "El tiempo litúrgico",
+  "personnage-jour": "Personaje del día",
+  "autres-prieres-enfants": "Otras oraciones para rezar juntos"
  },
  "en": {
   "onglet.accueil": "Today",
@@ -346,6 +350,8 @@
   "pour-toi": "For you today",
   "pour-finir": "To finish",
   "la-fete": "Today’s feast",
-  "le-temps": "The liturgical season"
+  "le-temps": "The liturgical season",
+  "personnage-jour": "Bible character of the day",
+  "autres-prieres-enfants": "Other prayers to say together"
  }
 }

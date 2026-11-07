@@ -32,6 +32,7 @@ const donnees = {
   ui: json('i18n/ui.json'),
   i18n: { es: json('i18n/es.json'), en: json('i18n/en.json') },
   guideFamilleFr: json('guide-famille.json'),
+  personnages: json('famille-personnages.json').personnages,
   messe: json('messe.json'),
   auteurs: json('auteurs.json'),
   abreviations: json('abreviations.json')
