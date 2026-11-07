@@ -1,33 +1,50 @@
-// Le titre du jour (data/jours.json) : un titre pour chacun des 366 jours, court, sans injonction.
+// Le titre du jour (data/jours.json) : un titre pour chacun des 366 jours, en français, espagnol et anglais,
+// court, sans injonction ; les jours des temps forts (data/temps.json) dans les trois langues.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 
-const jours = JSON.parse(readFileSync(new URL('../data/jours.json', import.meta.url))).fr;
+const TOUS = JSON.parse(readFileSync(new URL('../data/jours.json', import.meta.url)));
+const TEMPS = JSON.parse(readFileSync(new URL('../data/temps.json', import.meta.url)));
+const INJ = {
+  fr: /\b(tu dois|vous devez|il faut)\b/i,
+  es: /\b(debes|tienes que|hay que|debéis)\b/i,
+  en: /\b(you must|you have to|you should)\b/i
+};
+const sansCitation = (s) => s.replace(/«[^»]*»/g, '').replace(/“[^”]*”/g, '');
 
-test('jours : un titre et une phrase pour chacun des 366 jours', () => {
-  for (let t = Date.UTC(2024, 0, 1); t < Date.UTC(2025, 0, 1); t += 864e5) {
-    const k = new Date(t).toISOString().slice(5, 10), x = jours[k];
-    assert.ok(Array.isArray(x) && (x.length === 2 || x.length === 3), `jour ${k} absent`);
-    if (x[2]) for (const c of ['qui', 'sens', 'vivre']) { assert.ok(typeof x[2][c] === 'string' && x[2][c].length > 20, `${k} : « ${c} » manque`); assert.doesNotMatch(x[2][c].replace(/«[^»]*»/g, ''), /\b(tu dois|vous devez|il faut)\b/i, k); } // une citation entre guillemets reste telle quelle
-    assert.ok(x[0].length > 2 && x[0].length <= 50, `titre trop long : ${k}`);
-    assert.ok(x[1].length > 10 && x[1].length <= 140, `phrase trop longue : ${k}`);
-    assert.match(x[1], /[.!?»)]$/, `phrase sans point final : ${k}`);
-    assert.doesNotMatch(x[1], /\b(tu dois|vous devez|il faut)\b/i, k);
-  }
-  assert.equal(Object.keys(jours).length, 366);
-});
+for (const l of ['fr', 'es', 'en']) {
+  const jours = TOUS[l];
+  test(`jours (${l}) : un titre et une phrase pour chacun des 366 jours`, () => {
+    assert.ok(jours, `${l} absent`);
+    for (let t = Date.UTC(2024, 0, 1); t < Date.UTC(2025, 0, 1); t += 864e5) {
+      const k = new Date(t).toISOString().slice(5, 10), x = jours[k], f = TOUS.fr[k];
+      assert.ok(Array.isArray(x) && (x.length === 2 || x.length === 3), `jour ${k} absent`);
+      assert.equal(x.length, f.length, `${l} ${k} : pas la même forme qu'en français`);
+      if (x[2]) {
+        for (const c of ['qui', 'sens', 'vivre']) { assert.ok(typeof x[2][c] === 'string' && x[2][c].length > 20, `${l} ${k} : « ${c} » manque`); assert.doesNotMatch(sansCitation(x[2][c]), INJ[l], `${l} ${k}`); }
+        assert.equal(!!x[2].fort, !!f[2].fort, `${l} ${k} : « fort » différent`);
+      }
+      assert.ok(x[0].length > 2 && x[0].length <= 55, `titre trop long : ${l} ${k}`);
+      assert.ok(x[1].length > 10 && x[1].length <= 150, `phrase trop longue : ${l} ${k}`);
+      assert.match(x[1], /[.!?»)”]$/, `phrase sans point final : ${l} ${k}`);
+      assert.doesNotMatch(sansCitation(x[1]), INJ[l], `${l} ${k}`);
+    }
+    assert.equal(Object.keys(jours).length, 366);
+  });
 
-test('jours : jamais deux fois le même titre', () => {
-  const vus = new Set();
-  for (const [k, [t]] of Object.entries(jours)) { assert.ok(!vus.has(t), `doublon ${t} (${k})`); vus.add(t); }
-});
+  test(`jours (${l}) : jamais deux fois le même titre`, () => {
+    const vus = new Set();
+    for (const [k, [t]] of Object.entries(jours)) { assert.ok(!vus.has(t), `doublon ${t} (${k})`); vus.add(t); }
+  });
 
-const temps = JSON.parse(readFileSync(new URL('../data/temps.json', import.meta.url))).fr;
-test('temps forts : un titre pour chaque jour possible de chaque temps', () => {
-  const min = { avent: 20, noel: 20, careme: 43, paques: 50 };
-  for (const [s, n] of Object.entries(min)) {
-    assert.ok(temps[s].length >= n, `${s} : ${temps[s].length} < ${n}`);
-    for (const x of temps[s]) { assert.equal(x.length, 2); assert.doesNotMatch(x[1], /\b(tu dois|vous devez|il faut)\b/i); }
-  }
-});
+  test(`temps forts (${l}) : un titre pour chaque jour possible de chaque temps`, () => {
+    const temps = TEMPS[l], min = { avent: 20, noel: 20, careme: 43, paques: 50 };
+    assert.ok(temps, `${l} absent`);
+    for (const [s, n] of Object.entries(min)) {
+      assert.equal(temps[s].length, TEMPS.fr[s].length, `${l} ${s}`);
+      assert.ok(temps[s].length >= n, `${s} : ${temps[s].length} < ${n}`);
+      for (const x of temps[s]) { assert.equal(x.length, 2); assert.doesNotMatch(sansCitation(x[1]), INJ[l]); }
+    }
+  });
+}
