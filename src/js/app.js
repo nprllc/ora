@@ -216,7 +216,7 @@
       guideFamille: tr['guide-famille'] || b.guideFamilleFr,
       messe: b.messe ? (b.messe[LANG] || b.messe.fr) : null,
       fetes: fr.fetes, auteurs: b.auteurs || {}, abr: (b.abreviations || {})[LANG] || {},
-      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, biblio: b.bibliotheque || {}, evangiles: b.evangiles || null, jours: b.jours || {}, temps: b.temps || {}, personnages: b.personnages || [], pj: b.prieresJour, contenus: b.contenus
+      lect: b.lectionnaire.cles, coeurs: b.coeurs || {}, biblio: b.bibliotheque || {}, evangiles: b.evangiles || null, jours: b.jours || {}, temps: b.temps || {}, personnages: b.personnages || [], motsEnfants: b.motsEnfants || [], evEnfants: b.evangilesEnfants || null, pj: b.prieresJour, contenus: b.contenus
     };
     OraLiturgie.langue(LANG);
     OraLiturgie.region(regionChoisie());
@@ -269,7 +269,7 @@
       var temps = liste.filter(function (x) { return x.temps && x.temps.indexOf(s) >= 0; });
       var libres = liste.filter(function (x) { return !x.date && !x.temps; });
       var x = date || (js != null && temps[js]) || (libres.length ? libres[n % libres.length] : null);
-      if (x) { c = c || {}; c[r] = x[LANG]; }
+      if (x) { c = c || {}; c[r] = x[LANG]; if (x.enfant && x.enfant[LANG]) c[r + 'Enfant'] = x.enfant[LANG]; }
     });
     return c;
   }
@@ -369,7 +369,7 @@
     if (p.texte) html += section(p.etiquette, blocPriere(p));
     var e = evangile(a);
     if (e && e.attente) html += section(T('evangile-jour'), '<p class="charge">…</p>');
-    else if (e) html += section(T('evangile-jour'), (a.lect.titre && LANG === 'fr' ? '<p class="ev-titre">' + esc(a.lect.titre) + '</p>' : '') + versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>', 'evangile', e.coeur.length < e.liste.length || c ? T('mediter') : T('lire'));
+    else if (e) html += section(T('evangile-jour'), (a.lect.titre && a.lect.titre[LANG] ? '<p class="ev-titre">' + esc(a.lect.titre[LANG]) + '</p>' : '') + versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>', 'evangile', e.coeur.length < e.liste.length || c ? T('mediter') : T('lire'));
     html += respiration();
     if (c) {
       var cit = c.citation;
@@ -673,25 +673,37 @@
     var h = '<section class="vue page enfant"><p class="surtitre">' + esc(T('onglet.famille')) + '</p><h2>' + esc(T('famille-titre')) + '</h2><p class="chapeau">' + esc(T('famille-chapeau')) + '</p><div class="sections">';
     var p = priereDuMoment(a, true);
     if (p.texte) h += section(p.etiquette, blocPriere(p));
-    // Deuxième place, bien en vue : le petit rituel du soir à faire ensemble.
+    // L'Évangile des enfants : un passage court choisi pour eux, jamais celui des adultes du même jour.
+    var le = evangileEnfant(a), e = le && evangile({ lect: le });
+    if (e && !e.attente) h += section(T('evangile-jour'), '<p class="ev-titre">' + esc(le.titre[LANG] || le.titre.fr) + '</p>' + versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>');
+    h += respiration();
+    // Le rituel du coucher, bien en vue.
     var g = D.guideFamille;
-    if (g) h += '<div class="vedette">' + section(T('prier-ensemble'), '<p class="s-titre">' + esc(g.titre) + '</p><p class="s-accroche">' + esc(g.intro) + '</p><ol class="etapes-rituel">' +
+    if (g) h += '<div class="vedette">' + section(T('rituel-coucher'), '<p class="s-titre">' + esc(g.titre) + '</p><p class="s-accroche">' + esc(g.intro) + '</p><ol class="etapes-rituel">' +
       g.etapes.map(function (x) { return '<li>' + esc(x.mot) + '</li>'; }).join('') + '</ol>' + (g.duree ? '<p class="s-ref">' + esc(g.duree) + '</p>' : ''), { action: 'guide', id: 'famille-soir' }, T('commencer')) + '</div>';
-    var e = evangile(a);
-    if (e && !e.attente) h += section(T('evangile-jour'), versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>' + (k && k.evangile ? '<p class="s-accroche">' + lexique(k.evangile.explication) + '</p>' : ''));
     var pj = personnageDuJour(a.j);
     if (pj) h += section(T('personnage-jour'), '<p class="s-titre">' + esc(pj.nom) + '</p><p class="s-accroche">' + lexique(pj.histoire) + '</p>' + (pj.idee ? '<p class="question">' + esc(pj.idee) + '</p>' : ''));
+    var rf = (k && k.reflexion) || (a.c && a.c.reflexionEnfant);
+    if (rf) h += section(T('reflexion-jour'), '<p class="s-titre">' + esc(rf.titre) + '</p><p class="s-accroche">' + lexique(rf.texte) + '</p>' + (rf.question ? '<p class="question">' + esc(rf.question) + '</p>' : ''));
     if (k) {
       if (k.citation) h += section(T('citation-jour'), '<blockquote class="s-citation">' + guillemets(esc(k.citation.texte)) + '</blockquote><p class="s-ref">' + auteur(k.citation) + '</p>');
-      if (k.reflexion) h += section(T('reflexion-jour'), '<p class="s-titre">' + esc(k.reflexion.titre) + '</p><p class="s-accroche">' + lexique(k.reflexion.texte) + '</p>' + (k.reflexion.question ? '<p class="question">' + esc(k.reflexion.question) + '</p>' : ''));
       if (k.histoire) h += section(T('histoire-jour'), '<p class="s-titre">' + esc(k.histoire.titre) + '</p><p class="s-accroche">' + lexique(k.histoire.texte) + '</p>');
       if (k.portrait) h += section(T('portrait-jour'), '<p class="s-titre">' + esc(k.portrait.nom) + '</p><p class="s-accroche">' + lexique(k.portrait.texte) + '</p>' + (k.portrait.idee ? '<p class="question">' + esc(k.portrait.idee) + '</p>' : ''));
     }
-    h += '</div><p class="groupe">' + esc(T('autres-prieres-enfants')) + '</p><div class="rubriques">' +
-      rubrique('<span class="titre-r">' + esc(titrePriere('ange-de-dieu')) + '</span><span class="texte-r">' + esc(T('ange-desc')) + '</span>', { action: 'priere', id: 'ange-de-dieu' }) +
-      rubrique('<span class="titre-r">' + esc(titrePriere('benedicite')) + '</span><span class="texte-r">' + esc(T('benedicite-desc')) + '</span>', { action: 'priere', id: 'benedicite' }) +
-      '</div></section>';
-    return h;
+    h += bougie();
+    var m = motEnfant(a.j);
+    if (m) h += section(T('mot-jour'), '<p class="s-titre">' + esc(m.mot) + '</p><p class="s-accroche">' + esc(m.def) + '</p>');
+    return h + '</div></section>';
+  }
+  // L'Évangile des enfants : par temps liturgique (le Triduum prend le Carême), au fil des jours ;
+  // s'il tombe sur le passage des adultes du jour, on prend le suivant.
+  function evangileEnfant(a) {
+    var E = D.evEnfants, j = a.j; if (!E || !j) return null;
+    var s = j.saison.id === 'triduum' ? 'careme' : j.saison.id, pool = E[s] && E[s].length ? E[s] : E.ordinaire;
+    var n = (pool === E[s] && s !== 'ordinaire' && j.jourSaison != null) ? j.jourSaison : numeroJour(j);
+    var x = pool[n % pool.length];
+    if (a.lect && x.ref === a.lect.ref) x = pool[(n + 1) % pool.length];
+    return x;
   }
   // Personnage du jour : pendant l'Avent, Noël, le Carême et le temps pascal, les personnages de ce temps ;
   // le reste de l'année, les autres, l'un après l'autre (deux jours de suite ne donnent jamais le même).
@@ -700,8 +712,13 @@
     var s = j.saison.id === 'triduum' ? 'careme' : j.saison.id;
     var du = tous.filter(function (x) { return x.temps && x.temps.indexOf(s) >= 0; }), n;
     if (du.length) n = j.jourSaison || 0;
-    else { du = tous.filter(function (x) { return !x.temps; }); var d = new Date(j.date + 'T12:00:00'); n = Math.round((d - new Date(d.getFullYear(), 0, 1, 12)) / 864e5); }
+    else { du = tous.filter(function (x) { return !x.temps; }); n = numeroJour(j); }
     var x = du[n % du.length]; return x && (x[LANG] || x.fr);
+  }
+  function numeroJour(j) { var d = new Date(j.date + 'T12:00:00'); return Math.round((d - new Date(d.getFullYear(), 0, 1, 12)) / 864e5); }
+  function motEnfant(j) {
+    var mots = D.motsEnfants; if (!mots.length || !j) return null;
+    var x = mots[(numeroJour(j) * 7) % mots.length]; return x[LANG] || x.fr;
   }
   function titrePriere(id) { var p = D.prieres.traditionnelles.filter(function (x) { return x.id === id; })[0]; return p ? p.titre : id; }
 

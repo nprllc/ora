@@ -1,0 +1,725 @@
+{
+ "_note": "Mot du jour d'« En famille » : le vocabulaire de la foi expliqué aux 4-8 ans.",
+ "mots": [
+  {
+   "id": "dieu",
+   "fr": {
+    "mot": "Dieu",
+    "def": "Dieu a créé le monde et tout ce qui existe. Il est plus grand que tout, et il aime chacun de nous comme un papa très tendre."
+   },
+   "es": {
+    "mot": "Dios",
+    "def": "Dios creó el mundo y todo lo que existe. Es más grande que todo, y nos quiere a cada uno como un papá muy cariñoso."
+   },
+   "en": {
+    "mot": "God",
+    "def": "God made the world and everything in it. He is greater than everything, and he loves each of us like a very loving father."
+   }
+  },
+  {
+   "id": "jesus",
+   "fr": {
+    "mot": "Jésus",
+    "def": "Jésus est le Fils de Dieu. Il est né à Bethléem, il a grandi comme un enfant, et il nous a montré combien Dieu nous aime."
+   },
+   "es": {
+    "mot": "Jesús",
+    "def": "Jesús es el Hijo de Dios. Nació en Belén, creció como un niño y nos enseñó cuánto nos quiere Dios."
+   },
+   "en": {
+    "mot": "Jesus",
+    "def": "Jesus is the Son of God. He was born in Bethlehem, he grew up like any child, and he showed us how much God loves us."
+   }
+  },
+  {
+   "id": "esprit-saint",
+   "fr": {
+    "mot": "Esprit Saint",
+    "def": "L'Esprit Saint, c'est Dieu qui vit dans notre cœur. On ne le voit pas, comme le vent, mais il nous aide à aimer et à être courageux."
+   },
+   "es": {
+    "mot": "Espíritu Santo",
+    "def": "El Espíritu Santo es Dios que vive en nuestro corazón. No lo vemos, como el viento, pero nos ayuda a amar y a ser valientes."
+   },
+   "en": {
+    "mot": "Holy Spirit",
+    "def": "The Holy Spirit is God living in our hearts. We can't see him, like the wind, but he helps us to love and to be brave."
+   }
+  },
+  {
+   "id": "marie",
+   "fr": {
+    "mot": "Marie",
+    "def": "Marie est la maman de Jésus. Elle a dit oui à Dieu. Elle est aussi une maman pour nous, qui veille sur nous du ciel."
+   },
+   "es": {
+    "mot": "María",
+    "def": "María es la mamá de Jesús. Dijo que sí a Dios. También es una mamá para nosotros, que nos cuida desde el cielo."
+   },
+   "en": {
+    "mot": "Mary",
+    "def": "Mary is the mother of Jesus. She said yes to God. She is a mother for us too, watching over us from heaven."
+   }
+  },
+  {
+   "id": "ange-gardien",
+   "fr": {
+    "mot": "Ange gardien",
+    "def": "Un ange gardien, c'est un ami invisible que Dieu donne à chacun pour le protéger et l'accompagner, le jour comme la nuit."
+   },
+   "es": {
+    "mot": "Ángel de la guarda",
+    "def": "El ángel de la guarda es un amigo invisible que Dios da a cada uno para protegerlo y acompañarlo, de día y de noche."
+   },
+   "en": {
+    "mot": "Guardian angel",
+    "def": "A guardian angel is an invisible friend God gives to each of us, to protect us and stay with us, day and night."
+   }
+  },
+  {
+   "id": "priere",
+   "fr": {
+    "mot": "Prière",
+    "def": "Prier, c'est parler à Dieu comme à un ami. On peut lui dire merci, pardon, s'il te plaît… ou juste rester avec lui."
+   },
+   "es": {
+    "mot": "Oración",
+    "def": "Rezar es hablar con Dios como con un amigo. Le podemos decir gracias, perdón, por favor… o simplemente estar con él."
+   },
+   "en": {
+    "mot": "Prayer",
+    "def": "Praying means talking to God like a friend. We can say thank you, sorry, please… or just be with him."
+   }
+  },
+  {
+   "id": "amen",
+   "fr": {
+    "mot": "Amen",
+    "def": "« Amen » est un mot très ancien qui veut dire « oui, c'est vrai, je suis d'accord ». On le dit à la fin des prières."
+   },
+   "es": {
+    "mot": "Amén",
+    "def": "«Amén» es una palabra muy antigua que quiere decir «sí, es verdad, estoy de acuerdo». Se dice al final de las oraciones."
+   },
+   "en": {
+    "mot": "Amen",
+    "def": "“Amen” is a very old word meaning “yes, it's true, I agree”. We say it at the end of prayers."
+   }
+  },
+  {
+   "id": "alleluia",
+   "fr": {
+    "mot": "Alléluia",
+    "def": "« Alléluia » veut dire « louez Dieu ». C'est un cri de joie qu'on chante surtout à Pâques."
+   },
+   "es": {
+    "mot": "Aleluya",
+    "def": "«Aleluya» quiere decir «alabad a Dios». Es un grito de alegría que se canta sobre todo en Pascua."
+   },
+   "en": {
+    "mot": "Alleluia",
+    "def": "“Alleluia” means “praise God”. It's a shout of joy we sing especially at Easter."
+   }
+  },
+  {
+   "id": "eglise",
+   "fr": {
+    "mot": "Église",
+    "def": "L'église, c'est la maison où l'on se retrouve pour prier. L'Église, avec une majuscule, c'est la grande famille de tous ceux qui aiment Jésus."
+   },
+   "es": {
+    "mot": "Iglesia",
+    "def": "La iglesia es la casa donde nos reunimos para rezar. La Iglesia, con mayúscula, es la gran familia de todos los que quieren a Jesús."
+   },
+   "en": {
+    "mot": "Church",
+    "def": "A church is the building where we gather to pray. The Church, with a capital C, is the big family of everyone who loves Jesus."
+   }
+  },
+  {
+   "id": "messe",
+   "fr": {
+    "mot": "Messe",
+    "def": "La messe, c'est le grand rendez-vous du dimanche : on écoute la Parole de Dieu, on chante, et on se souvient du dernier repas de Jésus."
+   },
+   "es": {
+    "mot": "Misa",
+    "def": "La misa es la gran cita del domingo: escuchamos la Palabra de Dios, cantamos y recordamos la última cena de Jesús."
+   },
+   "en": {
+    "mot": "Mass",
+    "def": "Mass is the big Sunday get-together: we listen to God's Word, we sing, and we remember Jesus' last supper."
+   }
+  },
+  {
+   "id": "communion",
+   "fr": {
+    "mot": "Communion",
+    "def": "À la messe, on reçoit une petite hostie : c'est Jésus qui vient tout près de nous. Avant la première communion, on peut s'avancer les bras croisés pour recevoir une bénédiction."
+   },
+   "es": {
+    "mot": "Comunión",
+    "def": "En misa se recibe una pequeña hostia: es Jesús que viene muy cerca de nosotros. Antes de la primera comunión, podemos acercarnos con los brazos cruzados para recibir una bendición."
+   },
+   "en": {
+    "mot": "Communion",
+    "def": "At Mass, people receive a small host: it is Jesus coming very close to us. Before First Communion, we can go up with arms crossed to receive a blessing."
+   }
+  },
+  {
+   "id": "bapteme",
+   "fr": {
+    "mot": "Baptême",
+    "def": "Le baptême, c'est le jour où l'on devient enfant de Dieu et membre de sa grande famille. On verse de l'eau sur la tête."
+   },
+   "es": {
+    "mot": "Bautismo",
+    "def": "El bautismo es el día en que nos hacemos hijos de Dios y miembros de su gran familia. Se echa agua sobre la cabeza."
+   },
+   "en": {
+    "mot": "Baptism",
+    "def": "Baptism is the day we become a child of God and part of his big family. Water is poured over our head."
+   }
+  },
+  {
+   "id": "croix",
+   "fr": {
+    "mot": "Croix",
+    "def": "La croix rappelle que Jésus a donné sa vie par amour pour nous. Mais l'histoire ne s'arrête pas là : il est ressuscité !"
+   },
+   "es": {
+    "mot": "Cruz",
+    "def": "La cruz recuerda que Jesús dio su vida por amor a nosotros. Pero la historia no termina ahí: ¡resucitó!"
+   },
+   "en": {
+    "mot": "Cross",
+    "def": "The cross reminds us that Jesus gave his life out of love for us. But the story doesn't end there: he rose again!"
+   }
+  },
+  {
+   "id": "signe-de-croix",
+   "fr": {
+    "mot": "Signe de croix",
+    "def": "On touche son front, son cœur, puis ses deux épaules en disant : « Au nom du Père, et du Fils, et du Saint-Esprit. » C'est une façon de dire bonjour à Dieu."
+   },
+   "es": {
+    "mot": "Señal de la cruz",
+    "def": "Tocamos la frente, el pecho y los dos hombros diciendo: «En el nombre del Padre, y del Hijo, y del Espíritu Santo». Es una manera de saludar a Dios."
+   },
+   "en": {
+    "mot": "Sign of the cross",
+    "def": "We touch our forehead, our heart, then both shoulders, saying: “In the name of the Father, and of the Son, and of the Holy Spirit.” It's a way of saying hello to God."
+   }
+  },
+  {
+   "id": "bible",
+   "fr": {
+    "mot": "Bible",
+    "def": "La Bible est un grand livre, fait de beaucoup de petits livres. Elle raconte l'histoire de Dieu et de ses amis."
+   },
+   "es": {
+    "mot": "Biblia",
+    "def": "La Biblia es un gran libro hecho de muchos libros pequeños. Cuenta la historia de Dios y de sus amigos."
+   },
+   "en": {
+    "mot": "Bible",
+    "def": "The Bible is a big book made of lots of little books. It tells the story of God and his friends."
+   }
+  },
+  {
+   "id": "evangile",
+   "fr": {
+    "mot": "Évangile",
+    "def": "« Évangile » veut dire « bonne nouvelle ». Ce sont les livres qui racontent la vie de Jésus."
+   },
+   "es": {
+    "mot": "Evangelio",
+    "def": "«Evangelio» quiere decir «buena noticia». Son los libros que cuentan la vida de Jesús."
+   },
+   "en": {
+    "mot": "Gospel",
+    "def": "“Gospel” means “good news”. These are the books that tell the story of Jesus' life."
+   }
+  },
+  {
+   "id": "apotre",
+   "fr": {
+    "mot": "Apôtre",
+    "def": "Les apôtres sont les douze amis que Jésus a choisis pour l'accompagner et pour parler de lui dans le monde entier."
+   },
+   "es": {
+    "mot": "Apóstol",
+    "def": "Los apóstoles son los doce amigos que Jesús eligió para acompañarlo y hablar de él en todo el mundo."
+   },
+   "en": {
+    "mot": "Apostle",
+    "def": "The apostles are the twelve friends Jesus chose to be with him and to tell the whole world about him."
+   }
+  },
+  {
+   "id": "saint",
+   "fr": {
+    "mot": "Saint",
+    "def": "Un saint, c'est quelqu'un qui a beaucoup aimé Dieu et les autres. Maintenant il est près de Dieu, et il peut prier pour nous."
+   },
+   "es": {
+    "mot": "Santo",
+    "def": "Un santo es alguien que quiso mucho a Dios y a los demás. Ahora está junto a Dios y puede rezar por nosotros."
+   },
+   "en": {
+    "mot": "Saint",
+    "def": "A saint is someone who loved God and other people very much. Now they are close to God, and they can pray for us."
+   }
+  },
+  {
+   "id": "pardon",
+   "fr": {
+    "mot": "Pardon",
+    "def": "Demander pardon, c'est dire : « Je regrette, je voudrais réparer. » Pardonner, c'est dire : « Je ne t'en veux plus. » Dieu pardonne toujours."
+   },
+   "es": {
+    "mot": "Perdón",
+    "def": "Pedir perdón es decir: «Lo siento, quiero arreglarlo». Perdonar es decir: «Ya no estoy enfadado contigo». Dios siempre perdona."
+   },
+   "en": {
+    "mot": "Forgiveness",
+    "def": "Saying sorry means: “I wish I hadn't, I'd like to make it right.” Forgiving means: “I'm not cross with you any more.” God always forgives."
+   }
+  },
+  {
+   "id": "ciel",
+   "fr": {
+    "mot": "Ciel",
+    "def": "Le ciel, ou paradis, c'est être avec Dieu pour toujours, dans une joie qui ne finit jamais."
+   },
+   "es": {
+    "mot": "Cielo",
+    "def": "El cielo, o paraíso, es estar con Dios para siempre, en una alegría que no se acaba nunca."
+   },
+   "en": {
+    "mot": "Heaven",
+    "def": "Heaven is being with God forever, in a joy that never ends."
+   }
+  },
+  {
+   "id": "creche",
+   "fr": {
+    "mot": "Crèche",
+    "def": "La crèche, c'est la mangeoire où Marie a couché Jésus bébé. À Noël, on la reconstitue à la maison avec des petits personnages."
+   },
+   "es": {
+    "mot": "Belén",
+    "def": "El belén recuerda el pesebre donde María acostó al niño Jesús. En Navidad lo montamos en casa con figuritas."
+   },
+   "en": {
+    "mot": "Nativity scene",
+    "def": "The manger is where Mary laid baby Jesus. At Christmas, we set up a little scene at home with small figures."
+   }
+  },
+  {
+   "id": "noel",
+   "fr": {
+    "mot": "Noël",
+    "def": "À Noël, on fête l'anniversaire de Jésus, né à Bethléem. Dieu est venu tout petit, comme un bébé."
+   },
+   "es": {
+    "mot": "Navidad",
+    "def": "En Navidad celebramos el cumpleaños de Jesús, nacido en Belén. Dios vino muy pequeño, como un bebé."
+   },
+   "en": {
+    "mot": "Christmas",
+    "def": "At Christmas we celebrate Jesus' birthday. He was born in Bethlehem. God came very small, as a baby."
+   }
+  },
+  {
+   "id": "paques",
+   "fr": {
+    "mot": "Pâques",
+    "def": "Pâques est la plus grande fête : Jésus était mort, et il est revenu à la vie ! On l'appelle la Résurrection."
+   },
+   "es": {
+    "mot": "Pascua",
+    "def": "La Pascua es la fiesta más grande: Jesús había muerto, ¡y volvió a la vida! Se llama la Resurrección."
+   },
+   "en": {
+    "mot": "Easter",
+    "def": "Easter is the greatest feast: Jesus had died, and he came back to life! We call it the Resurrection."
+   }
+  },
+  {
+   "id": "careme",
+   "fr": {
+    "mot": "Carême",
+    "def": "Le Carême, ce sont quarante jours pour se préparer à Pâques : prier un peu plus, partager, et faire de la place pour Dieu."
+   },
+   "es": {
+    "mot": "Cuaresma",
+    "def": "La Cuaresma son cuarenta días para prepararnos a la Pascua: rezar un poco más, compartir y hacer sitio a Dios."
+   },
+   "en": {
+    "mot": "Lent",
+    "def": "Lent is forty days to get ready for Easter: praying a little more, sharing, and making room for God."
+   }
+  },
+  {
+   "id": "avent",
+   "fr": {
+    "mot": "Avent",
+    "def": "L'Avent, ce sont les quatre semaines avant Noël. On attend Jésus, comme on attend un ami qui va arriver."
+   },
+   "es": {
+    "mot": "Adviento",
+    "def": "El Adviento son las cuatro semanas antes de Navidad. Esperamos a Jesús, como se espera a un amigo que va a llegar."
+   },
+   "en": {
+    "mot": "Advent",
+    "def": "Advent is the four weeks before Christmas. We wait for Jesus, the way we wait for a friend who is coming."
+   }
+  },
+  {
+   "id": "pentecote",
+   "fr": {
+    "mot": "Pentecôte",
+    "def": "À la Pentecôte, l'Esprit Saint est venu sur les amis de Jésus, comme du feu et un grand vent. Ils n'avaient plus peur !"
+   },
+   "es": {
+    "mot": "Pentecostés",
+    "def": "En Pentecostés, el Espíritu Santo bajó sobre los amigos de Jesús, como fuego y un fuerte viento. ¡Ya no tenían miedo!"
+   },
+   "en": {
+    "mot": "Pentecost",
+    "def": "At Pentecost, the Holy Spirit came down on Jesus' friends, like fire and a strong wind. They were not afraid any more!"
+   }
+  },
+  {
+   "id": "pretre",
+   "fr": {
+    "mot": "Prêtre",
+    "def": "Le prêtre, c'est l'homme qui a donné sa vie à Dieu pour célébrer la messe, baptiser, pardonner au nom de Dieu et prendre soin des gens."
+   },
+   "es": {
+    "mot": "Sacerdote",
+    "def": "El sacerdote es el hombre que ha dado su vida a Dios para celebrar la misa, bautizar, perdonar en nombre de Dios y cuidar de la gente."
+   },
+   "en": {
+    "mot": "Priest",
+    "def": "A priest is a man who has given his life to God to celebrate Mass, baptize, forgive in God's name and look after people."
+   }
+  },
+  {
+   "id": "pape",
+   "fr": {
+    "mot": "Pape",
+    "def": "Le pape est le chef de l'Église catholique dans le monde entier. Il habite à Rome. C'est le successeur de l'apôtre Pierre."
+   },
+   "es": {
+    "mot": "Papa",
+    "def": "El Papa es el jefe de la Iglesia católica en todo el mundo. Vive en Roma. Es el sucesor del apóstol Pedro."
+   },
+   "en": {
+    "mot": "Pope",
+    "def": "The Pope leads the Catholic Church all over the world. He lives in Rome. He follows on from the apostle Peter."
+   }
+  },
+  {
+   "id": "autel",
+   "fr": {
+    "mot": "Autel",
+    "def": "L'autel, c'est la grande table de l'église, où le prêtre célèbre la messe."
+   },
+   "es": {
+    "mot": "Altar",
+    "def": "El altar es la gran mesa de la iglesia, donde el sacerdote celebra la misa."
+   },
+   "en": {
+    "mot": "Altar",
+    "def": "The altar is the big table in church, where the priest celebrates Mass."
+   }
+  },
+  {
+   "id": "cierge",
+   "fr": {
+    "mot": "Cierge",
+    "def": "Un cierge, c'est une grande bougie qu'on allume à l'église. Sa petite flamme est comme une prière qui continue."
+   },
+   "es": {
+    "mot": "Vela",
+    "def": "Una vela que se enciende en la iglesia. Su llamita es como una oración que sigue encendida."
+   },
+   "en": {
+    "mot": "Candle",
+    "def": "A candle lit in church. Its little flame is like a prayer that keeps going."
+   }
+  },
+  {
+   "id": "chapelet",
+   "fr": {
+    "mot": "Chapelet",
+    "def": "Un chapelet, c'est un collier de petites perles. Sur chaque perle, on dit un « Je vous salue Marie »."
+   },
+   "es": {
+    "mot": "Rosario",
+    "def": "El rosario es un collar de cuentas pequeñas. En cada cuenta se reza un «Dios te salve, María»."
+   },
+   "en": {
+    "mot": "Rosary",
+    "def": "A rosary is a string of small beads. On each bead, we say a “Hail Mary”."
+   }
+  },
+  {
+   "id": "benediction",
+   "fr": {
+    "mot": "Bénédiction",
+    "def": "Bénir, c'est dire du bien et demander à Dieu de protéger quelqu'un. Papa ou maman peuvent tracer une petite croix sur ton front."
+   },
+   "es": {
+    "mot": "Bendición",
+    "def": "Bendecir es decir cosas buenas y pedir a Dios que proteja a alguien. Papá o mamá pueden hacerte una crucecita en la frente."
+   },
+   "en": {
+    "mot": "Blessing",
+    "def": "To bless is to say good things and ask God to protect someone. Mum or Dad can trace a little cross on your forehead."
+   }
+  },
+  {
+   "id": "paix",
+   "fr": {
+    "mot": "Paix",
+    "def": "La paix, c'est quand on vit ensemble sans se disputer, avec le cœur tranquille. Jésus nous donne sa paix."
+   },
+   "es": {
+    "mot": "Paz",
+    "def": "La paz es cuando vivimos juntos sin pelearnos, con el corazón tranquilo. Jesús nos da su paz."
+   },
+   "en": {
+    "mot": "Peace",
+    "def": "Peace is when we live together without fighting, with calm hearts. Jesus gives us his peace."
+   }
+  },
+  {
+   "id": "partage",
+   "fr": {
+    "mot": "Partage",
+    "def": "Partager, c'est donner une part de ce qu'on a : son goûter, son temps, ses jouets. Jésus aimait beaucoup partager."
+   },
+   "es": {
+    "mot": "Compartir",
+    "def": "Compartir es dar una parte de lo que tenemos: la merienda, el tiempo, los juguetes. A Jesús le gustaba mucho compartir."
+   },
+   "en": {
+    "mot": "Sharing",
+    "def": "Sharing means giving part of what we have: our snack, our time, our toys. Jesus loved to share."
+   }
+  },
+  {
+   "id": "foi",
+   "fr": {
+    "mot": "Foi",
+    "def": "Avoir la foi, c'est faire confiance à Dieu, même sans le voir, comme on fait confiance à quelqu'un qu'on aime."
+   },
+   "es": {
+    "mot": "Fe",
+    "def": "Tener fe es confiar en Dios aunque no lo veamos, como confiamos en alguien a quien queremos."
+   },
+   "en": {
+    "mot": "Faith",
+    "def": "Having faith means trusting God even without seeing him, the way we trust someone we love."
+   }
+  },
+  {
+   "id": "esperance",
+   "fr": {
+    "mot": "Espérance",
+    "def": "L'espérance, c'est savoir que Dieu est là et que tout peut s'arranger, même quand c'est difficile."
+   },
+   "es": {
+    "mot": "Esperanza",
+    "def": "La esperanza es saber que Dios está ahí y que todo puede arreglarse, incluso cuando es difícil."
+   },
+   "en": {
+    "mot": "Hope",
+    "def": "Hope means knowing that God is there and that things can work out, even when it's hard."
+   }
+  },
+  {
+   "id": "amour",
+   "fr": {
+    "mot": "Amour",
+    "def": "Dieu est amour. Aimer, c'est vouloir le bien des autres, être gentil, aider, pardonner. C'est le plus important de tout."
+   },
+   "es": {
+    "mot": "Amor",
+    "def": "Dios es amor. Amar es querer el bien de los demás, ser amable, ayudar, perdonar. Es lo más importante de todo."
+   },
+   "en": {
+    "mot": "Love",
+    "def": "God is love. To love is to want good things for others, to be kind, to help, to forgive. It's the most important thing of all."
+   }
+  },
+  {
+   "id": "miracle",
+   "fr": {
+    "mot": "Miracle",
+    "def": "Un miracle, c'est quelque chose d'extraordinaire que Dieu fait, comme quand Jésus guérissait les malades."
+   },
+   "es": {
+    "mot": "Milagro",
+    "def": "Un milagro es algo extraordinario que hace Dios, como cuando Jesús curaba a los enfermos."
+   },
+   "en": {
+    "mot": "Miracle",
+    "def": "A miracle is something extraordinary that God does, like when Jesus healed sick people."
+   }
+  },
+  {
+   "id": "prophete",
+   "fr": {
+    "mot": "Prophète",
+    "def": "Un prophète, c'est quelqu'un que Dieu choisit pour parler de sa part, comme Isaïe, Élie ou Jean-Baptiste."
+   },
+   "es": {
+    "mot": "Profeta",
+    "def": "Un profeta es alguien a quien Dios elige para hablar en su nombre, como Isaías, Elías o Juan el Bautista."
+   },
+   "en": {
+    "mot": "Prophet",
+    "def": "A prophet is someone God chooses to speak for him, like Isaiah, Elijah or John the Baptist."
+   }
+  },
+  {
+   "id": "berger",
+   "fr": {
+    "mot": "Berger",
+    "def": "Le berger prend soin de ses moutons. Jésus dit qu'il est le bon berger : il connaît chacun par son nom."
+   },
+   "es": {
+    "mot": "Pastor",
+    "def": "El pastor cuida de sus ovejas. Jesús dice que él es el buen pastor: conoce a cada uno por su nombre."
+   },
+   "en": {
+    "mot": "Shepherd",
+    "def": "A shepherd takes care of his sheep. Jesus says he is the good shepherd: he knows each one by name."
+   }
+  },
+  {
+   "id": "disciple",
+   "fr": {
+    "mot": "Disciple",
+    "def": "Un disciple, c'est quelqu'un qui suit Jésus et apprend de lui. Toi aussi, tu peux être son disciple."
+   },
+   "es": {
+    "mot": "Discípulo",
+    "def": "Un discípulo es alguien que sigue a Jesús y aprende de él. Tú también puedes ser su discípulo."
+   },
+   "en": {
+    "mot": "Disciple",
+    "def": "A disciple is someone who follows Jesus and learns from him. You can be his disciple too."
+   }
+  },
+  {
+   "id": "resurrection",
+   "fr": {
+    "mot": "Résurrection",
+    "def": "La résurrection, c'est quand Jésus est revenu à la vie trois jours après sa mort. La vie est plus forte que la mort !"
+   },
+   "es": {
+    "mot": "Resurrección",
+    "def": "La resurrección es cuando Jesús volvió a la vida tres días después de morir. ¡La vida es más fuerte que la muerte!"
+   },
+   "en": {
+    "mot": "Resurrection",
+    "def": "The resurrection is when Jesus came back to life three days after he died. Life is stronger than death!"
+   }
+  },
+  {
+   "id": "creation",
+   "fr": {
+    "mot": "Création",
+    "def": "La création, c'est tout ce que Dieu a fait : le soleil, la mer, les animaux, les fleurs… et toi !"
+   },
+   "es": {
+    "mot": "Creación",
+    "def": "La creación es todo lo que Dios hizo: el sol, el mar, los animales, las flores… ¡y tú!"
+   },
+   "en": {
+    "mot": "Creation",
+    "def": "Creation is everything God made: the sun, the sea, the animals, the flowers… and you!"
+   }
+  },
+  {
+   "id": "confession",
+   "fr": {
+    "mot": "Confession",
+    "def": "Se confesser, c'est dire au prêtre ce qu'on regrette. Il nous donne le pardon de Dieu, et on repart le cœur tout léger."
+   },
+   "es": {
+    "mot": "Confesión",
+    "def": "Confesarse es contarle al sacerdote lo que lamentamos. Él nos da el perdón de Dios, y nos vamos con el corazón ligero."
+   },
+   "en": {
+    "mot": "Confession",
+    "def": "Going to confession means telling the priest what we're sorry for. He gives us God's forgiveness, and we leave with light hearts."
+   }
+  },
+  {
+   "id": "eau-benite",
+   "fr": {
+    "mot": "Eau bénite",
+    "def": "L'eau bénite est une eau sur laquelle le prêtre a demandé la bénédiction de Dieu. On s'en sert pour faire le signe de croix en entrant dans l'église."
+   },
+   "es": {
+    "mot": "Agua bendita",
+    "def": "El agua bendita es agua sobre la que el sacerdote ha pedido la bendición de Dios. Se usa para santiguarse al entrar en la iglesia."
+   },
+   "en": {
+    "mot": "Holy water",
+    "def": "Holy water is water the priest has asked God to bless. We use it to make the sign of the cross as we come into church."
+   }
+  },
+  {
+   "id": "dimanche",
+   "fr": {
+    "mot": "Dimanche",
+    "def": "Le dimanche est le jour du Seigneur, le jour où Jésus est ressuscité. C'est un jour pour se reposer, prier et être en famille."
+   },
+   "es": {
+    "mot": "Domingo",
+    "def": "El domingo es el día del Señor, el día en que Jesús resucitó. Es un día para descansar, rezar y estar en familia."
+   },
+   "en": {
+    "mot": "Sunday",
+    "def": "Sunday is the Lord's day, the day Jesus rose again. It's a day to rest, to pray and to be with family."
+   }
+  },
+  {
+   "id": "notre-pere",
+   "fr": {
+    "mot": "Notre Père",
+    "def": "Le Notre Père est la prière que Jésus a apprise à ses amis. On y appelle Dieu « Père », comme ses enfants."
+   },
+   "es": {
+    "mot": "Padre nuestro",
+    "def": "El Padre nuestro es la oración que Jesús enseñó a sus amigos. En ella llamamos a Dios «Padre», como hijos suyos."
+   },
+   "en": {
+    "mot": "Our Father",
+    "def": "The Our Father is the prayer Jesus taught his friends. In it we call God “Father”, as his children."
+   }
+  },
+  {
+   "id": "merci",
+   "fr": {
+    "mot": "Merci",
+    "def": "Dire merci à Dieu, c'est remarquer tout ce qu'il nous donne : la famille, les amis, le soleil, un bon repas…"
+   },
+   "es": {
+    "mot": "Gracias",
+    "def": "Dar gracias a Dios es fijarse en todo lo que nos da: la familia, los amigos, el sol, una buena comida…"
+   },
+   "en": {
+    "mot": "Thank you",
+    "def": "Saying thank you to God means noticing all he gives us: family, friends, sunshine, a good meal…"
+   }
+  }
+ ]
+}

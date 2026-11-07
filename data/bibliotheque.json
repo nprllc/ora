@@ -197,6 +197,23 @@
     "fait": "La fatigue fait partie de toute vie : le travail, les enfants, les soucis, les nuits trop courtes. Elle n'est pas une faute, et elle ne dit rien de notre valeur. L'Évangile raconte d'ailleurs que Jésus lui-même s'est assis, fatigué, au bord d'un puits (Jn 4, 6).",
     "piste": "Jésus n'attend pas qu'on soit en forme pour qu'on vienne à Lui. On peut lui apporter sa fatigue telle qu'elle est, sans phrases : s'asseoir deux minutes, respirer, et lui dire « je suis là, je n'en peux plus ». C'est déjà une prière. Et peut-être s'autoriser, un vrai temps de repos, comme Jésus le proposait à ses apôtres (Mc 6, 31).",
     "sources": "Évangile selon saint Jean 4, 6"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand on est fatigué",
+     "texte": "Parfois, on est très fatigué : après l'école, après une longue journée, ou quand on a mal dormi. Jésus aussi était fatigué ! Un jour, il s'est assis au bord d'un puits pour se reposer. Être fatigué, ce n'est pas être méchant : c'est le moment de se reposer près de ceux qu'on aime.",
+     "question": "Qu'est-ce qui t'aide à te reposer quand tu es fatigué ?"
+    },
+    "es": {
+     "titre": "Cuando estamos cansados",
+     "texte": "A veces estamos muy cansados: después del cole, tras un día largo o cuando hemos dormido mal. ¡Jesús también se cansaba! Un día se sentó junto a un pozo para descansar. Estar cansado no es portarse mal: es el momento de descansar cerca de los que queremos.",
+     "question": "¿Qué te ayuda a descansar cuando estás cansado?"
+    },
+    "en": {
+     "titre": "When we feel tired",
+     "texte": "Sometimes we feel very tired: after school, after a long day, or when we didn't sleep well. Jesus got tired too! One day he sat down by a well to rest. Being tired doesn't mean being naughty: it's time to rest close to the people we love.",
+     "question": "What helps you rest when you're tired?"
+    }
    }
   },
   {
@@ -225,6 +242,23 @@
     "fait": "La colère est une émotion que tout le monde connaît. La Bible ne la condamne pas en elle-même : Jésus s'est mis en colère contre les marchands du Temple (Jn 2, 13-17). Ce qui fait du mal, c'est la colère qu'on laisse durer ou qu'on retourne contre les autres.",
     "piste": "Saint Paul ne dit pas « ne soyez jamais en colère », mais « que le soleil ne se couche point sur votre irritation » (Ep 4, 26). On peut regarder ce qui, dans sa colère, est juste et ce qui blesse. Et avant de dormir, confier à Dieu ce qui reste, pour ne pas le porter seul jusqu'au lendemain.",
     "sources": "Évangile selon saint Jean 2, 13-17 ; Catéchisme de l'Église catholique, n° 2302"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand on est en colère",
+     "texte": "Tout le monde se met en colère un jour : quand on nous prend un jouet, quand c'est injuste. Ce n'est pas mal d'être en colère. Mais on peut apprendre à ne pas taper ni crier, à respirer un grand coup, et à dire avec des mots ce qui ne va pas.",
+     "question": "Qu'est-ce que tu fais pour te calmer quand tu es fâché ?"
+    },
+    "es": {
+     "titre": "Cuando nos enfadamos",
+     "texte": "Todo el mundo se enfada alguna vez: cuando nos quitan un juguete, cuando algo es injusto. No está mal enfadarse. Pero podemos aprender a no pegar ni gritar, a respirar hondo y a decir con palabras lo que no va bien.",
+     "question": "¿Qué haces para calmarte cuando te enfadas?"
+    },
+    "en": {
+     "titre": "When we feel angry",
+     "texte": "Everyone gets angry sometimes: when someone takes our toy, when something isn't fair. It isn't wrong to feel angry. But we can learn not to hit or shout, to take a big breath, and to use words to say what's wrong.",
+     "question": "What do you do to calm down when you're cross?"
+    }
    }
   },
   {
@@ -253,6 +287,23 @@
     "fait": "On remercie spontanément pour un cadeau, plus rarement pour ce qui va de soi : un repas, un enfant qui rit, une journée sans souci. L'Évangile de saint Luc raconte que, sur dix malades guéris par Jésus, un seul est revenu le remercier.",
     "piste": "Rendre grâce, ce n'est pas nier ce qui est difficile ; c'est apprendre à voir aussi ce qui est donné. Ce soir, on peut chercher trois choses de la journée pour lesquelles dire merci, même minuscules. Avec un enfant, c'est un jeu très simple qui change le regard.",
     "sources": "Évangile selon saint Luc 17, 11-19 ; Catéchisme de l'Église catholique, n° 2637-2638"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Le pouvoir d'un merci",
+     "texte": "Un jour, Jésus a guéri dix malades. Un seul est revenu lui dire merci ! Jésus était très content. Dire merci, ça rend heureux celui qui le dit et celui qui l'entend. On peut dire merci pour un bon repas, un câlin, un beau soleil…",
+     "question": "Pour quoi as-tu envie de dire merci aujourd'hui ?"
+    },
+    "es": {
+     "titre": "El poder de un gracias",
+     "texte": "Un día, Jesús curó a diez enfermos. ¡Solo uno volvió a darle las gracias! Jesús se alegró mucho. Dar las gracias hace feliz al que lo dice y al que lo oye. Podemos dar gracias por una buena comida, un abrazo, un día de sol…",
+     "question": "¿Por qué tienes ganas de dar gracias hoy?"
+    },
+    "en": {
+     "titre": "The power of thank you",
+     "texte": "One day Jesus healed ten sick people. Only one came back to say thank you! Jesus was very happy. Saying thank you makes both the person who says it and the person who hears it happy. We can say thank you for a good meal, a hug, a sunny day…",
+     "question": "What would you like to say thank you for today?"
+    }
    }
   },
   {
@@ -280,6 +331,23 @@
     "fait": "L'inquiétude pour l'avenir est l'une des préoccupations les plus répandues. Elle vient souvent de ce que l'on ne maîtrise pas. Dans l'Évangile, Jésus parle à des gens qui avaient, eux aussi, de vraies raisons de s'inquiéter du pain du lendemain.",
     "piste": "Jésus ne dit pas que tout ira bien ; il dit que chaque jour a sa peine et que le Père prend soin de nous. On peut faire, aujourd'hui, ce qui est à notre portée, et déposer le reste dans la prière. Nommer ses inquiétudes une par une devant Dieu suffit parfois à les rendre moins lourdes.",
     "sources": "Évangile selon saint Matthieu 6, 25-34 ; Catéchisme de l'Église catholique, n° 2830"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand on a peur",
+     "texte": "Parfois on a peur : du noir, d'un nouveau jour d'école, de quelque chose qui va arriver. Jésus a dit : « Regardez les oiseaux du ciel : Dieu les nourrit. Vous comptez encore plus pour lui ! » On peut confier ses peurs à Dieu et à ceux qui nous aiment.",
+     "question": "Qu'est-ce qui te fait un peu peur en ce moment ? Tu peux le dire à Jésus."
+    },
+    "es": {
+     "titre": "Cuando tenemos miedo",
+     "texte": "A veces tenemos miedo: de la oscuridad, de un nuevo día de cole, de algo que va a pasar. Jesús dijo: «Mirad los pájaros del cielo: Dios los alimenta. ¡Vosotros valéis mucho más para él!». Podemos contarle nuestros miedos a Dios y a los que nos quieren.",
+     "question": "¿Qué te da un poco de miedo ahora? Puedes contárselo a Jesús."
+    },
+    "en": {
+     "titre": "When we feel scared",
+     "texte": "Sometimes we feel scared: of the dark, of a new school day, of something that's going to happen. Jesus said: “Look at the birds of the air: God feeds them. You matter even more to him!” We can tell God, and the people who love us, about our fears.",
+     "question": "Is there something that scares you a little at the moment? You can tell Jesus."
+    }
    }
   },
   {
@@ -307,6 +375,23 @@
     "fait": "Pardonner n'est ni oublier, ni excuser le mal, ni se remettre en danger. C'est renoncer peu à peu à la vengeance et au ressentiment, souvent sur un long chemin. Le Catéchisme reconnaît qu'il n'est pas en notre pouvoir de ne plus sentir l'offense : c'est le cœur qui, offert à l'Esprit Saint, se transforme.",
     "piste": "On n'arrive pas à pardonner par la seule volonté. On peut commencer par demander à Dieu le désir de pardonner, ou même seulement le désir de ce désir. Et se souvenir que nous aussi, nous avons été pardonnés.",
     "sources": "Catéchisme de l'Église catholique, n° 2843"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Se réconcilier",
+     "texte": "Quand quelqu'un nous a fait de la peine, on a envie de bouder. Pardonner, ce n'est pas dire que ce n'était pas grave. C'est choisir de redevenir amis. Et quand c'est nous qui avons fait une bêtise, on peut dire : « Pardon, je ne voulais pas te faire de la peine. »",
+     "question": "Avec qui pourrais-tu te réconcilier ?"
+    },
+    "es": {
+     "titre": "Hacer las paces",
+     "texte": "Cuando alguien nos ha hecho daño, nos dan ganas de enfadarnos. Perdonar no es decir que no fue importante. Es elegir volver a ser amigos. Y cuando somos nosotros los que nos hemos portado mal, podemos decir: «Perdón, no quería hacerte daño».",
+     "question": "¿Con quién podrías hacer las paces?"
+    },
+    "en": {
+     "titre": "Making up",
+     "texte": "When someone has hurt us, we feel like sulking. Forgiving doesn't mean saying it didn't matter. It means choosing to be friends again. And when we're the one who did something wrong, we can say: “I'm sorry, I didn't mean to hurt you.”",
+     "question": "Who could you make up with?"
+    }
    }
   },
   {
@@ -334,6 +419,23 @@
     "fait": "Les écrans font partie de la vie de presque tous : travail, nouvelles, amis, jeux. Beaucoup de familles cherchent comment les apprivoiser, en particulier pour les enfants. Le pape François a mis en garde contre le risque que le monde numérique, si riche, nous isole et nous enferme dans des bulles.",
     "piste": "Marthe s'agitait pour beaucoup de choses ; Marie s'était assise pour écouter (Lc 10, 38-42). On peut s'offrir un petit lieu ou un petit temps sans écran, ne serait-ce que le repas du soir, pour se regarder et se parler. Ce que l'on regarde longtemps finit par nous former.",
     "sources": "Pape François, exhortation apostolique Christus vivit (2019), n° 88-90"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Les écrans et nous",
+     "texte": "Les dessins animés, les jeux, les vidéos, c'est amusant ! Mais quand l'écran s'éteint, il reste plein de belles choses : jouer dehors, construire, dessiner, parler avec papa ou maman. Dieu nous a donné des yeux pour regarder le monde, et des mains pour créer.",
+     "question": "Qu'est-ce que tu aimes faire sans écran ?"
+    },
+    "es": {
+     "titre": "Las pantallas y nosotros",
+     "texte": "Los dibujos, los juegos, los vídeos… ¡son divertidos! Pero cuando se apaga la pantalla quedan muchas cosas bonitas: jugar fuera, construir, dibujar, hablar con papá o mamá. Dios nos dio ojos para mirar el mundo y manos para crear.",
+     "question": "¿Qué te gusta hacer sin pantallas?"
+    },
+    "en": {
+     "titre": "Screens and us",
+     "texte": "Cartoons, games and videos are fun! But when the screen goes off, there are lots of lovely things left: playing outside, building, drawing, talking with Mum or Dad. God gave us eyes to look at the world, and hands to make things.",
+     "question": "What do you like doing without a screen?"
+    }
    }
   },
   {
@@ -361,6 +463,23 @@
     "fait": "La solitude touche beaucoup de personnes, à tous les âges : les personnes âgées, mais aussi des jeunes, des parents débordés, des gens loin de leur pays. En 2018, le Royaume-Uni a même nommé une ministre chargée de la solitude.",
     "piste": "Jésus appelle ses disciples « mes amis ». Dans la prière, on n'est jamais seul. Et la foi pousse aussi vers les autres : un appel, un message, une visite à quelqu'un qu'on sait isolé peut être, aujourd'hui, la réponse de Dieu à la solitude d'un autre, et à la nôtre.",
     "sources": "Gouvernement du Royaume-Uni, A connected society: a strategy for tackling loneliness (octobre 2018)"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand on se sent seul",
+     "texte": "Parfois, à la récré, on n'a personne avec qui jouer, et on se sent tout seul. C'est triste. Jésus n'oublie jamais personne. Et nous, on peut regarder autour de nous : un enfant tout seul attend peut-être qu'on lui dise : « Tu viens jouer ? »",
+     "question": "Connais-tu quelqu'un qui est souvent seul ? Que pourrais-tu faire pour lui ?"
+    },
+    "es": {
+     "titre": "Cuando nos sentimos solos",
+     "texte": "A veces, en el recreo, no tenemos con quién jugar y nos sentimos muy solos. Da pena. Jesús no se olvida nunca de nadie. Y nosotros podemos mirar a nuestro alrededor: quizá un niño solo espera que le digamos: «¿Vienes a jugar?».",
+     "question": "¿Conoces a alguien que esté solo a menudo? ¿Qué podrías hacer por él?"
+    },
+    "en": {
+     "titre": "When we feel lonely",
+     "texte": "Sometimes at playtime there's nobody to play with, and we feel all alone. That's sad. Jesus never forgets anyone. And we can look around us: maybe a child on their own is waiting for someone to say: “Do you want to play?”",
+     "question": "Do you know someone who is often on their own? What could you do for them?"
+    }
    }
   },
   {
@@ -388,6 +507,23 @@
     "fait": "L'argent permet de vivre, de nourrir sa famille, de partager. L'Église ne le méprise pas : elle rappelle qu'il est un moyen, et que les biens de la terre sont destinés à tous. Le danger, dit la Bible, n'est pas l'argent lui-même, mais l'amour de l'argent.",
     "piste": "« Là où est ton trésor, là aussi sera ton cœur. » On peut se demander, sans culpabilité, ce qui occupe le plus nos pensées. Et faire un petit geste de partage, même modeste, rend souvent plus libre que ce qu'on a donné.",
     "sources": "Catéchisme de l'Église catholique, n° 2402-2404 ; 1re lettre à Timothée 6, 10"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Ce qui compte vraiment",
+     "texte": "On aime avoir des jouets et des choses neuves. Mais les plus grands trésors ne s'achètent pas : l'amour de sa famille, un ami, un fou rire, Dieu qui nous aime. Jésus a dit : « Là où est ton trésor, là aussi sera ton cœur. »",
+     "question": "Quel est ton plus grand trésor, celui qui ne s'achète pas ?"
+    },
+    "es": {
+     "titre": "Lo que de verdad importa",
+     "texte": "Nos gusta tener juguetes y cosas nuevas. Pero los mayores tesoros no se compran: el cariño de la familia, un amigo, un ataque de risa, Dios que nos quiere. Jesús dijo: «Donde está tu tesoro, allí estará también tu corazón».",
+     "question": "¿Cuál es tu mayor tesoro, el que no se puede comprar?"
+    },
+    "en": {
+     "titre": "What really matters",
+     "texte": "We like having toys and new things. But the greatest treasures can't be bought: our family's love, a friend, a fit of giggles, God who loves us. Jesus said: “Where your treasure is, there your heart will be also.”",
+     "question": "What is your greatest treasure, the one that can't be bought?"
+    }
    }
   },
   {
@@ -408,6 +544,23 @@
     "fait": "Pendant trente ans, Jésus a vécu à Nazareth en travaillant de ses mains, comme artisan. Le Catéchisme rappelle que le travail humain peut être une manière de collaborer à l'œuvre de Dieu, et aussi qu'il est fait pour l'homme, et non l'homme pour le travail.",
     "piste": "On peut offrir sa journée de travail le matin, en deux mots, et la reprendre le soir avec ses joies et ses ratés. Le travail n'est pas toute la vie : le repos, la famille et Dieu ont droit à leur place aussi.",
     "sources": "Évangile selon saint Marc 6, 3 ; Catéchisme de l'Église catholique, n° 531, 2427-2428"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Bien faire les petites choses",
+     "texte": "Jésus a grandi à Nazareth. Avec Joseph, il travaillait le bois et fabriquait des objets. Toi aussi, tu as ton travail : ranger tes affaires, apprendre à l'école, aider à mettre la table. Quand on fait les choses avec cœur, même les petites, on fait plaisir à Dieu.",
+     "question": "Quelle petite chose peux-tu faire avec cœur aujourd'hui ?"
+    },
+    "es": {
+     "titre": "Hacer bien las cosas pequeñas",
+     "texte": "Jesús creció en Nazaret. Con José trabajaba la madera y fabricaba cosas. Tú también tienes tu trabajo: recoger tus cosas, aprender en el cole, ayudar a poner la mesa. Cuando hacemos las cosas con cariño, aunque sean pequeñas, alegramos a Dios.",
+     "question": "¿Qué cosa pequeña puedes hacer hoy con cariño?"
+    },
+    "en": {
+     "titre": "Doing small things well",
+     "texte": "Jesus grew up in Nazareth. With Joseph he worked with wood and made things. You have your work too: tidying your things, learning at school, helping to set the table. When we do things with love, even small things, we make God happy.",
+     "question": "What small thing can you do with love today?"
+    }
    }
   },
   {
@@ -435,6 +588,23 @@
     "fait": "Chaque jour apporte des nouvelles de conflits dans le monde, devant lesquels on se sent impuissant. Depuis 1968, l'Église célèbre le 1er janvier une Journée mondiale de la paix, voulue par saint Paul VI.",
     "piste": "Jésus appelle heureux ceux qui font la paix, pas seulement ceux qui la souhaitent. On peut prier pour la paix là où elle manque, et la faire là où l'on est : réparer une dispute, ne pas répéter une rumeur, apprendre à un enfant à se réconcilier.",
     "sources": "Saint Paul VI, message pour la première Journée mondiale de la paix (8 décembre 1967)"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Faire la paix",
+     "texte": "Dans le monde, il y a des pays qui se font la guerre, et c'est très triste. La paix commence tout près de nous : dans la famille, à l'école, entre frères et sœurs. Jésus a dit : « Heureux ceux qui font la paix. » Tu peux être un artisan de paix !",
+     "question": "Comment peux-tu apporter la paix à la maison aujourd'hui ?"
+    },
+    "es": {
+     "titre": "Hacer la paz",
+     "texte": "En el mundo hay países que están en guerra, y eso es muy triste. La paz empieza muy cerca de nosotros: en la familia, en el cole, entre hermanos. Jesús dijo: «Dichosos los que trabajan por la paz». ¡Tú puedes ser constructor de paz!",
+     "question": "¿Cómo puedes llevar la paz a casa hoy?"
+    },
+    "en": {
+     "titre": "Making peace",
+     "texte": "In the world there are countries at war, and that is very sad. Peace begins very close to us: in our family, at school, between brothers and sisters. Jesus said: “Blessed are the peacemakers.” You can be a peacemaker!",
+     "question": "How can you bring peace at home today?"
+    }
    }
   }
  ],

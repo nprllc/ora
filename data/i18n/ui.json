@@ -116,7 +116,7 @@
   "la-fete": "La fête du jour",
   "le-temps": "Le temps liturgique",
   "personnage-jour": "Personnage du jour",
-  "autres-prieres-enfants": "D’autres prières à dire ensemble"
+  "rituel-coucher": "Rituel du coucher"
  },
  "es": {
   "onglet.accueil": "Hoy",
@@ -234,7 +234,7 @@
   "la-fete": "La fiesta del día",
   "le-temps": "El tiempo litúrgico",
   "personnage-jour": "Personaje del día",
-  "autres-prieres-enfants": "Otras oraciones para rezar juntos"
+  "rituel-coucher": "Ritual de buenas noches"
  },
  "en": {
   "onglet.accueil": "Today",
@@ -352,6 +352,6 @@
   "la-fete": "Today’s feast",
   "le-temps": "The liturgical season",
   "personnage-jour": "Bible character of the day",
-  "autres-prieres-enfants": "Other prayers to say together"
+  "rituel-coucher": "Bedtime ritual"
  }
 }

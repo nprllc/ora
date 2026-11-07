@@ -1,147 +1,1641 @@
 {
-  "_note": "Pendant les temps forts, le titre de chaque jour porte sur le temps lui-même : son sens, ses rites, ses récits. Rangé par rang du jour dans son temps (0 = premier jour : 1er dimanche de l'Avent, 25 décembre, mercredi des Cendres, dimanche de Pâques). Les fêtes et les jours de premier rang (dimanches, Semaine sainte, octave de Pâques) gardent leur nom liturgique ; à partir du 17 décembre, les grandes antiennes « Ô » (jours.json) prennent le relais. Chaque entrée : [titre, phrase].",
-  "fr": {
-    "avent": [
-      ["L'Avent commence", "Quatre semaines pour se préparer à Noël. Le mot vient du latin adventus, « venue »."],
-      ["La couronne de l'Avent", "Quatre bougies, une de plus chaque dimanche : une lumière qui grandit jusqu'à Noël."],
-      ["Le violet de l'Avent", "La couleur de l'attente et de la préparation, avec la joie au bout du chemin."],
-      ["Veiller", "Jésus invite à rester éveillé : attentif à Dieu qui vient dans notre vie de tous les jours."],
-      ["Le prophète Isaïe", "On lit beaucoup Isaïe pendant l'Avent : il a annoncé un enfant appelé « Dieu avec nous »."],
-      ["Les trois venues", "L'Avent regarde vers trois venues : à Bethléem, aujourd'hui dans nos cœurs, et à la fin des temps."],
-      ["Le calendrier de l'Avent", "Une petite fenêtre à ouvrir chaque jour : une tradition née en Allemagne pour faire patienter les enfants."],
-      ["Préparer le chemin", "Le deuxième dimanche de l'Avent fait entendre Jean-Baptiste dans le désert."],
-      ["Jean-Baptiste", "La voix qui crie dans le désert : « Préparez le chemin du Seigneur. »"],
-      ["La crèche", "On commence souvent à installer la crèche ; on peut y ajouter les personnages peu à peu."],
-      ["Marie qui attend", "L'Avent est aussi le temps de Marie, qui porte Jésus et attend sa naissance."],
-      ["Joseph", "Joseph, l'homme juste, accueille Marie et l'enfant sans tout comprendre."],
-      ["Le désert fleurira", "Les prophètes annoncent que le désert va fleurir : Dieu peut faire renaître ce qui semble mort (Is 35)."],
-      ["Faire de la place", "Préparer Noël, c'est aussi faire de la place dans son cœur : se réconcilier, pardonner."],
-      ["Gaudete", "Le troisième dimanche de l'Avent est celui de la joie ; le prêtre peut porter du rose."],
-      ["La joie", "« Soyez toujours dans la joie » : au milieu de l'Avent, l'Église allume une note de joie (Ph 4, 4)."],
-      ["La confession avant Noël", "Beaucoup de paroisses proposent la confession pendant l'Avent, pour accueillir Noël le cœur léger."],
-      ["Partager", "Donner à ceux qui manquent : une façon très ancienne de préparer Noël."],
-      ["Le Messie attendu", "Israël a attendu des siècles un sauveur : l'Avent fait entrer dans cette longue espérance."],
-      ["La lumière dans la nuit", "« Le peuple qui marchait dans les ténèbres a vu une grande lumière » (Is 9, 1)."]
-    ],
-    "noel": [
-      ["Noël", "La naissance de Jésus à Bethléem."],
-      ["Saint Étienne", "Le premier martyr, au lendemain de Noël."],
-      ["Saint Jean", "L'apôtre « que Jésus aimait »."],
-      ["Les saints Innocents", "Les enfants de Bethléem tués sur l'ordre d'Hérode."],
-      ["L'octave de Noël", "Pendant huit jours, l'Église fête Noël comme un seul grand jour."],
-      ["Les bergers", "Les premiers à apprendre la nouvelle sont des bergers, des gens simples (Lc 2, 8-20)."],
-      ["Merci pour l'année", "On termine l'année en rendant grâce : le Te Deum est chanté le 31 décembre."],
-      ["Marie, Mère de Dieu", "L'année commence avec Marie."],
-      ["Le nom de Jésus", "Jésus, en hébreu Yeshoua, veut dire « Dieu sauve »."],
-      ["Le Verbe s'est fait chair", "« Le Verbe s'est fait chair et il a habité parmi nous » (Jn 1, 14)."],
-      ["Les mages en chemin", "Ils suivent une étoile, de loin, sans savoir où elle les mène (Mt 2)."],
-      ["La veille des Rois", "En Espagne, ce soir, les Rois mages défilent dans les rues et les enfants préparent leurs chaussures."],
-      ["Les Rois mages", "En Espagne et dans bien des pays, c'est aujourd'hui l'Épiphanie ; en France, on la fête le dimanche."],
-      ["La galette des rois", "En France, on partage la galette en janvier : la fève rappelle l'enfant caché."],
-      ["La fuite en Égypte", "Joseph emmène Marie et l'enfant en Égypte pour échapper à Hérode (Mt 2, 13-15)."],
-      ["Nazareth", "Jésus grandit dans un petit village de Galilée, dans une famille ordinaire."],
-      ["Jésus au Temple à 12 ans", "Marie et Joseph le cherchent trois jours, et le retrouvent parmi les maîtres (Lc 2, 41-52)."],
-      ["Les noces de Cana", "Le premier signe de Jésus, à la demande de Marie (Jn 2, 1-11)."],
-      ["Le baptême de Jésus", "Jésus se fait baptiser par Jean dans le Jourdain."],
-      ["La fin du temps de Noël", "Après le Baptême du Seigneur, le temps ordinaire commence."],
-      ["La crèche reste", "Beaucoup gardent la crèche jusqu'à la Chandeleur, le 2 février."]
-    ],
-    "careme": [
-      ["Les Cendres", "Le Carême commence : « Convertissez-vous et croyez à l'Évangile. »"],
-      ["Quarante jours", "Comme les quarante jours de Jésus au désert, le Carême dure quarante jours, sans compter les dimanches."],
-      ["Le vendredi", "Chaque vendredi de Carême, les catholiques s'abstiennent de viande, en souvenir de la mort de Jésus un vendredi."],
-      ["Le jeûne", "Se priver un peu pour avoir faim de Dieu, et faire de la place à l'essentiel."],
-      ["Jésus au désert", "Le premier dimanche de Carême, Jésus est tenté au désert et ne cède pas."],
-      ["Prier, jeûner, partager", "Le Carême repose sur trois piliers que Jésus nomme lui-même (Mt 6, 1-18)."],
-      ["Le partage", "L'aumône : donner de son temps, de son argent, de son attention à ceux qui en manquent."],
-      ["Le désert", "Dans la Bible, le désert est le lieu de l'épreuve et de la rencontre avec Dieu."],
-      ["Le violet du Carême", "Couleur de la pénitence et de la conversion : l'Église s'habille de violet jusqu'à Pâques."],
-      ["Le chemin de croix", "Quatorze étapes pour suivre Jésus jusqu'à la croix, souvent priées le vendredi."],
-      ["Les catéchumènes", "Partout dans le monde, des adultes se préparent à être baptisés à Pâques, et l'Église prie pour eux."],
-      ["La Transfiguration", "Le deuxième dimanche de Carême, Jésus montre sa lumière avant la croix."],
-      ["L'Alléluia se tait", "Pendant tout le Carême, on ne chante plus l'Alléluia : il reviendra dans la nuit de Pâques."],
-      ["Se convertir", "En grec, metanoia : changer de regard, se retourner vers Dieu."],
-      ["Le pardon", "Le Carême est le temps de la réconciliation : avec Dieu, avec les autres, avec soi-même."],
-      ["La confession", "Le sacrement de réconciliation : déposer ce qui pèse et recevoir le pardon de Dieu."],
-      ["Jeûner autrement", "Jeûner peut aussi vouloir dire se priver d'écrans, de sucre ou de critiques."],
-      ["Le peuple au désert", "Quarante ans de marche vers la Terre promise : le Carême reprend ce chemin de libération."],
-      ["La Samaritaine", "Le troisième dimanche de Carême, Jésus promet une eau vive (Jn 4)."],
-      ["Les scrutins", "Aux 3e, 4e et 5e dimanches, l'Église prie spécialement pour ceux qui seront baptisés à Pâques."],
-      ["L'eau vive", "Jésus demande à boire à une femme au puits, et c'est lui qui lui offre de l'eau (Jn 4)."],
-      ["Le repas partagé", "Dans bien des paroisses, on remplace un repas par un bol de riz et on donne l'argent économisé."],
-      ["Le silence", "Quelques minutes de silence chaque jour : le Carême aide à réentendre Dieu."],
-      ["L'aveugle-né", "Jésus ouvre les yeux d'un aveugle : le Carême est un chemin vers la lumière (Jn 9)."],
-      ["Laetare demain", "Demain, à mi-chemin, c'est le dimanche de la joie : le prêtre peut porter du rose."],
-      ["Laetare", "« Réjouis-toi » : le quatrième dimanche de Carême fait entrevoir Pâques."],
-      ["Le fils prodigue", "Le père court vers son fils qui revient : c'est le cœur du Carême (Lc 15)."],
-      ["La miséricorde", "Dieu ne se lasse pas de pardonner : le Carême est un temps pour le croire."],
-      ["La prière de Jésus", "« Jésus, Fils de Dieu, aie pitié de moi » : une prière très simple, répétée doucement."],
-      ["Les croix voilées", "Dans certaines églises, on voile les croix et les statues à partir du cinquième dimanche de Carême."],
-      ["Le grain de blé", "« Si le grain de blé ne meurt… » : Jésus annonce que sa vie donnée portera du fruit (Jn 12, 24)."],
-      ["Lazare", "Jésus pleure son ami, puis l'appelle hors du tombeau (Jn 11)."],
-      ["Le cinquième dimanche", "Plus que deux semaines avant Pâques : la croix se rapproche."],
-      ["Sans condamner", "« Que celui d'entre vous qui est sans péché… » : Jésus relève au lieu de condamner (Jn 8)."],
-      ["Les rameaux à préparer", "Bientôt les Rameaux : on apporte du buis, de l'olivier ou des palmes à faire bénir."],
-      ["Les huiles saintes", "Pendant la Semaine sainte, l'évêque bénit les huiles saintes avec tous les prêtres du diocèse."],
-      ["Le Triduum approche", "Jeudi, vendredi et samedi saints : trois jours qui sont le cœur de toute l'année chrétienne."],
-      ["Marie au pied de la croix", "Le vendredi avant les Rameaux, on pense à Marie qui suivra son fils jusqu'au bout."],
-      ["La veille des Rameaux", "Demain, Jésus entre à Jérusalem : la Semaine sainte commence."],
-      ["Les Rameaux", "Jésus entre à Jérusalem, acclamé, sur un âne."],
-      ["Lundi saint", "Marie de Béthanie verse un parfum précieux sur les pieds de Jésus (Jn 12, 1-8)."],
-      ["Mardi saint", "Jésus annonce que l'un des siens va le trahir (Jn 13, 21-33)."],
-      ["Mercredi saint", "Judas va trouver les grands prêtres (Mt 26, 14-25)."]
-    ],
-    "paques": [
-      ["Pâques", "Christ est ressuscité !"],
-      ["Lundi de Pâques", "Toute la semaine de Pâques est fêtée comme un seul grand jour."],
-      ["Mardi de Pâques", "Marie-Madeleine reconnaît Jésus quand il l'appelle par son nom (Jn 20, 16)."],
-      ["Mercredi de Pâques", "Les disciples d'Emmaüs reconnaissent Jésus à la fraction du pain."],
-      ["Jeudi de Pâques", "« La paix soit avec vous » : Jésus se montre à ses disciples."],
-      ["Vendredi de Pâques", "Au bord du lac, Jésus prépare le repas de ses amis."],
-      ["Samedi de Pâques", "« Allez dans le monde entier » : la mission commence."],
-      ["La Divine Miséricorde", "Le dimanche après Pâques, on fête la miséricorde de Dieu."],
-      ["Cinquante jours de fête", "Le temps pascal dure cinquante jours, comme un seul grand dimanche, jusqu'à la Pentecôte."],
-      ["L'Alléluia revient", "Après quarante jours de silence, l'Alléluia, « louez Dieu », se chante partout."],
-      ["Le cierge pascal", "Allumé dans la nuit de Pâques, il brille près de l'autel à chaque messe jusqu'à la Pentecôte."],
-      ["Le blanc de Pâques", "La couleur de la lumière et de la fête, portée pendant tout le temps pascal."],
-      ["Les Actes des Apôtres", "Pendant le temps pascal, on lit à la messe les débuts de l'Église dans les Actes des Apôtres."],
-      ["Regina Caeli", "Au temps pascal, l'Angélus est remplacé par le Regina Caeli : « Reine du ciel, réjouis-toi »."],
-      ["Le troisième dimanche de Pâques", "Jésus ressuscité continue de rejoindre ses disciples."],
-      ["Les disciples d'Emmaüs", "Deux disciples découragés reconnaissent Jésus quand il rompt le pain (Lc 24)."],
-      ["Le tombeau vide", "Les femmes arrivent les premières et trouvent la pierre roulée."],
-      ["Thomas", "« Heureux ceux qui croient sans avoir vu » : une parole pour nous aujourd'hui (Jn 20, 29)."],
-      ["Le baptême", "Pâques est la grande fête du baptême : on renouvelle ses promesses dans la nuit pascale."],
-      ["Le repas au bord du lac", "Au bord du lac, Jésus ressuscité prépare un repas pour ses amis (Jn 21)."],
-      ["Pierre pardonné", "Trois fois Pierre avait renié ; trois fois Jésus lui demande : « M'aimes-tu ? » (Jn 21)."],
-      ["Le Bon Pasteur", "Le quatrième dimanche de Pâques est celui du Bon Pasteur, jour de prière pour les vocations."],
-      ["Le Bon Pasteur", "« Je suis le bon pasteur » : Jésus connaît chacun par son nom (Jn 10)."],
-      ["Le corps ressuscité", "Jésus ressuscité n'est pas un fantôme : il mange, on peut le toucher (Lc 24, 39-43)."],
-      ["La paix soit avec vous", "Les premiers mots du Ressuscité à ses disciples enfermés par la peur (Jn 20, 19)."],
-      ["Les premiers chrétiens", "Ils étaient fidèles à l'enseignement des apôtres, au partage, à la fraction du pain et aux prières (Ac 2, 42)."],
-      ["La mort n'a pas le dernier mot", "Pâques ouvre une porte : la vie est plus forte que la mort."],
-      ["Chaque dimanche, Pâques", "Chaque dimanche est une petite Pâques : le jour où le Christ est ressuscité."],
-      ["Le cinquième dimanche de Pâques", "Jésus parle à ses amis comme avant un départ."],
-      ["Le chemin, la vérité, la vie", "« Je suis le chemin, la vérité et la vie » (Jn 14, 6)."],
-      ["La vigne et les sarments", "« Je suis la vigne, vous êtes les sarments » (Jn 15, 5)."],
-      ["Le commandement nouveau", "« Aimez-vous les uns les autres comme je vous ai aimés » (Jn 13, 34)."],
-      ["Le Défenseur", "Jésus promet l'Esprit Saint, le Paraclet : celui qui console et qui défend (Jn 14, 16)."],
-      ["Sans peur", "Les apôtres, hier enfermés par la peur, annoncent maintenant Jésus avec assurance."],
-      ["La maison du Père", "« Dans la maison de mon Père, il y a de nombreuses demeures » (Jn 14, 2)."],
-      ["Le sixième dimanche de Pâques", "« Je ne vous laisserai pas orphelins » (Jn 14, 18)."],
-      ["Les Rogations", "Les jours avant l'Ascension, on priait traditionnellement pour les récoltes et le travail."],
-      ["Jésus prie pour nous", "Avant sa Passion, Jésus prie pour ses disciples et pour tous ceux qui croiront (Jn 17)."],
-      ["Avant l'Ascension", "Jésus va retourner auprès du Père, et il promet de rester avec nous."],
-      ["L'Ascension", "Jésus monte auprès du Père, quarante jours après Pâques."],
-      ["La première neuvaine", "Entre l'Ascension et la Pentecôte, les disciples prient avec Marie : c'est l'origine des neuvaines."],
-      ["Viens, Esprit Saint", "On prie souvent le Veni Creator, un chant très ancien pour appeler l'Esprit."],
-      ["Le septième dimanche de Pâques", "L'Église attend l'Esprit Saint, comme les disciples au Cénacle."],
-      ["Les dons de l'Esprit", "Sagesse, intelligence, conseil, force, connaissance, piété et crainte de Dieu : les sept dons."],
-      ["Les fruits de l'Esprit", "Amour, joie, paix, patience, bonté, bienveillance, fidélité, douceur et maîtrise de soi (Ga 5, 22-23)."],
-      ["Le souffle", "En hébreu, ruah veut dire « souffle, vent » : l'Esprit est le souffle de Dieu."],
-      ["Le feu", "À la Pentecôte, des langues de feu se posent sur les disciples (Ac 2, 3)."],
-      ["Toutes les langues", "Chacun entend les apôtres dans sa propre langue : l'Évangile est pour tous les peuples."],
-      ["La veille de Pentecôte", "Ce soir commence la vigile de Pentecôte, la naissance de l'Église."],
-      ["La Pentecôte", "L'Esprit Saint descend sur les disciples."]
-    ]
-  }
+ "_note": "Pendant les temps forts, le titre de chaque jour porte sur le temps lui-même : son sens, ses rites, ses récits. Rangé par rang du jour dans son temps (0 = premier jour : 1er dimanche de l'Avent, 25 décembre, mercredi des Cendres, dimanche de Pâques). Les fêtes et les jours de premier rang (dimanches, Semaine sainte, octave de Pâques) gardent leur nom liturgique ; à partir du 17 décembre, les grandes antiennes « Ô » (jours.json) prennent le relais. Chaque entrée : [titre, phrase].",
+ "fr": {
+  "avent": [
+   [
+    "L'Avent commence",
+    "Quatre semaines pour se préparer à Noël. Le mot vient du latin adventus, « venue »."
+   ],
+   [
+    "La couronne de l'Avent",
+    "Quatre bougies, une de plus chaque dimanche : une lumière qui grandit jusqu'à Noël."
+   ],
+   [
+    "Le violet de l'Avent",
+    "La couleur de l'attente et de la préparation, avec la joie au bout du chemin."
+   ],
+   [
+    "Veiller",
+    "Jésus invite à rester éveillé : attentif à Dieu qui vient dans notre vie de tous les jours."
+   ],
+   [
+    "Le prophète Isaïe",
+    "On lit beaucoup Isaïe pendant l'Avent : il a annoncé un enfant appelé « Dieu avec nous »."
+   ],
+   [
+    "Les trois venues",
+    "L'Avent regarde vers trois venues : à Bethléem, aujourd'hui dans nos cœurs, et à la fin des temps."
+   ],
+   [
+    "Le calendrier de l'Avent",
+    "Une petite fenêtre à ouvrir chaque jour : une tradition née en Allemagne pour faire patienter les enfants."
+   ],
+   [
+    "Préparer le chemin",
+    "Le deuxième dimanche de l'Avent fait entendre Jean-Baptiste dans le désert."
+   ],
+   [
+    "Jean-Baptiste",
+    "La voix qui crie dans le désert : « Préparez le chemin du Seigneur. »"
+   ],
+   [
+    "La crèche",
+    "On commence souvent à installer la crèche ; on peut y ajouter les personnages peu à peu."
+   ],
+   [
+    "Marie qui attend",
+    "L'Avent est aussi le temps de Marie, qui porte Jésus et attend sa naissance."
+   ],
+   [
+    "Joseph",
+    "Joseph, l'homme juste, accueille Marie et l'enfant sans tout comprendre."
+   ],
+   [
+    "Le désert fleurira",
+    "Les prophètes annoncent que le désert va fleurir : Dieu peut faire renaître ce qui semble mort (Is 35)."
+   ],
+   [
+    "Faire de la place",
+    "Préparer Noël, c'est aussi faire de la place dans son cœur : se réconcilier, pardonner."
+   ],
+   [
+    "Gaudete",
+    "Le troisième dimanche de l'Avent est celui de la joie ; le prêtre peut porter du rose."
+   ],
+   [
+    "La joie",
+    "« Soyez toujours dans la joie » : au milieu de l'Avent, l'Église allume une note de joie (Ph 4, 4)."
+   ],
+   [
+    "La confession avant Noël",
+    "Beaucoup de paroisses proposent la confession pendant l'Avent, pour accueillir Noël le cœur léger."
+   ],
+   [
+    "Partager",
+    "Donner à ceux qui manquent : une façon très ancienne de préparer Noël."
+   ],
+   [
+    "Le Messie attendu",
+    "Israël a attendu des siècles un sauveur : l'Avent fait entrer dans cette longue espérance."
+   ],
+   [
+    "La lumière dans la nuit",
+    "« Le peuple qui marchait dans les ténèbres a vu une grande lumière » (Is 9, 1)."
+   ]
+  ],
+  "noel": [
+   [
+    "Noël",
+    "La naissance de Jésus à Bethléem."
+   ],
+   [
+    "Saint Étienne",
+    "Le premier martyr, au lendemain de Noël."
+   ],
+   [
+    "Saint Jean",
+    "L'apôtre « que Jésus aimait »."
+   ],
+   [
+    "Les saints Innocents",
+    "Les enfants de Bethléem tués sur l'ordre d'Hérode."
+   ],
+   [
+    "L'octave de Noël",
+    "Pendant huit jours, l'Église fête Noël comme un seul grand jour."
+   ],
+   [
+    "Les bergers",
+    "Les premiers à apprendre la nouvelle sont des bergers, des gens simples (Lc 2, 8-20)."
+   ],
+   [
+    "Merci pour l'année",
+    "On termine l'année en rendant grâce : le Te Deum est chanté le 31 décembre."
+   ],
+   [
+    "Marie, Mère de Dieu",
+    "L'année commence avec Marie."
+   ],
+   [
+    "Le nom de Jésus",
+    "Jésus, en hébreu Yeshoua, veut dire « Dieu sauve »."
+   ],
+   [
+    "Le Verbe s'est fait chair",
+    "« Le Verbe s'est fait chair et il a habité parmi nous » (Jn 1, 14)."
+   ],
+   [
+    "Les mages en chemin",
+    "Ils suivent une étoile, de loin, sans savoir où elle les mène (Mt 2)."
+   ],
+   [
+    "La veille des Rois",
+    "En Espagne, ce soir, les Rois mages défilent dans les rues et les enfants préparent leurs chaussures."
+   ],
+   [
+    "Les Rois mages",
+    "En Espagne et dans bien des pays, c'est aujourd'hui l'Épiphanie ; en France, on la fête le dimanche."
+   ],
+   [
+    "La galette des rois",
+    "En France, on partage la galette en janvier : la fève rappelle l'enfant caché."
+   ],
+   [
+    "La fuite en Égypte",
+    "Joseph emmène Marie et l'enfant en Égypte pour échapper à Hérode (Mt 2, 13-15)."
+   ],
+   [
+    "Nazareth",
+    "Jésus grandit dans un petit village de Galilée, dans une famille ordinaire."
+   ],
+   [
+    "Jésus au Temple à 12 ans",
+    "Marie et Joseph le cherchent trois jours, et le retrouvent parmi les maîtres (Lc 2, 41-52)."
+   ],
+   [
+    "Les noces de Cana",
+    "Le premier signe de Jésus, à la demande de Marie (Jn 2, 1-11)."
+   ],
+   [
+    "Le baptême de Jésus",
+    "Jésus se fait baptiser par Jean dans le Jourdain."
+   ],
+   [
+    "La fin du temps de Noël",
+    "Après le Baptême du Seigneur, le temps ordinaire commence."
+   ],
+   [
+    "La crèche reste",
+    "Beaucoup gardent la crèche jusqu'à la Chandeleur, le 2 février."
+   ]
+  ],
+  "careme": [
+   [
+    "Les Cendres",
+    "Le Carême commence : « Convertissez-vous et croyez à l'Évangile. »"
+   ],
+   [
+    "Quarante jours",
+    "Comme les quarante jours de Jésus au désert, le Carême dure quarante jours, sans compter les dimanches."
+   ],
+   [
+    "Le vendredi",
+    "Chaque vendredi de Carême, les catholiques s'abstiennent de viande, en souvenir de la mort de Jésus un vendredi."
+   ],
+   [
+    "Le jeûne",
+    "Se priver un peu pour avoir faim de Dieu, et faire de la place à l'essentiel."
+   ],
+   [
+    "Jésus au désert",
+    "Le premier dimanche de Carême, Jésus est tenté au désert et ne cède pas."
+   ],
+   [
+    "Prier, jeûner, partager",
+    "Le Carême repose sur trois piliers que Jésus nomme lui-même (Mt 6, 1-18)."
+   ],
+   [
+    "Le partage",
+    "L'aumône : donner de son temps, de son argent, de son attention à ceux qui en manquent."
+   ],
+   [
+    "Le désert",
+    "Dans la Bible, le désert est le lieu de l'épreuve et de la rencontre avec Dieu."
+   ],
+   [
+    "Le violet du Carême",
+    "Couleur de la pénitence et de la conversion : l'Église s'habille de violet jusqu'à Pâques."
+   ],
+   [
+    "Le chemin de croix",
+    "Quatorze étapes pour suivre Jésus jusqu'à la croix, souvent priées le vendredi."
+   ],
+   [
+    "Les catéchumènes",
+    "Partout dans le monde, des adultes se préparent à être baptisés à Pâques, et l'Église prie pour eux."
+   ],
+   [
+    "La Transfiguration",
+    "Le deuxième dimanche de Carême, Jésus montre sa lumière avant la croix."
+   ],
+   [
+    "L'Alléluia se tait",
+    "Pendant tout le Carême, on ne chante plus l'Alléluia : il reviendra dans la nuit de Pâques."
+   ],
+   [
+    "Se convertir",
+    "En grec, metanoia : changer de regard, se retourner vers Dieu."
+   ],
+   [
+    "Le pardon",
+    "Le Carême est le temps de la réconciliation : avec Dieu, avec les autres, avec soi-même."
+   ],
+   [
+    "La confession",
+    "Le sacrement de réconciliation : déposer ce qui pèse et recevoir le pardon de Dieu."
+   ],
+   [
+    "Jeûner autrement",
+    "Jeûner peut aussi vouloir dire se priver d'écrans, de sucre ou de critiques."
+   ],
+   [
+    "Le peuple au désert",
+    "Quarante ans de marche vers la Terre promise : le Carême reprend ce chemin de libération."
+   ],
+   [
+    "La Samaritaine",
+    "Le troisième dimanche de Carême, Jésus promet une eau vive (Jn 4)."
+   ],
+   [
+    "Les scrutins",
+    "Aux 3e, 4e et 5e dimanches, l'Église prie spécialement pour ceux qui seront baptisés à Pâques."
+   ],
+   [
+    "L'eau vive",
+    "Jésus demande à boire à une femme au puits, et c'est lui qui lui offre de l'eau (Jn 4)."
+   ],
+   [
+    "Le repas partagé",
+    "Dans bien des paroisses, on remplace un repas par un bol de riz et on donne l'argent économisé."
+   ],
+   [
+    "Le silence",
+    "Quelques minutes de silence chaque jour : le Carême aide à réentendre Dieu."
+   ],
+   [
+    "L'aveugle-né",
+    "Jésus ouvre les yeux d'un aveugle : le Carême est un chemin vers la lumière (Jn 9)."
+   ],
+   [
+    "Laetare demain",
+    "Demain, à mi-chemin, c'est le dimanche de la joie : le prêtre peut porter du rose."
+   ],
+   [
+    "Laetare",
+    "« Réjouis-toi » : le quatrième dimanche de Carême fait entrevoir Pâques."
+   ],
+   [
+    "Le fils prodigue",
+    "Le père court vers son fils qui revient : c'est le cœur du Carême (Lc 15)."
+   ],
+   [
+    "La miséricorde",
+    "Dieu ne se lasse pas de pardonner : le Carême est un temps pour le croire."
+   ],
+   [
+    "La prière de Jésus",
+    "« Jésus, Fils de Dieu, aie pitié de moi » : une prière très simple, répétée doucement."
+   ],
+   [
+    "Les croix voilées",
+    "Dans certaines églises, on voile les croix et les statues à partir du cinquième dimanche de Carême."
+   ],
+   [
+    "Le grain de blé",
+    "« Si le grain de blé ne meurt… » : Jésus annonce que sa vie donnée portera du fruit (Jn 12, 24)."
+   ],
+   [
+    "Lazare",
+    "Jésus pleure son ami, puis l'appelle hors du tombeau (Jn 11)."
+   ],
+   [
+    "Le cinquième dimanche",
+    "Plus que deux semaines avant Pâques : la croix se rapproche."
+   ],
+   [
+    "Sans condamner",
+    "« Que celui d'entre vous qui est sans péché… » : Jésus relève au lieu de condamner (Jn 8)."
+   ],
+   [
+    "Les rameaux à préparer",
+    "Bientôt les Rameaux : on apporte du buis, de l'olivier ou des palmes à faire bénir."
+   ],
+   [
+    "Les huiles saintes",
+    "Pendant la Semaine sainte, l'évêque bénit les huiles saintes avec tous les prêtres du diocèse."
+   ],
+   [
+    "Le Triduum approche",
+    "Jeudi, vendredi et samedi saints : trois jours qui sont le cœur de toute l'année chrétienne."
+   ],
+   [
+    "Marie au pied de la croix",
+    "Le vendredi avant les Rameaux, on pense à Marie qui suivra son fils jusqu'au bout."
+   ],
+   [
+    "La veille des Rameaux",
+    "Demain, Jésus entre à Jérusalem : la Semaine sainte commence."
+   ],
+   [
+    "Les Rameaux",
+    "Jésus entre à Jérusalem, acclamé, sur un âne."
+   ],
+   [
+    "Lundi saint",
+    "Marie de Béthanie verse un parfum précieux sur les pieds de Jésus (Jn 12, 1-8)."
+   ],
+   [
+    "Mardi saint",
+    "Jésus annonce que l'un des siens va le trahir (Jn 13, 21-33)."
+   ],
+   [
+    "Mercredi saint",
+    "Judas va trouver les grands prêtres (Mt 26, 14-25)."
+   ]
+  ],
+  "paques": [
+   [
+    "Pâques",
+    "Christ est ressuscité !"
+   ],
+   [
+    "Lundi de Pâques",
+    "Toute la semaine de Pâques est fêtée comme un seul grand jour."
+   ],
+   [
+    "Mardi de Pâques",
+    "Marie-Madeleine reconnaît Jésus quand il l'appelle par son nom (Jn 20, 16)."
+   ],
+   [
+    "Mercredi de Pâques",
+    "Les disciples d'Emmaüs reconnaissent Jésus à la fraction du pain."
+   ],
+   [
+    "Jeudi de Pâques",
+    "« La paix soit avec vous » : Jésus se montre à ses disciples."
+   ],
+   [
+    "Vendredi de Pâques",
+    "Au bord du lac, Jésus prépare le repas de ses amis."
+   ],
+   [
+    "Samedi de Pâques",
+    "« Allez dans le monde entier » : la mission commence."
+   ],
+   [
+    "La Divine Miséricorde",
+    "Le dimanche après Pâques, on fête la miséricorde de Dieu."
+   ],
+   [
+    "Cinquante jours de fête",
+    "Le temps pascal dure cinquante jours, comme un seul grand dimanche, jusqu'à la Pentecôte."
+   ],
+   [
+    "L'Alléluia revient",
+    "Après quarante jours de silence, l'Alléluia, « louez Dieu », se chante partout."
+   ],
+   [
+    "Le cierge pascal",
+    "Allumé dans la nuit de Pâques, il brille près de l'autel à chaque messe jusqu'à la Pentecôte."
+   ],
+   [
+    "Le blanc de Pâques",
+    "La couleur de la lumière et de la fête, portée pendant tout le temps pascal."
+   ],
+   [
+    "Les Actes des Apôtres",
+    "Pendant le temps pascal, on lit à la messe les débuts de l'Église dans les Actes des Apôtres."
+   ],
+   [
+    "Regina Caeli",
+    "Au temps pascal, l'Angélus est remplacé par le Regina Caeli : « Reine du ciel, réjouis-toi »."
+   ],
+   [
+    "Le troisième dimanche de Pâques",
+    "Jésus ressuscité continue de rejoindre ses disciples."
+   ],
+   [
+    "Les disciples d'Emmaüs",
+    "Deux disciples découragés reconnaissent Jésus quand il rompt le pain (Lc 24)."
+   ],
+   [
+    "Le tombeau vide",
+    "Les femmes arrivent les premières et trouvent la pierre roulée."
+   ],
+   [
+    "Thomas",
+    "« Heureux ceux qui croient sans avoir vu » : une parole pour nous aujourd'hui (Jn 20, 29)."
+   ],
+   [
+    "Le baptême",
+    "Pâques est la grande fête du baptême : on renouvelle ses promesses dans la nuit pascale."
+   ],
+   [
+    "Le repas au bord du lac",
+    "Au bord du lac, Jésus ressuscité prépare un repas pour ses amis (Jn 21)."
+   ],
+   [
+    "Pierre pardonné",
+    "Trois fois Pierre avait renié ; trois fois Jésus lui demande : « M'aimes-tu ? » (Jn 21)."
+   ],
+   [
+    "Le Bon Pasteur",
+    "Le quatrième dimanche de Pâques est celui du Bon Pasteur, jour de prière pour les vocations."
+   ],
+   [
+    "Le Bon Pasteur",
+    "« Je suis le bon pasteur » : Jésus connaît chacun par son nom (Jn 10)."
+   ],
+   [
+    "Le corps ressuscité",
+    "Jésus ressuscité n'est pas un fantôme : il mange, on peut le toucher (Lc 24, 39-43)."
+   ],
+   [
+    "La paix soit avec vous",
+    "Les premiers mots du Ressuscité à ses disciples enfermés par la peur (Jn 20, 19)."
+   ],
+   [
+    "Les premiers chrétiens",
+    "Ils étaient fidèles à l'enseignement des apôtres, au partage, à la fraction du pain et aux prières (Ac 2, 42)."
+   ],
+   [
+    "La mort n'a pas le dernier mot",
+    "Pâques ouvre une porte : la vie est plus forte que la mort."
+   ],
+   [
+    "Chaque dimanche, Pâques",
+    "Chaque dimanche est une petite Pâques : le jour où le Christ est ressuscité."
+   ],
+   [
+    "Le cinquième dimanche de Pâques",
+    "Jésus parle à ses amis comme avant un départ."
+   ],
+   [
+    "Le chemin, la vérité, la vie",
+    "« Je suis le chemin, la vérité et la vie » (Jn 14, 6)."
+   ],
+   [
+    "La vigne et les sarments",
+    "« Je suis la vigne, vous êtes les sarments » (Jn 15, 5)."
+   ],
+   [
+    "Le commandement nouveau",
+    "« Aimez-vous les uns les autres comme je vous ai aimés » (Jn 13, 34)."
+   ],
+   [
+    "Le Défenseur",
+    "Jésus promet l'Esprit Saint, le Paraclet : celui qui console et qui défend (Jn 14, 16)."
+   ],
+   [
+    "Sans peur",
+    "Les apôtres, hier enfermés par la peur, annoncent maintenant Jésus avec assurance."
+   ],
+   [
+    "La maison du Père",
+    "« Dans la maison de mon Père, il y a de nombreuses demeures » (Jn 14, 2)."
+   ],
+   [
+    "Le sixième dimanche de Pâques",
+    "« Je ne vous laisserai pas orphelins » (Jn 14, 18)."
+   ],
+   [
+    "Les Rogations",
+    "Les jours avant l'Ascension, on priait traditionnellement pour les récoltes et le travail."
+   ],
+   [
+    "Jésus prie pour nous",
+    "Avant sa Passion, Jésus prie pour ses disciples et pour tous ceux qui croiront (Jn 17)."
+   ],
+   [
+    "Avant l'Ascension",
+    "Jésus va retourner auprès du Père, et il promet de rester avec nous."
+   ],
+   [
+    "L'Ascension",
+    "Jésus monte auprès du Père, quarante jours après Pâques."
+   ],
+   [
+    "La première neuvaine",
+    "Entre l'Ascension et la Pentecôte, les disciples prient avec Marie : c'est l'origine des neuvaines."
+   ],
+   [
+    "Viens, Esprit Saint",
+    "On prie souvent le Veni Creator, un chant très ancien pour appeler l'Esprit."
+   ],
+   [
+    "Le septième dimanche de Pâques",
+    "L'Église attend l'Esprit Saint, comme les disciples au Cénacle."
+   ],
+   [
+    "Les dons de l'Esprit",
+    "Sagesse, intelligence, conseil, force, connaissance, piété et crainte de Dieu : les sept dons."
+   ],
+   [
+    "Les fruits de l'Esprit",
+    "Amour, joie, paix, patience, bonté, bienveillance, fidélité, douceur et maîtrise de soi (Ga 5, 22-23)."
+   ],
+   [
+    "Le souffle",
+    "En hébreu, ruah veut dire « souffle, vent » : l'Esprit est le souffle de Dieu."
+   ],
+   [
+    "Le feu",
+    "À la Pentecôte, des langues de feu se posent sur les disciples (Ac 2, 3)."
+   ],
+   [
+    "Toutes les langues",
+    "Chacun entend les apôtres dans sa propre langue : l'Évangile est pour tous les peuples."
+   ],
+   [
+    "La veille de Pentecôte",
+    "Ce soir commence la vigile de Pentecôte, la naissance de l'Église."
+   ],
+   [
+    "La Pentecôte",
+    "L'Esprit Saint descend sur les disciples."
+   ]
+  ]
+ },
+ "es": {
+  "avent": [
+   [
+    "Comienza el Adviento",
+    "Cuatro semanas para prepararse a la Navidad. La palabra viene del latín adventus, «venida»."
+   ],
+   [
+    "La corona de Adviento",
+    "Cuatro velas, una más cada domingo: una luz que crece hasta Navidad."
+   ],
+   [
+    "El morado del Adviento",
+    "El color de la espera y la preparación, con la alegría al final del camino."
+   ],
+   [
+    "Velar",
+    "Jesús invita a estar despiertos: atentos a Dios, que viene a nuestra vida de cada día."
+   ],
+   [
+    "El profeta Isaías",
+    "En Adviento se lee mucho a Isaías: anunció un niño llamado «Dios con nosotros»."
+   ],
+   [
+    "Las tres venidas",
+    "El Adviento mira hacia tres venidas: en Belén, hoy en nuestro corazón y al final de los tiempos."
+   ],
+   [
+    "El calendario de Adviento",
+    "Una ventanita para abrir cada día: una tradición nacida en Alemania para ayudar a los niños a esperar."
+   ],
+   [
+    "Preparar el camino",
+    "El segundo domingo de Adviento se escucha a Juan el Bautista en el desierto."
+   ],
+   [
+    "Juan el Bautista",
+    "La voz que grita en el desierto: «Preparad el camino del Señor»."
+   ],
+   [
+    "El belén",
+    "Muchas familias empiezan a montar el belén; se pueden ir añadiendo las figuras poco a poco."
+   ],
+   [
+    "María que espera",
+    "El Adviento es también el tiempo de María, que lleva a Jesús y espera su nacimiento."
+   ],
+   [
+    "José",
+    "José, el hombre justo, acoge a María y al niño sin entenderlo todo."
+   ],
+   [
+    "El desierto florecerá",
+    "Los profetas anuncian que el desierto florecerá: Dios puede hacer renacer lo que parece muerto (Is 35)."
+   ],
+   [
+    "Hacer sitio",
+    "Preparar la Navidad también es hacer sitio en el corazón: reconciliarse, perdonar."
+   ],
+   [
+    "Gaudete",
+    "El tercer domingo de Adviento es el de la alegría; el sacerdote puede vestir de rosa."
+   ],
+   [
+    "La alegría",
+    "«Estad siempre alegres»: en medio del Adviento, la Iglesia enciende una nota de alegría (Flp 4, 4)."
+   ],
+   [
+    "La confesión antes de Navidad",
+    "Muchas parroquias ofrecen la confesión en Adviento, para recibir la Navidad con el corazón ligero."
+   ],
+   [
+    "Compartir",
+    "Dar a quienes les falta algo: una forma muy antigua de preparar la Navidad."
+   ],
+   [
+    "El Mesías esperado",
+    "Israel esperó durante siglos un salvador: el Adviento nos hace entrar en esa larga esperanza."
+   ],
+   [
+    "La luz en la noche",
+    "«El pueblo que caminaba en tinieblas vio una gran luz» (Is 9, 1)."
+   ]
+  ],
+  "noel": [
+   [
+    "Navidad",
+    "El nacimiento de Jesús en Belén."
+   ],
+   [
+    "San Esteban",
+    "El primer mártir, al día siguiente de Navidad."
+   ],
+   [
+    "San Juan",
+    "El apóstol «al que Jesús amaba»."
+   ],
+   [
+    "Los santos Inocentes",
+    "Los niños de Belén asesinados por orden de Herodes."
+   ],
+   [
+    "La octava de Navidad",
+    "Durante ocho días, la Iglesia celebra la Navidad como un solo gran día."
+   ],
+   [
+    "Los pastores",
+    "Los primeros en recibir la noticia son unos pastores, gente sencilla (Lc 2, 8-20)."
+   ],
+   [
+    "Gracias por el año",
+    "Terminamos el año dando gracias: el 31 de diciembre se canta el Te Deum."
+   ],
+   [
+    "Santa María, Madre de Dios",
+    "El año empieza con María."
+   ],
+   [
+    "El nombre de Jesús",
+    "Jesús, en hebreo Yeshúa, significa «Dios salva»."
+   ],
+   [
+    "La Palabra se hizo carne",
+    "«La Palabra se hizo carne y habitó entre nosotros» (Jn 1, 14)."
+   ],
+   [
+    "Los Magos en camino",
+    "Siguen una estrella desde lejos, sin saber adónde los lleva (Mt 2)."
+   ],
+   [
+    "La víspera de Reyes",
+    "Esta noche, en España, los Reyes Magos desfilan por las calles y los niños preparan sus zapatos."
+   ],
+   [
+    "Los Reyes Magos",
+    "En España y en muchos países, hoy es la Epifanía; en otros lugares se celebra el domingo."
+   ],
+   [
+    "El roscón de Reyes",
+    "En España se comparte el roscón: la figurita escondida recuerda al niño que buscaban los Magos."
+   ],
+   [
+    "La huida a Egipto",
+    "José lleva a María y al niño a Egipto para escapar de Herodes (Mt 2, 13-15)."
+   ],
+   [
+    "Nazaret",
+    "Jesús crece en un pueblecito de Galilea, en una familia normal."
+   ],
+   [
+    "Jesús en el Templo a los 12 años",
+    "María y José lo buscan tres días y lo encuentran entre los maestros (Lc 2, 41-52)."
+   ],
+   [
+    "Las bodas de Caná",
+    "El primer signo de Jesús, a petición de María (Jn 2, 1-11)."
+   ],
+   [
+    "El bautismo de Jesús",
+    "Jesús se hace bautizar por Juan en el Jordán."
+   ],
+   [
+    "El final del tiempo de Navidad",
+    "Después del Bautismo del Señor comienza el tiempo ordinario."
+   ],
+   [
+    "El belén se queda",
+    "Muchos mantienen el belén hasta la Candelaria, el 2 de febrero."
+   ]
+  ],
+  "careme": [
+   [
+    "Miércoles de Ceniza",
+    "Empieza la Cuaresma: «Convertíos y creed en el Evangelio»."
+   ],
+   [
+    "Cuarenta días",
+    "Como los cuarenta días de Jesús en el desierto, la Cuaresma dura cuarenta días, sin contar los domingos."
+   ],
+   [
+    "El viernes",
+    "Cada viernes de Cuaresma, los católicos se abstienen de comer carne, en recuerdo de la muerte de Jesús un viernes."
+   ],
+   [
+    "El ayuno",
+    "Privarse un poco para tener hambre de Dios y hacer sitio a lo esencial."
+   ],
+   [
+    "Jesús en el desierto",
+    "El primer domingo de Cuaresma, Jesús es tentado en el desierto y no cede."
+   ],
+   [
+    "Orar, ayunar, compartir",
+    "La Cuaresma se apoya en tres pilares que el mismo Jesús nombra (Mt 6, 1-18)."
+   ],
+   [
+    "Compartir",
+    "La limosna: dar tiempo, dinero o atención a quienes lo necesitan."
+   ],
+   [
+    "El desierto",
+    "En la Biblia, el desierto es el lugar de la prueba y del encuentro con Dios."
+   ],
+   [
+    "El morado de la Cuaresma",
+    "Color de la penitencia y la conversión: la Iglesia se viste de morado hasta Pascua."
+   ],
+   [
+    "El vía crucis",
+    "Catorce estaciones para seguir a Jesús hasta la cruz, que se rezan a menudo los viernes."
+   ],
+   [
+    "Los catecúmenos",
+    "En todo el mundo, adultos se preparan para ser bautizados en Pascua, y la Iglesia reza por ellos."
+   ],
+   [
+    "La Transfiguración",
+    "El segundo domingo de Cuaresma, Jesús muestra su luz antes de la cruz."
+   ],
+   [
+    "El aleluya calla",
+    "Durante toda la Cuaresma no se canta el aleluya: volverá en la noche de Pascua."
+   ],
+   [
+    "Convertirse",
+    "En griego, metanoia: cambiar la mirada, volverse hacia Dios."
+   ],
+   [
+    "El perdón",
+    "La Cuaresma es tiempo de reconciliación: con Dios, con los demás y con uno mismo."
+   ],
+   [
+    "La confesión",
+    "El sacramento de la reconciliación: dejar lo que pesa y recibir el perdón de Dios."
+   ],
+   [
+    "Ayunar de otra manera",
+    "Ayunar también puede ser privarse de pantallas, de dulces o de críticas."
+   ],
+   [
+    "El pueblo en el desierto",
+    "Cuarenta años de camino hacia la Tierra prometida: la Cuaresma recorre ese camino de liberación."
+   ],
+   [
+    "La samaritana",
+    "El tercer domingo de Cuaresma, Jesús promete un agua viva (Jn 4)."
+   ],
+   [
+    "Los escrutinios",
+    "Los domingos 3.º, 4.º y 5.º, la Iglesia reza de manera especial por quienes serán bautizados en Pascua."
+   ],
+   [
+    "El agua viva",
+    "Jesús pide de beber a una mujer junto al pozo, y es él quien le ofrece agua (Jn 4)."
+   ],
+   [
+    "La comida compartida",
+    "En muchas parroquias se sustituye una comida por un plato de arroz y se da el dinero ahorrado."
+   ],
+   [
+    "El silencio",
+    "Unos minutos de silencio cada día: la Cuaresma ayuda a volver a escuchar a Dios."
+   ],
+   [
+    "El ciego de nacimiento",
+    "Jesús abre los ojos de un ciego: la Cuaresma es un camino hacia la luz (Jn 9)."
+   ],
+   [
+    "Mañana, Laetare",
+    "Mañana, a mitad de camino, es el domingo de la alegría: el sacerdote puede vestir de rosa."
+   ],
+   [
+    "Laetare",
+    "«Alégrate»: el cuarto domingo de Cuaresma deja entrever la Pascua."
+   ],
+   [
+    "El hijo pródigo",
+    "El padre corre hacia el hijo que vuelve: es el corazón de la Cuaresma (Lc 15)."
+   ],
+   [
+    "La misericordia",
+    "Dios no se cansa de perdonar: la Cuaresma es un tiempo para creerlo."
+   ],
+   [
+    "La oración de Jesús",
+    "«Jesús, Hijo de Dios, ten piedad de mí»: una oración muy sencilla, repetida con calma."
+   ],
+   [
+    "Las cruces veladas",
+    "En algunas iglesias se cubren las cruces y las imágenes a partir del quinto domingo de Cuaresma."
+   ],
+   [
+    "El grano de trigo",
+    "«Si el grano de trigo no muere…»: Jesús anuncia que su vida entregada dará fruto (Jn 12, 24)."
+   ],
+   [
+    "Lázaro",
+    "Jesús llora a su amigo y luego lo llama fuera del sepulcro (Jn 11)."
+   ],
+   [
+    "El quinto domingo",
+    "Solo quedan dos semanas para Pascua: la cruz se acerca."
+   ],
+   [
+    "Sin condenar",
+    "«El que de vosotros esté sin pecado…»: Jesús levanta en lugar de condenar (Jn 8)."
+   ],
+   [
+    "Preparar los ramos",
+    "Pronto llega el Domingo de Ramos: se llevan ramas de olivo o palmas para bendecirlas."
+   ],
+   [
+    "Los santos óleos",
+    "Durante la Semana Santa, el obispo bendice los santos óleos con todos los sacerdotes de la diócesis."
+   ],
+   [
+    "Se acerca el Triduo",
+    "Jueves, Viernes y Sábado Santo: tres días que son el corazón de todo el año cristiano."
+   ],
+   [
+    "María al pie de la cruz",
+    "El viernes antes de Ramos, pensamos en María, que seguirá a su hijo hasta el final."
+   ],
+   [
+    "La víspera de Ramos",
+    "Mañana Jesús entra en Jerusalén: comienza la Semana Santa."
+   ],
+   [
+    "Domingo de Ramos",
+    "Jesús entra en Jerusalén, aclamado, montado en un borrico."
+   ],
+   [
+    "Lunes Santo",
+    "María de Betania derrama un perfume precioso sobre los pies de Jesús (Jn 12, 1-8)."
+   ],
+   [
+    "Martes Santo",
+    "Jesús anuncia que uno de los suyos lo va a traicionar (Jn 13, 21-33)."
+   ],
+   [
+    "Miércoles Santo",
+    "Judas va a ver a los sumos sacerdotes (Mt 26, 14-25)."
+   ]
+  ],
+  "paques": [
+   [
+    "Pascua",
+    "¡Cristo ha resucitado!"
+   ],
+   [
+    "Lunes de Pascua",
+    "Toda la semana de Pascua se celebra como un solo gran día."
+   ],
+   [
+    "Martes de Pascua",
+    "María Magdalena reconoce a Jesús cuando la llama por su nombre (Jn 20, 16)."
+   ],
+   [
+    "Miércoles de Pascua",
+    "Los discípulos de Emaús reconocen a Jesús al partir el pan."
+   ],
+   [
+    "Jueves de Pascua",
+    "«La paz esté con vosotros»: Jesús se aparece a sus discípulos."
+   ],
+   [
+    "Viernes de Pascua",
+    "A orillas del lago, Jesús prepara la comida para sus amigos."
+   ],
+   [
+    "Sábado de Pascua",
+    "«Id al mundo entero»: empieza la misión."
+   ],
+   [
+    "La Divina Misericordia",
+    "El domingo después de Pascua se celebra la misericordia de Dios."
+   ],
+   [
+    "Cincuenta días de fiesta",
+    "El tiempo pascual dura cincuenta días, como un solo gran domingo, hasta Pentecostés."
+   ],
+   [
+    "Vuelve el aleluya",
+    "Tras cuarenta días de silencio, el aleluya, «alabad a Dios», se canta por todas partes."
+   ],
+   [
+    "El cirio pascual",
+    "Encendido en la noche de Pascua, brilla junto al altar en cada misa hasta Pentecostés."
+   ],
+   [
+    "El blanco de Pascua",
+    "El color de la luz y de la fiesta, durante todo el tiempo pascual."
+   ],
+   [
+    "Los Hechos de los Apóstoles",
+    "En el tiempo pascual se leen en misa los comienzos de la Iglesia en los Hechos de los Apóstoles."
+   ],
+   [
+    "Regina Caeli",
+    "En el tiempo pascual, el Ángelus se sustituye por el Regina Caeli: «Reina del cielo, alégrate»."
+   ],
+   [
+    "El tercer domingo de Pascua",
+    "Jesús resucitado sigue saliendo al encuentro de sus discípulos."
+   ],
+   [
+    "Los discípulos de Emaús",
+    "Dos discípulos desanimados reconocen a Jesús cuando parte el pan (Lc 24)."
+   ],
+   [
+    "El sepulcro vacío",
+    "Las mujeres llegan las primeras y encuentran la piedra corrida."
+   ],
+   [
+    "Tomás",
+    "«Dichosos los que crean sin haber visto»: una palabra para nosotros hoy (Jn 20, 29)."
+   ],
+   [
+    "El bautismo",
+    "La Pascua es la gran fiesta del bautismo: en la noche pascual se renuevan las promesas."
+   ],
+   [
+    "La comida a orillas del lago",
+    "A orillas del lago, Jesús resucitado prepara una comida para sus amigos (Jn 21)."
+   ],
+   [
+    "Pedro perdonado",
+    "Tres veces Pedro lo había negado; tres veces Jesús le pregunta: «¿Me amas?» (Jn 21)."
+   ],
+   [
+    "El Buen Pastor",
+    "El cuarto domingo de Pascua es el del Buen Pastor, día de oración por las vocaciones."
+   ],
+   [
+    "El Buen Pastor",
+    "«Yo soy el buen pastor»: Jesús conoce a cada uno por su nombre (Jn 10)."
+   ],
+   [
+    "El cuerpo resucitado",
+    "Jesús resucitado no es un fantasma: come y se le puede tocar (Lc 24, 39-43)."
+   ],
+   [
+    "La paz esté con vosotros",
+    "Las primeras palabras del Resucitado a sus discípulos, encerrados por el miedo (Jn 20, 19)."
+   ],
+   [
+    "Los primeros cristianos",
+    "Perseveraban en la enseñanza de los apóstoles, en la comunión, en la fracción del pan y en las oraciones (Hch 2, 42)."
+   ],
+   [
+    "La muerte no tiene la última palabra",
+    "La Pascua abre una puerta: la vida es más fuerte que la muerte."
+   ],
+   [
+    "Cada domingo, Pascua",
+    "Cada domingo es una pequeña Pascua: el día en que Cristo resucitó."
+   ],
+   [
+    "El quinto domingo de Pascua",
+    "Jesús habla a sus amigos como antes de una partida."
+   ],
+   [
+    "El camino, la verdad, la vida",
+    "«Yo soy el camino, la verdad y la vida» (Jn 14, 6)."
+   ],
+   [
+    "La vid y los sarmientos",
+    "«Yo soy la vid, vosotros los sarmientos» (Jn 15, 5)."
+   ],
+   [
+    "El mandamiento nuevo",
+    "«Amaos unos a otros como yo os he amado» (Jn 13, 34)."
+   ],
+   [
+    "El Defensor",
+    "Jesús promete el Espíritu Santo, el Paráclito: el que consuela y defiende (Jn 14, 16)."
+   ],
+   [
+    "Sin miedo",
+    "Los apóstoles, ayer encerrados por el miedo, anuncian ahora a Jesús con valentía."
+   ],
+   [
+    "La casa del Padre",
+    "«En la casa de mi Padre hay muchas moradas» (Jn 14, 2)."
+   ],
+   [
+    "El sexto domingo de Pascua",
+    "«No os dejaré huérfanos» (Jn 14, 18)."
+   ],
+   [
+    "Las Rogativas",
+    "Los días antes de la Ascensión se rezaba tradicionalmente por las cosechas y el trabajo."
+   ],
+   [
+    "Jesús reza por nosotros",
+    "Antes de su Pasión, Jesús reza por sus discípulos y por todos los que creerán (Jn 17)."
+   ],
+   [
+    "Antes de la Ascensión",
+    "Jesús va a volver junto al Padre, y promete quedarse con nosotros."
+   ],
+   [
+    "La Ascensión",
+    "Jesús sube junto al Padre, cuarenta días después de Pascua."
+   ],
+   [
+    "La primera novena",
+    "Entre la Ascensión y Pentecostés, los discípulos rezan con María: es el origen de las novenas."
+   ],
+   [
+    "Ven, Espíritu Santo",
+    "Se reza a menudo el Veni Creator, un canto muy antiguo para invocar al Espíritu."
+   ],
+   [
+    "El séptimo domingo de Pascua",
+    "La Iglesia espera al Espíritu Santo, como los discípulos en el Cenáculo."
+   ],
+   [
+    "Los dones del Espíritu",
+    "Sabiduría, entendimiento, consejo, fortaleza, ciencia, piedad y temor de Dios: los siete dones."
+   ],
+   [
+    "Los frutos del Espíritu",
+    "Amor, alegría, paz, paciencia, afabilidad, bondad, fidelidad, mansedumbre y dominio de sí (Gál 5, 22-23)."
+   ],
+   [
+    "El soplo",
+    "En hebreo, ruaj significa «soplo, viento»: el Espíritu es el aliento de Dios."
+   ],
+   [
+    "El fuego",
+    "En Pentecostés, unas lenguas de fuego se posan sobre los discípulos (Hch 2, 3)."
+   ],
+   [
+    "Todas las lenguas",
+    "Cada uno oye a los apóstoles en su propia lengua: el Evangelio es para todos los pueblos."
+   ],
+   [
+    "La víspera de Pentecostés",
+    "Esta tarde comienza la vigilia de Pentecostés, el nacimiento de la Iglesia."
+   ],
+   [
+    "Pentecostés",
+    "El Espíritu Santo desciende sobre los discípulos."
+   ]
+  ]
+ },
+ "en": {
+  "avent": [
+   [
+    "Advent begins",
+    "Four weeks to get ready for Christmas. The word comes from the Latin adventus, “coming”."
+   ],
+   [
+    "The Advent wreath",
+    "Four candles, one more each Sunday: a light that grows until Christmas."
+   ],
+   [
+    "The purple of Advent",
+    "The colour of waiting and preparing, with joy at the end of the road."
+   ],
+   [
+    "Keeping watch",
+    "Jesus invites us to stay awake: attentive to God, who comes into our everyday lives."
+   ],
+   [
+    "The prophet Isaiah",
+    "Isaiah is read a great deal in Advent: he foretold a child called “God with us”."
+   ],
+   [
+    "The three comings",
+    "Advent looks to three comings: in Bethlehem, today in our hearts, and at the end of time."
+   ],
+   [
+    "The Advent calendar",
+    "A little window to open each day: a tradition born in Germany to help children wait."
+   ],
+   [
+    "Prepare the way",
+    "The second Sunday of Advent lets us hear John the Baptist in the desert."
+   ],
+   [
+    "John the Baptist",
+    "The voice crying in the wilderness: “Prepare the way of the Lord.”"
+   ],
+   [
+    "The nativity scene",
+    "Many families begin to set up the crib; the figures can be added little by little."
+   ],
+   [
+    "Mary waiting",
+    "Advent is also Mary's season, as she carries Jesus and waits for his birth."
+   ],
+   [
+    "Joseph",
+    "Joseph, the just man, welcomes Mary and the child without understanding everything."
+   ],
+   [
+    "The desert will bloom",
+    "The prophets announce that the desert will bloom: God can bring back to life what seems dead (Is 35)."
+   ],
+   [
+    "Making room",
+    "Getting ready for Christmas also means making room in our hearts: making peace, forgiving."
+   ],
+   [
+    "Gaudete",
+    "The third Sunday of Advent is the Sunday of joy; the priest may wear rose."
+   ],
+   [
+    "Joy",
+    "“Rejoice always”: in the middle of Advent, the Church strikes a note of joy (Phil 4:4)."
+   ],
+   [
+    "Confession before Christmas",
+    "Many parishes offer confession during Advent, so we can welcome Christmas with a light heart."
+   ],
+   [
+    "Sharing",
+    "Giving to those in need: a very old way of preparing for Christmas."
+   ],
+   [
+    "The awaited Messiah",
+    "Israel waited centuries for a saviour: Advent lets us enter into that long hope."
+   ],
+   [
+    "Light in the night",
+    "“The people who walked in darkness have seen a great light” (Is 9:2)."
+   ]
+  ],
+  "noel": [
+   [
+    "Christmas",
+    "The birth of Jesus in Bethlehem."
+   ],
+   [
+    "Saint Stephen",
+    "The first martyr, the day after Christmas."
+   ],
+   [
+    "Saint John",
+    "The apostle “whom Jesus loved”."
+   ],
+   [
+    "The Holy Innocents",
+    "The children of Bethlehem killed on Herod's orders."
+   ],
+   [
+    "The octave of Christmas",
+    "For eight days the Church celebrates Christmas as one great day."
+   ],
+   [
+    "The shepherds",
+    "The first to hear the news are shepherds, simple people (Lk 2:8-20)."
+   ],
+   [
+    "Thanks for the year",
+    "We end the year giving thanks: the Te Deum is sung on 31 December."
+   ],
+   [
+    "Mary, Mother of God",
+    "The year begins with Mary."
+   ],
+   [
+    "The name of Jesus",
+    "Jesus, in Hebrew Yeshua, means “God saves”."
+   ],
+   [
+    "The Word became flesh",
+    "“The Word became flesh and dwelt among us” (Jn 1:14)."
+   ],
+   [
+    "The Wise Men on their way",
+    "They follow a star from far away, without knowing where it will lead them (Mt 2)."
+   ],
+   [
+    "The eve of the Three Kings",
+    "In Spain tonight, the Three Kings parade through the streets and children set out their shoes."
+   ],
+   [
+    "The Three Kings",
+    "In Spain and many countries, today is the Epiphany; elsewhere it is kept on Sunday."
+   ],
+   [
+    "The king cake",
+    "In many countries a cake is shared in January: the hidden figure recalls the child the Wise Men sought."
+   ],
+   [
+    "The flight into Egypt",
+    "Joseph takes Mary and the child to Egypt to escape Herod (Mt 2:13-15)."
+   ],
+   [
+    "Nazareth",
+    "Jesus grows up in a small village in Galilee, in an ordinary family."
+   ],
+   [
+    "Jesus in the Temple at 12",
+    "Mary and Joseph search for three days and find him among the teachers (Lk 2:41-52)."
+   ],
+   [
+    "The wedding at Cana",
+    "Jesus' first sign, at Mary's request (Jn 2:1-11)."
+   ],
+   [
+    "The baptism of Jesus",
+    "Jesus is baptized by John in the Jordan."
+   ],
+   [
+    "The end of Christmastide",
+    "After the Baptism of the Lord, Ordinary Time begins."
+   ],
+   [
+    "The crib stays up",
+    "Many keep the crib until Candlemas, on 2 February."
+   ]
+  ],
+  "careme": [
+   [
+    "Ash Wednesday",
+    "Lent begins: “Repent and believe in the Gospel.”"
+   ],
+   [
+    "Forty days",
+    "Like Jesus' forty days in the desert, Lent lasts forty days, not counting Sundays."
+   ],
+   [
+    "Friday",
+    "On each Friday of Lent, Catholics abstain from meat, in memory of Jesus dying on a Friday."
+   ],
+   [
+    "Fasting",
+    "Going without a little so as to hunger for God and make room for what matters."
+   ],
+   [
+    "Jesus in the desert",
+    "On the first Sunday of Lent, Jesus is tempted in the desert and does not give in."
+   ],
+   [
+    "Pray, fast, share",
+    "Lent rests on three pillars that Jesus names himself (Mt 6:1-18)."
+   ],
+   [
+    "Sharing",
+    "Almsgiving: giving time, money and attention to those who need them."
+   ],
+   [
+    "The desert",
+    "In the Bible, the desert is the place of testing and of meeting God."
+   ],
+   [
+    "The purple of Lent",
+    "The colour of penance and conversion: the Church wears purple until Easter."
+   ],
+   [
+    "The Stations of the Cross",
+    "Fourteen stations to follow Jesus to the cross, often prayed on Fridays."
+   ],
+   [
+    "The catechumens",
+    "All over the world, adults are preparing to be baptized at Easter, and the Church prays for them."
+   ],
+   [
+    "The Transfiguration",
+    "On the second Sunday of Lent, Jesus shows his glory before the cross."
+   ],
+   [
+    "The Alleluia falls silent",
+    "Throughout Lent the Alleluia is not sung: it will return in the night of Easter."
+   ],
+   [
+    "Conversion",
+    "In Greek, metanoia: changing how we see, turning back towards God."
+   ],
+   [
+    "Forgiveness",
+    "Lent is a time of reconciliation: with God, with others and with ourselves."
+   ],
+   [
+    "Confession",
+    "The sacrament of reconciliation: setting down what weighs on us and receiving God's forgiveness."
+   ],
+   [
+    "Fasting differently",
+    "Fasting can also mean giving up screens, sweets or criticism."
+   ],
+   [
+    "The people in the desert",
+    "Forty years walking towards the Promised Land: Lent follows that road to freedom."
+   ],
+   [
+    "The Samaritan woman",
+    "On the third Sunday of Lent, Jesus promises living water (Jn 4)."
+   ],
+   [
+    "The scrutinies",
+    "On the 3rd, 4th and 5th Sundays, the Church prays especially for those to be baptized at Easter."
+   ],
+   [
+    "Living water",
+    "Jesus asks a woman at the well for a drink, and it is he who offers her water (Jn 4)."
+   ],
+   [
+    "A shared meal",
+    "In many parishes, people replace a meal with a bowl of rice and give the money saved."
+   ],
+   [
+    "Silence",
+    "A few minutes of silence each day: Lent helps us hear God again."
+   ],
+   [
+    "The man born blind",
+    "Jesus opens the eyes of a blind man: Lent is a road towards the light (Jn 9)."
+   ],
+   [
+    "Laetare tomorrow",
+    "Tomorrow, halfway through, is the Sunday of joy: the priest may wear rose."
+   ],
+   [
+    "Laetare",
+    "“Rejoice”: the fourth Sunday of Lent offers a glimpse of Easter."
+   ],
+   [
+    "The prodigal son",
+    "The father runs to meet his returning son: this is the heart of Lent (Lk 15)."
+   ],
+   [
+    "Mercy",
+    "God never tires of forgiving: Lent is a time to believe it."
+   ],
+   [
+    "The Jesus Prayer",
+    "“Jesus, Son of God, have mercy on me”: a very simple prayer, repeated gently."
+   ],
+   [
+    "Veiled crosses",
+    "In some churches, crosses and statues are veiled from the fifth Sunday of Lent."
+   ],
+   [
+    "The grain of wheat",
+    "“Unless a grain of wheat dies…”: Jesus says his life given up will bear fruit (Jn 12:24)."
+   ],
+   [
+    "Lazarus",
+    "Jesus weeps for his friend, then calls him out of the tomb (Jn 11)."
+   ],
+   [
+    "The fifth Sunday",
+    "Only two weeks until Easter: the cross draws near."
+   ],
+   [
+    "Without condemning",
+    "“Let the one among you who is without sin…”: Jesus lifts up instead of condemning (Jn 8)."
+   ],
+   [
+    "Getting palms ready",
+    "Palm Sunday is coming: people bring palms or olive branches to be blessed."
+   ],
+   [
+    "The holy oils",
+    "During Holy Week, the bishop blesses the holy oils with all the priests of the diocese."
+   ],
+   [
+    "The Triduum draws near",
+    "Holy Thursday, Good Friday and Holy Saturday: three days at the heart of the whole Christian year."
+   ],
+   [
+    "Mary at the foot of the cross",
+    "On the Friday before Palm Sunday, we think of Mary, who will follow her son to the end."
+   ],
+   [
+    "The eve of Palm Sunday",
+    "Tomorrow Jesus enters Jerusalem: Holy Week begins."
+   ],
+   [
+    "Palm Sunday",
+    "Jesus enters Jerusalem on a donkey, to cheers."
+   ],
+   [
+    "Monday of Holy Week",
+    "Mary of Bethany pours precious perfume on Jesus' feet (Jn 12:1-8)."
+   ],
+   [
+    "Tuesday of Holy Week",
+    "Jesus says that one of his own will betray him (Jn 13:21-33)."
+   ],
+   [
+    "Wednesday of Holy Week",
+    "Judas goes to the chief priests (Mt 26:14-25)."
+   ]
+  ],
+  "paques": [
+   [
+    "Easter",
+    "Christ is risen!"
+   ],
+   [
+    "Easter Monday",
+    "The whole week of Easter is celebrated as one great day."
+   ],
+   [
+    "Easter Tuesday",
+    "Mary Magdalene recognizes Jesus when he calls her by name (Jn 20:16)."
+   ],
+   [
+    "Easter Wednesday",
+    "The disciples at Emmaus recognize Jesus in the breaking of the bread."
+   ],
+   [
+    "Easter Thursday",
+    "“Peace be with you”: Jesus shows himself to his disciples."
+   ],
+   [
+    "Easter Friday",
+    "By the lake, Jesus makes breakfast for his friends."
+   ],
+   [
+    "Easter Saturday",
+    "“Go into all the world”: the mission begins."
+   ],
+   [
+    "Divine Mercy",
+    "On the Sunday after Easter, we celebrate God's mercy."
+   ],
+   [
+    "Fifty days of feasting",
+    "Eastertide lasts fifty days, like one great Sunday, until Pentecost."
+   ],
+   [
+    "The Alleluia returns",
+    "After forty days of silence, the Alleluia, “praise God”, is sung everywhere."
+   ],
+   [
+    "The Easter candle",
+    "Lit in the night of Easter, it shines by the altar at every Mass until Pentecost."
+   ],
+   [
+    "The white of Easter",
+    "The colour of light and celebration, worn throughout Eastertide."
+   ],
+   [
+    "The Acts of the Apostles",
+    "In Eastertide, the beginnings of the Church are read at Mass from the Acts of the Apostles."
+   ],
+   [
+    "Regina Caeli",
+    "In Eastertide, the Angelus is replaced by the Regina Caeli: “Queen of heaven, rejoice”."
+   ],
+   [
+    "The third Sunday of Easter",
+    "The risen Jesus keeps coming to meet his disciples."
+   ],
+   [
+    "The disciples at Emmaus",
+    "Two discouraged disciples recognize Jesus when he breaks the bread (Lk 24)."
+   ],
+   [
+    "The empty tomb",
+    "The women arrive first and find the stone rolled away."
+   ],
+   [
+    "Thomas",
+    "“Blessed are those who have not seen and yet believe”: a word for us today (Jn 20:29)."
+   ],
+   [
+    "Baptism",
+    "Easter is the great feast of baptism: we renew our promises in the Easter night."
+   ],
+   [
+    "Breakfast by the lake",
+    "By the lake, the risen Jesus prepares a meal for his friends (Jn 21)."
+   ],
+   [
+    "Peter forgiven",
+    "Three times Peter had denied him; three times Jesus asks him: “Do you love me?” (Jn 21)."
+   ],
+   [
+    "The Good Shepherd",
+    "The fourth Sunday of Easter is Good Shepherd Sunday, a day of prayer for vocations."
+   ],
+   [
+    "The Good Shepherd",
+    "“I am the good shepherd”: Jesus knows each of us by name (Jn 10)."
+   ],
+   [
+    "The risen body",
+    "The risen Jesus is not a ghost: he eats, and he can be touched (Lk 24:39-43)."
+   ],
+   [
+    "Peace be with you",
+    "The first words of the Risen One to his disciples, locked in by fear (Jn 20:19)."
+   ],
+   [
+    "The first Christians",
+    "They devoted themselves to the apostles' teaching, to fellowship, to the breaking of bread and to prayer (Acts 2:42)."
+   ],
+   [
+    "Death does not have the last word",
+    "Easter opens a door: life is stronger than death."
+   ],
+   [
+    "Every Sunday, Easter",
+    "Every Sunday is a little Easter: the day Christ rose."
+   ],
+   [
+    "The fifth Sunday of Easter",
+    "Jesus speaks to his friends as if before a departure."
+   ],
+   [
+    "The way, the truth, the life",
+    "“I am the way, the truth and the life” (Jn 14:6)."
+   ],
+   [
+    "The vine and the branches",
+    "“I am the vine, you are the branches” (Jn 15:5)."
+   ],
+   [
+    "The new commandment",
+    "“Love one another as I have loved you” (Jn 13:34)."
+   ],
+   [
+    "The Advocate",
+    "Jesus promises the Holy Spirit, the Paraclete: the one who comforts and defends (Jn 14:16)."
+   ],
+   [
+    "Without fear",
+    "The apostles, once locked in by fear, now proclaim Jesus boldly."
+   ],
+   [
+    "The Father's house",
+    "“In my Father's house there are many rooms” (Jn 14:2)."
+   ],
+   [
+    "The sixth Sunday of Easter",
+    "“I will not leave you orphans” (Jn 14:18)."
+   ],
+   [
+    "The Rogation days",
+    "In the days before the Ascension, people traditionally prayed for the harvest and for work."
+   ],
+   [
+    "Jesus prays for us",
+    "Before his Passion, Jesus prays for his disciples and for all who will believe (Jn 17)."
+   ],
+   [
+    "Before the Ascension",
+    "Jesus is about to return to the Father, and he promises to stay with us."
+   ],
+   [
+    "The Ascension",
+    "Jesus goes up to the Father, forty days after Easter."
+   ],
+   [
+    "The first novena",
+    "Between the Ascension and Pentecost, the disciples pray with Mary: the origin of novenas."
+   ],
+   [
+    "Come, Holy Spirit",
+    "People often pray the Veni Creator, a very old hymn calling on the Spirit."
+   ],
+   [
+    "The seventh Sunday of Easter",
+    "The Church waits for the Holy Spirit, like the disciples in the Upper Room."
+   ],
+   [
+    "The gifts of the Spirit",
+    "Wisdom, understanding, counsel, fortitude, knowledge, piety and fear of the Lord: the seven gifts."
+   ],
+   [
+    "The fruits of the Spirit",
+    "Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control (Gal 5:22-23)."
+   ],
+   [
+    "The breath",
+    "In Hebrew, ruach means “breath, wind”: the Spirit is the breath of God."
+   ],
+   [
+    "Fire",
+    "At Pentecost, tongues of fire rest on the disciples (Acts 2:3)."
+   ],
+   [
+    "Every language",
+    "Each person hears the apostles in their own language: the Gospel is for every people."
+   ],
+   [
+    "The eve of Pentecost",
+    "Tonight the vigil of Pentecost begins, the birth of the Church."
+   ],
+   [
+    "Pentecost",
+    "The Holy Spirit comes down upon the disciples."
+   ]
+  ]
+ }
 }

@@ -33,6 +33,7 @@ const donnees = {
   i18n: { es: json('i18n/es.json'), en: json('i18n/en.json') },
   guideFamilleFr: json('guide-famille.json'),
   personnages: json('famille-personnages.json').personnages,
+  motsEnfants: json('famille-mots.json').mots,
   messe: json('messe.json'),
   auteurs: json('auteurs.json'),
   abreviations: json('abreviations.json')
@@ -66,11 +67,14 @@ const donnees = {
 // celles du lectionnaire (« vl » : les versets dans la numérotation de chaque Bible) ; chaque verset est vérifié.
 {
   const ev = json('evangiles.json');
+  const titres = json('evangiles-titres.json');
   const bibles = Object.fromEntries(Object.entries({ fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' }).map(([l, f]) => [l, Object.fromEntries(json(f).livres.map((b) => [b.osis, b]))]));
   const lire = ([ref, titre]) => {
     const { osis, liste } = lireRef(ref, bibles.fr, true);
     if (!liste.length) throw new Error(`évangiles : ${ref} : aucun verset`);
-    const e = { ref, titre, osis, v: liste, ora: 1 };
+    const t = typeof titre === 'object' ? titre : { fr: titre, es: titres.es[ref], en: titres.en[ref] };
+    for (const l of ['fr', 'es', 'en']) if (!t[l]) throw new Error(`évangiles : ${ref} : titre ${l} manquant`);
+    const e = { ref, titre: t, osis, v: liste, ora: 1 };
     for (const l of ['fr', 'es', 'en']) {
       const vl = [];
       for (const [c, v] of liste) for (const x of VERSIF[l][`${osis}.${c}.${v}`] || [[c, v]]) if (!vl.some((y) => y[0] === x[0] && y[1] === x[1])) vl.push(x);
@@ -83,6 +87,10 @@ const donnees = {
   for (const [id, ref] of Object.entries(ev.fetes)) sortie.fetes[id] = lire(ref);
   for (const [k, v] of Object.entries(ev)) if (Array.isArray(v)) sortie[k] = v.map(lire);
   donnees.evangiles = sortie;
+  // L'Évangile d'« En famille » : des passages choisis pour les 4-8 ans.
+  const enf = json('evangiles-enfants.json'), se = {};
+  for (const [k, v] of Object.entries(enf)) if (Array.isArray(v)) se[k] = v.map(lire);
+  donnees.evangilesEnfants = se;
 }
 
 // 2. Les fichiers copiés tels quels.
