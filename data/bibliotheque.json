@@ -206,7 +206,7 @@
     },
     "es": {
      "titre": "Cuando estamos cansados",
-     "texte": "A veces estamos muy cansados: después del cole, tras un día largo o cuando hemos dormido mal. ¡Jesús también se cansaba! Un día se sentó junto a un pozo para descansar. Estar cansado no es portarse mal: es el momento de descansar cerca de los que queremos.",
+     "texte": "A veces estamos muy cansados: después de la escuela, tras un día largo o cuando hemos dormido mal. ¡Jesús también se cansaba! Un día se sentó junto a un pozo para descansar. Estar cansado no es portarse mal: es el momento de descansar cerca de los que queremos.",
      "question": "¿Qué te ayuda a descansar cuando estás cansado?"
     },
     "en": {
@@ -250,9 +250,9 @@
      "question": "Qu'est-ce que tu fais pour te calmer quand tu es fâché ?"
     },
     "es": {
-     "titre": "Cuando nos enfadamos",
-     "texte": "Todo el mundo se enfada alguna vez: cuando nos quitan un juguete, cuando algo es injusto. No está mal enfadarse. Pero podemos aprender a no pegar ni gritar, a respirar hondo y a decir con palabras lo que no va bien.",
-     "question": "¿Qué haces para calmarte cuando te enfadas?"
+     "titre": "Cuando nos enojamos",
+     "texte": "Todo el mundo se enoja alguna vez: cuando nos quitan un juguete, cuando algo es injusto. No está mal enojarse. Pero podemos aprender a no pegar ni gritar, a respirar hondo y a decir con palabras lo que no va bien.",
+     "question": "¿Qué haces para calmarte cuando te enojas?"
     },
     "en": {
      "titre": "When we feel angry",
@@ -340,7 +340,7 @@
     },
     "es": {
      "titre": "Cuando tenemos miedo",
-     "texte": "A veces tenemos miedo: de la oscuridad, de un nuevo día de cole, de algo que va a pasar. Jesús dijo: «Mirad los pájaros del cielo: Dios los alimenta. ¡Vosotros valéis mucho más para él!». Podemos contarle nuestros miedos a Dios y a los que nos quieren.",
+     "texte": "A veces tenemos miedo: de la oscuridad, de un nuevo día de escuela, de algo que va a pasar. Jesús dijo: «Miren los pájaros del cielo: Dios los alimenta. ¡Ustedes valen mucho más para él!». Podemos contarle nuestros miedos a Dios y a los que nos quieren.",
      "question": "¿Qué te da un poco de miedo ahora? Puedes contárselo a Jesús."
     },
     "en": {
@@ -384,7 +384,7 @@
     },
     "es": {
      "titre": "Hacer las paces",
-     "texte": "Cuando alguien nos ha hecho daño, nos dan ganas de enfadarnos. Perdonar no es decir que no fue importante. Es elegir volver a ser amigos. Y cuando somos nosotros los que nos hemos portado mal, podemos decir: «Perdón, no quería hacerte daño».",
+     "texte": "Cuando alguien nos ha hecho daño, nos dan ganas de enojarnos. Perdonar no es decir que no fue importante. Es elegir volver a ser amigos. Y cuando somos nosotros los que nos hemos portado mal, podemos decir: «Perdón, no quería hacerte daño».",
      "question": "¿Con quién podrías hacer las paces?"
     },
     "en": {
@@ -553,7 +553,7 @@
     },
     "es": {
      "titre": "Hacer bien las cosas pequeñas",
-     "texte": "Jesús creció en Nazaret. Con José trabajaba la madera y fabricaba cosas. Tú también tienes tu trabajo: recoger tus cosas, aprender en el cole, ayudar a poner la mesa. Cuando hacemos las cosas con cariño, aunque sean pequeñas, alegramos a Dios.",
+     "texte": "Jesús creció en Nazaret. Con José trabajaba la madera y fabricaba cosas. Tú también tienes tu trabajo: recoger tus cosas, aprender en la escuela, ayudar a poner la mesa. Cuando hacemos las cosas con cariño, aunque sean pequeñas, alegramos a Dios.",
      "question": "¿Qué cosa pequeña puedes hacer hoy con cariño?"
     },
     "en": {
@@ -597,7 +597,7 @@
     },
     "es": {
      "titre": "Hacer la paz",
-     "texte": "En el mundo hay países que están en guerra, y eso es muy triste. La paz empieza muy cerca de nosotros: en la familia, en el cole, entre hermanos. Jesús dijo: «Dichosos los que trabajan por la paz». ¡Tú puedes ser constructor de paz!",
+     "texte": "En el mundo hay países que están en guerra, y eso es muy triste. La paz empieza muy cerca de nosotros: en la familia, en la escuela, entre hermanos. Jesús dijo: «Dichosos los que trabajan por la paz». ¡Tú puedes ser constructor de paz!",
      "question": "¿Cómo puedes llevar la paz a casa hoy?"
     },
     "en": {
@@ -747,7 +747,7 @@
    "es": {
     "titre": "La Biblia, el primer gran libro impreso",
     "accroche": "Antes de la imprenta, cada Biblia se copiaba a mano, palabra por palabra, durante meses.",
-    "texte": "Durante siglos, los libros se copian a mano, sobre todo por monjes en los monasterios. Una Biblia completa exige meses de trabajo y cuesta muy cara.\n\nHacia 1450, en Maguncia, Alemania, Johannes Gutenberg pone a punto la imprenta de tipos móviles: letras de metal que se juntan para componer una página y luego se reutilizan.\n\nEl primer gran libro que imprime, hacia 1455, es una Biblia en latín: la «Biblia de Gutenberg». Hoy quedan unos cincuenta ejemplares en el mundo.",
+    "texte": "Durante siglos, los libros se copian a mano, sobre todo por monjes en los monasterios. Una Biblia completa exige meses de trabajo y cuesta muy cara.\n\nHacia 1450, en Maguncia, Alemania, Johannes Gutenberg pone a punto la imprenta de tipos movibles: letras de metal que se juntan para componer una página y luego se reutilizan.\n\nEl primer gran libro que imprime, hacia 1455, es una Biblia en latín: la «Biblia de Gutenberg». Hoy quedan unos cincuenta ejemplares en el mundo.",
     "plusLoin": "Gracias a la imprenta, la Biblia pudo entrar en las casas, y después traducirse y difundirse en todas las lenguas. La Biblia que lees en esta app es heredera lejana de aquel primer libro.",
     "source": "Encyclopædia Britannica, «Gutenberg Bible»"
    },
@@ -1047,7 +1047,7 @@
    "es": {
     "titre": "El Génesis leído desde la Luna",
     "accroche": "La noche del 24 de diciembre de 1968, tres astronautas en órbita alrededor de la Luna leen las primeras palabras de la Biblia.",
-    "texte": "El Apolo 8 es la primera misión tripulada que da vueltas alrededor de la Luna. A bordo van Frank Borman, Jim Lovell y Bill Anders. Son también los primeros hombres que ven la Tierra salir por encima del horizonte lunar; Bill Anders saca una foto que se hará famosa.\n\nEn Nochebuena, en una retransmisión seguida por cientos de millones de personas, leen por turnos los diez primeros versículos del Génesis: «Al principio creó Dios el cielo y la tierra…».\n\nDespués desean feliz Navidad a «todos los que estáis en la buena Tierra». Vista desde tan lejos, la Tierra les parecía pequeña, frágil y muy hermosa.",
+    "texte": "El Apolo 8 es la primera misión tripulada que da vueltas alrededor de la Luna. A bordo van Frank Borman, Jim Lovell y Bill Anders. Son también los primeros hombres que ven la Tierra salir por encima del horizonte lunar; Bill Anders saca una foto que se hará famosa.\n\nEn Nochebuena, en una retransmisión seguida por cientos de millones de personas, leen por turnos los diez primeros versículos del Génesis: «Al principio creó Dios el cielo y la tierra…».\n\nDespués desean feliz Navidad a «todos ustedes, los que están en la buena Tierra». Vista desde tan lejos, la Tierra les parecía pequeña, frágil y muy hermosa.",
     "source": "NASA, retransmisión de Nochebuena del Apolo 8, 24 de diciembre de 1968; Gn 1, 1-10"
    },
    "en": {
@@ -1331,7 +1331,7 @@
    },
    "es": {
     "titre": "Federico Ozanam y la Sociedad de San Vicente de Paúl",
-    "accroche": "En 1833, a un estudiante de veinte años le dicen: «Vosotros, los cristianos, ¿qué hacéis por los pobres?».",
+    "accroche": "En 1833, a un estudiante de veinte años le dicen: «Ustedes, los cristianos, ¿qué hacen por los pobres?».",
     "texte": "Federico Ozanam es estudiante en París. En un debate, un compañero le suelta que los cristianos hablan mucho pero hacen poco. Picado, Federico decide con unos amigos ir a ver a los pobres a sus casas.\n\nGuiados por sor Rosalie Rendu, una religiosa del barrio Mouffetard, visitan a familias, llevan leña, pan y, sobre todo, tiempo y amistad. Se ponen bajo la protección de san Vicente de Paúl.\n\nOzanam muere a los cuarenta años, pero la pequeña «conferencia» de estudiantes se ha convertido en una inmensa familia: la Sociedad de San Vicente de Paúl cuenta hoy con cientos de miles de voluntarios en el mundo.",
     "source": "Sociedad de San Vicente de Paúl, historia; Juan Pablo II, beatificación de F. Ozanam, 22 de agosto de 1997"
    },
@@ -1669,7 +1669,7 @@
    "es": {
     "titre": "La única vez que Jesús escribe",
     "accroche": "En todo el Evangelio solo vemos escribir a Jesús una vez. Y escribe en la arena.",
-    "texte": "Llevan ante Jesús a una mujer sorprendida en adulterio. Según la ley, dicen sus acusadores, debe ser apedreada. Quieren tenderle una trampa. Jesús se inclina y escribe con el dedo en el suelo (Jn 8, 6).\n\nComo insisten, se incorpora y dice: «El que de vosotros esté sin pecado, que le tire la primera piedra». Y vuelve a escribir. Uno a uno, empezando por los más viejos, los acusadores se van.\n\n¿Qué escribió? El Evangelio no lo dice, y los comentaristas lo han imaginado todo: los pecados de los acusadores, un versículo de los profetas… Quizá lo más importante esté en otra parte: Jesús escribe en un polvo que el viento borra, como el perdón de Dios borra la culpa.",
+    "texte": "Llevan ante Jesús a una mujer sorprendida en adulterio. Según la ley, dicen sus acusadores, debe ser apedreada. Quieren tenderle una trampa. Jesús se inclina y escribe con el dedo en el suelo (Jn 8, 6).\n\nComo insisten, se incorpora y dice: «El que de ustedes esté sin pecado, que le tire la primera piedra». Y vuelve a escribir. Uno a uno, empezando por los más viejos, los acusadores se van.\n\n¿Qué escribió? El Evangelio no lo dice, y los comentaristas lo han imaginado todo: los pecados de los acusadores, un versículo de los profetas… Quizá lo más importante esté en otra parte: Jesús escribe en un polvo que el viento borra, como el perdón de Dios borra la culpa.",
     "source": "Jn 8, 1-11; san Agustín, Tratados sobre el Evangelio de Juan, 33"
    },
    "en": {
@@ -1732,7 +1732,7 @@
    "es": {
     "titre": "Caná: más de 500 litros de vino",
     "accroche": "En Caná, Jesús no convierte un poco de agua en vino para salir del paso. Hace correr una cantidad increíble.",
-    "texte": "En una boda en Galilea se acaba el vino. María se da cuenta y dice a los sirvientes: «Haced lo que él os diga». Hay allí seis tinajas de piedra, para las purificaciones. Jesús manda llenarlas de agua hasta arriba (Jn 2, 1-11).\n\nEl Evangelio precisa que cada tinaja contiene «dos o tres medidas». Como una medida son unos 40 litros, en total son entre 480 y 700 litros. Y el maestresala se sorprende: es el mejor vino, servido al final.\n\nEs el primer signo de Jesús. No habla solo de un milagro: muestra a un Dios que da sin medida y que guarda lo mejor para el final.",
+    "texte": "En una boda en Galilea se acaba el vino. María se da cuenta y dice a los sirvientes: «Hagan lo que él les diga». Hay allí seis tinajas de piedra, para las purificaciones. Jesús manda llenarlas de agua hasta arriba (Jn 2, 1-11).\n\nEl Evangelio precisa que cada tinaja contiene «dos o tres medidas». Como una medida son unos 40 litros, en total son entre 480 y 700 litros. Y el maestresala se sorprende: es el mejor vino, servido al final.\n\nEs el primer signo de Jesús. No habla solo de un milagro: muestra a un Dios que da sin medida y que guarda lo mejor para el final.",
     "source": "Jn 2, 1-11"
    },
    "en": {
@@ -1880,7 +1880,7 @@
    "es": {
     "titre": "¿Por qué un pez?",
     "accroche": "Los primeros cristianos a veces se reconocían por el dibujo de un pez. Era un mensaje en clave.",
-    "texte": "En griego, «pez» se dice ichthys, que se escribe con cinco letras: I, Ch, Th, Y, S. Los primeros cristianos leyeron en ellas las iniciales de una pequeña profesión de fe: Iēsous Christos Theou Yios Sōtēr, «Jesucristo, Hijo de Dios, Salvador».\n\nEl pez recordaba también a los apóstoles pescadores y los panes y peces multiplicados por Jesús. Aparece grabado en las catacumbas de Roma y en tumbas antiguas.\n\nSe cuenta que, en tiempos de persecución, un cristiano trazaba un arco en la arena y el otro completaba el dibujo para mostrar que compartía la misma fe. Todavía hoy se ve este pececito en la parte trasera de algunos coches.",
+    "texte": "En griego, «pez» se dice ichthys, que se escribe con cinco letras: I, Ch, Th, Y, S. Los primeros cristianos leyeron en ellas las iniciales de una pequeña profesión de fe: Iēsous Christos Theou Yios Sōtēr, «Jesucristo, Hijo de Dios, Salvador».\n\nEl pez recordaba también a los apóstoles pescadores y los panes y peces multiplicados por Jesús. Aparece grabado en las catacumbas de Roma y en tumbas antiguas.\n\nSe cuenta que, en tiempos de persecución, un cristiano trazaba un arco en la arena y el otro completaba el dibujo para mostrar que compartía la misma fe. Todavía hoy se ve este pececito en la parte trasera de algunos autos.",
     "source": "San Agustín, La ciudad de Dios, XVIII, 23; Tertuliano, Sobre el bautismo, 1; inscripción de Abercio (siglo II)"
    },
    "en": {
@@ -1984,9 +1984,9 @@
     "source": "Corpus Thomisticum, Index Thomisticus (R. Busa) ; Université pontificale grégorienne"
    },
    "es": {
-    "titre": "El jesuita y el ordenador",
+    "titre": "El jesuita y la computadora",
     "accroche": "En 1949, un sacerdote italiano va a ver al jefe de IBM con una idea loca: usar una máquina para estudiar a santo Tomás de Aquino.",
-    "texte": "Roberto Busa, jesuita, quiere analizar cada palabra de la obra de santo Tomás de Aquino: unos once millones de palabras. A mano, harían falta varias vidas. Se va a Estados Unidos a ver a Thomas Watson, el jefe de IBM.\n\nWatson se muestra escéptico al principio, y luego acepta ayudarle. Durante treinta años, máquinas de tarjetas perforadas y después ordenadores clasifican todas las palabras de Tomás. El Index Thomisticus se publica en 56 volúmenes, luego en CD-ROM y en internet.\n\nBusa está considerado el pionero de lo que hoy se llama «humanidades digitales». Las herramientas que permiten buscar una palabra en un libro en un segundo le deben mucho.",
+    "texte": "Roberto Busa, jesuita, quiere analizar cada palabra de la obra de santo Tomás de Aquino: unos once millones de palabras. A mano, harían falta varias vidas. Se va a Estados Unidos a ver a Thomas Watson, el jefe de IBM.\n\nWatson se muestra escéptico al principio, y luego acepta ayudarle. Durante treinta años, máquinas de tarjetas perforadas y después computadoras clasifican todas las palabras de Tomás. El Index Thomisticus se publica en 56 volúmenes, luego en CD-ROM y en internet.\n\nBusa está considerado el pionero de lo que hoy se llama «humanidades digitales». Las herramientas que permiten buscar una palabra en un libro en un segundo le deben mucho.",
     "source": "Corpus Thomisticum, Index Thomisticus (R. Busa); Pontificia Universidad Gregoriana"
    },
    "en": {
@@ -2219,7 +2219,7 @@
    "es": {
     "titre": "El sermón a los peces",
     "accroche": "En Rímini, nadie quiere escuchar al predicador. Así que se va a hablar a los peces.",
-    "texte": "Antonio de Padua es un predicador famoso. Pero un día, en Rímini, en la costa italiana, los habitantes se niegan a escucharle y se burlan de él.\n\nSegún las Florecillas, una colección de historias franciscanas, Antonio va entonces a la orilla del mar y dice: «Escuchad la palabra de Dios, peces del mar, ya que los hombres no quieren oírla». Enseguida, una multitud de peces se acerca a la orilla, con la cabeza fuera del agua, bien ordenados, y se quedan allí escuchándole.\n\nLos habitantes acuden asombrados y acaban escuchando también. La historia se cuenta con humor, pero dice algo profundo: toda la creación está hecha para alabar a Dios.",
+    "texte": "Antonio de Padua es un predicador famoso. Pero un día, en Rímini, en la costa italiana, los habitantes se niegan a escucharle y se burlan de él.\n\nSegún las Florecillas, una colección de historias franciscanas, Antonio va entonces a la orilla del mar y dice: «Escuchen la palabra de Dios, peces del mar, ya que los hombres no quieren oírla». Enseguida, una multitud de peces se acerca a la orilla, con la cabeza fuera del agua, bien ordenados, y se quedan allí escuchándole.\n\nLos habitantes acuden asombrados y acaban escuchando también. La historia se cuenta con humor, pero dice algo profundo: toda la creación está hecha para alabar a Dios.",
     "source": "Florecillas de san Francisco, cap. 40; Martirologio romano, 13 de junio"
    },
    "en": {
@@ -2307,7 +2307,7 @@
    "es": {
     "titre": "La Biblia traducida en una gruta de Belén",
     "accroche": "Durante más de treinta años, un sabio de carácter difícil traduce toda la Biblia al latín, junto a la gruta donde nació Jesús.",
-    "texte": "Jerónimo es un erudito nacido hacia el año 347. Sabe latín y griego, y aprende hebreo, algo raro entre los cristianos de su tiempo. El papa Dámaso le pide que revise las traducciones latinas de los Evangelios, llenas de errores.\n\nJerónimo se instala en Belén, donde vive en una celda junto a la gruta de la Natividad. Durante años traduce el Antiguo Testamento directamente del hebreo. Su trabajo, la Vulgata, será la Biblia de todo Occidente durante más de mil años.\n\nTenía un carácter vivo y se enfadaba con facilidad; él mismo lo reconocía. Pero dejó una frase célebre: «Ignorar las Escrituras es ignorar a Cristo». Su fiesta es el 30 de septiembre.",
+    "texte": "Jerónimo es un erudito nacido hacia el año 347. Sabe latín y griego, y aprende hebreo, algo raro entre los cristianos de su tiempo. El papa Dámaso le pide que revise las traducciones latinas de los Evangelios, llenas de errores.\n\nJerónimo se instala en Belén, donde vive en una celda junto a la gruta de la Natividad. Durante años traduce el Antiguo Testamento directamente del hebreo. Su trabajo, la Vulgata, será la Biblia de todo Occidente durante más de mil años.\n\nTenía un carácter vivo y se irritaba con facilidad; él mismo lo reconocía. Pero dejó una frase célebre: «Ignorar las Escrituras es ignorar a Cristo». Su fiesta es el 30 de septiembre.",
     "source": "San Jerónimo, Comentario a Isaías, prólogo; Benedicto XVI, audiencias generales del 7 y 14 de noviembre de 2007; Martirologio romano, 30 de septiembre"
    },
    "en": {
@@ -2889,7 +2889,7 @@
    "es": {
     "titre": "El versículo más corto de la Biblia",
     "accroche": "En muchas traducciones, el versículo más corto del Evangelio tiene solo tres palabras: «Jesús se echó a llorar».",
-    "texte": "Lázaro, el amigo de Jesús, ha muerto. Cuando Jesús llega a Betania, María, la hermana de Lázaro, cae a sus pies llorando, rodeada de gente que también llora. Jesús se conmueve profundamente. Lo llevan al sepulcro, y el Evangelio dice simplemente: «Jesús se echó a llorar» (Jn 11, 35).\n\nSin embargo, sabe que va a devolver la vida a su amigo unos minutos después. Llora igualmente. La gente alrededor dice: «¡Mirad cuánto lo quería!».\n\nEste versículo diminuto dice mucho: Dios no mira nuestra pena desde lejos. En Jesús, llora con los que lloran.",
+    "texte": "Lázaro, el amigo de Jesús, ha muerto. Cuando Jesús llega a Betania, María, la hermana de Lázaro, cae a sus pies llorando, rodeada de gente que también llora. Jesús se conmueve profundamente. Lo llevan al sepulcro, y el Evangelio dice simplemente: «Jesús se echó a llorar» (Jn 11, 35).\n\nSin embargo, sabe que va a devolver la vida a su amigo unos minutos después. Llora igualmente. La gente alrededor dice: «¡Miren cuánto lo quería!».\n\nEste versículo diminuto dice mucho: Dios no mira nuestra pena desde lejos. En Jesús, llora con los que lloran.",
     "source": "Jn 11, 32-36; Rom 12, 15"
    },
    "en": {
@@ -3314,7 +3314,7 @@
    },
    "es": {
     "titre": "No, un monje no inventó el champán",
-    "accroche": "Se cuenta que el monje Dom Pérignon inventó las burbujas del champán exclamando: «¡Venid deprisa, estoy bebiendo estrellas!». Es una leyenda.",
+    "accroche": "Se cuenta que el monje Dom Pérignon inventó las burbujas del champán exclamando: «¡Vengan rápido, estoy bebiendo estrellas!». Es una leyenda.",
     "texte": "Dom Pierre Pérignon (1638-1715) es un monje benedictino, cillerero de la abadía de Hautvillers, en Champaña: se ocupa de las bodegas y las viñas. Es un viticultor extraordinario, que sabe mezclar uvas de distintas parcelas para hacer mejores vinos.\n\nPero en su época las burbujas eran más bien un defecto: ¡hacían estallar las botellas! La famosa frase de las estrellas se inventó mucho más tarde, para un anuncio.\n\nLo que sí hicieron los monjes, y no solo en Champaña, fue trabajar la tierra durante siglos, con paciencia, observar y transmitir: muchos grandes viñedos de Europa nacieron alrededor de las abadías.",
     "source": "Abadía de Saint-Pierre d'Hautvillers; T. Stevenson, Christie's World Encyclopedia of Champagne (2003)"
    },
@@ -3634,7 +3634,7 @@
    "es": {
     "titre": "El padre Jacques y los niños escondidos",
     "accroche": "La película «Adiós, muchachos» cuenta una historia real: la de un sacerdote carmelita que escondía a niños judíos en su colegio.",
-    "texte": "Durante la Segunda Guerra Mundial, el padre Jacques de Jesús dirige el pequeño colegio de los carmelitas de Avon, cerca de Fontainebleau. Acoge en secreto a tres chicos judíos entre los alumnos, con nombres falsos, y esconde también a un profesor judío.\n\nEl 15 de enero de 1944, la Gestapo irrumpe en el colegio. Los tres niños son detenidos y morirán en Auschwitz. El padre Jacques es deportado. En los campos sostiene a sus compañeros y comparte su comida. Muere en junio de 1945, agotado, poco después de la liberación del campo de Mauthausen.\n\nUno de sus antiguos alumnos, Louis Malle, contó esta historia en el cine. El padre Jacques fue reconocido como «Justo entre las Naciones».",
+    "texte": "Durante la Segunda Guerra Mundial, el padre Jacques de Jesús dirige el pequeño colegio de los carmelitas de Avon, cerca de Fontainebleau. Acoge en secreto a tres chicos judíos entre los alumnos, con nombres falsos, y esconde también a un profesor judío.\n\nEl 15 de enero de 1944, la Gestapo irrumpe en la escuelagio. Los tres niños son detenidos y morirán en Auschwitz. El padre Jacques es deportado. En los campos sostiene a sus compañeros y comparte su comida. Muere en junio de 1945, agotado, poco después de la liberación del campo de Mauthausen.\n\nUno de sus antiguos alumnos, Louis Malle, contó esta historia en el cine. El padre Jacques fue reconocido como «Justo entre las Naciones».",
     "source": "Yad Vashem, Lucien Bunel (padre Jacques de Jesús), Justo entre las Naciones (1985); Carmelo de Avon"
    },
    "en": {
@@ -3832,6 +3832,259 @@
     "accroche": "In Korea, an American priest held prisoner kept up his fellow captives' spirits until it killed him. He received the highest US military decoration.",
     "texte": "Emil Kapaun was a priest from Kansas, a farmer's son who became an army chaplain. In November 1950, during the Korean War, his unit was surrounded. He refused to escape so he could stay with the wounded, and was taken prisoner.\n\nIn the camp, where men were dying of hunger and cold, he crept out at night to steal grain and share it, washed the clothes of the sick, prayed with them, Catholic or not, and gave them back their courage. Weakened, he died in captivity in May 1951.\n\nIn 2013 he was posthumously awarded the Medal of Honor. In 2021 his remains were identified and brought home to Kansas. The Church has declared him a “Servant of God”.",
     "source": "Diocese of Wichita, Father Kapaun Guild; White House, Medal of Honor ceremony (11 April 2013)"
+   }
+  },
+  {
+   "id": "columba-ness",
+   "fr": {
+    "titre": "Saint Columba et la bête du Loch Ness",
+    "accroche": "La plus ancienne mention d'un monstre dans le Loch Ness se trouve dans la vie d'un saint irlandais, écrite au VIIe siècle.",
+    "texte": "Columba est un moine irlandais qui fonde en 563 le monastère d'Iona, en Écosse, et part annoncer l'Évangile aux Pictes. Son biographe, l'abbé Adomnan, raconte un épisode étonnant.\n\nAu bord de la rivière Ness, des habitants enterrent un homme tué par une « bête aquatique ». Columba demande à un compagnon de traverser à la nage. La bête surgit, gueule ouverte. Columba trace le signe de croix et lui ordonne : « N'avance pas plus loin ! » La bête s'enfuit, terrorisée.\n\nLes amateurs du monstre du Loch Ness citent souvent ce texte. Adomnan, lui, voulait surtout montrer que la confiance en Dieu est plus forte que la peur.",
+    "source": "Adomnan d'Iona, Vie de saint Columba, II, 27 (vers 700)"
+   },
+   "es": {
+    "titre": "San Columba y la bestia del lago Ness",
+    "accroche": "La mención más antigua de un monstruo en el lago Ness está en la vida de un santo irlandés, escrita en el siglo VII.",
+    "texte": "Columba es un monje irlandés que funda en 563 el monasterio de Iona, en Escocia, y parte a anunciar el Evangelio a los pictos. Su biógrafo, el abad Adomnán, cuenta un episodio sorprendente.\n\nA orillas del río Ness, unos lugareños entierran a un hombre muerto por una «bestia acuática». Columba pide a un compañero que cruce a nado. La bestia surge con la boca abierta. Columba traza la señal de la cruz y le ordena: «¡No sigas avanzando!». La bestia huye aterrorizada.\n\nLos aficionados al monstruo del lago Ness citan a menudo este texto. Adomnán quería sobre todo mostrar que la confianza en Dios es más fuerte que el miedo.",
+    "source": "Adomnán de Iona, Vida de san Columba, II, 27 (hacia 700)"
+   },
+   "en": {
+    "titre": "Saint Columba and the Loch Ness beast",
+    "accroche": "The oldest mention of a monster in Loch Ness is in the life of an Irish saint, written in the seventh century.",
+    "texte": "Columba was an Irish monk who founded the monastery of Iona in Scotland in 563 and set out to bring the Gospel to the Picts. His biographer, Abbot Adomnán, tells a surprising story.\n\nBy the River Ness, local people were burying a man killed by a “water beast”. Columba asked a companion to swim across. The beast surged up with its mouth open. Columba made the sign of the cross and commanded it: “Go no further!” The beast fled in terror.\n\nLoch Ness monster enthusiasts often quote this text. Adomnán mainly wanted to show that trust in God is stronger than fear.",
+    "source": "Adomnán of Iona, Life of Saint Columba, II, 27 (c. 700)"
+   }
+  },
+  {
+   "id": "patrick-serpents",
+   "date": "03-17",
+   "fr": {
+    "titre": "Saint Patrick a-t-il chassé les serpents d'Irlande ?",
+    "accroche": "Selon la légende, saint Patrick aurait chassé tous les serpents d'Irlande. Les scientifiques ont une autre explication.",
+    "texte": "La légende raconte que Patrick, l'apôtre de l'Irlande, aurait rassemblé tous les serpents de l'île au sommet d'une montagne et les aurait jetés à la mer.\n\nEn réalité, les naturalistes n'ont jamais trouvé de fossile de serpent en Irlande. Après la dernière glaciation, l'île a été séparée du continent par la mer avant que les serpents puissent revenir : ils n'y ont donc sans doute jamais vécu depuis.\n\nLa légende parle sans doute d'autre chose : les serpents symbolisaient le mal et les anciens cultes païens. Patrick, ancien esclave revenu par amour dans le pays de ses ravisseurs, a apporté à l'Irlande une foi qui l'a transformée.",
+    "source": "National Museum of Ireland, Natural History ; Patrick, Confession (Ve siècle)"
+   },
+   "es": {
+    "titre": "¿Expulsó san Patricio a las serpientes de Irlanda?",
+    "accroche": "Según la leyenda, san Patricio expulsó a todas las serpientes de Irlanda. Los científicos tienen otra explicación.",
+    "texte": "La leyenda cuenta que Patricio, el apóstol de Irlanda, reunió a todas las serpientes de la isla en lo alto de una montaña y las arrojó al mar.\n\nEn realidad, los naturalistas nunca han encontrado fósiles de serpientes en Irlanda. Tras la última glaciación, la isla quedó separada del continente por el mar antes de que las serpientes pudieran volver: seguramente nunca vivieron allí desde entonces.\n\nLa leyenda habla sin duda de otra cosa: las serpientes simbolizaban el mal y los antiguos cultos paganos. Patricio, antiguo esclavo que volvió por amor a la tierra de sus captores, llevó a Irlanda una fe que la transformó.",
+    "source": "National Museum of Ireland, Natural History; Patricio, Confesión (siglo V)"
+   },
+   "en": {
+    "titre": "Did Saint Patrick drive the snakes out of Ireland?",
+    "accroche": "According to legend, Saint Patrick drove all the snakes out of Ireland. Scientists have another explanation.",
+    "texte": "The legend says Patrick, the apostle of Ireland, gathered all the island's snakes on a mountaintop and cast them into the sea.\n\nIn fact, naturalists have never found a snake fossil in Ireland. After the last Ice Age, the island was cut off from the continent by the sea before snakes could return: they have probably never lived there since.\n\nThe legend is surely about something else: snakes stood for evil and for the old pagan cults. Patrick, a former slave who came back out of love to the land of his captors, brought Ireland a faith that transformed it.",
+    "source": "National Museum of Ireland, Natural History; Patrick, Confession (5th century)"
+   }
+  },
+  {
+   "id": "kevin-merle",
+   "fr": {
+    "titre": "Saint Kevin et le merle",
+    "accroche": "Un moine irlandais aurait gardé les bras tendus jusqu'à ce que les oisillons d'un merle quittent le nid posé dans sa main.",
+    "texte": "Kevin (Coemgen), au VIe siècle, se retire dans la vallée de Glendalough, en Irlande, pour prier dans la solitude. Il y fonde un monastère dont on voit encore les ruines et la haute tour ronde.\n\nUne légende raconte qu'un jour où il priait les bras en croix, un merle vint se poser dans sa main ouverte et y fit son nid. Plutôt que de déranger l'oiseau, Kevin resta immobile, les bras tendus, jusqu'à ce que les œufs éclosent et que les petits s'envolent.\n\nLe poète irlandais Seamus Heaney, prix Nobel, a écrit un poème sur cette histoire. Elle parle de patience, de douceur et de prière qui accueille la vie.",
+    "source": "Vie latine de saint Kevin ; Glendalough Monastic Site, Office of Public Works (Irlande) ; S. Heaney, « St Kevin and the Blackbird » (1996)"
+   },
+   "es": {
+    "titre": "San Kevin y el mirlo",
+    "accroche": "Un monje irlandés habría mantenido los brazos extendidos hasta que las crías de un mirlo dejaron el nido hecho en su mano.",
+    "texte": "Kevin (Coemgen), en el siglo VI, se retira al valle de Glendalough, en Irlanda, para rezar en soledad. Allí funda un monasterio cuyas ruinas y alta torre redonda todavía se ven.\n\nUna leyenda cuenta que un día, mientras rezaba con los brazos en cruz, un mirlo se posó en su mano abierta y construyó allí su nido. En lugar de molestar al pájaro, Kevin se quedó inmóvil, con los brazos extendidos, hasta que los huevos eclosionaron y las crías echaron a volar.\n\nEl poeta irlandés Seamus Heaney, premio Nobel, escribió un poema sobre esta historia. Habla de paciencia, de dulzura y de una oración que acoge la vida.",
+    "source": "Vida latina de san Kevin; Glendalough Monastic Site, Office of Public Works (Irlanda); S. Heaney, «St Kevin and the Blackbird» (1996)"
+   },
+   "en": {
+    "titre": "Saint Kevin and the blackbird",
+    "accroche": "An Irish monk is said to have kept his arms outstretched until a blackbird's chicks left the nest built in his hand.",
+    "texte": "In the sixth century Kevin (Coemgen) withdrew to the valley of Glendalough in Ireland to pray in solitude. He founded a monastery there whose ruins and tall round tower can still be seen.\n\nA legend tells that one day as he prayed with his arms outstretched, a blackbird landed in his open hand and built a nest there. Rather than disturb the bird, Kevin stayed still, arms outstretched, until the eggs hatched and the young flew away.\n\nThe Irish poet Seamus Heaney, a Nobel laureate, wrote a poem about this story. It speaks of patience, gentleness and a prayer that makes room for life.",
+    "source": "Latin Life of Saint Kevin; Glendalough Monastic Site, Office of Public Works (Ireland); S. Heaney, “St Kevin and the Blackbird” (1996)"
+   }
+  },
+  {
+   "id": "jerome-lion",
+   "fr": {
+    "titre": "Pourquoi saint Jérôme est peint avec un lion",
+    "accroche": "Dans de nombreux tableaux, saint Jérôme, penché sur ses livres, a un lion couché à ses pieds. Une jolie légende l'explique.",
+    "texte": "Selon une histoire racontée au Moyen Âge, un soir, au monastère de Bethléem, un lion entre en boitant. Les moines s'enfuient. Jérôme, lui, s'approche, examine la patte et retire une grosse épine. Le lion, reconnaissant, reste au monastère et devient doux comme un chien.\n\nOn lui confie la garde de l'âne qui va chercher le bois. Un jour, des marchands volent l'âne, et les moines accusent le lion de l'avoir mangé. Il est puni et doit porter le bois à sa place. Mais un jour, il reconnaît l'âne dans une caravane et le ramène triomphalement au monastère.\n\nLa même légende a d'abord été racontée d'un autre saint, Gérasime. Elle dit en tout cas que la douceur peut apprivoiser même la force.",
+    "source": "Jacques de Voragine, La Légende dorée, « Saint Jérôme » (XIIIe siècle) ; Jean Moschus, Le Pré spirituel, 107"
+   },
+   "es": {
+    "titre": "Por qué se pinta a san Jerónimo con un león",
+    "accroche": "En muchos cuadros, san Jerónimo, inclinado sobre sus libros, tiene un león echado a sus pies. Una bonita leyenda lo explica.",
+    "texte": "Según una historia contada en la Edad Media, una tarde, en el monasterio de Belén, entra un león cojeando. Los monjes huyen. Jerónimo se acerca, examina la pata y le saca una gran espina. El león, agradecido, se queda en el monasterio y se vuelve manso como un perro.\n\nLe confían el cuidado del asno que va a buscar leña. Un día, unos mercaderes roban el asno, y los monjes acusan al león de habérselo comido. Lo castigan y tiene que llevar la leña en su lugar. Pero un día reconoce al asno en una caravana y lo trae triunfante al monasterio.\n\nLa misma leyenda se contó primero de otro santo, Gerásimo. En todo caso dice que la mansedumbre puede domar incluso a la fuerza.",
+    "source": "Santiago de la Vorágine, La leyenda dorada, «San Jerónimo» (siglo XIII); Juan Mosco, El prado espiritual, 107"
+   },
+   "en": {
+    "titre": "Why Saint Jerome is painted with a lion",
+    "accroche": "In many paintings, Saint Jerome, bent over his books, has a lion lying at his feet. A charming legend explains why.",
+    "texte": "According to a medieval story, one evening at the monastery in Bethlehem, a lion came limping in. The monks fled. Jerome went up to it, examined its paw and pulled out a large thorn. The grateful lion stayed at the monastery and became as gentle as a dog.\n\nIt was given the job of guarding the donkey that fetched firewood. One day merchants stole the donkey, and the monks accused the lion of eating it. It was punished and had to carry the wood instead. But one day it recognized the donkey in a caravan and brought it back to the monastery in triumph.\n\nThe same legend was first told of another saint, Gerasimus. Either way, it says that gentleness can tame even strength.",
+    "source": "Jacobus de Voragine, The Golden Legend, “Saint Jerome” (13th century); John Moschus, The Spiritual Meadow, 107"
+   }
+  },
+  {
+   "id": "benoit-corbeau",
+   "fr": {
+    "titre": "Le corbeau de saint Benoît",
+    "accroche": "Sur les médailles de saint Benoît, on voit souvent un corbeau tenant un morceau de pain dans son bec. Il lui a sauvé la vie.",
+    "texte": "Saint Grégoire le Grand raconte la vie de Benoît, le père des moines d'Occident. À Subiaco, Benoît dirige des monastères, et un prêtre jaloux de sa réputation cherche à lui nuire.\n\nUn jour, ce prêtre lui envoie un pain empoisonné. Benoît comprend. Un corbeau qui venait chaque jour recevoir sa part de pain se pose près de lui. Benoît lui demande d'emporter ce pain et de le jeter là où personne ne pourra le trouver. L'oiseau tourne autour, puis obéit, et revient quelques heures plus tard chercher son repas habituel.\n\nOn voit encore ce corbeau sur la médaille de saint Benoît, que beaucoup de chrétiens portent comme une prière de protection contre le mal.",
+    "source": "Saint Grégoire le Grand, Dialogues, livre II, 8 (vers 593)"
+   },
+   "es": {
+    "titre": "El cuervo de san Benito",
+    "accroche": "En las medallas de san Benito se ve a menudo un cuervo con un trozo de pan en el pico. Le salvó la vida.",
+    "texte": "San Gregorio Magno cuenta la vida de Benito, el padre de los monjes de Occidente. En Subiaco, Benito dirige monasterios, y un sacerdote celoso de su fama intenta hacerle daño.\n\nUn día, ese sacerdote le envía un pan envenenado. Benito lo comprende. Un cuervo que iba cada día a recibir su parte de pan se posa junto a él. Benito le pide que se lleve ese pan y lo tire donde nadie pueda encontrarlo. El pájaro da vueltas y luego obedece, y vuelve unas horas después a buscar su comida de siempre.\n\nEste cuervo aparece todavía en la medalla de san Benito, que muchos cristianos llevan como oración de protección contra el mal.",
+    "source": "San Gregorio Magno, Diálogos, libro II, 8 (hacia 593)"
+   },
+   "en": {
+    "titre": "Saint Benedict's raven",
+    "accroche": "On medals of Saint Benedict you often see a raven holding a piece of bread in its beak. It saved his life.",
+    "texte": "Saint Gregory the Great tells the life of Benedict, father of Western monks. At Subiaco, Benedict was leading monasteries, and a priest jealous of his reputation tried to harm him.\n\nOne day this priest sent him a poisoned loaf. Benedict understood. A raven that came every day to receive its share of bread landed near him. Benedict asked it to take the loaf away and drop it where no one could find it. The bird circled, then obeyed, and came back a few hours later for its usual meal.\n\nThis raven still appears on the Saint Benedict medal, which many Christians wear as a prayer of protection against evil.",
+    "source": "Saint Gregory the Great, Dialogues, Book II, 8 (c. 593)"
+   }
+  },
+  {
+   "id": "cuthbert-loutres",
+   "fr": {
+    "titre": "Saint Cuthbert et les loutres",
+    "accroche": "Un moine anglais passait des nuits entières à prier dans la mer glacée. À l'aube, des loutres venaient le réchauffer.",
+    "texte": "Cuthbert (vers 634-687) est un moine du nord de l'Angleterre, au monastère de Melrose puis de Lindisfarne, sur une île de la mer du Nord. Il aime prier seul, la nuit.\n\nLe moine Bède raconte qu'un frère, curieux, le suit en cachette une nuit. Il voit Cuthbert descendre au bord de la mer et entrer dans l'eau jusqu'au cou, en chantant des psaumes. À l'aube, Cuthbert remonte sur la plage et s'agenouille. Deux loutres sortent alors de la mer, viennent lui réchauffer les pieds de leur souffle et les sécher avec leur pelage, puis repartent.\n\nCuthbert demande au frère de ne rien dire de son vivant. Le frère a tenu parole, et l'histoire n'a été racontée qu'après la mort du saint.",
+    "source": "Bède le Vénérable, Vie de saint Cuthbert, 10 (vers 721)"
+   },
+   "es": {
+    "titre": "San Cutberto y las nutrias",
+    "accroche": "Un monje inglés pasaba noches enteras rezando en el mar helado. Al amanecer, unas nutrias iban a darle calor.",
+    "texte": "Cutberto (hacia 634-687) es un monje del norte de Inglaterra, en el monasterio de Melrose y luego de Lindisfarne, una isla del mar del Norte. Le gusta rezar solo, de noche.\n\nEl monje Beda cuenta que un hermano, curioso, lo sigue una noche a escondidas. Ve a Cutberto bajar a la orilla y entrar en el agua hasta el cuello, cantando salmos. Al amanecer, Cutberto sube a la playa y se arrodilla. Entonces salen del mar dos nutrias, le calientan los pies con su aliento y se los secan con su pelaje, y luego se van.\n\nCutberto pide al hermano que no diga nada mientras viva. El hermano cumplió su palabra, y la historia solo se contó después de la muerte del santo.",
+    "source": "Beda el Venerable, Vida de san Cutberto, 10 (hacia 721)"
+   },
+   "en": {
+    "titre": "Saint Cuthbert and the otters",
+    "accroche": "An English monk spent whole nights praying in the icy sea. At dawn, otters came to warm him.",
+    "texte": "Cuthbert (c. 634-687) was a monk in the north of England, at the monastery of Melrose and then Lindisfarne, an island in the North Sea. He liked to pray alone at night.\n\nThe monk Bede tells how a curious brother secretly followed him one night. He saw Cuthbert go down to the shore and walk into the sea up to his neck, singing psalms. At dawn Cuthbert came up onto the beach and knelt. Two otters then came out of the sea, warmed his feet with their breath, dried them with their fur and went away.\n\nCuthbert asked the brother to say nothing while he was alive. The brother kept his word, and the story was only told after the saint's death.",
+    "source": "Bede the Venerable, Life of Saint Cuthbert, 10 (c. 721)"
+   }
+  },
+  {
+   "id": "xavier-crabe",
+   "fr": {
+    "titre": "Le crabe de saint François Xavier",
+    "accroche": "Pendant une tempête, le missionnaire jette son crucifix à la mer pour la calmer. Un crabe le lui rapporte sur la plage.",
+    "texte": "François Xavier, l'un des premiers jésuites, voyage pendant des années à travers l'Asie : Inde, Malaisie, Indonésie, Japon. Les traversées sont dangereuses.\n\nSelon un récit transmis aux îles Moluques, lors d'une violente tempête près de l'île de Seram, Xavier plonge son crucifix dans les vagues en priant pour que la mer se calme, et le crucifix lui échappe. Le lendemain, en marchant sur la plage, il voit sortir de l'eau un crabe qui tient le crucifix dans ses pinces, bien droit, et vient le déposer à ses pieds.\n\nCe récit vient des premiers biographes de Xavier, qui l'ont recueilli auprès d'un témoin. Il est souvent représenté dans les églises d'Asie.",
+    "source": "H. Tursellinus, De vita Francisci Xaverii (1594) ; G. Schurhammer, Francis Xavier: His Life, His Times (1973-1982)"
+   },
+   "es": {
+    "titre": "El cangrejo de san Francisco Javier",
+    "accroche": "Durante una tormenta, el misionero echa su crucifijo al mar para calmarlo. Un cangrejo se lo devuelve en la playa.",
+    "texte": "Francisco Javier, uno de los primeros jesuitas, viaja durante años por Asia: India, Malasia, Indonesia, Japón. Las travesías son peligrosas.\n\nSegún un relato transmitido en las islas Molucas, durante una violenta tormenta cerca de la isla de Seram, Javier sumerge su crucifijo en las olas rezando para que el mar se calme, y el crucifijo se le escapa. Al día siguiente, caminando por la playa, ve salir del agua un cangrejo que sostiene el crucifijo entre sus pinzas, bien derecho, y viene a dejarlo a sus pies.\n\nEste relato viene de los primeros biógrafos de Javier, que lo recogieron de un testigo. Se representa a menudo en las iglesias de Asia.",
+    "source": "H. Tursellinus, De vita Francisci Xaverii (1594); G. Schurhammer, Francis Xavier: His Life, His Times (1973-1982)"
+   },
+   "en": {
+    "titre": "Saint Francis Xavier's crab",
+    "accroche": "During a storm, the missionary dipped his crucifix into the sea to calm it. A crab brought it back to him on the beach.",
+    "texte": "Francis Xavier, one of the first Jesuits, travelled for years across Asia: India, Malaysia, Indonesia, Japan. The crossings were dangerous.\n\nAccording to an account handed down in the Moluccas, during a violent storm near the island of Seram, Xavier dipped his crucifix into the waves praying for the sea to calm, and the crucifix slipped from his hand. The next day, walking on the beach, he saw a crab come out of the water holding the crucifix upright in its claws, and lay it at his feet.\n\nThe story comes from Xavier's first biographers, who heard it from a witness. It is often depicted in churches in Asia.",
+    "source": "H. Tursellinus, De vita Francisci Xaverii (1594); G. Schurhammer, Francis Xavier: His Life, His Times (1973-1982)"
+   }
+  },
+  {
+   "id": "martin-porres-souris",
+   "fr": {
+    "titre": "Saint Martin de Porres et les souris",
+    "accroche": "Un frère dominicain de Lima a négocié avec les souris du couvent pour qu'elles cessent de ronger le linge.",
+    "texte": "Martin de Porres (1579-1639) est le fils d'un noble espagnol et d'une ancienne esclave noire de Panama. À cause de sa couleur de peau, il est d'abord accepté au couvent dominicain de Lima seulement comme serviteur.\n\nIl soigne les malades, nourrit les pauvres et accueille les animaux blessés. On raconte que les souris envahissaient la lingerie du couvent. Plutôt que de les empoisonner, Martin en attrape une et lui dit d'aller prévenir les autres : s'ils quittent la lingerie, il leur apportera chaque jour à manger au fond du jardin. Les souris s'en vont, et Martin tient parole.\n\nIl a été le premier saint noir des Amériques, canonisé en 1962. Il est le patron de la justice sociale.",
+    "source": "Procès de béatification de Martin de Porres (1660-1671) ; Jean XXIII, homélie de canonisation, 6 mai 1962"
+   },
+   "es": {
+    "titre": "San Martín de Porres y los ratones",
+    "accroche": "Un fraile dominico de Lima negoció con los ratones del convento para que dejaran de roer la ropa.",
+    "texte": "Martín de Porres (1579-1639) es hijo de un noble español y de una antigua esclava negra de Panamá. Por el color de su piel, al principio solo lo admiten en el convento dominico de Lima como sirviente.\n\nCura a los enfermos, da de comer a los pobres y acoge a los animales heridos. Se cuenta que los ratones invadían la ropería del convento. En lugar de envenenarlos, Martín atrapa a uno y le dice que avise a los demás: si dejan la ropería, les llevará comida cada día al fondo del huerto. Los ratones se van, y Martín cumple su palabra.\n\nFue el primer santo negro de América, canonizado en 1962. Es patrono de la justicia social.",
+    "source": "Proceso de beatificación de Martín de Porres (1660-1671); Juan XXIII, homilía de canonización, 6 de mayo de 1962"
+   },
+   "en": {
+    "titre": "Saint Martin de Porres and the mice",
+    "accroche": "A Dominican brother in Lima made a deal with the convent mice so they would stop chewing the linen.",
+    "texte": "Martin de Porres (1579-1639) was the son of a Spanish nobleman and a freed Black slave woman from Panama. Because of the colour of his skin, he was at first accepted at the Dominican convent in Lima only as a servant.\n\nHe nursed the sick, fed the poor and took in injured animals. It is said that mice had overrun the convent's linen room. Rather than poison them, Martin caught one and told it to warn the others: if they left the linen room, he would bring them food every day at the bottom of the garden. The mice left, and Martin kept his word.\n\nHe was the first Black saint of the Americas, canonized in 1962. He is the patron saint of social justice.",
+    "source": "Beatification process of Martin de Porres (1660-1671); John XXIII, canonization homily, 6 May 1962"
+   }
+  },
+  {
+   "id": "eloi-dagobert",
+   "fr": {
+    "titre": "Le bon roi Dagobert et sa culotte à l'envers",
+    "accroche": "Une chanson enfantine française se moque d'un roi distrait corrigé par son conseiller. Ce conseiller était un saint.",
+    "texte": "« Le bon roi Dagobert a mis sa culotte à l'envers. Le grand saint Éloi lui dit : Ô mon roi, Votre Majesté est mal culottée… » Cette chanson est connue de tous les enfants de France.\n\nElle a été écrite bien plus tard, au XVIIIe siècle, pour se moquer gentiment de la royauté. Mais les personnages ont existé : Dagobert Ier était roi des Francs au VIIe siècle, et Éloi, un orfèvre de génie, était son trésorier et son conseiller.\n\nÉloi était connu pour sa franchise et sa charité : il utilisait sa fortune pour racheter des esclaves au marché et les libérer. Il est devenu évêque de Noyon. La chanson garde, sans le savoir, le souvenir d'un conseiller qui osait dire la vérité au roi.",
+    "source": "Dadon (saint Ouen), Vie de saint Éloi (VIIe siècle) ; chanson populaire « Le bon roi Dagobert » (XVIIIe siècle)"
+   },
+   "es": {
+    "titre": "El buen rey Dagoberto y sus calzones al revés",
+    "accroche": "Una canción infantil francesa se burla de un rey despistado al que corrige su consejero. Ese consejero era un santo.",
+    "texte": "«El buen rey Dagoberto se puso los calzones al revés. El gran san Eloy le dijo: Oh, mi rey, Vuestra Majestad va mal vestida…». Esta canción la conocen todos los niños de Francia.\n\nSe escribió mucho más tarde, en el siglo XVIII, para burlarse con cariño de la monarquía. Pero los personajes existieron: Dagoberto I era rey de los francos en el siglo VII, y Eloy, un orfebre genial, era su tesorero y consejero.\n\nEloy era conocido por su franqueza y su caridad: usaba su fortuna para comprar esclavos en el mercado y liberarlos. Llegó a obispo de Noyon. La canción guarda, sin saberlo, el recuerdo de un consejero que se atrevía a decir la verdad al rey.",
+    "source": "Dadón (san Ouen), Vida de san Eloy (siglo VII); canción popular «Le bon roi Dagobert» (siglo XVIII)"
+   },
+   "en": {
+    "titre": "Good King Dagobert and his trousers on backwards",
+    "accroche": "A French nursery song pokes fun at an absent-minded king corrected by his adviser. That adviser was a saint.",
+    "texte": "“Good King Dagobert put his trousers on backwards. The great Saint Eligius said to him: O my king, Your Majesty is badly dressed…” Every child in France knows this song.\n\nIt was written much later, in the eighteenth century, to tease the monarchy. But the characters were real: Dagobert I was King of the Franks in the seventh century, and Eligius, a brilliant goldsmith, was his treasurer and adviser.\n\nEligius was known for his frankness and his charity: he used his fortune to buy slaves at the market and set them free. He became bishop of Noyon. Without knowing it, the song keeps alive the memory of an adviser who dared to tell the king the truth.",
+    "source": "Dado (Saint Ouen), Life of Saint Eligius (7th century); French folk song “Le bon roi Dagobert” (18th century)"
+   }
+  },
+  {
+   "id": "therese-avila-amis",
+   "fr": {
+    "titre": "« Si c'est ainsi que tu traites tes amis… »",
+    "accroche": "Sainte Thérèse d'Avila parlait à Dieu avec une franchise étonnante, et même avec humour.",
+    "texte": "Thérèse d'Avila (1515-1582) passe les vingt dernières années de sa vie sur les routes d'Espagne pour fonder des monastères. Les voyages se font en chariot, sur des chemins défoncés, par tous les temps.\n\nLa tradition raconte qu'un jour, en traversant une rivière en crue, son chariot se renverse et elle tombe dans l'eau froide et boueuse. Elle aurait dit à Dieu : « Seigneur, si c'est ainsi que tu traites tes amis, je comprends que tu en aies si peu ! »\n\nLa phrase n'est peut-être pas historique mot pour mot, mais elle lui ressemble. Pour Thérèse, prier, c'était parler avec un ami, sans faire semblant.",
+    "source": "Tradition rapportée par ses biographes ; Thérèse d'Avila, Livre de la vie, 8, 5"
+   },
+   "es": {
+    "titre": "«Si así tratas a tus amigos…»",
+    "accroche": "Santa Teresa de Jesús hablaba con Dios con una franqueza sorprendente, e incluso con humor.",
+    "texte": "Teresa de Ávila (1515-1582) pasa los últimos veinte años de su vida por los caminos de España fundando monasterios. Los viajes se hacen en carro, por caminos destrozados, con cualquier tiempo.\n\nLa tradición cuenta que un día, al cruzar un río crecido, su carro vuelca y ella cae al agua fría y embarrada. Habría dicho a Dios: «Señor, si así tratas a tus amigos, ¡no me extraña que tengas tan pocos!».\n\nQuizá la frase no sea histórica palabra por palabra, pero se le parece. Para Teresa, rezar era «tratar de amistad» con Dios, sin fingir.",
+    "source": "Tradición recogida por sus biógrafos; Teresa de Jesús, Libro de la vida, 8, 5"
+   },
+   "en": {
+    "titre": "“If this is how you treat your friends…”",
+    "accroche": "Saint Teresa of Avila spoke to God with astonishing frankness, and even humour.",
+    "texte": "Teresa of Avila (1515-1582) spent the last twenty years of her life on the roads of Spain, founding convents. She travelled by cart, over rutted tracks, in all weathers.\n\nTradition says that one day, crossing a swollen river, her cart overturned and she fell into the cold, muddy water. She is said to have told God: “Lord, if this is how you treat your friends, no wonder you have so few!”\n\nThe words may not be historical exactly, but they sound like her. For Teresa, praying meant talking with a friend, without pretending.",
+    "source": "Tradition reported by her biographers; Teresa of Avila, Book of Her Life, 8, 5"
+   }
+  },
+  {
+   "id": "philippe-neri-plumes",
+   "fr": {
+    "titre": "Les plumes de saint Philippe Néri",
+    "accroche": "Une femme vient se confesser d'avoir dit du mal des autres. Le prêtre lui donne une pénitence très étrange.",
+    "texte": "Philippe Néri (1515-1595), prêtre à Rome, était connu pour son humour et sa sagesse. Une femme vient se confesser : elle colporte des ragots sur ses voisins.\n\nPour pénitence, il lui demande de prendre une poule, de la plumer en marchant dans les rues, puis de revenir. Elle le fait et revient, un peu perplexe. « Maintenant, lui dit-il, retourne ramasser toutes les plumes. » « C'est impossible, le vent les a emportées partout ! » « Il en va de même des paroles que tu as semées : une fois dites, on ne peut plus les rattraper. »\n\nCette histoire est sans doute une légende, mais elle est racontée depuis des siècles. Elle fait réfléchir avant de parler des autres.",
+    "source": "Tradition oratorienne, récits sur saint Philippe Néri"
+   },
+   "es": {
+    "titre": "Las plumas de san Felipe Neri",
+    "accroche": "Una mujer va a confesarse de haber hablado mal de los demás. El sacerdote le pone una penitencia muy extraña.",
+    "texte": "Felipe Neri (1515-1595), sacerdote en Roma, era conocido por su humor y su sabiduría. Una mujer va a confesarse: va contando chismes de sus vecinos.\n\nComo penitencia, le pide que coja una gallina, la despluma mientras camina por las calles y luego vuelva. Ella lo hace y vuelve, algo desconcertada. «Ahora —le dice— vuelve a recoger todas las plumas». «¡Es imposible, el viento se las ha llevado por todas partes!». «Lo mismo pasa con las palabras que has sembrado: una vez dichas, ya no se pueden recoger».\n\nEsta historia es seguramente una leyenda, pero se cuenta desde hace siglos. Hace pensar antes de hablar de los demás.",
+    "source": "Tradición oratoriana, relatos sobre san Felipe Neri"
+   },
+   "en": {
+    "titre": "Saint Philip Neri's feathers",
+    "accroche": "A woman came to confess that she had spoken ill of others. The priest gave her a very strange penance.",
+    "texte": "Philip Neri (1515-1595), a priest in Rome, was known for his humour and wisdom. A woman came to confession: she spread gossip about her neighbours.\n\nAs a penance he told her to take a hen, pluck it as she walked through the streets, and then come back. She did and returned, rather puzzled. “Now,” he said, “go back and gather up all the feathers.” “That's impossible, the wind has blown them everywhere!” “So it is with the words you have scattered: once spoken, they can never be gathered back.”\n\nThe story is probably a legend, but it has been told for centuries. It makes us think before we talk about others.",
+    "source": "Oratorian tradition, stories of Saint Philip Neri"
+   }
+  },
+  {
+   "id": "christophe-passeur",
+   "fr": {
+    "titre": "Saint Christophe, le géant passeur",
+    "accroche": "Un géant cherchait à servir le plus puissant des rois. Il l'a trouvé sous la forme d'un petit enfant.",
+    "texte": "La légende raconte qu'un homme immense, Reprobus, veut servir le maître le plus puissant du monde. Il sert un roi, puis le diable, mais découvre que le diable a peur de la croix du Christ. Il décide alors de chercher le Christ.\n\nUn ermite lui conseille de rendre service : porter les voyageurs sur ses épaules pour traverser une rivière dangereuse. Une nuit, un petit enfant lui demande de passer. Au milieu du courant, l'enfant devient si lourd que le géant manque de se noyer. « Tu as porté le monde entier, et celui qui l'a créé », lui dit l'enfant : c'était le Christ.\n\nDepuis, on l'appelle Christophe, « celui qui porte le Christ ». Il est le patron des voyageurs, et beaucoup gardent sa médaille dans leur voiture.",
+    "source": "Jacques de Voragine, La Légende dorée, « Saint Christophe » (XIIIe siècle)"
+   },
+   "es": {
+    "titre": "San Cristóbal, el gigante barquero",
+    "accroche": "Un gigante quería servir al rey más poderoso. Lo encontró en forma de niño pequeño.",
+    "texte": "La leyenda cuenta que un hombre enorme, Réprobo, quiere servir al amo más poderoso del mundo. Sirve a un rey, luego al diablo, pero descubre que el diablo tiene miedo de la cruz de Cristo. Decide entonces buscar a Cristo.\n\nUn ermitaño le aconseja prestar un servicio: llevar a los viajeros a hombros para cruzar un río peligroso. Una noche, un niño pequeño le pide que lo pase. En medio de la corriente, el niño se vuelve tan pesado que el gigante está a punto de ahogarse. «Has llevado el mundo entero, y a quien lo creó», le dice el niño: era Cristo.\n\nDesde entonces le llaman Cristóbal, «el que lleva a Cristo». Es patrono de los viajeros, y muchos llevan su medalla en el auto.",
+    "source": "Santiago de la Vorágine, La leyenda dorada, «San Cristóbal» (siglo XIII)"
+   },
+   "en": {
+    "titre": "Saint Christopher, the giant ferryman",
+    "accroche": "A giant wanted to serve the most powerful king. He found him in the form of a little child.",
+    "texte": "The legend says a huge man named Reprobus wanted to serve the most powerful master in the world. He served a king, then the devil, but found that the devil was afraid of the cross of Christ. So he decided to look for Christ.\n\nA hermit advised him to do a service: to carry travellers on his shoulders across a dangerous river. One night a little child asked to be carried over. In midstream the child grew so heavy that the giant nearly drowned. “You have carried the whole world, and the one who made it,” the child told him: it was Christ.\n\nSince then he has been called Christopher, “the one who carries Christ”. He is the patron saint of travellers, and many people keep his medal in their car.",
+    "source": "Jacobus de Voragine, The Golden Legend, “Saint Christopher” (13th century)"
    }
   }
  ],
