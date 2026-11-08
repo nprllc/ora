@@ -1,5 +1,6 @@
 // Ora — service worker (fabriqué par outils/build.mjs : la VERSION est une empreinte du contenu des fichiers).
-// Installation : seule « la coquille » de l'app est mise en cache (page, manifeste, icônes, polices).
+// Installation : « la coquille » de l'app est mise en cache (page, contenus des trois langues donnees-*.json,
+// manifeste, icônes, images, polices) : l'app s'ouvre hors ligne, et change de langue hors ligne.
 // Les Bibles (environ 5 Mo chacune) sont mises en cache seulement quand l'app les demande :
 // la Bible de la langue en cours au premier lancement, une autre seulement si l'on change de langue.
 // Stratégie : réseau d'abord, cache si l'on est hors ligne. Chemins relatifs : fonctionne quel que soit l'hébergeur.

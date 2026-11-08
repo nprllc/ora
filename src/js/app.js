@@ -1069,7 +1069,12 @@
     else if (act === 'retour') revenir();
     else if (act === 'bienvenue') quitterBienvenue();
     else if (act === 'reglages') { if (etat.vue === 'menu') revenir(); else aller('menu'); }
-    else if (act === 'langue') { R.langue = id; LANG = id; ecrireReglages(); preparer(); BIBLE = null; bibleLangue = null; chargerBible().then(nettoyerMarques).catch(function () {}); rendreEnPlace(); }
+    else if (act === 'langue') {
+      // Les contenus de l'autre langue sont dans leur propre fichier (déjà en cache pour le hors-ligne) : on le lit, puis on redessine.
+      chargerLangue(id).then(function () {
+        R.langue = id; LANG = id; ecrireReglages(); preparer(); BIBLE = null; bibleLangue = null; chargerBible().then(nettoyerMarques).catch(function () {}); rendreEnPlace();
+      }).catch(function (e) { if (window.console) console.error(e); });
+    }
     else if (act === 'reglage') { R[el.getAttribute('data-cle')] = id; ecrireReglages(); rendreEnPlace(); majVivant(); }
     else if (act === 'explication') {
       var a = aujourdhui(), e = a.expl || a.explSaison, nom = a.expl ? a.j.celebration.nom : a.j.saison.nom;
@@ -1107,12 +1112,27 @@
   };
 
   // ---------- Chargement des données ----------
-  // Les données sont réunies et intégrées à la page par le build (outils/build.mjs) : aucune donnée n'est écrite à la main dans index.html.
-  function charger() {
-    return window.ORA_DATA ? Promise.resolve(window.ORA_DATA) : Promise.reject(new Error('ORA_DATA absent : lancer « npm run build »'));
+  // Le build (outils/build.mjs) intègre à la page le noyau des données (ORA_DATA) ; les contenus de chaque langue sont
+  // dans un fichier à part (ORA_DONNEES : donnees-fr.json…), lu au démarrage et mis en cache par le service worker.
+  // Aucune donnée n'est écrite à la main dans index.html.
+  var LANGUES_LUES = {};
+  function chargerLangue(l) {
+    if (LANGUES_LUES[l]) return Promise.resolve();
+    var url = (window.ORA_DONNEES || {})[l];
+    if (!url) return Promise.reject(new Error('ORA_DONNEES : ' + l + ' absent : lancer « npm run build »'));
+    return fetch(url).then(function (r) { if (!r.ok) throw new Error(url + ' : ' + r.status); return r.json(); }).then(function (d) {
+      // Chaque fichier porte tous les contenus d'une langue : il remplace ceux de la langue précédente.
+      Object.keys(d).forEach(function (k) { BRUT[k] = d[k]; });
+      LANGUES_LUES = {}; LANGUES_LUES[l] = true;
+    });
   }
-  charger().then(function (d) {
-    BRUT = d; preparer(); rendre();
+  function charger() {
+    if (!window.ORA_DATA) return Promise.reject(new Error('ORA_DATA absent : lancer « npm run build »'));
+    BRUT = window.ORA_DATA;
+    return chargerLangue(LANG);
+  }
+  charger().then(function () {
+    preparer(); rendre();
     chargerBible().then(function () { nettoyerMarques(); if (etat.vue === 'accueil' || etat.vue === 'favoris') rendreEnPlace(); }).catch(function () {});
   }).catch(function (e) {
     if (window.console) console.error(e);

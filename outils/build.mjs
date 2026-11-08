@@ -1,5 +1,7 @@
 // Ora — build : fabrique dist/ à partir de src/ et data/.
-// - dist/index.html : la page, avec le CSS, le JS et les données (data/*.json) intégrés ;
+// - dist/index.html : la page, avec le CSS, le JS et le « noyau » des données (ce qui sert à calculer le jour) ;
+// - dist/donnees-fr.json, donnees-es.json, donnees-en.json : les contenus d'une langue (titres des jours,
+//   bibliothèque, En famille, messe, traductions…), lus au démarrage et mis en cache pour le hors-ligne ;
 // - dist/bible-fr.json, bible-es.json, bible-en.json : les trois Bibles, chargées à la demande ;
 // - dist/sw.js : le service worker, avec une VERSION calculée d'après le contenu des fichiers (empreinte) ;
 // - dist/manifest.webmanifest, dist/icons/, dist/fonts/.
@@ -93,6 +95,28 @@ const donnees = {
   donnees.evangilesEnfants = se;
 }
 
+// 1 quater. Le partage : le noyau reste dans la page ; le reste part dans un fichier par langue, réduit à cette langue.
+// « garder » retire d'un objet les blocs des autres langues (un objet qui a au moins deux des clés fr, es, en).
+const LANGUES = ['fr', 'es', 'en'];
+const PAR_LANGUE = ['jours', 'temps', 'messe', 'i18n', 'bibliotheque', 'personnages', 'motsEnfants', 'evangiles', 'evangilesEnfants', 'prieresJour', 'contenus'];
+const REDUITS = ['jours', 'temps', 'messe', 'i18n', 'bibliotheque', 'personnages', 'motsEnfants', 'evangilesEnfants'];
+function garder(x, l) {
+  if (Array.isArray(x)) return x.map((y) => garder(y, l));
+  if (!x || typeof x !== 'object') return x;
+  const n = LANGUES.filter((k) => k in x).length, o = {};
+  for (const [k, v] of Object.entries(x)) if (n < 2 || !LANGUES.includes(k) || k === l) o[k] = garder(v, l);
+  return o;
+}
+const noyau = {};
+for (const [k, v] of Object.entries(donnees)) if (!PAR_LANGUE.includes(k)) noyau[k] = v;
+const fichiersLangue = {};
+for (const l of LANGUES) {
+  const d = {};
+  for (const k of PAR_LANGUE) d[k] = k === 'i18n' ? (donnees.i18n[l] ? { [l]: donnees.i18n[l] } : {}) : REDUITS.includes(k) ? garder(donnees[k], l) : donnees[k];
+  fichiersLangue[l] = `donnees-${l}.json`;
+  fs.writeFileSync(path.join(DIST, fichiersLangue[l]), JSON.stringify(d));
+}
+
 // 2. Les fichiers copiés tels quels.
 const BIBLES = { fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' };
 for (const [l, f] of Object.entries(BIBLES)) fs.copyFileSync(path.join(DATA, f), path.join(DIST, `bible-${l}.json`));
@@ -107,18 +131,22 @@ html = html.replace('<link rel="stylesheet" href="css/app.css">', () => '<style>
 const js = ['liturgie.js', 'references.js', 'latin.js', 'aquarelle.js', 'app.js'].map((f) => lire(path.join(SRC, 'js', f))).join('\n');
 const scripts = /<script src="js\/liturgie\.js"><\/script>\s*<script src="js\/references\.js"><\/script>\s*<script src="js\/latin\.js"><\/script>\s*<script src="js\/aquarelle\.js"><\/script>\s*<script src="js\/app\.js"><\/script>/;
 if (!scripts.test(html)) throw new Error('src/index.html : balises script introuvables');
-html = html.replace(scripts, () => '<script>\nwindow.ORA_BIBLES = ' + JSON.stringify(Object.fromEntries(Object.keys(BIBLES).map((l) => [l, `bible-${l}.json`]))) + ';\nwindow.ORA_DATA = ' +
-  JSON.stringify(donnees).replace(/</g, '\\u003c') + ';\n' + js + '\n</script>');
+html = html.replace(scripts, () => '<script>\nwindow.ORA_BIBLES = ' + JSON.stringify(Object.fromEntries(Object.keys(BIBLES).map((l) => [l, `bible-${l}.json`]))) + ';\nwindow.ORA_DONNEES = ' + JSON.stringify(fichiersLangue) + ';\nwindow.ORA_DATA = ' +
+  JSON.stringify(noyau).replace(/</g, '\\u003c') + ';\n' + js + '\n</script>');
 fs.writeFileSync(path.join(DIST, 'index.html'), html);
 
-// 4. Le service worker : l'app (page, polices, icônes) est mise en cache à l'installation ;
+// 4. Le service worker : l'app (page, contenus des trois langues, polices, icônes) est mise en cache à l'installation ;
 //    chaque Bible seulement quand elle est demandée (la langue en cours, puis une autre si l'on change de langue).
-const coquille = ['index.html', 'manifest.webmanifest', ...fs.readdirSync(path.join(DIST, 'icons')).map((f) => 'icons/' + f), ...fs.readdirSync(path.join(DIST, 'img')).map((f) => 'img/' + f), ...fs.readdirSync(path.join(DIST, 'fonts')).filter((f) => f.endsWith('.woff2')).map((f) => 'fonts/' + f)];
+const coquille = ['index.html', 'manifest.webmanifest', ...Object.values(fichiersLangue), ...fs.readdirSync(path.join(DIST, 'icons')).map((f) => 'icons/' + f), ...fs.readdirSync(path.join(DIST, 'img')).map((f) => 'img/' + f), ...fs.readdirSync(path.join(DIST, 'fonts')).filter((f) => f.endsWith('.woff2')).map((f) => 'fonts/' + f)];
 const empreinte = crypto.createHash('sha256');
 for (const f of [...coquille, ...Object.keys(BIBLES).map((l) => `bible-${l}.json`)].sort()) empreinte.update(f).update(fs.readFileSync(path.join(DIST, f)));
 const VERSION = 'ora-' + empreinte.digest('hex').slice(0, 12);
 const sw = lire(path.join(SRC, 'sw.js')).replace('__VERSION__', VERSION).replace('__COQUILLE__', JSON.stringify(['./', ...coquille]));
 fs.writeFileSync(path.join(DIST, 'sw.js'), sw);
 
+// La page doit rester légère : au-delà de TAILLE_MAX, le build échoue (les contenus vont dans donnees-<langue>.json).
+export const TAILLE_MAX = 500 * 1024;
+const poids = fs.statSync(path.join(DIST, 'index.html')).size;
+if (poids > TAILLE_MAX) throw new Error(`dist/index.html pèse ${(poids / 1024).toFixed(0)} Ko, plus que ${TAILLE_MAX / 1024} Ko : déplacer des données vers les fichiers par langue (PAR_LANGUE)`);
 const taille = (f) => (fs.statSync(path.join(DIST, f)).size / 1024).toFixed(0) + ' Ko';
-console.log(`dist/ prêt (${VERSION}) : index.html ${taille('index.html')}, ` + Object.keys(BIBLES).map((l) => `bible-${l}.json ${taille(`bible-${l}.json`)}`).join(', '));
+console.log(`dist/ prêt (${VERSION}) : index.html ${taille('index.html')}, ` + Object.values(fichiersLangue).map((f) => `${f} ${taille(f)}`).join(', ') + ', ' + Object.keys(BIBLES).map((l) => `bible-${l}.json ${taille(`bible-${l}.json`)}`).join(', '));
