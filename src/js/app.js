@@ -380,7 +380,9 @@
     var t = titreDuJour(j), titre = t.titre;
     // Sous le titre, seulement qui l'on fête (ou ce qu'est la fête) : jamais « mardi de la 31e semaine du temps ordinaire ».
     var chapeau = a.expl ? a.expl.quoi : (t.phrase || '');
-    var html = '<section class="vue accueil' + (etat.premiereOuverture ? ' anime' : '') + '">';
+    // Deux volets : le jour lui-même (date, titre, prière), puis le fil des lectures. Sur téléphone, l'un sous l'autre ;
+    // sur un grand écran, comme un livre ouvert : le premier reste en place à gauche, sous le ciel, le second défile à droite.
+    var html = '<section class="vue accueil' + (etat.premiereOuverture ? ' anime' : '') + '"><div class="volet">';
     html += '<p class="surtitre">' + esc(j.dateLongue) + '</p>';
     // Toucher le nom ouvre sa fiche (qui c'est, pourquoi ce jour, une idée à vivre).
     html += '<h1><button class="titre-jour" data-action="explication">' + esc(titre) + '</button></h1>';
@@ -390,6 +392,7 @@
     html += '<div class="sections">';
     var p = priereDuMoment(a);
     if (p.texte) html += section(p.etiquette, blocPriere(p));
+    html += '</div></div><div class="fil"><div class="sections">';
     var e = evangile(a);
     if (e && e.attente) html += section(T('evangile-jour'), '<p class="charge">…</p>');
     else if (e) html += section(T('evangile-jour'), (a.lect.titre && a.lect.titre[LANG] ? '<p class="ev-titre">' + esc(a.lect.titre[LANG]) + '</p>' : '') + versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>', 'evangile', e.coeur.length < e.liste.length || c ? T('mediter') : T('lire'));
@@ -411,7 +414,7 @@
     }
     var mot = motDuJour(dateDuJour());
     if (mot) html += section(T('mot-jour'), '<p class="s-titre">' + esc(mot.mot) + '</p><p class="s-accroche">' + refsSeules(mot.def) + '</p>', { action: 'aller', id: 'lexique' }, T('acceder-lexique'));
-    return html + '</div></section>';
+    return html + '</div></div></section>';
   }
 
   // Respiration : une pause visuelle après l'Évangile, un village sur sa colline peint à l'aquarelle,
@@ -517,13 +520,13 @@
 
   function vuePrier() {
     var p = priereDuMoment(aujourdhui());
-    var h = '<section class="vue page"><p class="surtitre">' + esc(T('prier')) + '</p><h2>' + esc(T('les-prieres')) + '</h2>';
+    var h = '<section class="vue page"><div class="volet"><p class="surtitre">' + esc(T('prier')) + '</p><h2>' + esc(T('les-prieres')) + '</h2>';
     if (p.texte) h += '<section class="section-jour" style="margin-top:22px"><h3 class="etiquette">' + esc(p.etiquette) + '</h3>' + blocPriere(p) + '</section>';
-    h += '<p class="groupe">' + esc(T('prieres-toujours')) + '</p><div class="rubriques">';
+    h += '</div><div class="fil"><p class="groupe">' + esc(T('prieres-toujours')) + '</p><div class="rubriques">';
     D.prieres.traditionnelles.forEach(function (x) { h += rubrique('<span class="titre-r">' + esc(x.titre) + '</span>', { action: 'priere', id: x.id }); });
     h += '</div><p class="groupe espace">' + esc(T('mots-foi')) + '</p><div class="rubriques">' + rubrique('<span class="titre-r">' + esc(T('lexique')) + '</span><span class="texte-r">' + esc(T('lexique-desc')) + '</span>', { action: 'aller', id: 'lexique' }) + '</div>';
     if (D.messe) h += '<p class="groupe espace">' + esc(T('la-messe')) + '</p><div class="rubriques">' + rubrique('<span class="titre-r">' + esc(D.messe.titre) + '</span><span class="texte-r">' + esc(D.messe.desc) + '</span>', { action: 'aller', id: 'messe' }) + '</div>';
-    h += '</section>';
+    h += '</div></section>';
     return h;
   }
 
@@ -608,12 +611,12 @@
 
   function vueBible() {
     var a = aujourdhui();
-    var h = '<section class="vue page"><p class="surtitre">' + esc(T('lire-bible')) + '</p><h2>' + esc(T('onglet.bible')) + '</h2><p class="chapeau">' + esc(T('bible-chapeau')) + '</p>';
-    if (!BIBLE || bibleLangue !== LANG) return h + attendreBible() + '</section>';
+    var h = '<section class="vue page"><div class="volet"><p class="surtitre">' + esc(T('lire-bible')) + '</p><h2>' + esc(T('onglet.bible')) + '</h2><p class="chapeau">' + esc(T('bible-chapeau')) + '</p>';
+    if (!BIBLE || bibleLangue !== LANG) return h + '</div><div class="fil">' + attendreBible() + '</div></section>';
     var nb = lireMarques().length;
     h += '<div class="rubriques">' + rubrique('<span class="titre-r">' + esc(T('favoris')) + '</span><span class="texte-r">' + esc(nb ? T('favoris-nb', nb) : T('favoris-vide')) + '</span>', { action: 'aller', id: 'favoris' }) + '</div>';
     h += '<label class="surtitre" for="cherche-bible" style="display:block;margin-top:24px">' + esc(T('chercher-bible')) + '</label><input id="cherche-bible" class="recherche" type="search" autocomplete="off" value="' + esc(etat.cherche) + '" placeholder="' + esc(T('ex-bible')) + '">';
-    h += '<div id="resultats">' + resultats(etat.cherche) + '</div>';
+    h += '</div><div class="fil"><div id="resultats">' + resultats(etat.cherche) + '</div>';
     [['NT', T('nouveau-testament')], ['AT', T('ancien-testament')]].forEach(function (t) {
       h += '<p class="groupe">' + esc(t[1]) + '</p><div class="livres">';
       BIBLE.livres.filter(function (b) { return b.t === t[0]; }).forEach(function (b) {
@@ -629,7 +632,7 @@
       });
       h += '</div>';
     });
-    return h + '</section>';
+    return h + '</div></section>';
   }
 
   function resultats(q) {
@@ -696,9 +699,10 @@
   // ---------- En famille ----------
   function vueFamille() {
     var a = aujourdhui(), k = a.c && a.c.enfant, nuit = estNuit();
-    var h = '<section class="vue page enfant"><p class="surtitre">' + esc(T('onglet.famille')) + '</p><h2>' + esc(T('famille-titre')) + '</h2><p class="chapeau">' + esc(T('famille-chapeau')) + '</p><div class="sections">';
+    var h = '<section class="vue page enfant"><div class="volet"><p class="surtitre">' + esc(T('onglet.famille')) + '</p><h2>' + esc(T('famille-titre')) + '</h2><p class="chapeau">' + esc(T('famille-chapeau')) + '</p><div class="sections">';
     var p = priereDuMoment(a, true);
     if (p.texte) h += section(p.etiquette, blocPriere(p));
+    h += '</div></div><div class="fil"><div class="sections">';
     // L'Évangile des enfants : un passage court choisi pour eux, jamais celui des adultes du même jour.
     var le = evangileEnfant(a), e = le && evangile({ lect: le });
     if (e && !e.attente) h += section(T('evangile-jour'), '<p class="ev-titre">' + esc(le.titre[LANG] || le.titre.fr) + '</p>' + versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>');
@@ -719,7 +723,7 @@
     h += bougie();
     var m = motEnfant(a.j);
     if (m) h += section(T('mot-jour'), '<p class="s-titre">' + esc(m.mot) + '</p><p class="s-accroche">' + esc(m.def) + '</p>');
-    return h + '</div></section>';
+    return h + '</div></div></section>';
   }
   // L'Évangile des enfants : par temps liturgique (le Triduum prend le Carême), au fil des jours ;
   // s'il tombe sur le passage des adultes du jour, on prend le suivant.

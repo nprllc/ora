@@ -228,3 +228,27 @@ test('référencement : icônes, aperçus de lien, robots.txt, sitemap.xml et pa
   const manifeste = await (await fetch(serveur.url + 'manifest.webmanifest')).json();
   assert.ok(manifeste.icons.some((i) => i.purpose === 'maskable'));
 });
+
+test('grand écran : un livre ouvert (le jour reste à gauche sous le ciel, les lectures défilent à droite), sans débordement', async () => {
+  for (const [w, h] of [[1024, 700], [1440, 900], [1920, 1080]]) {
+    const ctx = await navigateur.newContext({ viewport: { width: w, height: h }, locale: 'fr', serviceWorkers: 'block' });
+    const page = await ctx.newPage();
+    await page.addInitScript(() => localStorage.setItem('ora.reglages', JSON.stringify({ langue: 'fr', mode: 'jour', bienvenue: true })));
+    await page.goto(serveur.url);
+    await page.waitForSelector('.section-jour');
+    const r = await page.evaluate(() => {
+      const v = document.querySelector('.accueil > .volet').getBoundingClientRect(), f = document.querySelector('.accueil > .fil').getBoundingClientRect();
+      const b = document.getElementById('barre').getBoundingClientRect();
+      return { pos: getComputedStyle(document.querySelector('.accueil > .volet')).position, vD: v.right, fG: f.left, bC: b.left + b.width / 2, debord: document.documentElement.scrollWidth - innerWidth };
+    });
+    assert.equal(r.pos, 'fixed', `${w} : le volet du jour reste en place`);
+    assert.ok(r.fG >= r.vD, `${w} : le fil est à droite du volet`);
+    assert.ok(r.bC < r.vD, `${w} : la barre est au pied de la page de gauche`);
+    assert.equal(r.debord, 0, `${w} : pas de défilement horizontal`);
+    await page.mouse.wheel(0, 1500);
+    await page.waitForTimeout(300);
+    const toujours = await page.evaluate(() => document.querySelector('.accueil > .volet h1').getBoundingClientRect().top);
+    assert.ok(toujours > 150, `${w} : le titre du jour est toujours visible après défilement`);
+    await ctx.close();
+  }
+});

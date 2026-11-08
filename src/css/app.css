@@ -116,6 +116,16 @@ a { color: var(--or); }
 .accueil { padding-top: 300px; }
 .accueil.anime > * { animation-delay: 1.6s; }
 .accueil.anime > *:nth-child(2) { animation-delay: 1.8s; } .accueil.anime > *:nth-child(3) { animation-delay: 2s; } .accueil.anime > *:nth-child(4) { animation-delay: 2.2s; }
+.fil > .sections:first-child { margin-top: 0; }
+/* Les deux volets (le jour, puis le fil des lectures) : leurs éléments apparaissent l'un après l'autre, comme avant. */
+.vue.entre > .volet { animation: none; }
+.vue.entre > .volet > * { animation: apparait 1.2s var(--lent) both; }
+.vue.entre > .volet > *:nth-child(2) { animation-delay: .12s; } .vue.entre > .volet > *:nth-child(3) { animation-delay: .24s; }
+.vue.entre > .volet > *:nth-child(4) { animation-delay: .36s; } .vue.entre > .volet > *:nth-child(n+5) { animation-delay: .48s; }
+.vue.entre > .fil { animation-delay: .48s; }
+.accueil.anime > .volet > * { animation-delay: 1.6s; }
+.accueil.anime > .volet > *:nth-child(2) { animation-delay: 1.8s; } .accueil.anime > .volet > *:nth-child(3) { animation-delay: 2s; }
+.accueil.anime > .volet > *:nth-child(4) { animation-delay: 2.2s; } .accueil.anime > .volet > *:nth-child(n+5), .accueil.anime > .fil { animation-delay: 2.4s; }
 .surtitre { margin: 0 0 12px; font-size: .6875rem; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--discret); }
 /* Titres : taille bornée par la largeur de l'écran (pas par le réglage de texte), et jamais de mot qui dépasse. */
 h1 { margin: 0; font-weight: 200; font-size: clamp(28px, 9.5vw, 40px); line-height: 1.12; letter-spacing: -.02em; overflow-wrap: break-word; text-wrap: balance; }
@@ -487,3 +497,33 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 .sans-js { max-width: 34em; margin: 18vh auto 0; padding: 0 24px; position: relative; z-index: 1; }
 .sans-js h1 { font-weight: 300; font-size: 2.4rem; margin: 0 0 .6em; }
 .sans-js p { margin: 0 0 1em; }
+
+/* ---------- Grand écran : un livre ouvert ----------
+   À gauche, la page du jour : le ciel, l'astre, puis la date, le titre et la prière, qui restent en place.
+   À droite, le fil des lectures, qui défile. La barre de navigation se pose au pied de la page de gauche. */
+@media (min-width: 1024px) {
+  :root { --g: clamp(400px, 40vw, 600px); --marge-g: clamp(40px, 4.2vw, 72px); }
+  .ciel { position: fixed; inset: 0 auto auto 0; width: var(--g); height: 470px; }
+  .ciel.discret { opacity: 1; }
+  .app { max-width: none; margin: 0 0 0 var(--g); }
+  .entete { position: fixed; left: 0; right: 0; top: 0; padding: 26px 40px 0 var(--marge-g); }
+  .app main { width: 100%; max-width: 820px; box-sizing: border-box; margin: 0 auto; padding: 0 clamp(48px, 5vw, 80px); }
+  .vue { padding: 0; }
+  .accueil, .page { padding-top: 120px; }
+  .volet { position: fixed; left: 0; top: 290px; bottom: 110px; width: var(--g); box-sizing: border-box; padding: 0 var(--marge-g) 24px;
+    overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; z-index: 2; }
+  .volet::-webkit-scrollbar { display: none; }
+  .volet .chapeau { max-width: 440px; }
+  .volet > h1 { font-size: clamp(34px, 3.1vw, 46px); }
+  .volet > h2 { font-size: clamp(26px, 2.4vw, 34px); }
+  .accueil > .volet { top: clamp(300px, 42vh, 380px); }
+  .livres { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 36px; }
+  .livre.ouvert { grid-column: 1 / -1; }
+  .page .volet > .section-jour:first-of-type { margin-top: 26px !important; }
+  /* Le fil commence sans filet : la page de droite n'a rien au-dessus. */
+  .fil > .sections:first-child > .section-jour:first-child, .fil > .groupe:first-child, .fil > #resultats:first-child + .groupe { border-top: 0; padding-top: 0; margin-top: 0; }
+  .barre { left: calc(var(--g) / 2); bottom: 28px; }
+  .feuille { left: var(--g); max-width: 600px; }
+  /* Une ligne très légère sépare les deux pages, comme le pli d'un livre. */
+  .app::before { content: ''; position: fixed; left: var(--g); top: 12vh; bottom: 12vh; width: 1px; background: linear-gradient(transparent, var(--filet) 20%, var(--filet) 80%, transparent); pointer-events: none; }
+}
