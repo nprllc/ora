@@ -523,6 +523,8 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
   /* Le fil commence sans filet : la page de droite n'a rien au-dessus. */
   .fil > .sections:first-child > .section-jour:first-child, .fil > .groupe:first-child, .fil > #resultats:first-child + .groupe { border-top: 0; padding-top: 0; margin-top: 0; }
   .barre { left: calc(var(--g) / 2); bottom: 28px; }
+  /* La bougie garde sur ordinateur la taille qu'elle a sur un téléphone : un détail, pas une affiche. */
+  .respiration.bougie { width: 440px; max-width: 100%; margin: 12px auto 0; }
   .feuille { left: var(--g); max-width: 600px; }
   /* Une ligne très légère sépare les deux pages, comme le pli d'un livre. */
   .app::before { content: ''; position: fixed; left: var(--g); top: 12vh; bottom: 12vh; width: 1px; background: linear-gradient(transparent, var(--filet) 20%, var(--filet) 80%, transparent); pointer-events: none; }
