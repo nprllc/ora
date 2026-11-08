@@ -3618,28 +3618,6 @@
    }
   },
   {
-   "id": "abbe-pierre-hiver-54",
-   "date": "02-01",
-   "fr": {
-    "titre": "L'hiver 1954 et l'appel de l'abbé Pierre",
-    "accroche": "Le 1er février 1954, un prêtre lance un appel à la radio. Le lendemain, la France entière se mobilise pour les sans-abri.",
-    "texte": "L'hiver 1954 est terrible en France. Des gens meurent de froid dans la rue. Le 1er février, une femme expulsée de son logement est retrouvée morte, sur un trottoir de Paris, son avis d'expulsion à la main.\n\nLe soir même, l'abbé Pierre, prêtre et fondateur d'Emmaüs, lance un appel sur Radio-Luxembourg : « Mes amis, au secours… » Il demande des couvertures, des tentes, des poêles, et qu'on ouvre partout des centres d'accueil.\n\nLa réponse est immense : des tonnes de dons arrivent, des anonymes et des célébrités se mobilisent. On a appelé ce mouvement « l'insurrection de la bonté ».",
-    "source": "Fondation Abbé Pierre ; Emmaüs France, « L'appel du 1er février 1954 »"
-   },
-   "es": {
-    "titre": "El invierno de 1954 y el llamamiento del abate Pierre",
-    "accroche": "El 1 de febrero de 1954, un sacerdote lanza un llamamiento por la radio. Al día siguiente, toda Francia se moviliza por los sin techo.",
-    "texte": "El invierno de 1954 es terrible en Francia. Hay gente que muere de frío en la calle. El 1 de febrero aparece muerta en una acera de París una mujer desahuciada, con la orden de desalojo en la mano.\n\nEsa misma noche, el abate Pierre, sacerdote y fundador de Emaús, lanza un llamamiento por Radio Luxemburgo: «Amigos míos, socorro…». Pide mantas, tiendas, estufas, y que se abran centros de acogida por todas partes.\n\nLa respuesta es inmensa: llegan toneladas de donativos, y anónimos y famosos se movilizan. A este movimiento se le llamó «la insurrección de la bondad».",
-    "source": "Fundación Abbé Pierre; Emaús Francia, «El llamamiento del 1 de febrero de 1954»"
-   },
-   "en": {
-    "titre": "The winter of 1954 and Abbé Pierre's appeal",
-    "accroche": "On 1 February 1954 a priest made an appeal on the radio. The next day all France rallied to help the homeless.",
-    "texte": "The winter of 1954 was terrible in France. People were dying of cold in the streets. On 1 February a woman who had been evicted was found dead on a Paris pavement, her eviction notice in her hand.\n\nThat evening Abbé Pierre, a priest and founder of Emmaus, made an appeal on Radio Luxembourg: “My friends, help…” He asked for blankets, tents and stoves, and for shelters to be opened everywhere.\n\nThe response was immense: tonnes of donations poured in, and ordinary people and celebrities alike got involved. The movement was called “the uprising of kindness”.",
-    "source": "Fondation Abbé Pierre; Emmaus France, “The appeal of 1 February 1954”"
-   }
-  },
-  {
    "id": "pere-jacques-avon",
    "fr": {
     "titre": "Le père Jacques et les enfants cachés",
@@ -5879,6 +5857,432 @@
     "accroche": "Just before Communion we say: “Lord, I am not worthy that you should enter under my roof.” These words come from a soldier of the occupying army.",
     "texte": "In Capernaum a centurion, a Roman officer in command of about a hundred men, has a servant who is gravely ill. He sends word asking Jesus to come and heal him. But as Jesus approaches, he sends a message: “Lord, I am not worthy that thou shouldst enter under my roof: but only say the word, and my servant shall be healed” (Mt 8:8; Lk 7:6-7).\n\nThis man is a pagan, an occupier, whom many Jews avoided. He knows that a devout Jew was not supposed to enter a pagan's house, and he spares Jesus this. Jesus marvels: “I have not found so great faith in Israel.”\n\nFor centuries the Church has put his words on the lips of every believer before Communion: “Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed.” The faith of a foreigner has become everyone's prayer.",
     "source": "Mt 8:5-13; Lk 7:1-10; Roman Missal, Communion Rite"
+   }
+  },
+  {
+   "id": "saint-pierre-120-ans",
+   "fr": {
+    "titre": "Cent vingt ans pour bâtir Saint-Pierre de Rome",
+    "accroche": "La plus grande église du monde chrétien a été construite sous vingt papes, par les plus grands architectes de la Renaissance.",
+    "texte": "Au début du XVIe siècle, la vieille basilique bâtie par l'empereur Constantin au-dessus du tombeau de saint Pierre menace ruine. Le 18 avril 1506, le pape Jules II pose la première pierre d'une nouvelle basilique, dessinée par Bramante.\n\nLe chantier dure cent vingt ans. Raphaël, puis d'autres, prennent la suite ; Michel-Ange, à plus de soixante-dix ans, conçoit l'immense coupole, achevée après sa mort. Carlo Maderno allonge la nef et dessine la façade. Le pape Urbain VIII consacre enfin la basilique le 18 novembre 1626, mille trois cents ans, selon la tradition, après la consécration de l'ancienne.\n\nSous l'autel principal, à des mètres de profondeur, les fouilles des années 1940 ont mis au jour une nécropole romaine et un monument très ancien vénéré comme la tombe de Pierre. Toute cette splendeur est bâtie, au sens propre, sur un pêcheur de Galilée.",
+    "source": "Fabbrica di San Pietro (vatican.va) ; Encyclopædia Britannica, « Saint Peter's Basilica »"
+   },
+   "es": {
+    "titre": "Ciento veinte años para construir San Pedro de Roma",
+    "accroche": "La iglesia más grande del mundo cristiano se construyó bajo veinte papas, por los mayores arquitectos del Renacimiento.",
+    "texte": "A comienzos del siglo XVI, la vieja basílica construida por el emperador Constantino sobre la tumba de san Pedro amenaza ruina. El 18 de abril de 1506, el papa Julio II coloca la primera piedra de una nueva basílica, diseñada por Bramante.\n\nLas obras duran ciento veinte años. Rafael y otros toman el relevo; Miguel Ángel, con más de setenta años, concibe la inmensa cúpula, terminada después de su muerte. Carlo Maderno alarga la nave y diseña la fachada. El papa Urbano VIII consagra por fin la basílica el 18 de noviembre de 1626, mil trescientos años, según la tradición, después de la consagración de la antigua.\n\nBajo el altar mayor, a varios metros de profundidad, las excavaciones de los años cuarenta sacaron a la luz una necrópolis romana y un monumento muy antiguo venerado como la tumba de Pedro. Todo este esplendor está construido, literalmente, sobre un pescador de Galilea.",
+    "source": "Fábrica de San Pedro (vatican.va); Encyclopædia Britannica, «Saint Peter's Basilica»"
+   },
+   "en": {
+    "titre": "A hundred and twenty years to build Saint Peter's",
+    "accroche": "The largest church in the Christian world was built under twenty popes by the greatest architects of the Renaissance.",
+    "texte": "At the start of the sixteenth century, the old basilica built by the Emperor Constantine over the tomb of Saint Peter was falling into ruin. On 18 April 1506 Pope Julius II laid the first stone of a new basilica designed by Bramante.\n\nThe work lasted a hundred and twenty years. Raphael and others took over; Michelangelo, past seventy, designed the immense dome, completed after his death. Carlo Maderno lengthened the nave and designed the façade. Pope Urban VIII finally consecrated the basilica on 18 November 1626, thirteen hundred years, according to tradition, after the consecration of the old one.\n\nBeneath the high altar, several metres down, excavations in the 1940s uncovered a Roman necropolis and a very ancient monument venerated as the tomb of Peter. All this splendour is built, quite literally, on a fisherman from Galilee.",
+    "source": "Fabbrica di San Pietro (vatican.va); Encyclopædia Britannica, “Saint Peter's Basilica”"
+   }
+  },
+  {
+   "id": "colonnade-bernin",
+   "fr": {
+    "titre": "Les bras ouverts de la place Saint-Pierre",
+    "accroche": "Vue du ciel, la place Saint-Pierre ressemble à deux grands bras qui accueillent. Son architecte, le Bernin, l'avait voulu ainsi.",
+    "texte": "Entre 1656 et 1667, le sculpteur et architecte Gian Lorenzo Bernini, dit le Bernin, aménage la place devant la basilique Saint-Pierre. Il l'entoure de deux immenses colonnades en arc de cercle, formées de 284 colonnes disposées sur quatre rangées, surmontées de 140 statues de saints.\n\nLe Bernin expliquait que ces colonnades sont comme les bras maternels de l'Église, qui accueillent les catholiques pour les affermir dans la foi, les croyants séparés pour les réunir, et les non-croyants pour leur montrer la vraie foi.\n\nUn détail amuse les visiteurs : sur le sol, de chaque côté de l'obélisque, un disque de pierre marque le « centre de la colonnade ». Quand on s'y place, les quatre rangées de colonnes s'alignent parfaitement, et l'on n'en voit plus qu'une.",
+    "source": "Encyclopædia Britannica, « Gian Lorenzo Bernini » et « Saint Peter's Square » ; Cité du Vatican (vaticanstate.va)"
+   },
+   "es": {
+    "titre": "Los brazos abiertos de la plaza de San Pedro",
+    "accroche": "Vista desde el cielo, la plaza de San Pedro parece dos grandes brazos que acogen. Su arquitecto, Bernini, lo quiso así.",
+    "texte": "Entre 1656 y 1667, el escultor y arquitecto Gian Lorenzo Bernini acondiciona la plaza delante de la basílica de San Pedro. La rodea con dos inmensas columnatas en arco de círculo, formadas por 284 columnas dispuestas en cuatro filas y coronadas por 140 estatuas de santos.\n\nBernini explicaba que estas columnatas son como los brazos maternos de la Iglesia, que acogen a los católicos para confirmarlos en la fe, a los creyentes separados para reunirlos y a los no creyentes para mostrarles la verdadera fe.\n\nUn detalle divierte a los visitantes: en el suelo, a cada lado del obelisco, un disco de piedra marca el «centro de la columnata». Cuando uno se coloca encima, las cuatro filas de columnas se alinean perfectamente y solo se ve una.",
+    "source": "Encyclopædia Britannica, «Gian Lorenzo Bernini» y «Saint Peter's Square»; Ciudad del Vaticano (vaticanstate.va)"
+   },
+   "en": {
+    "titre": "The open arms of Saint Peter's Square",
+    "accroche": "Seen from the sky, Saint Peter's Square looks like two great welcoming arms. Its architect, Bernini, intended it that way.",
+    "texte": "Between 1656 and 1667 the sculptor and architect Gian Lorenzo Bernini laid out the square in front of Saint Peter's Basilica. He enclosed it with two huge curved colonnades, made of 284 columns in four rows and topped by 140 statues of saints.\n\nBernini explained that these colonnades are like the motherly arms of the Church, embracing Catholics to strengthen them in the faith, separated Christians to bring them together, and unbelievers to show them the true faith.\n\nOne detail delights visitors: on the paving, on either side of the obelisk, a stone disc marks the “centre of the colonnade”. Standing on it, you see the four rows of columns line up perfectly, so that only one is visible.",
+    "source": "Encyclopædia Britannica, “Gian Lorenzo Bernini” and “Saint Peter's Square”; Vatican City State (vaticanstate.va)"
+   }
+  },
+  {
+   "id": "mont-athos",
+   "fr": {
+    "titre": "La montagne des moines",
+    "accroche": "En Grèce, une presqu'île entière est habitée depuis plus de mille ans presque uniquement par des moines. Le temps y passe autrement.",
+    "texte": "Le mont Athos est une péninsule montagneuse du nord de la Grèce, qui plonge dans la mer Égée. Des ermites y vivent dès le IXe siècle, et le premier grand monastère, la Grande Laure, est fondé en 963. Aujourd'hui, une vingtaine de grands monastères orthodoxes et de nombreux ermitages accueillent environ deux mille moines.\n\nLa « Sainte Montagne » a ses propres règles. Depuis plus de mille ans, les femmes n'y sont pas admises. Les visiteurs doivent obtenir une autorisation spéciale, et plusieurs monastères suivent encore le calendrier julien et comptent les heures à la façon byzantine, à partir du coucher du soleil.\n\nAthos est un haut lieu de la prière orthodoxe, notamment de la « prière de Jésus », répétée jour et nuit. Ses bibliothèques conservent des milliers de manuscrits anciens. Le site est inscrit au patrimoine mondial de l'UNESCO.",
+    "source": "UNESCO, « Mont Athos » (1988) ; Encyclopædia Britannica, « Mount Athos »"
+   },
+   "es": {
+    "titre": "La montaña de los monjes",
+    "accroche": "En Grecia, una península entera está habitada desde hace más de mil años casi exclusivamente por monjes. Allí el tiempo pasa de otra manera.",
+    "texte": "El monte Athos es una península montañosa del norte de Grecia que se adentra en el mar Egeo. Ya en el siglo IX viven allí ermitaños, y el primer gran monasterio, la Gran Laura, se funda en 963. Hoy, una veintena de grandes monasterios ortodoxos y numerosas ermitas acogen a unos dos mil monjes.\n\nLa «Santa Montaña» tiene sus propias reglas. Desde hace más de mil años no se admite allí a las mujeres. Los visitantes necesitan un permiso especial, y varios monasterios siguen usando el calendario juliano y cuentan las horas a la manera bizantina, a partir de la puesta del sol.\n\nAthos es un lugar central de la oración ortodoxa, en especial de la «oración de Jesús», repetida día y noche. Sus bibliotecas conservan miles de manuscritos antiguos. El lugar es patrimonio mundial de la UNESCO.",
+    "source": "UNESCO, «Mount Athos» (1988); Encyclopædia Britannica, «Mount Athos»"
+   },
+   "en": {
+    "titre": "The mountain of monks",
+    "accroche": "In Greece a whole peninsula has been inhabited for more than a thousand years almost entirely by monks. Time passes differently there.",
+    "texte": "Mount Athos is a mountainous peninsula in northern Greece, running out into the Aegean Sea. Hermits lived there from the ninth century, and the first great monastery, the Great Lavra, was founded in 963. Today some twenty large Orthodox monasteries and many hermitages are home to about two thousand monks.\n\nThe “Holy Mountain” has its own rules. For more than a thousand years women have not been admitted. Visitors need a special permit, and several monasteries still follow the Julian calendar and count the hours in the Byzantine way, from sunset.\n\nAthos is a great centre of Orthodox prayer, especially the “Jesus Prayer”, repeated day and night. Its libraries hold thousands of ancient manuscripts. The site is a UNESCO World Heritage Site.",
+    "source": "UNESCO, “Mount Athos” (1988); Encyclopædia Britannica, “Mount Athos”"
+   }
+  },
+  {
+   "id": "sainte-catherine-sinai",
+   "fr": {
+    "titre": "Le plus ancien monastère encore habité",
+    "accroche": "Au pied du mont Sinaï, des moines prient sans interruption depuis le VIe siècle, dans un monastère qui abrite l'une des plus vieilles bibliothèques du monde.",
+    "texte": "L'empereur Justinien fait construire, au milieu du VIe siècle, un monastère fortifié au pied du mont Sinaï, à l'endroit où, selon la tradition, Moïse vit le buisson ardent. Il prendra plus tard le nom de sainte Catherine d'Alexandrie, dont les reliques y sont vénérées.\n\nDepuis, la vie monastique n'y a jamais cessé : c'est le plus ancien monastère chrétien encore habité. Ses murs abritent des icônes uniques, dont un Christ Pantocrator du VIe siècle, l'une des plus anciennes icônes connues, et une bibliothèque de manuscrits anciens d'une valeur inestimable. Le célèbre Codex Sinaiticus y a été conservé pendant des siècles.\n\nUn détail étonnant : à l'intérieur de l'enceinte se trouve aussi une petite mosquée, construite au Moyen Âge. Le monastère a traversé quatorze siècles de bouleversements au cœur du désert.",
+    "source": "UNESCO, « Zone Sainte-Catherine » (2002) ; Encyclopædia Britannica, « Saint Catherine's Monastery »"
+   },
+   "es": {
+    "titre": "El monasterio habitado más antiguo",
+    "accroche": "Al pie del monte Sinaí, unos monjes rezan sin interrupción desde el siglo VI, en un monasterio que alberga una de las bibliotecas más antiguas del mundo.",
+    "texte": "El emperador Justiniano manda construir, a mediados del siglo VI, un monasterio fortificado al pie del monte Sinaí, en el lugar donde, según la tradición, Moisés vio la zarza ardiente. Más tarde tomará el nombre de santa Catalina de Alejandría, cuyas reliquias se veneran allí.\n\nDesde entonces la vida monástica nunca se ha interrumpido: es el monasterio cristiano habitado más antiguo. Sus muros guardan iconos únicos, entre ellos un Cristo Pantocrátor del siglo VI, uno de los iconos más antiguos que se conocen, y una biblioteca de manuscritos antiguos de valor incalculable. El famoso Códice Sinaítico se conservó allí durante siglos.\n\nUn detalle sorprendente: dentro del recinto hay también una pequeña mezquita, construida en la Edad Media. El monasterio ha atravesado catorce siglos de convulsiones en pleno desierto.",
+    "source": "UNESCO, «Saint Catherine Area» (2002); Encyclopædia Britannica, «Saint Catherine's Monastery»"
+   },
+   "en": {
+    "titre": "The oldest monastery still lived in",
+    "accroche": "At the foot of Mount Sinai, monks have prayed without interruption since the sixth century, in a monastery that houses one of the oldest libraries in the world.",
+    "texte": "In the mid-sixth century the Emperor Justinian had a fortified monastery built at the foot of Mount Sinai, where, according to tradition, Moses saw the burning bush. It later took the name of Saint Catherine of Alexandria, whose relics are venerated there.\n\nMonastic life there has never stopped: it is the oldest Christian monastery still inhabited. Its walls hold unique icons, including a sixth-century Christ Pantocrator, one of the oldest icons known, and a library of ancient manuscripts of priceless value. The famous Codex Sinaiticus was kept there for centuries.\n\nA surprising detail: inside the walls there is also a small mosque, built in the Middle Ages. The monastery has come through fourteen centuries of upheaval in the heart of the desert.",
+    "source": "UNESCO, “Saint Catherine Area” (2002); Encyclopædia Britannica, “Saint Catherine's Monastery”"
+   }
+  },
+  {
+   "id": "vezelay-lumiere",
+   "fr": {
+    "titre": "Le chemin de lumière de Vézelay",
+    "accroche": "Dans la basilique de Vézelay, en Bourgogne, le soleil de midi dessine chaque été un chemin de taches lumineuses au milieu de la nef.",
+    "texte": "La basilique Sainte-Marie-Madeleine de Vézelay, bâtie au XIIe siècle sur une colline, était l'un des grands lieux de pèlerinage du Moyen Âge et un point de départ vers Saint-Jacques-de-Compostelle. Son grand portail sculpté montre le Christ envoyant ses apôtres annoncer l'Évangile à tous les peuples.\n\nLes bâtisseurs ont orienté l'église avec une grande précision. Au solstice d'été, vers midi, la lumière qui passe par les fenêtres hautes du côté sud dessine sur le sol une ligne de taches de soleil, alignées exactement au centre de la nef, de l'entrée jusqu'au chœur. Au solstice d'hiver, les taches se posent sur les chapiteaux des colonnes.\n\nPour les pèlerins, c'était une image parlante : le Christ, lumière du monde, trace le chemin vers l'autel. Le site est inscrit au patrimoine mondial de l'UNESCO.",
+    "source": "UNESCO, « Basilique et colline de Vézelay » (1979) ; Fraternités monastiques de Jérusalem, Vézelay"
+   },
+   "es": {
+    "titre": "El camino de luz de Vézelay",
+    "accroche": "En la basílica de Vézelay, en Borgoña, el sol de mediodía dibuja cada verano un camino de manchas luminosas en el centro de la nave.",
+    "texte": "La basílica de Santa María Magdalena de Vézelay, construida en el siglo XII sobre una colina, era uno de los grandes lugares de peregrinación de la Edad Media y un punto de partida hacia Santiago de Compostela. Su gran pórtico esculpido muestra a Cristo enviando a sus apóstoles a anunciar el Evangelio a todos los pueblos.\n\nLos constructores orientaron la iglesia con gran precisión. En el solsticio de verano, hacia el mediodía, la luz que entra por las ventanas altas del lado sur dibuja en el suelo una línea de manchas de sol, alineadas exactamente en el centro de la nave, desde la entrada hasta el coro. En el solsticio de invierno, las manchas se posan sobre los capiteles de las columnas.\n\nPara los peregrinos era una imagen elocuente: Cristo, luz del mundo, traza el camino hacia el altar. El lugar es patrimonio mundial de la UNESCO.",
+    "source": "UNESCO, «Vézelay, Church and Hill» (1979); Fraternidades monásticas de Jerusalén, Vézelay"
+   },
+   "en": {
+    "titre": "The path of light at Vézelay",
+    "accroche": "In the basilica of Vézelay in Burgundy, the noon sun traces a path of bright patches down the middle of the nave every summer.",
+    "texte": "The Basilica of Saint Mary Magdalene at Vézelay, built on a hilltop in the twelfth century, was one of the great pilgrimage sites of the Middle Ages and a starting point for Santiago de Compostela. Its great carved doorway shows Christ sending his apostles to proclaim the Gospel to all peoples.\n\nThe builders oriented the church with great precision. At the summer solstice, around noon, the light coming through the high windows on the south side casts a line of sunlit patches on the floor, lined up exactly down the centre of the nave from the entrance to the choir. At the winter solstice the patches fall on the capitals of the columns.\n\nFor pilgrims it was a telling image: Christ, the light of the world, marks out the way to the altar. The site is a UNESCO World Heritage Site.",
+    "source": "UNESCO, “Vézelay, Church and Hill” (1979); Monastic Fraternities of Jerusalem, Vézelay"
+   }
+  },
+  {
+   "id": "conques-sainte-foy",
+   "fr": {
+    "titre": "Le moine qui vola une sainte",
+    "accroche": "Au IXe siècle, un moine de Conques passe dix ans dans un monastère voisin, gagne la confiance de tous… puis s'enfuit avec les reliques de sainte Foy.",
+    "texte": "Sainte Foy est une jeune martyre d'Agen, morte au IVe siècle. Au IXe siècle, l'abbaye de Conques, nichée dans une vallée isolée du Rouergue, voudrait attirer des pèlerins. Selon la chronique, un moine de Conques, Arinisdus, se fait admettre chez les moines d'Agen, gagne leur confiance pendant une dizaine d'années, devient gardien du tombeau… et emporte les reliques vers Conques.\n\nCe « vol pieux », comme on disait alors, n'était pas rare au Moyen Âge. Il fit la fortune de Conques : les pèlerins affluent, et l'on fabrique pour la sainte une extraordinaire statue reliquaire d'or et de pierres précieuses, la « Majesté de sainte Foy », que l'on peut toujours admirer.\n\nConques est devenue une étape majeure du chemin de Compostelle. Depuis 1994, l'abbatiale est éclairée par des vitraux contemporains du peintre Pierre Soulages, qui jouent avec la lumière naturelle.",
+    "source": "Translatio sanctae Fidis ; trésor de Conques ; UNESCO, « Chemins de Saint-Jacques-de-Compostelle en France » (1998)"
+   },
+   "es": {
+    "titre": "El monje que robó a una santa",
+    "accroche": "En el siglo IX, un monje de Conques pasa diez años en un monasterio vecino, se gana la confianza de todos… y luego huye con las reliquias de santa Fe.",
+    "texte": "Santa Fe es una joven mártir de Agen, muerta en el siglo IV. En el siglo IX, la abadía de Conques, escondida en un valle aislado del Rouergue, quiere atraer peregrinos. Según la crónica, un monje de Conques, Arinisdus, se hace admitir entre los monjes de Agen, se gana su confianza durante una decena de años, llega a ser guardián de la tumba… y se lleva las reliquias a Conques.\n\nEste «robo piadoso», como se decía entonces, no era raro en la Edad Media. Hizo la fortuna de Conques: llegan los peregrinos, y se fabrica para la santa una extraordinaria estatua relicario de oro y piedras preciosas, la «Majestad de santa Fe», que todavía puede admirarse.\n\nConques se convirtió en una etapa importante del Camino de Santiago. Desde 1994, la iglesia abacial está iluminada por vidrieras contemporáneas del pintor Pierre Soulages, que juegan con la luz natural.",
+    "source": "Translatio sanctae Fidis; tesoro de Conques; UNESCO, «Routes of Santiago de Compostela in France» (1998)"
+   },
+   "en": {
+    "titre": "The monk who stole a saint",
+    "accroche": "In the ninth century a monk of Conques spent ten years in a neighbouring monastery, won everyone's trust… then ran off with the relics of Saint Foy.",
+    "texte": "Saint Foy (Faith) was a young martyr of Agen who died in the fourth century. In the ninth century the abbey of Conques, hidden in a remote valley in the Rouergue, wanted to attract pilgrims. According to the chronicle, a monk of Conques, Arinisdus, got himself admitted to the monastery in Agen, earned the monks' trust over about ten years, became guardian of the tomb… and carried the relics off to Conques.\n\nSuch “holy thefts”, as they were called, were not rare in the Middle Ages. It made Conques' fortune: pilgrims flocked there, and an extraordinary reliquary statue of gold and precious stones was made for the saint, the “Majesty of Saint Foy”, which can still be admired.\n\nConques became a major stop on the road to Compostela. Since 1994 the abbey church has been lit by contemporary stained-glass windows by the painter Pierre Soulages, which play with natural light.",
+    "source": "Translatio sanctae Fidis; Conques treasury; UNESCO, “Routes of Santiago de Compostela in France” (1998)"
+   }
+  },
+  {
+   "id": "ange-au-sourire",
+   "fr": {
+    "titre": "L'ange au sourire de Reims",
+    "accroche": "Sur la façade de la cathédrale de Reims, un ange sourit depuis le XIIIe siècle. En 1914, un obus lui a fait perdre la tête.",
+    "texte": "Parmi les centaines de statues de la cathédrale de Reims, l'une est devenue célèbre : un ange sculpté vers 1240, au portail nord de la façade, qui incline la tête et sourit, d'un sourire doux et un peu mystérieux. Il est devenu le symbole de la ville.\n\nLe 19 septembre 1914, au début de la Première Guerre mondiale, la cathédrale est bombardée et prend feu. Un échafaudage s'embrase, une poutre tombe et décapite l'ange. Sa tête se brise au sol. L'abbé Thinot, présent sur place, en recueille les morceaux et les cache dans une cave.\n\nAprès la guerre, la tête est restaurée à partir des fragments et de moulages anciens, et l'ange retrouve sa place en 1926. On le surnomme parfois « le sourire de Reims » : un sourire qui a survécu au feu.",
+    "source": "Cathédrale Notre-Dame de Reims ; Centre des monuments nationaux"
+   },
+   "es": {
+    "titre": "El ángel de la sonrisa de Reims",
+    "accroche": "En la fachada de la catedral de Reims, un ángel sonríe desde el siglo XIII. En 1914, un obús le hizo perder la cabeza.",
+    "texte": "Entre los cientos de estatuas de la catedral de Reims, una se hizo célebre: un ángel esculpido hacia 1240, en el pórtico norte de la fachada, que inclina la cabeza y sonríe, con una sonrisa dulce y algo misteriosa. Se convirtió en el símbolo de la ciudad.\n\nEl 19 de septiembre de 1914, al comienzo de la Primera Guerra Mundial, la catedral es bombardeada y se incendia. Un andamio arde, cae una viga y decapita al ángel. Su cabeza se rompe en el suelo. El abad Thinot, que está allí, recoge los pedazos y los esconde en una bodega.\n\nDespués de la guerra, la cabeza se restaura a partir de los fragmentos y de antiguos moldes, y el ángel vuelve a su lugar en 1926. A veces se lo llama «la sonrisa de Reims»: una sonrisa que sobrevivió al fuego.",
+    "source": "Catedral de Notre-Dame de Reims; Centre des monuments nationaux"
+   },
+   "en": {
+    "titre": "The smiling angel of Reims",
+    "accroche": "On the façade of Reims Cathedral, an angel has been smiling since the thirteenth century. In 1914 a shell made him lose his head.",
+    "texte": "Among the hundreds of statues of Reims Cathedral, one became famous: an angel carved around 1240 on the north doorway of the façade, tilting his head and smiling a gentle, slightly mysterious smile. He became the symbol of the city.\n\nOn 19 September 1914, at the start of the First World War, the cathedral was shelled and caught fire. A scaffold burst into flames, a beam fell and beheaded the angel. His head shattered on the ground. Abbé Thinot, who was there, gathered up the pieces and hid them in a cellar.\n\nAfter the war the head was restored from the fragments and old casts, and the angel returned to his place in 1926. He is sometimes called “the smile of Reims”: a smile that survived the fire.",
+    "source": "Notre-Dame de Reims Cathedral; Centre des monuments nationaux"
+   }
+  },
+  {
+   "id": "bapteme-clovis",
+   "temps": [
+    "noel"
+   ],
+   "fr": {
+    "titre": "« Courbe la tête, fier Sicambre »",
+    "accroche": "Un jour de Noël, autour de l'an 500, le roi des Francs Clovis reçoit le baptême à Reims. Sa conversion change l'histoire de la future France.",
+    "texte": "Clovis, roi des Francs, est païen, mais sa femme, Clotilde, est chrétienne et prie pour lui. Selon le récit de l'évêque Grégoire de Tours, au cours d'une bataille difficile contre les Alamans, Clovis promet de se faire chrétien si le Dieu de Clotilde lui donne la victoire.\n\nIl est baptisé à Reims par l'évêque Remi, un jour de Noël, avec des milliers de guerriers. La date exacte est discutée par les historiens, entre 496 et 508. Grégoire de Tours rapporte la parole de Remi au roi, au moment du baptême : « Courbe doucement la tête, fier Sicambre ; adore ce que tu as brûlé, brûle ce que tu as adoré. »\n\nPour la suite de l'histoire, ce baptême a beaucoup compté : le royaume franc devient chrétien. Mais le geste lui-même est simple : un roi puissant accepte de baisser la tête.",
+    "source": "Grégoire de Tours, Histoire des Francs, livre II, ch. 30-31"
+   },
+   "es": {
+    "titre": "«Inclina la cabeza, fiero sicambro»",
+    "accroche": "Un día de Navidad, hacia el año 500, el rey de los francos Clodoveo recibe el bautismo en Reims. Su conversión cambia la historia de la futura Francia.",
+    "texte": "Clodoveo, rey de los francos, es pagano, pero su esposa, Clotilde, es cristiana y reza por él. Según el relato del obispo Gregorio de Tours, durante una batalla difícil contra los alamanes, Clodoveo promete hacerse cristiano si el Dios de Clotilde le da la victoria.\n\nEs bautizado en Reims por el obispo Remigio, un día de Navidad, junto con miles de guerreros. La fecha exacta la discuten los historiadores, entre 496 y 508. Gregorio de Tours recoge las palabras de Remigio al rey en el momento del bautismo: «Inclina dócilmente la cabeza, fiero sicambro; adora lo que has quemado, quema lo que has adorado».\n\nPara la historia posterior, este bautismo fue muy importante: el reino franco se hace cristiano. Pero el gesto en sí es sencillo: un rey poderoso acepta inclinar la cabeza.",
+    "source": "Gregorio de Tours, Historia de los francos, libro II, cap. 30-31"
+   },
+   "en": {
+    "titre": "“Bow your head, proud Sicambrian”",
+    "accroche": "One Christmas Day around the year 500, Clovis, king of the Franks, was baptized in Reims. His conversion changed the history of what would become France.",
+    "texte": "Clovis, king of the Franks, was a pagan, but his wife Clotilde was a Christian and prayed for him. According to the account of Bishop Gregory of Tours, during a hard battle against the Alamanni, Clovis promised to become a Christian if Clotilde's God gave him victory.\n\nHe was baptized in Reims by Bishop Remigius on Christmas Day, together with thousands of warriors. Historians debate the exact date, between 496 and 508. Gregory of Tours records Remigius' words to the king at the moment of baptism: “Bow your head meekly, proud Sicambrian; worship what you have burned, burn what you have worshipped.”\n\nFor later history this baptism mattered a great deal: the Frankish kingdom became Christian. But the gesture itself is simple: a powerful king agrees to bow his head.",
+    "source": "Gregory of Tours, History of the Franks, Book II, ch. 30-31"
+   }
+  },
+  {
+   "id": "charlemagne-noel-800",
+   "temps": [
+    "noel"
+   ],
+   "fr": {
+    "titre": "Couronné empereur le jour de Noël",
+    "accroche": "Le 25 décembre de l'an 800, pendant la messe à Saint-Pierre de Rome, le pape pose une couronne sur la tête de Charlemagne.",
+    "texte": "Charles, roi des Francs, que l'on appellera Charlemagne, règne sur une grande partie de l'Europe occidentale. En 799, le pape Léon III, agressé par ses ennemis à Rome, se réfugie auprès de lui. Charles l'aide à retrouver son siège et se rend à Rome à la fin de l'an 800.\n\nLe jour de Noël, alors qu'il se relève de la prière devant le tombeau de saint Pierre, le pape lui pose une couronne sur la tête, et la foule l'acclame empereur des Romains. Pour la première fois depuis plus de trois siècles, l'Occident a de nouveau un empereur.\n\nSon biographe Éginhard affirme que Charles ne s'y attendait pas et qu'il ne serait pas entré dans l'église s'il avait su ; les historiens en discutent. Ce qui est sûr, c'est que le choix de Noël n'était pas un hasard : on célébrait la naissance du Roi des rois.",
+    "source": "Éginhard, Vie de Charlemagne, ch. 28 ; Annales royales des Francs, année 801"
+   },
+   "es": {
+    "titre": "Coronado emperador el día de Navidad",
+    "accroche": "El 25 de diciembre del año 800, durante la misa en San Pedro de Roma, el papa coloca una corona sobre la cabeza de Carlomagno.",
+    "texte": "Carlos, rey de los francos, al que se llamará Carlomagno, reina sobre gran parte de Europa occidental. En 799, el papa León III, agredido por sus enemigos en Roma, se refugia junto a él. Carlos lo ayuda a recuperar su sede y viaja a Roma a finales del año 800.\n\nEl día de Navidad, cuando se levanta de rezar ante la tumba de san Pedro, el papa le coloca una corona en la cabeza, y la multitud lo aclama emperador de los romanos. Por primera vez en más de tres siglos, Occidente vuelve a tener un emperador.\n\nSu biógrafo Eginardo afirma que Carlos no se lo esperaba y que no habría entrado en la iglesia de haberlo sabido; los historiadores lo discuten. Lo cierto es que la elección de la Navidad no fue casual: se celebraba el nacimiento del Rey de reyes.",
+    "source": "Eginardo, Vida de Carlomagno, cap. 28; Anales reales de los francos, año 801"
+   },
+   "en": {
+    "titre": "Crowned emperor on Christmas Day",
+    "accroche": "On 25 December 800, during Mass at Saint Peter's in Rome, the Pope placed a crown on Charlemagne's head.",
+    "texte": "Charles, king of the Franks, later called Charlemagne, ruled much of Western Europe. In 799 Pope Leo III, attacked by his enemies in Rome, took refuge with him. Charles helped him regain his see and travelled to Rome at the end of the year 800.\n\nOn Christmas Day, as he rose from prayer before the tomb of Saint Peter, the Pope placed a crown on his head, and the crowd acclaimed him emperor of the Romans. For the first time in more than three centuries, the West had an emperor again.\n\nHis biographer Einhard claims Charles did not expect it and would not have entered the church had he known; historians debate this. What is certain is that Christmas was no accident: it was the day the birth of the King of kings was celebrated.",
+    "source": "Einhard, Life of Charlemagne, ch. 28; Royal Frankish Annals, year 801"
+   }
+  },
+  {
+   "id": "mont-cassin",
+   "fr": {
+    "titre": "Mont-Cassin, quatre fois détruit, quatre fois rebâti",
+    "accroche": "Le monastère fondé par saint Benoît au VIe siècle a été rasé par des envahisseurs, un séisme et des bombardements. Il est toujours debout.",
+    "texte": "Vers 529, saint Benoît s'installe sur le mont Cassin, entre Rome et Naples, et y fonde un monastère. Il y écrit sa Règle, qui guidera des milliers de monastères en Europe.\n\nLe monastère est détruit une première fois par les Lombards vers 577, puis par des pillards sarrasins en 883, puis par un tremblement de terre en 1349. Chaque fois, les moines reviennent et reconstruisent. Le 15 février 1944, pendant la Seconde Guerre mondiale, l'abbaye est entièrement écrasée par un bombardement allié. Heureusement, une grande partie des manuscrits et des œuvres d'art avaient été mis à l'abri peu avant.\n\nReconstruite à l'identique, l'abbaye est consacrée de nouveau par le pape Paul VI le 24 octobre 1964. Ce jour-là, il proclame saint Benoît patron de l'Europe. La devise de l'abbaye résume son histoire : Succisa virescit, « taillée, elle repousse ».",
+    "source": "Abbaye du Mont-Cassin ; Paul VI, Pacis nuntius (24 octobre 1964), vatican.va"
+   },
+   "es": {
+    "titre": "Montecassino, cuatro veces destruido, cuatro veces reconstruido",
+    "accroche": "El monasterio fundado por san Benito en el siglo VI fue arrasado por invasores, un terremoto y bombardeos. Sigue en pie.",
+    "texte": "Hacia el año 529, san Benito se instala en el monte Cassino, entre Roma y Nápoles, y funda allí un monasterio. Allí escribe su Regla, que guiará a miles de monasterios en Europa.\n\nEl monasterio es destruido por primera vez por los lombardos hacia el año 577, luego por saqueadores sarracenos en 883 y después por un terremoto en 1349. Cada vez, los monjes vuelven y reconstruyen. El 15 de febrero de 1944, durante la Segunda Guerra Mundial, la abadía queda totalmente aplastada por un bombardeo aliado. Por suerte, gran parte de los manuscritos y obras de arte se habían puesto a salvo poco antes.\n\nReconstruida tal como era, la abadía es consagrada de nuevo por el papa Pablo VI el 24 de octubre de 1964. Ese día proclama a san Benito patrono de Europa. El lema de la abadía resume su historia: Succisa virescit, «podada, rebrota».",
+    "source": "Abadía de Montecassino; Pablo VI, Pacis nuntius (24 de octubre de 1964), vatican.va"
+   },
+   "en": {
+    "titre": "Monte Cassino, four times destroyed, four times rebuilt",
+    "accroche": "The monastery founded by Saint Benedict in the sixth century was razed by invaders, an earthquake and bombing. It still stands.",
+    "texte": "Around 529 Saint Benedict settled on Monte Cassino, between Rome and Naples, and founded a monastery there. There he wrote his Rule, which would guide thousands of monasteries across Europe.\n\nThe monastery was destroyed for the first time by the Lombards around 577, then by Saracen raiders in 883, then by an earthquake in 1349. Each time the monks came back and rebuilt. On 15 February 1944, during the Second World War, the abbey was completely flattened by Allied bombing. Fortunately, most of the manuscripts and works of art had been taken to safety shortly before.\n\nRebuilt as it had been, the abbey was consecrated again by Pope Paul VI on 24 October 1964. That day he proclaimed Saint Benedict patron of Europe. The abbey's motto sums up its history: Succisa virescit, “cut down, it grows again”.",
+    "source": "Abbey of Monte Cassino; Paul VI, Pacis nuntius (24 October 1964), vatican.va"
+   }
+  },
+  {
+   "id": "vivaldi-pretre",
+   "fr": {
+    "titre": "Le « prêtre roux » qui composa Les Quatre Saisons",
+    "accroche": "Antonio Vivaldi, l'un des musiciens les plus joués au monde, était prêtre. À Venise, on l'appelait « il prete rosso », à cause de ses cheveux.",
+    "texte": "Antonio Vivaldi est ordonné prêtre à Venise en 1703, à 25 ans. Ses cheveux roux, comme ceux de son père, lui valent son surnom. Mais il cesse très vite de célébrer la messe : il souffre depuis l'enfance d'une « oppression de poitrine », sans doute de l'asthme.\n\nLa même année, il devient professeur de violon à l'Ospedale della Pietà, un orphelinat de Venise qui accueille des jeunes filles abandonnées. Il forme avec elles un orchestre et un chœur réputés dans toute l'Europe, pour lesquels il compose des centaines d'œuvres, profanes et sacrées, dont un célèbre Gloria.\n\nSes Quatre Saisons, publiées en 1725, sont aujourd'hui parmi les musiques les plus connues au monde. Peu de gens savent qu'elles ont été écrites par un prêtre qui faisait jouer des orphelines.",
+    "source": "Encyclopædia Britannica, « Antonio Vivaldi »"
+   },
+   "es": {
+    "titre": "El «cura rojo» que compuso Las cuatro estaciones",
+    "accroche": "Antonio Vivaldi, uno de los músicos más interpretados del mundo, era sacerdote. En Venecia lo llamaban «il prete rosso», por el color de su pelo.",
+    "texte": "Antonio Vivaldi es ordenado sacerdote en Venecia en 1703, a los 25 años. Su pelo pelirrojo, como el de su padre, le vale el apodo. Pero muy pronto deja de celebrar misa: desde niño sufre una «opresión de pecho», probablemente asma.\n\nEse mismo año se convierte en profesor de violín del Ospedale della Pietà, un orfanato de Venecia que acoge a niñas abandonadas. Forma con ellas una orquesta y un coro famosos en toda Europa, para los que compone cientos de obras, profanas y sagradas, entre ellas un célebre Gloria.\n\nSus Cuatro estaciones, publicadas en 1725, están hoy entre las músicas más conocidas del mundo. Pocos saben que las escribió un sacerdote que hacía tocar a huérfanas.",
+    "source": "Encyclopædia Britannica, «Antonio Vivaldi»"
+   },
+   "en": {
+    "titre": "The “red priest” who wrote The Four Seasons",
+    "accroche": "Antonio Vivaldi, one of the most performed composers in the world, was a priest. In Venice he was called “il prete rosso”, because of his hair.",
+    "texte": "Antonio Vivaldi was ordained a priest in Venice in 1703, at the age of 25. His red hair, like his father's, earned him his nickname. But he very soon stopped celebrating Mass: since childhood he had suffered from a “tightness of the chest”, probably asthma.\n\nThat same year he became violin teacher at the Ospedale della Pietà, a Venetian orphanage for abandoned girls. With them he built an orchestra and choir famous throughout Europe, for which he wrote hundreds of works, secular and sacred, including a celebrated Gloria.\n\nHis Four Seasons, published in 1725, are among the best known pieces of music in the world today. Few people know they were written by a priest whose musicians were orphan girls.",
+    "source": "Encyclopædia Britannica, “Antonio Vivaldi”"
+   }
+  },
+  {
+   "id": "palestrina-messe",
+   "fr": {
+    "titre": "La messe qui aurait sauvé la polyphonie",
+    "accroche": "Une légende raconte qu'au XVIe siècle, l'Église a failli interdire la musique à plusieurs voix, et qu'une seule messe de Palestrina l'en a dissuadée.",
+    "texte": "Au milieu du XVIe siècle, la musique d'église est devenue très savante : plusieurs voix chantent en même temps des paroles différentes, si bien qu'on ne comprend plus le texte. Au concile de Trente, des évêques s'en inquiètent : la musique doit servir la prière, non la cacher.\n\nSelon une légende née plus tard, le concile aurait songé à interdire purement et simplement la polyphonie. Le compositeur romain Giovanni Pierluigi da Palestrina aurait alors écrit la Messe du pape Marcel, où les voix s'entrelacent tout en laissant entendre clairement chaque mot, et les cardinaux, émerveillés, auraient renoncé à l'interdiction.\n\nLes historiens pensent que l'histoire est très exagérée : le concile n'a jamais voté d'interdiction. Mais la messe existe, elle est d'une beauté limpide, et Palestrina est resté le modèle de la musique sacrée : une musique savante au service de la Parole.",
+    "source": "Concile de Trente, session XXII (1562) ; Encyclopædia Britannica, « Giovanni Pierluigi da Palestrina »"
+   },
+   "es": {
+    "titre": "La misa que habría salvado la polifonía",
+    "accroche": "Una leyenda cuenta que, en el siglo XVI, la Iglesia estuvo a punto de prohibir la música a varias voces, y que una sola misa de Palestrina la disuadió.",
+    "texte": "A mediados del siglo XVI, la música de iglesia se ha vuelto muy erudita: varias voces cantan al mismo tiempo palabras distintas, hasta el punto de que ya no se entiende el texto. En el concilio de Trento, algunos obispos se inquietan: la música debe servir a la oración, no ocultarla.\n\nSegún una leyenda nacida más tarde, el concilio habría pensado en prohibir sin más la polifonía. El compositor romano Giovanni Pierluigi da Palestrina habría escrito entonces la Misa del papa Marcelo, en la que las voces se entrelazan dejando oír claramente cada palabra, y los cardenales, maravillados, habrían renunciado a la prohibición.\n\nLos historiadores piensan que la historia está muy exagerada: el concilio nunca votó una prohibición. Pero la misa existe, es de una belleza límpida, y Palestrina siguió siendo el modelo de la música sacra: una música sabia al servicio de la Palabra.",
+    "source": "Concilio de Trento, sesión XXII (1562); Encyclopædia Britannica, «Giovanni Pierluigi da Palestrina»"
+   },
+   "en": {
+    "titre": "The Mass that supposedly saved polyphony",
+    "accroche": "A legend says that in the sixteenth century the Church almost banned music in several voices, and that a single Mass by Palestrina changed its mind.",
+    "texte": "By the mid-sixteenth century church music had become very elaborate: several voices sang different words at the same time, so that the text could no longer be understood. At the Council of Trent some bishops were worried: music should serve prayer, not hide it.\n\nAccording to a legend that arose later, the council considered banning polyphony altogether. The Roman composer Giovanni Pierluigi da Palestrina then supposedly wrote the Pope Marcellus Mass, in which the voices intertwine while every word is clearly heard, and the cardinals, delighted, dropped the ban.\n\nHistorians think the story is much exaggerated: the council never voted a ban. But the Mass exists, it is limpidly beautiful, and Palestrina has remained the model of sacred music: learned music in the service of the Word.",
+    "source": "Council of Trent, Session XXII (1562); Encyclopædia Britannica, “Giovanni Pierluigi da Palestrina”"
+   }
+  },
+  {
+   "id": "abbe-liszt",
+   "fr": {
+    "titre": "La rock star qui devint abbé",
+    "accroche": "Franz Liszt a été le pianiste le plus adulé du XIXe siècle : on s'évanouissait à ses concerts. À la fin de sa vie, il portait la soutane.",
+    "texte": "Franz Liszt, né en Hongrie en 1811, est un virtuose prodigieux. Dans les années 1840, ses tournées déclenchent une véritable folie dans toute l'Europe : le poète Heinrich Heine invente même un mot pour la décrire, la « Lisztomanie ». Il a une vie sentimentale agitée, mais il garde depuis l'enfance une foi profonde et un désir de vie religieuse.\n\nEn 1865, à Rome, il reçoit les ordres mineurs : on l'appelle désormais « l'abbé Liszt », et il porte la soutane. Il n'est jamais devenu prêtre, mais il consacre une grande partie de ses dernières années à la musique sacrée, avec des oratorios comme Christus et La Légende de sainte Élisabeth.\n\nIl a aussi beaucoup donné : une grande partie de ses concerts était au profit d'œuvres de charité, et il enseignait souvent gratuitement à de jeunes pianistes.",
+    "source": "Encyclopædia Britannica, « Franz Liszt »"
+   },
+   "es": {
+    "titre": "La estrella que se hizo abate",
+    "accroche": "Franz Liszt fue el pianista más idolatrado del siglo XIX: la gente se desmayaba en sus conciertos. Al final de su vida vestía sotana.",
+    "texte": "Franz Liszt, nacido en Hungría en 1811, es un virtuoso prodigioso. En los años 1840, sus giras desatan una verdadera locura en toda Europa: el poeta Heinrich Heine llega a inventar una palabra para describirla, la «Lisztomanía». Tiene una vida sentimental agitada, pero conserva desde niño una fe profunda y un deseo de vida religiosa.\n\nEn 1865, en Roma, recibe las órdenes menores: desde entonces lo llaman «el abate Liszt», y viste sotana. Nunca llegó a ser sacerdote, pero dedica gran parte de sus últimos años a la música sacra, con oratorios como Christus y La leyenda de santa Isabel.\n\nTambién dio mucho: gran parte de sus conciertos eran a beneficio de obras de caridad, y a menudo enseñaba gratis a jóvenes pianistas.",
+    "source": "Encyclopædia Britannica, «Franz Liszt»"
+   },
+   "en": {
+    "titre": "The superstar who became an abbé",
+    "accroche": "Franz Liszt was the most idolized pianist of the nineteenth century: people fainted at his concerts. At the end of his life he wore a cassock.",
+    "texte": "Franz Liszt, born in Hungary in 1811, was a prodigious virtuoso. In the 1840s his tours set off a real frenzy across Europe: the poet Heinrich Heine even coined a word for it, “Lisztomania”. His love life was turbulent, but from childhood he had kept a deep faith and a desire for religious life.\n\nIn 1865, in Rome, he received minor orders: from then on he was called “Abbé Liszt”, and he wore a cassock. He never became a priest, but he devoted much of his last years to sacred music, with oratorios such as Christus and The Legend of Saint Elizabeth.\n\nHe also gave a great deal: many of his concerts raised money for charity, and he often taught young pianists for free.",
+    "source": "Encyclopædia Britannica, “Franz Liszt”"
+   }
+  },
+  {
+   "id": "lejeune-trisomie",
+   "fr": {
+    "titre": "Le médecin des enfants trisomiques",
+    "accroche": "En 1959, une équipe de chercheurs parisiens découvre la cause de la trisomie 21. L'un d'eux, Jérôme Lejeune, consacrera sa vie aux enfants qui en sont atteints.",
+    "texte": "À la fin des années 1950, on appelle encore « mongolisme » ce handicap mal connu, et beaucoup pensent à tort qu'il est dû à une faute des parents. En 1959, à Paris, Marthe Gautier, Jérôme Lejeune et Raymond Turpin montrent qu'il est lié à la présence d'un chromosome en trop sur la 21e paire : c'est la première fois qu'une anomalie chromosomique est reliée à une maladie humaine.\n\nJérôme Lejeune, pédiatre et généticien, catholique convaincu, passera ensuite sa vie à soigner ces enfants et à chercher des traitements pour les aider, tout en défendant leur dignité. Il disait vouloir être pour eux un médecin et un ami.\n\nEn 1994, Jean-Paul II le nomme premier président de l'Académie pontificale pour la vie. Il meurt la même année. L'Église l'a déclaré vénérable en 2021.",
+    "source": "Académie des sciences, Comptes rendus (26 janvier 1959) ; décret de vénérabilité du 21 janvier 2021 (vatican.va)"
+   },
+   "es": {
+    "titre": "El médico de los niños con síndrome de Down",
+    "accroche": "En 1959, un equipo de investigadores de París descubre la causa del síndrome de Down. Uno de ellos, Jérôme Lejeune, dedicará su vida a los niños que lo tienen.",
+    "texte": "A finales de los años cincuenta, esta discapacidad aún es mal conocida, y muchos piensan erróneamente que se debe a una culpa de los padres. En 1959, en París, Marthe Gautier, Jérôme Lejeune y Raymond Turpin muestran que está ligada a la presencia de un cromosoma de más en el par 21: es la primera vez que una anomalía cromosómica se relaciona con una enfermedad humana.\n\nJérôme Lejeune, pediatra y genetista, católico convencido, pasará luego su vida cuidando a estos niños y buscando tratamientos para ayudarlos, a la vez que defiende su dignidad. Decía que quería ser para ellos un médico y un amigo.\n\nEn 1994, Juan Pablo II lo nombra primer presidente de la Academia Pontificia para la Vida. Muere ese mismo año. La Iglesia lo declaró venerable en 2021.",
+    "source": "Académie des sciences, Comptes rendus (26 de enero de 1959); decreto de venerabilidad del 21 de enero de 2021 (vatican.va)"
+   },
+   "en": {
+    "titre": "The doctor of children with Down syndrome",
+    "accroche": "In 1959 a team of Paris researchers discovered the cause of Down syndrome. One of them, Jérôme Lejeune, devoted his life to the children who have it.",
+    "texte": "In the late 1950s this condition was still poorly understood, and many wrongly believed it was caused by some fault of the parents. In 1959, in Paris, Marthe Gautier, Jérôme Lejeune and Raymond Turpin showed that it is linked to an extra chromosome on the 21st pair: the first time a chromosomal abnormality had been linked to a human disease.\n\nJérôme Lejeune, a paediatrician and geneticist and a committed Catholic, then spent his life caring for these children and searching for treatments to help them, while defending their dignity. He said he wanted to be both their doctor and their friend.\n\nIn 1994 John Paul II appointed him the first president of the Pontifical Academy for Life. He died that same year. The Church declared him Venerable in 2021.",
+    "source": "Académie des sciences, Comptes rendus (26 January 1959); decree of 21 January 2021 (vatican.va)"
+   }
+  },
+  {
+   "id": "galilee-1992",
+   "fr": {
+    "titre": "Galilée, trois cent cinquante ans après",
+    "accroche": "En 1633, Galilée est condamné pour avoir soutenu que la Terre tourne autour du Soleil. En 1992, Jean-Paul II reconnaît publiquement l'erreur des juges.",
+    "texte": "Galileo Galilei, savant italien et catholique, observe avec sa lunette les lunes de Jupiter et les phases de Vénus. Il défend la théorie de Copernic : c'est la Terre qui tourne autour du Soleil. En 1633, le tribunal du Saint-Office le condamne et l'oblige à renoncer à cette idée ; il finit sa vie assigné à résidence près de Florence.\n\nEn 1979, Jean-Paul II demande que l'on réexamine l'affaire avec honnêteté. Une commission travaille pendant plus de dix ans. Le 31 octobre 1992, devant l'Académie pontificale des sciences, le pape reconnaît que les théologiens de l'époque ont commis une erreur, en confondant la foi avec une manière de lire la Bible comme un livre de science.\n\nJean-Paul II rappelait une phrase que Galilée reprenait à un cardinal de son temps, Baronius : la Bible ne nous dit pas « comment va le ciel », mais « comment on va au Ciel ». Foi et science, disait-il, ne peuvent pas se contredire.",
+    "source": "Jean-Paul II, discours à l'Académie pontificale des sciences, 31 octobre 1992 (vatican.va)"
+   },
+   "es": {
+    "titre": "Galileo, trescientos cincuenta años después",
+    "accroche": "En 1633, Galileo fue condenado por sostener que la Tierra gira alrededor del Sol. En 1992, Juan Pablo II reconoció públicamente el error de los jueces.",
+    "texte": "Galileo Galilei, sabio italiano y católico, observa con su telescopio las lunas de Júpiter y las fases de Venus. Defiende la teoría de Copérnico: es la Tierra la que gira alrededor del Sol. En 1633, el tribunal del Santo Oficio lo condena y lo obliga a renunciar a esa idea; termina su vida confinado cerca de Florencia.\n\nEn 1979, Juan Pablo II pide que se reexamine el caso con honestidad. Una comisión trabaja durante más de diez años. El 31 de octubre de 1992, ante la Academia Pontificia de las Ciencias, el papa reconoce que los teólogos de entonces cometieron un error, al confundir la fe con una manera de leer la Biblia como un libro de ciencia.\n\nJuan Pablo II recordaba una frase que Galileo tomaba de un cardenal de su tiempo, Baronio: la Biblia no nos dice «cómo va el cielo», sino «cómo se va al Cielo». Fe y ciencia, decía, no pueden contradecirse.",
+    "source": "Juan Pablo II, discurso a la Academia Pontificia de las Ciencias, 31 de octubre de 1992 (vatican.va)"
+   },
+   "en": {
+    "titre": "Galileo, three hundred and fifty years on",
+    "accroche": "In 1633 Galileo was condemned for holding that the Earth goes round the Sun. In 1992 John Paul II publicly acknowledged the judges' error.",
+    "texte": "Galileo Galilei, an Italian scientist and a Catholic, observed the moons of Jupiter and the phases of Venus through his telescope. He defended Copernicus' theory: it is the Earth that goes round the Sun. In 1633 the tribunal of the Holy Office condemned him and forced him to renounce this idea; he ended his life under house arrest near Florence.\n\nIn 1979 John Paul II asked for the case to be re-examined honestly. A commission worked for more than ten years. On 31 October 1992, before the Pontifical Academy of Sciences, the Pope acknowledged that the theologians of the time had made a mistake, by confusing faith with a way of reading the Bible as a science book.\n\nJohn Paul II recalled a saying Galileo borrowed from a cardinal of his time, Baronius: the Bible does not tell us “how the heavens go”, but “how to go to heaven”. Faith and science, he said, cannot contradict each other.",
+    "source": "John Paul II, address to the Pontifical Academy of Sciences, 31 October 1992 (vatican.va)"
+   }
+  },
+  {
+   "id": "tacite-christus",
+   "fr": {
+    "titre": "Ce qu'un historien romain dit du Christ",
+    "accroche": "Un grand historien romain, qui méprisait les chrétiens, a pourtant laissé l'un des plus anciens témoignages non chrétiens sur Jésus.",
+    "texte": "Vers l'an 116, l'historien Tacite écrit ses Annales, une histoire de Rome. Il raconte le grand incendie de la ville en l'an 64, sous l'empereur Néron. Pour faire taire la rumeur qui l'accuse, Néron désigne des coupables : ceux que le peuple appelle « chrétiens ».\n\nTacite explique d'où vient ce nom : « Ce nom leur vient de Christ, que, sous le principat de Tibère, le procurateur Ponce Pilate avait livré au supplice. » Il décrit ensuite les chrétiens livrés aux bêtes, crucifiés, ou brûlés comme torches la nuit dans les jardins de Néron.\n\nTacite n'aime pas les chrétiens, qu'il traite de « superstition ». C'est justement ce qui donne du poids à son témoignage : un historien hostile confirme que Jésus, appelé Christ, a été exécuté sous Ponce Pilate, en Judée, au temps de Tibère, et qu'en l'an 64, il y avait déjà à Rome « une grande multitude » de ses disciples.",
+    "source": "Tacite, Annales, XV, 44"
+   },
+   "es": {
+    "titre": "Lo que un historiador romano dice de Cristo",
+    "accroche": "Un gran historiador romano, que despreciaba a los cristianos, dejó sin embargo uno de los testimonios no cristianos más antiguos sobre Jesús.",
+    "texte": "Hacia el año 116, el historiador Tácito escribe sus Anales, una historia de Roma. Cuenta el gran incendio de la ciudad en el año 64, bajo el emperador Nerón. Para acallar el rumor que lo acusa, Nerón señala a unos culpables: los que el pueblo llama «cristianos».\n\nTácito explica de dónde viene ese nombre: «Este nombre les viene de Cristo, que, en el reinado de Tiberio, había sido ajusticiado por el procurador Poncio Pilato». Describe después a los cristianos arrojados a las fieras, crucificados o quemados como antorchas por la noche en los jardines de Nerón.\n\nTácito no quiere a los cristianos, a quienes trata de «superstición». Eso es precisamente lo que da peso a su testimonio: un historiador hostil confirma que Jesús, llamado Cristo, fue ejecutado bajo Poncio Pilato, en Judea, en tiempos de Tiberio, y que en el año 64 ya había en Roma «una gran multitud» de sus discípulos.",
+    "source": "Tácito, Anales, XV, 44"
+   },
+   "en": {
+    "titre": "What a Roman historian said about Christ",
+    "accroche": "A great Roman historian who despised Christians nevertheless left one of the oldest non-Christian testimonies about Jesus.",
+    "texte": "Around the year 116 the historian Tacitus wrote his Annals, a history of Rome. He describes the great fire of the city in the year 64, under the Emperor Nero. To silence the rumour blaming him, Nero named culprits: those the people called “Christians”.\n\nTacitus explains where the name comes from: “Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus.” He then describes Christians thrown to wild beasts, crucified, or burned as torches at night in Nero's gardens.\n\nTacitus disliked Christians, calling their faith a “superstition”. That is exactly what gives weight to his testimony: a hostile historian confirms that Jesus, called Christ, was executed under Pontius Pilate in Judaea in the time of Tiberius, and that by the year 64 there was already “a great multitude” of his followers in Rome.",
+    "source": "Tacitus, Annals, XV, 44"
+   }
+  },
+  {
+   "id": "josephe-jacques",
+   "fr": {
+    "titre": "« Le frère de Jésus appelé Christ »",
+    "accroche": "Un historien juif du Ier siècle, qui n'était pas chrétien, mentionne en passant la mort de Jacques, « frère de Jésus appelé Christ ».",
+    "texte": "Flavius Josèphe est un historien juif, né à Jérusalem vers l'an 37. Il écrit, à Rome, une grande histoire de son peuple, les Antiquités juives, achevée vers l'an 93. Il n'est pas chrétien.\n\nDans le livre XX, il raconte qu'en l'an 62, le grand prêtre Anan profite d'une absence du gouverneur romain pour réunir le tribunal et faire lapider un homme : « le frère de Jésus appelé Christ, nommé Jacques », avec quelques autres. Ce Jacques est celui que le Nouveau Testament appelle « le frère du Seigneur », chef de l'Église de Jérusalem (Ga 1, 19).\n\nCette petite phrase, que la plupart des historiens tiennent pour authentique, est précieuse : un auteur juif, quelques décennies après la mort de Jésus, le mentionne comme un personnage connu de ses lecteurs. Dans la tradition catholique, ces « frères » de Jésus sont compris comme des cousins ou des proches parents.",
+    "source": "Flavius Josèphe, Antiquités juives, XX, 200 ; Ga 1, 19 ; Catéchisme de l'Église catholique, n° 500"
+   },
+   "es": {
+    "titre": "«El hermano de Jesús llamado Cristo»",
+    "accroche": "Un historiador judío del siglo I, que no era cristiano, menciona de pasada la muerte de Santiago, «hermano de Jesús llamado Cristo».",
+    "texte": "Flavio Josefo es un historiador judío nacido en Jerusalén hacia el año 37. Escribe en Roma una gran historia de su pueblo, las Antigüedades judías, terminada hacia el año 93. No es cristiano.\n\nEn el libro XX cuenta que en el año 62 el sumo sacerdote Anán aprovechó una ausencia del gobernador romano para reunir el tribunal y hacer lapidar a un hombre: «el hermano de Jesús llamado Cristo, de nombre Santiago», junto con algunos otros. Este Santiago es el que el Nuevo Testamento llama «el hermano del Señor», jefe de la Iglesia de Jerusalén (Gál 1, 19).\n\nEsta breve frase, que la mayoría de los historiadores consideran auténtica, es valiosa: un autor judío, pocas décadas después de la muerte de Jesús, lo menciona como un personaje conocido por sus lectores. En la tradición católica, estos «hermanos» de Jesús se entienden como primos o parientes cercanos.",
+    "source": "Flavio Josefo, Antigüedades judías, XX, 200; Gál 1, 19; Catecismo de la Iglesia Católica, n. 500"
+   },
+   "en": {
+    "titre": "“The brother of Jesus who was called Christ”",
+    "accroche": "A first-century Jewish historian who was not a Christian mentions in passing the death of James, “the brother of Jesus who was called Christ”.",
+    "texte": "Flavius Josephus was a Jewish historian born in Jerusalem around the year 37. In Rome he wrote a great history of his people, the Jewish Antiquities, completed around 93. He was not a Christian.\n\nIn Book XX he relates that in the year 62 the high priest Ananus took advantage of the Roman governor's absence to convene the court and have a man stoned: “the brother of Jesus who was called Christ, whose name was James”, together with some others. This James is the one the New Testament calls “the brother of the Lord”, head of the Church in Jerusalem (Gal 1:19).\n\nThis short sentence, which most historians regard as authentic, is precious: a Jewish author, a few decades after Jesus' death, mentions him as someone his readers knew of. In Catholic tradition these “brothers” of Jesus are understood as cousins or close relatives.",
+    "source": "Flavius Josephus, Jewish Antiquities, XX, 200; Gal 1:19; Catechism of the Catholic Church, no. 500"
+   }
+  },
+  {
+   "id": "eraste-corinthe",
+   "fr": {
+    "titre": "Un nom de l'épître aux Romains gravé dans un pavé",
+    "accroche": "À la fin de sa lettre aux Romains, saint Paul transmet les salutations d'un certain Éraste. À Corinthe, les archéologues ont trouvé son nom dans la pierre.",
+    "texte": "Saint Paul écrit sa lettre aux Romains depuis Corinthe, en Grèce. À la fin, il transmet les salutations de plusieurs chrétiens, dont « Éraste, le trésorier de la ville » (Rm 16, 23).\n\nEn 1929, des archéologues américains fouillent une place près du théâtre de Corinthe. Ils découvrent une dalle de pavement portant une inscription latine : un certain Erastus a fait paver la place à ses frais, en remerciement de sa charge d'édile, l'un des magistrats de la ville. L'inscription date du Ier siècle.\n\nLes historiens discutent pour savoir s'il s'agit bien du même homme : le nom n'était pas très courant, et la fonction est proche. Si c'est lui, un chrétien des premiers temps a laissé sa trace sur une place que saint Paul a sans doute traversée.",
+    "source": "Rm 16, 23 ; Ac 19, 22 ; 2 Tm 4, 20 ; American School of Classical Studies at Athens, fouilles de Corinthe"
+   },
+   "es": {
+    "titre": "Un nombre de la carta a los Romanos grabado en un pavimento",
+    "accroche": "Al final de su carta a los Romanos, san Pablo transmite los saludos de un tal Erasto. En Corinto, los arqueólogos encontraron su nombre en la piedra.",
+    "texte": "San Pablo escribe su carta a los Romanos desde Corinto, en Grecia. Al final transmite los saludos de varios cristianos, entre ellos «Erasto, tesorero de la ciudad» (Rom 16, 23).\n\nEn 1929, unos arqueólogos estadounidenses excavan una plaza cerca del teatro de Corinto. Descubren una losa del pavimento con una inscripción latina: un tal Erastus hizo pavimentar la plaza a su costa, en agradecimiento por su cargo de edil, uno de los magistrados de la ciudad. La inscripción data del siglo I.\n\nLos historiadores discuten si se trata del mismo hombre: el nombre no era muy común y la función es parecida. Si es él, un cristiano de los primeros tiempos dejó su huella en una plaza que san Pablo probablemente atravesó.",
+    "source": "Rom 16, 23; Hch 19, 22; 2 Tim 4, 20; American School of Classical Studies at Athens, excavaciones de Corinto"
+   },
+   "en": {
+    "titre": "A name from Romans carved in a paving stone",
+    "accroche": "At the end of his letter to the Romans, Saint Paul passes on the greetings of a man called Erastus. In Corinth archaeologists found his name in stone.",
+    "texte": "Saint Paul wrote his letter to the Romans from Corinth in Greece. At the end he sends greetings from several Christians, including “Erastus, the treasurer of the city” (Rom 16:23).\n\nIn 1929 American archaeologists excavating a square near the theatre in Corinth found a paving slab with a Latin inscription: a man named Erastus had paved the square at his own expense in return for his office of aedile, one of the city magistrates. The inscription dates from the first century.\n\nHistorians debate whether it is the same man: the name was not very common and the office is similar. If it is him, an early Christian left his mark on a square that Saint Paul probably walked across.",
+    "source": "Rom 16:23; Acts 19:22; 2 Tim 4:20; American School of Classical Studies at Athens, Corinth excavations"
+   }
+  },
+  {
+   "id": "gallion-delphes",
+   "fr": {
+    "titre": "La pierre qui date le séjour de Paul à Corinthe",
+    "accroche": "Grâce à une inscription retrouvée à Delphes, on peut dater presque à l'année près un épisode des Actes des Apôtres.",
+    "texte": "Les Actes des Apôtres racontent que, pendant le séjour de Paul à Corinthe, des opposants le traînent devant le tribunal du proconsul de la province d'Achaïe, un certain Gallion. Celui-ci refuse de s'en mêler (Ac 18, 12-17).\n\nAu début du XXe siècle, des archéologues reconstituent à Delphes, en Grèce, une inscription gravée dans la pierre : une lettre de l'empereur Claude, qui mentionne « Junius Gallion, mon ami, proconsul d'Achaïe ». La lettre est datée de la 26e acclamation de Claude comme empereur, ce qui la situe en 52 après Jésus-Christ. Les proconsuls restaient en général un an en fonction.\n\nGrâce à cette pierre, on sait que Paul était à Corinthe vers 50-52. C'est l'un des points d'ancrage les plus solides pour dater la vie de l'apôtre et les premières lettres du Nouveau Testament. Gallion était d'ailleurs le frère du philosophe Sénèque.",
+    "source": "Ac 18, 12-17 ; inscription de Delphes (lettre de Claude, 52 apr. J.-C.)"
+   },
+   "es": {
+    "titre": "La piedra que fecha la estancia de Pablo en Corinto",
+    "accroche": "Gracias a una inscripción hallada en Delfos, se puede fechar casi con exactitud un episodio de los Hechos de los Apóstoles.",
+    "texte": "Los Hechos de los Apóstoles cuentan que, durante la estancia de Pablo en Corinto, sus adversarios lo llevan ante el tribunal del procónsul de la provincia de Acaya, un tal Galión. Este se niega a intervenir (Hch 18, 12-17).\n\nA comienzos del siglo XX, unos arqueólogos reconstruyen en Delfos, Grecia, una inscripción grabada en piedra: una carta del emperador Claudio que menciona a «Junio Galión, mi amigo, procónsul de Acaya». La carta está fechada en la 26.ª aclamación de Claudio como emperador, lo que la sitúa en el año 52 después de Cristo. Los procónsules solían ejercer el cargo un año.\n\nGracias a esta piedra sabemos que Pablo estaba en Corinto hacia los años 50-52. Es uno de los puntos de referencia más sólidos para fechar la vida del apóstol y las primeras cartas del Nuevo Testamento. Galión, por cierto, era hermano del filósofo Séneca.",
+    "source": "Hch 18, 12-17; inscripción de Delfos (carta de Claudio, año 52 d. C.)"
+   },
+   "en": {
+    "titre": "The stone that dates Paul's stay in Corinth",
+    "accroche": "Thanks to an inscription found at Delphi, an episode in the Acts of the Apostles can be dated almost to the year.",
+    "texte": "The Acts of the Apostles tell how, during Paul's stay in Corinth, his opponents dragged him before the court of the proconsul of the province of Achaia, a man named Gallio. Gallio refused to get involved (Acts 18:12-17).\n\nIn the early twentieth century archaeologists reassembled at Delphi, in Greece, an inscription carved in stone: a letter from the Emperor Claudius mentioning “Junius Gallio, my friend, proconsul of Achaia”. The letter is dated to Claudius' 26th acclamation as emperor, which places it in AD 52. Proconsuls usually held office for a year.\n\nThanks to this stone we know that Paul was in Corinth around 50-52. It is one of the firmest anchors for dating the apostle's life and the earliest letters of the New Testament. Gallio, incidentally, was the brother of the philosopher Seneca.",
+    "source": "Acts 18:12-17; Delphi inscription (letter of Claudius, AD 52)"
+   }
+  },
+  {
+   "id": "cylindre-cyrus",
+   "fr": {
+    "titre": "Le cylindre de Cyrus et le retour d'exil",
+    "accroche": "Un objet d'argile conservé au British Museum fait écho à la Bible : un roi perse y raconte comment il a laissé les peuples déportés rentrer chez eux.",
+    "texte": "En 587 avant Jésus-Christ, les Babyloniens détruisent Jérusalem et son Temple et déportent une partie du peuple à Babylone. Moins de cinquante ans plus tard, en 539, Cyrus, roi des Perses, s'empare de Babylone.\n\nLe livre d'Esdras commence par un édit de Cyrus autorisant les Juifs à rentrer à Jérusalem et à reconstruire le Temple (Esd 1, 1-4). Le prophète Isaïe va jusqu'à appeler ce roi étranger « l'oint du Seigneur » (Is 45, 1).\n\nEn 1879, on découvre à Babylone un cylindre d'argile couvert d'écritures cunéiformes. Cyrus y raconte sa prise de la ville et explique qu'il a rendu leurs sanctuaires aux dieux des peuples déportés et laissé rentrer ces peuples dans leurs pays. Les Juifs n'y sont pas nommés, mais le texte confirme la politique décrite par la Bible.",
+    "source": "Esd 1, 1-4 ; Is 44, 28 – 45, 1 ; British Museum, « Cyrus Cylinder »"
+   },
+   "es": {
+    "titre": "El cilindro de Ciro y el regreso del exilio",
+    "accroche": "Un objeto de arcilla conservado en el Museo Británico hace eco a la Biblia: un rey persa cuenta en él cómo dejó volver a sus tierras a los pueblos deportados.",
+    "texte": "En el año 587 antes de Cristo, los babilonios destruyen Jerusalén y su Templo y deportan a parte del pueblo a Babilonia. Menos de cincuenta años después, en 539, Ciro, rey de los persas, se apodera de Babilonia.\n\nEl libro de Esdras empieza con un edicto de Ciro que autoriza a los judíos a volver a Jerusalén y reconstruir el Templo (Esd 1, 1-4). El profeta Isaías llega a llamar a este rey extranjero «el ungido del Señor» (Is 45, 1).\n\nEn 1879 se descubre en Babilonia un cilindro de arcilla cubierto de escritura cuneiforme. Ciro cuenta en él la toma de la ciudad y explica que devolvió sus santuarios a los dioses de los pueblos deportados y dejó volver a esos pueblos a sus países. Los judíos no se nombran, pero el texto confirma la política que describe la Biblia.",
+    "source": "Esd 1, 1-4; Is 44, 28 – 45, 1; British Museum, «Cyrus Cylinder»"
+   },
+   "en": {
+    "titre": "The Cyrus Cylinder and the return from exile",
+    "accroche": "A clay object in the British Museum echoes the Bible: a Persian king tells in it how he allowed deported peoples to go home.",
+    "texte": "In 587 BC the Babylonians destroyed Jerusalem and its Temple and deported part of the people to Babylon. Less than fifty years later, in 539, Cyrus, king of Persia, captured Babylon.\n\nThe Book of Ezra opens with a decree of Cyrus allowing the Jews to return to Jerusalem and rebuild the Temple (Ezra 1:1-4). The prophet Isaiah even calls this foreign king “the Lord's anointed” (Isa 45:1).\n\nIn 1879 a clay cylinder covered with cuneiform writing was discovered in Babylon. In it Cyrus describes his capture of the city and explains that he restored their sanctuaries to the gods of the deported peoples and let those peoples return to their lands. The Jews are not named, but the text confirms the policy described in the Bible.",
+    "source": "Ezra 1:1-4; Isa 44:28-45:1; British Museum, “Cyrus Cylinder”"
    }
   }
  ],

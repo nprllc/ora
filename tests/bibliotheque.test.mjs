@@ -96,3 +96,10 @@ test('citations : une signature courte (document et date), qui ne répète pas l
   }
   assert.deepEqual(fautes, []);
 });
+
+test('personnes écartées (faits graves établis) : jamais citées ni racontées', () => {
+  const ECARTES = /abb[ée] Pierre|Jean Vanier|Rupnik|Marcial Maciel/i;
+  const fautes = [];
+  for (const [r, liste] of Object.entries(BIB)) if (Array.isArray(liste)) for (const x of liste) if (ECARTES.test(JSON.stringify(x))) fautes.push(`${r} ${x.id}`);
+  assert.deepEqual(fautes, []);
+});
