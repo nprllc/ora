@@ -45,3 +45,21 @@ test('Le temps ordinaire : chaque jour a son rang, jamais deux fois le même dan
     assert.ok(!vu.has(j.jourOrdinaire), `${j.date} : rang ${j.jourOrdinaire} déjà pris`); vu.add(j.jourOrdinaire); parAn.set(a, vu);
   }
 });
+
+test('Personnage du jour : un personnage pour chaque jour des temps forts, et au moins 150 pour le reste de l\'année', () => {
+  const { personnages } = lireJson('data/famille-personnages.json');
+  const n = (t) => personnages.filter((p) => (p.temps || []).includes(t)).length;
+  assert.equal(n('avent'), 28); assert.ok(n('noel') >= 20); assert.equal(n('careme'), 46); assert.ok(n('paques') >= 50);
+  assert.ok(personnages.filter((p) => !p.temps).length >= 150);
+});
+
+test('Mot du jour : chaque mot dans les trois langues, et un nombre de mots qui n\'est pas un multiple de 7', () => {
+  const { mots } = lireJson('data/famille-mots.json');
+  assert.ok(mots.length >= 100, `${mots.length} mots`);
+  assert.notEqual(mots.length % 7, 0, 'de 7 en 7, un multiple de 7 ferait revenir les mêmes mots');
+  const ids = new Set();
+  for (const m of mots) {
+    assert.ok(!ids.has(m.id), `doublon ${m.id}`); ids.add(m.id);
+    for (const l of ['fr', 'es', 'en']) assert.ok(m[l] && m[l].mot && m[l].def, `${m.id} : ${l}`);
+  }
+});

@@ -1,5 +1,5 @@
 {
- "_note": "Mot du jour d'« En famille » : le vocabulaire de la foi expliqué aux 4-8 ans.",
+ "_note": "Mot du jour d'« En famille » : le vocabulaire de la foi expliqué aux 4-8 ans. Un mot par jour, de 7 en 7 dans la liste : le nombre de mots n'est jamais un multiple de 7, pour que tous passent avant qu'un mot revienne.",
  "mots": [
   {
    "id": "dieu",
@@ -719,6 +719,1116 @@
    "en": {
     "mot": "Thank you",
     "def": "Saying thank you to God means noticing all he gives us: family, friends, sunshine, a good meal…"
+   }
+  },
+  {
+   "id": "trinite",
+   "fr": {
+    "mot": "La Trinité",
+    "def": "Il y a un seul Dieu, en trois personnes : le Père, le Fils et le Saint-Esprit. Quand on fait le signe de croix, on les nomme tous les trois."
+   },
+   "es": {
+    "mot": "La Trinidad",
+    "def": "Hay un solo Dios en tres personas: el Padre, el Hijo y el Espíritu Santo. Cuando hacemos la señal de la cruz, nombramos a los tres."
+   },
+   "en": {
+    "mot": "The Trinity",
+    "def": "There is one God in three persons: the Father, the Son and the Holy Spirit. When we make the sign of the cross, we name all three."
+   }
+  },
+  {
+   "id": "pere",
+   "fr": {
+    "mot": "Dieu le Père",
+    "def": "Jésus appelait Dieu « Papa ». Il nous a appris que Dieu est notre Père du ciel, qui nous aime et prend soin de nous."
+   },
+   "es": {
+    "mot": "Dios Padre",
+    "def": "Jesús llamaba a Dios «Papá». Nos enseñó que Dios es nuestro Padre del cielo, que nos quiere y cuida de nosotros."
+   },
+   "en": {
+    "mot": "God the Father",
+    "def": "Jesus called God “Dad”. He taught us that God is our Father in heaven, who loves us and takes care of us."
+   }
+  },
+  {
+   "id": "joseph",
+   "fr": {
+    "mot": "Saint Joseph",
+    "def": "Joseph est l'époux de Marie. Charpentier à Nazareth, il a pris soin de Jésus comme un papa et l'a protégé."
+   },
+   "es": {
+    "mot": "San José",
+    "def": "José es el esposo de María. Carpintero en Nazaret, cuidó de Jesús como un papá y lo protegió."
+   },
+   "en": {
+    "mot": "Saint Joseph",
+    "def": "Joseph is Mary's husband. A carpenter in Nazareth, he looked after Jesus like a father and protected him."
+   }
+  },
+  {
+   "id": "ange",
+   "fr": {
+    "mot": "Un ange",
+    "def": "Un ange est un messager de Dieu. On ne le voit pas, mais Dieu l'envoie pour apporter de bonnes nouvelles et pour nous protéger."
+   },
+   "es": {
+    "mot": "Un ángel",
+    "def": "Un ángel es un mensajero de Dios. No lo vemos, pero Dios lo envía para traer buenas noticias y para protegernos."
+   },
+   "en": {
+    "mot": "An angel",
+    "def": "An angel is a messenger from God. We can't see angels, but God sends them to bring good news and to protect us."
+   }
+  },
+  {
+   "id": "peche",
+   "fr": {
+    "mot": "Le péché",
+    "def": "Le péché, c'est quand on choisit de faire le mal et qu'on blesse l'amour, avec Dieu ou avec les autres. Dieu est toujours prêt à pardonner."
+   },
+   "es": {
+    "mot": "El pecado",
+    "def": "El pecado es cuando elegimos hacer el mal y herimos el amor, con Dios o con los demás. Dios siempre está dispuesto a perdonar."
+   },
+   "en": {
+    "mot": "Sin",
+    "def": "Sin is when we choose to do wrong and hurt love, with God or with others. God is always ready to forgive."
+   }
+  },
+  {
+   "id": "grace",
+   "fr": {
+    "mot": "La grâce",
+    "def": "La grâce, c'est un cadeau de Dieu, gratuit : son amour et sa force qui nous aident à faire le bien."
+   },
+   "es": {
+    "mot": "La gracia",
+    "def": "La gracia es un regalo de Dios, gratis: su amor y su fuerza que nos ayudan a hacer el bien."
+   },
+   "en": {
+    "mot": "Grace",
+    "def": "Grace is a free gift from God: his love and his strength that help us do good."
+   }
+  },
+  {
+   "id": "ame",
+   "fr": {
+    "mot": "L'âme",
+    "def": "L'âme, c'est ce qui nous rend vivants à l'intérieur : on ne la voit pas, mais c'est avec elle qu'on pense, qu'on aime et qu'on prie."
+   },
+   "es": {
+    "mot": "El alma",
+    "def": "El alma es lo que nos hace estar vivos por dentro: no la vemos, pero con ella pensamos, amamos y rezamos."
+   },
+   "en": {
+    "mot": "The soul",
+    "def": "The soul is what makes us alive inside: we can't see it, but it is with our soul that we think, love and pray."
+   }
+  },
+  {
+   "id": "coeur",
+   "fr": {
+    "mot": "Le cœur",
+    "def": "Dans la Bible, le cœur, c'est le fond de nous-mêmes, là où on aime et où on décide. Dieu regarde notre cœur."
+   },
+   "es": {
+    "mot": "El corazón",
+    "def": "En la Biblia, el corazón es lo más profundo de nosotros, donde amamos y decidimos. Dios mira nuestro corazón."
+   },
+   "en": {
+    "mot": "The heart",
+    "def": "In the Bible, the heart is the deepest part of us, where we love and make choices. God looks at our heart."
+   }
+  },
+  {
+   "id": "eucharistie",
+   "fr": {
+    "mot": "L'Eucharistie",
+    "def": "L'Eucharistie, c'est le pain et le vin que le prêtre consacre à la messe : Jésus s'y donne vraiment à nous. Le mot veut dire « merci »."
+   },
+   "es": {
+    "mot": "La Eucaristía",
+    "def": "La Eucaristía es el pan y el vino que el sacerdote consagra en la misa: allí Jesús se nos da de verdad. La palabra quiere decir «gracias»."
+   },
+   "en": {
+    "mot": "The Eucharist",
+    "def": "The Eucharist is the bread and wine the priest consecrates at Mass: in it Jesus truly gives himself to us. The word means “thank you”."
+   }
+  },
+  {
+   "id": "hostie",
+   "fr": {
+    "mot": "L'hostie",
+    "def": "L'hostie est le pain rond et tout fin qu'on reçoit à la communion. Après la consécration, c'est Jésus lui-même."
+   },
+   "es": {
+    "mot": "La hostia",
+    "def": "La hostia es el pan redondo y muy fino que recibimos en la comunión. Después de la consagración, es Jesús mismo."
+   },
+   "en": {
+    "mot": "The host",
+    "def": "The host is the thin round bread we receive at communion. After the consecration, it is Jesus himself."
+   }
+  },
+  {
+   "id": "tabernacle",
+   "fr": {
+    "mot": "Le tabernacle",
+    "def": "Le tabernacle est le petit coffre précieux de l'église où l'on garde les hosties consacrées. Une petite lumière rouge brille à côté : Jésus est là."
+   },
+   "es": {
+    "mot": "El sagrario",
+    "def": "El sagrario es el cofre precioso de la iglesia donde se guardan las hostias consagradas. Al lado brilla una lucecita roja: Jesús está allí."
+   },
+   "en": {
+    "mot": "The tabernacle",
+    "def": "The tabernacle is the precious little box in church where the consecrated hosts are kept. A little red light shines beside it: Jesus is there."
+   }
+  },
+  {
+   "id": "calice",
+   "fr": {
+    "mot": "Le calice",
+    "def": "Le calice est la belle coupe que le prêtre utilise à la messe pour le vin qui devient le sang de Jésus."
+   },
+   "es": {
+    "mot": "El cáliz",
+    "def": "El cáliz es la copa bonita que el sacerdote usa en la misa para el vino que se convierte en la sangre de Jesús."
+   },
+   "en": {
+    "mot": "The chalice",
+    "def": "The chalice is the beautiful cup the priest uses at Mass for the wine that becomes the blood of Jesus."
+   }
+  },
+  {
+   "id": "ambon",
+   "fr": {
+    "mot": "L'ambon",
+    "def": "L'ambon est le pupitre de l'église d'où l'on lit la Bible pendant la messe. C'est la table de la Parole de Dieu."
+   },
+   "es": {
+    "mot": "El ambón",
+    "def": "El ambón es el atril de la iglesia desde donde se lee la Biblia durante la misa. Es la mesa de la Palabra de Dios."
+   },
+   "en": {
+    "mot": "The ambo",
+    "def": "The ambo is the stand in church from which the Bible is read during Mass. It is the table of God's Word."
+   }
+  },
+  {
+   "id": "cloche",
+   "fr": {
+    "mot": "Les cloches",
+    "def": "Les cloches sonnent pour appeler à la messe, pour les fêtes et pour les prières. Elles disent à tout le village : venez prier !"
+   },
+   "es": {
+    "mot": "Las campanas",
+    "def": "Las campanas suenan para llamar a misa, para las fiestas y para las oraciones. Dicen a todo el pueblo: ¡vengan a rezar!"
+   },
+   "en": {
+    "mot": "Church bells",
+    "def": "Bells ring to call people to Mass, for feasts and for prayers. They tell the whole town: come and pray!"
+   }
+  },
+  {
+   "id": "vitrail",
+   "fr": {
+    "mot": "Le vitrail",
+    "def": "Un vitrail est une fenêtre faite de morceaux de verre colorés. Quand le soleil passe à travers, il raconte en couleurs des histoires de la Bible."
+   },
+   "es": {
+    "mot": "La vidriera",
+    "def": "Una vidriera es una ventana hecha de trozos de vidrio de colores. Cuando el sol la atraviesa, cuenta en colores historias de la Biblia."
+   },
+   "en": {
+    "mot": "Stained glass",
+    "def": "A stained-glass window is made of pieces of coloured glass. When the sun shines through, it tells Bible stories in colour."
+   }
+  },
+  {
+   "id": "benitier",
+   "fr": {
+    "mot": "Le bénitier",
+    "def": "Le bénitier est le petit bassin d'eau bénite à l'entrée de l'église. On y trempe les doigts pour faire le signe de croix en souvenir du baptême."
+   },
+   "es": {
+    "mot": "La pila de agua bendita",
+    "def": "La pila es la pequeña fuente de agua bendita a la entrada de la iglesia. Mojamos los dedos para hacer la señal de la cruz, recordando el bautismo."
+   },
+   "en": {
+    "mot": "The holy water font",
+    "def": "The font is the little basin of holy water at the church door. We dip our fingers in it to make the sign of the cross, remembering our baptism."
+   }
+  },
+  {
+   "id": "psaume",
+   "fr": {
+    "mot": "Un psaume",
+    "def": "Les psaumes sont les chants de prière de la Bible. Il y en a 150 ! On y dit à Dieu merci, pardon, s'il te plaît, et même sa tristesse."
+   },
+   "es": {
+    "mot": "Un salmo",
+    "def": "Los salmos son los cantos de oración de la Biblia. ¡Hay 150! En ellos le decimos a Dios gracias, perdón, por favor, y hasta nuestra tristeza."
+   },
+   "en": {
+    "mot": "A psalm",
+    "def": "The psalms are the prayer songs of the Bible. There are 150 of them! In them we tell God thank you, sorry, please, and even our sadness."
+   }
+  },
+  {
+   "id": "parabole",
+   "fr": {
+    "mot": "Une parabole",
+    "def": "Une parabole est une petite histoire que Jésus racontait pour faire comprendre quelque chose de Dieu, comme la brebis perdue ou la graine qui pousse."
+   },
+   "es": {
+    "mot": "Una parábola",
+    "def": "Una parábola es una historia corta que Jesús contaba para hacer entender algo de Dios, como la oveja perdida o la semilla que crece."
+   },
+   "en": {
+    "mot": "A parable",
+    "def": "A parable is a short story Jesus told to help people understand something about God, like the lost sheep or the seed that grows."
+   }
+  },
+  {
+   "id": "commandements",
+   "fr": {
+    "mot": "Les commandements",
+    "def": "Les dix commandements sont des paroles de Dieu qui montrent le chemin du bonheur : aimer Dieu et respecter les autres."
+   },
+   "es": {
+    "mot": "Los mandamientos",
+    "def": "Los diez mandamientos son palabras de Dios que muestran el camino de la felicidad: amar a Dios y respetar a los demás."
+   },
+   "en": {
+    "mot": "The commandments",
+    "def": "The ten commandments are God's words that show the way to happiness: love God and respect others."
+   }
+  },
+  {
+   "id": "beatitudes",
+   "fr": {
+    "mot": "Les Béatitudes",
+    "def": "Les Béatitudes sont les paroles de Jésus sur le vrai bonheur : « Heureux les doux, heureux ceux qui font la paix… »"
+   },
+   "es": {
+    "mot": "Las bienaventuranzas",
+    "def": "Las bienaventuranzas son las palabras de Jesús sobre la verdadera felicidad: «Felices los mansos, felices los que trabajan por la paz…»."
+   },
+   "en": {
+    "mot": "The Beatitudes",
+    "def": "The Beatitudes are Jesus' words about true happiness: “Blessed are the gentle, blessed are the peacemakers…”"
+   }
+  },
+  {
+   "id": "alliance",
+   "fr": {
+    "mot": "L'Alliance",
+    "def": "Une alliance, c'est une promesse d'amitié qui dure toujours. Dieu a fait alliance avec son peuple, et en Jésus avec tous les hommes."
+   },
+   "es": {
+    "mot": "La alianza",
+    "def": "Una alianza es una promesa de amistad que dura para siempre. Dios hizo una alianza con su pueblo, y en Jesús con todos los hombres."
+   },
+   "en": {
+    "mot": "The covenant",
+    "def": "A covenant is a promise of friendship that lasts for ever. God made a covenant with his people, and in Jesus with everyone."
+   }
+  },
+  {
+   "id": "temple",
+   "fr": {
+    "mot": "Le Temple",
+    "def": "Le Temple était la grande maison de prière de Jérusalem, où le peuple de Dieu venait prier. Jésus y est allé souvent."
+   },
+   "es": {
+    "mot": "El Templo",
+    "def": "El Templo era la gran casa de oración de Jerusalén, adonde el pueblo de Dios venía a rezar. Jesús fue allí muchas veces."
+   },
+   "en": {
+    "mot": "The Temple",
+    "def": "The Temple was the great house of prayer in Jerusalem, where God's people came to pray. Jesus often went there."
+   }
+  },
+  {
+   "id": "jerusalem",
+   "fr": {
+    "mot": "Jérusalem",
+    "def": "Jérusalem est la ville sainte où se trouvait le Temple. C'est là que Jésus est mort et ressuscité."
+   },
+   "es": {
+    "mot": "Jerusalén",
+    "def": "Jerusalén es la ciudad santa donde estaba el Templo. Allí murió y resucitó Jesús."
+   },
+   "en": {
+    "mot": "Jerusalem",
+    "def": "Jerusalem is the holy city where the Temple stood. It is where Jesus died and rose again."
+   }
+  },
+  {
+   "id": "bethleem",
+   "fr": {
+    "mot": "Bethléem",
+    "def": "Bethléem est le petit village où Jésus est né. Son nom veut dire « la maison du pain »."
+   },
+   "es": {
+    "mot": "Belén",
+    "def": "Belén es el pueblito donde nació Jesús. Su nombre quiere decir «casa del pan»."
+   },
+   "en": {
+    "mot": "Bethlehem",
+    "def": "Bethlehem is the little town where Jesus was born. Its name means “house of bread”."
+   }
+  },
+  {
+   "id": "nazareth",
+   "fr": {
+    "mot": "Nazareth",
+    "def": "Nazareth est le village de Galilée où Jésus a grandi avec Marie et Joseph."
+   },
+   "es": {
+    "mot": "Nazaret",
+    "def": "Nazaret es el pueblo de Galilea donde Jesús creció con María y José."
+   },
+   "en": {
+    "mot": "Nazareth",
+    "def": "Nazareth is the village in Galilee where Jesus grew up with Mary and Joseph."
+   }
+  },
+  {
+   "id": "jourdain",
+   "fr": {
+    "mot": "Le Jourdain",
+    "def": "Le Jourdain est le fleuve où Jean-Baptiste baptisait. C'est là que Jésus a été baptisé."
+   },
+   "es": {
+    "mot": "El Jordán",
+    "def": "El Jordán es el río donde Juan el Bautista bautizaba. Allí fue bautizado Jesús."
+   },
+   "en": {
+    "mot": "The Jordan",
+    "def": "The Jordan is the river where John the Baptist baptized people. Jesus was baptized there."
+   }
+  },
+  {
+   "id": "agneau",
+   "fr": {
+    "mot": "L'Agneau de Dieu",
+    "def": "Jean-Baptiste a appelé Jésus « l'Agneau de Dieu », parce qu'il est doux et qu'il donne sa vie pour enlever le mal du monde."
+   },
+   "es": {
+    "mot": "El Cordero de Dios",
+    "def": "Juan el Bautista llamó a Jesús «el Cordero de Dios», porque es manso y da su vida para quitar el mal del mundo."
+   },
+   "en": {
+    "mot": "The Lamb of God",
+    "def": "John the Baptist called Jesus “the Lamb of God”, because he is gentle and gives his life to take away the evil of the world."
+   }
+  },
+  {
+   "id": "colombe",
+   "fr": {
+    "mot": "La colombe",
+    "def": "La colombe est un oiseau blanc, signe de paix. Au baptême de Jésus, l'Esprit Saint est descendu comme une colombe."
+   },
+   "es": {
+    "mot": "La paloma",
+    "def": "La paloma es un pájaro blanco, signo de paz. En el bautismo de Jesús, el Espíritu Santo bajó como una paloma."
+   },
+   "en": {
+    "mot": "The dove",
+    "def": "The dove is a white bird, a sign of peace. At Jesus' baptism, the Holy Spirit came down like a dove."
+   }
+  },
+  {
+   "id": "etoile",
+   "fr": {
+    "mot": "L'étoile de Bethléem",
+    "def": "Une étoile nouvelle a guidé les mages jusqu'à Jésus. C'est pour ça qu'on met une étoile en haut du sapin et de la crèche."
+   },
+   "es": {
+    "mot": "La estrella de Belén",
+    "def": "Una estrella nueva guio a los magos hasta Jesús. Por eso ponemos una estrella en lo alto del árbol y del pesebre."
+   },
+   "en": {
+    "mot": "The star of Bethlehem",
+    "def": "A new star guided the wise men to Jesus. That is why we put a star on top of the tree and the nativity scene."
+   }
+  },
+  {
+   "id": "mages",
+   "fr": {
+    "mot": "Les mages",
+    "def": "Les mages étaient des savants venus de loin, guidés par une étoile. Ils ont offert à Jésus de l'or, de l'encens et de la myrrhe."
+   },
+   "es": {
+    "mot": "Los Reyes Magos",
+    "def": "Los magos eran sabios venidos de lejos, guiados por una estrella. Le ofrecieron a Jesús oro, incienso y mirra."
+   },
+   "en": {
+    "mot": "The wise men",
+    "def": "The wise men were scholars from far away, guided by a star. They gave Jesus gold, frankincense and myrrh."
+   }
+  },
+  {
+   "id": "rameaux",
+   "fr": {
+    "mot": "Les Rameaux",
+    "def": "Le dimanche des Rameaux, on fête l'entrée de Jésus à Jérusalem. On agite des branches en chantant « Hosanna ! », comme la foule autrefois."
+   },
+   "es": {
+    "mot": "El Domingo de Ramos",
+    "def": "El Domingo de Ramos celebramos la entrada de Jesús en Jerusalén. Agitamos ramas cantando «¡Hosanna!», como la gente de entonces."
+   },
+   "en": {
+    "mot": "Palm Sunday",
+    "def": "On Palm Sunday we celebrate Jesus entering Jerusalem. We wave branches and sing “Hosanna!”, like the crowd long ago."
+   }
+  },
+  {
+   "id": "vendredi-saint",
+   "fr": {
+    "mot": "Le Vendredi saint",
+    "def": "Le Vendredi saint, on se souvient que Jésus est mort sur la croix par amour pour nous. C'est un jour calme et silencieux."
+   },
+   "es": {
+    "mot": "El Viernes Santo",
+    "def": "El Viernes Santo recordamos que Jesús murió en la cruz por amor a nosotros. Es un día tranquilo y silencioso."
+   },
+   "en": {
+    "mot": "Good Friday",
+    "def": "On Good Friday we remember that Jesus died on the cross out of love for us. It is a calm and quiet day."
+   }
+  },
+  {
+   "id": "ascension",
+   "fr": {
+    "mot": "L'Ascension",
+    "def": "À l'Ascension, quarante jours après Pâques, on fête Jésus qui monte au ciel près de son Père. Il reste avec nous autrement."
+   },
+   "es": {
+    "mot": "La Ascensión",
+    "def": "En la Ascensión, cuarenta días después de Pascua, celebramos que Jesús sube al cielo junto a su Padre. Sigue con nosotros de otra manera."
+   },
+   "en": {
+    "mot": "The Ascension",
+    "def": "At the Ascension, forty days after Easter, we celebrate Jesus going up to heaven to be with his Father. He stays with us in a new way."
+   }
+  },
+  {
+   "id": "assomption",
+   "fr": {
+    "mot": "L'Assomption",
+    "def": "Le 15 août, on fête l'Assomption : Marie est entrée avec son corps et son âme dans la joie du ciel."
+   },
+   "es": {
+    "mot": "La Asunción",
+    "def": "El 15 de agosto celebramos la Asunción: María entró con su cuerpo y su alma en la alegría del cielo."
+   },
+   "en": {
+    "mot": "The Assumption",
+    "def": "On 15 August we celebrate the Assumption: Mary was taken body and soul into the joy of heaven."
+   }
+  },
+  {
+   "id": "toussaint",
+   "fr": {
+    "mot": "La Toussaint",
+    "def": "Le 1er novembre, c'est la Toussaint : la fête de tous les saints, ceux qu'on connaît et tous ceux qu'on ne connaît pas."
+   },
+   "es": {
+    "mot": "Todos los Santos",
+    "def": "El 1 de noviembre es Todos los Santos: la fiesta de todos los santos, los que conocemos y todos los que no conocemos."
+   },
+   "en": {
+    "mot": "All Saints' Day",
+    "def": "1 November is All Saints' Day: the feast of all the saints, the ones we know and all the ones we don't."
+   }
+  },
+  {
+   "id": "epiphanie",
+   "fr": {
+    "mot": "L'Épiphanie",
+    "def": "À l'Épiphanie, on fête la visite des mages à Jésus. En France, on partage la galette des rois ; en Espagne, les Rois apportent les cadeaux."
+   },
+   "es": {
+    "mot": "La Epifanía",
+    "def": "En la Epifanía celebramos la visita de los magos a Jesús. En España, los Reyes traen los regalos y se comparte el roscón."
+   },
+   "en": {
+    "mot": "The Epiphany",
+    "def": "At the Epiphany we celebrate the wise men's visit to Jesus. In some countries the Three Kings bring presents that day."
+   }
+  },
+  {
+   "id": "annonciation",
+   "fr": {
+    "mot": "L'Annonciation",
+    "def": "L'Annonciation, c'est le jour où l'ange Gabriel a annoncé à Marie qu'elle serait la maman de Jésus. On la fête le 25 mars."
+   },
+   "es": {
+    "mot": "La Anunciación",
+    "def": "La Anunciación es el día en que el ángel Gabriel anunció a María que sería la mamá de Jesús. Se celebra el 25 de marzo."
+   },
+   "en": {
+    "mot": "The Annunciation",
+    "def": "The Annunciation is the day the angel Gabriel told Mary she would be the mother of Jesus. It is celebrated on 25 March."
+   }
+  },
+  {
+   "id": "magnificat",
+   "fr": {
+    "mot": "Le Magnificat",
+    "def": "Le Magnificat est le chant de joie de Marie : « Mon âme chante la grandeur du Seigneur ! » L'Église le chante chaque soir."
+   },
+   "es": {
+    "mot": "El Magníficat",
+    "def": "El Magníficat es el canto de alegría de María: «¡Mi alma proclama la grandeza del Señor!». La Iglesia lo canta cada tarde."
+   },
+   "en": {
+    "mot": "The Magnificat",
+    "def": "The Magnificat is Mary's song of joy: “My soul proclaims the greatness of the Lord!” The Church sings it every evening."
+   }
+  },
+  {
+   "id": "ave-maria",
+   "fr": {
+    "mot": "Je vous salue Marie",
+    "def": "C'est la prière qui reprend les mots de l'ange Gabriel et d'Élisabeth pour saluer Marie et lui demander de prier pour nous."
+   },
+   "es": {
+    "mot": "Dios te salve, María",
+    "def": "Es la oración que repite las palabras del ángel Gabriel y de Isabel para saludar a María y pedirle que rece por nosotros."
+   },
+   "en": {
+    "mot": "The Hail Mary",
+    "def": "It is the prayer that uses the words of the angel Gabriel and of Elizabeth to greet Mary and ask her to pray for us."
+   }
+  },
+  {
+   "id": "gloria",
+   "fr": {
+    "mot": "Le Gloria",
+    "def": "Le Gloria est le chant des anges de Noël qu'on chante à la messe du dimanche : « Gloire à Dieu au plus haut des cieux ! »"
+   },
+   "es": {
+    "mot": "El Gloria",
+    "def": "El Gloria es el canto de los ángeles de Navidad que cantamos en la misa del domingo: «¡Gloria a Dios en el cielo!»."
+   },
+   "en": {
+    "mot": "The Gloria",
+    "def": "The Gloria is the song of the Christmas angels that we sing at Sunday Mass: “Glory to God in the highest!”"
+   }
+  },
+  {
+   "id": "credo",
+   "fr": {
+    "mot": "Le Credo",
+    "def": "Le Credo est la prière où l'on dit ce que l'on croit : « Je crois en Dieu, le Père, en Jésus-Christ et en l'Esprit Saint. »"
+   },
+   "es": {
+    "mot": "El Credo",
+    "def": "El Credo es la oración en la que decimos lo que creemos: «Creo en Dios Padre, en Jesucristo y en el Espíritu Santo»."
+   },
+   "en": {
+    "mot": "The Creed",
+    "def": "The Creed is the prayer in which we say what we believe: “I believe in God the Father, in Jesus Christ and in the Holy Spirit.”"
+   }
+  },
+  {
+   "id": "offrande",
+   "fr": {
+    "mot": "L'offrande",
+    "def": "À la messe, on apporte à l'autel le pain et le vin : c'est l'offrande. On peut aussi offrir à Dieu sa journée, ses joies et ses efforts."
+   },
+   "es": {
+    "mot": "El ofertorio",
+    "def": "En la misa se llevan al altar el pan y el vino: es el ofertorio. También podemos ofrecer a Dios nuestro día, nuestras alegrías y nuestros esfuerzos."
+   },
+   "en": {
+    "mot": "The offering",
+    "def": "At Mass, the bread and wine are brought to the altar: this is the offering. We can also offer God our day, our joys and our efforts."
+   }
+  },
+  {
+   "id": "quete",
+   "fr": {
+    "mot": "La quête",
+    "def": "Pendant la messe, on fait la quête : chacun donne un peu d'argent pour l'Église et pour aider ceux qui en ont besoin."
+   },
+   "es": {
+    "mot": "La colecta",
+    "def": "Durante la misa se hace la colecta: cada uno da un poco de dinero para la Iglesia y para ayudar a los que lo necesitan."
+   },
+   "en": {
+    "mot": "The collection",
+    "def": "During Mass there is a collection: everyone gives a little money for the Church and to help those in need."
+   }
+  },
+  {
+   "id": "paroisse",
+   "fr": {
+    "mot": "La paroisse",
+    "def": "La paroisse, c'est la grande famille des chrétiens d'un quartier ou d'un village, réunie autour de son église et de son curé."
+   },
+   "es": {
+    "mot": "La parroquia",
+    "def": "La parroquia es la gran familia de los cristianos de un barrio o de un pueblo, reunida en torno a su iglesia y a su párroco."
+   },
+   "en": {
+    "mot": "The parish",
+    "def": "The parish is the big family of Christians in a neighbourhood or village, gathered around their church and their parish priest."
+   }
+  },
+  {
+   "id": "eveque",
+   "fr": {
+    "mot": "L'évêque",
+    "def": "L'évêque est le successeur des apôtres. Il prend soin de tous les chrétiens d'une région, le diocèse. Il porte une crosse de berger."
+   },
+   "es": {
+    "mot": "El obispo",
+    "def": "El obispo es sucesor de los apóstoles. Cuida de todos los cristianos de una región, la diócesis. Lleva un báculo de pastor."
+   },
+   "en": {
+    "mot": "The bishop",
+    "def": "The bishop is a successor of the apostles. He takes care of all the Christians in a region, the diocese. He carries a shepherd's staff."
+   }
+  },
+  {
+   "id": "diacre",
+   "fr": {
+    "mot": "Le diacre",
+    "def": "Le diacre est un homme ordonné pour servir : il lit l'Évangile à la messe, baptise, et s'occupe des pauvres, comme saint Étienne."
+   },
+   "es": {
+    "mot": "El diácono",
+    "def": "El diácono es un hombre ordenado para servir: lee el Evangelio en la misa, bautiza y se ocupa de los pobres, como san Esteban."
+   },
+   "en": {
+    "mot": "The deacon",
+    "def": "A deacon is a man ordained to serve: he reads the Gospel at Mass, baptizes, and cares for the poor, like Saint Stephen."
+   }
+  },
+  {
+   "id": "religieuse",
+   "fr": {
+    "mot": "Une religieuse",
+    "def": "Une religieuse, ou sœur, est une femme qui donne toute sa vie à Dieu. Elle prie et aide les autres : enfants, malades, pauvres."
+   },
+   "es": {
+    "mot": "Una religiosa",
+    "def": "Una religiosa, o hermana, es una mujer que entrega toda su vida a Dios. Reza y ayuda a los demás: niños, enfermos, pobres."
+   },
+   "en": {
+    "mot": "A nun",
+    "def": "A nun, or sister, is a woman who gives her whole life to God. She prays and helps others: children, the sick, the poor."
+   }
+  },
+  {
+   "id": "moine",
+   "fr": {
+    "mot": "Un moine",
+    "def": "Un moine vit avec d'autres frères dans un monastère. Ils prient plusieurs fois par jour, travaillent et accueillent les visiteurs."
+   },
+   "es": {
+    "mot": "Un monje",
+    "def": "Un monje vive con otros hermanos en un monasterio. Rezan varias veces al día, trabajan y reciben a los visitantes."
+   },
+   "en": {
+    "mot": "A monk",
+    "def": "A monk lives with other brothers in a monastery. They pray several times a day, work and welcome visitors."
+   }
+  },
+  {
+   "id": "pelerinage",
+   "fr": {
+    "mot": "Un pèlerinage",
+    "def": "Un pèlerinage, c'est un voyage à pied ou en car vers un lieu saint, comme Lourdes, Rome ou Saint-Jacques-de-Compostelle, pour prier."
+   },
+   "es": {
+    "mot": "Una peregrinación",
+    "def": "Una peregrinación es un viaje a pie o en autobús hacia un lugar santo, como Lourdes, Roma o Santiago de Compostela, para rezar."
+   },
+   "en": {
+    "mot": "A pilgrimage",
+    "def": "A pilgrimage is a journey on foot or by coach to a holy place, like Lourdes, Rome or Santiago de Compostela, to pray."
+   }
+  },
+  {
+   "id": "procession",
+   "fr": {
+    "mot": "Une procession",
+    "def": "Une procession, c'est quand on marche ensemble en priant et en chantant, souvent derrière une croix ou une statue."
+   },
+   "es": {
+    "mot": "Una procesión",
+    "def": "Una procesión es cuando caminamos juntos rezando y cantando, muchas veces detrás de una cruz o de una imagen."
+   },
+   "en": {
+    "mot": "A procession",
+    "def": "A procession is when we walk together praying and singing, often behind a cross or a statue."
+   }
+  },
+  {
+   "id": "encens",
+   "fr": {
+    "mot": "L'encens",
+    "def": "L'encens est une résine qui sent bon quand on la brûle. Sa fumée qui monte vers le ciel est comme nos prières qui montent vers Dieu."
+   },
+   "es": {
+    "mot": "El incienso",
+    "def": "El incienso es una resina que huele bien cuando se quema. Su humo que sube al cielo es como nuestras oraciones que suben hacia Dios."
+   },
+   "en": {
+    "mot": "Incense",
+    "def": "Incense is a resin that smells lovely when it burns. Its smoke rising to the sky is like our prayers rising to God."
+   }
+  },
+  {
+   "id": "icone",
+   "fr": {
+    "mot": "Une icône",
+    "def": "Une icône est une image peinte de Jésus, de Marie ou d'un saint, souvent sur du bois avec de l'or. Elle aide à prier."
+   },
+   "es": {
+    "mot": "Un icono",
+    "def": "Un icono es una imagen pintada de Jesús, de María o de un santo, a menudo sobre madera con oro. Ayuda a rezar."
+   },
+   "en": {
+    "mot": "An icon",
+    "def": "An icon is a painted image of Jesus, Mary or a saint, often on wood with gold. It helps us to pray."
+   }
+  },
+  {
+   "id": "chapelle",
+   "fr": {
+    "mot": "Une chapelle",
+    "def": "Une chapelle est une petite église, parfois dans un hôpital, une école ou au bord d'un chemin, où l'on peut s'arrêter pour prier."
+   },
+   "es": {
+    "mot": "Una capilla",
+    "def": "Una capilla es una iglesia pequeña, a veces en un hospital, en una escuela o junto a un camino, donde uno puede detenerse a rezar."
+   },
+   "en": {
+    "mot": "A chapel",
+    "def": "A chapel is a small church, sometimes in a hospital, a school or by a road, where you can stop to pray."
+   }
+  },
+  {
+   "id": "cathedrale",
+   "fr": {
+    "mot": "La cathédrale",
+    "def": "La cathédrale est l'église principale d'un diocèse, celle de l'évêque. Elle est souvent très grande et très belle."
+   },
+   "es": {
+    "mot": "La catedral",
+    "def": "La catedral es la iglesia principal de una diócesis, la del obispo. Suele ser muy grande y muy bonita."
+   },
+   "en": {
+    "mot": "The cathedral",
+    "def": "The cathedral is the main church of a diocese, the bishop's church. It is often very big and very beautiful."
+   }
+  },
+  {
+   "id": "mission",
+   "fr": {
+    "mot": "La mission",
+    "def": "La mission, c'est annoncer à tous que Jésus nous aime. Les missionnaires partent parfois très loin, mais chacun peut être missionnaire chez lui."
+   },
+   "es": {
+    "mot": "La misión",
+    "def": "La misión es anunciar a todos que Jesús nos quiere. Los misioneros a veces se van muy lejos, pero cada uno puede ser misionero en su casa."
+   },
+   "en": {
+    "mot": "Mission",
+    "def": "Mission means telling everyone that Jesus loves us. Missionaries sometimes go very far away, but anyone can be a missionary at home."
+   }
+  },
+  {
+   "id": "charite",
+   "fr": {
+    "mot": "La charité",
+    "def": "La charité, c'est l'amour qui vient de Dieu et qu'on donne aux autres, surtout à ceux qui en ont le plus besoin."
+   },
+   "es": {
+    "mot": "La caridad",
+    "def": "La caridad es el amor que viene de Dios y que damos a los demás, sobre todo a los que más lo necesitan."
+   },
+   "en": {
+    "mot": "Charity",
+    "def": "Charity is the love that comes from God and that we give to others, especially those who need it most."
+   }
+  },
+  {
+   "id": "humilite",
+   "fr": {
+    "mot": "L'humilité",
+    "def": "Être humble, c'est ne pas se croire meilleur que les autres et savoir que tout ce qu'on a de beau vient de Dieu."
+   },
+   "es": {
+    "mot": "La humildad",
+    "def": "Ser humilde es no creerse mejor que los demás y saber que todo lo bueno que tenemos viene de Dios."
+   },
+   "en": {
+    "mot": "Humility",
+    "def": "Being humble means not thinking you are better than others, and knowing that everything good you have comes from God."
+   }
+  },
+  {
+   "id": "jeune",
+   "fr": {
+    "mot": "Le jeûne",
+    "def": "Jeûner, c'est se priver un peu de nourriture ou d'autre chose qu'on aime, pour faire plus de place à Dieu et partager avec les autres."
+   },
+   "es": {
+    "mot": "El ayuno",
+    "def": "Ayunar es privarse un poco de comida o de otra cosa que nos gusta, para hacerle más sitio a Dios y compartir con los demás."
+   },
+   "en": {
+    "mot": "Fasting",
+    "def": "Fasting means going without a little food or something else we like, to make more room for God and to share with others."
+   }
+  },
+  {
+   "id": "silence",
+   "fr": {
+    "mot": "Le silence",
+    "def": "Le silence, c'est se taire un moment pour écouter. Dieu parle souvent tout doucement, dans le calme du cœur."
+   },
+   "es": {
+    "mot": "El silencio",
+    "def": "El silencio es callarse un momento para escuchar. Dios habla muchas veces muy bajito, en la calma del corazón."
+   },
+   "en": {
+    "mot": "Silence",
+    "def": "Silence means being quiet for a moment to listen. God often speaks very softly, in the calm of the heart."
+   }
+  },
+  {
+   "id": "adoration",
+   "fr": {
+    "mot": "L'adoration",
+    "def": "Adorer, c'est rester devant Dieu pour lui dire qu'il est le plus grand et qu'on l'aime. On peut adorer Jésus présent dans l'hostie."
+   },
+   "es": {
+    "mot": "La adoración",
+    "def": "Adorar es quedarse delante de Dios para decirle que es el más grande y que lo amamos. Podemos adorar a Jesús presente en la hostia."
+   },
+   "en": {
+    "mot": "Adoration",
+    "def": "Adoring means staying before God to tell him he is the greatest and that we love him. We can adore Jesus present in the host."
+   }
+  },
+  {
+   "id": "benedicite",
+   "fr": {
+    "mot": "Le bénédicité",
+    "def": "Le bénédicité est la petite prière qu'on dit avant le repas pour remercier Dieu pour la nourriture et pour ceux qui l'ont préparée."
+   },
+   "es": {
+    "mot": "La bendición de la mesa",
+    "def": "Es la oración corta que decimos antes de comer para dar gracias a Dios por la comida y por quienes la prepararon."
+   },
+   "en": {
+    "mot": "Grace before meals",
+    "def": "Grace is the little prayer we say before meals to thank God for the food and for those who prepared it."
+   }
+  },
+  {
+   "id": "crucifix",
+   "fr": {
+    "mot": "Le crucifix",
+    "def": "Le crucifix est une croix avec Jésus dessus. Il nous rappelle que Jésus a donné sa vie par amour pour nous."
+   },
+   "es": {
+    "mot": "El crucifijo",
+    "def": "El crucifijo es una cruz con Jesús en ella. Nos recuerda que Jesús dio su vida por amor a nosotros."
+   },
+   "en": {
+    "mot": "The crucifix",
+    "def": "A crucifix is a cross with Jesus on it. It reminds us that Jesus gave his life out of love for us."
+   }
+  },
+  {
+   "id": "parrain",
+   "fr": {
+    "mot": "Le parrain et la marraine",
+    "def": "Au baptême, le parrain et la marraine promettent d'aider l'enfant à grandir dans la foi, et de prier pour lui toute sa vie."
+   },
+   "es": {
+    "mot": "El padrino y la madrina",
+    "def": "En el bautismo, el padrino y la madrina prometen ayudar al niño a crecer en la fe y rezar por él toda la vida."
+   },
+   "en": {
+    "mot": "Godparents",
+    "def": "At baptism, the godfather and godmother promise to help the child grow in faith and to pray for them all their life."
+   }
+  },
+  {
+   "id": "premiere-communion",
+   "fr": {
+    "mot": "La première communion",
+    "def": "La première communion, c'est la grande fête où un enfant reçoit Jésus dans l'hostie pour la première fois."
+   },
+   "es": {
+    "mot": "La primera comunión",
+    "def": "La primera comunión es la gran fiesta en la que un niño recibe a Jesús en la hostia por primera vez."
+   },
+   "en": {
+    "mot": "First Communion",
+    "def": "First Communion is the great celebration when a child receives Jesus in the host for the first time."
+   }
+  },
+  {
+   "id": "confirmation",
+   "fr": {
+    "mot": "La confirmation",
+    "def": "La confirmation est le sacrement où l'évêque donne l'Esprit Saint avec de l'huile parfumée, pour être un témoin courageux de Jésus."
+   },
+   "es": {
+    "mot": "La confirmación",
+    "def": "La confirmación es el sacramento en el que el obispo da el Espíritu Santo con aceite perfumado, para ser un testigo valiente de Jesús."
+   },
+   "en": {
+    "mot": "Confirmation",
+    "def": "Confirmation is the sacrament in which the bishop gives the Holy Spirit with fragrant oil, so that we can be brave witnesses to Jesus."
+   }
+  },
+  {
+   "id": "mariage",
+   "fr": {
+    "mot": "Le mariage",
+    "def": "Le mariage est le sacrement où un homme et une femme se promettent devant Dieu de s'aimer et d'être fidèles toute leur vie."
+   },
+   "es": {
+    "mot": "El matrimonio",
+    "def": "El matrimonio es el sacramento en el que un hombre y una mujer se prometen ante Dios amarse y ser fieles toda la vida."
+   },
+   "en": {
+    "mot": "Marriage",
+    "def": "Marriage is the sacrament in which a man and a woman promise before God to love each other and be faithful all their lives."
+   }
+  },
+  {
+   "id": "sacrement",
+   "fr": {
+    "mot": "Un sacrement",
+    "def": "Un sacrement est un signe visible de l'amour invisible de Dieu : l'eau du baptême, le pain de la communion… Il y en a sept."
+   },
+   "es": {
+    "mot": "Un sacramento",
+    "def": "Un sacramento es un signo visible del amor invisible de Dios: el agua del bautismo, el pan de la comunión… Hay siete."
+   },
+   "en": {
+    "mot": "A sacrament",
+    "def": "A sacrament is a visible sign of God's invisible love: the water of baptism, the bread of communion… There are seven."
+   }
+  },
+  {
+   "id": "vie-eternelle",
+   "fr": {
+    "mot": "La vie éternelle",
+    "def": "La vie éternelle, c'est la vie avec Dieu qui ne finira jamais, dans la joie du ciel, avec tous ceux qui s'aiment."
+   },
+   "es": {
+    "mot": "La vida eterna",
+    "def": "La vida eterna es la vida con Dios que nunca terminará, en la alegría del cielo, con todos los que se quieren."
+   },
+   "en": {
+    "mot": "Eternal life",
+    "def": "Eternal life is life with God that will never end, in the joy of heaven, with everyone who loves."
+   }
+  },
+  {
+   "id": "saint-patron",
+   "fr": {
+    "mot": "Le saint patron",
+    "def": "Le saint patron, c'est le saint dont on porte le prénom ou qui protège une ville, un métier. On peut le prier comme un ami."
+   },
+   "es": {
+    "mot": "El santo patrón",
+    "def": "El santo patrón es el santo cuyo nombre llevamos o que protege una ciudad o un oficio. Podemos rezarle como a un amigo."
+   },
+   "en": {
+    "mot": "The patron saint",
+    "def": "A patron saint is the saint whose name we bear, or who protects a town or a job. We can pray to them like a friend."
+   }
+  },
+  {
+   "id": "chandeleur",
+   "fr": {
+    "mot": "La Chandeleur",
+    "def": "Le 2 février, on fête Jésus présenté au Temple, « lumière des nations ». On bénit des cierges, et en France on mange des crêpes !"
+   },
+   "es": {
+    "mot": "La Candelaria",
+    "def": "El 2 de febrero celebramos a Jesús presentado en el Templo, «luz de las naciones». Se bendicen velas para llevar a casa."
+   },
+   "en": {
+    "mot": "Candlemas",
+    "def": "On 2 February we celebrate Jesus being presented in the Temple, “light of the nations”. Candles are blessed to take home."
+   }
+  },
+  {
+   "id": "veilleuse",
+   "fr": {
+    "mot": "La lampe du sanctuaire",
+    "def": "Dans chaque église, une petite lampe rouge brille jour et nuit près du tabernacle. Elle dit : Jésus est là, tu n'es pas seul."
+   },
+   "es": {
+    "mot": "La lámpara del sagrario",
+    "def": "En cada iglesia brilla día y noche una lamparita roja junto al sagrario. Dice: Jesús está aquí, no estás solo."
+   },
+   "en": {
+    "mot": "The sanctuary lamp",
+    "def": "In every church a little red lamp shines day and night near the tabernacle. It says: Jesus is here, you are not alone."
+   }
+  },
+  {
+   "id": "aumone",
+   "fr": {
+    "mot": "L'aumône",
+    "def": "Faire l'aumône, c'est donner de l'argent ou de la nourriture à ceux qui sont pauvres, en secret, sans se vanter."
+   },
+   "es": {
+    "mot": "La limosna",
+    "def": "Dar limosna es dar dinero o comida a los que son pobres, en secreto, sin presumir."
+   },
+   "en": {
+    "mot": "Almsgiving",
+    "def": "Almsgiving means giving money or food to people who are poor, quietly, without boasting."
+   }
+  },
+  {
+   "id": "louange",
+   "fr": {
+    "mot": "La louange",
+    "def": "Louer Dieu, c'est lui dire qu'il est beau et bon, simplement parce qu'il est Dieu, souvent en chantant de joie."
+   },
+   "es": {
+    "mot": "La alabanza",
+    "def": "Alabar a Dios es decirle que es bueno y hermoso, simplemente porque es Dios, muchas veces cantando de alegría."
+   },
+   "en": {
+    "mot": "Praise",
+    "def": "Praising God means telling him he is good and beautiful, simply because he is God, often by singing for joy."
+   }
+  },
+  {
+   "id": "prochain",
+   "fr": {
+    "mot": "Le prochain",
+    "def": "Le prochain, c'est toute personne que je rencontre et que je peux aider, comme le bon Samaritain avec l'homme blessé."
+   },
+   "es": {
+    "mot": "El prójimo",
+    "def": "El prójimo es toda persona que encuentro y a la que puedo ayudar, como el buen samaritano con el hombre herido."
+   },
+   "en": {
+    "mot": "Our neighbour",
+    "def": "Our neighbour is anyone we meet and can help, like the good Samaritan with the injured man."
    }
   }
  ]
