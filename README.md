@@ -4,7 +4,7 @@ Ora est une web-app catholique gratuite, l'app des premiers pas vers Dieu : chaq
 
 Ora n'a ni compte, ni serveur, ni publicité, ni pistage. Elle n'appelle aucune intelligence artificielle. Elle fonctionne hors ligne, et s'installe sur un téléphone depuis le navigateur (sur iPhone : Safari, Partager, « Sur l'écran d'accueil »).
 
-Adresse : https://nprllc.github.io/ora/
+Adresse : https://ora-app.co
 
 ## Architecture
 
