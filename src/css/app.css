@@ -388,6 +388,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 @keyframes be-voile { 0% { transform: translate3d(0, 0, 0); opacity: 1; } 80% { opacity: 1; } 100% { transform: translate3d(0, -275vh, 0); opacity: 0; } }
 :root.arrivee #ciel, :root.arrivee .app { animation: be-arrive 3.6s cubic-bezier(.42,0,.38,1) both; }
 @keyframes be-arrive { from { transform: translate3d(0, 100vh, 0); } to { transform: translate3d(0, 0, 0); } }
+@keyframes be-arrive-fondu { 0%, 45% { opacity: 0; } 100% { opacity: 1; } }
 @keyframes lumiere { from { opacity: .85; transform: scale(1); } to { opacity: 1; transform: scale(1.06); } }
 @media (prefers-reduced-motion: reduce) { .be-lumiere, .be-contenu { animation: none; } }
 :root.arrivee .barre { opacity: 0; }
@@ -527,6 +528,9 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
   /* Le fil commence sans filet : la page de droite n'a rien au-dessus. */
   .fil > .sections:first-child > .section-jour:first-child, .fil > .groupe:first-child, .fil > #resultats:first-child + .groupe { border-top: 0; padding-top: 0; margin-top: 0; }
   .barre { left: calc(var(--g) / 2); bottom: 28px; }
+  /* Arrivée après l'écran de bienvenue : sur ordinateur, la page n'est pas déplacée (un déplacement casserait
+     les deux pages, qui sont fixées à l'écran) ; seul le ciel descend, et le reste apparaît en fondu. */
+  :root.arrivee .app { animation: be-arrive-fondu 3.6s cubic-bezier(.42,0,.38,1) backwards; will-change: opacity; }
   /* La page de gauche ne défile pas : le logo y reste entier ; seul « Réglages » devient la roue dentée. */
   :root.defile .logo { width: 68px; background: none; -webkit-backdrop-filter: none; backdrop-filter: none; box-shadow: none; }
   :root.defile .logo .logo-ra { opacity: 1; }
