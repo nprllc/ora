@@ -252,3 +252,39 @@ test('grand écran : un livre ouvert (le jour reste à gauche sous le ciel, les 
     await ctx.close();
   }
 });
+
+test('langue à la première visite : sur ordinateur selon le pays (fuseau horaire), sur téléphone selon l\'appareil', async () => {
+  const cas = [
+    [{ width: 1440, height: 900 }, 'Europe/Paris', 'en-US', 'fr'],
+    [{ width: 1440, height: 900 }, 'America/Bogota', 'fr-FR', 'es'],
+    [{ width: 1440, height: 900 }, 'Europe/Madrid', 'fr-FR', 'es'],
+    [{ width: 1440, height: 900 }, 'Asia/Tokyo', 'fr-FR', 'en'],
+    [{ width: 1440, height: 900 }, 'Europe/Brussels', 'fr-BE', 'fr'],
+    [{ width: 1440, height: 900 }, 'America/Toronto', 'en-CA', 'en'],
+    [{ width: 390, height: 844 }, 'Asia/Tokyo', 'fr-FR', 'fr'],
+  ];
+  for (const [viewport, timezoneId, locale, attendu] of cas) {
+    const ctx = await navigateur.newContext({ viewport, timezoneId, locale, serviceWorkers: 'block' });
+    const page = await ctx.newPage();
+    await page.goto(serveur.url);
+    await page.waitForSelector('#bienvenue');
+    assert.equal(await page.getAttribute('html', 'lang'), attendu, `${viewport.width} px, ${timezoneId}, ${locale}`);
+    await ctx.close();
+  }
+});
+
+test('grand écran : au défilement, le logo reste entier ; seul « Réglages » devient la roue dentée', async () => {
+  const ctx = await navigateur.newContext({ viewport: { width: 1440, height: 900 }, locale: 'fr', serviceWorkers: 'block' });
+  const page = await ctx.newPage();
+  await page.addInitScript(() => localStorage.setItem('ora.reglages', JSON.stringify({ langue: 'fr', mode: 'jour', bienvenue: true })));
+  await page.goto(serveur.url);
+  await page.waitForSelector('.section-jour');
+  await page.mouse.wheel(0, 1200);
+  await page.waitForFunction(() => document.documentElement.classList.contains('defile'));
+  await page.waitForTimeout(900);
+  const r = await page.evaluate(() => ({ ra: getComputedStyle(document.querySelector('.logo .logo-ra')).opacity, w: document.querySelector('.logo').getBoundingClientRect().width, mot: getComputedStyle(document.querySelector('.bouton-menu .menu-mot')).opacity }));
+  assert.equal(r.ra, '1');
+  assert.ok(r.w > 60, 'logo entier');
+  assert.equal(r.mot, '0', 'Réglages devient la roue');
+  await ctx.close();
+});

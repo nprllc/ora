@@ -45,7 +45,25 @@
     if (langueAdresse()) { if (!R.langue) { R.langue = langueAdresse(); ecrireReglages(); } return langueAdresse(); }
     if (R.langue) return R.langue;
     var l = ((navigator.languages && navigator.languages[0]) || navigator.language || 'fr').slice(0, 2).toLowerCase();
-    return l === 'es' || l === 'ca' || l === 'gl' || l === 'eu' ? 'es' : l === 'en' ? 'en' : 'fr';
+    var appareil = l === 'es' || l === 'ca' || l === 'gl' || l === 'eu' ? 'es' : l === 'en' ? 'en' : 'fr';
+    // Sur ordinateur, la langue suit le pays : français dans les pays francophones, espagnol dans les pays
+    // hispanophones, anglais ailleurs. Le pays est déduit du fuseau horaire de l'ordinateur, sans aucune requête :
+    // Ora ne demande l'adresse IP de personne. Sur téléphone, la langue reste celle de l'appareil.
+    if (window.matchMedia && matchMedia('(min-width: 1024px) and (pointer: fine)').matches) return langueDuPays(appareil);
+    return appareil;
+  }
+  function langueDuPays(appareil) {
+    // (Les listes sont ici, et non au-dessus : la langue est choisie dès le chargement, avant le reste du code.)
+    var FUSEAUX_FR = /^(Europe\/(Paris|Monaco|Luxembourg)|Africa\/(Dakar|Abidjan|Bamako|Ouagadougou|Niamey|Conakry|Lome|Porto-Novo|Douala|Libreville|Brazzaville|Kinshasa|Lubumbashi|Bangui|Ndjamena|Kigali|Bujumbura|Djibouti|Algiers|Tunis|Casablanca|Nouakchott)|Indian\/(Antananarivo|Reunion|Mayotte|Comoro|Kerguelen)|America\/(Guadeloupe|Martinique|Cayenne|Port-au-Prince|Miquelon|Marigot|St_Barthelemy)|Pacific\/(Noumea|Tahiti|Wallis|Marquesas|Gambier))$/;
+    var FUSEAUX_ES = /^(Europe\/Madrid|Atlantic\/Canary|Africa\/(Ceuta|Malabo)|America\/(Mexico_City|Cancun|Merida|Monterrey|Matamoros|Chihuahua|Ciudad_Juarez|Ojinaga|Mazatlan|Bahia_Banderas|Hermosillo|Tijuana|Guatemala|El_Salvador|Tegucigalpa|Managua|Costa_Rica|Panama|Havana|Santo_Domingo|Puerto_Rico|Bogota|Caracas|Guayaquil|Lima|La_Paz|Santiago|Punta_Arenas|Asuncion|Montevideo|Argentina\/.+|Buenos_Aires|Cordoba|Mendoza)|Pacific\/(Galapagos|Easter))$/;
+    // Pays où l'on parle plusieurs langues (Belgique, Suisse, Canada) : la langue de l'ordinateur départage.
+    var FUSEAUX_MIXTES = /^(Europe\/(Brussels|Zurich)|America\/(Toronto|Montreal))$/;
+    var tz = '';
+    try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) { /* fuseau inconnu */ }
+    if (FUSEAUX_FR.test(tz)) return 'fr';
+    if (FUSEAUX_ES.test(tz)) return 'es';
+    if (FUSEAUX_MIXTES.test(tz)) return appareil === 'fr' ? 'fr' : 'en';
+    return tz ? 'en' : appareil;
   }
   // Région liturgique : pas un réglage ; elle suit la langue.
   var REGION_PAR_LANGUE = { fr: 'fr', es: 'es', en: 'us' };
