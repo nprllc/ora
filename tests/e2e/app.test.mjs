@@ -288,3 +288,17 @@ test('grand écran : au défilement, le logo reste entier ; seul « Réglages »
   assert.equal(r.mot, '0', 'Réglages devient la roue');
   await ctx.close();
 });
+
+test('grand écran : pendant l\'arrivée après l\'écran de bienvenue, le volet du jour reste à sa place à gauche', async () => {
+  const ctx = await navigateur.newContext({ viewport: { width: 1440, height: 900 }, locale: 'fr', timezoneId: 'Europe/Paris', serviceWorkers: 'block' });
+  const page = await ctx.newPage();
+  await page.goto(serveur.url);
+  await page.click('.be-commencer');
+  await page.waitForSelector('.accueil > .volet');
+  await page.waitForTimeout(1500);
+  const r = await page.evaluate(() => { const v = document.querySelector('.accueil > .volet').getBoundingClientRect(); return { l: v.left, w: v.width, t: getComputedStyle(document.querySelector('.app')).transform }; });
+  assert.equal(r.l, 0);
+  assert.ok(r.w < 720, 'le volet garde la largeur de la page de gauche');
+  assert.equal(r.t, 'none', 'la page n\'est pas déplacée pendant l\'arrivée');
+  await ctx.close();
+});
