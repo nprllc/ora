@@ -31,6 +31,8 @@ for i, b in enumerate(src['livres']):
                 if len(vs) <= idx: vs.append(None)
                 continue
             v = re.sub(r'[ \t\u00a0]+', ' ', v)
+            # titre du chapitre suivant collé en fin de verset : « …en son nom.\n21\nApparition de Jésus… »
+            v = re.sub(r'\s*\n\s*\d+\s*\n.*$', '', v, flags=re.S)
             v = re.sub(r'\s*_{3,}.*$', '', v)
             v = re.sub(r'\s+\d+(\s+\d+)?\.\s*Chap\..*$', '', v)
             v = re.sub(r'\s+(?:\d+\s+)?(?:\d+\.\s*)?(?:[A-Z]\.\s*—\s*)?(?:Chap[.,]|Ps\.\s+[ivxlc]+\b).*$', '', v)

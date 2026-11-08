@@ -703,21 +703,31 @@
   function evangileEnfant(a) {
     var E = D.evEnfants, j = a.j; if (!E || !j) return null;
     var s = j.saison.id === 'triduum' ? 'careme' : j.saison.id, pool = E[s] && E[s].length ? E[s] : E.ordinaire;
-    var n = (pool === E[s] && s !== 'ordinaire' && j.jourSaison != null) ? j.jourSaison : numeroJour(j);
+    var n = (pool === E[s] && s !== 'ordinaire' && j.jourSaison != null) ? rangSaison(j) : rangOrdinaire(j);
     var x = pool[n % pool.length];
     if (a.lect && x.ref === a.lect.ref) x = pool[(n + 1) % pool.length];
     return x;
   }
   // Personnage du jour : pendant l'Avent, Noël, le Carême et le temps pascal, les personnages de ce temps ;
-  // le reste de l'année, les autres, l'un après l'autre (deux jours de suite ne donnent jamais le même).
+  // le reste de l'année, les autres, l'un après l'autre, au rang du jour dans le temps ordinaire.
   function personnageDuJour(j) {
     var tous = D.personnages || []; if (!tous.length || !j) return null;
     var s = j.saison.id === 'triduum' ? 'careme' : j.saison.id;
     var du = tous.filter(function (x) { return x.temps && x.temps.indexOf(s) >= 0; }), n;
-    if (du.length) n = j.jourSaison || 0;
-    else { du = tous.filter(function (x) { return !x.temps; }); n = numeroJour(j); }
+    if (du.length) n = rangSaison(j);
+    else { du = tous.filter(function (x) { return !x.temps; }); n = rangOrdinaire(j); }
     var x = du[n % du.length]; return x && (x[LANG] || x.fr);
   }
+  // Rang du jour dans son temps fort. L'Avent garde ses huit derniers éléments pour les jours du 17 au 24 décembre
+  // (avant le 17, l'Avent compte au plus 20 jours). Le Triduum prend la suite du Carême (qui compte toujours
+  // 43 jours, du mercredi des Cendres au mercredi saint) : ses trois jours ont leurs éléments, en fin de liste.
+  function rangSaison(j) {
+    var s = j.saison.id, k = j.date.slice(5);
+    if (s === 'avent' && k >= '12-17') return 20 + (+k.slice(3) - 17);
+    return (s === 'triduum' ? 43 : 0) + (j.jourSaison || 0);
+  }
+  // Le reste de l'année : le rang du jour dans le temps ordinaire, pour que rien ne revienne dans l'année.
+  function rangOrdinaire(j) { return j.jourOrdinaire != null ? j.jourOrdinaire : numeroJour(j); }
   function numeroJour(j) { var d = new Date(j.date + 'T12:00:00'); return Math.round((d - new Date(d.getFullYear(), 0, 1, 12)) / 864e5); }
   function motEnfant(j) {
     var mots = D.motsEnfants; if (!mots.length || !j) return null;

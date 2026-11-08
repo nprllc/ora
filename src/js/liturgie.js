@@ -314,7 +314,9 @@
       premierRang: pr,
       // Rang du jour dans son temps (0 = premier jour) : sert aux contenus qui suivent le temps liturgique.
       jourSaison: s === 'avent' ? ecart(r.avent, t) : s === 'noel' ? ecart(t >= d(y, 12, 25) ? d(y, 12, 25) : d(y - 1, 12, 25), t)
-        : s === 'careme' ? ecart(r.cendres, t) : s === 'triduum' ? ecart(r.jeudiSaint, t) : s === 'paques' ? ecart(r.paques, t) : null
+        : s === 'careme' ? ecart(r.cendres, t) : s === 'triduum' ? ecart(r.jeudiSaint, t) : s === 'paques' ? ecart(r.paques, t) : null,
+      // Rang du jour dans le temps ordinaire (semaine et jour, de 1 à 237) : jamais deux fois le même dans l'année.
+      jourOrdinaire: s === 'ordinaire' ? (sl.semaine - 1) * 7 + jourSemaine(t) : null
     };
   }
 

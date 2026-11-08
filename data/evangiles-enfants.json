@@ -1,6 +1,182 @@
 {
- "_note": "Évangile du jour d'« En famille » : des passages courts choisis pour les 4-8 ans, différents de l'Évangile du jour des adultes. Par temps liturgique.",
+ "_note": "Évangile du jour d'« En famille » : des passages courts choisis pour les 4-8 ans, différents de l'Évangile du jour des adultes. Par temps liturgique, un passage par jour, sans retour dans l'année pour les temps forts : Avent 28 (les 8 derniers pour le 17-24 décembre), Noël 20, Carême 46 (les 3 derniers pour le Triduum), Pâques 50 ; temps ordinaire : au rang du jour dans le temps ordinaire.",
  "avent": [
+  [
+   "Mc 13, 33",
+   {
+    "fr": "Restez éveillés",
+    "es": "Estén despiertos",
+    "en": "Stay awake"
+   }
+  ],
+  [
+   "Mt 24, 42",
+   {
+    "fr": "Veillez !",
+    "es": "¡Velen!",
+    "en": "Keep watch!"
+   }
+  ],
+  [
+   "Lc 12, 35-37",
+   {
+    "fr": "Les lampes allumées",
+    "es": "Las lámparas encendidas",
+    "en": "Lamps burning"
+   }
+  ],
+  [
+   "Mt 25, 1-4",
+   {
+    "fr": "Les jeunes filles et leurs lampes",
+    "es": "Las jóvenes y sus lámparas",
+    "en": "The young women and their lamps"
+   }
+  ],
+  [
+   "Lc 21, 28",
+   {
+    "fr": "Relevez la tête",
+    "es": "Levanten la cabeza",
+    "en": "Lift up your heads"
+   }
+  ],
+  [
+   "Mt 3, 1-3",
+   {
+    "fr": "Préparez le chemin",
+    "es": "Preparen el camino",
+    "en": "Prepare the way"
+   }
+  ],
+  [
+   "Mc 1, 4-6",
+   {
+    "fr": "Jean-Baptiste dans le désert",
+    "es": "Juan el Bautista en el desierto",
+    "en": "John the Baptist in the desert"
+   }
+  ],
+  [
+   "Lc 3, 4-6",
+   {
+    "fr": "Les chemins seront aplanis",
+    "es": "Los caminos serán allanados",
+    "en": "The paths will be made smooth"
+   }
+  ],
+  [
+   "Lc 3, 10-11",
+   {
+    "fr": "Celui qui a deux manteaux",
+    "es": "El que tiene dos túnicas",
+    "en": "Whoever has two coats"
+   }
+  ],
+  [
+   "Jn 1, 6-8",
+   {
+    "fr": "Un témoin de la lumière",
+    "es": "Un testigo de la luz",
+    "en": "A witness to the light"
+   }
+  ],
+  [
+   "Lc 3, 15-16",
+   {
+    "fr": "Tout le monde attendait",
+    "es": "Todos estaban esperando",
+    "en": "Everyone was waiting"
+   }
+  ],
+  [
+   "Jn 1, 26-27",
+   {
+    "fr": "Il vient après moi",
+    "es": "Viene después de mí",
+    "en": "He comes after me"
+   }
+  ],
+  [
+   "Mt 11, 2-5",
+   {
+    "fr": "Es-tu celui qui doit venir ?",
+    "es": "¿Eres tú el que ha de venir?",
+    "en": "Are you the one who is to come?"
+   }
+  ],
+  [
+   "Lc 1, 5-7",
+   {
+    "fr": "Zacharie et Élisabeth",
+    "es": "Zacarías e Isabel",
+    "en": "Zechariah and Elizabeth"
+   }
+  ],
+  [
+   "Lc 1, 8-10",
+   {
+    "fr": "Zacharie au Temple",
+    "es": "Zacarías en el Templo",
+    "en": "Zechariah in the Temple"
+   }
+  ],
+  [
+   "Lc 1, 11-13",
+   {
+    "fr": "L'ange parle à Zacharie",
+    "es": "El ángel habla a Zacarías",
+    "en": "The angel speaks to Zechariah"
+   }
+  ],
+  [
+   "Lc 1, 18-20",
+   {
+    "fr": "Zacharie ne peut plus parler",
+    "es": "Zacarías se queda sin voz",
+    "en": "Zechariah cannot speak"
+   }
+  ],
+  [
+   "Lc 1, 24-25",
+   {
+    "fr": "Élisabeth attend un bébé",
+    "es": "Isabel espera un bebé",
+    "en": "Elizabeth is expecting a baby"
+   }
+  ],
+  [
+   "Mt 1, 1-2",
+   {
+    "fr": "La grande famille de Jésus",
+    "es": "La gran familia de Jesús",
+    "en": "Jesus' big family"
+   }
+  ],
+  [
+   "Jn 1, 9",
+   {
+    "fr": "La vraie lumière arrive",
+    "es": "Llega la luz verdadera",
+    "en": "The true light is coming"
+   }
+  ],
+  [
+   "Mt 1, 22-23",
+   {
+    "fr": "Dieu avec nous",
+    "es": "Dios con nosotros",
+    "en": "God with us"
+   }
+  ],
+  [
+   "Mt 1, 20-21",
+   {
+    "fr": "L'ange parle à Joseph",
+    "es": "El ángel habla a José",
+    "en": "The angel speaks to Joseph"
+   }
+  ],
   [
    "Lc 1, 26-31",
    {
@@ -26,22 +202,6 @@
    }
   ],
   [
-   "Mt 1, 20-21",
-   {
-    "fr": "L'ange parle à Joseph",
-    "es": "El ángel habla a José",
-    "en": "The angel speaks to Joseph"
-   }
-  ],
-  [
-   "Mt 3, 1-3",
-   {
-    "fr": "Préparez le chemin",
-    "es": "Preparen el camino",
-    "en": "Prepare the way"
-   }
-  ],
-  [
    "Lc 1, 46-49",
    {
     "fr": "Marie chante sa joie",
@@ -50,11 +210,11 @@
    }
   ],
   [
-   "Mc 13, 33",
+   "Lc 1, 59-64",
    {
-    "fr": "Restez éveillés",
-    "es": "Estén despiertos",
-    "en": "Stay awake"
+    "fr": "Il s'appelle Jean !",
+    "es": "¡Se llama Juan!",
+    "en": "His name is John!"
    }
   ],
   [
@@ -100,27 +260,123 @@
    }
   ],
   [
+   "Lc 2, 17-18",
+   {
+    "fr": "Tout le monde s'étonne",
+    "es": "Todos se asombran",
+    "en": "Everyone is amazed"
+   }
+  ],
+  [
+   "Lc 2, 19-20",
+   {
+    "fr": "Marie garde tout dans son cœur",
+    "es": "María guarda todo en su corazón",
+    "en": "Mary keeps everything in her heart"
+   }
+  ],
+  [
+   "Lc 2, 21",
+   {
+    "fr": "Il s'appelle Jésus",
+    "es": "Se llama Jesús",
+    "en": "His name is Jesus"
+   }
+  ],
+  [
+   "Jn 1, 14",
+   {
+    "fr": "Dieu vient habiter chez nous",
+    "es": "Dios viene a vivir entre nosotros",
+    "en": "God comes to live among us"
+   }
+  ],
+  [
+   "Lc 2, 22-24",
+   {
+    "fr": "Jésus est présenté au Temple",
+    "es": "Jesús es presentado en el Templo",
+    "en": "Jesus is presented in the Temple"
+   }
+  ],
+  [
+   "Lc 2, 25-28",
+   {
+    "fr": "Siméon prend Jésus dans ses bras",
+    "es": "Simeón toma a Jesús en brazos",
+    "en": "Simeon takes Jesus in his arms"
+   }
+  ],
+  [
+   "Lc 2, 36-38",
+   {
+    "fr": "Anne la prophétesse",
+    "es": "Ana la profetisa",
+    "en": "Anna the prophetess"
+   }
+  ],
+  [
    "Mt 2, 1-2",
    {
     "fr": "L'étoile des mages",
-    "es": "La estrella de los Magos",
-    "en": "The Wise Men's star"
+    "es": "La estrella de los magos",
+    "en": "The wise men's star"
    }
   ],
   [
    "Mt 2, 9-11",
    {
     "fr": "Les cadeaux des mages",
-    "es": "Los regalos de los Magos",
-    "en": "The Wise Men's gifts"
+    "es": "Los regalos de los magos",
+    "en": "The wise men's gifts"
    }
   ],
   [
-   "Lc 2, 40",
+   "Mt 2, 12",
+   {
+    "fr": "Par un autre chemin",
+    "es": "Por otro camino",
+    "en": "By another road"
+   }
+  ],
+  [
+   "Mt 2, 13-14",
+   {
+    "fr": "La fuite en Égypte",
+    "es": "La huida a Egipto",
+    "en": "The flight into Egypt"
+   }
+  ],
+  [
+   "Mt 2, 19-21",
+   {
+    "fr": "Le retour au pays",
+    "es": "El regreso a casa",
+    "en": "Coming home"
+   }
+  ],
+  [
+   "Lc 2, 39-40",
    {
     "fr": "L'enfant grandissait",
     "es": "El niño crecía",
     "en": "The child grew"
+   }
+  ],
+  [
+   "Lc 2, 46-49",
+   {
+    "fr": "Jésus au Temple à douze ans",
+    "es": "Jesús en el Templo a los doce años",
+    "en": "Jesus in the Temple at twelve"
+   }
+  ],
+  [
+   "Lc 2, 51-52",
+   {
+    "fr": "Jésus grandit à Nazareth",
+    "es": "Jesús crece en Nazaret",
+    "en": "Jesus grows up in Nazareth"
    }
   ],
   [
@@ -134,11 +390,27 @@
  ],
  "careme": [
   [
+   "Mt 6, 6",
+   {
+    "fr": "Prier dans le secret",
+    "es": "Orar en lo secreto",
+    "en": "Praying in secret"
+   }
+  ],
+  [
    "Mt 4, 1-4",
    {
     "fr": "Jésus au désert",
     "es": "Jesús en el desierto",
     "en": "Jesus in the desert"
+   }
+  ],
+  [
+   "Mt 4, 8-10",
+   {
+    "fr": "Adorer Dieu seul",
+    "es": "Adorar solo a Dios",
+    "en": "Worship God alone"
    }
   ],
   [
@@ -158,6 +430,30 @@
    }
   ],
   [
+   "Lc 15, 8-10",
+   {
+    "fr": "La pièce perdue",
+    "es": "La moneda perdida",
+    "en": "The lost coin"
+   }
+  ],
+  [
+   "Lc 15, 11-13",
+   {
+    "fr": "Le fils qui s'en va",
+    "es": "El hijo que se va",
+    "en": "The son who goes away"
+   }
+  ],
+  [
+   "Lc 15, 17-19",
+   {
+    "fr": "Je vais retourner chez mon père",
+    "es": "Volveré a casa de mi padre",
+    "en": "I will go back to my father"
+   }
+  ],
+  [
    "Lc 15, 20-24",
    {
     "fr": "Le papa qui court vers son fils",
@@ -166,11 +462,27 @@
    }
   ],
   [
+   "Mt 18, 21-22",
+   {
+    "fr": "Pardonner encore et encore",
+    "es": "Perdonar una y otra vez",
+    "en": "Forgiving again and again"
+   }
+  ],
+  [
    "Lc 19, 1-6",
    {
     "fr": "Zachée dans l'arbre",
     "es": "Zaqueo en el árbol",
     "en": "Zacchaeus in the tree"
+   }
+  ],
+  [
+   "Lc 19, 8-10",
+   {
+    "fr": "Zachée change de vie",
+    "es": "Zaqueo cambia de vida",
+    "en": "Zacchaeus changes his life"
    }
   ],
   [
@@ -186,7 +498,39 @@
    {
     "fr": "Jésus près du puits",
     "es": "Jesús junto al pozo",
-    "en": "Jesus by the well"
+    "en": "Jesus at the well"
+   }
+  ],
+  [
+   "Jn 4, 13-14",
+   {
+    "fr": "L'eau qui donne la vie",
+    "es": "El agua que da vida",
+    "en": "The water that gives life"
+   }
+  ],
+  [
+   "Jn 9, 6-7",
+   {
+    "fr": "L'aveugle se lave à Siloé",
+    "es": "El ciego se lava en Siloé",
+    "en": "The blind man washes at Siloam"
+   }
+  ],
+  [
+   "Jn 9, 35-38",
+   {
+    "fr": "Je crois, Seigneur",
+    "es": "Creo, Señor",
+    "en": "I believe, Lord"
+   }
+  ],
+  [
+   "Jn 11, 33-36",
+   {
+    "fr": "Jésus pleure avec ses amis",
+    "es": "Jesús llora con sus amigos",
+    "en": "Jesus weeps with his friends"
    }
   ],
   [
@@ -201,7 +545,7 @@
    "Mt 25, 34-40",
    {
     "fr": "C'est à moi que vous l'avez fait",
-    "es": "A mí me lo hicisteis",
+    "es": "A mí me lo hicieron",
     "en": "You did it for me"
    }
   ],
@@ -214,6 +558,150 @@
    }
   ],
   [
+   "Lc 10, 36-37",
+   {
+    "fr": "Va, et toi aussi fais de même",
+    "es": "Ve y haz tú lo mismo",
+    "en": "Go and do the same"
+   }
+  ],
+  [
+   "Lc 18, 10-14",
+   {
+    "fr": "Deux hommes prient au Temple",
+    "es": "Dos hombres oran en el Templo",
+    "en": "Two men pray in the Temple"
+   }
+  ],
+  [
+   "Mt 5, 23-24",
+   {
+    "fr": "Va d'abord te réconcilier",
+    "es": "Ve primero a reconciliarte",
+    "en": "First go and make peace"
+   }
+  ],
+  [
+   "Mt 7, 3-5",
+   {
+    "fr": "La paille et la poutre",
+    "es": "La paja y la viga",
+    "en": "The speck and the log"
+   }
+  ],
+  [
+   "Lc 13, 6-9",
+   {
+    "fr": "Le figuier qu'on soigne encore",
+    "es": "La higuera que se sigue cuidando",
+    "en": "The fig tree given another chance"
+   }
+  ],
+  [
+   "Mt 9, 12-13",
+   {
+    "fr": "Le médecin des malades",
+    "es": "El médico de los enfermos",
+    "en": "The doctor for the sick"
+   }
+  ],
+  [
+   "Jn 3, 16",
+   {
+    "fr": "Dieu a tant aimé le monde",
+    "es": "Dios amó tanto al mundo",
+    "en": "God so loved the world"
+   }
+  ],
+  [
+   "Jn 12, 24",
+   {
+    "fr": "Le grain de blé",
+    "es": "El grano de trigo",
+    "en": "The grain of wheat"
+   }
+  ],
+  [
+   "Mt 20, 26-28",
+   {
+    "fr": "Le plus grand sert les autres",
+    "es": "El más grande sirve a los demás",
+    "en": "The greatest serves the others"
+   }
+  ],
+  [
+   "Mc 10, 21-22",
+   {
+    "fr": "Jésus le regarda et l'aima",
+    "es": "Jesús lo miró con amor",
+    "en": "Jesus looked at him and loved him"
+   }
+  ],
+  [
+   "Lc 9, 23",
+   {
+    "fr": "Suivre Jésus chaque jour",
+    "es": "Seguir a Jesús cada día",
+    "en": "Following Jesus every day"
+   }
+  ],
+  [
+   "Mt 17, 1-2",
+   {
+    "fr": "Le visage de Jésus brille",
+    "es": "El rostro de Jesús brilla",
+    "en": "Jesus' face shines"
+   }
+  ],
+  [
+   "Mt 17, 5-7",
+   {
+    "fr": "Écoutez-le",
+    "es": "Escúchenlo",
+    "en": "Listen to him"
+   }
+  ],
+  [
+   "Jn 2, 14-16",
+   {
+    "fr": "La maison de mon Père",
+    "es": "La casa de mi Padre",
+    "en": "My Father's house"
+   }
+  ],
+  [
+   "Mt 6, 19-21",
+   {
+    "fr": "Le trésor dans le ciel",
+    "es": "El tesoro en el cielo",
+    "en": "Treasure in heaven"
+   }
+  ],
+  [
+   "Jn 12, 1-3",
+   {
+    "fr": "Le parfum de Marie",
+    "es": "El perfume de María",
+    "en": "Mary's perfume"
+   }
+  ],
+  [
+   "Mc 11, 1-3",
+   {
+    "fr": "Le Seigneur en a besoin",
+    "es": "El Señor lo necesita",
+    "en": "The Lord needs it"
+   }
+  ],
+  [
+   "Jn 12, 20-22",
+   {
+    "fr": "Nous voudrions voir Jésus",
+    "es": "Queremos ver a Jesús",
+    "en": "We want to see Jesus"
+   }
+  ],
+  [
    "Mt 21, 8-9",
    {
     "fr": "Hosanna !",
@@ -222,11 +710,51 @@
    }
   ],
   [
+   "Mt 21, 15-16",
+   {
+    "fr": "Les enfants chantent Hosanna",
+    "es": "Los niños cantan Hosanna",
+    "en": "The children sing Hosanna"
+   }
+  ],
+  [
+   "Jn 12, 46",
+   {
+    "fr": "Une lumière dans le monde",
+    "es": "Una luz en el mundo",
+    "en": "A light in the world"
+   }
+  ],
+  [
+   "Mt 26, 17-19",
+   {
+    "fr": "On prépare le repas de la Pâque",
+    "es": "Preparan la cena de Pascua",
+    "en": "Getting the Passover meal ready"
+   }
+  ],
+  [
    "Jn 13, 4-5",
    {
     "fr": "Jésus lave les pieds de ses amis",
     "es": "Jesús lava los pies a sus amigos",
     "en": "Jesus washes his friends' feet"
+   }
+  ],
+  [
+   "Jn 19, 25-27",
+   {
+    "fr": "Marie près de la croix",
+    "es": "María junto a la cruz",
+    "en": "Mary near the cross"
+   }
+  ],
+  [
+   "Lc 23, 55-56",
+   {
+    "fr": "Les femmes préparent les parfums",
+    "es": "Las mujeres preparan los perfumes",
+    "en": "The women prepare the spices"
    }
   ]
  ],
@@ -240,11 +768,51 @@
    }
   ],
   [
+   "Mt 28, 8-10",
+   {
+    "fr": "Les femmes courent l'annoncer",
+    "es": "Las mujeres corren a anunciarlo",
+    "en": "The women run to tell"
+   }
+  ],
+  [
+   "Jn 20, 3-5",
+   {
+    "fr": "Pierre et Jean courent au tombeau",
+    "es": "Pedro y Juan corren al sepulcro",
+    "en": "Peter and John run to the tomb"
+   }
+  ],
+  [
    "Jn 20, 15-16",
    {
     "fr": "Marie !",
     "es": "¡María!",
     "en": "Mary!"
+   }
+  ],
+  [
+   "Jn 20, 17-18",
+   {
+    "fr": "J'ai vu le Seigneur",
+    "es": "He visto al Señor",
+    "en": "I have seen the Lord"
+   }
+  ],
+  [
+   "Lc 24, 13-15",
+   {
+    "fr": "Deux amis sur la route",
+    "es": "Dos amigos en el camino",
+    "en": "Two friends on the road"
+   }
+  ],
+  [
+   "Lc 24, 28-29",
+   {
+    "fr": "Reste avec nous",
+    "es": "Quédate con nosotros",
+    "en": "Stay with us"
    }
   ],
   [
@@ -256,11 +824,43 @@
    }
   ],
   [
+   "Lc 24, 33-35",
+   {
+    "fr": "Ils repartent tout joyeux",
+    "es": "Vuelven llenos de alegría",
+    "en": "They go back full of joy"
+   }
+  ],
+  [
    "Jn 20, 19-20",
    {
     "fr": "La paix soit avec vous",
     "es": "La paz esté con ustedes",
     "en": "Peace be with you"
+   }
+  ],
+  [
+   "Lc 24, 41-43",
+   {
+    "fr": "Jésus mange du poisson grillé",
+    "es": "Jesús come pescado asado",
+    "en": "Jesus eats grilled fish"
+   }
+  ],
+  [
+   "Jn 20, 24-25",
+   {
+    "fr": "Thomas veut voir",
+    "es": "Tomás quiere ver",
+    "en": "Thomas wants to see"
+   }
+  ],
+  [
+   "Jn 20, 26-29",
+   {
+    "fr": "Mon Seigneur et mon Dieu",
+    "es": "Señor mío y Dios mío",
+    "en": "My Lord and my God"
    }
   ],
   [
@@ -272,11 +872,27 @@
    }
   ],
   [
+   "Jn 21, 7",
+   {
+    "fr": "C'est le Seigneur !",
+    "es": "¡Es el Señor!",
+    "en": "It is the Lord!"
+   }
+  ],
+  [
    "Jn 21, 9-12",
    {
     "fr": "Le petit-déjeuner au bord du lac",
-    "es": "El desayuno a orillas del lago",
+    "es": "El desayuno a la orilla del lago",
     "en": "Breakfast by the lake"
+   }
+  ],
+  [
+   "Jn 21, 15-17",
+   {
+    "fr": "Pierre, m'aimes-tu ?",
+    "es": "Pedro, ¿me quieres?",
+    "en": "Peter, do you love me?"
    }
   ],
   [
@@ -288,6 +904,174 @@
    }
   ],
   [
+   "Jn 10, 14",
+   {
+    "fr": "Je connais mes brebis",
+    "es": "Conozco a mis ovejas",
+    "en": "I know my sheep"
+   }
+  ],
+  [
+   "Jn 10, 27-28",
+   {
+    "fr": "Personne ne les arrachera de ma main",
+    "es": "Nadie las arrebatará de mi mano",
+    "en": "No one will snatch them from my hand"
+   }
+  ],
+  [
+   "Jn 14, 1-3",
+   {
+    "fr": "Une place pour vous",
+    "es": "Un lugar para ustedes",
+    "en": "A place for you"
+   }
+  ],
+  [
+   "Jn 14, 6",
+   {
+    "fr": "Le chemin, la vérité, la vie",
+    "es": "El camino, la verdad y la vida",
+    "en": "The way, the truth and the life"
+   }
+  ],
+  [
+   "Jn 15, 5",
+   {
+    "fr": "La vigne et les sarments",
+    "es": "La vid y los sarmientos",
+    "en": "The vine and the branches"
+   }
+  ],
+  [
+   "Jn 15, 9-11",
+   {
+    "fr": "Ma joie en vous",
+    "es": "Mi alegría en ustedes",
+    "en": "My joy in you"
+   }
+  ],
+  [
+   "Jn 13, 34-35",
+   {
+    "fr": "Aimez-vous les uns les autres",
+    "es": "Ámense los unos a los otros",
+    "en": "Love one another"
+   }
+  ],
+  [
+   "Jn 14, 27",
+   {
+    "fr": "Je vous donne ma paix",
+    "es": "Les doy mi paz",
+    "en": "I give you my peace"
+   }
+  ],
+  [
+   "Jn 16, 22",
+   {
+    "fr": "Une joie que personne ne peut prendre",
+    "es": "Una alegría que nadie puede quitar",
+    "en": "A joy no one can take away"
+   }
+  ],
+  [
+   "Jn 16, 23-24",
+   {
+    "fr": "Demandez et vous recevrez",
+    "es": "Pidan y recibirán",
+    "en": "Ask and you will receive"
+   }
+  ],
+  [
+   "Jn 6, 35",
+   {
+    "fr": "Le pain de vie",
+    "es": "El pan de vida",
+    "en": "The bread of life"
+   }
+  ],
+  [
+   "Jn 6, 37",
+   {
+    "fr": "Je ne rejetterai personne",
+    "es": "No rechazaré a nadie",
+    "en": "I will turn no one away"
+   }
+  ],
+  [
+   "Jn 11, 25-26",
+   {
+    "fr": "La résurrection et la vie",
+    "es": "La resurrección y la vida",
+    "en": "The resurrection and the life"
+   }
+  ],
+  [
+   "Jn 14, 18",
+   {
+    "fr": "Je ne vous laisserai pas seuls",
+    "es": "No los dejaré solos",
+    "en": "I will not leave you alone"
+   }
+  ],
+  [
+   "Jn 14, 23",
+   {
+    "fr": "Nous viendrons chez lui",
+    "es": "Vendremos a él",
+    "en": "We will come to him"
+   }
+  ],
+  [
+   "Jn 17, 20-21",
+   {
+    "fr": "Qu'ils soient un",
+    "es": "Que todos sean uno",
+    "en": "That they may be one"
+   }
+  ],
+  [
+   "Mt 28, 19-20",
+   {
+    "fr": "Je suis avec vous tous les jours",
+    "es": "Yo estoy con ustedes todos los días",
+    "en": "I am with you always"
+   }
+  ],
+  [
+   "Mc 16, 15",
+   {
+    "fr": "Allez dans le monde entier",
+    "es": "Vayan por todo el mundo",
+    "en": "Go into all the world"
+   }
+  ],
+  [
+   "Lc 24, 46-48",
+   {
+    "fr": "Vous en serez les témoins",
+    "es": "Ustedes son testigos",
+    "en": "You are witnesses"
+   }
+  ],
+  [
+   "Jn 21, 25",
+   {
+    "fr": "Tant de choses à raconter",
+    "es": "Tantas cosas que contar",
+    "en": "So many things to tell"
+   }
+  ],
+  [
+   "Jn 20, 30-31",
+   {
+    "fr": "Écrit pour que vous croyiez",
+    "es": "Escrito para que crean",
+    "en": "Written so that you may believe"
+   }
+  ],
+  [
    "Lc 24, 50-51",
    {
     "fr": "Jésus monte au ciel",
@@ -296,19 +1080,83 @@
    }
   ],
   [
+   "Lc 24, 52-53",
+   {
+    "fr": "Pleins de joie, ils louent Dieu",
+    "es": "Llenos de alegría, alaban a Dios",
+    "en": "Full of joy, they praise God"
+   }
+  ],
+  [
+   "Mc 16, 19-20",
+   {
+    "fr": "Le Seigneur travaillait avec eux",
+    "es": "El Señor trabajaba con ellos",
+    "en": "The Lord worked with them"
+   }
+  ],
+  [
    "Jn 14, 16-17",
    {
     "fr": "L'Esprit Saint promis",
     "es": "El Espíritu Santo prometido",
-    "en": "The promised Holy Spirit"
+    "en": "The Holy Spirit is promised"
    }
   ],
   [
-   "Jn 13, 34-35",
+   "Jn 14, 26",
    {
-    "fr": "Aimez-vous les uns les autres",
-    "es": "Ámense unos a otros",
-    "en": "Love one another"
+    "fr": "L'Esprit vous apprendra tout",
+    "es": "El Espíritu les enseñará todo",
+    "en": "The Spirit will teach you everything"
+   }
+  ],
+  [
+   "Jn 16, 13",
+   {
+    "fr": "Il vous guidera",
+    "es": "Él los guiará",
+    "en": "He will guide you"
+   }
+  ],
+  [
+   "Jn 3, 8",
+   {
+    "fr": "Le vent souffle où il veut",
+    "es": "El viento sopla donde quiere",
+    "en": "The wind blows where it wills"
+   }
+  ],
+  [
+   "Jn 7, 37-38",
+   {
+    "fr": "Des fleuves d'eau vive",
+    "es": "Ríos de agua viva",
+    "en": "Rivers of living water"
+   }
+  ],
+  [
+   "Jn 15, 26-27",
+   {
+    "fr": "Vous aussi, vous témoignerez",
+    "es": "Ustedes también darán testimonio",
+    "en": "You too will bear witness"
+   }
+  ],
+  [
+   "Lc 24, 49",
+   {
+    "fr": "Attendez la force d'en haut",
+    "es": "Esperen la fuerza de lo alto",
+    "en": "Wait for power from on high"
+   }
+  ],
+  [
+   "Jn 20, 21-22",
+   {
+    "fr": "Recevez l'Esprit Saint",
+    "es": "Reciban el Espíritu Santo",
+    "en": "Receive the Holy Spirit"
    }
   ]
  ],
@@ -322,11 +1170,59 @@
    }
   ],
   [
+   "Jn 1, 1-3",
+   {
+    "fr": "Au commencement",
+    "es": "En el principio",
+    "en": "In the beginning"
+   }
+  ],
+  [
+   "Mt 4, 23",
+   {
+    "fr": "Jésus parcourt la Galilée",
+    "es": "Jesús recorre Galilea",
+    "en": "Jesus goes all over Galilee"
+   }
+  ],
+  [
+   "Mc 1, 35",
+   {
+    "fr": "Jésus prie au petit matin",
+    "es": "Jesús ora de madrugada",
+    "en": "Jesus prays early in the morning"
+   }
+  ],
+  [
    "Mc 4, 37-41",
    {
     "fr": "La tempête apaisée",
     "es": "La tempestad calmada",
     "en": "The storm is calmed"
+   }
+  ],
+  [
+   "Lc 4, 16-18",
+   {
+    "fr": "Jésus lit dans la synagogue",
+    "es": "Jesús lee en la sinagoga",
+    "en": "Jesus reads in the synagogue"
+   }
+  ],
+  [
+   "Jn 1, 37-39",
+   {
+    "fr": "Venez et voyez",
+    "es": "Vengan y vean",
+    "en": "Come and see"
+   }
+  ],
+  [
+   "Mt 5, 3",
+   {
+    "fr": "Heureux les pauvres de cœur",
+    "es": "Felices los pobres de espíritu",
+    "en": "Blessed are the poor in spirit"
    }
   ],
   [
@@ -338,11 +1234,59 @@
    }
   ],
   [
+   "Mc 2, 11-12",
+   {
+    "fr": "Lève-toi et marche",
+    "es": "Levántate y camina",
+    "en": "Get up and walk"
+   }
+  ],
+  [
+   "Lc 5, 10-11",
+   {
+    "fr": "Ils laissent tout",
+    "es": "Lo dejan todo",
+    "en": "They leave everything"
+   }
+  ],
+  [
+   "Jn 1, 40-42",
+   {
+    "fr": "André amène son frère",
+    "es": "Andrés lleva a su hermano",
+    "en": "Andrew brings his brother"
+   }
+  ],
+  [
    "Mt 6, 26",
    {
     "fr": "Les oiseaux du ciel",
     "es": "Los pájaros del cielo",
     "en": "The birds of the air"
+   }
+  ],
+  [
+   "Mt 5, 13",
+   {
+    "fr": "Le sel de la terre",
+    "es": "La sal de la tierra",
+    "en": "The salt of the earth"
+   }
+  ],
+  [
+   "Mc 3, 13-14",
+   {
+    "fr": "Jésus choisit ses amis",
+    "es": "Jesús elige a sus amigos",
+    "en": "Jesus chooses his friends"
+   }
+  ],
+  [
+   "Lc 6, 12-13",
+   {
+    "fr": "Une nuit de prière",
+    "es": "Una noche de oración",
+    "en": "A night of prayer"
    }
   ],
   [
@@ -354,11 +1298,59 @@
    }
   ],
   [
+   "Jn 1, 45-46",
+   {
+    "fr": "Viens et vois",
+    "es": "Ven y verás",
+    "en": "Come and see for yourself"
+   }
+  ],
+  [
+   "Mt 5, 4-6",
+   {
+    "fr": "Heureux ceux qui pleurent",
+    "es": "Felices los que lloran",
+    "en": "Blessed are those who mourn"
+   }
+  ],
+  [
+   "Mc 4, 21",
+   {
+    "fr": "La lampe sur le lampadaire",
+    "es": "La lámpara en el candelero",
+    "en": "The lamp on the stand"
+   }
+  ],
+  [
    "Lc 17, 12-16",
    {
     "fr": "Le lépreux qui revient dire merci",
     "es": "El leproso que vuelve a dar gracias",
     "en": "The leper who came back to say thank you"
+   }
+  ],
+  [
+   "Lc 6, 36",
+   {
+    "fr": "Soyez pleins de bonté",
+    "es": "Sean misericordiosos",
+    "en": "Be merciful"
+   }
+  ],
+  [
+   "Jn 1, 47-49",
+   {
+    "fr": "Je t'ai vu sous le figuier",
+    "es": "Te vi debajo de la higuera",
+    "en": "I saw you under the fig tree"
+   }
+  ],
+  [
+   "Mc 4, 26-28",
+   {
+    "fr": "La graine qui pousse toute seule",
+    "es": "La semilla que crece sola",
+    "en": "The seed that grows by itself"
    }
   ],
   [
@@ -370,11 +1362,59 @@
    }
   ],
   [
+   "Lc 6, 37-38",
+   {
+    "fr": "Donnez, et l'on vous donnera",
+    "es": "Den, y se les dará",
+    "en": "Give, and it will be given to you"
+   }
+  ],
+  [
+   "Jn 2, 1-5",
+   {
+    "fr": "Faites tout ce qu'il vous dira",
+    "es": "Hagan lo que él les diga",
+    "en": "Do whatever he tells you"
+   }
+  ],
+  [
+   "Mt 5, 37",
+   {
+    "fr": "Que votre oui soit oui",
+    "es": "Que su sí sea sí",
+    "en": "Let your yes be yes"
+   }
+  ],
+  [
    "Mc 5, 41-42",
    {
     "fr": "Petite fille, lève-toi !",
     "es": "¡Niña, levántate!",
     "en": "Little girl, get up!"
+   }
+  ],
+  [
+   "Mc 5, 35-36",
+   {
+    "fr": "Ne crains pas, crois seulement",
+    "es": "No temas, solamente cree",
+    "en": "Do not be afraid, just believe"
+   }
+  ],
+  [
+   "Lc 6, 45",
+   {
+    "fr": "Le bien qui vient du cœur",
+    "es": "El bien que sale del corazón",
+    "en": "The good that comes from the heart"
+   }
+  ],
+  [
+   "Jn 4, 49-51",
+   {
+    "fr": "Ton fils est vivant",
+    "es": "Tu hijo vive",
+    "en": "Your son will live"
    }
   ],
   [
@@ -386,11 +1426,59 @@
    }
   ],
   [
+   "Mt 5, 41-42",
+   {
+    "fr": "Faire un pas de plus",
+    "es": "Dar un paso más",
+    "en": "Going the extra mile"
+   }
+  ],
+  [
+   "Mc 6, 7-9",
+   {
+    "fr": "Envoyés deux par deux",
+    "es": "Enviados de dos en dos",
+    "en": "Sent out two by two"
+   }
+  ],
+  [
+   "Lc 8, 1-3",
+   {
+    "fr": "Les femmes qui suivent Jésus",
+    "es": "Las mujeres que siguen a Jesús",
+    "en": "The women who follow Jesus"
+   }
+  ],
+  [
    "Jn 2, 7-10",
    {
     "fr": "L'eau changée en vin",
     "es": "El agua convertida en vino",
     "en": "Water turned into wine"
+   }
+  ],
+  [
+   "Jn 5, 6-9",
+   {
+    "fr": "Veux-tu guérir ?",
+    "es": "¿Quieres curarte?",
+    "en": "Do you want to be healed?"
+   }
+  ],
+  [
+   "Mt 6, 31-33",
+   {
+    "fr": "Ne vous inquiétez pas",
+    "es": "No se preocupen",
+    "en": "Do not worry"
+   }
+  ],
+  [
+   "Mc 6, 56",
+   {
+    "fr": "Toucher son manteau",
+    "es": "Tocar su manto",
+    "en": "Touching his cloak"
    }
   ],
   [
@@ -402,11 +1490,59 @@
    }
   ],
   [
+   "Lc 9, 10-11",
+   {
+    "fr": "Jésus accueille la foule",
+    "es": "Jesús recibe a la gente",
+    "en": "Jesus welcomes the crowd"
+   }
+  ],
+  [
+   "Jn 6, 12-13",
+   {
+    "fr": "Ramassez les morceaux",
+    "es": "Recojan los pedazos",
+    "en": "Gather up the pieces"
+   }
+  ],
+  [
+   "Mt 6, 34",
+   {
+    "fr": "Chaque jour suffit",
+    "es": "Cada día basta",
+    "en": "Each day is enough"
+   }
+  ],
+  [
    "Lc 5, 4-6",
    {
     "fr": "La pêche extraordinaire",
     "es": "La pesca extraordinaria",
     "en": "An amazing catch"
+   }
+  ],
+  [
+   "Mc 7, 37",
+   {
+    "fr": "Il a bien fait toutes choses",
+    "es": "Todo lo ha hecho bien",
+    "en": "He has done everything well"
+   }
+  ],
+  [
+   "Lc 9, 57-58",
+   {
+    "fr": "Les renards ont des terriers",
+    "es": "Los zorros tienen madrigueras",
+    "en": "Foxes have holes"
+   }
+  ],
+  [
+   "Jn 6, 68-69",
+   {
+    "fr": "À qui irions-nous ?",
+    "es": "¿A quién iremos?",
+    "en": "To whom shall we go?"
    }
   ],
   [
@@ -418,11 +1554,59 @@
    }
   ],
   [
+   "Mt 7, 13-14",
+   {
+    "fr": "La porte étroite",
+    "es": "La puerta estrecha",
+    "en": "The narrow gate"
+   }
+  ],
+  [
+   "Mc 8, 23-25",
+   {
+    "fr": "L'aveugle qui voit des arbres",
+    "es": "El ciego que ve árboles",
+    "en": "The blind man who sees trees"
+   }
+  ],
+  [
+   "Lc 10, 1-2",
+   {
+    "fr": "Les soixante-douze disciples",
+    "es": "Los setenta y dos discípulos",
+    "en": "The seventy-two disciples"
+   }
+  ],
+  [
    "Mc 12, 41-44",
    {
     "fr": "Les deux petites pièces",
     "es": "Las dos moneditas",
     "en": "The two small coins"
+   }
+  ],
+  [
+   "Jn 8, 31-32",
+   {
+    "fr": "La vérité vous rendra libres",
+    "es": "La verdad los hará libres",
+    "en": "The truth will set you free"
+   }
+  ],
+  [
+   "Mt 7, 16-18",
+   {
+    "fr": "On reconnaît l'arbre à ses fruits",
+    "es": "Por sus frutos se conoce el árbol",
+    "en": "A tree is known by its fruit"
+   }
+  ],
+  [
+   "Mc 9, 23-24",
+   {
+    "fr": "Je crois, aide-moi !",
+    "es": "¡Creo, ayúdame!",
+    "en": "I believe, help me!"
    }
   ],
   [
@@ -434,11 +1618,59 @@
    }
   ],
   [
+   "Lc 10, 17-20",
+   {
+    "fr": "Vos noms sont écrits dans le ciel",
+    "es": "Sus nombres están escritos en el cielo",
+    "en": "Your names are written in heaven"
+   }
+  ],
+  [
+   "Jn 10, 9",
+   {
+    "fr": "Je suis la porte",
+    "es": "Yo soy la puerta",
+    "en": "I am the gate"
+   }
+  ],
+  [
+   "Mt 8, 5-8",
+   {
+    "fr": "Dis seulement une parole",
+    "es": "Di solamente una palabra",
+    "en": "Only say the word"
+   }
+  ],
+  [
    "Mc 1, 16-18",
    {
     "fr": "Jésus appelle des pêcheurs",
     "es": "Jesús llama a unos pescadores",
     "en": "Jesus calls some fishermen"
+   }
+  ],
+  [
+   "Mc 9, 35-37",
+   {
+    "fr": "Accueillir un enfant",
+    "es": "Recibir a un niño",
+    "en": "Welcoming a child"
+   }
+  ],
+  [
+   "Lc 10, 21",
+   {
+    "fr": "Jésus déborde de joie",
+    "es": "Jesús se llena de alegría",
+    "en": "Jesus is filled with joy"
+   }
+  ],
+  [
+   "Jn 10, 10",
+   {
+    "fr": "La vie en abondance",
+    "es": "Vida en abundancia",
+    "en": "Life to the full"
    }
   ],
   [
@@ -450,11 +1682,59 @@
    }
   ],
   [
+   "Mt 8, 14-15",
+   {
+    "fr": "La belle-mère de Pierre",
+    "es": "La suegra de Pedro",
+    "en": "Peter's mother-in-law"
+   }
+  ],
+  [
+   "Lc 10, 23-24",
+   {
+    "fr": "Heureux vos yeux",
+    "es": "Felices sus ojos",
+    "en": "Blessed are your eyes"
+   }
+  ],
+  [
+   "Jn 11, 5",
+   {
+    "fr": "Jésus aimait ses amis",
+    "es": "Jesús quería a sus amigos",
+    "en": "Jesus loved his friends"
+   }
+  ],
+  [
    "Mt 13, 31-32",
    {
     "fr": "La toute petite graine",
     "es": "La semilla más pequeña",
     "en": "The tiniest seed"
+   }
+  ],
+  [
+   "Mt 9, 20-22",
+   {
+    "fr": "La femme qui touche le manteau",
+    "es": "La mujer que toca el manto",
+    "en": "The woman who touches his cloak"
+   }
+  ],
+  [
+   "Lc 11, 1",
+   {
+    "fr": "Apprends-nous à prier",
+    "es": "Enséñanos a orar",
+    "en": "Teach us to pray"
+   }
+  ],
+  [
+   "Jn 12, 26",
+   {
+    "fr": "Là où je suis",
+    "es": "Donde yo esté",
+    "en": "Where I am"
    }
   ],
   [
@@ -466,11 +1746,59 @@
    }
   ],
   [
+   "Mt 9, 27-30",
+   {
+    "fr": "Deux aveugles",
+    "es": "Dos ciegos",
+    "en": "Two blind men"
+   }
+  ],
+  [
+   "Lc 11, 5-8",
+   {
+    "fr": "L'ami qui frappe à minuit",
+    "es": "El amigo que llama a medianoche",
+    "en": "The friend at midnight"
+   }
+  ],
+  [
+   "Jn 13, 14-15",
+   {
+    "fr": "Faites comme moi",
+    "es": "Hagan como yo",
+    "en": "Do as I have done"
+   }
+  ],
+  [
    "Jn 10, 3-4",
    {
     "fr": "Il appelle ses brebis par leur nom",
     "es": "Llama a sus ovejas por su nombre",
     "en": "He calls his sheep by name"
+   }
+  ],
+  [
+   "Mt 9, 35-36",
+   {
+    "fr": "Jésus a pitié de la foule",
+    "es": "Jesús se compadece de la gente",
+    "en": "Jesus has compassion on the crowd"
+   }
+  ],
+  [
+   "Lc 11, 27-28",
+   {
+    "fr": "Heureux ceux qui écoutent",
+    "es": "Felices los que escuchan",
+    "en": "Blessed are those who listen"
+   }
+  ],
+  [
+   "Jn 15, 12-13",
+   {
+    "fr": "Le plus grand amour",
+    "es": "El amor más grande",
+    "en": "The greatest love"
    }
   ],
   [
@@ -482,11 +1810,59 @@
    }
   ],
   [
+   "Mt 9, 37-38",
+   {
+    "fr": "Beaucoup de travail dans les champs",
+    "es": "Mucho trabajo en el campo",
+    "en": "A big harvest"
+   }
+  ],
+  [
+   "Lc 12, 32",
+   {
+    "fr": "N'aie pas peur, petit troupeau",
+    "es": "No temas, pequeño rebaño",
+    "en": "Do not be afraid, little flock"
+   }
+  ],
+  [
+   "Jn 15, 16",
+   {
+    "fr": "Je vous ai choisis",
+    "es": "Yo los elegí",
+    "en": "I chose you"
+   }
+  ],
+  [
    "Mt 8, 2-3",
    {
     "fr": "Je le veux, sois guéri",
     "es": "Quiero, queda limpio",
     "en": "I do will it, be healed"
+   }
+  ],
+  [
+   "Mt 10, 2-4",
+   {
+    "fr": "Les noms des douze apôtres",
+    "es": "Los nombres de los doce apóstoles",
+    "en": "The names of the twelve apostles"
+   }
+  ],
+  [
+   "Lc 13, 10-13",
+   {
+    "fr": "La femme courbée",
+    "es": "La mujer encorvada",
+    "en": "The bent-over woman"
+   }
+  ],
+  [
+   "Mt 10, 42",
+   {
+    "fr": "Un verre d'eau fraîche",
+    "es": "Un vaso de agua fresca",
+    "en": "A cup of cold water"
    }
   ],
   [
@@ -498,11 +1874,51 @@
    }
   ],
   [
+   "Mt 11, 25",
+   {
+    "fr": "Montré aux tout-petits",
+    "es": "Revelado a los pequeños",
+    "en": "Shown to little children"
+   }
+  ],
+  [
+   "Lc 14, 12-14",
+   {
+    "fr": "Invite ceux qui ne peuvent pas te rendre",
+    "es": "Invita a quien no te puede devolver",
+    "en": "Invite those who cannot repay you"
+   }
+  ],
+  [
    "Mt 11, 28",
    {
     "fr": "Venez à moi",
     "es": "Vengan a mí",
     "en": "Come to me"
+   }
+  ],
+  [
+   "Mt 11, 29-30",
+   {
+    "fr": "Mon fardeau est léger",
+    "es": "Mi carga es liviana",
+    "en": "My burden is light"
+   }
+  ],
+  [
+   "Lc 14, 21-23",
+   {
+    "fr": "Fais entrer tout le monde",
+    "es": "Haz entrar a todos",
+    "en": "Bring everyone in"
+   }
+  ],
+  [
+   "Mt 12, 10-13",
+   {
+    "fr": "La main guérie",
+    "es": "La mano curada",
+    "en": "The healed hand"
    }
   ],
   [
@@ -514,11 +1930,59 @@
    }
   ],
   [
+   "Lc 14, 28-30",
+   {
+    "fr": "Construire une tour",
+    "es": "Construir una torre",
+    "en": "Building a tower"
+   }
+  ],
+  [
+   "Mt 12, 49-50",
+   {
+    "fr": "Voici ma famille",
+    "es": "Esta es mi familia",
+    "en": "Here is my family"
+   }
+  ],
+  [
+   "Lc 15, 1-2",
+   {
+    "fr": "Jésus mange avec tout le monde",
+    "es": "Jesús come con todos",
+    "en": "Jesus eats with everyone"
+   }
+  ],
+  [
    "Jn 15, 15",
    {
     "fr": "Je vous appelle mes amis",
     "es": "Os llamo amigos",
     "en": "I call you friends"
+   }
+  ],
+  [
+   "Mt 13, 33",
+   {
+    "fr": "Le levain dans la pâte",
+    "es": "La levadura en la masa",
+    "en": "Yeast in the dough"
+   }
+  ],
+  [
+   "Lc 15, 31-32",
+   {
+    "fr": "Tout ce qui est à moi est à toi",
+    "es": "Todo lo mío es tuyo",
+    "en": "All I have is yours"
+   }
+  ],
+  [
+   "Mt 13, 44",
+   {
+    "fr": "Le trésor caché",
+    "es": "El tesoro escondido",
+    "en": "The hidden treasure"
    }
   ],
   [
@@ -530,11 +1994,59 @@
    }
   ],
   [
+   "Lc 16, 10",
+   {
+    "fr": "Fidèle dans les petites choses",
+    "es": "Fiel en lo pequeño",
+    "en": "Faithful in small things"
+   }
+  ],
+  [
+   "Mt 13, 45-46",
+   {
+    "fr": "La belle perle",
+    "es": "La perla preciosa",
+    "en": "The fine pearl"
+   }
+  ],
+  [
+   "Lc 17, 5-6",
+   {
+    "fr": "Une foi grande comme une graine",
+    "es": "Una fe como una semilla",
+    "en": "Faith like a seed"
+   }
+  ],
+  [
    "Mt 18, 12-13",
    {
     "fr": "Le berger qui cherche sa brebis",
     "es": "El pastor que busca su oveja",
     "en": "The shepherd who looks for his sheep"
+   }
+  ],
+  [
+   "Mt 14, 19-21",
+   {
+    "fr": "Douze paniers pleins",
+    "es": "Doce canastas llenas",
+    "en": "Twelve baskets full"
+   }
+  ],
+  [
+   "Lc 18, 2-5",
+   {
+    "fr": "La veuve qui insiste",
+    "es": "La viuda insistente",
+    "en": "The widow who keeps asking"
+   }
+  ],
+  [
+   "Mt 14, 22-23",
+   {
+    "fr": "Jésus prie seul sur la montagne",
+    "es": "Jesús ora solo en el monte",
+    "en": "Jesus prays alone on the mountain"
    }
   ],
   [
@@ -546,11 +2058,59 @@
    }
   ],
   [
+   "Lc 22, 27",
+   {
+    "fr": "Celui qui sert",
+    "es": "El que sirve",
+    "en": "The one who serves"
+   }
+  ],
+  [
+   "Mt 15, 26-28",
+   {
+    "fr": "La foi d'une maman",
+    "es": "La fe de una mamá",
+    "en": "A mother's faith"
+   }
+  ],
+  [
+   "Mt 15, 30-31",
+   {
+    "fr": "Tout le monde est guéri",
+    "es": "Todos son curados",
+    "en": "Everyone is healed"
+   }
+  ],
+  [
    "Mt 9, 9",
    {
     "fr": "Matthieu se lève",
     "es": "Mateo se levanta",
     "en": "Matthew gets up"
+   }
+  ],
+  [
+   "Mt 16, 13-16",
+   {
+    "fr": "Tu es le Christ",
+    "es": "Tú eres el Mesías",
+    "en": "You are the Christ"
+   }
+  ],
+  [
+   "Mt 16, 18",
+   {
+    "fr": "Tu es Pierre",
+    "es": "Tú eres Pedro",
+    "en": "You are Peter"
+   }
+  ],
+  [
+   "Mt 18, 10",
+   {
+    "fr": "Leurs anges dans le ciel",
+    "es": "Sus ángeles en el cielo",
+    "en": "Their angels in heaven"
    }
   ],
   [
@@ -562,11 +2122,59 @@
    }
   ],
   [
+   "Mt 18, 19-20",
+   {
+    "fr": "Réunis en mon nom",
+    "es": "Reunidos en mi nombre",
+    "en": "Gathered in my name"
+   }
+  ],
+  [
+   "Mt 19, 26",
+   {
+    "fr": "Tout est possible à Dieu",
+    "es": "Para Dios todo es posible",
+    "en": "With God all things are possible"
+   }
+  ],
+  [
+   "Mt 21, 28-30",
+   {
+    "fr": "Les deux fils",
+    "es": "Los dos hijos",
+    "en": "The two sons"
+   }
+  ],
+  [
    "Mt 13, 3-8",
    {
     "fr": "Le semeur",
     "es": "El sembrador",
     "en": "The sower"
+   }
+  ],
+  [
+   "Mt 24, 35",
+   {
+    "fr": "Mes paroles ne passeront pas",
+    "es": "Mis palabras no pasarán",
+    "en": "My words will not pass away"
+   }
+  ],
+  [
+   "Mt 25, 19-21",
+   {
+    "fr": "Entre dans la joie",
+    "es": "Entra en la alegría",
+    "en": "Come and share the joy"
+   }
+  ],
+  [
+   "Jn 10, 16",
+   {
+    "fr": "Un seul troupeau",
+    "es": "Un solo rebaño",
+    "en": "One flock"
    }
   ],
   [
@@ -578,11 +2186,59 @@
    }
   ],
   [
+   "Lc 4, 40",
+   {
+    "fr": "Jésus pose les mains sur chacun",
+    "es": "Jesús impone las manos a cada uno",
+    "en": "Jesus lays his hands on each one"
+   }
+  ],
+  [
+   "Mt 4, 19-20",
+   {
+    "fr": "Venez à ma suite",
+    "es": "Vengan conmigo",
+    "en": "Follow me"
+   }
+  ],
+  [
+   "Jn 4, 39-42",
+   {
+    "fr": "Toute la ville vient voir Jésus",
+    "es": "Todo el pueblo viene a ver a Jesús",
+    "en": "The whole town comes to see Jesus"
+   }
+  ],
+  [
    "Jn 8, 12",
    {
     "fr": "Je suis la lumière du monde",
     "es": "Yo soy la luz del mundo",
     "en": "I am the light of the world"
+   }
+  ],
+  [
+   "Mt 7, 26-27",
+   {
+    "fr": "La maison sur le sable",
+    "es": "La casa sobre la arena",
+    "en": "The house on the sand"
+   }
+  ],
+  [
+   "Jn 1, 29",
+   {
+    "fr": "Voici l'Agneau de Dieu",
+    "es": "Este es el Cordero de Dios",
+    "en": "Behold the Lamb of God"
+   }
+  ],
+  [
+   "Mc 1, 32-33",
+   {
+    "fr": "Toute la ville devant la porte",
+    "es": "Todo el pueblo a la puerta",
+    "en": "The whole town at the door"
    }
   ],
   [
@@ -594,11 +2250,59 @@
    }
   ],
   [
+   "Mt 6, 7-8",
+   {
+    "fr": "Votre Père sait ce qu'il vous faut",
+    "es": "Su Padre sabe lo que necesitan",
+    "en": "Your Father knows what you need"
+   }
+  ],
+  [
+   "Lc 5, 1-3",
+   {
+    "fr": "Jésus parle depuis une barque",
+    "es": "Jesús habla desde una barca",
+    "en": "Jesus speaks from a boat"
+   }
+  ],
+  [
+   "Jn 2, 11",
+   {
+    "fr": "Le premier signe de Jésus",
+    "es": "El primer signo de Jesús",
+    "en": "Jesus' first sign"
+   }
+  ],
+  [
    "Mc 7, 33-35",
    {
     "fr": "Ephphata : ouvre-toi",
     "es": "Effetá: ábrete",
     "en": "Ephphatha: be opened"
+   }
+  ],
+  [
+   "Mc 8, 6-8",
+   {
+    "fr": "Sept pains pour une foule",
+    "es": "Siete panes para una multitud",
+    "en": "Seven loaves for a crowd"
+   }
+  ],
+  [
+   "Mt 6, 14",
+   {
+    "fr": "Si vous pardonnez",
+    "es": "Si ustedes perdonan",
+    "en": "If you forgive"
+   }
+  ],
+  [
+   "Lc 8, 15",
+   {
+    "fr": "Un cœur comme une bonne terre",
+    "es": "Un corazón como tierra buena",
+    "en": "A heart like good soil"
    }
   ],
   [
@@ -610,11 +2314,131 @@
    }
   ],
   [
+   "Jn 4, 35",
+   {
+    "fr": "Levez les yeux",
+    "es": "Levanten los ojos",
+    "en": "Look up"
+   }
+  ],
+  [
+   "Mt 7, 1-2",
+   {
+    "fr": "Ne jugez pas",
+    "es": "No juzguen",
+    "en": "Do not judge"
+   }
+  ],
+  [
+   "Lc 14, 10-11",
+   {
+    "fr": "La dernière place",
+    "es": "El último lugar",
+    "en": "The lowest place"
+   }
+  ],
+  [
    "Lc 18, 15-17",
    {
     "fr": "Jésus accueille les tout-petits",
     "es": "Jesús acoge a los pequeños",
     "en": "Jesus welcomes the little ones"
+   }
+  ],
+  [
+   "Jn 6, 51",
+   {
+    "fr": "Le pain venu du ciel",
+    "es": "El pan bajado del cielo",
+    "en": "The bread from heaven"
+   }
+  ],
+  [
+   "Mt 9, 2",
+   {
+    "fr": "Courage, mon enfant",
+    "es": "Ánimo, hijo",
+    "en": "Take heart, my child"
+   }
+  ],
+  [
+   "Lc 15, 25-28",
+   {
+    "fr": "Le grand frère",
+    "es": "El hermano mayor",
+    "en": "The older brother"
+   }
+  ],
+  [
+   "Jn 7, 46",
+   {
+    "fr": "Personne n'a jamais parlé comme lui",
+    "es": "Nadie habló jamás como él",
+    "en": "No one ever spoke like him"
+   }
+  ],
+  [
+   "Mt 18, 14",
+   {
+    "fr": "Aucun petit ne doit se perdre",
+    "es": "Ningún pequeño debe perderse",
+    "en": "Not one little one should be lost"
+   }
+  ],
+  [
+   "Lc 17, 20-21",
+   {
+    "fr": "Le Royaume est au milieu de vous",
+    "es": "El Reino está entre ustedes",
+    "en": "The Kingdom is among you"
+   }
+  ],
+  [
+   "Jn 9, 25",
+   {
+    "fr": "Maintenant je vois !",
+    "es": "¡Ahora veo!",
+    "en": "Now I can see!"
+   }
+  ],
+  [
+   "Lc 22, 19",
+   {
+    "fr": "Faites cela en mémoire de moi",
+    "es": "Hagan esto en memoria mía",
+    "en": "Do this in memory of me"
+   }
+  ],
+  [
+   "Jn 13, 1",
+   {
+    "fr": "Il les aima jusqu'au bout",
+    "es": "Los amó hasta el fin",
+    "en": "He loved them to the end"
+   }
+  ],
+  [
+   "Jn 14, 8-9",
+   {
+    "fr": "Qui m'a vu a vu le Père",
+    "es": "El que me ha visto ha visto al Padre",
+    "en": "Whoever has seen me has seen the Father"
+   }
+  ],
+  [
+   "Jn 15, 1-2",
+   {
+    "fr": "Mon Père est le vigneron",
+    "es": "Mi Padre es el viñador",
+    "en": "My Father is the vinegrower"
+   }
+  ],
+  [
+   "Jn 16, 33",
+   {
+    "fr": "Courage !",
+    "es": "¡Ánimo!",
+    "en": "Take courage!"
    }
   ]
  ]
