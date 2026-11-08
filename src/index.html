@@ -3,15 +3,58 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Ora</title>
-<meta name="description" content="Ora, une app des premiers pas vers Dieu : la fête du jour, une prière, une idée simple.">
+<title>Ora · Les premiers pas vers Dieu, chaque jour</title>
+<meta name="description" content="Ora accompagne les premiers pas vers Dieu : chaque jour la fête ou le saint du jour, une prière, l'Évangile, et un temps en famille avec les enfants. Gratuit, sans compte, sans publicité, utilisable hors ligne.">
+<meta name="application-name" content="Ora">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#FFFBF5">
+<meta name="color-scheme" content="light dark">
+<meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Ora">
+<link rel="alternate" hreflang="fr" href="https://ora-app.co/?lang=fr">
+<link rel="alternate" hreflang="es" href="https://ora-app.co/?lang=es">
+<link rel="alternate" hreflang="en" href="https://ora-app.co/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://ora-app.co/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ora">
+<meta property="og:url" content="https://ora-app.co/">
+<meta property="og:title" content="Ora · Les premiers pas vers Dieu, chaque jour">
+<meta property="og:description" content="La fête du jour, une prière, l'Évangile, et un temps en famille. Gratuit, sans compte, hors ligne.">
+<meta property="og:image" content="https://ora-app.co/og-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Le logo d'Ora au-dessus d'un village peint à l'aquarelle, avec la phrase « Les premiers pas vers Dieu ».">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ora · Les premiers pas vers Dieu, chaque jour">
+<meta name="twitter:description" content="La fête du jour, une prière, l'Évangile, et un temps en famille. Gratuit, sans compte, hors ligne.">
+<meta name="twitter:image" content="https://ora-app.co/og-fr.jpg">
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
-<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Ora",
+  "alternateName": "Ora · Les premiers pas vers Dieu",
+  "url": "https://ora-app.co/",
+  "description": "Une app catholique des premiers pas vers Dieu : la fête ou le saint du jour, une prière, l'Évangile, la Bible, les prières de toujours et un temps en famille avec les enfants.",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "Web, iOS, Android",
+  "browserRequirements": "Requires JavaScript",
+  "inLanguage": ["fr", "es", "en"],
+  "isAccessibleForFree": true,
+  "image": "https://ora-app.co/og-fr.jpg",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+}
+</script>
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
@@ -22,6 +65,14 @@
   <div class="fondu"></div>
 </div>
 <div class="app" id="app"></div>
+<noscript>
+  <div class="sans-js">
+    <h1>Ora</h1>
+    <p lang="fr">Les premiers pas vers Dieu, chaque jour : la fête ou le saint du jour, une prière, l'Évangile, la Bible, les prières de toujours et un temps en famille. Gratuit, sans compte, sans publicité, utilisable hors ligne. Ora a besoin de JavaScript pour s'afficher.</p>
+    <p lang="es">Los primeros pasos hacia Dios, cada día: la fiesta o el santo del día, una oración, el Evangelio, la Biblia y un momento en familia. Gratis, sin cuenta, sin publicidad. Ora necesita JavaScript.</p>
+    <p lang="en">First steps toward God, every day: today's feast or saint, a prayer, the Gospel, the Bible and a family moment. Free, no account, no ads. Ora needs JavaScript.</p>
+  </div>
+</noscript>
 <nav class="barre" id="barre" aria-label="Navigation principale" hidden></nav>
 <script src="js/liturgie.js"></script>
 <script src="js/references.js"></script>

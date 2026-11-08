@@ -35,7 +35,14 @@
     } catch (e) { return def; }
   }
   function ecrireReglages() { try { localStorage.setItem('ora.reglages', JSON.stringify(R)); } catch (e) { /* stockage indisponible */ } }
+  // Langue : celle de l'adresse (?lang=es, pour les liens partagés et les moteurs de recherche), sinon celle choisie
+  // dans les Réglages, sinon celle de l'appareil.
+  function langueAdresse() {
+    var m = /[?&]lang=(fr|es|en)\b/.exec(location.search);
+    return m ? m[1] : null;
+  }
   function langueChoisie() {
+    if (langueAdresse()) { if (!R.langue) { R.langue = langueAdresse(); ecrireReglages(); } return langueAdresse(); }
     if (R.langue) return R.langue;
     var l = ((navigator.languages && navigator.languages[0]) || navigator.language || 'fr').slice(0, 2).toLowerCase();
     return l === 'es' || l === 'ca' || l === 'gl' || l === 'eu' ? 'es' : l === 'en' ? 'en' : 'fr';
@@ -221,6 +228,22 @@
     OraLiturgie.langue(LANG);
     OraLiturgie.region(regionChoisie());
     document.documentElement.lang = LANG;
+    teteDePage();
+  }
+
+  // Titre, description et adresse de référence de la page, dans la langue en cours (onglet du navigateur, moteurs de recherche).
+  var TETE = {
+    fr: ['Ora · Les premiers pas vers Dieu, chaque jour', "Ora accompagne les premiers pas vers Dieu : chaque jour la fête ou le saint du jour, une prière, l'Évangile, et un temps en famille avec les enfants. Gratuit, sans compte, sans publicité, utilisable hors ligne."],
+    es: ['Ora · Los primeros pasos hacia Dios, cada día', 'Ora acompaña los primeros pasos hacia Dios: cada día la fiesta o el santo del día, una oración, el Evangelio y un momento en familia con los niños. Gratis, sin cuenta, sin publicidad, funciona sin conexión.'],
+    en: ['Ora · First steps toward God, every day', "Ora walks with you on your first steps toward God: each day, today's feast or saint, a prayer, the Gospel, and a family moment with children. Free, no account, no ads, works offline."]
+  };
+  function teteDePage() {
+    var t = TETE[LANG] || TETE.fr;
+    document.title = t[0];
+    var d = document.querySelector('meta[name="description"]'); if (d) d.setAttribute('content', t[1]);
+    var c = document.querySelector('link[rel="canonical"]');
+    if (!c) { c = document.createElement('link'); c.rel = 'canonical'; document.head.appendChild(c); }
+    c.href = 'https://ora-app.co/?lang=' + LANG;
   }
 
   // Cherche la première clé liturgique du jour présente dans un dictionnaire (célébration, puis jour férial).
@@ -1085,7 +1108,9 @@
     else if (act === 'langue') {
       // Les contenus de l'autre langue sont dans leur propre fichier (déjà en cache pour le hors-ligne) : on le lit, puis on redessine.
       chargerLangue(id).then(function () {
-        R.langue = id; LANG = id; ecrireReglages(); preparer(); BIBLE = null; bibleLangue = null; chargerBible().then(nettoyerMarques).catch(function () {}); rendreEnPlace();
+        R.langue = id; LANG = id; ecrireReglages();
+        if (langueAdresse()) { try { history.replaceState(history.state, '', location.pathname + location.search.replace(/([?&]lang=)(fr|es|en)/, '$1' + id) + location.hash); } catch (e) { /* adresse inchangée */ } }
+        preparer(); BIBLE = null; bibleLangue = null; chargerBible().then(nettoyerMarques).catch(function () {}); rendreEnPlace();
       }).catch(function (e) { if (window.console) console.error(e); });
     }
     else if (act === 'reglage') { R[el.getAttribute('data-cle')] = id; ecrireReglages(); rendreEnPlace(); majVivant(); }

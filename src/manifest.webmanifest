@@ -1,16 +1,21 @@
 {
-  "name": "Ora",
+  "id": "/",
+  "name": "Ora · Les premiers pas vers Dieu",
   "short_name": "Ora",
-  "description": "Une app des premiers pas vers Dieu.",
+  "description": "La fête du jour, une prière, l'Évangile et un temps en famille. Gratuit, sans compte, hors ligne.",
   "lang": "fr",
+  "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#FFFBF5",
   "theme_color": "#FFFBF5",
+  "categories": ["lifestyle", "books", "education"],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }

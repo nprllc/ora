@@ -202,3 +202,29 @@ test('hors ligne : après une première visite, l\'app s\'ouvre sans réseau, m�
   assert.ok((await p.textContent('body')).includes('Evangelio del día'), 'contenus espagnols hors ligne');
   await ctx.close(); autre.fermer();
 });
+
+test('référencement : ?lang=es ouvre Ora en espagnol (titre, description, langue de la page, adresse de référence) et garde ce choix', async () => {
+  const ctx = await navigateur.newContext({ viewport: { width: 390, height: 844 }, locale: 'fr-FR', serviceWorkers: 'block' });
+  const page = await ctx.newPage();
+  await page.goto(serveur.url + '?lang=es');
+  await page.waitForFunction(() => document.querySelector('#bienvenue') || document.querySelector('.section-jour'), null, { timeout: 15000 });
+  assert.equal(await page.getAttribute('html', 'lang'), 'es');
+  assert.match(await page.title(), /primeros pasos hacia Dios/);
+  assert.match(await page.getAttribute('meta[name=description]', 'content'), /Evangelio/);
+  assert.equal(await page.getAttribute('link[rel=canonical]', 'href'), 'https://ora-app.co/?lang=es');
+  assert.equal(JSON.parse(await page.evaluate(() => localStorage.getItem('ora.reglages'))).langue, 'es');
+  await ctx.close();
+});
+
+test('référencement : icônes, aperçus de lien, robots.txt, sitemap.xml et page 404 sont publiés', async () => {
+  for (const f of ['favicon.ico', 'icons/favicon.svg', 'icons/icon-180.png', 'icons/icon-maskable-512.png', 'og-fr.jpg', 'og-es.jpg', 'og-en.jpg', 'robots.txt', 'sitemap.xml', '404.html']) {
+    const r = await fetch(serveur.url + f);
+    assert.equal(r.status, 200, f);
+  }
+  const html = await (await fetch(serveur.url)).text();
+  for (const m of ['og:image', 'twitter:card', 'hreflang="es"', 'application/ld+json', 'apple-touch-icon']) assert.ok(html.includes(m), m);
+  const ld = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+  assert.equal(ld['@type'], 'WebApplication');
+  const manifeste = await (await fetch(serveur.url + 'manifest.webmanifest')).json();
+  assert.ok(manifeste.icons.some((i) => i.purpose === 'maskable'));
+});

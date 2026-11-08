@@ -146,6 +146,10 @@ for (const f of fs.readdirSync(path.join(SRC, 'img'))) {
   fs.writeFileSync(path.join(DIST, 'img', nom), b); IMAGES[f] = 'img/' + nom;
 }
 fs.copyFileSync(path.join(SRC, 'manifest.webmanifest'), path.join(DIST, 'manifest.webmanifest'));
+// Fichiers servis à la racine du site : robots.txt, sitemap.xml, page 404, aperçus de lien (og-<langue>.jpg),
+// et favicon.ico, que les navigateurs et les moteurs de recherche demandent toujours à cet endroit.
+for (const f of fs.readdirSync(path.join(SRC, 'racine'))) fs.copyFileSync(path.join(SRC, 'racine', f), path.join(DIST, f));
+fs.copyFileSync(path.join(SRC, 'icons', 'favicon.ico'), path.join(DIST, 'favicon.ico'));
 
 // 3. La page : CSS et JS intégrés, données sérialisées sans « < » (pas de fin de balise script possible).
 let html = lire(path.join(SRC, 'index.html'));
