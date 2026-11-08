@@ -1,5 +1,5 @@
 {
- "_note": "Le titre de chaque jour (écran Aujourd'hui), rangé par date civile MM-JJ : le saint du jour du calendrier romain ou du martyrologe, un personnage de la Bible, un grand anniversaire de l'histoire chrétienne, ou, du 17 au 23 décembre, les grandes antiennes « Ô ». Les fêtes et solennités du calendrier (fetes.json, fêtes mobiles) passent avant ; les jours de premier rang (Semaine sainte, octave de Pâques, dimanches de l'Avent, du Carême et de Pâques) gardent leur nom liturgique. Chaque entrée : [titre, phrase d'accroche]. Le français d'abord ; l'espagnol et l'anglais suivront (sans traduction, le nom du temps liturgique reste affiché).",
+ "_note": "Le titre de chaque jour (écran Aujourd'hui), rangé par date civile MM-JJ : le saint du jour du calendrier romain ou du martyrologe, un personnage de la Bible, un grand anniversaire de l'histoire chrétienne, ou, du 17 au 23 décembre, les grandes antiennes « Ô ». Les fêtes et solennités du calendrier (fetes.json, fêtes mobiles) passent avant ; les jours de premier rang (Semaine sainte, octave de Pâques, dimanches de l'Avent, du Carême et de Pâques) gardent leur nom liturgique. Chaque entrée : [titre, phrase d'accroche]. Les 366 jours existent en français, en espagnol et en anglais (même forme dans les trois langues, vérifiée par tests/jours.test.mjs).",
  "fr": {
   "01-01": [
    "Sainte Marie, Mère de Dieu",
@@ -2863,11 +2863,11 @@
    }
   ],
   "11-08": [
-   "Saint Geoffroy d'Amiens",
-   "Un abbé devenu évêque d'Amiens, défenseur des gens simples.",
+   "Saint Geoffroy",
+   "Saint Geoffroy d'Amiens : un abbé devenu évêque d'Amiens, défenseur des gens simples.",
    {
-    "qui": "Geoffroy (1066-1115) est abbé de Nogent, en Champagne, qu'il relève alors qu'il ne compte plus que six moines.",
-    "sens": "Évêque d'Amiens, il soutient les habitants de la ville contre les abus des seigneurs. Le 8 novembre est aussi la fête de sainte Élisabeth de la Trinité.",
+    "qui": "Geoffroy (vers 1066-1115) est abbé de Nogent-sous-Coucy, en Picardie, un monastère qu'il relève alors qu'il ne compte plus que quelques moines.",
+    "sens": "Évêque d'Amiens, il soutient les habitants de la ville contre les abus des seigneurs. Le 8 novembre est aussi la fête de sainte Élisabeth de la Trinité. Dans les Églises orthodoxes, c'est la fête de saint Michel archange et de tous les anges (la « synaxe des archanges ») ; celles qui suivent encore l'ancien calendrier julien la célèbrent le 21 novembre.",
     "vivre": "Défendre quelqu'un de plus faible."
    }
   ],
@@ -6183,11 +6183,11 @@
    }
   ],
   "11-08": [
-   "San Godofredo de Amiens",
-   "Un abad que llegó a obispo de Amiens, defensor de la gente sencilla.",
+   "San Godofredo",
+   "San Godofredo de Amiens: un abad que llegó a obispo de Amiens, defensor de la gente sencilla.",
    {
-    "qui": "Godofredo (1066-1115) es abad de Nogent, en Champaña, que levanta cuando ya solo quedaban seis monjes.",
-    "sens": "Obispo de Amiens, apoya a los habitantes de la ciudad frente a los abusos de los señores. El 8 de noviembre es también la fiesta de santa Isabel de la Trinidad.",
+    "qui": "Godofredo (hacia 1066-1115) es abad de Nogent-sous-Coucy, en Picardía, un monasterio que levanta cuando ya solo quedaban unos pocos monjes.",
+    "sens": "Obispo de Amiens, apoya a los habitantes de la ciudad frente a los abusos de los señores. El 8 de noviembre es también la fiesta de santa Isabel de la Trinidad. En las Iglesias ortodoxas es la fiesta de san Miguel arcángel y de todos los ángeles (la «sinaxis de los arcángeles»); las que siguen todavía el antiguo calendario juliano la celebran el 21 de noviembre.",
     "vivre": "Defender a alguien más débil."
    }
   ],
@@ -9503,11 +9503,11 @@
    }
   ],
   "11-08": [
-   "Saint Godfrey of Amiens",
-   "An abbot who became bishop of Amiens and defended ordinary people.",
+   "Saint Godfrey",
+   "Saint Godfrey of Amiens: an abbot who became bishop of Amiens and defended ordinary people.",
    {
-    "qui": "Godfrey (1066-1115) was abbot of Nogent in Champagne, which he revived when only six monks were left.",
-    "sens": "As bishop of Amiens, he supported the townspeople against the abuses of the lords. 8 November is also the feast of Saint Elizabeth of the Trinity.",
+    "qui": "Godfrey (c. 1066-1115) was abbot of Nogent-sous-Coucy in Picardy, a monastery he revived when only a few monks were left.",
+    "sens": "As bishop of Amiens, he supported the townspeople against the abuses of the lords. 8 November is also the feast of Saint Elizabeth of the Trinity. In the Orthodox Churches it is the feast of Saint Michael the Archangel and all the angels (the “Synaxis of the Archangels”); those that still follow the old Julian calendar celebrate it on 21 November.",
     "vivre": "Stand up for someone weaker."
    }
   ],
