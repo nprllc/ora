@@ -28,7 +28,9 @@ export function versets(ref, livres, moderne) {
     } else brut.push([chap, nombre(a)]);
   }
   const livre = livres && livres[osis];
-  const longueur = moderne ? { Matt: { 17: 27 }, Mark: { 8: 38, 9: 50 } } : {};
-  const liste = livre ? brut.filter(([c, v]) => v <= ((longueur[osis] || {})[c] || 999)).filter(([c, v]) => livre.ch[c - 1] && v <= livre.ch[c - 1].length) : brut;
+  // Longueur des chapitres dans la numérotation moderne, là où elle diffère de la Crampon (voir sources/versification.mjs).
+  const longueur = moderne ? { Matt: { 17: 27 }, Mark: { 4: 41, 8: 38, 9: 50 } } : {};
+  const modern = (c) => (longueur[osis] || {})[c];
+  const liste = livre ? brut.filter(([c, v]) => livre.ch[c - 1] && v <= (modern(c) || livre.ch[c - 1].length)) : brut;
   return { osis, liste };
 }

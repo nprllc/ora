@@ -145,7 +145,7 @@
     var out = [], dernier = 0;
     OraReferences.trouver(html, D.abr, LANG).forEach(function (r) {
       out.push({ t: html.slice(dernier, r.debut), lie: false });
-      var id = r.v1 ? r.osis + '|' + r.c + '|' + r.v1 + '|' + r.v2 : r.osis + '|' + r.c + '|0|0';
+      var id = r.v1 ? r.osis + '|' + r.c + '|' + r.v1 + '|' + r.v2 + (r.c2 ? '|' + r.c2 : '') : r.osis + '|' + r.c + '|0|0';
       out.push({ t: '<button class="ref" data-action="passage" data-id="' + id + '">' + html.slice(r.debut, r.fin) + '</button>', lie: true });
       dernier = r.fin;
     });

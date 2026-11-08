@@ -19,6 +19,8 @@ pose('es', 'Mark', 9, 50, [[9, 49]]);
 pose('en', 'John', 6, 51, [[6, 51], [6, 52]]); decale('en', 'John', 6, 52, 71, 1);
 // Jn 11 : en en, les v. 56 et 57 sont réunis.
 pose('en', 'John', 11, 57, [[11, 56]]);
+// Mc 4 : dans les trois Bibles, le v. 41 est réuni au v. 40 (Vulgate : le chapitre a 40 versets).
+for (const l of ['fr', 'es', 'en']) pose(l, 'Mark', 4, 41, [[4, 40]]);
 // Lc 3 : en es, les v. 37 et 38 sont réunis.
 pose('es', 'Luke', 3, 38, [[3, 37]]);
 

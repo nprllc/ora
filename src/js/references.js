@@ -1,10 +1,11 @@
 /*
  * Ora — repérage des références bibliques dans un texte, pour les rendre cliquables.
  * Formes reconnues (abréviations et noms de livres de la langue, data/abreviations.json) :
- *   « Mt 9, 9 », « Lc 2, 29-32 », « Jn 6:35 » (anglais), « Mi 6, 8a »,
+ *   « Mt 9, 9 », « Lc 2, 29-32 », « Jn 6:35 » (anglais), « Mi 6, 8a », sur deux chapitres « Mt 9, 35 – 10, 1 »,
  *   les suites dans le même livre : « Os 1, 1 ; 7, 14 », « Mt 5, 3.8 »,
  *   les chapitres seuls : « Mt 5-7 », « Ps 23 » (seulement suivis d'une ponctuation ou d'une parenthèse fermante).
- * Chaque référence trouvée donne { debut, fin, osis, c, v1, v2 } (v1 = 0 : chapitre entier).
+ * Chaque référence trouvée donne { debut, fin, osis, c, v1, v2 } (v1 = 0 : chapitre entier ; c2 : chapitre de fin,
+ * pour un passage sur deux chapitres, ou pour « Mt 5-7 »).
  * Utilisé par src/js/app.js et par les tests (tests/references.test.mjs).
  */
 (function (global) {
@@ -16,7 +17,7 @@
   function motif(abr) {
     var noms = Object.keys(abr).sort(function (a, b) { return b.length - a.length; })
       .map(function (n) { return n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); });
-    return new RegExp('(^|[^\\p{L}\\d])(' + noms.join('|') + ')\\.?\\s+(\\d+)(?:\\s*(?:,|:)\\s*(\\d+)[a-e]?(?:\\s*[-–]\\s*(\\d+)[a-e]?)?|\\s*[-–]\\s*(\\d+)(?=\\s*[),;.]|$)|(?=\\s*[),;.]|$))', 'gu');
+    return new RegExp('(^|[^\\p{L}\\d])(' + noms.join('|') + ')\\.?\\s+(\\d+)(?:\\s*(?:,|:)\\s*(\\d+)[a-e]?(?:\\s*[-–]\\s*(\\d+)(?:\\s*(?:,|:)\\s*(\\d+))?[a-e]?)?|\\s*[-–]\\s*(\\d+)(?=\\s*[),;.]|$)|(?=\\s*[),;.]|$))', 'gu');
   }
 
   function trouver(texte, abr, cle) {
@@ -26,9 +27,10 @@
     re.lastIndex = 0;
     while ((m = re.exec(texte))) {
       var osis = abr[m[2]], debut = m.index + m[1].length, fin = re.lastIndex;
-      if (m[4]) out.push({ debut: debut, fin: fin, osis: osis, c: +m[3], v1: +m[4], v2: m[5] ? +m[5] : +m[4] });
-      else if (UN_CHAPITRE[osis]) out.push({ debut: debut, fin: fin, osis: osis, c: 1, v1: +m[3], v2: m[6] ? +m[6] : +m[3] });
-      else out.push({ debut: debut, fin: fin, osis: osis, c: +m[3], v1: 0, v2: 0, c2: m[6] ? +m[6] : null });
+      if (m[4] && m[6]) out.push({ debut: debut, fin: fin, osis: osis, c: +m[3], v1: +m[4], c2: +m[5], v2: +m[6] }); // « Mt 9, 35 – 10, 1 »
+      else if (m[4]) out.push({ debut: debut, fin: fin, osis: osis, c: +m[3], v1: +m[4], v2: m[5] ? +m[5] : +m[4] });
+      else if (UN_CHAPITRE[osis]) out.push({ debut: debut, fin: fin, osis: osis, c: 1, v1: +m[3], v2: m[7] ? +m[7] : +m[3] });
+      else out.push({ debut: debut, fin: fin, osis: osis, c: +m[3], v1: 0, v2: 0, c2: m[7] ? +m[7] : null });
       if (!m[4]) continue;
       // Suites dans le même livre : « ; 7, 14 » ou « . 8 » (verset du même chapitre).
       var reste = texte.slice(fin), suite, decale = fin;

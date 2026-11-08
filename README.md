@@ -57,7 +57,7 @@ La région liturgique n'est pas un réglage : elle suit la langue (France pour l
 
 Trois traductions catholiques du domaine public : Crampon (1923) en français, Douay-Rheims (révision Challoner) en anglais, Biblia Platense (Mgr Straubinger) en espagnol. Les Psaumes sont dans la numérotation hébraïque, comme dans la liturgie.
 
-**Numérotation des versets.** Le Lectionnaire suit la numérotation moderne ; la Crampon et la Douay-Rheims gardent par endroits celle de la Vulgate, et la Platense réunit parfois deux versets. Les correspondances connues sont dans `outils/sources/versification.mjs` (Mt 17, Mc 8-9, Lc 3, Jn 6, Jn 11) ; le lectionnaire en tire, pour chaque passage concerné, la liste des versets propre à chaque Bible (champ `vl`). Un test vérifie que chaque verset cité existe dans les trois Bibles.
+**Numérotation des versets.** Le Lectionnaire suit la numérotation moderne ; la Crampon et la Douay-Rheims gardent par endroits celle de la Vulgate, et la Platense réunit parfois deux versets. Les correspondances connues sont dans `outils/sources/versification.mjs` (Mt 17, Mc 4, Mc 8-9, Lc 3, Jn 6, Jn 11) ; le lectionnaire en tire, pour chaque passage concerné, la liste des versets propre à chaque Bible (champ `vl`). Un test vérifie que chaque verset cité existe dans les trois Bibles.
 
 Les sources des Bibles (plus de 150 Mo) ne sont pas dans le dépôt : texte Crampon extrait de Wikisource ; Douay-Rheims, dépôt `ecclesia-dev/drb` ; Platense, module CrossWire `SpaPlatense` (dépôt `OmarGonD/biblia-elim`). `outils/bible.py` et `outils/bibles.py` les transforment en `data/bible*.json`.
 

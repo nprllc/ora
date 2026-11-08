@@ -18,6 +18,8 @@ test('formes reconnues', () => {
   assert.deepEqual(vu('(Os 1, 1 ; 7, 14)'), ['Os 1, 1', '7, 14']);
   assert.deepEqual(vu('(Mt 5, 3.8)'), ['Mt 5, 3.8']);
   assert.deepEqual(vu('(Mi 6, 8a)'), ['Mi 6, 8a']);
+  assert.deepEqual(R.trouver('(Mt 9, 35 – 10, 1)', ABR.fr, 'fr').map((r) => [r.c, r.v1, r.c2, r.v2]), [[9, 35, 10, 1]]); // sur deux chapitres
+  assert.deepEqual(R.trouver('(Lc 2, 29-32)', ABR.fr, 'fr').map((r) => [r.c, r.v1, r.c2, r.v2]), [[2, 29, undefined, 32]]);
   assert.deepEqual(vu('(Lk 2:29-32)', 'en'), ['Lk 2:29-32']);
   assert.deepEqual(vu('(Sal 130, 1-2)', 'es'), ['Sal 130, 1-2']);
   assert.deepEqual(vu('Catéchisme, n° 1032'), []);
