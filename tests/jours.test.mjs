@@ -33,9 +33,17 @@ for (const l of ['fr', 'es', 'en']) {
     assert.equal(Object.keys(jours).length, 366);
   });
 
-  test(`jours (${l}) : jamais deux fois le même titre`, () => {
-    const vus = new Set();
-    for (const [k, [t]] of Object.entries(jours)) { assert.ok(!vus.has(t), `doublon ${t} (${k})`); vus.add(t); }
+  // Le titre porte le nom court du saint (« Saint Jean ») : il peut revenir ; la phrase dessous, qui donne
+  // le nom complet (« Saint Jean Bosco : … »), ne revient jamais (règle de Nico, 8 novembre 2026).
+  test(`jours (${l}) : jamais deux fois la même phrase ; un titre court est précisé dans la phrase`, () => {
+    const vus = new Set(), fautes = [];
+    for (const [k, [t, ph]] of Object.entries(jours)) {
+      if (vus.has(ph)) fautes.push(`doublon « ${ph} » (${k})`); vus.add(ph);
+      const nom = t.replace(/^(Saint|Sainte|Saints|Saintes|Bienheureux|Bienheureuse|San|Santa|Santo|Santos|Santas|Beato|Beata|Blessed)\s+/, '');
+      const autres = Object.entries(jours).filter(([k2, [t2]]) => k2 !== k && t2 === t);
+      if (autres.length && !(ph.startsWith(t + ' ') || ph.startsWith(t + ',') || (ph.includes(nom) && ph.indexOf(nom) < 40))) fautes.push(`${k} : « ${t} » revient ailleurs, la phrase doit donner le nom complet`);
+    }
+    assert.deepEqual(fautes, []);
   });
 
   test(`temps forts (${l}) : un titre pour chaque jour possible de chaque temps`, () => {
