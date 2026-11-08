@@ -18,6 +18,8 @@ Après chaque lot : `npm run build && npm test && npm run test:e2e`, commit, pus
   8 novembre 2026) ; la référence complète (numéro, lien vatican.va) va dans `reference`, pour la vérification. `auteurId` renvoie à `data/auteurs.json`
   (ajouter l'auteur s'il manque : nom + bio de 2-3 phrases, dans chaque langue disponible).
   **Jamais deux fois de suite le même auteur** (en tenant compte du retour au début de la liste).
+  En espagnol, le texte publié est gardé tel quel, même au « vosotros » (« ¡No temáis! ») : c'est une citation.
+  Si la traduction publiée est introuvable dans une langue, la citation n'a pas cette langue (ex. Jeanne d'Arc en espagnol).
   Uniquement des personnes sans faits graves retenus par l'histoire. Pour l'espagnol et l'anglais, reprendre le
   texte publié dans la langue (même document sur vatican.va), pas une traduction maison ; si introuvable,
   laisser la citation sans cette langue.

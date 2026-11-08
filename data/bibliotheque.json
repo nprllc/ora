@@ -10,6 +10,20 @@
     "source": "Manuscrit C, cité par le Catéchisme de l'Église catholique",
     "auteurId": "therese-de-lisieux",
     "reference": "Manuscrit C, 25 r°, cité par le Catéchisme de l'Église catholique, n° 2558"
+   },
+   "es": {
+    "texte": "Para mí, la oración es un impulso del corazón, una sencilla mirada lanzada hacia el cielo, un grito de reconocimiento y de amor tanto desde dentro de la prueba como desde dentro de la alegría.",
+    "auteur": "Santa Teresa de Lisieux",
+    "source": "Manuscrito C, citado por el Catecismo de la Iglesia Católica",
+    "reference": "Manuscrito C, 25r, citado por el Catecismo de la Iglesia Católica, n. 2558",
+    "auteurId": "therese-de-lisieux"
+   },
+   "en": {
+    "texte": "For me, prayer is a surge of the heart; it is a simple look turned toward heaven, it is a cry of recognition and of love, embracing both trial and joy.",
+    "auteur": "Saint Thérèse of Lisieux",
+    "source": "Manuscript C, quoted in the Catechism of the Catholic Church",
+    "reference": "Manuscript C, 25r, quoted in the Catechism of the Catholic Church, no. 2558",
+    "auteurId": "therese-de-lisieux"
    }
   },
   {
@@ -21,6 +35,20 @@
     "source": "Homélie du début de son pontificat (22 octobre 1978)",
     "auteurId": "jean-paul-ii",
     "reference": "Homélie pour le début de son pontificat, place Saint-Pierre, 22 octobre 1978"
+   },
+   "es": {
+    "texte": "¡No temáis! ¡Abrid, más todavía, abrid de par en par las puertas a Cristo!",
+    "auteur": "San Juan Pablo II",
+    "source": "Homilía en el comienzo de su pontificado (22 de octubre de 1978)",
+    "reference": "Homilía en el comienzo de su pontificado, plaza de San Pedro, 22 de octubre de 1978",
+    "auteurId": "jean-paul-ii"
+   },
+   "en": {
+    "texte": "Do not be afraid. Open wide the doors for Christ.",
+    "auteur": "Saint John Paul II",
+    "source": "Homily for the inauguration of his pontificate (22 October 1978)",
+    "reference": "Homily for the inauguration of his pontificate, Saint Peter's Square, 22 October 1978",
+    "auteurId": "jean-paul-ii"
    }
   },
   {
@@ -32,6 +60,20 @@
     "source": "Exhortation apostolique Evangelii gaudium (24 novembre 2013)",
     "auteurId": "pape-francois",
     "reference": "Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013), n° 3 (vatican.va)"
+   },
+   "es": {
+    "texte": "Dios no se cansa nunca de perdonar, somos nosotros los que nos cansamos de acudir a su misericordia.",
+    "auteur": "Papa Francisco",
+    "source": "Exhortación apostólica Evangelii gaudium (24 de noviembre de 2013)",
+    "reference": "Papa Francisco, exhortación apostólica Evangelii gaudium (24 de noviembre de 2013), n. 3 (vatican.va)",
+    "auteurId": "pape-francois"
+   },
+   "en": {
+    "texte": "God never tires of forgiving us; we are the ones who tire of seeking his mercy.",
+    "auteur": "Pope Francis",
+    "source": "Apostolic exhortation Evangelii gaudium (24 November 2013)",
+    "reference": "Pope Francis, apostolic exhortation Evangelii gaudium (24 November 2013), no. 3 (vatican.va)",
+    "auteurId": "pape-francois"
    }
   },
   {
@@ -43,6 +85,20 @@
     "source": "Discours théologiques, cité par le Catéchisme de l'Église catholique",
     "auteurId": "gregoire-de-nazianze",
     "reference": "Discours théologique 1 (27), 4, cité par le Catéchisme de l'Église catholique, n° 2697"
+   },
+   "es": {
+    "texte": "Es necesario acordarse de Dios más a menudo que de respirar.",
+    "auteur": "San Gregorio Nacianceno",
+    "source": "Discursos teológicos, citado por el Catecismo de la Iglesia Católica",
+    "reference": "Discurso teológico 1 (27), 4, citado por el Catecismo de la Iglesia Católica, n. 2697",
+    "auteurId": "gregoire-de-nazianze"
+   },
+   "en": {
+    "texte": "We must remember God more often than we draw breath.",
+    "auteur": "Saint Gregory of Nazianzus",
+    "source": "Theological Orations, quoted in the Catechism of the Catholic Church",
+    "reference": "Theological Oration 1 (27), 4, quoted in the Catechism of the Catholic Church, no. 2697",
+    "auteurId": "gregoire-de-nazianze"
    }
   },
   {
@@ -54,6 +110,20 @@
     "source": "Paroles de lumière et d'amour, cité par le Catéchisme de l'Église catholique",
     "auteurId": "jean-de-la-croix",
     "reference": "Paroles de lumière et d'amour, 64, cité par le Catéchisme de l'Église catholique, n° 1022"
+   },
+   "es": {
+    "texte": "A la tarde te examinarán en el amor.",
+    "auteur": "San Juan de la Cruz",
+    "source": "Dichos de luz y amor, citado por el Catecismo de la Iglesia Católica",
+    "reference": "Dichos de luz y amor, 64, citado por el Catecismo de la Iglesia Católica, n. 1022",
+    "auteurId": "jean-de-la-croix"
+   },
+   "en": {
+    "texte": "At the evening of life, we shall be judged on our love.",
+    "auteur": "Saint John of the Cross",
+    "source": "Sayings of Light and Love, quoted in the Catechism of the Catholic Church",
+    "reference": "Sayings of Light and Love, 64, quoted in the Catechism of the Catholic Church, no. 1022",
+    "auteurId": "jean-de-la-croix"
    }
   },
   {
@@ -64,6 +134,18 @@
     "auteur": "Un paysan d'Ars, en prière devant le tabernacle, selon son curé, saint Jean-Marie Vianney",
     "source": "Catéchisme de l'Église catholique",
     "reference": "Catéchisme de l'Église catholique, n° 2715"
+   },
+   "es": {
+    "texte": "Yo le miro y él me mira.",
+    "auteur": "Un campesino de Ars, orando ante el sagrario, según su párroco, san Juan María Vianney",
+    "source": "Catecismo de la Iglesia Católica",
+    "reference": "Catecismo de la Iglesia Católica, n. 2715"
+   },
+   "en": {
+    "texte": "I look at him and he looks at me.",
+    "auteur": "A peasant of Ars, praying before the tabernacle, according to his parish priest, Saint John Vianney",
+    "source": "Catechism of the Catholic Church",
+    "reference": "Catechism of the Catholic Church, no. 2715"
    }
   },
   {
@@ -75,6 +157,20 @@
     "source": "Confessions, cité par le pape Léon XIV (17 décembre 2025)",
     "auteurId": "augustin",
     "reference": "Confessions, I, 1, cité par le pape Léon XIV, audience générale du 17 décembre 2025"
+   },
+   "es": {
+    "texte": "Señor, tú nos hiciste para ti y nuestro corazón está inquieto hasta que descanse en ti.",
+    "auteur": "San Agustín",
+    "source": "Confesiones, citado por el papa León XIV (17 de diciembre de 2025)",
+    "reference": "Confesiones, I, 1, citado por el papa León XIV, audiencia general del 17 de diciembre de 2025",
+    "auteurId": "augustin"
+   },
+   "en": {
+    "texte": "Lord, you have made us for yourself, and our hearts are restless until they rest in you.",
+    "auteur": "Saint Augustine",
+    "source": "Confessions, quoted by Pope Leo XIV (17 December 2025)",
+    "reference": "Confessions, I, 1, quoted by Pope Leo XIV, general audience of 17 December 2025",
+    "auteurId": "augustin"
    }
   },
   {
@@ -86,6 +182,20 @@
     "source": "Eclogae, cité par le Catéchisme de l'Église catholique",
     "auteurId": "jean-chrysostome",
     "reference": "Eclogae, 2, cité par le Catéchisme de l'Église catholique, n° 2743"
+   },
+   "es": {
+    "texte": "Conviene que el hombre ore atentamente, bien estando en la plaza o mientras da un paseo.",
+    "auteur": "San Juan Crisóstomo",
+    "source": "Eclogae, citado por el Catecismo de la Iglesia Católica",
+    "reference": "Eclogae, 2, citado por el Catecismo de la Iglesia Católica, n. 2743",
+    "auteurId": "jean-chrysostome"
+   },
+   "en": {
+    "texte": "It is possible to offer fervent prayer even while walking in public or strolling alone.",
+    "auteur": "Saint John Chrysostom",
+    "source": "Eclogae, quoted in the Catechism of the Catholic Church",
+    "reference": "Eclogae, 2, quoted in the Catechism of the Catholic Church, no. 2743",
+    "auteurId": "jean-chrysostome"
    }
   },
   {
@@ -97,6 +207,20 @@
     "source": "Exhortation apostolique Evangelii gaudium (24 novembre 2013)",
     "auteurId": "pape-francois",
     "reference": "Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013), n° 3 (vatican.va)"
+   },
+   "es": {
+    "texte": "Cuando alguien da un pequeño paso hacia Jesús, descubre que Él ya esperaba su llegada con los brazos abiertos.",
+    "auteur": "Papa Francisco",
+    "source": "Exhortación apostólica Evangelii gaudium (24 de noviembre de 2013)",
+    "reference": "Papa Francisco, exhortación apostólica Evangelii gaudium (24 de noviembre de 2013), n. 3 (vatican.va)",
+    "auteurId": "pape-francois"
+   },
+   "en": {
+    "texte": "Whenever we take a step towards Jesus, we come to realize that he is already there, waiting for us with open arms.",
+    "auteur": "Pope Francis",
+    "source": "Apostolic exhortation Evangelii gaudium (24 November 2013)",
+    "reference": "Pope Francis, apostolic exhortation Evangelii gaudium (24 November 2013), no. 3 (vatican.va)",
+    "auteurId": "pape-francois"
    }
   },
   {
@@ -108,6 +232,13 @@
     "source": "Procès de condamnation (1431), cité par le Catéchisme de l'Église catholique",
     "auteurId": "jeanne-d-arc",
     "reference": "Procès de condamnation (1431), cité par le Catéchisme de l'Église catholique, n° 795"
+   },
+   "en": {
+    "texte": "About Jesus Christ and the Church, I simply know they're just one thing, and we shouldn't complicate the matter.",
+    "auteur": "Saint Joan of Arc, to her judges",
+    "source": "Trial of condemnation (1431), quoted in the Catechism of the Catholic Church",
+    "reference": "Trial of condemnation (1431), quoted in the Catechism of the Catholic Church, no. 795",
+    "auteurId": "jeanne-d-arc"
    }
   },
   {
@@ -117,6 +248,20 @@
     "texte": "Le Sacerdoce, c'est l'amour du cœur de Jésus.",
     "auteur": "Saint Jean-Marie Vianney, curé d'Ars",
     "source": "Cité par Benoît XVI, lettre pour l'Année sacerdotale (16 juin 2009)",
+    "auteurId": "jean-marie-vianney"
+   },
+   "es": {
+    "texte": "El Sacerdocio es el amor del corazón de Jesús.",
+    "auteur": "San Juan María Vianney, cura de Ars",
+    "source": "Citado por Benedicto XVI, carta para el Año Sacerdotal (16 de junio de 2009)",
+    "reference": "Citado por Benedicto XVI, carta para la convocación de un Año Sacerdotal (16 de junio de 2009)",
+    "auteurId": "jean-marie-vianney"
+   },
+   "en": {
+    "texte": "The priesthood is the love of the heart of Jesus.",
+    "auteur": "Saint John Vianney, the Curé of Ars",
+    "source": "Quoted by Benedict XVI, letter for the Year for Priests (16 June 2009)",
+    "reference": "Quoted by Benedict XVI, letter proclaiming a Year for Priests (16 June 2009)",
     "auteurId": "jean-marie-vianney"
    }
   },
@@ -129,6 +274,20 @@
     "source": "Encyclique Spe salvi (30 novembre 2007)",
     "auteurId": "benoit-xvi",
     "reference": "Benoît XVI, encyclique Spe salvi (30 novembre 2007), n° 32 (vatican.va)"
+   },
+   "es": {
+    "texte": "Cuando ya nadie me escucha, Dios todavía me escucha.",
+    "auteur": "Benedicto XVI",
+    "source": "Encíclica Spe salvi (30 de noviembre de 2007)",
+    "reference": "Benedicto XVI, encíclica Spe salvi (30 de noviembre de 2007), n. 32 (vatican.va)",
+    "auteurId": "benoit-xvi"
+   },
+   "en": {
+    "texte": "When no one listens to me any more, God still listens to me.",
+    "auteur": "Benedict XVI",
+    "source": "Encyclical Spe salvi (30 November 2007)",
+    "reference": "Benedict XVI, encyclical Spe salvi (30 November 2007), no. 32 (vatican.va)",
+    "auteurId": "benoit-xvi"
    }
   },
   {
@@ -140,6 +299,20 @@
     "source": "Exhortation apostolique Gaudete et exsultate (19 mars 2018)",
     "auteurId": "pape-francois",
     "reference": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 16 (vatican.va)"
+   },
+   "es": {
+    "texte": "Esta santidad a la que el Señor te llama irá creciendo con pequeños gestos.",
+    "auteur": "Papa Francisco",
+    "source": "Exhortación apostólica Gaudete et exsultate (19 de marzo de 2018)",
+    "reference": "Papa Francisco, exhortación apostólica Gaudete et exsultate (19 de marzo de 2018), n. 16 (vatican.va)",
+    "auteurId": "pape-francois"
+   },
+   "en": {
+    "texte": "This holiness to which the Lord calls you will grow through small gestures.",
+    "auteur": "Pope Francis",
+    "source": "Apostolic exhortation Gaudete et exsultate (19 March 2018)",
+    "reference": "Pope Francis, apostolic exhortation Gaudete et exsultate (19 March 2018), no. 16 (vatican.va)",
+    "auteurId": "pape-francois"
    }
   },
   {
@@ -151,6 +324,20 @@
     "source": "Encyclique Deus caritas est (25 décembre 2005)",
     "auteurId": "benoit-xvi",
     "reference": "Encyclique Deus caritas est, n° 1 (25 décembre 2005)"
+   },
+   "es": {
+    "texte": "No se comienza a ser cristiano por una decisión ética o una gran idea, sino por el encuentro con un acontecimiento, con una Persona, que da un nuevo horizonte a la vida y, con ello, una orientación decisiva.",
+    "auteur": "Benedicto XVI",
+    "source": "Encíclica Deus caritas est (25 de diciembre de 2005)",
+    "reference": "Encíclica Deus caritas est, n. 1 (25 de diciembre de 2005)",
+    "auteurId": "benoit-xvi"
+   },
+   "en": {
+    "texte": "Being Christian is not the result of an ethical choice or a lofty idea, but the encounter with an event, a person, which gives life a new horizon and a decisive direction.",
+    "auteur": "Benedict XVI",
+    "source": "Encyclical Deus caritas est (25 December 2005)",
+    "reference": "Encyclical Deus caritas est, no. 1 (25 December 2005)",
+    "auteurId": "benoit-xvi"
    }
   },
   {
@@ -162,6 +349,20 @@
     "source": "Exhortation apostolique Gaudete et exsultate (19 mars 2018)",
     "auteurId": "pape-francois",
     "reference": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 122 (vatican.va)"
+   },
+   "es": {
+    "texte": "El santo es capaz de vivir con alegría y sentido del humor.",
+    "auteur": "Papa Francisco",
+    "source": "Exhortación apostólica Gaudete et exsultate (19 de marzo de 2018)",
+    "reference": "Papa Francisco, exhortación apostólica Gaudete et exsultate (19 de marzo de 2018), n. 122 (vatican.va)",
+    "auteurId": "pape-francois"
+   },
+   "en": {
+    "texte": "The saints are joyful and full of good humour.",
+    "auteur": "Pope Francis",
+    "source": "Apostolic exhortation Gaudete et exsultate (19 March 2018)",
+    "reference": "Pope Francis, apostolic exhortation Gaudete et exsultate (19 March 2018), no. 122 (vatican.va)",
+    "auteurId": "pape-francois"
    }
   },
   {
@@ -173,6 +374,20 @@
     "source": "Encyclique Spe salvi (30 novembre 2007)",
     "auteurId": "benoit-xvi",
     "reference": "Benoît XVI, encyclique Spe salvi (30 novembre 2007), n° 2 (vatican.va)"
+   },
+   "es": {
+    "texte": "Quien tiene esperanza vive de otra manera; se le ha dado una vida nueva.",
+    "auteur": "Benedicto XVI",
+    "source": "Encíclica Spe salvi (30 de noviembre de 2007)",
+    "reference": "Benedicto XVI, encíclica Spe salvi (30 de noviembre de 2007), n. 2 (vatican.va)",
+    "auteurId": "benoit-xvi"
+   },
+   "en": {
+    "texte": "The one who has hope lives differently; the one who hopes has been granted the gift of a new life.",
+    "auteur": "Benedict XVI",
+    "source": "Encyclical Spe salvi (30 November 2007)",
+    "reference": "Benedict XVI, encyclical Spe salvi (30 November 2007), no. 2 (vatican.va)",
+    "auteurId": "benoit-xvi"
    }
   },
   {
@@ -184,6 +399,20 @@
     "source": "Exhortation apostolique Gaudete et exsultate (19 mars 2018)",
     "auteurId": "pape-francois",
     "reference": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 34 (vatican.va)"
+   },
+   "es": {
+    "texte": "No tengas miedo de apuntar más alto, de dejarte amar y liberar por Dios.",
+    "auteur": "Papa Francisco",
+    "source": "Exhortación apostólica Gaudete et exsultate (19 de marzo de 2018)",
+    "reference": "Papa Francisco, exhortación apostólica Gaudete et exsultate (19 de marzo de 2018), n. 34 (vatican.va)",
+    "auteurId": "pape-francois"
+   },
+   "en": {
+    "texte": "Do not be afraid to set your sights higher, to allow yourself to be loved and liberated by God.",
+    "auteur": "Pope Francis",
+    "source": "Apostolic exhortation Gaudete et exsultate (19 March 2018)",
+    "reference": "Pope Francis, apostolic exhortation Gaudete et exsultate (19 March 2018), no. 34 (vatican.va)",
+    "auteurId": "pape-francois"
    }
   }
  ],

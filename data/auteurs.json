@@ -1,12 +1,14 @@
 {
-  "_note": "Courtes présentations des personnes citées. Faits vérifiés : Vatican (vatican.va), Encyclopædia Britannica, sanctuaire de Lisieux ; Catéchisme de l'Église catholique ; sanctuaire d'Ars. Les auteurs ajoutés pour la bibliothèque des jours ordinaires n'ont pour l'instant que leur présentation en français.",
+  "_note": "Courtes présentations des personnes citées. Faits vérifiés : Vatican (vatican.va), Encyclopædia Britannica, sanctuaire de Lisieux ; Catéchisme de l'Église catholique ; sanctuaire d'Ars. Chaque auteur a sa présentation en français, en espagnol et en anglais.",
   "therese-de-lisieux": {
     "fr": { "nom": "Sainte Thérèse de Lisieux", "bio": "Religieuse carmélite française (1873-1897), morte à 24 ans au carmel de Lisieux, en Normandie. Son autobiographie, Histoire d'une âme, a touché des millions de lecteurs par sa « petite voie » : faire confiance à Dieu comme un enfant. Elle a été proclamée sainte en 1925 et docteur de l'Église en 1997." },
     "es": { "nom": "Santa Teresa de Lisieux", "bio": "Religiosa carmelita francesa (1873-1897), murió a los 24 años en el carmelo de Lisieux, en Normandía. Su autobiografía, Historia de un alma, ha conmovido a millones de lectores con su «caminito»: confiar en Dios como un niño. Fue proclamada santa en 1925 y doctora de la Iglesia en 1997." },
     "en": { "nom": "Saint Thérèse of Lisieux", "bio": "French Carmelite nun (1873-1897) who died at 24 in the Carmel of Lisieux, in Normandy. Her autobiography, Story of a Soul, has touched millions of readers with her “little way”: trusting God like a child. She was canonized in 1925 and declared a Doctor of the Church in 1997." }
   },
   "pape-francois": {
-    "fr": { "nom": "Pape François", "bio": "Jorge Mario Bergoglio (1936-2025), jésuite argentin, archevêque de Buenos Aires, pape de 2013 à 2025. Premier pape venu d'Amérique, il a beaucoup parlé de la miséricorde de Dieu, de la joie de l'Évangile et du soin des plus pauvres et de la Création." }
+    "fr": { "nom": "Pape François", "bio": "Jorge Mario Bergoglio (1936-2025), jésuite argentin, archevêque de Buenos Aires, pape de 2013 à 2025. Premier pape venu d'Amérique, il a beaucoup parlé de la miséricorde de Dieu, de la joie de l'Évangile et du soin des plus pauvres et de la Création." },
+    "es": { "nom": "Papa Francisco", "bio": "Jorge Mario Bergoglio (1936-2025), jesuita argentino, arzobispo de Buenos Aires, papa de 2013 a 2025. Primer papa venido de América, habló mucho de la misericordia de Dios, de la alegría del Evangelio y del cuidado de los más pobres y de la Creación." },
+    "en": { "nom": "Pope Francis", "bio": "Jorge Mario Bergoglio (1936-2025), an Argentine Jesuit, Archbishop of Buenos Aires, pope from 2013 to 2025. The first pope from the Americas, he spoke much about God's mercy, the joy of the Gospel and care for the poorest and for Creation." }
   },
   "benoit-xvi": {
     "fr": { "nom": "Benoît XVI", "bio": "Joseph Ratzinger (1927-2022), théologien allemand, pape de 2005 à 2013. Il a écrit trois livres sur Jésus de Nazareth et trois encycliques, dont Deus caritas est (« Dieu est amour »). En 2013, il a renoncé à sa charge, ce qu'aucun pape n'avait fait depuis près de six siècles." },
@@ -29,24 +31,38 @@
     "en": { "nom": "Catechism of the Catholic Church", "bio": "The official summary of the Catholic faith, published in 1992 by Pope John Paul II. In four parts it explains what the Church believes, celebrates, lives and prays. It is Ora's reference for everything to do with doctrine." }
   },
   "jean-paul-ii": {
-    "fr": { "nom": "Saint Jean-Paul II", "bio": "Karol Wojtyła (1920-2005), archevêque de Cracovie, élu pape en 1978 : le premier pape polonais. Pendant près de vingt-sept ans de pontificat, il a voyagé dans le monde entier et lancé les Journées mondiales de la jeunesse. Il a été proclamé saint en 2014." }
+    "fr": { "nom": "Saint Jean-Paul II", "bio": "Karol Wojtyła (1920-2005), archevêque de Cracovie, élu pape en 1978 : le premier pape polonais. Pendant près de vingt-sept ans de pontificat, il a voyagé dans le monde entier et lancé les Journées mondiales de la jeunesse. Il a été proclamé saint en 2014." },
+    "es": { "nom": "San Juan Pablo II", "bio": "Karol Wojtyła (1920-2005), arzobispo de Cracovia, elegido papa en 1978: el primer papa polaco. Durante casi veintisiete años de pontificado viajó por el mundo entero y lanzó las Jornadas Mundiales de la Juventud. Fue proclamado santo en 2014." },
+    "en": { "nom": "Saint John Paul II", "bio": "Karol Wojtyła (1920-2005), Archbishop of Kraków, elected pope in 1978: the first Polish pope. In a pontificate of nearly twenty-seven years he travelled the whole world and launched World Youth Day. He was canonized in 2014." }
   },
   "gregoire-de-nazianze": {
-    "fr": { "nom": "Saint Grégoire de Nazianze", "bio": "Évêque et théologien grec du IVe siècle (vers 329-390), né en Cappadoce, dans l'actuelle Turquie. Ami de saint Basile, il a défendu la foi en la Trinité par des discours restés célèbres. Il est docteur de l'Église." }
+    "fr": { "nom": "Saint Grégoire de Nazianze", "bio": "Évêque et théologien grec du IVe siècle (vers 329-390), né en Cappadoce, dans l'actuelle Turquie. Ami de saint Basile, il a défendu la foi en la Trinité par des discours restés célèbres. Il est docteur de l'Église." },
+    "es": { "nom": "San Gregorio Nacianceno", "bio": "Obispo y teólogo griego del siglo IV (hacia 329-390), nacido en Capadocia, en la actual Turquía. Amigo de san Basilio, defendió la fe en la Trinidad con discursos que se hicieron célebres. Es doctor de la Iglesia." },
+    "en": { "nom": "Saint Gregory of Nazianzus", "bio": "Greek bishop and theologian of the fourth century (c. 329-390), born in Cappadocia, in present-day Turkey. A friend of Saint Basil, he defended faith in the Trinity in famous orations. He is a Doctor of the Church." }
   },
   "jean-de-la-croix": {
-    "fr": { "nom": "Saint Jean de la Croix", "bio": "Carme espagnol (1542-1591), ami de sainte Thérèse d'Avila, avec qui il a réformé l'ordre du Carmel. Emprisonné par ses frères, il y a écrit des poèmes mystiques parmi les plus beaux de la langue espagnole. Il est docteur de l'Église." }
+    "fr": { "nom": "Saint Jean de la Croix", "bio": "Carme espagnol (1542-1591), ami de sainte Thérèse d'Avila, avec qui il a réformé l'ordre du Carmel. Emprisonné par ses frères, il y a écrit des poèmes mystiques parmi les plus beaux de la langue espagnole. Il est docteur de l'Église." },
+    "es": { "nom": "San Juan de la Cruz", "bio": "Carmelita español (1542-1591), amigo de santa Teresa de Ávila, con quien reformó la orden del Carmelo. Encarcelado por sus hermanos, escribió allí algunos de los poemas místicos más bellos de la lengua española. Es doctor de la Iglesia." },
+    "en": { "nom": "Saint John of the Cross", "bio": "Spanish Carmelite (1542-1591), friend of Saint Teresa of Ávila, with whom he reformed the Carmelite order. Imprisoned by his own brothers, he wrote there some of the most beautiful mystical poems in the Spanish language. He is a Doctor of the Church." }
   },
   "augustin": {
-    "fr": { "nom": "Saint Augustin", "bio": "Né en Afrique du Nord (354-430), il a longtemps cherché le sens de sa vie avant de se convertir à 32 ans, grâce notamment aux prières de sa mère, sainte Monique. Devenu évêque d'Hippone, il a raconté son chemin dans les Confessions. Il est docteur de l'Église." }
+    "fr": { "nom": "Saint Augustin", "bio": "Né en Afrique du Nord (354-430), il a longtemps cherché le sens de sa vie avant de se convertir à 32 ans, grâce notamment aux prières de sa mère, sainte Monique. Devenu évêque d'Hippone, il a raconté son chemin dans les Confessions. Il est docteur de l'Église." },
+    "es": { "nom": "San Agustín", "bio": "Nacido en el norte de África (354-430), buscó durante mucho tiempo el sentido de su vida antes de convertirse a los 32 años, gracias sobre todo a las oraciones de su madre, santa Mónica. Siendo obispo de Hipona, contó su camino en las Confesiones. Es doctor de la Iglesia." },
+    "en": { "nom": "Saint Augustine", "bio": "Born in North Africa (354-430), he searched for the meaning of his life for a long time before his conversion at 32, thanks above all to the prayers of his mother, Saint Monica. As Bishop of Hippo, he told his story in the Confessions. He is a Doctor of the Church." }
   },
   "jean-chrysostome": {
-    "fr": { "nom": "Saint Jean Chrysostome", "bio": "Prêtre d'Antioche puis archevêque de Constantinople (vers 349-407). Son surnom, « Bouche d'or », vient de son talent de prédicateur. Il défendait les pauvres avec une grande liberté, ce qui lui valut l'exil. Il est docteur de l'Église." }
+    "fr": { "nom": "Saint Jean Chrysostome", "bio": "Prêtre d'Antioche puis archevêque de Constantinople (vers 349-407). Son surnom, « Bouche d'or », vient de son talent de prédicateur. Il défendait les pauvres avec une grande liberté, ce qui lui valut l'exil. Il est docteur de l'Église." },
+    "es": { "nom": "San Juan Crisóstomo", "bio": "Sacerdote de Antioquía y luego arzobispo de Constantinopla (hacia 349-407). Su sobrenombre, «Boca de oro», viene de su talento de predicador. Defendía a los pobres con gran libertad, lo que le valió el destierro. Es doctor de la Iglesia." },
+    "en": { "nom": "Saint John Chrysostom", "bio": "Priest of Antioch, then Archbishop of Constantinople (c. 349-407). His nickname, “Golden Mouth”, comes from his gift as a preacher. He defended the poor with great freedom, which led to his exile. He is a Doctor of the Church." }
   },
   "jeanne-d-arc": {
-    "fr": { "nom": "Sainte Jeanne d'Arc", "bio": "Jeune paysanne de Lorraine (vers 1412-1431) qui, à 17 ans, a conduit l'armée du roi de France pendant la guerre de Cent Ans. Condamnée et brûlée à Rouen à 19 ans, elle a été réhabilitée en 1456 et proclamée sainte en 1920. Elle est patronne secondaire de la France." }
+    "fr": { "nom": "Sainte Jeanne d'Arc", "bio": "Jeune paysanne de Lorraine (vers 1412-1431) qui, à 17 ans, a conduit l'armée du roi de France pendant la guerre de Cent Ans. Condamnée et brûlée à Rouen à 19 ans, elle a été réhabilitée en 1456 et proclamée sainte en 1920. Elle est patronne secondaire de la France." },
+    "es": { "nom": "Santa Juana de Arco", "bio": "Joven campesina de Lorena (hacia 1412-1431) que, a los 17 años, condujo el ejército del rey de Francia durante la guerra de los Cien Años. Condenada y quemada en Ruan a los 19 años, fue rehabilitada en 1456 y proclamada santa en 1920. Es patrona secundaria de Francia." },
+    "en": { "nom": "Saint Joan of Arc", "bio": "A young peasant girl from Lorraine (c. 1412-1431) who at 17 led the army of the King of France during the Hundred Years' War. Condemned and burned at Rouen at 19, she was rehabilitated in 1456 and canonized in 1920. She is a secondary patron saint of France." }
   },
   "jean-marie-vianney": {
-    "fr": { "nom": "Saint Jean-Marie Vianney", "bio": "Le curé d'Ars (1786-1859), prêtre d'un petit village des Dombes, près de Lyon. Des foules venaient de toute la France pour se confesser à lui. Il est le patron des curés du monde entier." }
+    "fr": { "nom": "Saint Jean-Marie Vianney", "bio": "Le curé d'Ars (1786-1859), prêtre d'un petit village des Dombes, près de Lyon. Des foules venaient de toute la France pour se confesser à lui. Il est le patron des curés du monde entier." },
+    "es": { "nom": "San Juan María Vianney", "bio": "El cura de Ars (1786-1859), sacerdote de un pueblecito de la región de Dombes, cerca de Lyon. Multitudes venían de toda Francia para confesarse con él. Es el patrono de los párrocos del mundo entero." },
+    "en": { "nom": "Saint John Vianney", "bio": "The Curé of Ars (1786-1859), priest of a small village in the Dombes, near Lyon. Crowds came from all over France to make their confession to him. He is the patron saint of parish priests throughout the world." }
   }
 }
