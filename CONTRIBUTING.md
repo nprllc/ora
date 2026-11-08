@@ -6,6 +6,12 @@ Toute contribution passe par une branche et une pull request vers `main`. L'int�
 npm test && npm run build && npm run test:e2e
 ```
 
+## Où écrire : `data/` fait foi
+
+Tout texte d'Ora (prière, explication, titre, histoire…) s'écrit **une seule fois, dans `data/`**. Les scripts d'`outils/` lisent `data/` et n'y recopient aucun texte : ils ne contiennent que des références, des identifiants et des règles (vérifié par `tests/source-unique.test.mjs`). Le README décrit chaque fichier de `data/` (« Les données ») ; chaque fichier commence par une `_note`.
+
+Trois fichiers sont fabriqués par un script, à relancer après avoir modifié leurs sources : `lectionnaire.json` (`npm run lectionnaire`), `prieres-jour.json` (`npm run prieres`, sauf ses parties `traditionnelles` et `notes`, écrites à la main) et, une seule fois, les Bibles (`outils/bible.py`, `outils/bibles.py` : ils écrivent dans `outils/sortie/`, jamais dans `data/`).
+
 ## Ajouter une fête à date fixe
 
 Exemple : une fête propre à l'Espagne, Notre-Dame du Pilier, le 12 octobre.
@@ -31,7 +37,11 @@ Le lectionnaire (`data/lectionnaire.json`) est fabriqué par `outils/lectionnair
 
 ## Ajouter des prières de fête
 
-Dans `outils/prieres_jour.py`, dictionnaire `CELEBRATIONS`, par clé liturgique (`'toussaint'`, `'avent-dim-1'`…) : une prière traditionnelle (son identifiant dans `TRAD`) ou un verset biblique (`('ps130-1', 'Ps', 130, [1, 2])`, numérotation française). Si le lien avec la fête n'est pas évident, ajouter une note dans `NOTES`. Puis `npm run prieres`. Aucune prière ne doit être inventée.
+Dans `outils/prieres_jour.py`, dictionnaire `CELEBRATIONS`, par clé liturgique (`'toussaint'`, `'avent-dim-1'`…) : une prière traditionnelle (son identifiant) ou un verset biblique (`('ps130-1', 'Ps', 130, [1, 2])`, numérotation française). Le texte d'une prière traditionnelle s'écrit dans `data/prieres-jour.json`, partie `traditionnelles` (`fr`, `es`, `en`, `src`) ; si le lien avec la fête n'est pas évident, une note dans la partie `notes`. Puis `npm run prieres`. Aucune prière ne doit être inventée.
+
+## Écrire pour la bibliothèque des jours ordinaires
+
+Citations, réflexions, histoires, portraits et « Le savais-tu ? » (`data/bibliotheque.json`) : suivre les règles de `outils/sources/bibliotheque/GUIDE.md` (sources, alternance des saints, périodes, trois langues, signature courte des citations).
 
 ## Ajouter un contenu éditorial
 

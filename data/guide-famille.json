@@ -1,4 +1,5 @@
 {
+ "_note": "Rituel du coucher d'« En famille » (texte français) : titre, durée, introduction, étapes (mot affiché et texte à lire) et mot de la fin. Traductions : data/i18n/es.json et en.json, clé « guide-famille ». Affiché dans src/js/app.js, vueFamille() et le guide pas à pas « famille-soir ». Écrit à la main ; aucune prière inventée.",
  "titre": "La prière du soir avec ton enfant",
  "duree": "3 minutes",
  "intro": "Un petit rituel pour finir la journée ensemble, à lire à voix haute.",

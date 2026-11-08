@@ -13,7 +13,9 @@ Après chaque lot : `npm run build && npm test && npm run test:e2e`, commit, pus
   doctrine fidèle au Catéchisme, dite simplement ; on tutoie le lecteur quand on s'adresse à lui.
 - **Citations** : chaque citation est vérifiée **à sa source**, mot pour mot, dans sa **traduction publiée**
   (vatican.va pour les papes et le Catéchisme, dans chaque langue). Jamais d'approximation ni d'invention.
-  Courtes (une ou deux phrases). Source précise : document, numéro, date. `auteurId` renvoie à `data/auteurs.json`
+  Courtes (une ou deux phrases). Signature courte dans `source` : le document et sa date, sans répéter l'auteur ni
+  donner de numéro ou de lien (« Exhortation apostolique Evangelii gaudium (24 novembre 2013) », règle de Nico,
+  8 novembre 2026) ; la référence complète (numéro, lien vatican.va) va dans `reference`, pour la vérification. `auteurId` renvoie à `data/auteurs.json`
   (ajouter l'auteur s'il manque : nom + bio de 2-3 phrases, dans chaque langue disponible).
   **Jamais deux fois de suite le même auteur** (en tenant compte du retour au début de la liste).
   Uniquement des personnes sans faits graves retenus par l'histoire. Pour l'espagnol et l'anglais, reprendre le
