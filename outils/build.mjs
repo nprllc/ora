@@ -122,7 +122,19 @@ for (const l of LANGUES) {
 
 // 2. Les fichiers copiés tels quels.
 const BIBLES = { fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' };
-for (const [l, f] of Object.entries(BIBLES)) fs.copyFileSync(path.join(DATA, f), path.join(DIST, `bible-${l}.json`));
+// Chaque Bible reçoit, livre par livre, sa présentation (« res ») et son lien vers l'USCCB (« src ») depuis
+// data/livres-resumes.json, qui fait foi : le texte n'est écrit qu'à un endroit.
+{
+  const resumes = json('livres-resumes.json').livres;
+  for (const [l, f] of Object.entries(BIBLES)) {
+    const b = json(f);
+    for (const x of b.livres) {
+      const r = resumes[x.osis]; if (!r || !r[l]) throw new Error(`livres-resumes.json : ${x.osis} (${l}) manquant`);
+      x.res = r[l]; x.src = 'https://bible.usccb.org/bible/' + r.slug + '/0';
+    }
+    fs.writeFileSync(path.join(DIST, `bible-${l}.json`), JSON.stringify(b));
+  }
+}
 for (const f of fs.readdirSync(path.join(SRC, 'icons'))) fs.copyFileSync(path.join(SRC, 'icons', f), path.join(DIST, 'icons', f));
 for (const f of fs.readdirSync(path.join(SRC, 'fonts'))) fs.copyFileSync(path.join(SRC, 'fonts', f), path.join(DIST, 'fonts', f));
 // Les images reçoivent l'empreinte de leur contenu dans leur nom (img/bougie-jour.3fa2c1d0.webp) : une page restée

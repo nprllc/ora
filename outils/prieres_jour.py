@@ -14,28 +14,11 @@ import os
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 BIBLES = {l: {b['osis']: b for b in json.load(open(f'{DATA}/{f}'))['livres']} for l, f in (('fr', 'bible.json'), ('es', 'bible-es.json'), ('en', 'bible-en.json'))}
 
-TRAD = {
-    'litanie-saints': {'fr': 'Vous tous, saints et saintes de Dieu, priez pour nous.', 'es': 'Santos y santas de Dios, rogad por nosotros.',
-                       'en': 'All you holy men and women, saints of God, pray for us.', 'src': {'fr': 'Litanie des saints', 'es': 'Letanías de los santos', 'en': 'Litany of the Saints'}},
-    'requiem': {'fr': 'Seigneur, donne-leur le repos éternel,\net que brille sur eux la lumière sans fin.\nQu\'ils reposent en paix. Amen.',
-                'es': 'Dales, Señor, el descanso eterno,\ny brille para ellos la luz perpetua.\nDescansen en paz. Amén.',
-                'en': 'Eternal rest grant unto them, O Lord,\nand let perpetual light shine upon them.\nMay they rest in peace. Amen.',
-                'src': {'fr': 'Prière traditionnelle pour les défunts (Requiem æternam)', 'es': 'Oración tradicional por los difuntos (Requiem æternam)', 'en': 'Traditional prayer for the dead (Requiem æternam)'}},
-    'signe-de-croix': {'fr': 'Au nom du Père, et du Fils, et du Saint-Esprit. Amen.', 'es': 'En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.',
-                       'en': 'In the name of the Father, and of the Son, and of the Holy Spirit. Amen.', 'src': {'fr': 'Le signe de croix', 'es': 'La señal de la cruz', 'en': 'The Sign of the Cross'}},
-    'gloire-au-pere': {'fr': 'Gloire au Père, et au Fils, et au Saint-Esprit,\nau Dieu qui est, qui était et qui vient,\npour les siècles des siècles. Amen.',
-                       'es': 'Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre,\npor los siglos de los siglos. Amén.',
-                       'en': 'Glory be to the Father, and to the Son, and to the Holy Spirit,\nas it was in the beginning, is now, and ever shall be,\nworld without end. Amen.', 'src': {'fr': 'Gloire au Père', 'es': 'Gloria', 'en': 'Glory Be'}},
-    'je-vous-salue-marie': {'fr': 'Je vous salue, Marie, pleine de grâce ;\nle Seigneur est avec vous.\nVous êtes bénie entre toutes les femmes,\net Jésus, le fruit de vos entrailles, est béni.\nSainte Marie, Mère de Dieu,\npriez pour nous, pauvres pécheurs,\nmaintenant et à l\'heure de notre mort. Amen.',
-                            'es': 'Dios te salve, María, llena eres de gracia;\nel Señor es contigo.\nBendita tú eres entre todas las mujeres,\ny bendito es el fruto de tu vientre, Jesús.\nSanta María, Madre de Dios,\nruega por nosotros, pecadores,\nahora y en la hora de nuestra muerte. Amén.',
-                            'en': 'Hail Mary, full of grace, the Lord is with thee.\nBlessed art thou among women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death. Amen.', 'src': {'fr': 'Je vous salue Marie', 'es': 'Avemaría', 'en': 'Hail Mary'}},
-    'ange-de-dieu': {'fr': 'Ange de Dieu, qui êtes mon gardien,\net à qui j\'ai été confié par la bonté divine,\néclairez-moi, protégez-moi,\ndirigez-moi et gouvernez-moi. Amen.',
-                     'es': 'Ángel de la guarda, dulce compañía,\nno me desampares ni de noche ni de día. Amén.',
-                     'en': 'Angel of God, my guardian dear,\nto whom God\'s love commits me here,\never this day be at my side,\nto light and guard, to rule and guide. Amen.', 'src': {'fr': 'Prière à l\'ange gardien', 'es': 'Oración al ángel de la guarda', 'en': 'Prayer to the guardian angel'}},
-    'notre-pere': {'fr': 'Notre Père, qui es aux cieux,\nque ton nom soit sanctifié,\nque ton règne vienne,\nque ta volonté soit faite sur la terre comme au ciel.\nDonne-nous aujourd\'hui notre pain de ce jour.\nPardonne-nous nos offenses,\ncomme nous pardonnons aussi à ceux qui nous ont offensés.\nEt ne nous laisse pas entrer en tentation,\nmais délivre-nous du Mal. Amen.',
-                   'es': 'Padre nuestro, que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad en la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos a los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal. Amén.',
-                   'en': 'Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come,\nthy will be done on earth as it is in heaven.\nGive us this day our daily bread,\nand forgive us our trespasses,\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil. Amen.', 'src': {'fr': 'Notre Père (Mt 6, 9-13)', 'es': 'Padrenuestro (Mt 6, 9-13)', 'en': 'The Our Father (Mt 6:9-13)'}},
-}
+# Les prières de la tradition (« traditionnelles ») et les notes qui expliquent le choix d'une prière (« notes ») sont
+# écrites dans data/prieres-jour.json, qui fait foi : ce script ne contient aucun texte destiné à l'utilisateur.
+# Il les relit, puis refabrique les listes (« pools »), les prières de fête et celles des réflexions.
+_SOURCE = json.load(open(f'{DATA}/prieres-jour.json'))
+TRAD = _SOURCE['traditionnelles']
 
 # Prières bibliques : (identifiant, livre OSIS, chapitre, versets). Numérotation de la Bible française
 # (hébraïque pour les psaumes) ; pour les autres langues, la correspondance est donnée à part si elle diffère.
@@ -87,10 +70,8 @@ CELEBRATIONS = {
     'noel': {'jour': ('lc2-14', 'Luke', 2, [14]), 'soir': ('lc2-29', 'Luke', 2, [29, 30, 31, 32])},
 }
 
-# Pourquoi cette prière ce jour-là, quand ce n'est pas évident.
-NOTES = {
-    'defunts': {'soir': {'fr': "le psaume que l'Église prie pour les défunts (De profundis)", 'es': 'el salmo que la Iglesia reza por los difuntos (De profundis)', 'en': 'the psalm the Church prays for the dead (De profundis)'}},
-}
+# Pourquoi cette prière ce jour-là, quand ce n'est pas évident : data/prieres-jour.json, « notes ».
+NOTES = _SOURCE['notes']
 
 # Ajustements par langue (versets décalés, titres de psaumes, paroles extraites d'un récit).
 # Clé : (identifiant, langue) -> {'v': versets, 'de': début, 'a': fin (exclue)}
@@ -240,7 +221,7 @@ def main():
         if cle.startswith('_') or 'priereReflexion' not in c: continue
         x = c['priereReflexion']
         refl[cle] = priere((x['id'], x['osis'], x['c'], x['v']))
-    json.dump({'_note': __doc__.strip(), 'pools': pools, 'celebrations': cel, 'reflexions': refl}, open(f'{DATA}/prieres-jour.json', 'w'), ensure_ascii=False, indent=1)
+    json.dump({'_note': __doc__.strip(), 'traditionnelles': TRAD, 'notes': NOTES, 'pools': pools, 'celebrations': cel, 'reflexions': refl}, open(f'{DATA}/prieres-jour.json', 'w'), ensure_ascii=False, indent=1)
     print('prières :', {k: len(v) for k, v in pools.items()}, '; célébrations :', len(cel))
 
 

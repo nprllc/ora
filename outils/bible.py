@@ -1,30 +1,16 @@
 """Ora — fabrique data/bible.json (Bible Crampon 1923, domaine public) à partir du texte extrait de Wikisource.
-Usage : python3 outils/bible.py chemin/crampon-paragraphes.json, puis python3 outils/bibles.py (présentations des livres, versions es et en)."""
+Usage : python3 outils/bible.py chemin/crampon-paragraphes.json, puis python3 outils/bibles.py (présentations des livres, versions es et en).
+Les deux scripts écrivent dans outils/sortie/, jamais dans data/ (qui fait foi et a été relu depuis)."""
 import json, re, sys
 import os, sys
 # Source (hors dépôt, 5 Mo) : le texte Crampon extrait de Wikisource, avec ses paragraphes. Chemin en argument.
 src = json.load(open(sys.argv[1] if len(sys.argv) > 1 else 'crampon-paragraphes.json'))
-NOMS = {
-'Genèse':('Genèse','Gn'),'Exode':('Exode','Ex'),'Lévitique':('Lévitique','Lv'),'Nombres':('Nombres','Nb'),'Deutéronome':('Deutéronome','Dt'),
-'Josué':('Josué','Jos'),'Juges':('Juges','Jg'),'Ruth':('Ruth','Rt'),'1_Samuel':('1 Samuel','1 S'),'2_Samuel':('2 Samuel','2 S'),
-'1_Rois':('1 Rois','1 R'),'2_Rois':('2 Rois','2 R'),'1_Chroniques':('1 Chroniques','1 Ch'),'2_Chroniques':('2 Chroniques','2 Ch'),
-'Esdras':('Esdras','Esd'),'Néhémie':('Néhémie','Ne'),'Tobie':('Tobie','Tb'),'Judith':('Judith','Jdt'),'Esther':('Esther','Est'),
-'1_Machabées':('1 Maccabées','1 M'),'2_Machabées':('2 Maccabées','2 M'),'Job':('Job','Jb'),'Psaumes':('Psaumes','Ps'),
-'Proverbes':('Proverbes','Pr'),'Ecclésiaste':('Ecclésiaste (Qohélet)','Qo'),'Cantique':('Cantique des cantiques','Ct'),
-'Sagesse':('Sagesse','Sg'),'Ecclésiastique':('Ecclésiastique (Siracide)','Si'),'Isaïe':('Isaïe','Is'),'Jérémie':('Jérémie','Jr'),
-'Lamentations':('Lamentations','Lm'),'Baruch':('Baruch','Ba'),'Ézéchiel':('Ézéchiel','Ez'),'Daniel':('Daniel','Dn'),'Osée':('Osée','Os'),
-'Joël':('Joël','Jl'),'Amos':('Amos','Am'),'Abdias':('Abdias','Ab'),'Jonas':('Jonas','Jon'),'Michée':('Michée','Mi'),'Nahum':('Nahum','Na'),
-'Habacuc':('Habacuc','Ha'),'Sophonie':('Sophonie','So'),'Aggée':('Aggée','Ag'),'Zacharie':('Zacharie','Za'),'Malachie':('Malachie','Ml'),
-'Matthieu':('Évangile selon saint Matthieu','Mt'),'Marc':('Évangile selon saint Marc','Mc'),'Luc':('Évangile selon saint Luc','Lc'),
-'Jean':('Évangile selon saint Jean','Jn'),'Actes':('Actes des Apôtres','Ac'),'Romains':('Lettre aux Romains','Rm'),
-'1_Corinthiens':('1re lettre aux Corinthiens','1 Co'),'2_Corinthiens':('2e lettre aux Corinthiens','2 Co'),'Galates':('Lettre aux Galates','Ga'),
-'Éphésiens':('Lettre aux Éphésiens','Ep'),'Philippiens':('Lettre aux Philippiens','Ph'),'Colossiens':('Lettre aux Colossiens','Col'),
-'1_Thessaloniciens':('1re lettre aux Thessaloniciens','1 Th'),'2_Thessaloniciens':('2e lettre aux Thessaloniciens','2 Th'),
-'1_Timothée':('1re lettre à Timothée','1 Tm'),'2_Timothée':('2e lettre à Timothée','2 Tm'),'Tite':('Lettre à Tite','Tt'),
-'Philémon':('Lettre à Philémon','Phm'),'Hébreux':('Lettre aux Hébreux','He'),'Jacques':('Lettre de saint Jacques','Jc'),
-'1_Pierre':('1re lettre de saint Pierre','1 P'),'2_Pierre':('2e lettre de saint Pierre','2 P'),'1_Jean':('1re lettre de saint Jean','1 Jn'),
-'2_Jean':('2e lettre de saint Jean','2 Jn'),'3_Jean':('3e lettre de saint Jean','3 Jn'),'Jude':('Lettre de saint Jude','Jude'),
-'Apocalypse':('Apocalypse','Ap')}
+# Les noms et abréviations des livres sont lus dans data/bible.json, qui fait foi (aucun texte n'est écrit ici).
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
+LIVRES = json.load(open(os.path.join(DATA, 'bible.json')))['livres']
+# Ce script ne réécrit jamais data/ : il écrit dans outils/sortie/ ; on compare, puis on reporte à la main ce qui doit l'être.
+SORTIE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sortie')
+os.makedirs(SORTIE, exist_ok=True)
 def propre(t):
     t = re.sub(r'\[[^\]]*\]', ' ', t)
     t = re.sub(r'([.:;])(?=[A-ZÀ-ÖØ-Þ«])', r'\1 ', t)
@@ -34,7 +20,7 @@ out = []
 manq = []
 coupes = []
 for i, b in enumerate(src['livres']):
-    nom, abr = NOMS[b['id']]
+    nom, abr, court = LIVRES[i]['nom'], LIVRES[i]['abr'], LIVRES[i]['court']
     ch = []
     par = []
     lig = []
@@ -84,9 +70,9 @@ for i, b in enumerate(src['livres']):
     for t in b.get('titres', []):
         p = propre(t['titre'])
         if p and len(p) < 140: ti[t['avant']] = p
-    out.append({'id': abr.replace(' ', ''), 'abr': abr, 'nom': nom, 'court': b['id'].replace('_', ' ').replace('Machabées', 'Maccabées').replace('Ecclésiaste', 'Qohélet').replace('Ecclésiastique', 'Siracide').replace('Cantique', 'Cantique des cantiques').replace('Actes', 'Actes des Apôtres'), 't': 'NT' if i >= 46 else 'AT', 'ch': ch, 'p': par, 'l': lig})
+    out.append({'id': abr.replace(' ', ''), 'abr': abr, 'nom': nom, 'court': court, 't': 'NT' if i >= 46 else 'AT', 'ch': ch, 'p': par, 'l': lig})
 assert len(out) == 73 and out[46]['abr'] == 'Mt'
-json.dump({'source': 'Bible Crampon 1923 (domaine public), texte établi d’après Wikisource', 'livres': out}, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'bible.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
+json.dump({'source': 'Bible Crampon 1923 (domaine public), texte établi d’après Wikisource', 'livres': out}, open(os.path.join(SORTIE, 'bible.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
 print('manquants', manq)
 import re as _r
 for b in out:
