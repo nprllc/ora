@@ -84,3 +84,15 @@ test('périodes : une date MM-JJ ou des temps liturgiques connus', () => {
     if (x.temps) for (const t of x.temps) assert.ok(TEMPS.includes(t), `${r} ${x.id} : temps « ${t} »`);
   }
 });
+
+test('citations : une signature courte (document et date), qui ne répète pas l\'auteur', () => {
+  const B = BIB;
+  const fautes = [];
+  for (const c of B.citations) for (const l of ['fr', 'es', 'en']) {
+    const x = c[l]; if (!x) continue;
+    const nom = x.auteur.split(',')[0].replace(/^(Pape|Papa|Pope|Saint|Sainte|San|Santa|Santo)\s+/, '');
+    if (x.source.includes(nom)) fautes.push(`${c.id} (${l}) : l'auteur est répété dans « ${x.source} »`);
+    if (/vatican\.va|n°|nº|no\. \d/.test(x.source)) fautes.push(`${c.id} (${l}) : « ${x.source} » (la référence complète va dans « reference »)`);
+  }
+  assert.deepEqual(fautes, []);
+});

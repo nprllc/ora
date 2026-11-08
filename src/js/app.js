@@ -680,10 +680,10 @@
     var le = evangileEnfant(a), e = le && evangile({ lect: le });
     if (e && !e.attente) h += section(T('evangile-jour'), '<p class="ev-titre">' + esc(le.titre[LANG] || le.titre.fr) + '</p>' + versets(e.coeur, true) + '<p class="s-ref">' + refsSeules(e.refCoeur) + '</p>');
     h += respiration();
-    // Le rituel du coucher, bien en vue.
+    // Le rituel du coucher : une section comme les autres ; ses étapes tiennent sur une ligne discrète.
     var g = D.guideFamille;
-    if (g) h += '<div class="vedette">' + section(T('rituel-coucher'), '<p class="s-titre">' + esc(g.titre) + '</p><p class="s-accroche">' + esc(g.intro) + '</p><ol class="etapes-rituel">' +
-      g.etapes.map(function (x) { return '<li>' + esc(x.mot) + '</li>'; }).join('') + '</ol>' + (g.duree ? '<p class="s-ref">' + esc(g.duree) + '</p>' : ''), { action: 'guide', id: 'famille-soir' }, T('commencer')) + '</div>';
+    if (g) h += section(T('rituel-coucher'), '<p class="s-titre">' + esc(g.titre) + '</p><p class="s-accroche">' + esc(g.intro) + '</p>' +
+      '<p class="s-etapes">' + g.etapes.map(function (x) { return esc(x.mot).replace(/ /g, '\u00a0'); }).join(' · ') + '</p>' + (g.duree ? '<p class="s-ref">' + esc(g.duree) + '</p>' : ''), { action: 'guide', id: 'famille-soir' }, T('commencer'));
     var pj = personnageDuJour(a.j);
     if (pj) h += section(T('personnage-jour'), '<p class="s-titre">' + esc(pj.nom) + '</p><p class="s-accroche">' + lexique(pj.histoire) + '</p>' + (pj.idee ? '<p class="question">' + esc(pj.idee) + '</p>' : ''));
     var rf = (k && k.reflexion) || (a.c && a.c.reflexionEnfant);

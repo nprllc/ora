@@ -1,5 +1,5 @@
 {
- "_note": "Bibliothèque des jours ordinaires : chaque jour sans contenu propre, chaque rubrique prend l'élément suivant de sa liste (src/js/app.js, bibliotheque()). Les rubriques n'ont pas de lien entre elles. Règles : chaque citation est vérifiée à sa source et donnée dans sa traduction publiée ; jamais deux fois de suite le même auteur ; les faits portent leurs sources ; aucune prière inventée : la prière d'une réflexion est un verset des prières du jour (prieres-jour.json, par son id) et les versets cités sont désignés par leur référence (le build en lit le texte dans la Bible de chaque langue). Un élément sans sa langue n'est pas montré dans cette langue (l'espagnol et l'anglais suivent).",
+ "_note": "Bibliothèque des jours ordinaires : chaque jour sans contenu propre, chaque rubrique prend l'élément suivant de sa liste (src/js/app.js, bibliotheque()). Les rubriques n'ont pas de lien entre elles. Règles : chaque citation est vérifiée à sa source et donnée dans sa traduction publiée ; jamais deux fois de suite le même auteur ; les faits portent leurs sources ; aucune prière inventée : la prière d'une réflexion est un verset des prières du jour (prieres-jour.json, par son id) et les versets cités sont désignés par leur référence (le build en lit le texte dans la Bible de chaque langue). Un élément sans sa langue n'est pas montré dans cette langue (l'espagnol et l'anglais suivent). Citations : « source » est la signature courte affichée (document et date, sans répéter l'auteur) ; « reference », quand elle existe, la référence complète (paragraphe, lien) pour la vérification, non affichée.",
  "citations": [
   {
    "id": "therese-priere",
@@ -7,8 +7,9 @@
    "fr": {
     "texte": "Pour moi, la prière c'est un élan du cœur, c'est un simple regard jeté vers le ciel, c'est un cri de reconnaissance et d'amour au sein de l'épreuve comme au sein de la joie.",
     "auteur": "Sainte Thérèse de l'Enfant-Jésus",
-    "source": "Manuscrit C, 25 r°, cité par le Catéchisme de l'Église catholique, n° 2558",
-    "auteurId": "therese-de-lisieux"
+    "source": "Manuscrit C, cité par le Catéchisme de l'Église catholique",
+    "auteurId": "therese-de-lisieux",
+    "reference": "Manuscrit C, 25 r°, cité par le Catéchisme de l'Église catholique, n° 2558"
    }
   },
   {
@@ -17,8 +18,9 @@
    "fr": {
     "texte": "N'ayez pas peur ! Ouvrez, ouvrez toutes grandes les portes au Christ !",
     "auteur": "Saint Jean-Paul II",
-    "source": "Homélie pour le début de son pontificat, place Saint-Pierre, 22 octobre 1978",
-    "auteurId": "jean-paul-ii"
+    "source": "Homélie du début de son pontificat (22 octobre 1978)",
+    "auteurId": "jean-paul-ii",
+    "reference": "Homélie pour le début de son pontificat, place Saint-Pierre, 22 octobre 1978"
    }
   },
   {
@@ -27,8 +29,9 @@
    "fr": {
     "texte": "Dieu ne se fatigue jamais de pardonner, c'est nous qui nous fatiguons de demander sa miséricorde.",
     "auteur": "Pape François",
-    "source": "Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013), n° 3 (vatican.va)",
-    "auteurId": "pape-francois"
+    "source": "Exhortation apostolique Evangelii gaudium (24 novembre 2013)",
+    "auteurId": "pape-francois",
+    "reference": "Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013), n° 3 (vatican.va)"
    }
   },
   {
@@ -37,8 +40,9 @@
    "fr": {
     "texte": "Il faut se souvenir de Dieu plus souvent qu'on ne respire.",
     "auteur": "Saint Grégoire de Nazianze",
-    "source": "Discours théologique 1 (27), 4, cité par le Catéchisme de l'Église catholique, n° 2697",
-    "auteurId": "gregoire-de-nazianze"
+    "source": "Discours théologiques, cité par le Catéchisme de l'Église catholique",
+    "auteurId": "gregoire-de-nazianze",
+    "reference": "Discours théologique 1 (27), 4, cité par le Catéchisme de l'Église catholique, n° 2697"
    }
   },
   {
@@ -47,8 +51,9 @@
    "fr": {
     "texte": "Au soir de notre vie, nous serons jugés sur l'amour.",
     "auteur": "Saint Jean de la Croix",
-    "source": "Paroles de lumière et d'amour, 64, cité par le Catéchisme de l'Église catholique, n° 1022",
-    "auteurId": "jean-de-la-croix"
+    "source": "Paroles de lumière et d'amour, cité par le Catéchisme de l'Église catholique",
+    "auteurId": "jean-de-la-croix",
+    "reference": "Paroles de lumière et d'amour, 64, cité par le Catéchisme de l'Église catholique, n° 1022"
    }
   },
   {
@@ -57,7 +62,8 @@
    "fr": {
     "texte": "Je L'avise et Il m'avise.",
     "auteur": "Un paysan d'Ars, en prière devant le tabernacle, selon son curé, saint Jean-Marie Vianney",
-    "source": "Catéchisme de l'Église catholique, n° 2715"
+    "source": "Catéchisme de l'Église catholique",
+    "reference": "Catéchisme de l'Église catholique, n° 2715"
    }
   },
   {
@@ -66,8 +72,9 @@
    "fr": {
     "texte": "Seigneur, tu nous as faits pour toi et notre cœur est inquiet tant qu'il ne repose pas en toi.",
     "auteur": "Saint Augustin",
-    "source": "Confessions, I, 1, cité par le pape Léon XIV, audience générale du 17 décembre 2025",
-    "auteurId": "augustin"
+    "source": "Confessions, cité par le pape Léon XIV (17 décembre 2025)",
+    "auteurId": "augustin",
+    "reference": "Confessions, I, 1, cité par le pape Léon XIV, audience générale du 17 décembre 2025"
    }
   },
   {
@@ -76,8 +83,9 @@
    "fr": {
     "texte": "Il est possible, même au marché ou dans une promenade solitaire, de faire une fréquente et fervente prière.",
     "auteur": "Saint Jean Chrysostome",
-    "source": "Eclogae, 2, cité par le Catéchisme de l'Église catholique, n° 2743",
-    "auteurId": "jean-chrysostome"
+    "source": "Eclogae, cité par le Catéchisme de l'Église catholique",
+    "auteurId": "jean-chrysostome",
+    "reference": "Eclogae, 2, cité par le Catéchisme de l'Église catholique, n° 2743"
    }
   },
   {
@@ -86,8 +94,9 @@
    "fr": {
     "texte": "Quand quelqu'un fait un petit pas vers Jésus, il découvre que celui-ci attendait déjà sa venue à bras ouverts.",
     "auteur": "Pape François",
-    "source": "Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013), n° 3 (vatican.va)",
-    "auteurId": "pape-francois"
+    "source": "Exhortation apostolique Evangelii gaudium (24 novembre 2013)",
+    "auteurId": "pape-francois",
+    "reference": "Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013), n° 3 (vatican.va)"
    }
   },
   {
@@ -96,8 +105,9 @@
    "fr": {
     "texte": "De Jésus-Christ et de l'Église, il m'est avis que c'est tout un, et qu'il n'en faut pas faire difficulté.",
     "auteur": "Sainte Jeanne d'Arc, à ses juges",
-    "source": "Procès de condamnation (1431), cité par le Catéchisme de l'Église catholique, n° 795",
-    "auteurId": "jeanne-d-arc"
+    "source": "Procès de condamnation (1431), cité par le Catéchisme de l'Église catholique",
+    "auteurId": "jeanne-d-arc",
+    "reference": "Procès de condamnation (1431), cité par le Catéchisme de l'Église catholique, n° 795"
    }
   },
   {
@@ -116,8 +126,9 @@
    "fr": {
     "texte": "Si personne ne m'écoute plus, Dieu m'écoute encore.",
     "auteur": "Benoît XVI",
-    "source": "Benoît XVI, encyclique Spe salvi (30 novembre 2007), n° 32 (vatican.va)",
-    "auteurId": "benoit-xvi"
+    "source": "Encyclique Spe salvi (30 novembre 2007)",
+    "auteurId": "benoit-xvi",
+    "reference": "Benoît XVI, encyclique Spe salvi (30 novembre 2007), n° 32 (vatican.va)"
    }
   },
   {
@@ -126,8 +137,9 @@
    "fr": {
     "texte": "Cette sainteté à laquelle le Seigneur t'appelle grandira par de petits gestes.",
     "auteur": "Pape François",
-    "source": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 16 (vatican.va)",
-    "auteurId": "pape-francois"
+    "source": "Exhortation apostolique Gaudete et exsultate (19 mars 2018)",
+    "auteurId": "pape-francois",
+    "reference": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 16 (vatican.va)"
    }
   },
   {
@@ -136,8 +148,9 @@
    "fr": {
     "texte": "À l'origine du fait d'être chrétien, il n'y a pas une décision éthique ou une grande idée, mais la rencontre avec un événement, avec une Personne, qui donne à la vie un nouvel horizon et par là son orientation décisive.",
     "auteur": "Benoît XVI",
-    "source": "Encyclique Deus caritas est, n° 1 (25 décembre 2005)",
-    "auteurId": "benoit-xvi"
+    "source": "Encyclique Deus caritas est (25 décembre 2005)",
+    "auteurId": "benoit-xvi",
+    "reference": "Encyclique Deus caritas est, n° 1 (25 décembre 2005)"
    }
   },
   {
@@ -146,8 +159,9 @@
    "fr": {
     "texte": "Le saint est capable de vivre joyeux et avec le sens de l'humour.",
     "auteur": "Pape François",
-    "source": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 122 (vatican.va)",
-    "auteurId": "pape-francois"
+    "source": "Exhortation apostolique Gaudete et exsultate (19 mars 2018)",
+    "auteurId": "pape-francois",
+    "reference": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 122 (vatican.va)"
    }
   },
   {
@@ -156,8 +170,9 @@
    "fr": {
     "texte": "Celui qui a l'espérance vit différemment ; une vie nouvelle lui a déjà été donnée.",
     "auteur": "Benoît XVI",
-    "source": "Benoît XVI, encyclique Spe salvi (30 novembre 2007), n° 2 (vatican.va)",
-    "auteurId": "benoit-xvi"
+    "source": "Encyclique Spe salvi (30 novembre 2007)",
+    "auteurId": "benoit-xvi",
+    "reference": "Benoît XVI, encyclique Spe salvi (30 novembre 2007), n° 2 (vatican.va)"
    }
   },
   {
@@ -166,8 +181,9 @@
    "fr": {
     "texte": "N'aie pas peur de viser plus haut, de te laisser aimer et libérer par Dieu.",
     "auteur": "Pape François",
-    "source": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 34 (vatican.va)",
-    "auteurId": "pape-francois"
+    "source": "Exhortation apostolique Gaudete et exsultate (19 mars 2018)",
+    "auteurId": "pape-francois",
+    "reference": "Pape François, exhortation apostolique Gaudete et exsultate (19 mars 2018), n° 34 (vatican.va)"
    }
   }
  ],
