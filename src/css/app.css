@@ -394,7 +394,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 /* Prier : de l'air entre les familles de rubriques */
 .groupe.espace { margin-top: 56px; }
 /* La messe pas à pas */
-.messe-partie { margin: 40px 0 6px; font-size: 1.0625rem; font-weight: 500; color: var(--encre); }
+.messe-partie { margin: 40px 0 6px; font-size: 1.0625rem; font-weight: 500; color: var(--or); }
 .messe-etapes { list-style: none; margin: 0; padding: 0; }
 .messe-etapes li { padding: 16px 0; border-top: 1px solid var(--filet); }
 .messe-etapes li:first-child { border-top: 0; }
