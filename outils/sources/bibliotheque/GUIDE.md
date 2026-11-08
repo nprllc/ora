@@ -26,6 +26,7 @@ Après chaque lot : `npm run build && npm test && npm run test:e2e`, commit, pus
   (le build lit le texte dans chaque Bible ; **pas de verset contenant un dialogue entre guillemets**),
   une `piste` douce et concrète, `sources`, et une `priere` = id d'un verset des prières du jour
   (`data/prieres-jour.json`, pools). Jamais partisan.
+- **Histoires** (règle de Nico, 8 novembre 2026) : une histoire est un **récit** : il arrive quelque chose à quelqu'un, quelque part, à un moment. L'accroche commence ce récit (qui, où, quand, ce qui se passe) ; le titre peut être une citation seulement si le texte raconte bien l'événement où elle a été dite. Une simple citation commentée n'est pas une histoire.
 - **Histoires, portraits, « Le savais-tu ? »** : faits établis et sourcés (Britannica, vatican.va, sanctuaires,
   diocèses, dictionnaires) ; la tradition est dite comme tradition (« selon la tradition », « aurait »).
   Portraits : saints et figures chrétiennes sans faits graves ; dates ; accroche ; 3 paragraphes ; `plusLoin`.
