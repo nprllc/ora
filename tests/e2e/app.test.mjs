@@ -192,7 +192,7 @@ test('hors ligne : après une première visite, l\'app s\'ouvre sans réseau, m�
   const caches = await p.evaluate(async () => { const out = []; for (const k of await caches.keys()) for (const r of await (await caches.open(k)).keys()) out.push(k + ':' + new URL(r.url).pathname); return out; });
   assert.equal(caches.filter((u) => /bible-/.test(u)).length, 1, 'une seule Bible en cache : ' + caches.join(', '));
   assert.ok(caches.some((u) => /^ora-bibles:.*bible-fr\.json$/.test(u)), 'la Bible est dans son propre cache, qui survit aux mises à jour');
-  for (const l of ['fr', 'es', 'en']) assert.ok(caches.some((u) => u.endsWith(`/donnees-${l}.json`)), `donnees-${l}.json en cache : ` + caches.join(', '));
+  for (const l of ['fr', 'es', 'en']) assert.ok(caches.some((u) => new RegExp(`/donnees-${l}\\.[0-9a-f]{8}\\.json$`).test(u)), `donnees-${l} en cache : ` + caches.join(', '));
   // Toujours hors ligne : passer en espagnol lit donnees-es.json depuis le cache.
   await p.$eval('.bouton-menu', (b) => b.click());
   await p.$eval('[data-action=langue][data-id=es]', (b) => b.click());

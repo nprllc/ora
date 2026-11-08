@@ -1,9 +1,10 @@
 // Ora — build : fabrique dist/ à partir de src/ et data/.
 // - dist/index.html : la page, avec le CSS, le JS et le « noyau » des données (ce qui sert à calculer le jour) ;
-// - dist/donnees-fr.json, donnees-es.json, donnees-en.json : les contenus d'une langue (titres des jours,
+// - dist/donnees-fr.<empreinte>.json (et es, en) : les contenus d'une langue (titres des jours,
 //   bibliothèque, En famille, messe, traductions…), lus au démarrage et mis en cache pour le hors-ligne ;
 // - dist/bible-fr.json, bible-es.json, bible-en.json : les trois Bibles, chargées à la demande ;
 // - dist/sw.js : le service worker, avec une VERSION calculée d'après le contenu des fichiers (empreinte) ;
+// - dist/img/ : les images, dont le nom porte l'empreinte du contenu (table ORA_IMG) ;
 // - dist/manifest.webmanifest, dist/icons/, dist/fonts/.
 // Aucune dépendance : node outils/build.mjs (ou npm run build).
 import fs from 'node:fs';
@@ -113,8 +114,10 @@ const fichiersLangue = {};
 for (const l of LANGUES) {
   const d = {};
   for (const k of PAR_LANGUE) d[k] = k === 'i18n' ? (donnees.i18n[l] ? { [l]: donnees.i18n[l] } : {}) : REDUITS.includes(k) ? garder(donnees[k], l) : donnees[k];
-  fichiersLangue[l] = `donnees-${l}.json`;
-  fs.writeFileSync(path.join(DIST, fichiersLangue[l]), JSON.stringify(d));
+  // Le nom porte l'empreinte du contenu, comme les images : une page ancienne ne lit jamais des données nouvelles.
+  const texte = JSON.stringify(d);
+  fichiersLangue[l] = `donnees-${l}.${crypto.createHash('sha256').update(texte).digest('hex').slice(0, 8)}.json`;
+  fs.writeFileSync(path.join(DIST, fichiersLangue[l]), texte);
 }
 
 // 2. Les fichiers copiés tels quels.
@@ -122,16 +125,24 @@ const BIBLES = { fr: 'bible.json', es: 'bible-es.json', en: 'bible-en.json' };
 for (const [l, f] of Object.entries(BIBLES)) fs.copyFileSync(path.join(DATA, f), path.join(DIST, `bible-${l}.json`));
 for (const f of fs.readdirSync(path.join(SRC, 'icons'))) fs.copyFileSync(path.join(SRC, 'icons', f), path.join(DIST, 'icons', f));
 for (const f of fs.readdirSync(path.join(SRC, 'fonts'))) fs.copyFileSync(path.join(SRC, 'fonts', f), path.join(DIST, 'fonts', f));
-for (const f of fs.readdirSync(path.join(SRC, 'img'))) fs.copyFileSync(path.join(SRC, 'img', f), path.join(DIST, 'img', f));
+// Les images reçoivent l'empreinte de leur contenu dans leur nom (img/bougie-jour.3fa2c1d0.webp) : une page restée
+// en cache garde ses propres images, sans mélange entre deux versions (positions de la flamme, découpes…).
+const IMAGES = {};
+for (const f of fs.readdirSync(path.join(SRC, 'img'))) {
+  const b = fs.readFileSync(path.join(SRC, 'img', f)), e = path.extname(f);
+  const nom = f.slice(0, -e.length) + '.' + crypto.createHash('sha256').update(b).digest('hex').slice(0, 8) + e;
+  fs.writeFileSync(path.join(DIST, 'img', nom), b); IMAGES[f] = 'img/' + nom;
+}
 fs.copyFileSync(path.join(SRC, 'manifest.webmanifest'), path.join(DIST, 'manifest.webmanifest'));
 
 // 3. La page : CSS et JS intégrés, données sérialisées sans « < » (pas de fin de balise script possible).
 let html = lire(path.join(SRC, 'index.html'));
-html = html.replace('<link rel="stylesheet" href="css/app.css">', () => '<style>\n' + lire(path.join(SRC, 'css/app.css')) + '\n</style>');
+const css = lire(path.join(SRC, 'css/app.css')).replace(/url\(img\/([^)]+)\)/g, (t, f) => { if (!IMAGES[f]) throw new Error('app.css : image ' + f + ' absente'); return 'url(' + IMAGES[f] + ')'; });
+html = html.replace('<link rel="stylesheet" href="css/app.css">', () => '<style>\n' + css + '\n</style>');
 const js = ['liturgie.js', 'references.js', 'latin.js', 'aquarelle.js', 'app.js'].map((f) => lire(path.join(SRC, 'js', f))).join('\n');
 const scripts = /<script src="js\/liturgie\.js"><\/script>\s*<script src="js\/references\.js"><\/script>\s*<script src="js\/latin\.js"><\/script>\s*<script src="js\/aquarelle\.js"><\/script>\s*<script src="js\/app\.js"><\/script>/;
 if (!scripts.test(html)) throw new Error('src/index.html : balises script introuvables');
-html = html.replace(scripts, () => '<script>\nwindow.ORA_BIBLES = ' + JSON.stringify(Object.fromEntries(Object.keys(BIBLES).map((l) => [l, `bible-${l}.json`]))) + ';\nwindow.ORA_DONNEES = ' + JSON.stringify(fichiersLangue) + ';\nwindow.ORA_DATA = ' +
+html = html.replace(scripts, () => '<script>\nwindow.ORA_BIBLES = ' + JSON.stringify(Object.fromEntries(Object.keys(BIBLES).map((l) => [l, `bible-${l}.json`]))) + ';\nwindow.ORA_IMG = ' + JSON.stringify(IMAGES) + ';\nwindow.ORA_DONNEES = ' + JSON.stringify(fichiersLangue) + ';\nwindow.ORA_DATA = ' +
   JSON.stringify(noyau).replace(/</g, '\\u003c') + ';\n' + js + '\n</script>');
 fs.writeFileSync(path.join(DIST, 'index.html'), html);
 

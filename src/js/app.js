@@ -407,32 +407,35 @@
       '%;background-size:' + (100 / w).toFixed(1) + '% ' + (100 / h).toFixed(1) + '%;background-position:' + (x / (1 - w) * 100).toFixed(2) + '% ' + (y / (1 - h) * 100).toFixed(2) + '%;' + (style || '') + '"></span>';
   }
   // Seconde respiration, avant « Le savais-tu ? » : des mains qui protègent une bougie ; la flamme vacille et sa lumière respire.
+  // Les images ont un nom qui porte l'empreinte de leur contenu (le build fournit la table ORA_IMG) : une page
+  // ancienne restée en cache n'affiche jamais une image nouvelle avec ses anciennes positions, et inversement.
+  function img(n) { return (window.ORA_IMG || {})[n] || 'img/' + n; }
   function bougie() {
     var nuit = estNuit(), m = nuit ? 'nuit' : 'jour';
     // La flamme est détourée à part (le fond de l'image a été comblé dessous) : elle se balance depuis la mèche et frémit,
     // et sa lumière respire au même rythme.
     var f = nuit ? { l: 48.64, t: 18.29, w: 8.0, h: 19.02, oy: 91 } : { l: 49.05, t: 11.1, w: 6.6, h: 22.07, oy: 95.6 };
-    return '<div class="respiration bougie ' + m + '" aria-hidden="true"><img src="img/bougie-' + m + '.webp" alt="" decoding="async">' +
+    return '<div class="respiration bougie ' + m + '" aria-hidden="true"><img src="' + img('bougie-' + m + '.webp') + '" alt="" decoding="async">' +
       '<span class="b-halo" style="left:' + (f.l + f.w / 2).toFixed(2) + '%;top:' + (f.t + f.h * .55).toFixed(2) + '%"></span>' +
       '<span class="b-flamme" style="left:' + f.l + '%;top:' + f.t + '%;width:' + f.w + '%;height:' + f.h + '%;transform-origin:50% ' + f.oy + '%">' +
-      '<img src="img/bougie-' + m + '-flamme.webp" alt="" decoding="async" style="transform-origin:50% ' + f.oy + '%"></span></div>';
+      '<img src="' + img('bougie-' + m + '-flamme.webp') + '" alt="" decoding="async" style="transform-origin:50% ' + f.oy + '%"></span></div>';
   }
   function respiration() {
     if (estNuit()) {
-      return '<div class="respiration village nuit" aria-hidden="true"><img src="img/village-nuit.webp" alt="" decoding="async">' +
-        [0, 1, 2].map(function (k) { return '<img class="v-lum l' + k + '" src="img/village-lumieres-' + k + '.webp" alt="" decoding="async">'; }).join('') +
+      return '<div class="respiration village nuit" aria-hidden="true"><img src="' + img('village-nuit.webp') + '" alt="" decoding="async">' +
+        [0, 1, 2].map(function (k) { return '<img class="v-lum l' + k + '" src="' + img('village-lumieres-' + k + '.webp') + '" alt="" decoding="async">'; }).join('') +
         ETOILES_VILLAGE.map(function (p, k) { return '<span class="v-etoile" style="left:' + p[0] + '%;top:' + p[1] + '%;animation-duration:' + (5 + k % 4 * 1.7) + 's;animation-delay:-' + (k * 1.3) + 's"></span>'; }).join('') + '</div>';
     }
     var arbres = ARBRES.map(function (a, k) {
-      return morceau('img/village-jour.webp', 2048, 618, a[0] - a[3], a[1], a[0] + a[3], a[2], 'v-arbre' + (a[4] < 1 ? ' rond' : ''), 'animation-delay:-' + (k * 0.9).toFixed(1) + 's');
+      return morceau(img('village-jour.webp'), 2048, 618, a[0] - a[3], a[1], a[0] + a[3], a[2], 'v-arbre' + (a[4] < 1 ? ' rond' : ''), 'animation-delay:-' + (k * 0.9).toFixed(1) + 's');
     }).join('');
     // Deux moineaux peints à l'aquarelle (planche de 7 images : 5 de vol, 2 posés). L'un quitte son olivier et passe
     // derrière le clocher (un calque du clocher et de l'église est posé par-dessus lui) ; l'autre traverse et se pose.
     var moineau = '<b><i class="vol"></i></b><i class="pose"></i>';
     var oiseaux = '<span class="v-oiseau oa">' + moineau + '</span>' +
-      '<img class="v-clocher" src="img/village-jour-clocher.webp" alt="" decoding="async" style="left:51.79%;top:8.78%;width:11.28%;height:39.66%">' +
+      '<img class="v-clocher" src="' + img('village-jour-clocher.webp') + '" alt="" decoding="async" style="left:51.79%;top:8.78%;width:11.28%;height:39.66%">' +
       '<span class="v-oiseau ob">' + moineau + '</span>';
-    return '<div class="respiration village jour" aria-hidden="true"><img src="img/village-jour.webp" alt="" decoding="async">' + arbres + oiseaux + '</div>';
+    return '<div class="respiration village jour" aria-hidden="true"><img src="' + img('village-jour.webp') + '" alt="" decoding="async">' + arbres + oiseaux + '</div>';
   }
 
   function paragraphes(t) { return String(t).split('\n\n').map(function (p) { return '<p>' + lexique(p) + '</p>'; }).join(''); }
