@@ -378,7 +378,9 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 :root.nuit .be-voile-a.decoupe { -webkit-mask-size: 100% 100%; mask-size: 100% 100%; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-position: center; mask-position: center; }
 /* … et les bandes sombres de la mer de nuages passent derrière lui, pas à travers. */
 :root.nuit .be-voile-b { z-index: 1; }
-.be-voile-b { top: 38%; height: 180px !important; transform: scale(2.8, 2.6) scaleX(-1); opacity: .9; -webkit-mask-image: none; mask-image: none; }
+:root.nuit .be-voile-c { z-index: 3; }
+/* Peint directement à sa taille d'affichage (et non agrandi 2,8 fois) : sur iPhone, un grand calque agrandi laissait un trait vertical. */
+.be-voile-b { top: calc(38% - 144px); left: -90% !important; right: -90% !important; height: 468px !important; transform: scaleX(-1); opacity: .9; -webkit-mask-image: none; mask-image: none; }
 .be-voile-c { top: 60%; left: calc(50% - 320px) !important; right: auto !important; transform: scale(1.25); opacity: .95; -webkit-mask-image: none; mask-image: none; }
 
 /* La descente : la scène du haut monte et sort, le nuage traverse plus vite (il est plus près), Aujourd'hui arrive d'en bas */

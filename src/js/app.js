@@ -868,9 +868,10 @@
       OraAquarelle.nuage(tmp, { w: 640, h: 470, seed: 4127, corps: [255, 255, 255], ombre: [255, 255, 255], lumiere: [255, 255, 255], aCorps: 0.3, aOmbre: 0.2, aLumiere: 0.2, n: 26 });
       // Bord adouci : le nuage est réduit puis ré-agrandi, ce qui fond son contour sur une vingtaine de pixels.
       var src = tmp.querySelector('canvas'), petit = document.createElement('canvas'), doux = document.createElement('canvas');
-      petit.width = 64; petit.height = 47; doux.width = 640; doux.height = 470;
-      var gp = petit.getContext('2d'); gp.imageSmoothingQuality = 'high'; gp.drawImage(src, 0, 0, 64, 47);
-      var gd = doux.getContext('2d'); gd.imageSmoothingQuality = 'high'; gd.drawImage(petit, 0, 0, 640, 470);
+      // (Une marge vide au-dessus et sur les côtés : le sommet du nuage ne touche jamais le bord du masque, il n'est jamais coupé net.)
+      petit.width = 68; petit.height = 53; doux.width = 680; doux.height = 530;
+      var gp = petit.getContext('2d'); gp.imageSmoothingQuality = 'high'; gp.drawImage(src, 2, 6, 64, 47);
+      var gd = doux.getContext('2d'); gd.imageSmoothingQuality = 'high'; gd.drawImage(petit, 0, 0, 680, 530);
       var url = 'url(' + doux.toDataURL('image/png') + ')';
       el.style.webkitMaskImage = url; el.style.maskImage = url;
       el.classList.add('decoupe');
