@@ -860,6 +860,17 @@
       milieu: { corps: [62, 74, 114], ombre: [32, 40, 72], lumiere: [120, 136, 176], a: 0.09 },
       pres: { corps: [78, 92, 134], ombre: [38, 46, 80], lumiere: [150, 164, 200], a: 0.11 } }
   };
+  // La nuit, le premier nuage qui monte est opaque : il est découpé en forme de nuage (un nuage peint très dense sert
+  // de masque), pour que son bord soit celui d'un nuage, qui commence assez bas, et non une ellipse.
+  function decouperEnNuage(el) {
+    try {
+      var tmp = document.createElement('div');
+      OraAquarelle.nuage(tmp, { w: 640, h: 470, seed: 4127, corps: [255, 255, 255], ombre: [255, 255, 255], lumiere: [255, 255, 255], aCorps: 0.3, aOmbre: 0.2, aLumiere: 0.2, n: 26 });
+      var url = 'url(' + tmp.querySelector('canvas').toDataURL('image/png') + ')';
+      el.style.webkitMaskImage = url; el.style.maskImage = url;
+      el.classList.add('decoupe');
+    } catch (e) { /* sans découpe : le nuage garde son contour fondu */ }
+  }
   function ecranBienvenue() {
     if (document.getElementById('bienvenue')) return;
     var cle = estNuit() ? 'nuit' : 'jour';
@@ -883,6 +894,7 @@
     OraAquarelle.peindre(document.getElementById('be-mer'), 'bas-' + cle, false);
     OraAquarelle.peindre(document.getElementById('be-nuages-2'), cle, false);
     ['a', 'b'].forEach(function (k) { OraAquarelle.peindre(document.getElementById('be-voile-' + k), k === 'b' ? 'bas-' + cle : cle, false); });
+    if (cle === 'nuit') decouperEnNuage(document.getElementById('be-voile-a'));
     // Le dernier nuage qui passe est un nuage à lui seul (et non une seconde copie du ciel : on croyait voir le même nuage revenir).
     var tv = cle === 'nuit' ? { corps: [92, 106, 148], ombre: [40, 50, 86], lumiere: [176, 186, 216] } : { corps: [250, 226, 220], ombre: [222, 204, 216], lumiere: [255, 250, 244] };
     OraAquarelle.nuage(document.getElementById('be-voile-c'), { w: 640, h: 400, seed: 7207, corps: tv.corps, ombre: tv.ombre, lumiere: tv.lumiere, aCorps: 0.1, n: 30 });
