@@ -54,3 +54,11 @@ Dans `data/lexique.json` (`id`, `mot`, `formes`, `def`), et ses traductions dans
 ## Style
 
 Proposer, jamais imposer ; pas de jargon sans explication ; « Lui » et « Toi » avec une majuscule quand il s'agit de Dieu (« Él », « Ti » en espagnol).
+
+## Animations : rester fluide
+
+Toute animation ne change que `transform` et `opacity`. La carte graphique les calcule seule, sans recalculer la mise en page ni repeindre la page. Ne jamais animer `left`, `top`, `width`, `height`, `margin` ni `background-position`. Pour déplacer un élément sur un trajet en pourcentages de son conteneur, on anime un calque de la taille du conteneur (`translate` en % de lui-même), comme pour les moineaux de `src/css/app.css`. Pour faire défiler les images d'une planche, on décale la planche entière dans une petite fenêtre (`overflow: hidden`).
+
+Les animations d'ambiance se mettent en pause hors de l'écran (classe `au-repos`, posée par `observerRepos` dans `src/js/app.js`). Tout calcul lourd (peindre une aquarelle, construire une page) se fait avant une animation, jamais au moment où elle démarre : c'est pourquoi Aujourd'hui se prépare sous l'écran de bienvenue.
+
+Le test « fluidité » de `tests/e2e/app.test.mjs` vérifie qu'Aujourd'hui, au repos et de jour, ne recalcule pas sa mise en page. Avant de publier une nouvelle animation, il faut le lancer.

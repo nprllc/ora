@@ -453,34 +453,44 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
    repliées un instant (le petit bond qui ondule). L'un quitte son olivier et disparaît derrière le clocher ;
    l'autre arrive de la droite et se pose sur un olivier, se retourne une fois, puis s'efface. */
 .v-clocher { position: absolute; }
-.v-oiseau { position: absolute; width: 10px; height: 6px; margin: -4px 0 0 -5px; opacity: 0; }
+/* Le trajet : un calque de la taille du village, déplacé en pourcentages de lui-même (donc du village). */
+.v-vol { position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none; will-change: transform; }
+.v-oiseau { position: absolute; left: 0; top: 0; width: 10px; height: 6px; margin: -4px 0 0 -5px; opacity: 0; will-change: opacity; }
 .v-oiseau b { position: absolute; inset: 0; animation: v-bond 1.125s ease-in-out infinite; }
-.v-oiseau i { position: absolute; inset: 0; background: url(img/moineau.webp) 0 0 / 700% 100% no-repeat; }
-.v-oiseau .vol { animation: v-batte 1.125s step-end infinite; }
-.v-oiseau .pose { background-position-x: 83.33%; }
-@keyframes v-batte { 0.00% { background-position-x: 0.00%; } 5.56% { background-position-x: 16.67%; } 11.11% { background-position-x: 50.00%; } 16.67% { background-position-x: 16.67%; } 22.22% { background-position-x: 0.00%; } 27.78% { background-position-x: 16.67%; } 33.33% { background-position-x: 50.00%; } 38.89% { background-position-x: 16.67%; } 44.44% { background-position-x: 0.00%; } 50.00% { background-position-x: 16.67%; } 55.56% { background-position-x: 50.00%; } 61.11% { background-position-x: 16.67%; } 66.67% { background-position-x: 33.33%; } 72.22% { background-position-x: 66.67%; } 77.78% { background-position-x: 66.67%; } 83.33% { background-position-x: 66.67%; } 88.89% { background-position-x: 66.67%; } 94.44% { background-position-x: 66.67%; } 100% { background-position-x: 0%; } }
+/* La planche (7 images de 10 px) glisse dans une fenêtre de 10 px : une image = un septième de la planche. */
+.v-oiseau .vol, .v-oiseau .pose { position: absolute; inset: 0; overflow: hidden; }
+.v-oiseau .vol i, .v-oiseau .pose i { position: absolute; left: 0; top: 0; width: 700%; height: 100%; background: url(img/moineau.webp) 0 0 / 100% 100% no-repeat; }
+.v-oiseau .vol i { animation: v-batte 1.125s step-end infinite; }
+.v-oiseau .pose i { transform: translateX(-71.4286%); }
+@keyframes v-batte { 0.00% { transform: translateX(0); } 5.56% { transform: translateX(-14.2857%); } 11.11% { transform: translateX(-42.8571%); } 16.67% { transform: translateX(-14.2857%); } 22.22% { transform: translateX(0); } 27.78% { transform: translateX(-14.2857%); } 33.33% { transform: translateX(-42.8571%); } 38.89% { transform: translateX(-14.2857%); } 44.44% { transform: translateX(0); } 50.00% { transform: translateX(-14.2857%); } 55.56% { transform: translateX(-42.8571%); } 61.11% { transform: translateX(-14.2857%); } 66.67% { transform: translateX(-28.5714%); } 72.22% { transform: translateX(-57.1429%); } 77.78% { transform: translateX(-57.1429%); } 83.33% { transform: translateX(-57.1429%); } 88.89% { transform: translateX(-57.1429%); } 94.44% { transform: translateX(-57.1429%); } 100% { transform: translateX(0); } }
 @keyframes v-bond { 0%, 100% { transform: translateY(.6px); } 64% { transform: translateY(-1.2px); } }
-.v-oiseau.oa { animation: v-moineau-a 22s linear infinite; }
-.v-oiseau.oa .vol { animation: v-batte 1.125s step-end infinite, v-vol-a 22s step-end infinite; }
-.v-oiseau.oa .pose { animation: v-pose-a 22s step-end infinite, v-tete 5.5s step-end infinite; }
-@keyframes v-moineau-a {
-  0% { left: 50.6%; top: 46.6%; opacity: 0; } 3%, 17% { left: 50.6%; top: 46.6%; opacity: 1; }
-  18.5% { left: 50.9%; top: 37%; } 20% { left: 51.8%; top: 26%; } 21.5% { left: 53.9%; top: 18.5%; } 23% { left: 56.8%; top: 14.5%; }
-  24.5% { left: 59.2%; top: 15.5%; } 26% { left: 60.4%; top: 20%; } 27.5% { left: 61.2%; top: 25%; opacity: 1; } 28%, 100% { left: 61.4%; top: 26%; opacity: 0; } }
+@keyframes v-tete { 0% { transform: translateX(-71.4286%); } 55% { transform: translateX(-85.7143%); } 70% { transform: translateX(-71.4286%); } }
+.v-vol.oa { animation: v-chemin-a 22s linear infinite; }
+.v-vol.oa .v-oiseau { animation: v-vu-a 22s linear infinite; }
+.v-vol.oa .vol { animation: v-vol-a 22s step-end infinite; }
+.v-vol.oa .pose { animation: v-pose-a 22s step-end infinite; }
+.v-vol.oa .pose i { animation: v-tete 5.5s step-end infinite; }
+@keyframes v-chemin-a {
+  0%, 17% { transform: translate(50.6%, 46.6%); } 18.5% { transform: translate(50.9%, 37%); } 20% { transform: translate(51.8%, 26%); }
+  21.5% { transform: translate(53.9%, 18.5%); } 23% { transform: translate(56.8%, 14.5%); } 24.5% { transform: translate(59.2%, 15.5%); }
+  26% { transform: translate(60.4%, 20%); } 27.5% { transform: translate(61.2%, 25%); } 28%, 100% { transform: translate(61.4%, 26%); } }
+@keyframes v-vu-a { 0% { opacity: 0; } 3%, 27.5% { opacity: 1; } 28%, 100% { opacity: 0; } }
 @keyframes v-vol-a { 0% { opacity: 0; } 17% { opacity: 1; } }
 @keyframes v-pose-a { 0% { opacity: 1; } 17% { opacity: 0; } }
-@keyframes v-tete { 0% { background-position-x: 83.33%; } 55% { background-position-x: 100%; } 70% { background-position-x: 83.33%; } }
-.v-oiseau.ob { animation: v-moineau-b 22s linear infinite; }
-.v-oiseau.ob b { transform: scaleX(-1); animation: v-bond-b 1.125s ease-in-out infinite; }
-.v-oiseau.ob .pose { transform: scaleX(-1); }
+.v-vol.ob { animation: v-chemin-b 22s linear infinite; }
+.v-vol.ob .v-oiseau { animation: v-vu-b 22s linear infinite; }
+.v-vol.ob b { transform: scaleX(-1); animation: v-bond-b 1.125s ease-in-out infinite; }
+.v-vol.ob .pose { transform: scaleX(-1); }
 @keyframes v-bond-b { 0%, 100% { transform: scaleX(-1) translateY(.6px); } 64% { transform: scaleX(-1) translateY(-1.2px); } }
-.v-oiseau.ob .vol { animation: v-batte 1.125s step-end infinite, v-vol-b 22s step-end infinite; }
-.v-oiseau.ob .pose { animation: v-pose-b 22s step-end infinite, v-tete 4.7s step-end infinite; }
-@keyframes v-moineau-b {
-  0%, 42% { left: 104%; top: 13%; opacity: 0; } 42.5% { left: 102%; top: 12.5%; opacity: 1; }
-  45% { left: 91%; top: 9.5%; } 48% { left: 77%; top: 8.5%; } 51% { left: 63%; top: 12%; } 54% { left: 51%; top: 20%; }
-  57% { left: 42%; top: 32%; } 59.5% { left: 36.5%; top: 47%; } 61% { left: 34.5%; top: 57.5%; } 62%, 92% { left: 34.2%; top: 59.6%; opacity: 1; }
-  96%, 100% { left: 34.2%; top: 59.6%; opacity: 0; } }
+.v-vol.ob .vol { animation: v-vol-b 22s step-end infinite; }
+.v-vol.ob .pose { animation: v-pose-b 22s step-end infinite; }
+.v-vol.ob .pose i { animation: v-tete 4.7s step-end infinite; }
+@keyframes v-chemin-b {
+  0%, 42% { transform: translate(104%, 13%); } 42.5% { transform: translate(102%, 12.5%); } 45% { transform: translate(91%, 9.5%); }
+  48% { transform: translate(77%, 8.5%); } 51% { transform: translate(63%, 12%); } 54% { transform: translate(51%, 20%); }
+  57% { transform: translate(42%, 32%); } 59.5% { transform: translate(36.5%, 47%); } 61% { transform: translate(34.5%, 57.5%); }
+  62%, 100% { transform: translate(34.2%, 59.6%); } }
+@keyframes v-vu-b { 0%, 42% { opacity: 0; } 42.5%, 92% { opacity: 1; } 96%, 100% { opacity: 0; } }
 @keyframes v-vol-b { 0% { opacity: 1; } 62% { opacity: 0; } }
 @keyframes v-pose-b { 0% { opacity: 0; } 62% { opacity: 1; } }
 /* Le soir : les fenêtres luisent doucement, chaque quartier à son rythme, et quelques étoiles scintillent. */
@@ -490,7 +500,7 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 @keyframes v-bougie { 0% { opacity: .5; } 7% { opacity: .72; } 12% { opacity: .4; } 20% { opacity: .62; } 27% { opacity: .55; } 34% { opacity: .82; }
   41% { opacity: .46; } 49% { opacity: .66; } 55% { opacity: .35; } 63% { opacity: .7; } 71% { opacity: .52; } 78% { opacity: .78; } 86% { opacity: .42; } 93% { opacity: .64; } 100% { opacity: .5; } }
 .v-etoile { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: #F4EEDF; box-shadow: 0 0 4px 1px rgba(244,238,223,.35); animation: scintille 6s ease-in-out infinite; }
-@media (prefers-reduced-motion: reduce) { .v-arbre, .v-oiseau, .v-oiseau i, .v-oiseau b, .v-lum, .v-etoile, .b-flamme, .b-flamme img, .b-halo { animation: none; } .v-oiseau { display: none; } }
+@media (prefers-reduced-motion: reduce) { .v-arbre, .v-vol, .v-oiseau, .v-oiseau i, .v-oiseau b, .v-oiseau .vol, .v-oiseau .pose, .v-lum, .v-etoile, .b-flamme, .b-flamme img, .b-halo { animation: none; } .v-vol { display: none; } }
 
 /* Le nom du jour est un bouton discret : il ouvre la fiche du saint ou de la fête. */
 .titre-jour { background: none; border: 0; padding: 0; margin: 0; font: inherit; color: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; -webkit-tap-highlight-color: transparent; }
@@ -543,4 +553,46 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
   .feuille { left: var(--g); max-width: 600px; }
   /* Une ligne très légère sépare les deux pages, comme le pli d'un livre. */
   .app::before { content: ''; position: fixed; left: var(--g); top: 12vh; bottom: 12vh; width: 1px; background: linear-gradient(transparent, var(--filet) 20%, var(--filet) 80%, transparent); pointer-events: none; }
+}
+
+/* ==========================================================================
+   FLUIDITÉ ET TRANSITIONS (passe du 9 novembre 2026)
+   Règle : on n'anime que « transform » et « opacity », que la carte graphique calcule seule,
+   sans recalculer la mise en page ni repeindre. Tout le reste change d'un coup.
+   (Un fondu natif entre les pages, « View Transitions », a été essayé puis écarté : il photographie la page entière
+   à chaque changement, et les mesures montraient des changements d'onglet moins fluides qu'avec la simple entrée des textes.)
+   ========================================================================== */
+
+/* Feuilles : elles se ferment en redescendant (voir fermerFeuille) ; pendant ce temps, on ne peut plus les toucher. */
+.voile.sort, .feuille.sort { pointer-events: none; }
+.feuille { touch-action: pan-x; will-change: transform; }
+.feuille .poignee { cursor: grab; }
+
+/* Retour au toucher : un léger enfoncement, immédiat à l'appui, qui se relâche en douceur. */
+.bouton, .be-commencer, .chapitres button, .segments button, .barre button, .lire, .retour, .livre-tete, .rubrique, .favori, .resultat, .titre-jour, .logo {
+  transition-property: transform, opacity, color, background-color; transition-duration: .32s; transition-timing-function: cubic-bezier(.2, .7, .2, 1); }
+.bouton:active, .be-commencer:active, .chapitres button:active, .segments button:active, .barre button:active { transform: scale(.95); transition-duration: .08s; }
+.lire:active, .retour:active, .titre-jour:active { opacity: .55; transition-duration: .08s; }
+.rubrique:active, .favori:active, .resultat:active, .livre-tete:active, .section-jour.ouvrable:active { opacity: .6; transition-duration: .08s; }
+.section-jour.ouvrable { transition: opacity .32s cubic-bezier(.2, .7, .2, 1); }
+/* La barre garde sa transition de couleur ; le logo garde les siennes (largeur, fond) en plus de l'enfoncement. */
+.barre button { transition: color .35s ease, transform .32s cubic-bezier(.2, .7, .2, 1); }
+.logo { transition: width .6s var(--lent), background-color .6s ease, transform .32s cubic-bezier(.2, .7, .2, 1); }
+.logo:active { transform: scale(.94); transition-duration: .6s, .6s, .08s; }
+
+/* Réglages : la case choisie s'allume en douceur. */
+.segments button { transition: background-color .35s ease, color .35s ease, transform .32s cubic-bezier(.2, .7, .2, 1); }
+/* Prière guidée : le point de l'étape en cours grandit un peu. */
+.guide .points i { transition: background-color .45s ease, transform .45s var(--lent); }
+.guide .points i.on { transform: scale(1.35); }
+/* « Pour aller plus loin » : le contenu apparaît au lieu de surgir. */
+.plus-loin[open] > :not(summary) { animation: apparait .7s var(--lent) both; }
+/* Résultats de recherche et listes filtrées : chaque nouvelle liste se pose doucement. */
+#resultats > *, #liste-mots > * { animation: apparait .5s var(--lent) both; }
+
+/* Hors de l'écran, les animations d'ambiance se mettent en pause (batterie) ; elles reprennent là où elles en étaient. */
+.au-repos, .au-repos * { animation-play-state: paused !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .guide .points i.on { transform: none; }
 }

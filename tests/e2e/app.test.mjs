@@ -110,7 +110,8 @@ test('mot du jour : en bas d\'Aujourd\'hui, jamais le même deux jours de suite,
 test('bienvenue : un écran à part, une seule fois ; les mots s\'envolent, puis Aujourd\'hui ; ensuite dans les Réglages', async () => {
   const { ctx, page } = await ouvrir('2026-11-03', 'fr', { bienvenue: false });
   assert.ok(await page.$('#bienvenue'), 'écran de bienvenue');
-  assert.ok(!(await page.$('.section-jour')), 'rien d\'autre derrière');
+  // Aujourd'hui peut se préparer dessous, mais rien n'en est visible ni atteignable (inert, aria-hidden).
+  assert.ok(await page.evaluate(() => !document.querySelector('.section-jour') || (document.getElementById('app').inert && document.getElementById('app').getAttribute('aria-hidden') === 'true')), 'rien d\'autre derrière');
   await page.click('.be-commencer');
   await page.waitForSelector('#bienvenue.descend');
   await page.waitForSelector('.section-jour', { timeout: 15000 });
@@ -300,5 +301,34 @@ test('grand écran : pendant l\'arrivée après l\'écran de bienvenue, le volet
   assert.equal(r.l, 0);
   assert.ok(r.w < 720, 'le volet garde la largeur de la page de gauche');
   assert.equal(r.t, 'none', 'la page n\'est pas déplacée pendant l\'arrivée');
+  await ctx.close();
+});
+
+test('fluidité : au repos sur Aujourd\'hui (de jour, village et moineaux à l\'écran), les animations ne recalculent ni ne repeignent la page', async () => {
+  const { ctx, page } = await ouvrir('2026-11-03', 'fr');
+  await page.waitForTimeout(4500); // le ciel finit de se peindre, les textes finissent d'apparaître
+  await page.evaluate(() => document.querySelector('.respiration.village').scrollIntoView({ block: 'center' }));
+  await page.waitForTimeout(800);
+  const cdp = await ctx.newCDPSession(page);
+  await cdp.send('Performance.enable');
+  const lire = async () => Object.fromEntries((await cdp.send('Performance.getMetrics')).metrics.map((m) => [m.name, m.value]));
+  const a = await lire();
+  await page.waitForTimeout(3000);
+  const b = await lire();
+  assert.ok(b.LayoutCount - a.LayoutCount <= 2, `mises en page au repos : ${b.LayoutCount - a.LayoutCount}`);
+  assert.ok(b.RecalcStyleCount - a.RecalcStyleCount <= 4, `recalculs de style au repos : ${b.RecalcStyleCount - a.RecalcStyleCount}`);
+  await ctx.close();
+});
+
+test('feuille : elle s\'ouvre, se referme en redescendant, puis disparaît de la page', async () => {
+  const { ctx, page, erreurs } = await ouvrir('2026-11-03', 'fr');
+  await page.$eval('[data-action=explication]', (b) => b.click());
+  await page.waitForSelector('.feuille');
+  await page.waitForTimeout(700);
+  await page.$eval('.feuille [data-action=fermer]', (b) => b.click());
+  assert.ok(await page.$('.feuille.sort'), 'elle redescend');
+  await page.waitForSelector('.feuille', { state: 'detached', timeout: 3000 });
+  assert.ok(!(await page.$('.voile')), 'le voile est parti');
+  assert.deepEqual(erreurs, []);
   await ctx.close();
 });

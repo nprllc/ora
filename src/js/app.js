@@ -475,10 +475,13 @@
     }).join('');
     // Deux moineaux peints à l'aquarelle (planche de 7 images : 5 de vol, 2 posés). L'un quitte son olivier et passe
     // derrière le clocher (un calque du clocher et de l'église est posé par-dessus lui) ; l'autre traverse et se pose.
-    var moineau = '<b><i class="vol"></i></b><i class="pose"></i>';
-    var oiseaux = '<span class="v-oiseau oa">' + moineau + '</span>' +
+    // Tout bouge par « transform » et « opacity » (calculés par la carte graphique, sans repeindre la page) :
+    // le trajet est porté par un calque de la taille du village (ses pourcentages sont ceux du village),
+    // et chaque image de la planche est un décalage de la planche entière dans une petite fenêtre.
+    var moineau = '<span class="v-oiseau"><b><span class="vol"><i></i></span></b><span class="pose"><i></i></span></span>';
+    var oiseaux = '<span class="v-vol oa">' + moineau + '</span>' +
       '<img class="v-clocher" src="' + img('village-jour-clocher.webp') + '" alt="" decoding="async" style="left:51.79%;top:8.78%;width:11.28%;height:39.66%">' +
-      '<span class="v-oiseau ob">' + moineau + '</span>';
+      '<span class="v-vol ob">' + moineau + '</span>';
     return '<div class="respiration village jour" aria-hidden="true"><img src="' + img('village-jour.webp') + '" alt="" decoding="async">' + arbres + oiseaux + '</div>';
   }
 
@@ -910,13 +913,49 @@
       OraAquarelle.nuage(document.getElementById('bb-' + k), { w: n[3], h: Math.round(n[3] * 0.62), seed: n[4], corps: t.corps, ombre: t.ombre, lumiere: t.lumiere, aCorps: t.a, aOmbre: t.a * 0.6, aLumiere: t.a * 1.2, n: 30 });
     });
     document.documentElement.classList.add('vivant'); // le fond de l'écran vit comme le ciel d'Aujourd'hui
+    // Pendant qu'on lit l'écran de bienvenue, Aujourd'hui se prépare dessous (page, ciel, mer de nuages) :
+    // au toucher de « Commencer », il ne reste qu'à lancer la descente, sans calcul qui la ferait saccader.
+    setTimeout(preparerSousBienvenue, 700);
+  }
+  var sousBienvenuePret = false;
+  function preparerSousBienvenue() {
+    var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('descend') || sousBienvenuePret) return;
+    etat.sousBienvenue = true; etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil';
+    rendre();
+    document.getElementById('barre').hidden = true; // la barre n'apparaît qu'à l'arrivée
+    // Préparé mais pas encore là : ni visible, ni atteignable au clavier ou par un lecteur d'écran.
+    var app = document.getElementById('app'); app.setAttribute('inert', ''); app.setAttribute('aria-hidden', 'true');
+    sousBienvenuePret = true;
+  }
+  // Rejoue depuis le début les animations d'entrée d'Aujourd'hui (l'astre qui monte, les textes qui apparaissent),
+  // qui ont déjà joué, cachées, sous l'écran de bienvenue.
+  function rejouerEntree() {
+    var zones = [document.getElementById('ciel'), document.getElementById('app')];
+    if (zones[0] && zones[0].getAnimations) {
+      zones.forEach(function (z) {
+        z.getAnimations({ subtree: true }).forEach(function (a) {
+          if (a.animationName === 'apparait' || a.animationName === 'monte') { a.currentTime = 0; a.play(); }
+        });
+      });
+      return;
+    }
+    var vu = document.querySelector('.vue'); if (vu) { vu.classList.remove('entre'); void vu.offsetWidth; vu.classList.add('entre'); }
   }
   function quitterBienvenue() {
     var e = document.getElementById('bienvenue'); if (!e || e.classList.contains('descend')) return;
     var lent = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     R.bienvenue = true; ecrireReglages();
     // Aujourd'hui est posé dessous, plus bas : en descendant, il monte vers nous jusqu'à sa place.
-    etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
+    if (sousBienvenuePret) {
+      etat.sousBienvenue = false;
+      document.getElementById('barre').hidden = false;
+      var app = document.getElementById('app'); app.removeAttribute('inert'); app.removeAttribute('aria-hidden');
+      window.scrollTo(0, 0);
+      rejouerEntree();
+    } else {
+      etat.sousBienvenue = false;
+      etat.premiereOuverture = true; dernierCiel = null; etat.vue = 'accueil'; rendre(); window.scrollTo(0, 0);
+    }
     if (lent) { e.remove(); return; }
     document.documentElement.classList.add('arrivee');
     void e.offsetWidth; // le navigateur prend la position de départ avant l'animation
@@ -925,7 +964,7 @@
   }
 
   function rendre() {
-    if (!R.bienvenue) { ecranBienvenue(); return; }
+    if (!R.bienvenue && !etat.sousBienvenue) { ecranBienvenue(); return; }
     var nuit = estNuit();
     document.documentElement.classList.toggle('nuit', nuit);
     document.documentElement.style.fontSize = { normal: '16px', grand: '18px', 'tres-grand': '20px' }[R.taille] || '16px';
@@ -953,7 +992,8 @@
       dernierCiel = cleCiel;
       document.getElementById('astre-zone').innerHTML = '<div class="astre"><div class="aura"></div><div class="halo"></div><div class="disque"></div></div>' +
         (nuit ? [[62, 96, 7, 0], [132, 58, 9, 2.5], [176, 150, 6, 4], [350, 70, 8, 1.2], [34, 196, 10, 5.5], [250, 36, 7.5, 3.2], [318, 40, 9.5, 6.4]].map(function (p) { return '<span class="etoile" style="left:calc(50% - 195px + ' + p[0] + 'px);top:' + p[1] + 'px;--d:' + p[2] + 's;--r:-' + p[3] + 's"></span>'; }).join('') : '');
-      cielPret = false; document.documentElement.classList.remove('vivant');
+      // (Sous l'écran de bienvenue, son fond continue de vivre pendant que le ciel d'Aujourd'hui se peint.)
+      cielPret = false; if (!etat.sousBienvenue) document.documentElement.classList.remove('vivant');
       OraAquarelle.peindre(document.getElementById('couches'), cleCiel, true, function () { cielPret = true; majVivant(); });
     }
 
@@ -979,6 +1019,17 @@
     etat.premiereOuverture = false;
     ajusterTitres();
     majDefile();
+    observerRepos();
+  }
+
+  // Les animations d'ambiance (ciel, village, bougie, mer de nuages) se mettent en pause quand elles sont hors de l'écran.
+  var repos = window.IntersectionObserver ? new IntersectionObserver(function (entrees) {
+    entrees.forEach(function (e) { e.target.classList.toggle('au-repos', !e.isIntersecting); });
+  }, { rootMargin: '120px 0px' }) : null;
+  function observerRepos() {
+    if (!repos) return;
+    repos.disconnect();
+    document.querySelectorAll('#ciel, #app .respiration, #mer-bas').forEach(function (n) { repos.observe(n); });
   }
 
   // Garde-fou : si un mot d'un titre est plus large que l'écran, on réduit la police jusqu'à ce qu'il tienne.
@@ -1086,14 +1137,53 @@
   function aller(vue) { empiler(); etat.vue = vue; rendre(); window.scrollTo(0, 0); }
 
   function feuille(titre, corpsHtml) {
-    fermerFeuille();
+    fermerFeuille(true);
     var voile = document.createElement('div'); voile.className = 'voile'; voile.setAttribute('data-action', 'fermer');
     var f = document.createElement('div'); f.className = 'feuille'; f.setAttribute('role', 'dialog'); f.setAttribute('aria-modal', 'true'); f.setAttribute('aria-label', titre);
     f.innerHTML = '<div class="poignee"></div><h2>' + OraLatin.italiques(esc(titre)) + '</h2>' + OraLatin.italiques(corpsHtml) + '<div class="actions" style="margin-top:20px"><button class="bouton leger" data-action="fermer">' + esc(T('fermer')) + '</button></div>';
     document.body.appendChild(voile); document.body.appendChild(f);
-    var b = f.querySelector('button'); if (b) b.focus();
+    // L'animation d'entrée terminée, on la retire : le geste de glisser peut alors piloter « transform » librement.
+    [voile, f].forEach(function (n) { n.addEventListener('animationend', function () { n.style.animation = 'none'; }, { once: true }); });
+    var b = f.querySelector('button'); if (b) b.focus({ preventScroll: true });
+    glisserPourFermer(f, voile);
   }
-  function fermerFeuille() { document.querySelectorAll('.voile,.feuille').forEach(function (n) { n.remove(); }); }
+  // Fermer une feuille : elle redescend et le voile s'efface (immédiat si une autre feuille la remplace).
+  function fermerFeuille(immediat) {
+    var lent = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.querySelectorAll('.voile,.feuille').forEach(function (n) {
+      if (immediat === true || lent || !n.animate) { n.remove(); return; }
+      if (n.classList.contains('sort')) return;
+      n.classList.add('sort');
+      var depart = n.classList.contains('feuille') ? (getComputedStyle(n).transform === 'none' ? 'translateY(0)' : getComputedStyle(n).transform) : null;
+      var a = n.classList.contains('feuille')
+        ? n.animate([{ transform: depart }, { transform: 'translateY(100%)' }], { duration: 320, easing: 'cubic-bezier(.4, 0, 1, 1)', fill: 'forwards' })
+        : n.animate([{ opacity: getComputedStyle(n).opacity }, { opacity: 0 }], { duration: 300, easing: 'ease', fill: 'forwards' });
+      a.onfinish = function () { n.remove(); };
+    });
+  }
+  // Sur un écran tactile, on peut aussi faire glisser la feuille vers le bas pour la fermer.
+  // Seule la propriété « transform » change pendant le geste : rien n'est recalculé dans la page.
+  function glisserPourFermer(f, voile) {
+    var y0 = null, dy = 0, t0 = 0;
+    f.addEventListener('pointerdown', function (ev) {
+      if (ev.pointerType === 'mouse' || ev.target.closest('button, a, input')) return;
+      y0 = ev.clientY; dy = 0; t0 = performance.now(); f.style.transition = 'none';
+    });
+    f.addEventListener('pointermove', function (ev) {
+      if (y0 === null) return;
+      dy = Math.max(0, ev.clientY - y0);
+      if (dy > 4) { f.style.transform = 'translateY(' + dy + 'px)'; voile.style.opacity = String(Math.max(0, 1 - dy / 400)); }
+    });
+    var fin = function () {
+      if (y0 === null) return;
+      var vite = dy / Math.max(1, performance.now() - t0) > 0.6;
+      y0 = null;
+      if (dy > 110 || (vite && dy > 30)) { fermerFeuille(); return; }
+      f.style.transition = 'transform .35s cubic-bezier(.32, .72, 0, 1)'; f.style.transform = '';
+      voile.style.transition = 'opacity .35s ease'; voile.style.opacity = '';
+    };
+    f.addEventListener('pointerup', fin); f.addEventListener('pointercancel', fin);
+  }
 
   // Ouvre un passage ; « liste » (facultative) donne les versets exacts à surligner, sur un ou plusieurs chapitres.
   function ouvrirPassage(id, liste) {
@@ -1125,12 +1215,12 @@
       if (au) feuille(au.nom, '<p>' + refsSeules(au.bio) + '</p>');
     } else if (act === 'fermer') fermerFeuille();
     else if (act === 'haut') window.scrollTo({ top: 0, behavior: 'smooth' });
-    else if (act === 'onglet') { etat.pile = []; etat.vue = id; fermerFeuille(); rendre(); window.scrollTo(0, 0); }
+    else if (act === 'onglet') { if (etat.vue === id) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; } etat.pile = []; etat.vue = id; fermerFeuille(true); rendre(); window.scrollTo(0, 0); }
     else if (act === 'aller') aller(id);
     else if (act === 'priere') aller('priere:' + id);
     else if (act === 'lecture') aller('lecture:' + id);
     else if (act === 'livre') { etat.livreOuvert = etat.livreOuvert === id ? null : id; rendreEnPlace(); }
-    else if (act === 'passage') { fermerFeuille(); ouvrirPassage(id); }
+    else if (act === 'passage') { fermerFeuille(true); ouvrirPassage(id); }
     else if (act === 'passage-messe') { var am = aujourdhui().messe; ouvrirPassage(id, am ? ((am.vl && am.vl[LANG]) || am.v) : null); }
     else if (act === 'passage-evangile') { var ev = evangile(aujourdhui()); ouvrirPassage(id, ev && ev.liste ? ev.liste.map(function (x) { return [x.c, x.v]; }) : null); }
     else if (act === 'chapitre') { etat.bible = Object.assign({}, etat.bible, { ch: +id }); rendre(); window.scrollTo(0, 0); }
