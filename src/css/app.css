@@ -590,6 +590,10 @@ h2 { margin: 0 0 8px; font-weight: 300; font-size: clamp(22px, 7vw, 28px); line-
 /* Résultats de recherche et listes filtrées : chaque nouvelle liste se pose doucement. */
 #resultats > *, #liste-mots > * { animation: apparait .5s var(--lent) both; }
 
+/* Pendant la descente de l'écran de bienvenue (3,6 s), les mouvements lents d'ambiance (nuages qui flottent, mer qui
+   défile, étoiles) sont imperceptibles : on les suspend pour laisser toute la place à la descente, puis ils reprennent. */
+:root.arrivee .couche, :root.arrivee .couche canvas, :root.arrivee .etoile, :root.arrivee .be-lumiere,
+:root.arrivee .respiration *, :root.arrivee .astre .halo { animation-play-state: paused !important; }
 /* Hors de l'écran, les animations d'ambiance se mettent en pause (batterie) ; elles reprennent là où elles en étaient. */
 .au-repos, .au-repos * { animation-play-state: paused !important; }
 
