@@ -991,6 +991,849 @@
     "piste": "Jesus calls blessed those who make peace, not only those who wish for it. We can pray for peace where it is lacking, and make it where we are: mend a quarrel, not repeat a rumour, teach a child to make up.",
     "sources": "Saint Paul VI, message for the first World Day of Peace (8 December 1967)"
    }
+  },
+  {
+   "id": "peur",
+   "versets": [
+    {
+     "osis": "Isa",
+     "c": 41,
+     "v": [
+      10
+     ]
+    },
+    {
+     "osis": "1Pet",
+     "c": 5,
+     "v": [
+      7
+     ]
+    }
+   ],
+   "priere": "ps56-4",
+   "fr": {
+    "titre": "Quand on a peur",
+    "accroche": "Peur pour sa santé, pour ses enfants, pour son travail, pour l'avenir du monde. La peur arrive souvent sans prévenir.",
+    "fait": "La peur est une réaction naturelle : elle protège d'un danger. Mais elle peut aussi s'installer et occuper toute la place, surtout la nuit ou quand on se sent seul. Dans la Bible, la phrase « Ne crains pas » revient des dizaines de fois, adressée à des gens qui avaient de bonnes raisons d'avoir peur.",
+    "piste": "Dieu ne promet pas qu'il n'arrivera rien. Il promet d'être là. On peut nommer sa peur devant lui, simplement, et la lui confier, comme on pose un sac trop lourd. Et parfois aussi la dire à quelqu'un de confiance : la peur partagée pèse moins.",
+    "sources": "Livre d'Isaïe 41, 10 ; Première lettre de saint Pierre 5, 7"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand on a peur",
+     "texte": "Tout le monde a peur parfois : du noir, d'un gros chien, d'un orage, de ne pas savoir faire. Même les grands ! Dans la Bible, Dieu dit très souvent : « N'aie pas peur, je suis avec toi. » On peut lui parler quand on a peur, et aussi le dire à papa ou à maman.",
+     "question": "De quoi as-tu peur parfois ? Qui t'aide à être rassuré ?"
+    },
+    "es": {
+     "titre": "Cuando tenemos miedo",
+     "texte": "Todo el mundo tiene miedo a veces: de la oscuridad, de un perro grande, de una tormenta, de no saber hacer algo. ¡Incluso los mayores! En la Biblia, Dios dice muy a menudo: «No tengas miedo, yo estoy contigo». Podemos hablarle cuando tenemos miedo, y también decírselo a papá o a mamá.",
+     "question": "¿De qué tienes miedo a veces? ¿Quién te ayuda a sentirte tranquilo?"
+    },
+    "en": {
+     "titre": "When we are scared",
+     "texte": "Everyone is scared sometimes: of the dark, of a big dog, of a storm, of not knowing how to do something. Even grown-ups! In the Bible, God very often says: “Don't be afraid, I am with you.” We can talk to him when we are scared, and tell Mum or Dad too.",
+     "question": "What are you scared of sometimes? Who helps you feel safe?"
+    }
+   },
+   "es": {
+    "titre": "Cuando tenemos miedo",
+    "accroche": "Miedo por la salud, por los hijos, por el trabajo, por el futuro del mundo. El miedo suele llegar sin avisar.",
+    "fait": "El miedo es una reacción natural: nos protege de un peligro. Pero también puede instalarse y ocupar todo el espacio, sobre todo de noche o cuando nos sentimos solos. En la Biblia, la frase «No temas» aparece decenas de veces, dirigida a personas que tenían buenas razones para tener miedo.",
+    "piste": "Dios no promete que no pasará nada. Promete estar ahí. Podemos nombrar nuestro miedo delante de él, sencillamente, y confiárselo, como quien deja una mochila demasiado pesada. Y a veces también contarlo a alguien de confianza: el miedo compartido pesa menos.",
+    "sources": "Libro de Isaías 41, 10; Primera carta de san Pedro 5, 7"
+   },
+   "en": {
+    "titre": "When we are afraid",
+    "accroche": "Fear for our health, our children, our work, the future of the world. Fear often comes without warning.",
+    "fait": "Fear is a natural reaction: it protects us from danger. But it can also settle in and take up all the room, especially at night or when we feel alone. In the Bible, the words “Do not be afraid” come back dozens of times, spoken to people who had good reasons to be afraid.",
+    "piste": "God does not promise that nothing will happen. He promises to be there. We can name our fear before him, simply, and hand it over, like putting down a bag that is too heavy. And sometimes tell someone we trust as well: a fear that is shared weighs less.",
+    "sources": "Book of Isaiah 41:10; First Letter of Saint Peter 5:7"
+   }
+  },
+  {
+   "id": "deuil",
+   "versets": [
+    {
+     "osis": "John",
+     "c": 11,
+     "v": [
+      35
+     ]
+    },
+    {
+     "osis": "Ps",
+     "c": 34,
+     "v": [
+      19
+     ]
+    }
+   ],
+   "priere": "ps23-4",
+   "fr": {
+    "titre": "Quand quelqu'un nous manque",
+    "accroche": "Un parent, un ami, un enfant, un animal aimé. La mort d'un proche laisse un vide que rien ne remplit tout de suite.",
+    "fait": "Le deuil prend du temps, et chacun le vit à sa manière : tristesse, colère, fatigue, parfois même soulagement après une longue maladie. Tout cela est normal. L'Évangile raconte que Jésus a pleuré devant le tombeau de son ami Lazare, alors même qu'il savait qu'il allait lui rendre la vie (Jn 11, 35).",
+    "piste": "Les larmes ne sont pas un manque de foi. Jésus les a connues. On peut porter ses souvenirs dans la prière, dire à Dieu ce qui fait mal, et confier la personne qu'on aime à sa tendresse. La foi chrétienne espère la résurrection : l'amour ne s'arrête pas avec la mort.",
+    "sources": "Évangile selon saint Jean 11, 35 ; Catéchisme de l'Église catholique, n° 1681"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand quelqu'un nous manque",
+     "texte": "Quand quelqu'un qu'on aime meurt, on est très triste, et c'est normal de pleurer. Jésus aussi a pleuré quand son ami Lazare est mort. Les chrétiens croient que ceux qui sont morts sont auprès de Dieu, et qu'on les retrouvera un jour. On peut prier pour eux et se souvenir des beaux moments.",
+     "question": "À qui aimerais-tu penser dans ta prière ce soir ?"
+    },
+    "es": {
+     "titre": "Cuando alguien nos falta",
+     "texte": "Cuando muere alguien a quien queremos, nos ponemos muy tristes, y es normal llorar. Jesús también lloró cuando murió su amigo Lázaro. Los cristianos creemos que los que han muerto están con Dios, y que un día los volveremos a ver. Podemos rezar por ellos y recordar los momentos bonitos.",
+     "question": "¿En quién te gustaría pensar en tu oración esta noche?"
+    },
+    "en": {
+     "titre": "When we miss someone",
+     "texte": "When someone we love dies, we feel very sad, and it is normal to cry. Jesus cried too when his friend Lazarus died. Christians believe that those who have died are with God, and that one day we will see them again. We can pray for them and remember the happy times.",
+     "question": "Who would you like to think of in your prayer tonight?"
+    }
+   },
+   "es": {
+    "titre": "Cuando alguien nos falta",
+    "accroche": "Un padre, un amigo, un hijo, un animal querido. La muerte de un ser cercano deja un vacío que nada llena de inmediato.",
+    "fait": "El duelo lleva tiempo, y cada uno lo vive a su manera: tristeza, enojo, cansancio, a veces incluso alivio después de una larga enfermedad. Todo eso es normal. El Evangelio cuenta que Jesús lloró ante la tumba de su amigo Lázaro, aun sabiendo que iba a devolverle la vida (Jn 11, 35).",
+    "piste": "Las lágrimas no son falta de fe. Jesús las conoció. Podemos llevar nuestros recuerdos a la oración, decirle a Dios lo que duele y confiar a su ternura a la persona que amamos. La fe cristiana espera la resurrección: el amor no termina con la muerte.",
+    "sources": "Evangelio según san Juan 11, 35; Catecismo de la Iglesia Católica, n. 1681"
+   },
+   "en": {
+    "titre": "When we miss someone",
+    "accroche": "A parent, a friend, a child, a beloved pet. The death of someone close leaves a gap that nothing fills straight away.",
+    "fait": "Grief takes time, and everyone lives it in their own way: sadness, anger, tiredness, sometimes even relief after a long illness. All of this is normal. The Gospel tells us that Jesus wept at the tomb of his friend Lazarus, even though he knew he was about to bring him back to life (Jn 11:35).",
+    "piste": "Tears are not a lack of faith. Jesus knew them too. We can bring our memories into prayer, tell God what hurts, and entrust the person we love to his tenderness. Christian faith hopes in the resurrection: love does not stop with death.",
+    "sources": "Gospel according to Saint John 11:35; Catechism of the Catholic Church, no. 1681"
+   }
+  },
+  {
+   "id": "comparaison",
+   "versets": [
+    {
+     "osis": "Gal",
+     "c": 6,
+     "v": [
+      4
+     ]
+    },
+    {
+     "osis": "Ps",
+     "c": 139,
+     "v": [
+      14
+     ]
+    }
+   ],
+   "priere": "ps139-14",
+   "fr": {
+    "titre": "Se comparer aux autres",
+    "accroche": "Leur maison, leurs vacances, leurs enfants si sages, leur réussite. On regarde les autres, et soudain sa propre vie paraît petite.",
+    "fait": "Se comparer est très humain, et les réseaux sociaux le rendent plus facile que jamais. Mais on compare souvent sa vie réelle, avec ses fatigues, à la vitrine des autres. Saint Paul conseillait aux Galates de regarder leur propre chemin plutôt que de se mesurer à autrui (Ga 6, 4).",
+    "piste": "Chacun est voulu par Dieu tel qu'il est, avec une histoire unique. On peut essayer, ce soir, de remercier pour trois choses de sa propre vie, même toutes petites. La gratitude est souvent le meilleur remède à la comparaison.",
+    "sources": "Lettre de saint Paul aux Galates 6, 4 ; Psaume 139, 14"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Tu es unique",
+     "texte": "Parfois, on voudrait être comme un autre : courir plus vite, dessiner mieux, avoir le même jouet. Mais Dieu t'a fait unique, comme personne d'autre au monde ! Dans un psaume, on dit à Dieu : merci de m'avoir fait si merveilleusement.",
+     "question": "Qu'est-ce que tu aimes bien chez toi ?"
+    },
+    "es": {
+     "titre": "Eres único",
+     "texte": "A veces quisiéramos ser como otro: correr más rápido, dibujar mejor, tener el mismo juguete. ¡Pero Dios te hizo único, como nadie más en el mundo! En un salmo le decimos a Dios: gracias por haberme hecho tan maravillosamente.",
+     "question": "¿Qué te gusta de ti?"
+    },
+    "en": {
+     "titre": "You are unique",
+     "texte": "Sometimes we would like to be like someone else: run faster, draw better, have the same toy. But God made you unique, like nobody else in the world! In a psalm we say to God: thank you for making me so wonderfully.",
+     "question": "What do you like about yourself?"
+    }
+   },
+   "es": {
+    "titre": "Compararse con los demás",
+    "accroche": "Su casa, sus vacaciones, sus hijos tan educados, su éxito. Miramos a los demás y de pronto nuestra vida parece pequeña.",
+    "fait": "Compararse es muy humano, y las redes sociales lo hacen más fácil que nunca. Pero a menudo comparamos nuestra vida real, con sus cansancios, con el escaparate de los demás. San Pablo aconsejaba a los gálatas mirar su propio camino en lugar de medirse con otros (Gal 6, 4).",
+    "piste": "Cada uno es querido por Dios tal como es, con una historia única. Podemos intentar, esta noche, dar gracias por tres cosas de nuestra propia vida, aunque sean muy pequeñas. La gratitud suele ser el mejor remedio contra la comparación.",
+    "sources": "Carta de san Pablo a los Gálatas 6, 4; Salmo 139, 14"
+   },
+   "en": {
+    "titre": "Comparing ourselves with others",
+    "accroche": "Their house, their holidays, their well-behaved children, their success. We look at others, and suddenly our own life seems small.",
+    "fait": "Comparing ourselves is very human, and social media makes it easier than ever. But we often compare our real life, tiredness and all, with other people's shop window. Saint Paul advised the Galatians to look at their own path rather than measure themselves against others (Gal 6:4).",
+    "piste": "Each of us is wanted by God just as we are, with a unique story. Tonight we could try giving thanks for three things in our own life, however small. Gratitude is often the best cure for comparison.",
+    "sources": "Letter of Saint Paul to the Galatians 6:4; Psalm 139:14"
+   }
+  },
+  {
+   "id": "echec",
+   "versets": [
+    {
+     "osis": "Rom",
+     "c": 8,
+     "v": [
+      28
+     ]
+    }
+   ],
+   "priere": "ps31-15",
+   "fr": {
+    "titre": "Après un échec",
+    "accroche": "Un examen raté, un projet qui n'aboutit pas, une relation qui s'arrête. L'échec fait mal, et il laisse souvent un goût de honte.",
+    "fait": "Personne n'échappe à l'échec. La Bible est pleine de gens qui ont raté : Moïse qui bégayait, David qui a gravement péché, Pierre qui a renié Jésus. Leur histoire ne s'est pas arrêtée là. Saint Paul écrit que tout peut concourir au bien de ceux qui aiment Dieu (Rm 8, 28).",
+    "piste": "Un échec dit ce qu'on a fait, pas ce qu'on vaut. On peut prendre le temps de regarder ce qu'il apprend, sans se juger trop durement, puis demander à Dieu la force de repartir. Parfois, un chemin fermé en ouvre un autre qu'on n'aurait pas vu.",
+    "sources": "Lettre de saint Paul aux Romains 8, 28 ; Évangile selon saint Luc 22, 61-62"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand on n'y arrive pas",
+     "texte": "Parfois, on rate : le dessin n'est pas beau, la tour de cubes tombe, on perd au jeu. C'est frustrant ! Mais tout le monde rate, même les grands. Saint Pierre a raté beaucoup de choses, et Jésus l'a toujours aimé. On peut essayer encore, et demander de l'aide.",
+     "question": "Qu'est-ce que tu as réussi après avoir essayé plusieurs fois ?"
+    },
+    "es": {
+     "titre": "Cuando no nos sale",
+     "texte": "A veces fallamos: el dibujo no queda bonito, la torre de bloques se cae, perdemos en el juego. ¡Qué rabia! Pero todo el mundo falla, incluso los mayores. San Pedro falló muchas veces, y Jesús siempre lo quiso. Podemos intentarlo otra vez y pedir ayuda.",
+     "question": "¿Qué conseguiste hacer después de intentarlo varias veces?"
+    },
+    "en": {
+     "titre": "When it doesn't work",
+     "texte": "Sometimes things go wrong: the drawing isn't pretty, the tower of blocks falls down, we lose the game. It's frustrating! But everyone gets things wrong, even grown-ups. Saint Peter got lots of things wrong, and Jesus always loved him. We can try again, and ask for help.",
+     "question": "What did you manage to do after trying several times?"
+    }
+   },
+   "es": {
+    "titre": "Después de un fracaso",
+    "accroche": "Un examen suspendido, un proyecto que no sale, una relación que termina. El fracaso duele, y a menudo deja un sabor a vergüenza.",
+    "fait": "Nadie escapa al fracaso. La Biblia está llena de personas que fallaron: Moisés, que tartamudeaba; David, que pecó gravemente; Pedro, que negó a Jesús. Su historia no terminó ahí. San Pablo escribe que todo puede contribuir al bien de los que aman a Dios (Rom 8, 28).",
+    "piste": "Un fracaso dice lo que hicimos, no lo que valemos. Podemos tomarnos tiempo para ver qué nos enseña, sin juzgarnos con demasiada dureza, y luego pedir a Dios la fuerza para volver a empezar. A veces, un camino cerrado abre otro que no habríamos visto.",
+    "sources": "Carta de san Pablo a los Romanos 8, 28; Evangelio según san Lucas 22, 61-62"
+   },
+   "en": {
+    "titre": "After a failure",
+    "accroche": "A failed exam, a project that comes to nothing, a relationship that ends. Failure hurts, and it often leaves a taste of shame.",
+    "fait": "No one escapes failure. The Bible is full of people who got it wrong: Moses who stammered, David who sinned gravely, Peter who denied Jesus. Their story did not end there. Saint Paul writes that all things can work together for good for those who love God (Rom 8:28).",
+    "piste": "A failure says what we did, not what we are worth. We can take time to see what it teaches us, without judging ourselves too harshly, then ask God for the strength to start again. Sometimes a closed road opens another we would not have seen.",
+    "sources": "Letter of Saint Paul to the Romans 8:28; Gospel according to Saint Luke 22:61-62"
+   }
+  },
+  {
+   "id": "amitie",
+   "versets": [
+    {
+     "osis": "John",
+     "c": 15,
+     "v": [
+      15
+     ]
+    },
+    {
+     "osis": "Sir",
+     "c": 6,
+     "v": [
+      14
+     ]
+    }
+   ],
+   "priere": "ps16-11",
+   "fr": {
+    "titre": "L'amitié",
+    "accroche": "Ceux qu'on appelle quand ça ne va pas, ceux avec qui on rit pour rien. L'amitié est l'un des plus beaux cadeaux de la vie.",
+    "fait": "Avec les années, le travail et la famille, on voit parfois moins ses amis, et certaines amitiés s'éteignent sans qu'on l'ait voulu. La Bible parle souvent de l'amitié : le livre de Ben Sira compare un ami fidèle à un trésor (Si 6, 14). Et Jésus dit à ses disciples qu'il ne les appelle plus serviteurs, mais amis (Jn 15, 15).",
+    "piste": "On peut penser aujourd'hui à un ami qu'on n'a pas appelé depuis longtemps, et lui envoyer un mot. Et se souvenir que Dieu lui-même nous offre son amitié : on peut lui parler comme à un ami, sans phrases toutes faites.",
+    "sources": "Évangile selon saint Jean 15, 15 ; Livre de Ben Sira 6, 14"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Les amis",
+     "texte": "Un ami, c'est quelqu'un avec qui on aime jouer, qui nous console quand on est triste, et avec qui on peut se réconcilier après une dispute. Jésus avait beaucoup d'amis, et il nous dit : « Vous êtes mes amis. » Jésus est notre ami pour toujours.",
+     "question": "Qui est ton ami ou ton amie ? Qu'aimez-vous faire ensemble ?"
+    },
+    "es": {
+     "titre": "Los amigos",
+     "texte": "Un amigo es alguien con quien nos gusta jugar, que nos consuela cuando estamos tristes y con quien podemos reconciliarnos después de una pelea. Jesús tenía muchos amigos, y nos dice: «Ustedes son mis amigos». Jesús es nuestro amigo para siempre.",
+     "question": "¿Quién es tu amigo o tu amiga? ¿Qué les gusta hacer juntos?"
+    },
+    "en": {
+     "titre": "Friends",
+     "texte": "A friend is someone we like playing with, who comforts us when we are sad, and with whom we can make up after a quarrel. Jesus had lots of friends, and he tells us: “You are my friends.” Jesus is our friend for ever.",
+     "question": "Who is your friend? What do you like doing together?"
+    }
+   },
+   "es": {
+    "titre": "La amistad",
+    "accroche": "Esas personas a las que llamamos cuando algo va mal, con las que nos reímos por nada. La amistad es uno de los regalos más bonitos de la vida.",
+    "fait": "Con los años, el trabajo y la familia, a veces vemos menos a los amigos, y algunas amistades se apagan sin que lo hayamos querido. La Biblia habla a menudo de la amistad: el libro del Eclesiástico compara a un amigo fiel con un tesoro (Eclo 6, 14). Y Jesús dice a sus discípulos que ya no los llama siervos, sino amigos (Jn 15, 15).",
+    "piste": "Podemos pensar hoy en un amigo al que no llamamos desde hace tiempo, y mandarle un mensaje. Y recordar que Dios mismo nos ofrece su amistad: podemos hablarle como a un amigo, sin frases hechas.",
+    "sources": "Evangelio según san Juan 15, 15; Libro del Eclesiástico 6, 14"
+   },
+   "en": {
+    "titre": "Friendship",
+    "accroche": "The people we call when things go wrong, the ones we laugh with for no reason. Friendship is one of life's most beautiful gifts.",
+    "fait": "With the years, work and family, we sometimes see our friends less, and some friendships fade without our wanting it. The Bible often speaks of friendship: the book of Sirach compares a faithful friend to a treasure (Sir 6:14). And Jesus tells his disciples that he no longer calls them servants, but friends (Jn 15:15).",
+    "piste": "Today we could think of a friend we have not called for a long time, and send them a message. And remember that God himself offers us his friendship: we can talk to him as to a friend, without ready-made phrases.",
+    "sources": "Gospel according to Saint John 15:15; Book of Sirach 6:14"
+   }
+  },
+  {
+   "id": "dispute",
+   "versets": [
+    {
+     "osis": "Col",
+     "c": 3,
+     "v": [
+      13,
+      14
+     ]
+    }
+   ],
+   "priere": "ps86-5",
+   "fr": {
+    "titre": "Après une dispute",
+    "accroche": "Une dispute avec son conjoint, un frère, un enfant devenu grand. Les mots sont partis trop vite, et maintenant le silence pèse.",
+    "fait": "Les disputes arrivent dans toutes les familles, même les plus unies. Elles ne sont pas forcément le signe que l'amour manque : elles montrent souvent qu'on tient l'un à l'autre. Saint Paul invitait les premiers chrétiens à se supporter et à se pardonner mutuellement, comme le Seigneur leur avait pardonné (Col 3, 13).",
+    "piste": "Faire le premier pas coûte, mais il libère souvent les deux. Un mot simple suffit parfois : « Je suis désolé pour ce que j'ai dit. » Et si les mots ne viennent pas encore, on peut commencer par prier pour l'autre, ce qui change déjà le regard qu'on porte sur lui.",
+    "sources": "Lettre de saint Paul aux Colossiens 3, 13-14 ; Catéchisme de l'Église catholique, n° 2227"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Se réconcilier",
+     "texte": "Après une dispute, on boude, on est fâché, on ne veut plus se parler. Mais c'est triste de rester fâché ! Se réconcilier, c'est dire « pardon » et accepter le pardon de l'autre. Après, on se sent plus léger, comme quand on enlève un gros sac de son dos.",
+     "question": "Avec qui t'es-tu réconcilié dernièrement ?"
+    },
+    "es": {
+     "titre": "Hacer las paces",
+     "texte": "Después de una pelea, nos enfadamos, ponemos mala cara y no queremos hablarnos. ¡Pero es triste quedarse enfadado! Hacer las paces es decir «perdón» y aceptar el perdón del otro. Después nos sentimos más ligeros, como cuando nos quitamos una mochila pesada de la espalda.",
+     "question": "¿Con quién hiciste las paces hace poco?"
+    },
+    "en": {
+     "titre": "Making up",
+     "texte": "After a quarrel, we sulk, we're cross, we don't want to talk any more. But it's sad to stay cross! Making up means saying “sorry” and accepting the other person's sorry. Afterwards we feel lighter, like taking a heavy bag off our back.",
+     "question": "Who did you make up with recently?"
+    }
+   },
+   "es": {
+    "titre": "Después de una pelea",
+    "accroche": "Una discusión con el cónyuge, un hermano, un hijo ya mayor. Las palabras salieron demasiado rápido, y ahora el silencio pesa.",
+    "fait": "Las peleas ocurren en todas las familias, incluso en las más unidas. No son necesariamente señal de que falte amor: a menudo muestran que nos importamos. San Pablo invitaba a los primeros cristianos a soportarse y perdonarse mutuamente, como el Señor los había perdonado (Col 3, 13).",
+    "piste": "Dar el primer paso cuesta, pero a menudo libera a los dos. A veces basta una palabra sencilla: «Perdón por lo que dije». Y si las palabras todavía no salen, podemos empezar rezando por el otro, lo que ya cambia nuestra manera de mirarlo.",
+    "sources": "Carta de san Pablo a los Colosenses 3, 13-14; Catecismo de la Iglesia Católica, n. 2227"
+   },
+   "en": {
+    "titre": "After a quarrel",
+    "accroche": "An argument with a spouse, a brother, a grown-up child. The words came out too fast, and now the silence is heavy.",
+    "fait": "Quarrels happen in every family, even the closest. They are not necessarily a sign that love is lacking: they often show that we care about each other. Saint Paul invited the first Christians to bear with one another and forgive one another, as the Lord had forgiven them (Col 3:13).",
+    "piste": "Taking the first step is hard, but it often frees both people. Sometimes a simple word is enough: “I'm sorry for what I said.” And if the words will not come yet, we can begin by praying for the other person, which already changes how we see them.",
+    "sources": "Letter of Saint Paul to the Colossians 3:13-14; Catechism of the Catholic Church, no. 2227"
+   }
+  },
+  {
+   "id": "patience-parents",
+   "versets": [
+    {
+     "osis": "1Cor",
+     "c": 13,
+     "v": [
+      4
+     ]
+    },
+    {
+     "osis": "Col",
+     "c": 3,
+     "v": [
+      21
+     ]
+    }
+   ],
+   "priere": "ps103-13",
+   "fr": {
+    "titre": "La patience avec les enfants",
+    "accroche": "Les chaussures qu'on ne trouve pas, les devoirs qui traînent, la crise au supermarché. Être parent use parfois la patience jusqu'au bout.",
+    "fait": "Aucun parent n'est patient tout le temps, et ce n'est pas un échec de s'énerver. Saint Paul, qui donne pourtant beaucoup de conseils, recommandait aux pères de ne pas irriter leurs enfants, pour ne pas les décourager (Col 3, 21). Dans sa grande page sur l'amour, il commence par dire que l'amour est patient (1 Co 13, 4).",
+    "piste": "La patience n'est pas une qualité qu'on a ou qu'on n'a pas : elle se reçoit et se travaille, un jour après l'autre. On peut demander à Dieu, au cœur d'une journée difficile, un peu de sa patience à lui. Et quand on a crié, demander pardon à son enfant : c'est aussi une belle façon de lui apprendre à aimer.",
+    "sources": "Première lettre de saint Paul aux Corinthiens 13, 4 ; Lettre aux Colossiens 3, 21"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Attendre et patienter",
+     "texte": "Attendre, c'est difficile : attendre son tour, attendre que le gâteau cuise, attendre Noël. Mais la patience, c'est une façon d'aimer : on laisse l'autre parler, on lui laisse du temps. Les parents aussi apprennent à être patients, chaque jour.",
+     "question": "Qu'est-ce qui est le plus difficile à attendre pour toi ?"
+    },
+    "es": {
+     "titre": "Esperar con paciencia",
+     "texte": "Esperar es difícil: esperar nuestro turno, esperar a que se haga el pastel, esperar la Navidad. Pero la paciencia es una manera de amar: dejamos hablar al otro, le damos tiempo. Los papás también aprenden a ser pacientes, cada día.",
+     "question": "¿Qué es lo que más te cuesta esperar?"
+    },
+    "en": {
+     "titre": "Waiting patiently",
+     "texte": "Waiting is hard: waiting for our turn, waiting for the cake to bake, waiting for Christmas. But patience is a way of loving: we let the other person speak, we give them time. Mums and dads are learning to be patient too, every day.",
+     "question": "What is the hardest thing for you to wait for?"
+    }
+   },
+   "es": {
+    "titre": "La paciencia con los hijos",
+    "accroche": "Los zapatos que no aparecen, los deberes que se eternizan, la rabieta en el supermercado. Ser padre o madre a veces agota la paciencia.",
+    "fait": "Ningún padre es paciente todo el tiempo, y enojarse no es un fracaso. San Pablo, que da muchos consejos, recomendaba a los padres no irritar a sus hijos, para no desanimarlos (Col 3, 21). En su gran página sobre el amor, empieza diciendo que el amor es paciente (1 Co 13, 4).",
+    "piste": "La paciencia no es una cualidad que se tiene o no se tiene: se recibe y se trabaja, día tras día. Podemos pedir a Dios, en medio de una jornada difícil, un poco de su propia paciencia. Y cuando hemos gritado, pedir perdón a nuestro hijo: también es una manera hermosa de enseñarle a amar.",
+    "sources": "Primera carta de san Pablo a los Corintios 13, 4; Carta a los Colosenses 3, 21"
+   },
+   "en": {
+    "titre": "Patience with children",
+    "accroche": "Shoes that can't be found, homework that drags on, the meltdown in the supermarket. Being a parent sometimes stretches patience to the limit.",
+    "fait": "No parent is patient all the time, and losing one's temper is not a failure. Saint Paul, who gives a great deal of advice, urged fathers not to provoke their children, so as not to discourage them (Col 3:21). In his great passage on love, he begins by saying that love is patient (1 Cor 13:4).",
+    "piste": "Patience is not a quality we either have or lack: it is received and worked at, one day after another. In the middle of a hard day, we can ask God for a little of his own patience. And when we have shouted, we can say sorry to our child: that too is a beautiful way of teaching them to love.",
+    "sources": "First Letter of Saint Paul to the Corinthians 13:4; Letter to the Colossians 3:21"
+   }
+  },
+  {
+   "id": "vieillir",
+   "versets": [
+    {
+     "osis": "Ps",
+     "c": 71,
+     "v": [
+      9
+     ]
+    },
+    {
+     "osis": "Isa",
+     "c": 46,
+     "v": [
+      4
+     ]
+    }
+   ],
+   "priere": "ps71-1",
+   "fr": {
+    "titre": "Vieillir",
+    "accroche": "Les forces qui diminuent, la mémoire qui flanche, les amis qui partent. Vieillir, pour soi ou pour ses parents, inquiète souvent.",
+    "fait": "Notre société valorise la jeunesse, la vitesse et la performance, et l'on peut se sentir inutile en avançant en âge. La Bible, elle, voit souvent les personnes âgées comme des témoins de sagesse. Un psaume prie Dieu de ne pas nous abandonner au déclin de nos forces (Ps 71, 9), et Isaïe lui fait dire qu'il nous portera jusqu'à nos cheveux blancs (Is 46, 4).",
+    "piste": "Chaque âge a sa vocation. Celui de la vieillesse peut être la prière, la transmission, la présence aux plus jeunes. On peut aujourd'hui appeler une personne âgée qu'on aime, ou lui demander de raconter un souvenir. Le pape François a d'ailleurs créé une Journée mondiale des grands-parents et des personnes âgées.",
+    "sources": "Psaume 71, 9 ; Livre d'Isaïe 46, 4 ; Pape François, message pour la Journée mondiale des grands-parents (2021)"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Papi et mamie",
+     "texte": "Les grands-parents ont vécu beaucoup de choses. Ils connaissent des histoires d'autrefois, des jeux, des chansons. Ils sont parfois fatigués, mais ils ont un trésor à partager. Les parents de Marie, Anne et Joachim, étaient les grands-parents de Jésus !",
+     "question": "Quelle histoire aimerais-tu demander à tes grands-parents ?"
+    },
+    "es": {
+     "titre": "Los abuelos",
+     "texte": "Los abuelos han vivido muchas cosas. Conocen historias de antes, juegos, canciones. A veces están cansados, pero tienen un tesoro que compartir. ¡Los padres de María, Ana y Joaquín, eran los abuelos de Jesús!",
+     "question": "¿Qué historia te gustaría pedirles a tus abuelos?"
+    },
+    "en": {
+     "titre": "Grandma and Grandpa",
+     "texte": "Grandparents have lived through lots of things. They know stories from long ago, games and songs. Sometimes they are tired, but they have a treasure to share. Mary's parents, Anne and Joachim, were Jesus' grandparents!",
+     "question": "Which story would you like to ask your grandparents to tell?"
+    }
+   },
+   "es": {
+    "titre": "Envejecer",
+    "accroche": "Las fuerzas que disminuyen, la memoria que falla, los amigos que se van. Envejecer, uno mismo o los propios padres, suele preocupar.",
+    "fait": "Nuestra sociedad valora la juventud, la rapidez y el rendimiento, y uno puede sentirse inútil al ir cumpliendo años. La Biblia, en cambio, ve a menudo a los mayores como testigos de sabiduría. Un salmo pide a Dios que no nos abandone cuando nos falten las fuerzas (Sal 71, 9), e Isaías le hace decir que nos llevará hasta las canas (Is 46, 4).",
+    "piste": "Cada edad tiene su vocación. La de la vejez puede ser la oración, la transmisión, la presencia junto a los más jóvenes. Podemos llamar hoy a una persona mayor a la que queremos, o pedirle que nos cuente un recuerdo. El papa Francisco creó además una Jornada Mundial de los Abuelos y de los Mayores.",
+    "sources": "Salmo 71, 9; Libro de Isaías 46, 4; Papa Francisco, mensaje para la Jornada Mundial de los Abuelos (2021)"
+   },
+   "en": {
+    "titre": "Growing old",
+    "accroche": "Strength that fades, memory that slips, friends who pass away. Growing old, ourselves or our parents, is often a worry.",
+    "fait": "Our society prizes youth, speed and performance, and we can feel useless as we get older. The Bible, however, often sees older people as witnesses of wisdom. A psalm asks God not to forsake us when our strength fails (Ps 71:9), and Isaiah has God say that he will carry us even to our grey hairs (Is 46:4).",
+    "piste": "Every age has its calling. That of old age can be prayer, handing things on, being there for the young. Today we could call an older person we love, or ask them to tell us a memory. Pope Francis even created a World Day for Grandparents and the Elderly.",
+    "sources": "Psalm 71:9; Book of Isaiah 46:4; Pope Francis, message for the World Day for Grandparents (2021)"
+   }
+  },
+  {
+   "id": "creation",
+   "versets": [
+    {
+     "osis": "Gen",
+     "c": 1,
+     "v": [
+      31
+     ]
+    },
+    {
+     "osis": "Ps",
+     "c": 104,
+     "v": [
+      24
+     ]
+    }
+   ],
+   "priere": "ps104-1",
+   "fr": {
+    "titre": "La beauté du monde",
+    "accroche": "Un coucher de soleil, une forêt en automne, la mer, un ciel étoilé. Parfois, la beauté du monde nous arrête net.",
+    "fait": "La Bible commence par le récit de la création, où Dieu regarde tout ce qu'il a fait et le trouve très bon (Gn 1, 31). Les psaumes s'émerveillent devant la diversité des œuvres de Dieu (Ps 104, 24). Aujourd'hui, on sait aussi que cette création est fragile, et le pape François a invité à en prendre soin comme d'une « maison commune ».",
+    "piste": "On peut prendre quelques minutes, aujourd'hui, pour regarder vraiment quelque chose de beau : un arbre, le ciel, un visage. Et dire merci. L'émerveillement est déjà une prière, et il donne envie de protéger ce qu'on admire.",
+    "sources": "Livre de la Genèse 1, 31 ; Psaume 104, 24 ; Pape François, encyclique Laudato si' (24 mai 2015)"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Le monde est beau",
+     "texte": "Dieu a créé le soleil, les arbres, les fleurs, les poissons, les oiseaux, les animaux… et toi ! Et il a vu que c'était très bon. Quand on regarde une belle fleur ou un bel oiseau, on peut dire merci à Dieu. Et prendre soin de la nature, c'est prendre soin de son cadeau.",
+     "question": "Qu'est-ce que tu trouves le plus beau dans la nature ?"
+    },
+    "es": {
+     "titre": "El mundo es bonito",
+     "texte": "Dios creó el sol, los árboles, las flores, los peces, los pájaros, los animales… ¡y a ti! Y vio que todo era muy bueno. Cuando miramos una flor bonita o un pájaro precioso, podemos dar gracias a Dios. Y cuidar la naturaleza es cuidar su regalo.",
+     "question": "¿Qué es lo que te parece más bonito de la naturaleza?"
+    },
+    "en": {
+     "titre": "The world is beautiful",
+     "texte": "God created the sun, the trees, the flowers, the fish, the birds, the animals… and you! And he saw that it was very good. When we look at a beautiful flower or a lovely bird, we can say thank you to God. And looking after nature means looking after his gift.",
+     "question": "What do you think is the most beautiful thing in nature?"
+    }
+   },
+   "es": {
+    "titre": "La belleza del mundo",
+    "accroche": "Una puesta de sol, un bosque en otoño, el mar, un cielo estrellado. A veces, la belleza del mundo nos deja sin palabras.",
+    "fait": "La Biblia comienza con el relato de la creación, en el que Dios mira todo lo que ha hecho y ve que es muy bueno (Gn 1, 31). Los salmos se maravillan de la variedad de las obras de Dios (Sal 104, 24). Hoy sabemos también que esta creación es frágil, y el papa Francisco nos invitó a cuidarla como una «casa común».",
+    "piste": "Podemos tomarnos unos minutos hoy para mirar de verdad algo bello: un árbol, el cielo, un rostro. Y dar gracias. El asombro ya es una oración, y da ganas de proteger lo que admiramos.",
+    "sources": "Libro del Génesis 1, 31; Salmo 104, 24; Papa Francisco, encíclica Laudato si' (24 de mayo de 2015)"
+   },
+   "en": {
+    "titre": "The beauty of the world",
+    "accroche": "A sunset, a forest in autumn, the sea, a starry sky. Sometimes the beauty of the world stops us in our tracks.",
+    "fait": "The Bible begins with the story of creation, in which God looks at everything he has made and sees that it is very good (Gn 1:31). The psalms marvel at the variety of God's works (Ps 104:24). Today we also know that creation is fragile, and Pope Francis invited us to care for it as our “common home”.",
+    "piste": "Today we could take a few minutes to really look at something beautiful: a tree, the sky, a face. And say thank you. Wonder is already a prayer, and it makes us want to protect what we admire.",
+    "sources": "Book of Genesis 1:31; Psalm 104:24; Pope Francis, encyclical Laudato si' (24 May 2015)"
+   }
+  },
+  {
+   "id": "presse",
+   "versets": [
+    {
+     "osis": "Eccl",
+     "c": 3,
+     "v": [
+      1
+     ]
+    },
+    {
+     "osis": "Ps",
+     "c": 90,
+     "v": [
+      12
+     ]
+    }
+   ],
+   "priere": "ps90-14",
+   "fr": {
+    "titre": "Toujours pressé",
+    "accroche": "Courir le matin, courir au travail, courir le soir. On a l'impression de ne jamais avoir le temps, surtout pour l'essentiel.",
+    "fait": "Nos agendas sont pleins, nos téléphones nous réclament sans cesse, et le temps semble filer. Le livre de l'Ecclésiaste rappelait déjà qu'il y a un temps pour chaque chose (Qo 3, 1). Et un psaume demande à Dieu d'apprendre à bien compter nos jours, pour acquérir un cœur sage (Ps 90, 12).",
+    "piste": "On ne peut pas tout faire, et ce n'est pas grave. On peut regarder sa journée et se demander ce qui compte vraiment. Garder un petit moment sans écran, ne serait-ce que deux minutes, pour respirer et se tourner vers Dieu, change souvent toute la journée.",
+    "sources": "Livre de l'Ecclésiaste 3, 1 ; Psaume 90, 12"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Prendre son temps",
+     "texte": "Le matin, on se dépêche souvent : vite, les chaussures ! Vite, à l'école ! Mais c'est bien aussi de prendre son temps : regarder une fourmi, écouter une histoire, faire un câlin. Jésus prenait le temps de s'arrêter pour parler aux enfants.",
+     "question": "Qu'aimes-tu faire quand tu as tout ton temps ?"
+    },
+    "es": {
+     "titre": "Tomarse su tiempo",
+     "texte": "Por la mañana a menudo vamos con prisa: ¡rápido, los zapatos! ¡Rápido, al colegio! Pero también está bien tomarse su tiempo: mirar una hormiga, escuchar un cuento, dar un abrazo. Jesús se tomaba el tiempo de pararse para hablar con los niños.",
+     "question": "¿Qué te gusta hacer cuando tienes todo el tiempo del mundo?"
+    },
+    "en": {
+     "titre": "Taking our time",
+     "texte": "In the morning we often rush: quick, shoes on! Quick, off to school! But it's good to take our time too: watching an ant, listening to a story, having a cuddle. Jesus took the time to stop and talk to children.",
+     "question": "What do you like doing when you have lots of time?"
+    }
+   },
+   "es": {
+    "titre": "Siempre con prisa",
+    "accroche": "Correr por la mañana, correr en el trabajo, correr por la tarde. Tenemos la sensación de no tener nunca tiempo, sobre todo para lo esencial.",
+    "fait": "Nuestras agendas están llenas, los teléfonos nos reclaman sin parar, y el tiempo parece escaparse. El libro del Eclesiastés ya recordaba que hay un tiempo para cada cosa (Ecl 3, 1). Y un salmo pide a Dios que nos enseñe a contar bien nuestros días, para adquirir un corazón sabio (Sal 90, 12).",
+    "piste": "No podemos hacerlo todo, y no pasa nada. Podemos mirar nuestro día y preguntarnos qué es lo que de verdad importa. Guardar un momento sin pantalla, aunque sean dos minutos, para respirar y volverse hacia Dios, a menudo cambia todo el día.",
+    "sources": "Libro del Eclesiastés 3, 1; Salmo 90, 12"
+   },
+   "en": {
+    "titre": "Always in a hurry",
+    "accroche": "Rushing in the morning, rushing at work, rushing in the evening. We feel we never have time, least of all for what matters most.",
+    "fait": "Our diaries are full, our phones demand attention all the time, and time seems to slip away. The book of Ecclesiastes already reminded us that there is a time for everything (Eccl 3:1). And a psalm asks God to teach us to number our days, so as to gain a wise heart (Ps 90:12).",
+    "piste": "We cannot do everything, and that is all right. We can look at our day and ask ourselves what really counts. Keeping a short moment without a screen, even two minutes, to breathe and turn towards God, often changes the whole day.",
+    "sources": "Book of Ecclesiastes 3:1; Psalm 90:12"
+   }
+  },
+  {
+   "id": "etranger",
+   "versets": [
+    {
+     "osis": "Matt",
+     "c": 25,
+     "v": [
+      35
+     ]
+    },
+    {
+     "osis": "Lev",
+     "c": 19,
+     "v": [
+      34
+     ]
+    }
+   ],
+   "priere": "ps67-2",
+   "fr": {
+    "titre": "L'étranger",
+    "accroche": "Un nouveau voisin venu d'ailleurs, une famille qui ne parle pas notre langue, des migrants dont on parle aux informations. L'autre, quand il est différent, peut faire peur.",
+    "fait": "La question des migrations divise les sociétés, et chacun la vit avec ses inquiétudes et ses convictions. La Bible, elle, revient souvent sur l'accueil de l'étranger : le peuple d'Israël devait aimer l'étranger comme lui-même, parce qu'il avait lui-même été étranger en Égypte (Lv 19, 34). Et Jésus s'identifie à l'étranger accueilli (Mt 25, 35).",
+    "piste": "Au-delà des grandes questions, il y a des visages proches. On peut commencer par un geste simple : un sourire, un bonjour, une aide pour une démarche. Regarder l'autre d'abord comme une personne, avant de le voir comme un problème ou une catégorie.",
+    "sources": "Livre du Lévitique 19, 34 ; Évangile selon saint Matthieu 25, 35 ; Catéchisme de l'Église catholique, n° 2241"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Le nouveau dans la classe",
+     "texte": "Quand un nouvel enfant arrive dans la classe, il ne connaît personne. Parfois il ne parle même pas la même langue. Il a peut-être un peu peur. Jésus nous dit que, quand on accueille quelqu'un, c'est lui qu'on accueille ! Un sourire, ça se comprend dans toutes les langues.",
+     "question": "Comment pourrais-tu aider un enfant qui arrive et ne connaît personne ?"
+    },
+    "es": {
+     "titre": "El nuevo de la clase",
+     "texte": "Cuando un niño nuevo llega a la clase, no conoce a nadie. A veces ni siquiera habla el mismo idioma. Quizá tiene un poco de miedo. ¡Jesús nos dice que, cuando recibimos a alguien, lo recibimos a él! Una sonrisa se entiende en todos los idiomas.",
+     "question": "¿Cómo podrías ayudar a un niño que llega y no conoce a nadie?"
+    },
+    "en": {
+     "titre": "The new child in class",
+     "texte": "When a new child arrives in class, they don't know anyone. Sometimes they don't even speak the same language. Maybe they are a little scared. Jesus tells us that when we welcome someone, we are welcoming him! A smile is understood in every language.",
+     "question": "How could you help a child who arrives and doesn't know anyone?"
+    }
+   },
+   "es": {
+    "titre": "El extranjero",
+    "accroche": "Un nuevo vecino venido de lejos, una familia que no habla nuestra lengua, migrantes de los que se habla en las noticias. El otro, cuando es distinto, puede dar miedo.",
+    "fait": "La cuestión de las migraciones divide a las sociedades, y cada uno la vive con sus inquietudes y sus convicciones. La Biblia, por su parte, vuelve a menudo sobre la acogida del extranjero: el pueblo de Israel debía amar al extranjero como a sí mismo, porque también había sido extranjero en Egipto (Lv 19, 34). Y Jesús se identifica con el extranjero acogido (Mt 25, 35).",
+    "piste": "Más allá de las grandes cuestiones, hay rostros cercanos. Podemos empezar con un gesto sencillo: una sonrisa, un saludo, una ayuda con un trámite. Mirar al otro primero como a una persona, antes de verlo como un problema o una categoría.",
+    "sources": "Libro del Levítico 19, 34; Evangelio según san Mateo 25, 35; Catecismo de la Iglesia Católica, n. 2241"
+   },
+   "en": {
+    "titre": "The stranger",
+    "accroche": "A new neighbour from far away, a family that doesn't speak our language, migrants we hear about on the news. Other people, when they are different, can make us afraid.",
+    "fait": "The question of migration divides societies, and everyone experiences it with their own worries and convictions. The Bible often comes back to welcoming the stranger: the people of Israel were to love the stranger as themselves, because they themselves had been strangers in Egypt (Lv 19:34). And Jesus identifies himself with the stranger who is welcomed (Mt 25:35).",
+    "piste": "Beyond the big questions, there are faces close by. We can start with a simple gesture: a smile, a hello, help with some paperwork. Seeing the other first as a person, before seeing them as a problem or a category.",
+    "sources": "Book of Leviticus 19:34; Gospel according to Saint Matthew 25:35; Catechism of the Catholic Church, no. 2241"
+   }
+  },
+  {
+   "id": "joie",
+   "versets": [
+    {
+     "osis": "Phil",
+     "c": 4,
+     "v": [
+      4
+     ]
+    },
+    {
+     "osis": "Rom",
+     "c": 12,
+     "v": [
+      15
+     ]
+    }
+   ],
+   "priere": "ps118-24",
+   "fr": {
+    "titre": "La joie",
+    "accroche": "Une naissance, une réussite, un repas entre amis, une bonne nouvelle. Les moments de joie passent souvent trop vite.",
+    "fait": "On pense parfois que la foi rend grave et triste. Pourtant, saint Paul écrit depuis sa prison : réjouissez-vous dans le Seigneur en tout temps (Ph 4, 4). La joie chrétienne n'est pas une gaieté forcée : elle vient de la certitude d'être aimé, et elle peut coexister avec la peine. Paul invite aussi à se réjouir avec ceux qui sont dans la joie (Rm 12, 15).",
+    "piste": "Se réjouir du bonheur des autres est parfois plus difficile qu'on ne croit. On peut aujourd'hui partager la joie de quelqu'un, sans comparer. Et prendre le temps de savourer une joie toute simple, en disant merci à Dieu.",
+    "sources": "Lettre de saint Paul aux Philippiens 4, 4 ; Lettre aux Romains 12, 15 ; Pape François, exhortation apostolique Evangelii gaudium (24 novembre 2013)"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Être joyeux",
+     "texte": "La joie, c'est quand on rit, quand on fait la fête, quand on retrouve quelqu'un qu'on aime. Dieu aime nous voir joyeux ! Et la joie, c'est encore mieux quand on la partage : un dessin offert, un jeu à plusieurs, un gâteau qu'on coupe en parts.",
+     "question": "Qu'est-ce qui t'a rendu joyeux aujourd'hui ?"
+    },
+    "es": {
+     "titre": "Estar alegres",
+     "texte": "La alegría es cuando nos reímos, cuando hacemos fiesta, cuando volvemos a ver a alguien que queremos. ¡A Dios le gusta vernos alegres! Y la alegría es todavía mejor cuando se comparte: un dibujo regalado, un juego entre varios, un pastel que se corta en trozos.",
+     "question": "¿Qué te puso alegre hoy?"
+    },
+    "en": {
+     "titre": "Being happy",
+     "texte": "Joy is when we laugh, when we have a party, when we see someone we love again. God loves to see us happy! And joy is even better when we share it: a drawing given as a present, a game with others, a cake cut into slices.",
+     "question": "What made you happy today?"
+    }
+   },
+   "es": {
+    "titre": "La alegría",
+    "accroche": "Un nacimiento, un logro, una comida con amigos, una buena noticia. Los momentos de alegría suelen pasar demasiado rápido.",
+    "fait": "A veces pensamos que la fe nos vuelve serios y tristes. Sin embargo, san Pablo escribe desde la cárcel: alégrense siempre en el Señor (Flp 4, 4). La alegría cristiana no es una euforia forzada: viene de la certeza de ser amados, y puede convivir con la pena. Pablo invita también a alegrarse con los que están alegres (Rom 12, 15).",
+    "piste": "Alegrarse de la felicidad de los demás a veces es más difícil de lo que parece. Podemos compartir hoy la alegría de alguien, sin compararnos. Y tomarnos tiempo para saborear una alegría sencilla, dando gracias a Dios.",
+    "sources": "Carta de san Pablo a los Filipenses 4, 4; Carta a los Romanos 12, 15; Papa Francisco, exhortación apostólica Evangelii gaudium (24 de noviembre de 2013)"
+   },
+   "en": {
+    "titre": "Joy",
+    "accroche": "A birth, a success, a meal with friends, a piece of good news. Moments of joy often pass too quickly.",
+    "fait": "We sometimes think faith makes people serious and sad. Yet Saint Paul writes from prison: rejoice in the Lord always (Phil 4:4). Christian joy is not forced cheerfulness: it comes from the certainty of being loved, and it can exist alongside sorrow. Paul also invites us to rejoice with those who rejoice (Rom 12:15).",
+    "piste": "Being glad about other people's happiness is sometimes harder than we think. Today we could share in someone's joy without comparing. And take time to savour a very simple joy, saying thank you to God.",
+    "sources": "Letter of Saint Paul to the Philippians 4:4; Letter to the Romans 12:15; Pope Francis, apostolic exhortation Evangelii gaudium (24 November 2013)"
+   }
+  },
+  {
+   "id": "insomnie",
+   "versets": [
+    {
+     "osis": "Matt",
+     "c": 11,
+     "v": [
+      28
+     ]
+    },
+    {
+     "osis": "Ps",
+     "c": 127,
+     "v": [
+      2
+     ]
+    }
+   ],
+   "priere": "ps4-9",
+   "fr": {
+    "titre": "Quand on n'arrive pas à dormir",
+    "accroche": "Trois heures du matin, les yeux grands ouverts. Les soucis tournent en boucle et la nuit paraît interminable.",
+    "fait": "Beaucoup de gens connaissent des nuits sans sommeil, à cause du stress, d'une inquiétude ou d'un deuil. La nuit grossit souvent les problèmes. Un psaume remarque que Dieu donne le sommeil à ceux qu'il aime (Ps 127, 2), et Jésus invite tous ceux qui sont fatigués et chargés à venir à lui (Mt 11, 28).",
+    "piste": "Plutôt que de lutter contre l'insomnie, on peut parfois s'en servir : confier un à un ses soucis à Dieu, ou répéter lentement une prière très courte, comme on égrène un chapelet. Et si les nuits difficiles durent, en parler à un médecin n'a rien d'un manque de foi.",
+    "sources": "Évangile selon saint Matthieu 11, 28 ; Psaume 127, 2"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Le soir, dans son lit",
+     "texte": "Parfois, le soir, on n'arrive pas à s'endormir. On pense à plein de choses, ou on a un peu peur du noir. On peut alors parler à Jésus tout bas, lui dire merci pour la journée, et lui confier ce qui nous tracasse. Il veille sur nous toute la nuit.",
+     "question": "Qu'est-ce qui t'aide à bien t'endormir ?"
+    },
+    "es": {
+     "titre": "Por la noche, en la cama",
+     "texte": "A veces, por la noche, no conseguimos dormirnos. Pensamos en muchas cosas, o nos da un poco de miedo la oscuridad. Entonces podemos hablar con Jesús en voz baja, darle gracias por el día y contarle lo que nos preocupa. Él nos cuida toda la noche.",
+     "question": "¿Qué te ayuda a dormirte bien?"
+    },
+    "en": {
+     "titre": "At night, in bed",
+     "texte": "Sometimes at night we can't get to sleep. We think about lots of things, or we're a bit scared of the dark. Then we can talk to Jesus very quietly, thank him for the day, and tell him what's bothering us. He watches over us all night long.",
+     "question": "What helps you fall asleep?"
+    }
+   },
+   "es": {
+    "titre": "Cuando no podemos dormir",
+    "accroche": "Las tres de la mañana, con los ojos bien abiertos. Las preocupaciones dan vueltas y la noche parece interminable.",
+    "fait": "Mucha gente pasa noches sin dormir, por estrés, por una preocupación o por un duelo. La noche suele agrandar los problemas. Un salmo observa que Dios da el sueño a los que ama (Sal 127, 2), y Jesús invita a todos los cansados y agobiados a ir a él (Mt 11, 28).",
+    "piste": "En lugar de luchar contra el insomnio, a veces podemos aprovecharlo: confiar a Dios una a una nuestras preocupaciones, o repetir despacio una oración muy corta, como quien pasa las cuentas de un rosario. Y si las noches difíciles duran, hablarlo con un médico no es ninguna falta de fe.",
+    "sources": "Evangelio según san Mateo 11, 28; Salmo 127, 2"
+   },
+   "en": {
+    "titre": "When we can't sleep",
+    "accroche": "Three in the morning, eyes wide open. Worries go round and round and the night seems endless.",
+    "fait": "Many people have sleepless nights, because of stress, a worry or a bereavement. Night often makes problems look bigger. A psalm notes that God gives sleep to those he loves (Ps 127:2), and Jesus invites all who are weary and burdened to come to him (Mt 11:28).",
+    "piste": "Instead of fighting sleeplessness, we can sometimes make use of it: entrusting our worries to God one by one, or slowly repeating a very short prayer, like counting the beads of a rosary. And if difficult nights go on, talking to a doctor is no lack of faith.",
+    "sources": "Gospel according to Saint Matthew 11:28; Psalm 127:2"
+   }
+  },
+  {
+   "id": "maladie",
+   "versets": [
+    {
+     "osis": "Jas",
+     "c": 5,
+     "v": [
+      14
+     ]
+    }
+   ],
+   "priere": "jr17-14",
+   "fr": {
+    "titre": "Face à la maladie",
+    "accroche": "Un diagnostic qui tombe, des examens, l'attente des résultats. La maladie, la sienne ou celle d'un proche, bouscule toute la vie.",
+    "fait": "La maladie fait peur, fatigue et isole parfois. Elle pose aussi des questions sur Dieu : pourquoi ? Les Évangiles montrent Jésus très souvent auprès des malades, qu'il touche, écoute et guérit. Et l'Église a un sacrement pour eux, l'onction des malades, que la lettre de saint Jacques évoque déjà (Jc 5, 14).",
+    "piste": "On n'a pas à faire semblant d'être fort. On peut dire à Dieu sa peur et sa colère, demander la guérison, et aussi la force de traverser l'épreuve. L'onction des malades n'est pas réservée aux mourants : on peut la demander à un prêtre avant une opération ou pendant une longue maladie.",
+    "sources": "Lettre de saint Jacques 5, 14 ; Catéchisme de l'Église catholique, n° 1499-1514"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand on est malade",
+     "texte": "Quand on est malade, on a mal, on est fatigué, on reste au lit. Ce n'est pas drôle ! Jésus aimait beaucoup les malades : il allait les voir, il les touchait, il les guérissait. Quand quelqu'un est malade, on peut prier pour lui, ou lui faire un dessin.",
+     "question": "Pour qui aimerais-tu prier parce qu'il est malade ?"
+    },
+    "es": {
+     "titre": "Cuando estamos enfermos",
+     "texte": "Cuando estamos enfermos, nos duele algo, estamos cansados y nos quedamos en la cama. ¡No es divertido! Jesús quería mucho a los enfermos: iba a verlos, los tocaba y los curaba. Cuando alguien está enfermo, podemos rezar por él o hacerle un dibujo.",
+     "question": "¿Por quién te gustaría rezar porque está enfermo?"
+    },
+    "en": {
+     "titre": "When we are ill",
+     "texte": "When we are ill, something hurts, we feel tired and we stay in bed. It's no fun! Jesus cared a great deal for sick people: he went to see them, touched them and healed them. When someone is ill, we can pray for them, or make them a drawing.",
+     "question": "Who would you like to pray for because they are ill?"
+    }
+   },
+   "es": {
+    "titre": "Ante la enfermedad",
+    "accroche": "Un diagnóstico que llega, pruebas, la espera de los resultados. La enfermedad, propia o de un ser querido, trastoca toda la vida.",
+    "fait": "La enfermedad da miedo, cansa y a veces aísla. También plantea preguntas sobre Dios: ¿por qué? Los Evangelios muestran a Jesús muy a menudo junto a los enfermos, a los que toca, escucha y cura. Y la Iglesia tiene un sacramento para ellos, la unción de los enfermos, que ya menciona la carta de Santiago (Sant 5, 14).",
+    "piste": "No hace falta fingir que somos fuertes. Podemos decirle a Dios nuestro miedo y nuestro enojo, pedir la curación y también la fuerza para atravesar la prueba. La unción de los enfermos no es solo para los moribundos: se puede pedir a un sacerdote antes de una operación o durante una enfermedad larga.",
+    "sources": "Carta de Santiago 5, 14; Catecismo de la Iglesia Católica, n. 1499-1514"
+   },
+   "en": {
+    "titre": "Facing illness",
+    "accroche": "A diagnosis that comes, tests, waiting for results. Illness, our own or that of someone close, turns life upside down.",
+    "fait": "Illness is frightening and tiring, and sometimes it isolates us. It also raises questions about God: why? The Gospels show Jesus very often with the sick, whom he touches, listens to and heals. And the Church has a sacrament for them, the anointing of the sick, which the Letter of James already mentions (Jas 5:14).",
+    "piste": "We do not have to pretend to be strong. We can tell God our fear and our anger, ask for healing, and also for the strength to get through the trial. The anointing of the sick is not only for the dying: we can ask a priest for it before an operation or during a long illness.",
+    "sources": "Letter of Saint James 5:14; Catechism of the Catholic Church, nos. 1499-1514"
+   }
+  },
+  {
+   "id": "doute",
+   "versets": [
+    {
+     "osis": "Heb",
+     "c": 11,
+     "v": [
+      1
+     ]
+    }
+   ],
+   "priere": "mc9-24",
+   "fr": {
+    "titre": "Quand on doute",
+    "accroche": "Dieu existe-t-il vraiment ? Pourquoi ne répond-il pas ? Le doute arrive parfois, même chez ceux qui prient depuis longtemps.",
+    "fait": "Le doute n'est pas le contraire de la foi. Beaucoup de grands croyants l'ont traversé : Thomas, qui voulait toucher les plaies de Jésus ; Thérèse de Lisieux, qui a vécu ses derniers mois dans une profonde nuit intérieure ; Mère Teresa, qui a connu pendant des années le sentiment de l'absence de Dieu. La lettre aux Hébreux décrit la foi comme une conviction des réalités qu'on ne voit pas (He 11, 1).",
+    "piste": "On peut garder ses questions et les apporter à Dieu, au lieu de les cacher. La prière d'un père dans l'Évangile peut devenir la nôtre : il dit à Jésus qu'il croit, et lui demande de venir au secours de son incrédulité (Mc 9, 24). Et parler de ses doutes avec un prêtre ou un ami croyant aide souvent à avancer.",
+    "sources": "Lettre aux Hébreux 11, 1 ; Évangile selon saint Marc 9, 24 ; Catéchisme de l'Église catholique, n° 157"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Les grandes questions",
+     "texte": "Où est Dieu ? Pourquoi on ne le voit pas ? Les enfants posent de grandes questions, et c'est très bien ! Même les grands ne savent pas tout. On ne voit pas le vent, mais on voit les feuilles bouger. On ne voit pas Dieu, mais on voit l'amour autour de nous.",
+     "question": "Quelle question aimerais-tu poser à Dieu ?"
+    },
+    "es": {
+     "titre": "Las grandes preguntas",
+     "texte": "¿Dónde está Dios? ¿Por qué no lo vemos? Los niños hacen grandes preguntas, ¡y eso está muy bien! Ni siquiera los mayores lo saben todo. No vemos el viento, pero vemos moverse las hojas. No vemos a Dios, pero vemos el amor a nuestro alrededor.",
+     "question": "¿Qué pregunta te gustaría hacerle a Dios?"
+    },
+    "en": {
+     "titre": "Big questions",
+     "texte": "Where is God? Why can't we see him? Children ask big questions, and that's very good! Even grown-ups don't know everything. We can't see the wind, but we can see the leaves moving. We can't see God, but we can see the love around us.",
+     "question": "What question would you like to ask God?"
+    }
+   },
+   "es": {
+    "titre": "Cuando dudamos",
+    "accroche": "¿Existe de verdad Dios? ¿Por qué no responde? A veces llega la duda, incluso a quienes rezan desde hace mucho.",
+    "fait": "La duda no es lo contrario de la fe. Muchos grandes creyentes la atravesaron: Tomás, que quería tocar las llagas de Jesús; Teresa de Lisieux, que vivió sus últimos meses en una profunda noche interior; la Madre Teresa, que sintió durante años la ausencia de Dios. La carta a los Hebreos describe la fe como la convicción de las realidades que no se ven (Heb 11, 1).",
+    "piste": "Podemos conservar nuestras preguntas y llevarlas a Dios, en lugar de esconderlas. La oración de un padre en el Evangelio puede ser la nuestra: le dice a Jesús que cree, y le pide que venga en ayuda de su falta de fe (Mc 9, 24). Y hablar de nuestras dudas con un sacerdote o un amigo creyente suele ayudar a avanzar.",
+    "sources": "Carta a los Hebreos 11, 1; Evangelio según san Marcos 9, 24; Catecismo de la Iglesia Católica, n. 157"
+   },
+   "en": {
+    "titre": "When we doubt",
+    "accroche": "Does God really exist? Why doesn't he answer? Doubt sometimes comes, even to people who have prayed for a long time.",
+    "fait": "Doubt is not the opposite of faith. Many great believers went through it: Thomas, who wanted to touch Jesus' wounds; Thérèse of Lisieux, who lived her last months in a deep inner night; Mother Teresa, who for years felt the absence of God. The Letter to the Hebrews describes faith as the conviction of things not seen (Heb 11:1).",
+    "piste": "We can keep our questions and bring them to God instead of hiding them. The prayer of a father in the Gospel can become our own: he tells Jesus that he believes, and asks him to help his unbelief (Mk 9:24). And talking about our doubts with a priest or a believing friend often helps us move forward.",
+    "sources": "Letter to the Hebrews 11:1; Gospel according to Saint Mark 9:24; Catechism of the Catholic Church, no. 157"
+   }
   }
  ],
  "histoires": [
