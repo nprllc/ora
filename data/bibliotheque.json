@@ -3662,6 +3662,493 @@
     "piste": "There is no need to be an expert: children remember above all what they see. A short prayer at night, a sign of the cross before a meal, a Bible story, a question we answer with “I don't know, let's find out together”. Faith is often passed on by growing up alongside our children.",
     "sources": "Book of Proverbs 22:6; Book of Deuteronomy 6:7; Catechism of the Catholic Church, nos. 2223-2226"
    }
+  },
+  {
+   "id": "souffrance",
+   "versets": [
+    {
+     "osis": "Rom",
+     "c": 8,
+     "v": [
+      18
+     ]
+    },
+    {
+     "osis": "2Cor",
+     "c": 1,
+     "v": [
+      4
+     ]
+    }
+   ],
+   "priere": "ps6-3",
+   "fr": {
+    "titre": "Pourquoi la souffrance ?",
+    "accroche": "Une maladie injuste, un accident, la douleur d'un enfant. Devant la souffrance, la question revient toujours : pourquoi ?",
+    "fait": "La souffrance est l'une des plus grandes objections à la foi, et la Bible ne la cache pas : Job, les psaumes, Jésus lui-même sur la croix crient vers Dieu. Il n'y a pas de réponse simple. Saint Paul ose espérer que les souffrances du temps présent ne sont rien à côté de la gloire à venir (Rm 8, 18), et il parle d'un Dieu qui nous console pour que nous puissions consoler à notre tour (2 Co 1, 4).",
+    "piste": "Dieu ne veut pas le mal, et il ne nous demande pas de faire semblant d'aller bien. En Jésus, il est venu partager nos souffrances de l'intérieur. On peut lui dire sa révolte, rester présent auprès de ceux qui souffrent, et laisser la question ouverte, dans la confiance.",
+    "sources": "Lettre de saint Paul aux Romains 8, 18 ; Deuxième lettre aux Corinthiens 1, 4 ; Jean-Paul II, lettre apostolique Salvifici doloris (11 février 1984)"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Quand on a mal",
+     "texte": "Parfois, on a mal : une chute, une maladie, un gros chagrin. Ce n'est jamais Dieu qui veut qu'on ait mal. Jésus aussi a eu mal, et il est tout près de ceux qui souffrent. Un câlin, une prière, une présence aident à traverser.",
+     "question": "Qui t'a consolé la dernière fois que tu avais mal ?"
+    },
+    "es": {
+     "titre": "Cuando nos duele",
+     "texte": "A veces nos duele algo: una caída, una enfermedad, una gran pena. Nunca es Dios quien quiere que suframos. Jesús también sufrió, y está muy cerca de los que sufren. Un abrazo, una oración, una presencia ayudan a pasarlo.",
+     "question": "¿Quién te consoló la última vez que te dolía algo?"
+    },
+    "en": {
+     "titre": "When it hurts",
+     "texte": "Sometimes things hurt: a fall, an illness, a big sadness. God never wants us to hurt. Jesus suffered too, and he is very close to those who are in pain. A cuddle, a prayer, someone being there help us get through it.",
+     "question": "Who comforted you the last time you were hurting?"
+    }
+   },
+   "es": {
+    "titre": "¿Por qué el sufrimiento?",
+    "accroche": "Una enfermedad injusta, un accidente, el dolor de un niño. Ante el sufrimiento, la pregunta vuelve siempre: ¿por qué?",
+    "fait": "El sufrimiento es una de las mayores objeciones a la fe, y la Biblia no lo esconde: Job, los salmos y el mismo Jesús en la cruz claman a Dios. No hay una respuesta sencilla. San Pablo se atreve a esperar que los sufrimientos del tiempo presente no son nada comparados con la gloria futura (Rom 8, 18), y habla de un Dios que nos consuela para que podamos consolar a otros (2 Co 1, 4).",
+    "piste": "Dios no quiere el mal, y no nos pide que finjamos estar bien. En Jesús vino a compartir nuestros sufrimientos desde dentro. Podemos decirle nuestra rebeldía, estar presentes junto a quienes sufren y dejar la pregunta abierta, con confianza.",
+    "sources": "Carta de san Pablo a los Romanos 8, 18; Segunda carta a los Corintios 1, 4; Juan Pablo II, carta apostólica Salvifici doloris (11 de febrero de 1984)"
+   },
+   "en": {
+    "titre": "Why suffering?",
+    "accroche": "An unfair illness, an accident, a child in pain. Faced with suffering, the question always comes back: why?",
+    "fait": "Suffering is one of the greatest objections to faith, and the Bible does not hide it: Job, the psalms, Jesus himself on the cross cry out to God. There is no simple answer. Saint Paul dares to hope that the sufferings of the present time are nothing compared with the glory to come (Rom 8:18), and he speaks of a God who comforts us so that we can comfort others in turn (2 Cor 1:4).",
+    "piste": "God does not want evil, and he does not ask us to pretend we are fine. In Jesus he came to share our sufferings from the inside. We can tell him our anger, stay close to those who are suffering, and leave the question open, in trust.",
+    "sources": "Letter of Saint Paul to the Romans 8:18; Second Letter to the Corinthians 1:4; John Paul II, apostolic letter Salvifici doloris (11 February 1984)"
+   }
+  },
+  {
+   "id": "routine",
+   "versets": [
+    {
+     "osis": "Col",
+     "c": 3,
+     "v": [
+      17
+     ]
+    }
+   ],
+   "priere": "ps5-4",
+   "fr": {
+    "titre": "Les jours qui se ressemblent",
+    "accroche": "Réveil, trajet, travail, courses, repas, coucher. Certaines semaines, les jours se suivent et se ressemblent, et l'on se demande où est le sens.",
+    "fait": "La plus grande partie de la vie se passe dans l'ordinaire, loin des grands moments. Jésus lui-même a passé environ trente ans à Nazareth, dans une vie de village et de travail dont les Évangiles ne disent presque rien. Saint Paul invitait à tout faire, paroles et actions, au nom du Seigneur Jésus, en rendant grâce (Col 3, 17).",
+    "piste": "Les gestes répétés peuvent devenir des occasions de prière : un merci en préparant le repas, une pensée pour quelqu'un sur le trajet, un signe de croix au coucher. Sainte Thérèse de Lisieux disait que l'on peut faire les petites choses avec un grand amour.",
+    "sources": "Lettre de saint Paul aux Colossiens 3, 17 ; Catéchisme de l'Église catholique, n° 531-533"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Les petites choses",
+     "texte": "Se brosser les dents, mettre la table, ranger ses chaussures : ce sont de toutes petites choses. Mais si on les fait avec amour, elles deviennent un cadeau pour Dieu et pour la famille.",
+     "question": "Quelle petite chose pourrais-tu faire avec amour demain ?"
+    },
+    "es": {
+     "titre": "Las cosas pequeñas",
+     "texte": "Lavarse los dientes, poner la mesa, guardar los zapatos: son cosas muy pequeñas. Pero si las hacemos con amor, se convierten en un regalo para Dios y para la familia.",
+     "question": "¿Qué cosa pequeña podrías hacer mañana con amor?"
+    },
+    "en": {
+     "titre": "Little things",
+     "texte": "Brushing your teeth, laying the table, putting your shoes away: these are tiny things. But if we do them with love, they become a gift for God and for the family.",
+     "question": "What little thing could you do with love tomorrow?"
+    }
+   },
+   "es": {
+    "titre": "Los días que se parecen",
+    "accroche": "Despertador, trayecto, trabajo, compras, comida, acostarse. Algunas semanas, los días se suceden y se parecen, y uno se pregunta dónde está el sentido.",
+    "fait": "La mayor parte de la vida transcurre en lo ordinario, lejos de los grandes momentos. Jesús mismo pasó unos treinta años en Nazaret, en una vida de pueblo y de trabajo de la que los Evangelios no dicen casi nada. San Pablo invitaba a hacerlo todo, palabras y obras, en nombre del Señor Jesús, dando gracias (Col 3, 17).",
+    "piste": "Los gestos repetidos pueden convertirse en ocasiones de oración: un gracias al preparar la comida, un pensamiento por alguien durante el trayecto, una señal de la cruz al acostarse. Santa Teresa de Lisieux decía que se pueden hacer las cosas pequeñas con un gran amor.",
+    "sources": "Carta de san Pablo a los Colosenses 3, 17; Catecismo de la Iglesia Católica, n. 531-533"
+   },
+   "en": {
+    "titre": "Days that are all the same",
+    "accroche": "Alarm, commute, work, shopping, meals, bed. Some weeks the days follow one another and look the same, and we wonder where the meaning is.",
+    "fait": "Most of life is lived in the ordinary, far from big moments. Jesus himself spent about thirty years in Nazareth, in a life of village and work about which the Gospels say almost nothing. Saint Paul invited us to do everything, in word and deed, in the name of the Lord Jesus, giving thanks (Col 3:17).",
+    "piste": "Repeated gestures can become moments of prayer: a thank-you while making a meal, a thought for someone on the way to work, a sign of the cross at bedtime. Saint Thérèse of Lisieux said that we can do little things with great love.",
+    "sources": "Letter of Saint Paul to the Colossians 3:17; Catechism of the Catholic Church, nos. 531-533"
+   }
+  },
+  {
+   "id": "chomage",
+   "versets": [
+    {
+     "osis": "Matt",
+     "c": 6,
+     "v": [
+      26
+     ]
+    },
+    {
+     "osis": "Ps",
+     "c": 37,
+     "v": [
+      5
+     ]
+    }
+   ],
+   "priere": "ps37-5",
+   "fr": {
+    "titre": "Perdre son travail",
+    "accroche": "Un licenciement, un contrat qui s'arrête, des mois de recherche sans réponse. Le chômage touche le portefeuille, mais aussi la confiance en soi.",
+    "fait": "Le travail donne une place, un rythme, des relations. Le perdre peut faire perdre pied, et l'on se sent parfois inutile ou honteux. Jésus invitait à regarder les oiseaux du ciel, que le Père nourrit, en rappelant que nous valons bien plus qu'eux (Mt 6, 26). Un psaume encourage à remettre son chemin au Seigneur et à lui faire confiance (Ps 37, 5).",
+    "piste": "La valeur d'une personne ne dépend pas de son emploi. On peut confier à Dieu ses démarches et ses inquiétudes, et oser en parler autour de soi : des amis, la paroisse ou des associations peuvent aider, ouvrir un réseau, ou simplement écouter.",
+    "sources": "Évangile selon saint Matthieu 6, 26 ; Psaume 37, 5 ; Catéchisme de l'Église catholique, n° 2433-2436"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Les oiseaux du ciel",
+     "texte": "Jésus a dit : regardez les oiseaux ! Ils ne vont pas au supermarché, et pourtant Dieu leur donne à manger. Toi, tu comptes encore plus pour lui qu'un oiseau. Quand les grands sont inquiets, on peut prier pour eux.",
+     "question": "Pour qui, dans ta famille, aimerais-tu prier aujourd'hui ?"
+    },
+    "es": {
+     "titre": "Los pájaros del cielo",
+     "texte": "Jesús dijo: ¡miren los pájaros! No van al supermercado, y sin embargo Dios les da de comer. Tú le importas todavía más que un pájaro. Cuando los mayores están preocupados, podemos rezar por ellos.",
+     "question": "¿Por quién de tu familia te gustaría rezar hoy?"
+    },
+    "en": {
+     "titre": "The birds of the air",
+     "texte": "Jesus said: look at the birds! They don't go to the supermarket, and yet God feeds them. You matter to him even more than a bird. When grown-ups are worried, we can pray for them.",
+     "question": "Who in your family would you like to pray for today?"
+    }
+   },
+   "es": {
+    "titre": "Perder el trabajo",
+    "accroche": "Un despido, un contrato que termina, meses de búsqueda sin respuesta. El desempleo afecta al bolsillo, pero también a la confianza en uno mismo.",
+    "fait": "El trabajo da un lugar, un ritmo, relaciones. Perderlo puede desestabilizar, y a veces nos sentimos inútiles o avergonzados. Jesús invitaba a mirar los pájaros del cielo, a los que el Padre alimenta, recordando que valemos mucho más que ellos (Mt 6, 26). Un salmo anima a encomendar el camino al Señor y a confiar en él (Sal 37, 5).",
+    "piste": "El valor de una persona no depende de su empleo. Podemos confiar a Dios nuestras gestiones y preocupaciones, y atrevernos a hablarlo: amigos, la parroquia o asociaciones pueden ayudar, abrir contactos o simplemente escuchar.",
+    "sources": "Evangelio según san Mateo 6, 26; Salmo 37, 5; Catecismo de la Iglesia Católica, n. 2433-2436"
+   },
+   "en": {
+    "titre": "Losing your job",
+    "accroche": "A redundancy, a contract that ends, months of searching with no reply. Unemployment hits your finances, but also your self-confidence.",
+    "fait": "Work gives us a place, a rhythm, relationships. Losing it can knock us off balance, and we sometimes feel useless or ashamed. Jesus invited us to look at the birds of the air, which the Father feeds, reminding us that we are worth much more than they are (Mt 6:26). A psalm encourages us to commit our way to the Lord and trust in him (Ps 37:5).",
+    "piste": "A person's worth does not depend on their job. We can entrust our applications and worries to God, and dare to talk about it: friends, the parish or charities can help, open doors, or simply listen.",
+    "sources": "Gospel according to Saint Matthew 6:26; Psalm 37:5; Catechism of the Catholic Church, nos. 2433-2436"
+   }
+  },
+  {
+   "id": "conflit-travail",
+   "versets": [
+    {
+     "osis": "Rom",
+     "c": 12,
+     "v": [
+      18
+     ]
+    }
+   ],
+   "priere": "ps119-124",
+   "fr": {
+    "titre": "Un conflit au travail",
+    "accroche": "Un collègue qui s'attribue votre travail, un chef injuste, une ambiance tendue. Certaines journées au bureau laissent un goût amer.",
+    "fait": "Les conflits au travail sont fréquents et pèsent lourd, parce qu'on ne choisit pas ses collègues et qu'on passe beaucoup de temps ensemble. Saint Paul donnait un conseil réaliste : s'il est possible, autant que cela dépend de vous, vivez en paix avec tous (Rm 12, 18). Il reconnaît ainsi qu'on ne maîtrise pas tout.",
+    "piste": "On peut faire sa part : chercher le dialogue, dire calmement ce qui ne va pas, éviter les médisances. On peut aussi prier pour la personne avec qui c'est difficile, ce qui change souvent notre regard. Et quand une situation devient injuste ou blessante, il est juste de se faire aider et de se protéger.",
+    "sources": "Lettre de saint Paul aux Romains 12, 18 ; Catéchisme de l'Église catholique, n° 2479"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Avec les copains de classe",
+     "texte": "À l'école, on ne s'entend pas avec tout le monde. Parfois, quelqu'un nous embête. On peut essayer de rester calme, d'en parler à la maîtresse ou au maître, et prier pour cet enfant. Jésus nous aide à faire la paix.",
+     "question": "Avec qui est-ce un peu difficile à l'école en ce moment ?"
+    },
+    "es": {
+     "titre": "Con los compañeros de clase",
+     "texte": "En el colegio no nos llevamos bien con todos. A veces alguien nos molesta. Podemos intentar mantener la calma, hablarlo con la maestra o el maestro y rezar por ese niño. Jesús nos ayuda a hacer las paces.",
+     "question": "¿Con quién es un poco difícil en el colegio en este momento?"
+    },
+    "en": {
+     "titre": "With classmates",
+     "texte": "At school we don't get on with everyone. Sometimes someone annoys us. We can try to stay calm, talk to the teacher, and pray for that child. Jesus helps us make peace.",
+     "question": "Who is it a bit hard to get on with at school at the moment?"
+    }
+   },
+   "es": {
+    "titre": "Un conflicto en el trabajo",
+    "accroche": "Un compañero que se atribuye tu trabajo, un jefe injusto, un ambiente tenso. Algunos días en la oficina dejan un sabor amargo.",
+    "fait": "Los conflictos en el trabajo son frecuentes y pesan mucho, porque no elegimos a nuestros compañeros y pasamos mucho tiempo juntos. San Pablo daba un consejo realista: si es posible, en cuanto dependa de ustedes, vivan en paz con todos (Rom 12, 18). Reconoce así que no lo controlamos todo.",
+    "piste": "Podemos hacer nuestra parte: buscar el diálogo, decir con calma lo que no va bien, evitar los chismes. También podemos rezar por la persona con la que nos cuesta, lo que a menudo cambia nuestra mirada. Y cuando una situación se vuelve injusta o hiriente, es justo pedir ayuda y protegerse.",
+    "sources": "Carta de san Pablo a los Romanos 12, 18; Catecismo de la Iglesia Católica, n. 2479"
+   },
+   "en": {
+    "titre": "Conflict at work",
+    "accroche": "A colleague taking credit for your work, an unfair boss, a tense atmosphere. Some days at the office leave a bitter taste.",
+    "fait": "Conflicts at work are common and weigh heavily, because we do not choose our colleagues and we spend a lot of time together. Saint Paul gave realistic advice: if possible, as far as it depends on you, live at peace with everyone (Rom 12:18). In this way he recognises that we do not control everything.",
+    "piste": "We can do our part: seek dialogue, calmly say what is wrong, avoid gossip. We can also pray for the person we find difficult, which often changes how we see them. And when a situation becomes unfair or hurtful, it is right to get help and protect ourselves.",
+    "sources": "Letter of Saint Paul to the Romans 12:18; Catechism of the Catholic Church, no. 2479"
+   }
+  },
+  {
+   "id": "voisins",
+   "versets": [
+    {
+     "osis": "Rom",
+     "c": 13,
+     "v": [
+      10
+     ]
+    }
+   ],
+   "priere": "ps116-1",
+   "fr": {
+    "titre": "Nos voisins",
+    "accroche": "On les croise dans l'ascenseur ou devant la boulangerie, on connaît parfois à peine leur nom. Et il y a aussi les bruits, les petits agacements.",
+    "fait": "Dans les villes, on peut vivre des années à côté de quelqu'un sans le connaître. Pourtant, le mot « prochain », dans la Bible, veut d'abord dire celui qui est proche. Saint Paul résume toute la Loi en disant que l'amour ne fait pas de mal au prochain (Rm 13, 10).",
+    "piste": "Un bonjour, un prénom retenu, un service rendu, un colis gardé, un gâteau partagé : de petits gestes créent un quartier plus humain. Et quand il y a des tensions, on peut aller parler simplement plutôt que de laisser monter l'agacement.",
+    "sources": "Lettre de saint Paul aux Romains 13, 10 ; Évangile selon saint Luc 10, 29-37"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Les voisins",
+     "texte": "Les voisins, ce sont les personnes qui habitent tout près de chez nous. On peut leur dire bonjour avec un sourire, leur faire un dessin, aider une personne âgée à porter ses courses. Jésus dit d'aimer son prochain : le prochain, c'est celui qui est tout près !",
+     "question": "Comment pourrais-tu faire plaisir à un voisin cette semaine ?"
+    },
+    "es": {
+     "titre": "Los vecinos",
+     "texte": "Los vecinos son las personas que viven muy cerca de casa. Podemos saludarlos con una sonrisa, hacerles un dibujo, ayudar a una persona mayor a llevar sus compras. Jesús dice que amemos al prójimo: ¡el prójimo es el que está muy cerca!",
+     "question": "¿Cómo podrías alegrar a un vecino esta semana?"
+    },
+    "en": {
+     "titre": "Neighbours",
+     "texte": "Neighbours are the people who live very close to us. We can say hello with a smile, make them a drawing, help an older person carry their shopping. Jesus says to love our neighbour: our neighbour is the one who is close by!",
+     "question": "How could you make a neighbour happy this week?"
+    }
+   },
+   "es": {
+    "titre": "Nuestros vecinos",
+    "accroche": "Nos los cruzamos en el ascensor o delante de la panadería, y a veces apenas sabemos su nombre. Y también están los ruidos, las pequeñas molestias.",
+    "fait": "En las ciudades se puede vivir años al lado de alguien sin conocerlo. Sin embargo, la palabra «prójimo», en la Biblia, significa ante todo el que está cerca. San Pablo resume toda la Ley diciendo que el amor no hace mal al prójimo (Rom 13, 10).",
+    "piste": "Un saludo, un nombre recordado, un favor, un paquete guardado, un pastel compartido: pequeños gestos crean un barrio más humano. Y cuando hay tensiones, podemos ir a hablar sencillamente en lugar de dejar que crezca la molestia.",
+    "sources": "Carta de san Pablo a los Romanos 13, 10; Evangelio según san Lucas 10, 29-37"
+   },
+   "en": {
+    "titre": "Our neighbours",
+    "accroche": "We pass them in the lift or outside the bakery, and sometimes we barely know their names. And there are also noises and little irritations.",
+    "fait": "In cities we can live for years next to someone without knowing them. Yet the word “neighbour” in the Bible means first of all the one who is near. Saint Paul sums up the whole Law by saying that love does no wrong to a neighbour (Rom 13:10).",
+    "piste": "A hello, a name remembered, a favour done, a parcel taken in, a cake shared: small gestures make a neighbourhood more human. And when there are tensions, we can go and talk simply instead of letting irritation build up.",
+    "sources": "Letter of Saint Paul to the Romans 13:10; Gospel according to Saint Luke 10:29-37"
+   }
+  },
+  {
+   "id": "fete",
+   "versets": [
+    {
+     "osis": "Eccl",
+     "c": 9,
+     "v": [
+      7
+     ]
+    },
+    {
+     "osis": "Sir",
+     "c": 30,
+     "v": [
+      22
+     ]
+    }
+   ],
+   "priere": "ps126-3",
+   "fr": {
+    "titre": "Savoir faire la fête",
+    "accroche": "Un anniversaire, un mariage, un baptême, un repas qui s'éternise avec des amis. La vie chrétienne a aussi le goût de la fête.",
+    "fait": "On imagine parfois les croyants austères et sérieux. Pourtant, Jésus a commencé ses signes à des noces, à Cana, et il a souvent comparé le Royaume à un repas de fête. L'Ecclésiaste invite à manger son pain avec joie et à boire son vin le cœur content (Qo 9, 7), et Ben Sira dit que la joie du cœur, c'est la vie de l'homme (Si 30, 22).",
+    "piste": "Faire la fête, c'est reconnaître que la vie est un don. On peut soigner les fêtes de famille, marquer les anniversaires de baptême, célébrer les grandes fêtes chrétiennes avec un bon repas ou une décoration. Et inviter quelqu'un qui serait seul.",
+    "sources": "Livre de l'Ecclésiaste 9, 7 ; Livre de Ben Sira 30, 22 ; Évangile selon saint Jean 2, 1-11"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Faire la fête",
+     "texte": "Jésus aimait les fêtes ! À un mariage, il a même changé l'eau en vin pour que la fête continue. On peut faire la fête pour un anniversaire, pour Noël, pour Pâques, et dire merci à Dieu pour la joie d'être ensemble.",
+     "question": "Quelle fête aimes-tu le plus ?"
+    },
+    "es": {
+     "titre": "Hacer fiesta",
+     "texte": "¡A Jesús le gustaban las fiestas! En una boda, incluso convirtió el agua en vino para que la fiesta siguiera. Podemos hacer fiesta por un cumpleaños, por Navidad, por Pascua, y dar gracias a Dios por la alegría de estar juntos.",
+     "question": "¿Qué fiesta te gusta más?"
+    },
+    "en": {
+     "titre": "Celebrating",
+     "texte": "Jesus loved parties! At a wedding he even turned water into wine so that the celebration could go on. We can celebrate birthdays, Christmas and Easter, and thank God for the joy of being together.",
+     "question": "Which celebration do you like best?"
+    }
+   },
+   "es": {
+    "titre": "Saber celebrar",
+    "accroche": "Un cumpleaños, una boda, un bautizo, una comida que se alarga con amigos. La vida cristiana también tiene sabor a fiesta.",
+    "fait": "A veces imaginamos a los creyentes austeros y serios. Sin embargo, Jesús comenzó sus signos en una boda, en Caná, y a menudo comparó el Reino con un banquete de fiesta. El Eclesiastés invita a comer el pan con alegría y a beber el vino con el corazón contento (Ecl 9, 7), y el Eclesiástico dice que la alegría del corazón es la vida del hombre (Eclo 30, 22).",
+    "piste": "Celebrar es reconocer que la vida es un regalo. Podemos cuidar las fiestas familiares, recordar los aniversarios de bautismo, celebrar las grandes fiestas cristianas con una buena comida o una decoración. E invitar a alguien que estaría solo.",
+    "sources": "Libro del Eclesiastés 9, 7; Libro del Eclesiástico 30, 22; Evangelio según san Juan 2, 1-11"
+   },
+   "en": {
+    "titre": "Knowing how to celebrate",
+    "accroche": "A birthday, a wedding, a baptism, a long meal with friends. Christian life has a taste of celebration too.",
+    "fait": "We sometimes imagine believers as austere and serious. Yet Jesus began his signs at a wedding, at Cana, and often compared the Kingdom to a feast. Ecclesiastes invites us to eat our bread with joy and drink our wine with a merry heart (Eccl 9:7), and Sirach says that gladness of heart is life itself (Sir 30:22).",
+    "piste": "Celebrating means recognising that life is a gift. We can make family celebrations special, mark baptism anniversaries, celebrate the great Christian feasts with a good meal or decorations. And invite someone who would otherwise be alone.",
+    "sources": "Book of Ecclesiastes 9:7; Book of Sirach 30:22; Gospel according to Saint John 2:1-11"
+   }
+  },
+  {
+   "id": "handicap",
+   "versets": [
+    {
+     "osis": "1Cor",
+     "c": 12,
+     "v": [
+      22
+     ]
+    }
+   ],
+   "priere": "ps119-73",
+   "fr": {
+    "titre": "Le handicap",
+    "accroche": "Un enfant différent, un parent qui perd son autonomie, un ami en fauteuil. Le handicap bouleverse souvent les projets et les regards.",
+    "fait": "Notre société valorise l'efficacité, et les personnes handicapées et leurs familles se sentent parfois mises de côté. Saint Paul, parlant de l'Église comme d'un corps, affirme que les membres qui paraissent les plus faibles sont en réalité les plus nécessaires (1 Co 12, 22). Chaque personne a une dignité infinie, quelles que soient ses capacités.",
+    "piste": "On peut apprendre beaucoup des personnes handicapées : la patience, la simplicité, la joie des choses vraies. Pour les familles, l'aide concrète compte autant que les mots : proposer un moment de répit, inviter, inclure. Et dans la paroisse, veiller à ce que chacun ait sa place.",
+    "sources": "Première lettre de saint Paul aux Corinthiens 12, 22 ; Dicastère pour la doctrine de la foi, déclaration Dignitas infinita (2 avril 2024)"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Tous différents",
+     "texte": "Certains enfants ne peuvent pas marcher, d'autres ne voient pas ou parlent autrement. Ils peuvent jouer, rire et aimer comme tout le monde ! Pour Dieu, chacun est précieux. On peut jouer avec tous, sans laisser personne de côté.",
+     "question": "Comment faire pour que personne ne soit mis de côté dans un jeu ?"
+    },
+    "es": {
+     "titre": "Todos diferentes",
+     "texte": "Algunos niños no pueden caminar, otros no ven o hablan de otra manera. ¡Pueden jugar, reír y querer como todos! Para Dios, cada uno es valioso. Podemos jugar con todos, sin dejar a nadie de lado.",
+     "question": "¿Cómo hacer para que nadie se quede fuera de un juego?"
+    },
+    "en": {
+     "titre": "All different",
+     "texte": "Some children can't walk, others can't see or speak differently. They can play, laugh and love like everyone else! To God, everyone is precious. We can play with everyone, without leaving anyone out.",
+     "question": "How can we make sure nobody is left out of a game?"
+    }
+   },
+   "es": {
+    "titre": "La discapacidad",
+    "accroche": "Un hijo diferente, un padre que pierde su autonomía, un amigo en silla de ruedas. La discapacidad a menudo trastoca los planes y las miradas.",
+    "fait": "Nuestra sociedad valora la eficacia, y las personas con discapacidad y sus familias a veces se sienten apartadas. San Pablo, hablando de la Iglesia como de un cuerpo, afirma que los miembros que parecen más débiles son en realidad los más necesarios (1 Co 12, 22). Cada persona tiene una dignidad infinita, sean cuales sean sus capacidades.",
+    "piste": "Podemos aprender mucho de las personas con discapacidad: la paciencia, la sencillez, la alegría de las cosas verdaderas. Para las familias, la ayuda concreta cuenta tanto como las palabras: ofrecer un rato de descanso, invitar, incluir. Y en la parroquia, procurar que cada uno tenga su lugar.",
+    "sources": "Primera carta de san Pablo a los Corintios 12, 22; Dicasterio para la Doctrina de la Fe, declaración Dignitas infinita (2 de abril de 2024)"
+   },
+   "en": {
+    "titre": "Disability",
+    "accroche": "A child who is different, a parent losing their independence, a friend in a wheelchair. Disability often turns plans and perceptions upside down.",
+    "fait": "Our society prizes efficiency, and disabled people and their families sometimes feel left out. Saint Paul, speaking of the Church as a body, says that the parts that seem weakest are in fact the most necessary (1 Cor 12:22). Every person has infinite dignity, whatever their abilities.",
+    "piste": "We can learn a great deal from disabled people: patience, simplicity, joy in what is real. For families, practical help matters as much as words: offering a break, inviting, including. And in the parish, making sure everyone has their place.",
+    "sources": "First Letter of Saint Paul to the Corinthians 12:22; Dicastery for the Doctrine of the Faith, declaration Dignitas infinita (2 April 2024)"
+   }
+  },
+  {
+   "id": "tendresse",
+   "versets": [
+    {
+     "osis": "Song",
+     "c": 8,
+     "v": [
+      7
+     ]
+    },
+    {
+     "osis": "1John",
+     "c": 4,
+     "v": [
+      18
+     ]
+    }
+   ],
+   "priere": "ps86-5",
+   "fr": {
+    "titre": "Dire « je t'aime »",
+    "accroche": "On le pense souvent, on le dit rarement. À ses parents, à son conjoint, à ses enfants, à un ami, les mots d'amour restent parfois coincés.",
+    "fait": "Par pudeur, par habitude ou par peur d'être ridicule, on garde pour soi ce qu'on ressent. Pourtant, la Bible ose les mots de la tendresse : le Cantique des cantiques chante un amour que les grandes eaux ne peuvent éteindre (Ct 8, 7). Et saint Jean écrit que l'amour parfait chasse la crainte (1 Jn 4, 18).",
+    "piste": "Il n'est jamais trop tard pour dire à quelqu'un qu'il compte. Un mot, un message, une lettre, un geste peuvent changer une journée, parfois une relation. On peut aussi entendre Dieu nous le dire : il nous aime le premier, sans conditions.",
+    "sources": "Cantique des cantiques 8, 7 ; Première lettre de saint Jean 4, 18"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Je t'aime",
+     "texte": "« Je t'aime » : ce sont des mots magiques ! On peut les dire à papa, à maman, à ses frères et sœurs, à ses grands-parents. Et Dieu nous le dit tous les jours : je t'aime.",
+     "question": "À qui aimerais-tu dire « je t'aime » ce soir ?"
+    },
+    "es": {
+     "titre": "Te quiero",
+     "texte": "«Te quiero»: ¡son palabras mágicas! Podemos decírselas a papá, a mamá, a los hermanos, a los abuelos. Y Dios nos lo dice todos los días: te quiero.",
+     "question": "¿A quién te gustaría decirle «te quiero» esta noche?"
+    },
+    "en": {
+     "titre": "I love you",
+     "texte": "“I love you”: those are magic words! We can say them to Dad, to Mum, to our brothers and sisters, to our grandparents. And God says it to us every day: I love you.",
+     "question": "Who would you like to say “I love you” to tonight?"
+    }
+   },
+   "es": {
+    "titre": "Decir «te quiero»",
+    "accroche": "Lo pensamos a menudo, lo decimos pocas veces. A los padres, al cónyuge, a los hijos, a un amigo: las palabras de amor a veces se quedan atascadas.",
+    "fait": "Por pudor, por costumbre o por miedo al ridículo, guardamos para nosotros lo que sentimos. Sin embargo, la Biblia se atreve con las palabras de la ternura: el Cantar de los Cantares canta un amor que las aguas torrenciales no pueden apagar (Cant 8, 7). Y san Juan escribe que el amor perfecto expulsa el temor (1 Jn 4, 18).",
+    "piste": "Nunca es demasiado tarde para decirle a alguien que es importante. Una palabra, un mensaje, una carta, un gesto pueden cambiar un día, a veces una relación. También podemos escuchar a Dios decírnoslo: él nos ama primero, sin condiciones.",
+    "sources": "Cantar de los Cantares 8, 7; Primera carta de san Juan 4, 18"
+   },
+   "en": {
+    "titre": "Saying “I love you”",
+    "accroche": "We often think it, we rarely say it. To our parents, our spouse, our children, a friend, words of love sometimes get stuck.",
+    "fait": "Out of reserve, habit or fear of looking silly, we keep what we feel to ourselves. Yet the Bible dares to use the words of tenderness: the Song of Songs sings of a love that many waters cannot quench (Song 8:7). And Saint John writes that perfect love casts out fear (1 Jn 4:18).",
+    "piste": "It is never too late to tell someone they matter. A word, a message, a letter, a gesture can change a day, sometimes a relationship. We can also hear God saying it to us: he loves us first, unconditionally.",
+    "sources": "Song of Songs 8:7; First Letter of Saint John 4:18"
+   }
+  },
+  {
+   "id": "humilite",
+   "versets": [
+    {
+     "osis": "Phil",
+     "c": 2,
+     "v": [
+      3
+     ]
+    }
+   ],
+   "priere": "ps131-2",
+   "fr": {
+    "titre": "L'humilité",
+    "accroche": "Avoir toujours raison, vouloir briller, ne pas supporter la critique. L'orgueil se glisse partout, même dans les bonnes actions.",
+    "fait": "L'humilité est souvent mal comprise : ce n'est pas se rabaisser ou se mépriser. C'est se voir tel qu'on est, avec ses qualités et ses limites, sans se comparer sans cesse. Saint Paul invitait à ne rien faire par rivalité ou vanité, mais à considérer les autres avec humilité, comme supérieurs à soi (Ph 2, 3).",
+    "piste": "L'humilité rend libre : on n'a plus besoin d'être le meilleur, ni de cacher ses erreurs. On peut s'exercer à reconnaître un tort, à demander de l'aide, à se réjouir du succès d'un autre. Jésus lui-même s'est fait serviteur en lavant les pieds de ses disciples.",
+    "sources": "Lettre de saint Paul aux Philippiens 2, 3-8 ; Catéchisme de l'Église catholique, n° 2559"
+   },
+   "enfant": {
+    "fr": {
+     "titre": "Pas toujours le premier",
+     "texte": "C'est agréable d'être le premier, de gagner, d'avoir raison. Mais Jésus nous apprend autre chose : laisser passer l'autre, dire « tu avais raison », féliciter celui qui a gagné. C'est ça, l'humilité, et ça rend le cœur léger.",
+     "question": "Quand as-tu laissé quelqu'un passer avant toi ?"
+    },
+    "es": {
+     "titre": "No siempre el primero",
+     "texte": "Es agradable ser el primero, ganar, tener razón. Pero Jesús nos enseña otra cosa: dejar pasar al otro, decir «tenías razón», felicitar al que ganó. Eso es la humildad, y deja el corazón ligero.",
+     "question": "¿Cuándo dejaste pasar a alguien antes que tú?"
+    },
+    "en": {
+     "titre": "Not always first",
+     "texte": "It's nice to be first, to win, to be right. But Jesus teaches us something else: letting the other go first, saying “you were right”, congratulating the winner. That is humility, and it makes our hearts light.",
+     "question": "When did you let someone go before you?"
+    }
+   },
+   "es": {
+    "titre": "La humildad",
+    "accroche": "Tener siempre razón, querer brillar, no soportar la crítica. El orgullo se cuela por todas partes, incluso en las buenas acciones.",
+    "fait": "La humildad a menudo se entiende mal: no es rebajarse ni despreciarse. Es verse tal como uno es, con sus cualidades y sus límites, sin compararse sin cesar. San Pablo invitaba a no hacer nada por rivalidad o vanidad, sino a considerar a los demás con humildad, como superiores a uno mismo (Flp 2, 3).",
+    "piste": "La humildad hace libres: ya no hace falta ser el mejor, ni esconder los errores. Podemos ejercitarnos en reconocer un error, en pedir ayuda, en alegrarnos del éxito de otro. Jesús mismo se hizo servidor lavando los pies a sus discípulos.",
+    "sources": "Carta de san Pablo a los Filipenses 2, 3-8; Catecismo de la Iglesia Católica, n. 2559"
+   },
+   "en": {
+    "titre": "Humility",
+    "accroche": "Always having to be right, wanting to shine, not coping with criticism. Pride creeps in everywhere, even into our good deeds.",
+    "fait": "Humility is often misunderstood: it is not putting ourselves down or despising ourselves. It is seeing ourselves as we are, with our qualities and our limits, without constantly comparing. Saint Paul urged people to do nothing out of rivalry or conceit, but in humility to regard others as better than themselves (Phil 2:3).",
+    "piste": "Humility sets us free: we no longer need to be the best, or to hide our mistakes. We can practise admitting we were wrong, asking for help, rejoicing in someone else's success. Jesus himself became a servant by washing his disciples' feet.",
+    "sources": "Letter of Saint Paul to the Philippians 2:3-8; Catechism of the Catholic Church, no. 2559"
+   }
   }
  ],
  "histoires": [
