@@ -14884,6 +14884,566 @@
     "plusLoin": "John Paul II beatified him in 1984. The Apprentis d'Auteuil foundation now supports tens of thousands of young people in difficulty.",
     "source": "Congregation for the Causes of Saints, beatification of 25 November 1984; Apprentis d'Auteuil, “Daniel Brottier”"
    }
+  },
+  {
+   "id": "jerome",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Jérôme",
+    "dates": "vers 347-420",
+    "accroche": "Un savant au caractère difficile qui a passé sa vie à traduire la Bible pour que tous puissent la lire.",
+    "texte": "Jérôme naît vers 347 en Dalmatie, sur la côte de l'actuelle Croatie. Étudiant brillant à Rome, il apprend le grec puis l'hébreu, une langue que peu de chrétiens connaissaient. Le pape Damase lui demande de réviser la traduction latine des Évangiles.\n\nInstallé à Bethléem, près de la grotte de la Nativité, il traduit pendant des années presque toute la Bible en latin, la langue courante de l'époque. Cette traduction, la Vulgate, sera lue dans l'Église pendant plus de mille ans. Il avait un caractère vif, et le reconnaissait lui-même. On lui doit cette phrase : ignorer les Écritures, c'est ignorer le Christ.",
+    "plusLoin": "Il est docteur de l'Église et patron des traducteurs. On le fête le 30 septembre, et la Journée mondiale de la traduction a lieu ce jour-là.",
+    "source": "Saint Jérôme, Commentaire sur Isaïe, prologue ; Pape François, lettre apostolique Scripturae sacrae affectus (30 septembre 2020)"
+   },
+   "es": {
+    "nom": "San Jerónimo",
+    "dates": "hacia 347-420",
+    "accroche": "Un sabio de carácter difícil que pasó su vida traduciendo la Biblia para que todos pudieran leerla.",
+    "texte": "Jerónimo nace hacia el año 347 en Dalmacia, en la costa de la actual Croacia. Estudiante brillante en Roma, aprende griego y luego hebreo, una lengua que pocos cristianos conocían. El papa Dámaso le pide revisar la traducción latina de los Evangelios.\n\nInstalado en Belén, junto a la gruta de la Natividad, traduce durante años casi toda la Biblia al latín, la lengua corriente de la época. Esa traducción, la Vulgata, se leerá en la Iglesia durante más de mil años. Tenía un carácter vivo, y él mismo lo reconocía. Suya es esta frase: ignorar las Escrituras es ignorar a Cristo.",
+    "plusLoin": "Es doctor de la Iglesia y patrono de los traductores. Su fiesta es el 30 de septiembre, día en que se celebra también el Día Internacional de la Traducción.",
+    "source": "San Jerónimo, Comentario a Isaías, prólogo; Papa Francisco, carta apostólica Scripturae sacrae affectus (30 de septiembre de 2020)"
+   },
+   "en": {
+    "nom": "Saint Jerome",
+    "dates": "c. 347-420",
+    "accroche": "A scholar with a difficult temper who spent his life translating the Bible so that everyone could read it.",
+    "texte": "Jerome was born around 347 in Dalmatia, on the coast of present-day Croatia. A brilliant student in Rome, he learned Greek and then Hebrew, a language few Christians knew. Pope Damasus asked him to revise the Latin translation of the Gospels.\n\nSettling in Bethlehem, near the cave of the Nativity, he spent years translating almost the whole Bible into Latin, the everyday language of the time. That translation, the Vulgate, was read in the Church for more than a thousand years. He had a fiery temper, and admitted it himself. He wrote that ignorance of the Scriptures is ignorance of Christ.",
+    "plusLoin": "He is a Doctor of the Church and patron of translators. His feast is on 30 September, which is also International Translation Day.",
+    "source": "Saint Jerome, Commentary on Isaiah, prologue; Pope Francis, apostolic letter Scripturae sacrae affectus (30 September 2020)"
+   }
+  },
+  {
+   "id": "pere-tarres",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Pere Tarrés",
+    "dates": "1905-1950",
+    "accroche": "Un médecin de Barcelone, proche des malades pauvres, devenu prêtre à trente-sept ans.",
+    "texte": "Pere Tarrés i Claret naît en 1905 à Manresa, en Catalogne. Médecin à Barcelone, il soigne aussi ceux qui ne peuvent pas payer, et s'engage beaucoup auprès des jeunes chrétiens de Catalogne.\n\nPendant la guerre civile espagnole, il doit se cacher, puis sert comme médecin. Après la guerre, il devient prêtre en 1942. Avec un ami médecin, il fonde une clinique pour les malades de la tuberculose qui n'ont pas les moyens de se soigner. Atteint d'un cancer, il y meurt en 1950, à quarante-cinq ans, en offrant ses souffrances pour les prêtres.",
+    "plusLoin": "Jean-Paul II l'a béatifié en 2004. À Barcelone, une fondation et une école de travail social portent son nom.",
+    "source": "Saint-Siège, biographie du bienheureux Pere Tarrés i Claret ; béatification du 5 septembre 2004"
+   },
+   "es": {
+    "nom": "Beato Pere Tarrés",
+    "dates": "1905-1950",
+    "accroche": "Un médico de Barcelona, cercano a los enfermos pobres, que se hizo sacerdote a los treinta y siete años.",
+    "texte": "Pere Tarrés i Claret nace en 1905 en Manresa, Cataluña. Médico en Barcelona, atiende también a quienes no pueden pagar, y se compromete mucho con los jóvenes cristianos de Cataluña.\n\nDurante la guerra civil española tiene que esconderse, y luego sirve como médico. Después de la guerra se ordena sacerdote en 1942. Con un amigo médico funda una clínica para los enfermos de tuberculosis que no tienen medios para curarse. Enfermo de cáncer, muere allí en 1950, a los cuarenta y cinco años, ofreciendo sus sufrimientos por los sacerdotes.",
+    "plusLoin": "Juan Pablo II lo beatificó en 2004. En Barcelona, una fundación y una escuela de trabajo social llevan su nombre.",
+    "source": "Santa Sede, biografía del beato Pere Tarrés i Claret; beatificación del 5 de septiembre de 2004"
+   },
+   "en": {
+    "nom": "Blessed Pere Tarrés",
+    "dates": "1905-1950",
+    "accroche": "A Barcelona doctor, close to the sick poor, who became a priest at thirty-seven.",
+    "texte": "Pere Tarrés i Claret was born in 1905 in Manresa, in Catalonia. As a doctor in Barcelona he also treated those who could not pay, and was very involved with young Christians in Catalonia.\n\nDuring the Spanish Civil War he had to go into hiding, and then served as a doctor. After the war he was ordained a priest in 1942. With a doctor friend he founded a clinic for tuberculosis patients who could not afford treatment. Ill with cancer, he died there in 1950, aged forty-five, offering his sufferings for priests.",
+    "plusLoin": "John Paul II beatified him in 2004. In Barcelona, a foundation and a school of social work bear his name.",
+    "source": "Holy See, biography of Blessed Pere Tarrés i Claret; beatification of 5 September 2004"
+   }
+  },
+  {
+   "id": "perpetue-felicite",
+   "saint": true,
+   "fr": {
+    "nom": "Saintes Perpétue et Félicité",
+    "dates": "mortes en 203",
+    "accroche": "Une jeune mère de famille et sa servante, arrêtées ensemble à Carthage parce qu'elles étaient chrétiennes.",
+    "texte": "En 203, à Carthage, en Afrique du Nord, plusieurs catéchumènes sont arrêtés parce qu'ils se préparent au baptême. Parmi eux, Perpétue, une jeune femme noble de vingt-deux ans qui allaite son bébé, et Félicité, une esclave enceinte.\n\nEn prison, Perpétue écrit un journal, l'un des plus anciens textes écrits par une femme chrétienne. Son père la supplie de renier sa foi ; elle refuse avec tendresse. Félicité met au monde une petite fille quelques jours avant leur mort. Les deux femmes, la noble et l'esclave, meurent ensemble, comme des sœurs.",
+    "plusLoin": "Leurs noms sont cités dans la prière eucharistique la plus ancienne de la messe. On les fête le 7 mars.",
+    "source": "Passion de Perpétue et Félicité ; Benoît XVI, audience générale du 7 mars 2007"
+   },
+   "es": {
+    "nom": "Santas Perpetua y Felicidad",
+    "dates": "muertas en 203",
+    "accroche": "Una joven madre y su sierva, detenidas juntas en Cartago por ser cristianas.",
+    "texte": "En el año 203, en Cartago, en el norte de África, varios catecúmenos son detenidos porque se preparan para el bautismo. Entre ellos están Perpetua, una joven noble de veintidós años que amamanta a su bebé, y Felicidad, una esclava embarazada.\n\nEn la cárcel, Perpetua escribe un diario, uno de los textos más antiguos escritos por una mujer cristiana. Su padre le suplica que reniegue de su fe; ella se niega con ternura. Felicidad da a luz a una niña pocos días antes de su muerte. Las dos mujeres, la noble y la esclava, mueren juntas, como hermanas.",
+    "plusLoin": "Sus nombres se citan en la plegaria eucarística más antigua de la misa. Su fiesta es el 7 de marzo.",
+    "source": "Pasión de Perpetua y Felicidad; Benedicto XVI, audiencia general del 7 de marzo de 2007"
+   },
+   "en": {
+    "nom": "Saints Perpetua and Felicity",
+    "dates": "died in 203",
+    "accroche": "A young mother and her servant, arrested together in Carthage for being Christians.",
+    "texte": "In 203, in Carthage, in North Africa, several catechumens were arrested because they were preparing for baptism. Among them were Perpetua, a young noblewoman of twenty-two who was nursing her baby, and Felicity, a pregnant slave.\n\nIn prison Perpetua kept a diary, one of the oldest texts written by a Christian woman. Her father begged her to deny her faith; she refused with tenderness. Felicity gave birth to a baby girl a few days before they died. The two women, the noblewoman and the slave, died together, like sisters.",
+    "plusLoin": "Their names are mentioned in the oldest Eucharistic Prayer of the Mass. Their feast is on 7 March.",
+    "source": "The Passion of Perpetua and Felicity; Benedict XVI, general audience of 7 March 2007"
+   }
+  },
+  {
+   "id": "ceferino-namuncura",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Ceferino Namuncurá",
+    "dates": "1886-1905",
+    "accroche": "Le fils d'un chef mapuche de Patagonie, qui rêvait de devenir prêtre pour servir son peuple.",
+    "texte": "Ceferino Namuncurá naît en 1886 en Argentine, fils du cacique Manuel Namuncurá, chef d'un peuple mapuche qui venait de perdre ses terres. À onze ans, il demande à son père de l'envoyer étudier à Buenos Aires, pour être utile à son peuple.\n\nChez les salésiens, il découvre la foi et décide de devenir prêtre. Ses camarades le décrivent comme joyeux et serviable. Malade de la tuberculose, il est envoyé en Italie pour se soigner et rencontre le pape Pie X. Il meurt à Rome en 1905, à dix-huit ans.",
+    "plusLoin": "Il a été béatifié en 2007 en Argentine. Il est très aimé des peuples de Patagonie, qui le prient comme l'un des leurs.",
+    "source": "Congrégation pour les causes des saints, béatification du 11 novembre 2007 ; Famille salésienne, « Ceferino Namuncurá »"
+   },
+   "es": {
+    "nom": "Beato Ceferino Namuncurá",
+    "dates": "1886-1905",
+    "accroche": "El hijo de un cacique mapuche de la Patagonia, que soñaba con ser sacerdote para servir a su pueblo.",
+    "texte": "Ceferino Namuncurá nace en 1886 en Argentina, hijo del cacique Manuel Namuncurá, jefe de un pueblo mapuche que acababa de perder sus tierras. A los once años le pide a su padre que lo mande a estudiar a Buenos Aires, para ser útil a su gente.\n\nCon los salesianos descubre la fe y decide hacerse sacerdote. Sus compañeros lo describen como alegre y servicial. Enfermo de tuberculosis, lo envían a Italia para curarse y conoce al papa Pío X. Muere en Roma en 1905, a los dieciocho años.",
+    "plusLoin": "Fue beatificado en 2007 en Argentina. Lo quieren mucho los pueblos de la Patagonia, que le rezan como a uno de los suyos.",
+    "source": "Congregación para las Causas de los Santos, beatificación del 11 de noviembre de 2007; Familia Salesiana, «Ceferino Namuncurá»"
+   },
+   "en": {
+    "nom": "Blessed Ceferino Namuncurá",
+    "dates": "1886-1905",
+    "accroche": "The son of a Mapuche chief from Patagonia, who dreamed of becoming a priest to serve his people.",
+    "texte": "Ceferino Namuncurá was born in 1886 in Argentina, the son of cacique Manuel Namuncurá, chief of a Mapuche people who had just lost their land. At eleven he asked his father to send him to study in Buenos Aires, so that he could be useful to his people.\n\nWith the Salesians he discovered the faith and decided to become a priest. His classmates described him as cheerful and helpful. Ill with tuberculosis, he was sent to Italy for treatment and met Pope Pius X. He died in Rome in 1905, aged eighteen.",
+    "plusLoin": "He was beatified in 2007 in Argentina. He is much loved by the peoples of Patagonia, who pray to him as one of their own.",
+    "source": "Congregation for the Causes of Saints, beatification of 11 November 2007; Salesian Family, “Ceferino Namuncurá”"
+   }
+  },
+  {
+   "id": "genevieve",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Geneviève",
+    "dates": "vers 420-502",
+    "accroche": "Une jeune femme de Nanterre qui a rendu courage aux Parisiens et les a nourris pendant un siège.",
+    "texte": "Geneviève naît vers 420 à Nanterre, près de Paris. Toute jeune, elle consacre sa vie à Dieu. Installée à Paris, elle vit dans la prière et le jeûne, et aide les pauvres.\n\nEn 451, quand on annonce l'arrivée d'Attila et des Huns, les Parisiens veulent fuir. Geneviève les encourage à rester et à prier ; l'armée d'Attila se détourne de Paris. Plus tard, pendant un long siège de la ville, elle organise un convoi de bateaux sur la Seine pour ramener du blé et nourrir les habitants affamés.",
+    "plusLoin": "Elle est la patronne de Paris. On la fête le 3 janvier, et une grande bibliothèque porte son nom près du Panthéon.",
+    "source": "Vie de sainte Geneviève (VIe siècle) ; Encyclopædia Britannica, « Saint Genevieve »"
+   },
+   "es": {
+    "nom": "Santa Genoveva",
+    "dates": "hacia 420-502",
+    "accroche": "Una joven de Nanterre que devolvió el ánimo a los parisinos y los alimentó durante un asedio.",
+    "texte": "Genoveva nace hacia el año 420 en Nanterre, cerca de París. Muy joven, consagra su vida a Dios. Instalada en París, vive en la oración y el ayuno, y ayuda a los pobres.\n\nEn 451, cuando se anuncia la llegada de Atila y los hunos, los parisinos quieren huir. Genoveva los anima a quedarse y a rezar; el ejército de Atila se desvía de París. Más tarde, durante un largo asedio de la ciudad, organiza un convoy de barcos por el Sena para traer trigo y alimentar a los habitantes hambrientos.",
+    "plusLoin": "Es la patrona de París. Su fiesta es el 3 de enero, y una gran biblioteca lleva su nombre cerca del Panteón.",
+    "source": "Vida de santa Genoveva (siglo VI); Encyclopædia Britannica, «Saint Genevieve»"
+   },
+   "en": {
+    "nom": "Saint Genevieve",
+    "dates": "c. 420-502",
+    "accroche": "A young woman from Nanterre who gave the people of Paris back their courage and fed them during a siege.",
+    "texte": "Genevieve was born around 420 in Nanterre, near Paris. Very young, she dedicated her life to God. Living in Paris, she prayed and fasted, and helped the poor.\n\nIn 451, when news came that Attila and the Huns were approaching, the Parisians wanted to flee. Genevieve encouraged them to stay and pray; Attila's army turned away from Paris. Later, during a long siege of the city, she organised a convoy of boats on the Seine to bring back grain and feed the starving inhabitants.",
+    "plusLoin": "She is the patron saint of Paris. Her feast is on 3 January, and a great library near the Panthéon bears her name.",
+    "source": "Life of Saint Genevieve (6th century); Encyclopædia Britannica, “Saint Genevieve”"
+   }
+  },
+  {
+   "id": "matteo-ricci",
+   "saint": false,
+   "fr": {
+    "nom": "Vénérable Matteo Ricci",
+    "dates": "1552-1610",
+    "accroche": "Un jésuite italien qui a appris le chinois, s'est habillé en lettré et a fait entrer l'Évangile en Chine par l'amitié.",
+    "texte": "Matteo Ricci naît en 1552 à Macerata, en Italie. Jésuite passionné de mathématiques et d'astronomie, il arrive en Chine en 1582. Il apprend la langue, étudie Confucius et adopte la tenue des lettrés chinois.\n\nIl dessine la première carte du monde en chinois, traduit en chinois des livres de géométrie et écrit un traité sur l'amitié. En 1601, il est autorisé à s'installer à Pékin, à la cour de l'empereur. Plusieurs savants chinois deviennent chrétiens, comme son ami Xu Guangqi. Il meurt à Pékin en 1610.",
+    "plusLoin": "Le pape François l'a déclaré vénérable en 2022. Il est un modèle de dialogue entre les cultures.",
+    "source": "Dicastère pour les causes des saints, décret du 17 décembre 2022 ; Encyclopædia Britannica, « Matteo Ricci »"
+   },
+   "es": {
+    "nom": "Venerable Matteo Ricci",
+    "dates": "1552-1610",
+    "accroche": "Un jesuita italiano que aprendió chino, se vistió de letrado e hizo entrar el Evangelio en China a través de la amistad.",
+    "texte": "Matteo Ricci nace en 1552 en Macerata, Italia. Jesuita apasionado por las matemáticas y la astronomía, llega a China en 1582. Aprende la lengua, estudia a Confucio y adopta la vestimenta de los letrados chinos.\n\nDibuja el primer mapa del mundo en chino, traduce al chino libros de geometría y escribe un tratado sobre la amistad. En 1601 obtiene permiso para instalarse en Pekín, en la corte del emperador. Varios sabios chinos se hacen cristianos, como su amigo Xu Guangqi. Muere en Pekín en 1610.",
+    "plusLoin": "El papa Francisco lo declaró venerable en 2022. Es un modelo de diálogo entre culturas.",
+    "source": "Dicasterio para las Causas de los Santos, decreto del 17 de diciembre de 2022; Encyclopædia Britannica, «Matteo Ricci»"
+   },
+   "en": {
+    "nom": "Venerable Matteo Ricci",
+    "dates": "1552-1610",
+    "accroche": "An Italian Jesuit who learned Chinese, dressed as a scholar and brought the Gospel to China through friendship.",
+    "texte": "Matteo Ricci was born in 1552 in Macerata, Italy. A Jesuit who loved mathematics and astronomy, he arrived in China in 1582. He learned the language, studied Confucius and adopted the dress of Chinese scholars.\n\nHe drew the first map of the world in Chinese, translated books of geometry into Chinese and wrote a treatise on friendship. In 1601 he was allowed to settle in Beijing, at the emperor's court. Several Chinese scholars became Christians, such as his friend Xu Guangqi. He died in Beijing in 1610.",
+    "plusLoin": "Pope Francis declared him venerable in 2022. He is a model of dialogue between cultures.",
+    "source": "Dicastery for the Causes of Saints, decree of 17 December 2022; Encyclopædia Britannica, “Matteo Ricci”"
+   }
+  },
+  {
+   "id": "bernard-clairvaux",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Bernard de Clairvaux",
+    "dates": "1090-1153",
+    "accroche": "Un jeune noble bourguignon qui est entré au monastère avec une trentaine de parents et d'amis, et a réveillé toute l'Europe.",
+    "texte": "Bernard naît en 1090 près de Dijon. À vingt-deux ans, il décide d'entrer à l'abbaye de Cîteaux, un monastère pauvre et exigeant. Il ne part pas seul : il convainc une trentaine de frères, d'oncles et d'amis de le suivre !\n\nEn 1115, il fonde l'abbaye de Clairvaux, qui essaime ensuite dans toute l'Europe. Prédicateur ardent, il conseille les papes et les rois. Il aime profondément la Vierge Marie et écrit sur elle des pages célèbres, comme celle qui invite, dans les tempêtes de la vie, à regarder l'étoile et à invoquer Marie.",
+    "plusLoin": "Il a été proclamé docteur de l'Église en 1830. On le surnomme « le docteur à la bouche de miel ».",
+    "source": "Encyclopædia Britannica, « Saint Bernard de Clairvaux » ; Benoît XVI, audience générale du 21 octobre 2009"
+   },
+   "es": {
+    "nom": "San Bernardo de Claraval",
+    "dates": "1090-1153",
+    "accroche": "Un joven noble de Borgoña que entró en el monasterio con una treintena de parientes y amigos, y despertó a toda Europa.",
+    "texte": "Bernardo nace en 1090 cerca de Dijon. A los veintidós años decide entrar en la abadía de Císter, un monasterio pobre y exigente. No va solo: ¡convence a una treintena de hermanos, tíos y amigos para que lo sigan!\n\nEn 1115 funda la abadía de Claraval, que luego se extiende por toda Europa. Predicador ardiente, aconseja a papas y reyes. Ama profundamente a la Virgen María y escribe sobre ella páginas célebres, como la que invita, en las tormentas de la vida, a mirar la estrella e invocar a María.",
+    "plusLoin": "Fue proclamado doctor de la Iglesia en 1830. Lo llaman «el doctor melifluo», de palabra dulce como la miel.",
+    "source": "Encyclopædia Britannica, «Saint Bernard de Clairvaux»; Benedicto XVI, audiencia general del 21 de octubre de 2009"
+   },
+   "en": {
+    "nom": "Saint Bernard of Clairvaux",
+    "dates": "1090-1153",
+    "accroche": "A young Burgundian nobleman who entered a monastery with some thirty relatives and friends, and woke up all of Europe.",
+    "texte": "Bernard was born in 1090 near Dijon. At twenty-two he decided to enter the abbey of Cîteaux, a poor and demanding monastery. He did not go alone: he persuaded some thirty brothers, uncles and friends to follow him!\n\nIn 1115 he founded the abbey of Clairvaux, which went on to spread throughout Europe. A fiery preacher, he advised popes and kings. He had a deep love for the Virgin Mary and wrote famous pages about her, such as the one urging us, in life's storms, to look to the star and call upon Mary.",
+    "plusLoin": "He was declared a Doctor of the Church in 1830. He is called “the honey-tongued doctor”.",
+    "source": "Encyclopædia Britannica, “Saint Bernard de Clairvaux”; Benedict XVI, general audience of 21 October 2009"
+   }
+  },
+  {
+   "id": "stanley-rother",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Stanley Rother",
+    "dates": "1935-1981",
+    "accroche": "Un fils de fermiers de l'Oklahoma, qui avait échoué en latin au séminaire, devenu le pasteur aimé d'un village du Guatemala.",
+    "texte": "Stanley Rother naît en 1935 dans une ferme de l'Oklahoma, aux États-Unis. Au séminaire, il a du mal avec les études, surtout le latin, et doit recommencer ailleurs. Mais il est ordonné prêtre en 1963.\n\nEn 1968, il part pour Santiago Atitlán, au Guatemala, au service d'un peuple maya. Il apprend leur langue, le tz'utujil, répare les tracteurs, cultive les champs avec eux, construit un petit hôpital. Pendant la guerre civile, il refuse d'abandonner ses paroissiens menacés, en disant que le berger ne fuit pas. Il est assassiné dans son presbytère en 1981.",
+    "plusLoin": "Il a été béatifié en 2017. C'est le premier prêtre né aux États-Unis reconnu comme martyr.",
+    "source": "Congrégation pour les causes des saints, béatification du 23 septembre 2017 ; archidiocèse d'Oklahoma City"
+   },
+   "es": {
+    "nom": "Beato Stanley Rother",
+    "dates": "1935-1981",
+    "accroche": "Un hijo de granjeros de Oklahoma, que había suspendido latín en el seminario, convertido en el querido pastor de un pueblo de Guatemala.",
+    "texte": "Stanley Rother nace en 1935 en una granja de Oklahoma, Estados Unidos. En el seminario le cuestan los estudios, sobre todo el latín, y tiene que volver a empezar en otro lugar. Pero es ordenado sacerdote en 1963.\n\nEn 1968 parte hacia Santiago Atitlán, en Guatemala, al servicio de un pueblo maya. Aprende su lengua, el tz'utujil, repara los tractores, cultiva los campos con ellos y construye un pequeño hospital. Durante la guerra civil se niega a abandonar a sus feligreses amenazados, diciendo que el pastor no huye. Es asesinado en su casa parroquial en 1981.",
+    "plusLoin": "Fue beatificado en 2017. Es el primer sacerdote nacido en Estados Unidos reconocido como mártir.",
+    "source": "Congregación para las Causas de los Santos, beatificación del 23 de septiembre de 2017; arquidiócesis de Oklahoma City"
+   },
+   "en": {
+    "nom": "Blessed Stanley Rother",
+    "dates": "1935-1981",
+    "accroche": "An Oklahoma farm boy who had failed Latin at seminary, and became the beloved pastor of a village in Guatemala.",
+    "texte": "Stanley Rother was born in 1935 on a farm in Oklahoma, in the United States. At seminary he struggled with his studies, especially Latin, and had to start again elsewhere. But he was ordained a priest in 1963.\n\nIn 1968 he went to Santiago Atitlán, in Guatemala, to serve a Mayan people. He learned their language, Tz'utujil, mended tractors, farmed alongside them and built a small hospital. During the civil war he refused to abandon his threatened parishioners, saying that the shepherd does not run. He was murdered in his rectory in 1981.",
+    "plusLoin": "He was beatified in 2017. He is the first priest born in the United States to be recognised as a martyr.",
+    "source": "Congregation for the Causes of Saints, beatification of 23 September 2017; Archdiocese of Oklahoma City"
+   }
+  },
+  {
+   "id": "isidore-laboureur",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Isidore le Laboureur",
+    "dates": "vers 1070-1130",
+    "accroche": "Un simple paysan de Madrid, qui priait en travaillant les champs, devenu le patron de la ville.",
+    "texte": "Isidore naît vers 1070 à Madrid, alors un petit bourg. Ouvrier agricole au service d'un propriétaire, il laboure les champs toute sa vie. Il est marié à María Torribia, elle-même vénérée comme sainte María de la Cabeza.\n\nIsidore commence chaque journée par la messe et prie en travaillant. La tradition raconte que des anges labouraient à sa place pendant qu'il priait, si bien que son travail n'en souffrait jamais. Malgré sa pauvreté, il partage ce qu'il a avec plus pauvre que lui, et même avec les oiseaux en hiver.",
+    "plusLoin": "Il a été canonisé en 1622, le même jour que Thérèse d'Avila, Ignace de Loyola, François Xavier et Philippe Néri. Il est le patron de Madrid et des agriculteurs, fêté le 15 mai.",
+    "source": "Encyclopædia Britannica, « Saint Isidore the Farmer » ; archidiocèse de Madrid, « San Isidro Labrador »"
+   },
+   "es": {
+    "nom": "San Isidro Labrador",
+    "dates": "hacia 1070-1130",
+    "accroche": "Un sencillo campesino de Madrid, que rezaba mientras trabajaba el campo, convertido en patrono de la ciudad.",
+    "texte": "Isidro nace hacia el año 1070 en Madrid, entonces una pequeña villa. Jornalero al servicio de un propietario, labra los campos toda su vida. Está casado con María Toribia, venerada ella misma como santa María de la Cabeza.\n\nIsidro empieza cada jornada con la misa y reza mientras trabaja. La tradición cuenta que unos ángeles araban por él mientras rezaba, de modo que su trabajo nunca se resentía. A pesar de su pobreza, comparte lo que tiene con los más pobres, e incluso con los pájaros en invierno.",
+    "plusLoin": "Fue canonizado en 1622, el mismo día que Teresa de Jesús, Ignacio de Loyola, Francisco Javier y Felipe Neri. Es patrono de Madrid y de los agricultores, y su fiesta es el 15 de mayo.",
+    "source": "Encyclopædia Britannica, «Saint Isidore the Farmer»; arzobispado de Madrid, «San Isidro Labrador»"
+   },
+   "en": {
+    "nom": "Saint Isidore the Farmer",
+    "dates": "c. 1070-1130",
+    "accroche": "A simple farm labourer from Madrid who prayed while he worked the fields, and became the city's patron saint.",
+    "texte": "Isidore was born around 1070 in Madrid, then a small town. A farm worker employed by a landowner, he ploughed the fields all his life. He was married to María Torribia, herself venerated as Saint María de la Cabeza.\n\nIsidore began each day with Mass and prayed while he worked. Tradition says that angels ploughed for him while he prayed, so that his work never suffered. Despite his poverty, he shared what he had with those poorer than himself, and even with the birds in winter.",
+    "plusLoin": "He was canonised in 1622, on the same day as Teresa of Ávila, Ignatius of Loyola, Francis Xavier and Philip Neri. He is patron of Madrid and of farmers, and his feast is on 15 May.",
+    "source": "Encyclopædia Britannica, “Saint Isidore the Farmer”; Archdiocese of Madrid, “San Isidro Labrador”"
+   }
+  },
+  {
+   "id": "imelda-lambertini",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureuse Imelda Lambertini",
+    "dates": "1322-1333",
+    "accroche": "Une petite fille de Bologne qui désirait tant recevoir Jésus qu'elle est devenue la patronne des premiers communiants.",
+    "texte": "Imelda Lambertini naît en 1322 à Bologne, en Italie, dans une famille noble. Toute petite, elle aime prier et demande à vivre chez les religieuses dominicaines, où elle est accueillie à neuf ans.\n\nÀ cette époque, on ne faisait sa première communion que vers douze ou quatorze ans. Imelda, qui en avait onze, désirait de tout son cœur recevoir Jésus. Selon le récit de la tradition, le jour de l'Ascension 1333, une hostie lumineuse s'est arrêtée au-dessus d'elle, et le prêtre lui a donné la communion. Elle est morte le jour même, dans la joie.",
+    "plusLoin": "Elle a été béatifiée en 1826. Saint Pie X, qui a permis aux enfants de communier dès l'âge de raison, l'a donnée en exemple ; elle est la patronne des premiers communiants.",
+    "source": "Ordre des Prêcheurs, « Bienheureuse Imelda » ; Encyclopædia Britannica, « Blessed Imelda Lambertini »"
+   },
+   "es": {
+    "nom": "Beata Imelda Lambertini",
+    "dates": "1322-1333",
+    "accroche": "Una niña de Bolonia que deseaba tanto recibir a Jesús que se convirtió en patrona de los que hacen la primera comunión.",
+    "texte": "Imelda Lambertini nace en 1322 en Bolonia, Italia, en una familia noble. Desde muy pequeña le gusta rezar y pide vivir con las religiosas dominicas, que la reciben a los nueve años.\n\nEn aquella época, la primera comunión se hacía hacia los doce o catorce años. Imelda, que tenía once, deseaba con todo su corazón recibir a Jesús. Según el relato de la tradición, el día de la Ascensión de 1333 una hostia luminosa se detuvo sobre ella, y el sacerdote le dio la comunión. Murió ese mismo día, llena de alegría.",
+    "plusLoin": "Fue beatificada en 1826. San Pío X, que permitió a los niños comulgar desde el uso de razón, la puso como ejemplo; es patrona de los que hacen la primera comunión.",
+    "source": "Orden de Predicadores, «Beata Imelda»; Encyclopædia Britannica, «Blessed Imelda Lambertini»"
+   },
+   "en": {
+    "nom": "Blessed Imelda Lambertini",
+    "dates": "1322-1333",
+    "accroche": "A little girl from Bologna who longed so much to receive Jesus that she became the patron of First Communicants.",
+    "texte": "Imelda Lambertini was born in 1322 in Bologna, Italy, into a noble family. From a very young age she loved to pray, and she asked to live with the Dominican nuns, who took her in at the age of nine.\n\nAt that time, children did not make their First Communion until about twelve or fourteen. Imelda, who was eleven, longed with all her heart to receive Jesus. According to tradition, on the feast of the Ascension in 1333 a glowing host stopped above her, and the priest gave her Communion. She died that same day, full of joy.",
+    "plusLoin": "She was beatified in 1826. Saint Pius X, who allowed children to receive Communion from the age of reason, held her up as an example; she is the patron of First Communicants.",
+    "source": "Order of Preachers, “Blessed Imelda”; Encyclopædia Britannica, “Blessed Imelda Lambertini”"
+   }
+  },
+  {
+   "id": "pierre-claver",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Pierre Claver",
+    "dates": "1580-1654",
+    "accroche": "Un jésuite catalan qui s'est fait « l'esclave des esclaves » dans le grand port négrier de Carthagène des Indes.",
+    "texte": "Pere Claver naît en 1580 à Verdú, en Catalogne. Jésuite, il part en 1610 pour Carthagène des Indes, dans l'actuelle Colombie, l'un des plus grands ports où arrivaient les Africains réduits en esclavage.\n\nPendant près de quarante ans, dès qu'un navire accoste, il descend dans les cales pour accueillir les captifs épuisés. Il leur apporte de l'eau, de la nourriture, des remèdes, soigne leurs plaies, leur parle avec des interprètes et leur annonce qu'ils sont aimés de Dieu. Il avait signé ses vœux : « esclave des esclaves noirs pour toujours ».",
+    "plusLoin": "Il a été canonisé en 1888. Il est le patron de la Colombie et des droits humains, et on le fête le 9 septembre.",
+    "source": "Encyclopædia Britannica, « Saint Peter Claver » ; Compagnie de Jésus, « San Pedro Claver »"
+   },
+   "es": {
+    "nom": "San Pedro Claver",
+    "dates": "1580-1654",
+    "accroche": "Un jesuita catalán que se hizo «esclavo de los esclavos» en el gran puerto negrero de Cartagena de Indias.",
+    "texte": "Pere Claver nace en 1580 en Verdú, Cataluña. Jesuita, parte en 1610 hacia Cartagena de Indias, en la actual Colombia, uno de los mayores puertos adonde llegaban los africanos esclavizados.\n\nDurante casi cuarenta años, cada vez que atraca un barco, baja a las bodegas para recibir a los cautivos agotados. Les lleva agua, comida, remedios, cura sus heridas, les habla con intérpretes y les anuncia que Dios los ama. Había firmado sus votos: «esclavo de los negros para siempre».",
+    "plusLoin": "Fue canonizado en 1888. Es patrono de Colombia y de los derechos humanos, y su fiesta es el 9 de septiembre.",
+    "source": "Encyclopædia Britannica, «Saint Peter Claver»; Compañía de Jesús, «San Pedro Claver»"
+   },
+   "en": {
+    "nom": "Saint Peter Claver",
+    "dates": "1580-1654",
+    "accroche": "A Catalan Jesuit who made himself “the slave of the slaves” in the great slave port of Cartagena de Indias.",
+    "texte": "Pere Claver was born in 1580 in Verdú, in Catalonia. As a Jesuit he left in 1610 for Cartagena de Indias, in present-day Colombia, one of the largest ports where enslaved Africans arrived.\n\nFor nearly forty years, whenever a ship docked, he went down into the hold to welcome the exhausted captives. He brought them water, food and medicine, dressed their wounds, spoke to them through interpreters and told them they were loved by God. He had signed his vows: “slave of the Black slaves for ever”.",
+    "plusLoin": "He was canonised in 1888. He is the patron of Colombia and of human rights, and his feast is on 9 September.",
+    "source": "Encyclopædia Britannica, “Saint Peter Claver”; Society of Jesus, “San Pedro Claver”"
+   }
+  },
+  {
+   "id": "solanus-casey",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Solanus Casey",
+    "dates": "1870-1957",
+    "accroche": "Un capucin américain qu'on jugeait trop peu doué pour prêcher, et qui est devenu le portier le plus aimé de Detroit.",
+    "texte": "Bernard Casey naît en 1870 dans le Wisconsin, aux États-Unis, sixième de seize enfants d'immigrés irlandais. Avant d'entrer chez les capucins sous le nom de Solanus, il est bûcheron, gardien de prison, conducteur de tramway.\n\nComme il a du mal avec les études, il est ordonné prêtre « simple » : il n'a pas le droit de prêcher ni de confesser. On lui confie la porte du couvent de Detroit. Pendant des années, il y accueille, écoute et conseille des milliers de personnes. Pendant la grande crise de 1929, il aide à ouvrir une soupe populaire qui existe encore aujourd'hui.",
+    "plusLoin": "Il a été béatifié à Detroit en 2017. Il répétait volontiers : « Remerciez Dieu à l'avance. »",
+    "source": "Congrégation pour les causes des saints, béatification du 18 novembre 2017 ; Solanus Casey Center, Detroit"
+   },
+   "es": {
+    "nom": "Beato Solanus Casey",
+    "dates": "1870-1957",
+    "accroche": "Un capuchino estadounidense al que consideraban poco dotado para predicar, y que se convirtió en el portero más querido de Detroit.",
+    "texte": "Bernard Casey nace en 1870 en Wisconsin, Estados Unidos, el sexto de dieciséis hijos de inmigrantes irlandeses. Antes de entrar en los capuchinos con el nombre de Solanus, es leñador, guardia de prisión y conductor de tranvía.\n\nComo le cuestan los estudios, lo ordenan sacerdote «simple»: no puede predicar ni confesar. Le confían la portería del convento de Detroit. Durante años recibe, escucha y aconseja allí a miles de personas. Durante la gran crisis de 1929 ayuda a abrir un comedor social que todavía existe hoy.",
+    "plusLoin": "Fue beatificado en Detroit en 2017. Le gustaba repetir: «Den gracias a Dios por adelantado».",
+    "source": "Congregación para las Causas de los Santos, beatificación del 18 de noviembre de 2017; Solanus Casey Center, Detroit"
+   },
+   "en": {
+    "nom": "Blessed Solanus Casey",
+    "dates": "1870-1957",
+    "accroche": "An American Capuchin thought too poorly gifted to preach, who became Detroit's best-loved doorkeeper.",
+    "texte": "Bernard Casey was born in 1870 in Wisconsin, in the United States, the sixth of sixteen children of Irish immigrants. Before joining the Capuchins as Solanus, he worked as a lumberjack, a prison guard and a streetcar driver.\n\nBecause he struggled with his studies, he was ordained a “simplex” priest: he was not allowed to preach or hear confessions. He was given the job of doorkeeper at the friary in Detroit. For years he welcomed, listened to and advised thousands of people there. During the Great Depression of 1929, he helped open a soup kitchen that still exists today.",
+    "plusLoin": "He was beatified in Detroit in 2017. He liked to say: “Thank God ahead of time.”",
+    "source": "Congregation for the Causes of Saints, beatification of 18 November 2017; Solanus Casey Center, Detroit"
+   }
+  },
+  {
+   "id": "nicolas-de-flue",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Nicolas de Flüe",
+    "dates": "1417-1487",
+    "accroche": "Un paysan suisse, père de dix enfants, devenu ermite avec l'accord de sa femme, qui a évité une guerre civile à son pays.",
+    "texte": "Nicolas de Flüe naît en 1417 en Suisse centrale. Paysan, soldat, juge, il épouse Dorothée Wyss ; ils ont dix enfants. Respecté de tous, il ressent pourtant un appel de plus en plus fort à une vie de prière.\n\nÀ cinquante ans, avec le consentement de Dorothée, il quitte la ferme et s'installe comme ermite dans une petite cellule, tout près, dans le ravin du Ranft. Beaucoup viennent lui demander conseil. En 1481, alors que les cantons suisses sont au bord de la guerre, son message de paix permet un accord, le Convenant de Stans.",
+    "plusLoin": "Il a été canonisé en 1947. Il est le patron de la Suisse, et sa femme Dorothée est souvent associée à sa vénération.",
+    "source": "Encyclopædia Britannica, « Saint Nicholas of Flüe » ; Conférence des évêques suisses, « Nicolas de Flüe »"
+   },
+   "es": {
+    "nom": "San Nicolás de Flüe",
+    "dates": "1417-1487",
+    "accroche": "Un campesino suizo, padre de diez hijos, que se hizo ermitaño con el consentimiento de su esposa y evitó una guerra civil en su país.",
+    "texte": "Nicolás de Flüe nace en 1417 en el centro de Suiza. Campesino, soldado y juez, se casa con Dorotea Wyss; tienen diez hijos. Respetado por todos, siente sin embargo una llamada cada vez más fuerte a una vida de oración.\n\nA los cincuenta años, con el consentimiento de Dorotea, deja la granja y se instala como ermitaño en una pequeña celda, muy cerca, en el barranco del Ranft. Muchos van a pedirle consejo. En 1481, cuando los cantones suizos están al borde de la guerra, su mensaje de paz permite un acuerdo, el Convenio de Stans.",
+    "plusLoin": "Fue canonizado en 1947. Es patrono de Suiza, y su esposa Dorotea se asocia a menudo a su veneración.",
+    "source": "Encyclopædia Britannica, «Saint Nicholas of Flüe»; Conferencia Episcopal Suiza, «Nicolás de Flüe»"
+   },
+   "en": {
+    "nom": "Saint Nicholas of Flüe",
+    "dates": "1417-1487",
+    "accroche": "A Swiss farmer and father of ten who became a hermit with his wife's agreement, and saved his country from civil war.",
+    "texte": "Nicholas of Flüe was born in 1417 in central Switzerland. A farmer, soldier and judge, he married Dorothea Wyss; they had ten children. Respected by all, he nonetheless felt an ever stronger call to a life of prayer.\n\nAt fifty, with Dorothea's consent, he left the farm and settled as a hermit in a small cell nearby, in the Ranft gorge. Many came to ask his advice. In 1481, when the Swiss cantons were on the brink of war, his message of peace made possible an agreement, the Covenant of Stans.",
+    "plusLoin": "He was canonised in 1947. He is the patron saint of Switzerland, and his wife Dorothea is often honoured with him.",
+    "source": "Encyclopædia Britannica, “Saint Nicholas of Flüe”; Swiss Bishops' Conference, “Nicholas of Flüe”"
+   }
+  },
+  {
+   "id": "nennolina",
+   "saint": false,
+   "fr": {
+    "nom": "Vénérable Antonietta Meo, « Nennolina »",
+    "dates": "1930-1937",
+    "accroche": "Une petite Romaine de six ans, malade, qui écrivait des lettres à Jésus pleines de tendresse.",
+    "texte": "Antonietta Meo, que tout le monde appelle Nennolina, naît à Rome en 1930. C'est une petite fille vive et joyeuse, qui va à l'école des sœurs. À cinq ans, on découvre qu'elle a un cancer des os, et on doit lui amputer une jambe. Elle apprend à marcher avec une prothèse et continue à jouer.\n\nElle dicte à sa maman, puis écrit elle-même, plus de cent lettres à Jésus, à Marie et à Dieu le Père, où elle dit son amour et offre ses souffrances pour les autres. Elle meurt en 1937, à six ans et demi.",
+    "plusLoin": "Benoît XVI l'a déclarée vénérable en 2007. Si elle est béatifiée, elle sera la plus jeune personne non martyre élevée sur les autels.",
+    "source": "Congrégation pour les causes des saints, décret du 17 décembre 2007 ; Benoît XVI, discours du 20 décembre 2007"
+   },
+   "es": {
+    "nom": "Venerable Antonietta Meo, «Nennolina»",
+    "dates": "1930-1937",
+    "accroche": "Una niña romana de seis años, enferma, que escribía a Jesús cartas llenas de ternura.",
+    "texte": "Antonietta Meo, a quien todos llaman Nennolina, nace en Roma en 1930. Es una niña viva y alegre, que va a la escuela de las religiosas. A los cinco años descubren que tiene un cáncer de huesos, y tienen que amputarle una pierna. Aprende a caminar con una prótesis y sigue jugando.\n\nLe dicta a su mamá, y después escribe ella misma, más de cien cartas a Jesús, a María y a Dios Padre, en las que dice su amor y ofrece sus sufrimientos por los demás. Muere en 1937, a los seis años y medio.",
+    "plusLoin": "Benedicto XVI la declaró venerable en 2007. Si es beatificada, será la persona más joven no mártir en subir a los altares.",
+    "source": "Congregación para las Causas de los Santos, decreto del 17 de diciembre de 2007; Benedicto XVI, discurso del 20 de diciembre de 2007"
+   },
+   "en": {
+    "nom": "Venerable Antonietta Meo, “Nennolina”",
+    "dates": "1930-1937",
+    "accroche": "A sick six-year-old girl from Rome who wrote letters to Jesus full of tenderness.",
+    "texte": "Antonietta Meo, known to everyone as Nennolina, was born in Rome in 1930. She was a lively, cheerful little girl who went to a school run by nuns. At five she was found to have bone cancer, and one of her legs had to be amputated. She learned to walk with an artificial leg and carried on playing.\n\nShe dictated to her mother, and later wrote herself, more than a hundred letters to Jesus, to Mary and to God the Father, telling them of her love and offering her sufferings for others. She died in 1937, aged six and a half.",
+    "plusLoin": "Benedict XVI declared her venerable in 2007. If she is beatified, she will be the youngest non-martyr ever raised to the altars.",
+    "source": "Congregation for the Causes of Saints, decree of 17 December 2007; Benedict XVI, address of 20 December 2007"
+   }
+  },
+  {
+   "id": "elizabeth-seton",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Elizabeth Ann Seton",
+    "dates": "1774-1821",
+    "accroche": "Une jeune veuve new-yorkaise, mère de cinq enfants, devenue la première sainte née aux États-Unis.",
+    "texte": "Elizabeth Bayley naît en 1774 à New York, dans une famille protestante aisée. Elle épouse William Seton, un riche négociant ; ils ont cinq enfants. Mais les affaires de William s'effondrent, il tombe malade et meurt en 1803 en Italie, où la famille était partie le soigner.\n\nEn Italie, Elizabeth est accueillie par une famille catholique et découvre l'Eucharistie. De retour à New York, elle devient catholique en 1805, malgré l'hostilité de ses proches. Elle ouvre une école à Baltimore, puis fonde les Sœurs de la Charité de Saint-Joseph, tout en élevant ses enfants.",
+    "plusLoin": "Paul VI l'a canonisée en 1975 : c'est la première personne née aux États-Unis à être reconnue sainte. Elle est considérée comme une pionnière de l'école catholique américaine.",
+    "source": "Saint-Siège, biographie de sainte Elizabeth Ann Seton ; Encyclopædia Britannica, « Saint Elizabeth Ann Seton »"
+   },
+   "es": {
+    "nom": "Santa Isabel Ana Seton",
+    "dates": "1774-1821",
+    "accroche": "Una joven viuda neoyorquina, madre de cinco hijos, que llegó a ser la primera santa nacida en Estados Unidos.",
+    "texte": "Elizabeth Bayley nace en 1774 en Nueva York, en una familia protestante acomodada. Se casa con William Seton, un rico comerciante; tienen cinco hijos. Pero los negocios de William se hunden, enferma y muere en 1803 en Italia, adonde la familia había ido para que se curara.\n\nEn Italia, Elizabeth es acogida por una familia católica y descubre la Eucaristía. De vuelta en Nueva York, se hace católica en 1805, a pesar de la hostilidad de sus allegados. Abre una escuela en Baltimore y luego funda las Hermanas de la Caridad de San José, mientras cría a sus hijos.",
+    "plusLoin": "Pablo VI la canonizó en 1975: es la primera persona nacida en Estados Unidos reconocida como santa. Se la considera una pionera de la escuela católica estadounidense.",
+    "source": "Santa Sede, biografía de santa Isabel Ana Seton; Encyclopædia Britannica, «Saint Elizabeth Ann Seton»"
+   },
+   "en": {
+    "nom": "Saint Elizabeth Ann Seton",
+    "dates": "1774-1821",
+    "accroche": "A young New York widow and mother of five who became the first saint born in the United States.",
+    "texte": "Elizabeth Bayley was born in 1774 in New York, into a well-off Protestant family. She married William Seton, a wealthy merchant; they had five children. But William's business collapsed, he fell ill and died in 1803 in Italy, where the family had gone to seek a cure.\n\nIn Italy Elizabeth was taken in by a Catholic family and discovered the Eucharist. Back in New York, she became a Catholic in 1805, despite the hostility of those close to her. She opened a school in Baltimore and then founded the Sisters of Charity of Saint Joseph, while bringing up her children.",
+    "plusLoin": "Paul VI canonised her in 1975: she was the first person born in the United States to be recognised as a saint. She is seen as a pioneer of American Catholic schools.",
+    "source": "Holy See, biography of Saint Elizabeth Ann Seton; Encyclopædia Britannica, “Saint Elizabeth Ann Seton”"
+   }
+  },
+  {
+   "id": "pino-puglisi",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Pino Puglisi",
+    "dates": "1937-1993",
+    "accroche": "Un curé de Palerme qui ouvrait les portes aux enfants des rues pour les arracher à la mafia, et qui souriait toujours.",
+    "texte": "Giuseppe Puglisi, que tout le monde appelle « don Pino », naît en 1937 à Palerme, dans le quartier populaire de Brancaccio, fils d'un cordonnier et d'une couturière. Prêtre, il est professeur de religion et accompagne les jeunes.\n\nEn 1990, il devient curé de son quartier natal, contrôlé par la mafia. Il ouvre un centre pour les enfants, organise des activités, refuse l'argent sale et encourage les habitants à réclamer une école et des services. Le 15 septembre 1993, jour de ses cinquante-six ans, il est tué devant chez lui. Selon le témoignage de son assassin, il a souri en disant qu'il s'y attendait.",
+    "plusLoin": "Il a été béatifié en 2013 comme martyr. C'est la première victime de la mafia reconnue martyre par l'Église.",
+    "source": "Congrégation pour les causes des saints, béatification du 25 mai 2013 ; archidiocèse de Palerme"
+   },
+   "es": {
+    "nom": "Beato Pino Puglisi",
+    "dates": "1937-1993",
+    "accroche": "Un párroco de Palermo que abría las puertas a los niños de la calle para arrancarlos de la mafia, y que siempre sonreía.",
+    "texte": "Giuseppe Puglisi, a quien todos llaman «don Pino», nace en 1937 en Palermo, en el barrio popular de Brancaccio, hijo de un zapatero y una costurera. Sacerdote, es profesor de religión y acompaña a los jóvenes.\n\nEn 1990 llega a ser párroco de su barrio natal, controlado por la mafia. Abre un centro para los niños, organiza actividades, rechaza el dinero sucio y anima a los vecinos a reclamar una escuela y servicios. El 15 de septiembre de 1993, el día en que cumplía cincuenta y seis años, lo matan delante de su casa. Según el testimonio de su asesino, sonrió diciendo que lo esperaba.",
+    "plusLoin": "Fue beatificado en 2013 como mártir. Es la primera víctima de la mafia reconocida como mártir por la Iglesia.",
+    "source": "Congregación para las Causas de los Santos, beatificación del 25 de mayo de 2013; arquidiócesis de Palermo"
+   },
+   "en": {
+    "nom": "Blessed Pino Puglisi",
+    "dates": "1937-1993",
+    "accroche": "A Palermo parish priest who opened his doors to street children to rescue them from the Mafia, and who was always smiling.",
+    "texte": "Giuseppe Puglisi, known to everyone as “Don Pino”, was born in 1937 in Palermo, in the working-class district of Brancaccio, the son of a shoemaker and a seamstress. As a priest he taught religion and worked with young people.\n\nIn 1990 he became parish priest of the district where he was born, which was controlled by the Mafia. He opened a centre for children, organised activities, refused dirty money and encouraged residents to demand a school and services. On 15 September 1993, his fifty-sixth birthday, he was killed outside his home. According to his killer's testimony, he smiled and said he had been expecting it.",
+    "plusLoin": "He was beatified in 2013 as a martyr. He is the first victim of the Mafia recognised by the Church as a martyr.",
+    "source": "Congregation for the Causes of Saints, beatification of 25 May 2013; Archdiocese of Palermo"
+   }
+  },
+  {
+   "id": "antoni-maria-claret",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Antoine-Marie Claret",
+    "dates": "1807-1870",
+    "accroche": "Un tisserand catalan devenu missionnaire, archevêque à Cuba et fondateur des clarétains.",
+    "texte": "Antoni Maria Claret naît en 1807 à Sallent, en Catalogne, fils d'un fabricant de tissus. Il apprend le métier de tisserand à Barcelone, puis devient prêtre. Il parcourt à pied la Catalogne et les Canaries pour prêcher, et publie de nombreux petits livres simples pour aider les gens à prier.\n\nEn 1849, il fonde les Missionnaires fils du Cœur immaculé de Marie, les clarétains. Nommé archevêque de Santiago de Cuba, il visite tout son diocèse, crée des écoles et une caisse d'épargne pour les pauvres, et s'oppose à l'esclavage. Il meurt en exil en France, en 1870.",
+    "plusLoin": "Il a été canonisé en 1950. Les clarétains sont aujourd'hui présents dans plus de soixante pays.",
+    "source": "Missionnaires clarétains, « San Antonio María Claret » ; Encyclopædia Britannica, « Saint Anthony Claret »"
+   },
+   "es": {
+    "nom": "San Antonio María Claret",
+    "dates": "1807-1870",
+    "accroche": "Un tejedor catalán que se hizo misionero, arzobispo en Cuba y fundador de los claretianos.",
+    "texte": "Antoni Maria Claret nace en 1807 en Sallent, Cataluña, hijo de un fabricante de tejidos. Aprende el oficio de tejedor en Barcelona y luego se ordena sacerdote. Recorre a pie Cataluña y Canarias predicando, y publica muchos libritos sencillos para ayudar a la gente a rezar.\n\nEn 1849 funda los Misioneros Hijos del Inmaculado Corazón de María, los claretianos. Nombrado arzobispo de Santiago de Cuba, visita toda su diócesis, crea escuelas y una caja de ahorros para los pobres, y se opone a la esclavitud. Muere en el exilio en Francia, en 1870.",
+    "plusLoin": "Fue canonizado en 1950. Los claretianos están hoy presentes en más de sesenta países.",
+    "source": "Misioneros Claretianos, «San Antonio María Claret»; Encyclopædia Britannica, «Saint Anthony Claret»"
+   },
+   "en": {
+    "nom": "Saint Anthony Mary Claret",
+    "dates": "1807-1870",
+    "accroche": "A Catalan weaver who became a missionary, an archbishop in Cuba and the founder of the Claretians.",
+    "texte": "Antoni Maria Claret was born in 1807 in Sallent, in Catalonia, the son of a textile maker. He learned the weaver's trade in Barcelona and then became a priest. He travelled on foot throughout Catalonia and the Canary Islands to preach, and published many simple little books to help people pray.\n\nIn 1849 he founded the Missionary Sons of the Immaculate Heart of Mary, the Claretians. Appointed archbishop of Santiago de Cuba, he visited his whole diocese, set up schools and a savings bank for the poor, and opposed slavery. He died in exile in France in 1870.",
+    "plusLoin": "He was canonised in 1950. The Claretians are now present in more than sixty countries.",
+    "source": "Claretian Missionaries, “San Antonio María Claret”; Encyclopædia Britannica, “Saint Anthony Claret”"
+   }
+  },
+  {
+   "id": "von-galen",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Clemens August von Galen",
+    "dates": "1878-1946",
+    "accroche": "L'évêque de Münster, surnommé « le lion de Münster », qui a osé dénoncer publiquement les crimes des nazis.",
+    "texte": "Clemens August von Galen naît en 1878 dans une famille noble de Westphalie, en Allemagne. Prêtre, puis évêque de Münster à partir de 1933, il est un homme grand, simple et courageux.\n\nEn 1941, il prononce trois sermons célèbres dans lesquels il dénonce, devant tous, l'élimination des malades et des personnes handicapées par le régime nazi, ainsi que les persécutions contre l'Église. Ses paroles sont recopiées et circulent dans tout le pays. Le régime n'ose pas l'arrêter, de peur de soulever la population. Il est fait cardinal en 1946 et meurt quelques semaines plus tard.",
+    "plusLoin": "Benoît XVI l'a béatifié en 2005. Il est un exemple de courage pour défendre la vie des plus fragiles.",
+    "source": "Saint-Siège, biographie du bienheureux Clemens August von Galen ; béatification du 9 octobre 2005"
+   },
+   "es": {
+    "nom": "Beato Clemens August von Galen",
+    "dates": "1878-1946",
+    "accroche": "El obispo de Münster, apodado «el león de Münster», que se atrevió a denunciar públicamente los crímenes de los nazis.",
+    "texte": "Clemens August von Galen nace en 1878 en una familia noble de Westfalia, Alemania. Sacerdote y luego obispo de Münster desde 1933, es un hombre alto, sencillo y valiente.\n\nEn 1941 pronuncia tres sermones célebres en los que denuncia ante todos la eliminación de enfermos y personas con discapacidad por el régimen nazi, así como las persecuciones contra la Iglesia. Sus palabras se copian y circulan por todo el país. El régimen no se atreve a detenerlo, por miedo a soliviantar a la población. Es nombrado cardenal en 1946 y muere pocas semanas después.",
+    "plusLoin": "Benedicto XVI lo beatificó en 2005. Es un ejemplo de valentía para defender la vida de los más frágiles.",
+    "source": "Santa Sede, biografía del beato Clemens August von Galen; beatificación del 9 de octubre de 2005"
+   },
+   "en": {
+    "nom": "Blessed Clemens August von Galen",
+    "dates": "1878-1946",
+    "accroche": "The bishop of Münster, nicknamed “the Lion of Münster”, who dared to denounce Nazi crimes in public.",
+    "texte": "Clemens August von Galen was born in 1878 into a noble family in Westphalia, Germany. A priest, and then bishop of Münster from 1933, he was a tall, simple and courageous man.\n\nIn 1941 he preached three famous sermons in which he publicly denounced the killing of sick and disabled people by the Nazi regime, as well as the persecution of the Church. His words were copied and passed around the whole country. The regime did not dare arrest him, for fear of stirring up the population. He was made a cardinal in 1946 and died a few weeks later.",
+    "plusLoin": "Benedict XVI beatified him in 2005. He is an example of courage in defending the lives of the most vulnerable.",
+    "source": "Holy See, biography of Blessed Clemens August von Galen; beatification of 9 October 2005"
+   }
+  },
+  {
+   "id": "josep-manyanet",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Josep Manyanet",
+    "dates": "1833-1901",
+    "accroche": "Un prêtre catalan qui a consacré sa vie aux familles, en prenant pour modèle la Sainte Famille de Nazareth.",
+    "texte": "Josep Manyanet i Vives naît en 1833 à Tremp, en Catalogne, le dernier de neuf enfants. Son père meurt quand il a vingt mois, et sa mère le confie à la Vierge. Pour payer ses études, il travaille comme domestique.\n\nDevenu prêtre, il est convaincu que la famille est la première école de la foi. En 1864, il fonde les Fils de la Sainte Famille, puis les Missionnaires Filles de la Sainte Famille, qui ouvrent des écoles pour aider les parents à éduquer leurs enfants. Il voulait que chaque foyer devienne une « Nazareth ». Il meurt à Barcelone en 1901.",
+    "plusLoin": "Jean-Paul II l'a canonisé en 2004 et l'a appelé « le prophète de la famille ». Ses religieux et religieuses sont présents en Europe et en Amérique.",
+    "source": "Saint-Siège, biographie de saint Josep Manyanet ; Jean-Paul II, homélie de canonisation (16 mai 2004)"
+   },
+   "es": {
+    "nom": "San José Manyanet",
+    "dates": "1833-1901",
+    "accroche": "Un sacerdote catalán que dedicó su vida a las familias, tomando como modelo a la Sagrada Familia de Nazaret.",
+    "texte": "Josep Manyanet i Vives nace en 1833 en Tremp, Cataluña, el último de nueve hermanos. Su padre muere cuando él tiene veinte meses, y su madre lo consagra a la Virgen. Para pagar sus estudios trabaja como sirviente.\n\nYa sacerdote, está convencido de que la familia es la primera escuela de la fe. En 1864 funda los Hijos de la Sagrada Familia y después las Misioneras Hijas de la Sagrada Familia, que abren escuelas para ayudar a los padres a educar a sus hijos. Quería que cada hogar fuera un «Nazaret». Muere en Barcelona en 1901.",
+    "plusLoin": "Juan Pablo II lo canonizó en 2004 y lo llamó «profeta de la familia». Sus religiosos y religiosas están presentes en Europa y América.",
+    "source": "Santa Sede, biografía de san José Manyanet; Juan Pablo II, homilía de canonización (16 de mayo de 2004)"
+   },
+   "en": {
+    "nom": "Saint Josep Manyanet",
+    "dates": "1833-1901",
+    "accroche": "A Catalan priest who devoted his life to families, taking the Holy Family of Nazareth as his model.",
+    "texte": "Josep Manyanet i Vives was born in 1833 in Tremp, in Catalonia, the youngest of nine children. His father died when he was twenty months old, and his mother entrusted him to the Virgin. To pay for his studies he worked as a servant.\n\nAs a priest he was convinced that the family is the first school of faith. In 1864 he founded the Sons of the Holy Family, and later the Missionary Daughters of the Holy Family, who opened schools to help parents bring up their children. He wanted every home to become a “Nazareth”. He died in Barcelona in 1901.",
+    "plusLoin": "John Paul II canonised him in 2004 and called him “the prophet of the family”. His brothers and sisters are present in Europe and the Americas.",
+    "source": "Holy See, biography of Saint Josep Manyanet; John Paul II, homily of canonisation (16 May 2004)"
+   }
+  },
+  {
+   "id": "jean-paul-ier",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Jean-Paul Ier",
+    "dates": "1912-1978",
+    "accroche": "Le « pape du sourire », fils d'un ouvrier, qui n'a été pape que trente-trois jours.",
+    "texte": "Albino Luciani naît en 1912 dans un village de montagne près de Belluno, en Italie, dans une famille pauvre ; son père est ouvrier saisonnier. Prêtre, puis évêque de Vittorio Veneto et patriarche de Venise, il est connu pour sa simplicité, sa douceur et son talent pour expliquer la foi avec des exemples de la vie quotidienne.\n\nÉlu pape le 26 août 1978, il choisit le double nom de Jean-Paul, en hommage à ses deux prédécesseurs. Il parle souvent sans texte, raconte des histoires, cite des écrivains. Il meurt subitement dans la nuit du 28 au 29 septembre 1978, après trente-trois jours de pontificat.",
+    "plusLoin": "Le pape François l'a béatifié en 2022. On le surnomme encore aujourd'hui « le pape du sourire ».",
+    "source": "Saint-Siège, biographie du bienheureux Jean-Paul Ier ; Pape François, homélie de béatification (4 septembre 2022)"
+   },
+   "es": {
+    "nom": "Beato Juan Pablo I",
+    "dates": "1912-1978",
+    "accroche": "El «papa de la sonrisa», hijo de un obrero, que fue papa solo treinta y tres días.",
+    "texte": "Albino Luciani nace en 1912 en un pueblo de montaña cerca de Belluno, Italia, en una familia pobre; su padre es obrero temporero. Sacerdote, luego obispo de Vittorio Veneto y patriarca de Venecia, es conocido por su sencillez, su dulzura y su talento para explicar la fe con ejemplos de la vida diaria.\n\nElegido papa el 26 de agosto de 1978, escoge el doble nombre de Juan Pablo, en homenaje a sus dos predecesores. Habla a menudo sin papeles, cuenta historias y cita a escritores. Muere repentinamente en la noche del 28 al 29 de septiembre de 1978, tras treinta y tres días de pontificado.",
+    "plusLoin": "El papa Francisco lo beatificó en 2022. Todavía hoy se le llama «el papa de la sonrisa».",
+    "source": "Santa Sede, biografía del beato Juan Pablo I; Papa Francisco, homilía de beatificación (4 de septiembre de 2022)"
+   },
+   "en": {
+    "nom": "Blessed John Paul I",
+    "dates": "1912-1978",
+    "accroche": "The “smiling pope”, a labourer's son, who was pope for only thirty-three days.",
+    "texte": "Albino Luciani was born in 1912 in a mountain village near Belluno, Italy, into a poor family; his father was a seasonal labourer. As a priest, then bishop of Vittorio Veneto and Patriarch of Venice, he was known for his simplicity, his gentleness and his gift for explaining the faith with examples from daily life.\n\nElected pope on 26 August 1978, he chose the double name John Paul, in honour of his two predecessors. He often spoke without notes, told stories and quoted writers. He died suddenly during the night of 28 to 29 September 1978, after thirty-three days as pope.",
+    "plusLoin": "Pope Francis beatified him in 2022. He is still called “the smiling pope”.",
+    "source": "Holy See, biography of Blessed John Paul I; Pope Francis, homily of beatification (4 September 2022)"
+   }
   }
  ],
  "savaisTu": [
@@ -16785,6 +17345,720 @@
     "accroche": "In Spain, Holy Week is marked by huge processions through the streets.",
     "texte": "In many Spanish cities, such as Seville, Valladolid or Málaga, brotherhoods carry through the streets great sculptures depicting the Passion of Christ and the sorrowing Virgin. They are called pasos.\n\nSome weigh several tonnes and are carried on the shoulders of dozens of bearers, the costaleros, who move to the rhythm of the drums. These traditions, which grew up mainly in the sixteenth and seventeenth centuries, draw enormous crowds every year, believers or not.",
     "source": "Encyclopædia Britannica, “Holy Week”; Directory on Popular Piety and the Liturgy (2001)"
+   }
+  },
+  {
+   "id": "pierre-pilate",
+   "fr": {
+    "titre": "Le nom de Pilate gravé dans la pierre",
+    "accroche": "En 1961, des archéologues ont trouvé une pierre qui porte le nom de Ponce Pilate, l'homme qui a condamné Jésus.",
+    "texte": "Pendant longtemps, on ne connaissait Ponce Pilate que par des textes : les Évangiles et quelques auteurs anciens. En juin 1961, une équipe italienne dirigée par Antonio Frova fouille le théâtre de Césarée, sur la côte, là où résidait le gouverneur romain.\n\nElle y découvre un bloc de calcaire réutilisé dans une construction plus tardive. On y lit encore, en latin : « …tius Pilatus, préfet de Judée ». C'est le premier témoignage archéologique direct de Pilate, gravé de son vivant. La pierre est aujourd'hui au musée d'Israël, à Jérusalem.",
+    "source": "Musée d'Israël (Jérusalem), inscription de Ponce Pilate ; A. Frova, « L'iscrizione di Ponzio Pilato a Cesarea » (1961)"
+   },
+   "es": {
+    "titre": "El nombre de Pilato grabado en piedra",
+    "accroche": "En 1961, unos arqueólogos encontraron una piedra con el nombre de Poncio Pilato, el hombre que condenó a Jesús.",
+    "texte": "Durante mucho tiempo, a Poncio Pilato solo se le conocía por textos: los Evangelios y algunos autores antiguos. En junio de 1961, un equipo italiano dirigido por Antonio Frova excava el teatro de Cesarea, en la costa, donde residía el gobernador romano.\n\nAllí descubre un bloque de piedra caliza reutilizado en una construcción posterior. Todavía se lee, en latín: «…tius Pilatus, prefecto de Judea». Es el primer testimonio arqueológico directo de Pilato, grabado cuando él vivía. La piedra está hoy en el Museo de Israel, en Jerusalén.",
+    "source": "Museo de Israel (Jerusalén), inscripción de Poncio Pilato; A. Frova, «L'iscrizione di Ponzio Pilato a Cesarea» (1961)"
+   },
+   "en": {
+    "titre": "Pilate's name carved in stone",
+    "accroche": "In 1961 archaeologists found a stone bearing the name of Pontius Pilate, the man who condemned Jesus.",
+    "texte": "For a long time Pontius Pilate was known only from texts: the Gospels and a few ancient writers. In June 1961 an Italian team led by Antonio Frova was excavating the theatre at Caesarea, on the coast, where the Roman governor lived.\n\nThere they found a limestone block that had been reused in a later building. It still reads, in Latin: “…tius Pilatus, prefect of Judea”. It is the first direct archaeological evidence of Pilate, carved in his own lifetime. The stone is now in the Israel Museum in Jerusalem.",
+    "source": "Israel Museum (Jerusalem), Pontius Pilate inscription; A. Frova, “L'iscrizione di Ponzio Pilato a Cesarea” (1961)"
+   }
+  },
+  {
+   "id": "crateres-jesuites",
+   "fr": {
+    "titre": "Des jésuites sur la Lune",
+    "accroche": "Plus de trente cratères de la Lune portent le nom de savants jésuites.",
+    "texte": "En 1651, deux jésuites italiens, Giovanni Battista Riccioli et Francesco Maria Grimaldi, publient une carte de la Lune très précise. Riccioli y donne des noms aux reliefs : les cratères portent ceux de savants, les grandes plaines sombres deviennent des « mers ».\n\nSon système est toujours utilisé. C'est lui qui a nommé la mer de la Tranquillité, où les premiers hommes ont marché en 1969. Et plus de trente cratères portent le nom de jésuites astronomes ou mathématiciens, comme Clavius, l'un des plus grands cratères visibles depuis la Terre.",
+    "source": "Observatoire du Vatican, « Jesuits and the Moon » ; G. B. Riccioli, Almagestum novum (1651)"
+   },
+   "es": {
+    "titre": "Jesuitas en la Luna",
+    "accroche": "Más de treinta cráteres de la Luna llevan el nombre de científicos jesuitas.",
+    "texte": "En 1651, dos jesuitas italianos, Giovanni Battista Riccioli y Francesco Maria Grimaldi, publican un mapa de la Luna muy preciso. Riccioli pone nombre a los relieves: los cráteres llevan los de científicos, y las grandes llanuras oscuras pasan a ser «mares».\n\nSu sistema se sigue usando. Fue él quien bautizó el mar de la Tranquilidad, donde caminaron los primeros hombres en 1969. Y más de treinta cráteres llevan el nombre de jesuitas astrónomos o matemáticos, como Clavius, uno de los cráteres más grandes que se ven desde la Tierra.",
+    "source": "Observatorio Vaticano, «Jesuits and the Moon»; G. B. Riccioli, Almagestum novum (1651)"
+   },
+   "en": {
+    "titre": "Jesuits on the Moon",
+    "accroche": "More than thirty craters on the Moon are named after Jesuit scientists.",
+    "texte": "In 1651 two Italian Jesuits, Giovanni Battista Riccioli and Francesco Maria Grimaldi, published a very accurate map of the Moon. Riccioli gave names to its features: craters were named after scholars, and the great dark plains became “seas”.\n\nHis system is still in use. It was he who named the Sea of Tranquillity, where the first men walked in 1969. And more than thirty craters bear the names of Jesuit astronomers or mathematicians, such as Clavius, one of the largest craters visible from Earth.",
+    "source": "Vatican Observatory, “Jesuits and the Moon”; G. B. Riccioli, Almagestum novum (1651)"
+   }
+  },
+  {
+   "id": "tombeau-jesus-2016",
+   "fr": {
+    "titre": "Le jour où l'on a ouvert le tombeau de Jésus",
+    "accroche": "En 2016, des scientifiques ont soulevé la dalle de marbre qui recouvre, à Jérusalem, le lieu vénéré comme le tombeau du Christ.",
+    "texte": "Dans la basilique du Saint-Sépulcre, une plaque de marbre protégeait depuis des siècles la banquette de pierre où, selon la tradition, le corps de Jésus a été déposé. Le 26 octobre 2016, pour restaurer le monument, une équipe de l'université technique d'Athènes la soulève pendant soixante heures.\n\nDessous, la roche d'origine est intacte. Le mortier le plus ancien est daté d'environ l'an 345 : l'époque de l'empereur Constantin, qui fit construire la première église à cet endroit. L'archéologie ne peut pas dire qui a reposé là, mais elle confirme que ce lieu est vénéré sans interruption depuis dix-sept siècles.",
+    "source": "National Geographic, 28 novembre 2017 ; A. Moropoulou et al., Journal of Archaeological Science: Reports (2018)"
+   },
+   "es": {
+    "titre": "El día en que se abrió la tumba de Jesús",
+    "accroche": "En 2016, unos científicos levantaron la losa de mármol que cubre, en Jerusalén, el lugar venerado como la tumba de Cristo.",
+    "texte": "En la basílica del Santo Sepulcro, una placa de mármol protegía desde hacía siglos el banco de piedra donde, según la tradición, fue depositado el cuerpo de Jesús. El 26 de octubre de 2016, para restaurar el monumento, un equipo de la Universidad Técnica de Atenas la levanta durante sesenta horas.\n\nDebajo, la roca original está intacta. El mortero más antiguo se fecha hacia el año 345: la época del emperador Constantino, que mandó construir la primera iglesia en ese lugar. La arqueología no puede decir quién descansó allí, pero confirma que ese lugar se venera sin interrupción desde hace diecisiete siglos.",
+    "source": "National Geographic, 28 de noviembre de 2017; A. Moropoulou et al., Journal of Archaeological Science: Reports (2018)"
+   },
+   "en": {
+    "titre": "The day the tomb of Jesus was opened",
+    "accroche": "In 2016 scientists lifted the marble slab that covers, in Jerusalem, the place venerated as the tomb of Christ.",
+    "texte": "In the Church of the Holy Sepulchre, a marble slab had for centuries protected the stone shelf where, according to tradition, the body of Jesus was laid. On 26 October 2016, in order to restore the shrine, a team from the National Technical University of Athens lifted it for sixty hours.\n\nBeneath it, the original rock was intact. The oldest mortar was dated to about the year 345: the time of the emperor Constantine, who had the first church built on the spot. Archaeology cannot say who lay there, but it confirms that this place has been venerated without interruption for seventeen centuries.",
+    "source": "National Geographic, 28 November 2017; A. Moropoulou et al., Journal of Archaeological Science: Reports (2018)"
+   }
+  },
+  {
+   "id": "miracles-enquete",
+   "fr": {
+    "titre": "Comment l'Église enquête sur un miracle",
+    "accroche": "Avant de reconnaître un miracle, l'Église demande d'abord l'avis de médecins, et exige d'eux une large majorité.",
+    "texte": "Pour qu'une personne soit déclarée bienheureuse ou sainte, l'Église attend en général un miracle obtenu par sa prière, le plus souvent une guérison. L'enquête commence dans le diocèse où elle a eu lieu, avec dossiers médicaux et témoins.\n\nÀ Rome, sept médecins spécialistes étudient ensuite le cas. Ils ne parlent pas de miracle : ils disent seulement si la guérison a une explication scientifique. Depuis 2016, au moins cinq sur sept doivent la juger inexplicable. Viennent alors des théologiens, puis des cardinaux et des évêques, et enfin le pape, qui décide.",
+    "source": "Congrégation pour les causes des saints, règlement de la Consulta médicale (23 septembre 2016) ; Jean-Paul II, constitution apostolique Divinus perfectionis Magister (1983)"
+   },
+   "es": {
+    "titre": "Cómo investiga la Iglesia un milagro",
+    "accroche": "Antes de reconocer un milagro, la Iglesia pide primero la opinión de médicos, y hace falta una amplia mayoría.",
+    "texte": "Para que una persona sea declarada beata o santa, la Iglesia espera en general un milagro obtenido por su intercesión, casi siempre una curación. La investigación empieza en la diócesis donde ocurrió, con historiales médicos y testigos.\n\nEn Roma, siete médicos especialistas estudian después el caso. No hablan de milagro: solo dicen si la curación tiene una explicación científica. Desde 2016, al menos cinco de los siete deben considerarla inexplicable. Luego intervienen teólogos, después cardenales y obispos, y por último el papa, que decide.",
+    "source": "Congregación para las Causas de los Santos, reglamento de la Consulta médica (23 de septiembre de 2016); Juan Pablo II, constitución apostólica Divinus perfectionis Magister (1983)"
+   },
+   "en": {
+    "titre": "How the Church investigates a miracle",
+    "accroche": "Before recognising a miracle, the Church first asks doctors for their opinion, and a large majority is required.",
+    "texte": "For someone to be declared blessed or a saint, the Church generally looks for a miracle obtained through that person's prayer, most often a healing. The inquiry begins in the diocese where it happened, with medical records and witnesses.\n\nIn Rome, seven specialist doctors then study the case. They do not speak of a miracle: they say only whether the healing has a scientific explanation. Since 2016, at least five of the seven must judge it inexplicable. Then come theologians, then cardinals and bishops, and finally the pope, who decides.",
+    "source": "Congregation for the Causes of Saints, regulations of the Medical Board (23 September 2016); John Paul II, apostolic constitution Divinus perfectionis Magister (1983)"
+   }
+  },
+  {
+   "id": "manuscrits-mer-morte",
+   "fr": {
+    "titre": "Le trésor des grottes de Qumrân",
+    "accroche": "En 1947, de jeunes bergers ont trouvé dans une grotte des manuscrits de la Bible vieux de plus de deux mille ans.",
+    "texte": "Près de la mer Morte, des bergers bédouins découvrent en 1947 des jarres contenant de vieux rouleaux. Dans les années suivantes, on retrouve dans onze grottes les restes de plusieurs centaines de manuscrits, copiés avant ou pendant la vie de Jésus.\n\nParmi eux, un rouleau du livre d'Isaïe long de plus de sept mètres, copié vers 125 avant Jésus-Christ. Il est plus ancien d'environ mille ans que les manuscrits hébreux complets connus jusque-là. Et pourtant, son texte est très proche du leur : pendant dix siècles, les copistes avaient transmis le livre avec un soin étonnant.",
+    "source": "Musée d'Israël, « Le grand rouleau d'Isaïe » ; Encyclopædia Britannica, « Dead Sea Scrolls »"
+   },
+   "es": {
+    "titre": "El tesoro de las cuevas de Qumrán",
+    "accroche": "En 1947, unos jóvenes pastores encontraron en una cueva manuscritos de la Biblia de más de dos mil años.",
+    "texte": "Cerca del mar Muerto, unos pastores beduinos descubren en 1947 unas tinajas con viejos rollos. En los años siguientes se encuentran, en once cuevas, los restos de varios cientos de manuscritos, copiados antes o durante la vida de Jesús.\n\nEntre ellos, un rollo del libro de Isaías de más de siete metros de largo, copiado hacia el año 125 antes de Cristo. Es unos mil años más antiguo que los manuscritos hebreos completos conocidos hasta entonces. Y sin embargo, su texto es muy parecido al de ellos: durante diez siglos, los copistas habían transmitido el libro con un cuidado asombroso.",
+    "source": "Museo de Israel, «El gran rollo de Isaías»; Encyclopædia Britannica, «Dead Sea Scrolls»"
+   },
+   "en": {
+    "titre": "The treasure of the Qumran caves",
+    "accroche": "In 1947 young shepherds found in a cave manuscripts of the Bible more than two thousand years old.",
+    "texte": "Near the Dead Sea, Bedouin shepherds discovered in 1947 some jars containing old scrolls. In the years that followed, the remains of several hundred manuscripts, copied before or during the lifetime of Jesus, were found in eleven caves.\n\nAmong them was a scroll of the book of Isaiah more than seven metres long, copied around 125 BC. It is about a thousand years older than the complete Hebrew manuscripts known until then. And yet its text is very close to theirs: for ten centuries, scribes had handed the book on with astonishing care.",
+    "source": "Israel Museum, “The Great Isaiah Scroll”; Encyclopædia Britannica, “Dead Sea Scrolls”"
+   }
+  },
+  {
+   "id": "extraterrestres",
+   "fr": {
+    "titre": "Et s'il y avait des extraterrestres ?",
+    "accroche": "Pour les astronomes du Vatican, croire en Dieu n'empêche pas d'imaginer de la vie ailleurs dans l'univers.",
+    "texte": "L'Église n'a pas de position officielle sur la vie extraterrestre : personne ne sait encore si elle existe. Mais la question ne lui fait pas peur. En 2008, le directeur de l'Observatoire du Vatican, le jésuite José Gabriel Funes, déclare au journal du Saint-Siège qu'une telle hypothèse ne contredit pas la foi : si d'autres êtres existent, ils sont eux aussi des créatures de Dieu. L'entretien a pour titre : « L'extraterrestre est mon frère ».\n\nL'année suivante, l'Académie pontificale des sciences réunit au Vatican des chercheurs du monde entier pour une semaine d'étude sur l'astrobiologie, la science qui cherche la vie dans l'univers.",
+    "source": "L'Osservatore Romano, 14 mai 2008, entretien avec le P. José Gabriel Funes ; Académie pontificale des sciences, semaine d'étude sur l'astrobiologie (6-10 novembre 2009)"
+   },
+   "es": {
+    "titre": "¿Y si hubiera extraterrestres?",
+    "accroche": "Para los astrónomos del Vaticano, creer en Dios no impide imaginar vida en otros lugares del universo.",
+    "texte": "La Iglesia no tiene una postura oficial sobre la vida extraterrestre: nadie sabe todavía si existe. Pero la pregunta no le da miedo. En 2008, el director del Observatorio Vaticano, el jesuita José Gabriel Funes, declara al diario de la Santa Sede que esa hipótesis no contradice la fe: si existen otros seres, también ellos son criaturas de Dios. La entrevista se titula: «El extraterrestre es mi hermano».\n\nAl año siguiente, la Pontificia Academia de las Ciencias reúne en el Vaticano a investigadores de todo el mundo para una semana de estudio sobre astrobiología, la ciencia que busca vida en el universo.",
+    "source": "L'Osservatore Romano, 14 de mayo de 2008, entrevista con el P. José Gabriel Funes; Pontificia Academia de las Ciencias, semana de estudio sobre astrobiología (6-10 de noviembre de 2009)"
+   },
+   "en": {
+    "titre": "What if there were aliens?",
+    "accroche": "For the Vatican's astronomers, believing in God does not rule out imagining life elsewhere in the universe.",
+    "texte": "The Church has no official position on extraterrestrial life: nobody yet knows whether it exists. But the question does not frighten her. In 2008 the director of the Vatican Observatory, the Jesuit José Gabriel Funes, told the Holy See's newspaper that such a possibility does not contradict the faith: if other beings exist, they too are God's creatures. The interview was headlined: “The extraterrestrial is my brother”.\n\nThe following year, the Pontifical Academy of Sciences brought researchers from around the world to the Vatican for a study week on astrobiology, the science that looks for life in the universe.",
+    "source": "L'Osservatore Romano, 14 May 2008, interview with Fr José Gabriel Funes; Pontifical Academy of Sciences, study week on astrobiology (6-10 November 2009)"
+   }
+  },
+  {
+   "id": "historiens-jesus",
+   "fr": {
+    "titre": "Jésus chez les historiens romains",
+    "accroche": "Des auteurs non chrétiens de l'Antiquité parlent de Jésus, moins d'un siècle après sa mort.",
+    "texte": "On ne connaît pas Jésus seulement par les Évangiles. Vers l'an 93, l'historien juif Flavius Josèphe le mentionne dans son histoire du peuple juif. Vers 112, le gouverneur romain Pline le Jeune écrit à l'empereur que les chrétiens se réunissent avant l'aube pour chanter un hymne au Christ « comme à un dieu ».\n\nPeu après, le grand historien Tacite raconte que le Christ a été condamné à mort sous l'empereur Tibère par le gouverneur Ponce Pilate. Aucun de ces auteurs n'était chrétien. Aujourd'hui, les historiens, croyants ou non, s'accordent presque tous à dire que Jésus de Nazareth a existé.",
+    "source": "Tacite, Annales, XV, 44 ; Flavius Josèphe, Antiquités juives, XVIII et XX ; Pline le Jeune, Lettres, X, 96"
+   },
+   "es": {
+    "titre": "Jesús en los historiadores romanos",
+    "accroche": "Autores no cristianos de la Antigüedad hablan de Jesús menos de un siglo después de su muerte.",
+    "texte": "A Jesús no se le conoce solo por los Evangelios. Hacia el año 93, el historiador judío Flavio Josefo lo menciona en su historia del pueblo judío. Hacia el 112, el gobernador romano Plinio el Joven escribe al emperador que los cristianos se reúnen antes del amanecer para cantar un himno a Cristo «como a un dios».\n\nPoco después, el gran historiador Tácito cuenta que Cristo fue condenado a muerte bajo el emperador Tiberio por el gobernador Poncio Pilato. Ninguno de estos autores era cristiano. Hoy, los historiadores, creyentes o no, coinciden casi todos en que Jesús de Nazaret existió.",
+    "source": "Tácito, Anales, XV, 44; Flavio Josefo, Antigüedades judías, XVIII y XX; Plinio el Joven, Cartas, X, 96"
+   },
+   "en": {
+    "titre": "Jesus in the Roman historians",
+    "accroche": "Non-Christian writers of the ancient world speak of Jesus less than a century after his death.",
+    "texte": "Jesus is not known only from the Gospels. Around the year 93, the Jewish historian Flavius Josephus mentions him in his history of the Jewish people. Around 112, the Roman governor Pliny the Younger wrote to the emperor that Christians gathered before dawn to sing a hymn to Christ “as to a god”.\n\nShortly afterwards, the great historian Tacitus recorded that Christ was put to death under the emperor Tiberius by the governor Pontius Pilate. None of these writers was a Christian. Today historians, believers or not, almost all agree that Jesus of Nazareth existed.",
+    "source": "Tacitus, Annals, XV, 44; Flavius Josephus, Jewish Antiquities, XVIII and XX; Pliny the Younger, Letters, X, 96"
+   }
+  },
+  {
+   "id": "guido-arezzo",
+   "fr": {
+    "titre": "Do, ré, mi : l'idée d'un moine",
+    "accroche": "Les noms des notes de musique viennent d'un hymne à saint Jean-Baptiste, grâce à un moine italien du XIe siècle.",
+    "texte": "Vers l'an 1025, le moine bénédictin Guido d'Arezzo cherche comment apprendre plus vite les chants aux jeunes choristes. Jusque-là, il fallait tout retenir par cœur, pendant des années. Il a deux idées : placer les notes sur des lignes, ancêtres de notre portée, et leur donner un nom.\n\nPour cela, il prend un hymne à saint Jean-Baptiste dont chaque vers commence une note plus haut : Ut queant laxis, Resonare fibris, Mira gestorum… Ce qui donne ut, ré, mi, fa, sol, la. Plus tard, « ut » est devenu « do », et le « si » a été formé avec les initiales de Sancte Ioannes, « saint Jean ».",
+    "source": "Encyclopædia Britannica, « Guido d'Arezzo » ; Guido d'Arezzo, Epistola de ignoto cantu (vers 1030)"
+   },
+   "es": {
+    "titre": "Do, re, mi: la idea de un monje",
+    "accroche": "Los nombres de las notas musicales vienen de un himno a san Juan Bautista, gracias a un monje italiano del siglo XI.",
+    "texte": "Hacia el año 1025, el monje benedictino Guido de Arezzo busca cómo enseñar más rápido los cantos a los jóvenes del coro. Hasta entonces había que aprenderlo todo de memoria, durante años. Tiene dos ideas: colocar las notas sobre líneas, antepasadas de nuestro pentagrama, y darles un nombre.\n\nPara ello toma un himno a san Juan Bautista en el que cada verso empieza una nota más arriba: Ut queant laxis, Resonare fibris, Mira gestorum… De ahí salen ut, re, mi, fa, sol, la. Más tarde, «ut» pasó a ser «do», y el «si» se formó con las iniciales de Sancte Ioannes, «san Juan».",
+    "source": "Encyclopædia Britannica, «Guido d'Arezzo»; Guido de Arezzo, Epistola de ignoto cantu (hacia 1030)"
+   },
+   "en": {
+    "titre": "Do, re, mi: a monk's idea",
+    "accroche": "The names of the musical notes come from a hymn to Saint John the Baptist, thanks to an eleventh-century Italian monk.",
+    "texte": "Around 1025 the Benedictine monk Guido of Arezzo was looking for a quicker way to teach chants to young choristers. Until then everything had to be learned by heart, over many years. He had two ideas: to place the notes on lines, the ancestors of our stave, and to give them names.\n\nFor this he took a hymn to Saint John the Baptist in which each line begins one note higher: Ut queant laxis, Resonare fibris, Mira gestorum… This gave ut, re, mi, fa, sol, la. Later “ut” became “do”, and “si” was formed from the initials of Sancte Ioannes, “Saint John”.",
+    "source": "Encyclopædia Britannica, “Guido d'Arezzo”; Guido of Arezzo, Epistola de ignoto cantu (c. 1030)"
+   }
+  },
+  {
+   "id": "jardin-saint-sepulcre",
+   "fr": {
+    "titre": "Un jardin sous le Saint-Sépulcre",
+    "accroche": "Sous le sol de la basilique de Jérusalem, des archéologues ont retrouvé les traces d'un jardin vieux de deux mille ans.",
+    "texte": "L'Évangile de Jean précise que Jésus a été crucifié près d'un jardin, et que c'est dans ce jardin que se trouvait le tombeau neuf où on l'a déposé (Jn 19, 41). Depuis 2022, une équipe de l'université La Sapienza de Rome, dirigée par Francesca Romana Stasolla, fouille sous le dallage de la basilique du Saint-Sépulcre.\n\nElle y a trouvé une ancienne carrière de pierre, abandonnée puis transformée en terrain cultivé, où l'on creusait aussi des tombes. L'analyse des pollens et des graines révèle des oliviers et des vignes d'il y a environ deux mille ans. Cela ne prouve pas tout, mais le décor correspond à celui que décrit l'Évangile.",
+    "source": "Université La Sapienza de Rome, fouilles du Saint-Sépulcre (dir. F. R. Stasolla) ; The Times of Israel, mars 2025"
+   },
+   "es": {
+    "titre": "Un huerto bajo el Santo Sepulcro",
+    "accroche": "Bajo el suelo de la basílica de Jerusalén, unos arqueólogos han encontrado restos de un huerto de hace dos mil años.",
+    "texte": "El Evangelio de Juan precisa que Jesús fue crucificado junto a un huerto, y que en ese huerto estaba el sepulcro nuevo donde lo pusieron (Jn 19, 41). Desde 2022, un equipo de la Universidad La Sapienza de Roma, dirigido por Francesca Romana Stasolla, excava bajo el pavimento de la basílica del Santo Sepulcro.\n\nAllí ha encontrado una antigua cantera de piedra, abandonada y luego convertida en terreno de cultivo, donde también se excavaban tumbas. El análisis de pólenes y semillas revela olivos y vides de hace unos dos mil años. Eso no lo prueba todo, pero el escenario corresponde al que describe el Evangelio.",
+    "source": "Universidad La Sapienza de Roma, excavaciones del Santo Sepulcro (dir. F. R. Stasolla); The Times of Israel, marzo de 2025"
+   },
+   "en": {
+    "titre": "A garden beneath the Holy Sepulchre",
+    "accroche": "Under the floor of the basilica in Jerusalem, archaeologists have found traces of a two-thousand-year-old garden.",
+    "texte": "The Gospel of John notes that Jesus was crucified near a garden, and that in this garden was the new tomb where he was laid (Jn 19:41). Since 2022 a team from Sapienza University of Rome, led by Francesca Romana Stasolla, has been digging beneath the paving of the Church of the Holy Sepulchre.\n\nThere they found an ancient stone quarry, abandoned and then turned into cultivated land, where tombs were also cut. Analysis of pollen and seeds reveals olive trees and grapevines from about two thousand years ago. It does not prove everything, but the setting matches the one the Gospel describes.",
+    "source": "Sapienza University of Rome, excavations at the Holy Sepulchre (dir. F. R. Stasolla); The Times of Israel, March 2025"
+   }
+  },
+  {
+   "id": "stenon",
+   "fr": {
+    "titre": "Le père de la géologie était évêque",
+    "accroche": "Le savant qui a compris que les couches de roche racontent l'histoire de la Terre est devenu prêtre, puis évêque.",
+    "texte": "Niels Stensen, dit Sténon, naît à Copenhague en 1638. Anatomiste brillant, il étudie un jour la tête d'un requin et remarque que ses dents ressemblent à d'étranges pierres trouvées dans les collines. Il en conclut que ces pierres sont des fossiles, et que les couches de roche se sont déposées l'une après l'autre : les plus profondes sont les plus anciennes.\n\nCe principe, publié en 1669, est encore à la base de la géologie. Entre-temps, Sténon, né luthérien, est devenu catholique. Il est ordonné prêtre, puis évêque, et vit très pauvrement au service des autres. Jean-Paul II l'a béatifié en 1988.",
+    "source": "Encyclopædia Britannica, « Nicolaus Steno » ; Jean-Paul II, béatification du 23 octobre 1988"
+   },
+   "es": {
+    "titre": "El padre de la geología era obispo",
+    "accroche": "El científico que comprendió que las capas de roca cuentan la historia de la Tierra se hizo sacerdote y luego obispo.",
+    "texte": "Niels Stensen, llamado Stenon, nace en Copenhague en 1638. Anatomista brillante, estudia un día la cabeza de un tiburón y observa que sus dientes se parecen a unas extrañas piedras halladas en las colinas. Concluye que esas piedras son fósiles, y que las capas de roca se depositaron una tras otra: las más profundas son las más antiguas.\n\nEste principio, publicado en 1669, sigue siendo la base de la geología. Entretanto, Stenon, nacido luterano, se hace católico. Es ordenado sacerdote y luego obispo, y vive muy pobremente al servicio de los demás. Juan Pablo II lo beatificó en 1988.",
+    "source": "Encyclopædia Britannica, «Nicolaus Steno»; Juan Pablo II, beatificación del 23 de octubre de 1988"
+   },
+   "en": {
+    "titre": "The father of geology was a bishop",
+    "accroche": "The scientist who realised that layers of rock tell the history of the Earth became a priest and then a bishop.",
+    "texte": "Niels Stensen, known as Steno, was born in Copenhagen in 1638. A brilliant anatomist, he one day studied the head of a shark and noticed that its teeth looked like strange stones found in the hills. He concluded that those stones were fossils, and that layers of rock were laid down one after another: the deepest are the oldest.\n\nThis principle, published in 1669, is still the foundation of geology. Meanwhile Steno, born a Lutheran, became a Catholic. He was ordained a priest and then a bishop, and lived very poorly in the service of others. John Paul II beatified him in 1988.",
+    "source": "Encyclopædia Britannica, “Nicolaus Steno”; John Paul II, beatification of 23 October 1988"
+   }
+  },
+  {
+   "id": "manuscrits-nouveau-testament",
+   "fr": {
+    "titre": "Le texte ancien le mieux conservé",
+    "accroche": "On possède plus de 5 800 manuscrits grecs du Nouveau Testament : bien plus que pour n'importe quel auteur de l'Antiquité.",
+    "texte": "Aucun original des livres antiques n'est parvenu jusqu'à nous : on les connaît par des copies faites à la main. Pour La Guerre des Gaules de Jules César, il en reste quelques centaines au plus, et les plus anciennes ont été copiées environ neuf cents ans après lui. Personne ne doute pourtant du texte.\n\nPour le Nouveau Testament, on compte plus de 5 800 manuscrits en grec, et des milliers d'autres en latin et dans d'autres langues. Le plus ancien fragment connu, un petit morceau de papyrus de l'Évangile de Jean conservé à Manchester, date du IIe siècle : quelques dizaines d'années seulement après la rédaction.",
+    "source": "Institut für Neutestamentliche Textforschung (Münster), liste des manuscrits grecs ; John Rylands Library (Manchester), papyrus P52"
+   },
+   "es": {
+    "titre": "El texto antiguo mejor conservado",
+    "accroche": "Se conservan más de 5800 manuscritos griegos del Nuevo Testamento: muchos más que de cualquier autor de la Antigüedad.",
+    "texte": "Ningún original de los libros antiguos ha llegado hasta nosotros: los conocemos por copias hechas a mano. De La guerra de las Galias de Julio César quedan unos cientos como mucho, y las más antiguas se copiaron unos novecientos años después de él. Y sin embargo, nadie duda del texto.\n\nDel Nuevo Testamento se cuentan más de 5800 manuscritos en griego, y miles más en latín y en otras lenguas. El fragmento más antiguo que se conoce, un trocito de papiro del Evangelio de Juan conservado en Mánchester, es del siglo II: solo unas décadas después de su redacción.",
+    "source": "Institut für Neutestamentliche Textforschung (Münster), lista de manuscritos griegos; John Rylands Library (Mánchester), papiro P52"
+   },
+   "en": {
+    "titre": "The best-preserved ancient text",
+    "accroche": "More than 5,800 Greek manuscripts of the New Testament survive: far more than for any author of the ancient world.",
+    "texte": "No original of any ancient book has come down to us: we know them from copies made by hand. For Julius Caesar's Gallic War a few hundred remain at most, and the oldest were copied about nine hundred years after him. Yet nobody doubts the text.\n\nFor the New Testament there are more than 5,800 manuscripts in Greek, and thousands more in Latin and other languages. The oldest known fragment, a small piece of papyrus from the Gospel of John kept in Manchester, dates from the second century: only a few decades after it was written.",
+    "source": "Institut für Neutestamentliche Textforschung (Münster), list of Greek manuscripts; John Rylands Library (Manchester), papyrus P52"
+   }
+  },
+  {
+   "id": "hopitaux-eglise",
+   "fr": {
+    "titre": "Cinq mille hôpitaux",
+    "accroche": "L'Église catholique fait vivre dans le monde plus de 5 000 hôpitaux et plus de 100 000 écoles primaires.",
+    "texte": "Soigner les malades fait partie de la vie des chrétiens depuis le début. Vers l'an 370, l'évêque saint Basile fait construire près de Césarée, dans l'actuelle Turquie, un vaste ensemble pour accueillir malades, pauvres et voyageurs : l'un des premiers hôpitaux de l'histoire.\n\nAujourd'hui, selon les statistiques publiées par le Saint-Siège, l'Église anime environ 5 400 hôpitaux, près de 14 000 dispensaires, 500 léproseries et plus de 15 000 maisons pour personnes âgées ou handicapées. Elle tient aussi plus de 100 000 écoles primaires, où étudient 36 millions d'enfants, souvent dans les régions les plus pauvres.",
+    "source": "Agence Fides, « Statistiques de l'Église catholique 2025 » (d'après l'Annuaire statistique de l'Église) ; Encyclopædia Britannica, « Saint Basil the Great »"
+   },
+   "es": {
+    "titre": "Cinco mil hospitales",
+    "accroche": "La Iglesia católica sostiene en el mundo más de 5000 hospitales y más de 100 000 escuelas primarias.",
+    "texte": "Cuidar a los enfermos forma parte de la vida de los cristianos desde el principio. Hacia el año 370, el obispo san Basilio manda construir cerca de Cesarea, en la actual Turquía, un gran conjunto para acoger a enfermos, pobres y viajeros: uno de los primeros hospitales de la historia.\n\nHoy, según las estadísticas publicadas por la Santa Sede, la Iglesia anima unos 5400 hospitales, cerca de 14 000 dispensarios, 500 leproserías y más de 15 000 casas para personas mayores o con discapacidad. También sostiene más de 100 000 escuelas primarias, donde estudian 36 millones de niños, a menudo en las regiones más pobres.",
+    "source": "Agencia Fides, «Estadísticas de la Iglesia católica 2025» (según el Anuario Estadístico de la Iglesia); Encyclopædia Britannica, «Saint Basil the Great»"
+   },
+   "en": {
+    "titre": "Five thousand hospitals",
+    "accroche": "The Catholic Church runs more than 5,000 hospitals and more than 100,000 primary schools around the world.",
+    "texte": "Caring for the sick has been part of Christian life from the beginning. Around the year 370 the bishop Saint Basil had a large complex built near Caesarea, in present-day Turkey, to take in the sick, the poor and travellers: one of the first hospitals in history.\n\nToday, according to statistics published by the Holy See, the Church runs about 5,400 hospitals, nearly 14,000 dispensaries, 500 leprosy centres and more than 15,000 homes for the elderly or disabled. She also runs more than 100,000 primary schools, where 36 million children study, often in the poorest regions.",
+    "source": "Fides News Agency, “Catholic Church Statistics 2025” (from the Statistical Yearbook of the Church); Encyclopædia Britannica, “Saint Basil the Great”"
+   }
+  },
+  {
+   "id": "piscine-siloe",
+   "fr": {
+    "titre": "La piscine retrouvée par hasard",
+    "accroche": "En 2004, des ouvriers qui réparaient une canalisation à Jérusalem ont mis au jour la piscine de Siloé, celle de l'aveugle guéri.",
+    "texte": "Dans l'Évangile de Jean, Jésus met de la boue sur les yeux d'un homme aveugle de naissance et l'envoie se laver à la piscine de Siloé. L'homme y va, et revient en voyant clair (Jn 9, 1-7).\n\nEn 2004, pendant des travaux d'égout au sud de la vieille ville, une pelleteuse dégage de larges marches de pierre. Les archéologues Ronny Reich et Eli Shukron comprennent vite : ce sont les gradins d'un grand bassin de l'époque de Jésus, large de près de soixante-dix mètres. Des monnaies prises dans le mortier ont permis de le dater. On peut aujourd'hui descendre ces marches.",
+    "source": "R. Reich et E. Shukron, fouilles de la Cité de David (Autorité des antiquités d'Israël) ; Biblical Archaeology Review, septembre-octobre 2005"
+   },
+   "es": {
+    "titre": "La piscina encontrada por casualidad",
+    "accroche": "En 2004, unos obreros que reparaban una tubería en Jerusalén sacaron a la luz la piscina de Siloé, la del ciego curado.",
+    "texte": "En el Evangelio de Juan, Jesús pone barro en los ojos de un hombre ciego de nacimiento y lo manda a lavarse a la piscina de Siloé. El hombre va, y vuelve viendo (Jn 9, 1-7).\n\nEn 2004, durante unas obras de alcantarillado al sur de la ciudad vieja, una excavadora deja al descubierto unos anchos escalones de piedra. Los arqueólogos Ronny Reich y Eli Shukron lo entienden enseguida: son las gradas de un gran estanque de la época de Jesús, de casi setenta metros de ancho. Unas monedas atrapadas en el mortero permitieron fecharlo. Hoy se puede bajar por esos escalones.",
+    "source": "R. Reich y E. Shukron, excavaciones de la Ciudad de David (Autoridad de Antigüedades de Israel); Biblical Archaeology Review, septiembre-octubre de 2005"
+   },
+   "en": {
+    "titre": "The pool found by chance",
+    "accroche": "In 2004 workers repairing a pipe in Jerusalem uncovered the Pool of Siloam, the one where the blind man was healed.",
+    "texte": "In the Gospel of John, Jesus puts mud on the eyes of a man blind from birth and sends him to wash in the Pool of Siloam. The man goes, and comes back able to see (Jn 9:1-7).\n\nIn 2004, during sewer works south of the Old City, a digger exposed some wide stone steps. The archaeologists Ronny Reich and Eli Shukron quickly understood: these were the tiers of a large pool from the time of Jesus, nearly seventy metres wide. Coins caught in the mortar made it possible to date it. Today you can walk down those steps.",
+    "source": "R. Reich and E. Shukron, City of David excavations (Israel Antiquities Authority); Biblical Archaeology Review, September-October 2005"
+   }
+  },
+  {
+   "id": "anno-domini",
+   "fr": {
+    "titre": "D'où vient le numéro de nos années ?",
+    "accroche": "C'est un moine du VIe siècle qui a eu l'idée de compter les années à partir de la naissance de Jésus.",
+    "texte": "Dans l'Antiquité, on datait les événements d'après le règne des empereurs. En 525, à Rome, un moine savant appelé Denys le Petit prépare des tables pour calculer la date de Pâques. Il ne veut plus compter à partir du règne de Dioclétien, un empereur qui avait persécuté les chrétiens, et choisit un nouveau point de départ : la naissance du Christ.\n\nSon système se répand peu à peu, puis dans le monde entier. Les historiens pensent aujourd'hui que Denys s'est trompé de quelques années : Jésus serait né un peu plus tôt, puisque le roi Hérode, sous lequel il est né, est mort quatre ans « avant Jésus-Christ ».",
+    "source": "Encyclopædia Britannica, « Dionysius Exiguus » ; Benoît XVI, L'Enfance de Jésus (2012), chapitre 3"
+   },
+   "es": {
+    "titre": "¿De dónde viene el número de nuestros años?",
+    "accroche": "Fue un monje del siglo VI quien tuvo la idea de contar los años a partir del nacimiento de Jesús.",
+    "texte": "En la Antigüedad, los acontecimientos se fechaban según el reinado de los emperadores. En 525, en Roma, un monje sabio llamado Dionisio el Exiguo prepara unas tablas para calcular la fecha de la Pascua. No quiere seguir contando desde el reinado de Diocleciano, un emperador que había perseguido a los cristianos, y elige un nuevo punto de partida: el nacimiento de Cristo.\n\nSu sistema se extiende poco a poco, y después al mundo entero. Los historiadores piensan hoy que Dionisio se equivocó en unos pocos años: Jesús habría nacido algo antes, ya que el rey Herodes, bajo quien nació, murió cuatro años «antes de Cristo».",
+    "source": "Encyclopædia Britannica, «Dionysius Exiguus»; Benedicto XVI, La infancia de Jesús (2012), capítulo 3"
+   },
+   "en": {
+    "titre": "Where do the numbers of our years come from?",
+    "accroche": "It was a sixth-century monk who had the idea of counting the years from the birth of Jesus.",
+    "texte": "In the ancient world, events were dated by the reigns of emperors. In 525, in Rome, a learned monk called Dionysius Exiguus was preparing tables for calculating the date of Easter. He no longer wanted to count from the reign of Diocletian, an emperor who had persecuted Christians, and chose a new starting point: the birth of Christ.\n\nHis system spread little by little, and then across the whole world. Historians now think Dionysius was a few years out: Jesus was probably born slightly earlier, since King Herod, under whom he was born, died four years “before Christ”.",
+    "source": "Encyclopædia Britannica, “Dionysius Exiguus”; Benedict XVI, Jesus of Nazareth: The Infancy Narratives (2012), chapter 3"
+   }
+  },
+  {
+   "id": "ossuaire-caiphe",
+   "fr": {
+    "titre": "Le tombeau de la famille de Caïphe",
+    "accroche": "En 1990, des ouvriers ont découvert près de Jérusalem un coffre funéraire au nom de Caïphe, le grand prêtre du procès de Jésus.",
+    "texte": "En novembre 1990, un chantier au sud de Jérusalem fait s'effondrer le toit d'une grotte : c'est un tombeau du Ier siècle. À l'intérieur, douze coffres de pierre, des « ossuaires », où l'on rassemblait les os des défunts.\n\nLe plus beau, finement sculpté de rosaces, porte un nom gravé deux fois : « Joseph, fils de Caïphe ». Or l'historien Flavius Josèphe appelle justement le grand prêtre de l'époque de Jésus « Joseph, surnommé Caïphe ». La plupart des spécialistes y reconnaissent donc l'homme qui, selon les Évangiles, a interrogé Jésus la nuit de son arrestation. L'ossuaire est exposé au musée d'Israël.",
+    "source": "Musée d'Israël (Jérusalem), ossuaire de Caïphe ; Z. Greenhut, « The Caiaphas Tomb in North Talpiyot », 'Atiqot 21 (1992)"
+   },
+   "es": {
+    "titre": "La tumba de la familia de Caifás",
+    "accroche": "En 1990, unos obreros descubrieron cerca de Jerusalén un cofre funerario con el nombre de Caifás, el sumo sacerdote del juicio de Jesús.",
+    "texte": "En noviembre de 1990, unas obras al sur de Jerusalén hacen que se hunda el techo de una cueva: es una tumba del siglo I. Dentro hay doce cofres de piedra, llamados «osarios», donde se reunían los huesos de los difuntos.\n\nEl más bello, finamente tallado con rosetas, lleva un nombre grabado dos veces: «José, hijo de Caifás». Y el historiador Flavio Josefo llama precisamente al sumo sacerdote de la época de Jesús «José, apodado Caifás». Por eso la mayoría de los especialistas reconocen en él al hombre que, según los Evangelios, interrogó a Jesús la noche de su arresto. El osario se expone en el Museo de Israel.",
+    "source": "Museo de Israel (Jerusalén), osario de Caifás; Z. Greenhut, «The Caiaphas Tomb in North Talpiyot», 'Atiqot 21 (1992)"
+   },
+   "en": {
+    "titre": "The tomb of the family of Caiaphas",
+    "accroche": "In 1990 workers near Jerusalem discovered a burial chest bearing the name of Caiaphas, the high priest at the trial of Jesus.",
+    "texte": "In November 1990 building work south of Jerusalem caused the roof of a cave to collapse: it was a first-century tomb. Inside were twelve stone chests, called “ossuaries”, in which the bones of the dead were gathered.\n\nThe finest, delicately carved with rosettes, bears a name engraved twice: “Joseph, son of Caiaphas”. And the historian Flavius Josephus calls the high priest of Jesus' time precisely “Joseph, who was called Caiaphas”. Most specialists therefore recognise in him the man who, according to the Gospels, questioned Jesus on the night of his arrest. The ossuary is on display in the Israel Museum.",
+    "source": "Israel Museum (Jerusalem), Caiaphas ossuary; Z. Greenhut, “The Caiaphas Tomb in North Talpiyot”, 'Atiqot 21 (1992)"
+   }
+  },
+  {
+   "id": "copernic-chanoine",
+   "fr": {
+    "titre": "Copernic travaillait pour une cathédrale",
+    "accroche": "L'homme qui a placé le Soleil au centre était chanoine, et il a dédié son livre au pape.",
+    "texte": "Nicolas Copernic est né en Pologne en 1473. Toute sa vie, il est chanoine de la cathédrale de Frombork : il administre les biens du diocèse, soigne les malades et, la nuit, observe le ciel depuis une tour. Il comprend peu à peu que la Terre tourne autour du Soleil, et non l'inverse.\n\nSon grand livre paraît en 1543, l'année de sa mort, avec une dédicace au pape Paul III. Les difficultés viendront plus tard : en 1616, l'ouvrage est suspendu, et en 1633 Galilée est condamné pour avoir défendu la même idée. En 1992, Jean-Paul II a reconnu publiquement les erreurs commises alors.",
+    "source": "Encyclopædia Britannica, « Nicolaus Copernicus » ; Jean-Paul II, discours à l'Académie pontificale des sciences (31 octobre 1992)"
+   },
+   "es": {
+    "titre": "Copérnico trabajaba para una catedral",
+    "accroche": "El hombre que puso el Sol en el centro era canónigo, y dedicó su libro al papa.",
+    "texte": "Nicolás Copérnico nació en Polonia en 1473. Toda su vida es canónigo de la catedral de Frombork: administra los bienes de la diócesis, atiende a los enfermos y, de noche, observa el cielo desde una torre. Poco a poco comprende que la Tierra gira alrededor del Sol, y no al revés.\n\nSu gran libro aparece en 1543, el año de su muerte, con una dedicatoria al papa Pablo III. Las dificultades llegarán más tarde: en 1616 la obra es suspendida, y en 1633 Galileo es condenado por defender la misma idea. En 1992, Juan Pablo II reconoció públicamente los errores cometidos entonces.",
+    "source": "Encyclopædia Britannica, «Nicolaus Copernicus»; Juan Pablo II, discurso a la Pontificia Academia de las Ciencias (31 de octubre de 1992)"
+   },
+   "en": {
+    "titre": "Copernicus worked for a cathedral",
+    "accroche": "The man who put the Sun at the centre was a canon, and he dedicated his book to the pope.",
+    "texte": "Nicolaus Copernicus was born in Poland in 1473. All his life he was a canon of Frombork cathedral: he managed the diocese's property, treated the sick and, at night, watched the sky from a tower. Little by little he came to understand that the Earth goes round the Sun, and not the other way round.\n\nHis great book appeared in 1543, the year of his death, with a dedication to Pope Paul III. The difficulties came later: in 1616 the work was suspended, and in 1633 Galileo was condemned for defending the same idea. In 1992 John Paul II publicly acknowledged the errors made at that time.",
+    "source": "Encyclopædia Britannica, “Nicolaus Copernicus”; John Paul II, address to the Pontifical Academy of Sciences (31 October 1992)"
+   }
+  },
+  {
+   "id": "renvois-bible",
+   "fr": {
+    "titre": "Un livre qui se répond à lui-même",
+    "accroche": "Écrite sur plus de mille ans par des dizaines d'auteurs, la Bible est traversée de dizaines de milliers de renvois d'un passage à l'autre.",
+    "texte": "La Bible n'est pas un seul livre, mais une bibliothèque : 73 livres, composés sur plus d'un millénaire, en trois langues. Pourtant, ses pages ne cessent de se répondre. Le Nouveau Testament cite l'Ancien environ 350 fois, et y fait allusion plus de 2 000 fois : Jésus lui-même prie avec les psaumes et explique sa mission avec les prophètes.\n\nEn 2007, un pasteur allemand et un informaticien américain ont dessiné ces liens : un arc de couleur pour chacun des 63 779 renvois recensés dans une Bible d'étude. Le résultat ressemble à un immense arc-en-ciel. C'est pourquoi l'Église lit toujours un passage à la lumière des autres.",
+    "source": "C. Harrison et C. Römhild, « Bible Cross-References » (université Carnegie Mellon, 2007) ; Catéchisme de l'Église catholique, n° 128-130"
+   },
+   "es": {
+    "titre": "Un libro que se responde a sí mismo",
+    "accroche": "Escrita a lo largo de más de mil años por decenas de autores, la Biblia está atravesada por decenas de miles de remisiones de un pasaje a otro.",
+    "texte": "La Biblia no es un solo libro, sino una biblioteca: 73 libros, compuestos durante más de un milenio, en tres lenguas. Y sin embargo, sus páginas no dejan de responderse. El Nuevo Testamento cita el Antiguo unas 350 veces, y alude a él más de 2000: el propio Jesús reza con los salmos y explica su misión con los profetas.\n\nEn 2007, un pastor alemán y un informático estadounidense dibujaron esos vínculos: un arco de color por cada una de las 63 779 remisiones recogidas en una Biblia de estudio. El resultado parece un inmenso arcoíris. Por eso la Iglesia lee siempre un pasaje a la luz de los demás.",
+    "source": "C. Harrison y C. Römhild, «Bible Cross-References» (Universidad Carnegie Mellon, 2007); Catecismo de la Iglesia Católica, n. 128-130"
+   },
+   "en": {
+    "titre": "A book that answers itself",
+    "accroche": "Written over more than a thousand years by dozens of authors, the Bible is criss-crossed by tens of thousands of cross-references.",
+    "texte": "The Bible is not a single book but a library: 73 books, composed over more than a millennium, in three languages. And yet its pages constantly answer one another. The New Testament quotes the Old about 350 times, and alludes to it more than 2,000 times: Jesus himself prays with the psalms and explains his mission through the prophets.\n\nIn 2007 a German pastor and an American computer scientist drew these links: one coloured arc for each of the 63,779 cross-references listed in a study Bible. The result looks like an immense rainbow. This is why the Church always reads one passage in the light of the others.",
+    "source": "C. Harrison and C. Römhild, “Bible Cross-References” (Carnegie Mellon University, 2007); Catechism of the Catholic Church, nos. 128-130"
+   }
+  },
+  {
+   "id": "soeur-keller",
+   "fr": {
+    "titre": "La religieuse pionnière de l'informatique",
+    "accroche": "La première femme docteure en informatique aux États-Unis était une religieuse catholique.",
+    "texte": "Mary Kenneth Keller naît en 1913 dans l'Ohio et entre chez les Sœurs de la Charité de la Bienheureuse Vierge Marie. Professeure de mathématiques, elle se passionne pour les premières machines à calculer électroniques, à une époque où très peu de femmes y ont accès.\n\nEn 1965, à l'université du Wisconsin, elle devient l'une des deux premières personnes du pays à obtenir un doctorat en informatique, et la première femme. Elle fonde ensuite le département d'informatique du Clarke College, dans l'Iowa, qu'elle dirige pendant vingt ans. Elle était convaincue que ces machines aideraient un jour chacun à apprendre.",
+    "source": "Université du Wisconsin-Madison, « Mary Kenneth Keller » ; Clarke University (Dubuque, Iowa), archives"
+   },
+   "es": {
+    "titre": "La religiosa pionera de la informática",
+    "accroche": "La primera mujer doctora en informática de Estados Unidos era una religiosa católica.",
+    "texte": "Mary Kenneth Keller nace en 1913 en Ohio y entra en las Hermanas de la Caridad de la Bienaventurada Virgen María. Profesora de matemáticas, se apasiona por las primeras máquinas electrónicas de cálculo, en una época en que muy pocas mujeres tienen acceso a ellas.\n\nEn 1965, en la Universidad de Wisconsin, llega a ser una de las dos primeras personas del país en obtener un doctorado en informática, y la primera mujer. Después funda el departamento de informática del Clarke College, en Iowa, que dirige durante veinte años. Estaba convencida de que esas máquinas ayudarían un día a todos a aprender.",
+    "source": "Universidad de Wisconsin-Madison, «Mary Kenneth Keller»; Clarke University (Dubuque, Iowa), archivos"
+   },
+   "en": {
+    "titre": "The nun who pioneered computer science",
+    "accroche": "The first woman to earn a doctorate in computer science in the United States was a Catholic nun.",
+    "texte": "Mary Kenneth Keller was born in 1913 in Ohio and joined the Sisters of Charity of the Blessed Virgin Mary. A mathematics teacher, she became fascinated by the first electronic computing machines, at a time when very few women had access to them.\n\nIn 1965, at the University of Wisconsin, she became one of the first two people in the country to earn a doctorate in computer science, and the first woman. She then founded the computer science department at Clarke College in Iowa, which she led for twenty years. She was convinced that these machines would one day help everyone to learn.",
+    "source": "University of Wisconsin-Madison, “Mary Kenneth Keller”; Clarke University (Dubuque, Iowa), archives"
+   }
+  },
+  {
+   "id": "mosaique-megiddo",
+   "fr": {
+    "titre": "Une mosaïque découverte dans une prison",
+    "accroche": "En 2005, des détenus ont mis au jour en Israël l'une des plus anciennes salles de prière chrétiennes connues.",
+    "texte": "À Megiddo, dans le nord d'Israël, on veut agrandir une prison. Avant les travaux, des fouilles sont menées avec l'aide de prisonniers. Ils dégagent un sol de mosaïque de plus de cinquante mètres carrés, orné de deux poissons, un très ancien symbole chrétien.\n\nUne inscription en grec précise qu'une femme, Akeptous, « a offert la table au Dieu Jésus-Christ, en mémorial ». La salle date d'environ l'an 230 : presque un siècle avant que le christianisme soit autorisé dans l'Empire romain. Elle montre que, très tôt, des chrétiens se réunissaient autour d'une table pour l'eucharistie et priaient Jésus comme Dieu.",
+    "source": "Y. Tepper et L. Di Segni, A Christian Prayer Hall of the Third Century CE at Kefar 'Othnay (Autorité des antiquités d'Israël, 2006)"
+   },
+   "es": {
+    "titre": "Un mosaico descubierto en una cárcel",
+    "accroche": "En 2005, unos presos sacaron a la luz en Israel una de las salas de oración cristianas más antiguas que se conocen.",
+    "texte": "En Meguido, en el norte de Israel, se quiere ampliar una cárcel. Antes de las obras se hacen excavaciones con ayuda de los presos. Dejan al descubierto un suelo de mosaico de más de cincuenta metros cuadrados, adornado con dos peces, un símbolo cristiano muy antiguo.\n\nUna inscripción en griego precisa que una mujer, Akeptous, «ofreció la mesa al Dios Jesucristo, como memorial». La sala es de hacia el año 230: casi un siglo antes de que el cristianismo fuera autorizado en el Imperio romano. Muestra que, muy pronto, los cristianos se reunían en torno a una mesa para la eucaristía y rezaban a Jesús como Dios.",
+    "source": "Y. Tepper y L. Di Segni, A Christian Prayer Hall of the Third Century CE at Kefar 'Othnay (Autoridad de Antigüedades de Israel, 2006)"
+   },
+   "en": {
+    "titre": "A mosaic discovered in a prison",
+    "accroche": "In 2005 inmates in Israel uncovered one of the oldest known Christian prayer halls.",
+    "texte": "At Megiddo, in northern Israel, a prison was due to be enlarged. Before building began, excavations were carried out with the help of prisoners. They uncovered a mosaic floor of more than fifty square metres, decorated with two fish, a very early Christian symbol.\n\nAn inscription in Greek records that a woman, Akeptous, “has offered the table to God Jesus Christ as a memorial”. The hall dates from about the year 230: almost a century before Christianity was permitted in the Roman Empire. It shows that, very early on, Christians gathered round a table for the Eucharist and prayed to Jesus as God.",
+    "source": "Y. Tepper and L. Di Segni, A Christian Prayer Hall of the Third Century CE at Kefar 'Othnay (Israel Antiquities Authority, 2006)"
+   }
+  },
+  {
+   "id": "avocat-du-diable",
+   "fr": {
+    "titre": "L'avocat du diable a vraiment existé",
+    "accroche": "Pendant quatre siècles, un juriste de l'Église avait pour métier de chercher tout ce qui s'opposait à la canonisation d'un saint.",
+    "texte": "En 1587, le pape Sixte V crée une fonction officielle : le « promoteur de la foi ». Chaque fois qu'on propose de déclarer quelqu'un saint, ce juriste doit examiner le dossier avec méfiance, relever les faiblesses, contester les témoignages et les miracles. On le surnomme vite « l'avocat du diable ».\n\nSon rôle n'était pas d'être méchant, mais d'éviter toute décision hâtive. En 1983, Jean-Paul II a réformé la procédure : la fonction existe toujours, sous une forme différente. Aujourd'hui, ce travail critique revient surtout aux historiens, aux médecins et aux théologiens qui étudient chaque cause.",
+    "source": "Encyclopædia Britannica, « Devil's advocate » ; Jean-Paul II, constitution apostolique Divinus perfectionis Magister (25 janvier 1983)"
+   },
+   "es": {
+    "titre": "El abogado del diablo existió de verdad",
+    "accroche": "Durante cuatro siglos, un jurista de la Iglesia tuvo por oficio buscar todo lo que se oponía a la canonización de un santo.",
+    "texte": "En 1587, el papa Sixto V crea un cargo oficial: el «promotor de la fe». Cada vez que se propone declarar santo a alguien, este jurista debe examinar el expediente con desconfianza, señalar los puntos débiles y poner en duda los testimonios y los milagros. Pronto lo apodan «el abogado del diablo».\n\nSu papel no era ser malvado, sino evitar toda decisión apresurada. En 1983, Juan Pablo II reformó el procedimiento: el cargo sigue existiendo, de otra forma. Hoy, ese trabajo crítico corresponde sobre todo a los historiadores, médicos y teólogos que estudian cada causa.",
+    "source": "Encyclopædia Britannica, «Devil's advocate»; Juan Pablo II, constitución apostólica Divinus perfectionis Magister (25 de enero de 1983)"
+   },
+   "en": {
+    "titre": "The devil's advocate really existed",
+    "accroche": "For four centuries, a Church lawyer had the job of looking for everything that stood against the canonisation of a saint.",
+    "texte": "In 1587 Pope Sixtus V created an official post: the “Promoter of the Faith”. Whenever someone was proposed for sainthood, this lawyer had to examine the case with suspicion, point out its weaknesses and challenge the testimonies and the miracles. He was soon nicknamed “the devil's advocate”.\n\nHis role was not to be unkind, but to prevent any hasty decision. In 1983 John Paul II reformed the procedure: the post still exists, in a different form. Today this critical work falls mainly to the historians, doctors and theologians who study each cause.",
+    "source": "Encyclopædia Britannica, “Devil's advocate”; John Paul II, apostolic constitution Divinus perfectionis Magister (25 January 1983)"
+   }
+  },
+  {
+   "id": "barque-galilee",
+   "fr": {
+    "titre": "Une barque du temps de Jésus",
+    "accroche": "En 1986, la sécheresse a fait apparaître dans la boue du lac de Galilée un bateau de pêche vieux de deux mille ans.",
+    "texte": "Cet hiver-là, le niveau du lac de Tibériade est très bas. Deux frères du kibboutz Ginosar, Moshe et Yuval Lufan, pêcheurs et passionnés d'archéologie, remarquent dans la vase le contour d'une coque en bois. Les spécialistes la dégagent en onze jours, avec d'infinies précautions.\n\nLa barque mesure environ huit mètres de long et pouvait porter une quinzaine de personnes. Le carbone 14 et les poteries trouvées autour la datent du Ier siècle : l'époque où Pierre, André, Jacques et Jean pêchaient sur ce même lac. Rien ne dit qu'ils l'aient utilisée, mais c'est sur des bateaux comme celui-ci que Jésus est monté.",
+    "source": "Yigal Allon Center (Ginosar, Israël), « The Ancient Galilee Boat » ; S. Wachsmann, The Sea of Galilee Boat (1995)"
+   },
+   "es": {
+    "titre": "Una barca del tiempo de Jesús",
+    "accroche": "En 1986, la sequía hizo aparecer en el barro del lago de Galilea una barca de pesca de hace dos mil años.",
+    "texte": "Aquel invierno, el nivel del lago de Tiberíades está muy bajo. Dos hermanos del kibutz Ginosar, Moshe y Yuval Lufan, pescadores y aficionados a la arqueología, descubren en el fango el contorno de un casco de madera. Los especialistas la sacan en once días, con infinito cuidado.\n\nLa barca mide unos ocho metros de largo y podía llevar a unas quince personas. El carbono 14 y las cerámicas halladas alrededor la sitúan en el siglo I: la época en que Pedro, Andrés, Santiago y Juan pescaban en ese mismo lago. Nada dice que ellos la usaran, pero a barcas como esta subió Jesús.",
+    "source": "Yigal Allon Center (Ginosar, Israel), «The Ancient Galilee Boat»; S. Wachsmann, The Sea of Galilee Boat (1995)"
+   },
+   "en": {
+    "titre": "A boat from the time of Jesus",
+    "accroche": "In 1986 a drought revealed, in the mud of the Sea of Galilee, a fishing boat two thousand years old.",
+    "texte": "That winter the level of the lake was very low. Two brothers from Kibbutz Ginosar, Moshe and Yuval Lufan, fishermen and keen amateur archaeologists, noticed the outline of a wooden hull in the mud. Specialists freed it in eleven days, with infinite care.\n\nThe boat is about eight metres long and could carry some fifteen people. Carbon-14 dating and the pottery found around it place it in the first century: the time when Peter, Andrew, James and John fished on that same lake. Nothing says they used it, but it was boats like this one that Jesus stepped into.",
+    "source": "Yigal Allon Center (Ginosar, Israel), “The Ancient Galilee Boat”; S. Wachsmann, The Sea of Galilee Boat (1995)"
+   }
+  },
+  {
+   "id": "piazzi-ceres",
+   "fr": {
+    "titre": "Un prêtre a découvert le premier astéroïde",
+    "accroche": "Dans la nuit du 1er janvier 1801, un religieux sicilien a repéré un astre inconnu entre Mars et Jupiter.",
+    "texte": "Giuseppe Piazzi est prêtre, de l'ordre des théatins, et directeur de l'observatoire de Palerme. Depuis des années, il dresse patiemment un catalogue de milliers d'étoiles. Le premier soir du XIXe siècle, il remarque un petit point lumineux qui, d'une nuit à l'autre, se déplace.\n\nCe n'est ni une étoile ni une comète : c'est un monde nouveau, qu'il nomme Cérès, comme la déesse antique protectrice de la Sicile. On découvrira ensuite des milliers d'autres corps dans la même région, la ceinture d'astéroïdes. Cérès en est le plus grand, et les astronomes le classent aujourd'hui parmi les planètes naines.",
+    "source": "Encyclopædia Britannica, « Giuseppe Piazzi » ; NASA, mission Dawn, « Ceres »"
+   },
+   "es": {
+    "titre": "Un sacerdote descubrió el primer asteroide",
+    "accroche": "En la noche del 1 de enero de 1801, un religioso siciliano localizó un astro desconocido entre Marte y Júpiter.",
+    "texte": "Giuseppe Piazzi es sacerdote, de la orden de los teatinos, y director del observatorio de Palermo. Desde hace años elabora con paciencia un catálogo de miles de estrellas. La primera noche del siglo XIX observa un puntito luminoso que, de una noche a otra, se desplaza.\n\nNo es una estrella ni un cometa: es un mundo nuevo, al que llama Ceres, como la antigua diosa protectora de Sicilia. Después se descubrirán miles de otros cuerpos en la misma región, el cinturón de asteroides. Ceres es el mayor de ellos, y los astrónomos lo clasifican hoy entre los planetas enanos.",
+    "source": "Encyclopædia Britannica, «Giuseppe Piazzi»; NASA, misión Dawn, «Ceres»"
+   },
+   "en": {
+    "titre": "A priest discovered the first asteroid",
+    "accroche": "On the night of 1 January 1801, a Sicilian religious spotted an unknown body between Mars and Jupiter.",
+    "texte": "Giuseppe Piazzi was a priest of the Theatine order and director of the Palermo observatory. For years he had been patiently compiling a catalogue of thousands of stars. On the first evening of the nineteenth century he noticed a small point of light which, from one night to the next, was moving.\n\nIt was neither a star nor a comet: it was a new world, which he named Ceres, after the ancient goddess who protected Sicily. Thousands of other bodies were later discovered in the same region, the asteroid belt. Ceres is the largest of them, and astronomers now class it as a dwarf planet.",
+    "source": "Encyclopædia Britannica, “Giuseppe Piazzi”; NASA, Dawn mission, “Ceres”"
+   }
+  },
+  {
+   "id": "tombeau-saint-paul",
+   "fr": {
+    "titre": "Ce que contient le tombeau de saint Paul",
+    "accroche": "En 2009, une sonde glissée dans le sarcophage vénéré à Rome comme celui de l'apôtre Paul a permis de dater ce qu'il renferme.",
+    "texte": "Sous l'autel de la basilique Saint-Paul-hors-les-Murs, à Rome, des fouilles ont dégagé en 2006 un sarcophage de marbre. Au-dessus, une dalle ancienne porte ces mots en latin : « À Paul, apôtre, martyr ». Depuis au moins seize siècles, les chrétiens viennent prier ici.\n\nSans ouvrir le tombeau, on y perce un tout petit trou pour introduire une sonde. Elle ramène des grains d'encens, des fils de lin pourpre et bleu, et de minuscules fragments d'os. Des experts qui ignoraient leur origine les datent au carbone 14 : Ier ou IIe siècle. Benoît XVI annonce le résultat le 28 juin 2009 : il s'accorde avec la tradition.",
+    "source": "Benoît XVI, homélie des premières vêpres des saints Pierre et Paul (28 juin 2009)"
+   },
+   "es": {
+    "titre": "Lo que contiene la tumba de san Pablo",
+    "accroche": "En 2009, una sonda introducida en el sarcófago venerado en Roma como el del apóstol Pablo permitió fechar lo que guarda.",
+    "texte": "Bajo el altar de la basílica de San Pablo Extramuros, en Roma, unas excavaciones dejaron al descubierto en 2006 un sarcófago de mármol. Encima, una losa antigua lleva estas palabras en latín: «A Pablo, apóstol, mártir». Desde hace al menos dieciséis siglos, los cristianos vienen a rezar aquí.\n\nSin abrir la tumba, se le hace un agujero diminuto para introducir una sonda. Esta saca granos de incienso, hilos de lino púrpura y azul, y minúsculos fragmentos de hueso. Unos expertos que ignoraban su origen los fechan con carbono 14: siglo I o II. Benedicto XVI anuncia el resultado el 28 de junio de 2009: concuerda con la tradición.",
+    "source": "Benedicto XVI, homilía de las primeras vísperas de san Pedro y san Pablo (28 de junio de 2009)"
+   },
+   "en": {
+    "titre": "What Saint Paul's tomb contains",
+    "accroche": "In 2009 a probe slipped into the sarcophagus venerated in Rome as that of the apostle Paul made it possible to date its contents.",
+    "texte": "Beneath the altar of the Basilica of Saint Paul Outside the Walls, in Rome, excavations uncovered a marble sarcophagus in 2006. Above it, an ancient slab bears these words in Latin: “To Paul, apostle, martyr”. For at least sixteen centuries Christians have come here to pray.\n\nWithout opening the tomb, a tiny hole was drilled to insert a probe. It brought out grains of incense, threads of purple and blue linen, and minute fragments of bone. Experts who did not know where they came from dated them by carbon-14: first or second century. Benedict XVI announced the result on 28 June 2009: it agrees with the tradition.",
+    "source": "Benedict XVI, homily at First Vespers of Saints Peter and Paul (28 June 2009)"
+   }
+  },
+  {
+   "id": "meridiennes-cathedrales",
+   "fr": {
+    "titre": "Des églises transformées en observatoires",
+    "accroche": "Pour calculer la date de Pâques, on a percé un trou dans la voûte de grandes églises et tracé une ligne au sol.",
+    "texte": "Pâques dépend du printemps et de la Lune : pour bien fixer sa date, on doit connaître la durée exacte de l'année. Or une grande église est un instrument idéal, sombre, stable et très haute. En 1655, à Bologne, l'astronome Jean-Dominique Cassini fait percer un petit trou dans la voûte de la basilique San Petronio.\n\nChaque jour à midi, un rond de soleil vient se poser sur une ligne de laiton longue de près de 67 mètres, tracée dans le dallage. Sa position change avec les saisons. Grâce à elle, Cassini mesure la course du Soleil avec une précision jamais atteinte. D'autres « méridiennes » existent à Rome, à Florence et à Paris.",
+    "source": "J. L. Heilbron, The Sun in the Church: Cathedrals as Solar Observatories (Harvard University Press, 1999)"
+   },
+   "es": {
+    "titre": "Iglesias convertidas en observatorios",
+    "accroche": "Para calcular la fecha de la Pascua, se abrió un agujero en la bóveda de grandes iglesias y se trazó una línea en el suelo.",
+    "texte": "La Pascua depende de la primavera y de la Luna: para fijar bien su fecha hay que conocer la duración exacta del año. Y una gran iglesia es un instrumento ideal, oscura, estable y muy alta. En 1655, en Bolonia, el astrónomo Giovanni Domenico Cassini manda abrir un pequeño agujero en la bóveda de la basílica de San Petronio.\n\nCada día, a mediodía, un círculo de sol viene a posarse sobre una línea de latón de casi 67 metros de largo, trazada en el pavimento. Su posición cambia con las estaciones. Gracias a ella, Cassini mide el recorrido del Sol con una precisión nunca alcanzada. Hay otras «meridianas» en Roma, Florencia y París.",
+    "source": "J. L. Heilbron, The Sun in the Church: Cathedrals as Solar Observatories (Harvard University Press, 1999)"
+   },
+   "en": {
+    "titre": "Churches turned into observatories",
+    "accroche": "To calculate the date of Easter, a hole was made in the vault of great churches and a line was drawn on the floor.",
+    "texte": "Easter depends on spring and on the Moon: to fix its date properly, the exact length of the year has to be known. And a great church is an ideal instrument, dark, stable and very tall. In 1655, in Bologna, the astronomer Giovanni Domenico Cassini had a small hole made in the vault of the Basilica of San Petronio.\n\nEvery day at noon, a disc of sunlight comes to rest on a brass line nearly 67 metres long, set into the paving. Its position changes with the seasons. Thanks to it, Cassini measured the Sun's course with a precision never achieved before. Other “meridian lines” exist in Rome, Florence and Paris.",
+    "source": "J. L. Heilbron, The Sun in the Church: Cathedrals as Solar Observatories (Harvard University Press, 1999)"
+   }
+  },
+  {
+   "id": "capharnaum-maison-pierre",
+   "fr": {
+    "titre": "La maison de Pierre à Capharnaüm",
+    "accroche": "Sous une église en ruine, au bord du lac de Galilée, des archéologues ont retrouvé une maison de pêcheurs vénérée dès les premiers siècles.",
+    "texte": "Les Évangiles racontent que Jésus logeait à Capharnaüm chez Simon-Pierre, et qu'il y a guéri sa belle-mère. En 1968, les franciscains Virgilio Corbo et Stanislao Loffreda fouillent les ruines d'une église octogonale du Ve siècle, à quelques pas de la synagogue.\n\nDessous, ils découvrent un groupe de maisons simples du Ier siècle, en pierre noire de basalte. L'une des pièces a été traitée à part très tôt : ses murs ont été enduits plusieurs fois, et couverts d'inscriptions chrétiennes en plusieurs langues. Des pèlerins anciens disaient déjà avoir vu là « la maison du prince des apôtres ».",
+    "source": "V. Corbo, Cafarnao I. Gli edifici della città (Studium Biblicum Franciscanum, 1975) ; Custodie de Terre Sainte, « Capharnaüm »"
+   },
+   "es": {
+    "titre": "La casa de Pedro en Cafarnaún",
+    "accroche": "Bajo una iglesia en ruinas, a orillas del lago de Galilea, unos arqueólogos encontraron una casa de pescadores venerada desde los primeros siglos.",
+    "texte": "Los Evangelios cuentan que Jesús se alojaba en Cafarnaún en casa de Simón Pedro, y que allí curó a su suegra. En 1968, los franciscanos Virgilio Corbo y Stanislao Loffreda excavan las ruinas de una iglesia octogonal del siglo V, a pocos pasos de la sinagoga.\n\nDebajo descubren un grupo de casas sencillas del siglo I, de piedra negra de basalto. Una de las habitaciones recibió muy pronto un trato especial: sus paredes fueron revocadas varias veces y cubiertas de inscripciones cristianas en varias lenguas. Antiguos peregrinos decían ya haber visto allí «la casa del príncipe de los apóstoles».",
+    "source": "V. Corbo, Cafarnao I. Gli edifici della città (Studium Biblicum Franciscanum, 1975); Custodia de Tierra Santa, «Cafarnaún»"
+   },
+   "en": {
+    "titre": "Peter's house in Capernaum",
+    "accroche": "Beneath a ruined church on the shore of the Sea of Galilee, archaeologists found a fisherman's house venerated from the earliest centuries.",
+    "texte": "The Gospels tell us that Jesus stayed in Capernaum at the home of Simon Peter, and that he healed Peter's mother-in-law there. In 1968 the Franciscans Virgilio Corbo and Stanislao Loffreda excavated the ruins of a fifth-century octagonal church, a few steps from the synagogue.\n\nBeneath it they found a group of simple first-century houses built of black basalt. One of the rooms was set apart very early: its walls were plastered several times and covered with Christian inscriptions in several languages. Early pilgrims already said they had seen there “the house of the prince of the apostles”.",
+    "source": "V. Corbo, Cafarnao I. Gli edifici della città (Studium Biblicum Franciscanum, 1975); Custody of the Holy Land, “Capernaum”"
+   }
+  },
+  {
+   "id": "linceul-turin",
+   "fr": {
+    "titre": "Le mystère du linceul de Turin",
+    "accroche": "Ce grand drap de lin porte l'image d'un homme crucifié. Les scientifiques l'étudient depuis plus d'un siècle, sans avoir tout expliqué.",
+    "texte": "Conservé à Turin, le linceul mesure plus de quatre mètres de long. On y distingue, de face et de dos, la silhouette d'un homme portant les marques d'une flagellation et d'une crucifixion. En 1988, trois laboratoires ont daté le tissu au carbone 14 : entre 1260 et 1390. D'autres chercheurs discutent ce résultat, et personne n'a su reproduire exactement l'image.\n\nL'Église, elle, ne se prononce pas sur son authenticité. Jean-Paul II a rappelé en 1998 que ce n'est pas une question de foi, et qu'elle confie aux scientifiques le soin de continuer à chercher. Pour beaucoup, ce drap reste une aide pour méditer la Passion.",
+    "source": "P. E. Damon et al., « Radiocarbon dating of the Shroud of Turin », Nature 337 (1989) ; Jean-Paul II, discours à Turin (24 mai 1998)"
+   },
+   "es": {
+    "titre": "El misterio de la Sábana Santa de Turín",
+    "accroche": "Este gran lienzo de lino lleva la imagen de un hombre crucificado. Los científicos lo estudian desde hace más de un siglo, sin haberlo explicado todo.",
+    "texte": "Conservada en Turín, la sábana mide más de cuatro metros de largo. En ella se distingue, de frente y de espaldas, la silueta de un hombre con las marcas de una flagelación y de una crucifixión. En 1988, tres laboratorios fecharon el tejido con carbono 14: entre 1260 y 1390. Otros investigadores discuten ese resultado, y nadie ha sabido reproducir exactamente la imagen.\n\nLa Iglesia, por su parte, no se pronuncia sobre su autenticidad. Juan Pablo II recordó en 1998 que no es una cuestión de fe, y que ella confía a los científicos la tarea de seguir investigando. Para muchos, este lienzo sigue siendo una ayuda para meditar la Pasión.",
+    "source": "P. E. Damon et al., «Radiocarbon dating of the Shroud of Turin», Nature 337 (1989); Juan Pablo II, discurso en Turín (24 de mayo de 1998)"
+   },
+   "en": {
+    "titre": "The mystery of the Shroud of Turin",
+    "accroche": "This large linen cloth bears the image of a crucified man. Scientists have studied it for more than a century without explaining everything.",
+    "texte": "Kept in Turin, the shroud is more than four metres long. On it can be made out, front and back, the outline of a man bearing the marks of a scourging and a crucifixion. In 1988 three laboratories carbon-dated the cloth: between 1260 and 1390. Other researchers dispute that result, and nobody has managed to reproduce the image exactly.\n\nThe Church, for her part, makes no pronouncement on its authenticity. John Paul II recalled in 1998 that this is not a matter of faith, and that she entrusts to scientists the task of continuing to investigate. For many, this cloth remains a help in meditating on the Passion.",
+    "source": "P. E. Damon et al., “Radiocarbon dating of the Shroud of Turin”, Nature 337 (1989); John Paul II, address in Turin (24 May 1998)"
+   }
+  },
+  {
+   "id": "academie-sciences",
+   "fr": {
+    "titre": "L'académie où le pape invite les savants",
+    "accroche": "Au Vatican, une académie réunit quatre-vingts des plus grands scientifiques du monde, quelle que soit leur religion.",
+    "texte": "Son histoire commence en 1603, à Rome, avec l'Académie des Lynx, l'une des toutes premières sociétés scientifiques au monde : Galilée en a été membre. Refondée par le pape Pie XI en 1936, elle s'appelle aujourd'hui l'Académie pontificale des sciences et siège dans une villa des jardins du Vatican.\n\nSes quatre-vingts membres sont nommés à vie par le pape pour leur seule valeur scientifique : ils peuvent être catholiques, d'une autre religion ou sans religion. Plusieurs dizaines de prix Nobel en ont fait partie, comme Max Planck ou Niels Bohr, ainsi que le physicien Stephen Hawking. Ils y débattent librement du climat, de la médecine ou des origines de l'univers.",
+    "source": "Académie pontificale des sciences, « Histoire » et liste des académiciens ; Pie XI, motu proprio In multis solaciis (28 octobre 1936)"
+   },
+   "es": {
+    "titre": "La academia donde el papa invita a los científicos",
+    "accroche": "En el Vaticano, una academia reúne a ochenta de los mayores científicos del mundo, sea cual sea su religión.",
+    "texte": "Su historia empieza en 1603, en Roma, con la Academia de los Linces, una de las primeras sociedades científicas del mundo: Galileo fue miembro de ella. Refundada por el papa Pío XI en 1936, hoy se llama Pontificia Academia de las Ciencias y tiene su sede en una villa de los jardines vaticanos.\n\nSus ochenta miembros son nombrados de por vida por el papa únicamente por su valor científico: pueden ser católicos, de otra religión o sin religión. Varias decenas de premios Nobel han formado parte de ella, como Max Planck o Niels Bohr, y también el físico Stephen Hawking. Allí debaten libremente sobre el clima, la medicina o los orígenes del universo.",
+    "source": "Pontificia Academia de las Ciencias, «Historia» y lista de académicos; Pío XI, motu proprio In multis solaciis (28 de octubre de 1936)"
+   },
+   "en": {
+    "titre": "The academy where the pope invites scientists",
+    "accroche": "In the Vatican, an academy brings together eighty of the world's greatest scientists, whatever their religion.",
+    "texte": "Its story begins in 1603, in Rome, with the Academy of the Lynxes, one of the very first scientific societies in the world: Galileo was a member. Refounded by Pope Pius XI in 1936, it is now called the Pontifical Academy of Sciences and meets in a villa in the Vatican gardens.\n\nIts eighty members are appointed for life by the pope solely for their scientific merit: they may be Catholic, of another religion or of none. Several dozen Nobel laureates have belonged to it, such as Max Planck and Niels Bohr, as did the physicist Stephen Hawking. There they freely debate climate, medicine or the origins of the universe.",
+    "source": "Pontifical Academy of Sciences, “History” and list of academicians; Pius XI, motu proprio In multis solaciis (28 October 1936)"
+   }
+  },
+  {
+   "id": "ketef-hinnom",
+   "fr": {
+    "titre": "Le plus vieux texte biblique tient dans la main",
+    "accroche": "Deux minuscules rouleaux d'argent, trouvés à Jérusalem en 1979, portent une bénédiction de la Bible gravée il y a 2 600 ans.",
+    "texte": "En 1979, l'archéologue Gabriel Barkay fouille d'anciens tombeaux creusés dans la roche, à Ketef Hinnom, face aux remparts de Jérusalem. Parmi des centaines d'objets, on trouve deux petits cylindres d'argent, longs de deux ou trois centimètres à peine. Ce sont des feuilles roulées, si fragiles qu'on mettra trois ans à les dérouler.\n\nOn y lit, gravée en hébreu ancien, la bénédiction du livre des Nombres : que le Seigneur te bénisse et te garde, qu'il fasse briller sur toi son visage (Nb 6, 24-26). Ces amulettes datent d'environ 600 avant Jésus-Christ. C'est le plus ancien passage de la Bible jamais retrouvé, et l'Église prononce encore ces mots aujourd'hui.",
+    "source": "Musée d'Israël (Jérusalem), amulettes de Ketef Hinnom ; G. Barkay et al., Bulletin of the American Schools of Oriental Research 334 (2004)"
+   },
+   "es": {
+    "titre": "El texto bíblico más antiguo cabe en la mano",
+    "accroche": "Dos diminutos rollos de plata, hallados en Jerusalén en 1979, llevan una bendición de la Biblia grabada hace 2600 años.",
+    "texte": "En 1979, el arqueólogo Gabriel Barkay excava unas antiguas tumbas talladas en la roca, en Ketef Hinnom, frente a las murallas de Jerusalén. Entre cientos de objetos aparecen dos pequeños cilindros de plata, de apenas dos o tres centímetros de largo. Son láminas enrolladas, tan frágiles que harán falta tres años para desenrollarlas.\n\nEn ellas se lee, grabada en hebreo antiguo, la bendición del libro de los Números: que el Señor te bendiga y te guarde, que haga brillar su rostro sobre ti (Nm 6, 24-26). Estos amuletos son de hacia el año 600 antes de Cristo. Es el pasaje de la Biblia más antiguo que se ha encontrado, y la Iglesia sigue pronunciando esas palabras hoy.",
+    "source": "Museo de Israel (Jerusalén), amuletos de Ketef Hinnom; G. Barkay et al., Bulletin of the American Schools of Oriental Research 334 (2004)"
+   },
+   "en": {
+    "titre": "The oldest biblical text fits in your hand",
+    "accroche": "Two tiny silver scrolls, found in Jerusalem in 1979, bear a blessing from the Bible engraved 2,600 years ago.",
+    "texte": "In 1979 the archaeologist Gabriel Barkay was excavating ancient rock-cut tombs at Ketef Hinnom, facing the walls of Jerusalem. Among hundreds of objects were two small silver cylinders, barely two or three centimetres long. They were rolled-up sheets, so fragile that it took three years to unroll them.\n\nEngraved on them in ancient Hebrew is the blessing from the book of Numbers: may the Lord bless you and keep you, may he make his face shine upon you (Num 6:24-26). These amulets date from about 600 BC. It is the oldest passage of the Bible ever found, and the Church still speaks these words today.",
+    "source": "Israel Museum (Jerusalem), Ketef Hinnom amulets; G. Barkay et al., Bulletin of the American Schools of Oriental Research 334 (2004)"
+   }
+  },
+  {
+   "id": "quinine-jesuites",
+   "fr": {
+    "titre": "Le remède rapporté par les jésuites",
+    "accroche": "Le premier médicament efficace contre le paludisme est arrivé en Europe dans les bagages de missionnaires.",
+    "texte": "Au XVIIe siècle, le paludisme tue partout, y compris à Rome, entourée de marais. Au Pérou, des jésuites apprennent des peuples des Andes qu'une écorce d'arbre, le quinquina, fait tomber les fièvres. Vers 1630, ils en envoient en Europe.\n\nÀ Rome, le cardinal jésuite Juan de Lugo la fait distribuer gratuitement aux malades pauvres : on l'appelle « la poudre des jésuites ». Elle a longtemps suscité la méfiance, avant de s'imposer. En 1820, deux pharmaciens français en isolent la substance active, la quinine, qui a sauvé des millions de vies et reste utilisée aujourd'hui.",
+    "source": "Encyclopædia Britannica, « Cinchona » et « Quinine » ; Organisation mondiale de la santé, lignes directrices sur le paludisme"
+   },
+   "es": {
+    "titre": "El remedio que trajeron los jesuitas",
+    "accroche": "El primer medicamento eficaz contra la malaria llegó a Europa en el equipaje de unos misioneros.",
+    "texte": "En el siglo XVII, la malaria mata en todas partes, incluso en Roma, rodeada de pantanos. En el Perú, unos jesuitas aprenden de los pueblos de los Andes que la corteza de un árbol, la quina, hace bajar las fiebres. Hacia 1630 la envían a Europa.\n\nEn Roma, el cardenal jesuita Juan de Lugo la hace repartir gratis entre los enfermos pobres: la llaman «el polvo de los jesuitas». Durante mucho tiempo despertó desconfianza, antes de imponerse. En 1820, dos farmacéuticos franceses aíslan su sustancia activa, la quinina, que ha salvado millones de vidas y se sigue usando hoy.",
+    "source": "Encyclopædia Britannica, «Cinchona» y «Quinine»; Organización Mundial de la Salud, directrices sobre la malaria"
+   },
+   "en": {
+    "titre": "The remedy the Jesuits brought back",
+    "accroche": "The first effective medicine against malaria reached Europe in the luggage of missionaries.",
+    "texte": "In the seventeenth century malaria killed everywhere, including in Rome, which was surrounded by marshes. In Peru, Jesuits learned from the peoples of the Andes that the bark of a tree, cinchona, brought fevers down. Around 1630 they sent some to Europe.\n\nIn Rome the Jesuit cardinal Juan de Lugo had it given out free to the sick poor: it was called “Jesuits' powder”. For a long time it met with suspicion before winning acceptance. In 1820 two French pharmacists isolated its active substance, quinine, which has saved millions of lives and is still used today.",
+    "source": "Encyclopædia Britannica, “Cinchona” and “Quinine”; World Health Organization, guidelines for malaria"
+   }
+  },
+  {
+   "id": "synagogue-magdala",
+   "fr": {
+    "titre": "La synagogue de Marie Madeleine",
+    "accroche": "En 2009, on a découvert à Magdala, le village de Marie Madeleine, une synagogue du temps de Jésus.",
+    "texte": "Magdala était un port de pêche au bord du lac de Galilée. En 2009, avant la construction d'un centre d'accueil pour pèlerins, des fouilles obligatoires révèlent une synagogue du Ier siècle : des bancs de pierre, des mosaïques, des murs peints.\n\nAu milieu de la salle, une pierre sculptée montre un chandelier à sept branches, l'une des plus anciennes représentations connues de celui du Temple de Jérusalem. Les Évangiles disent que Jésus enseignait dans les synagogues de toute la Galilée (Mt 4, 23). Il a très probablement connu celle-ci, à quelques kilomètres de Capharnaüm.",
+    "source": "Autorité des antiquités d'Israël, fouilles de Magdala (D. Avshalom-Gorni et A. Najar, 2009) ; Biblical Archaeology Society, « The Magdala Stone »"
+   },
+   "es": {
+    "titre": "La sinagoga de María Magdalena",
+    "accroche": "En 2009 se descubrió en Magdala, el pueblo de María Magdalena, una sinagoga del tiempo de Jesús.",
+    "texte": "Magdala era un puerto de pesca a orillas del lago de Galilea. En 2009, antes de construir un centro de acogida para peregrinos, unas excavaciones obligatorias revelan una sinagoga del siglo I: bancos de piedra, mosaicos, paredes pintadas.\n\nEn medio de la sala, una piedra tallada muestra un candelabro de siete brazos, una de las representaciones más antiguas que se conocen del que había en el Templo de Jerusalén. Los Evangelios dicen que Jesús enseñaba en las sinagogas de toda Galilea (Mt 4, 23). Muy probablemente conoció esta, a pocos kilómetros de Cafarnaún.",
+    "source": "Autoridad de Antigüedades de Israel, excavaciones de Magdala (D. Avshalom-Gorni y A. Najar, 2009); Biblical Archaeology Society, «The Magdala Stone»"
+   },
+   "en": {
+    "titre": "Mary Magdalene's synagogue",
+    "accroche": "In 2009 a synagogue from the time of Jesus was discovered at Magdala, the village of Mary Magdalene.",
+    "texte": "Magdala was a fishing port on the shore of the Sea of Galilee. In 2009, before a pilgrim centre was built, the required excavations revealed a first-century synagogue: stone benches, mosaics, painted walls.\n\nIn the middle of the hall, a carved stone shows a seven-branched lampstand, one of the oldest known depictions of the one in the Temple of Jerusalem. The Gospels say that Jesus taught in the synagogues throughout Galilee (Mt 4:23). He very probably knew this one, a few kilometres from Capernaum.",
+    "source": "Israel Antiquities Authority, Magdala excavations (D. Avshalom-Gorni and A. Najar, 2009); Biblical Archaeology Society, “The Magdala Stone”"
+   }
+  },
+  {
+   "id": "abbe-epee-sourds",
+   "fr": {
+    "titre": "Le prêtre qui écoutait avec les yeux",
+    "accroche": "Vers 1760, un prêtre parisien a ouvert la première école gratuite pour enfants sourds, en leur enseignant par signes.",
+    "texte": "Charles-Michel de l'Épée, prêtre à Paris, rencontre un jour deux sœurs jumelles sourdes qui communiquent entre elles par gestes. À l'époque, on croit souvent les sourds incapables d'apprendre. Lui comprend que les signes sont une vraie langue, et qu'on peut tout enseigner par elle.\n\nVers 1760, il ouvre chez lui une école gratuite, où il accueille des enfants de toutes origines et qu'il finance de sa poche. Il y invite le public pour montrer ce que ses élèves savent faire. Après sa mort, son école devient l'Institut national de jeunes sourds de Paris. Ses anciens élèves ont porté sa méthode jusqu'aux États-Unis.",
+    "source": "Institut national de jeunes sourds de Paris, « Histoire » ; Encyclopædia Britannica, « Charles-Michel, abbé de l'Épée »"
+   },
+   "es": {
+    "titre": "El sacerdote que escuchaba con los ojos",
+    "accroche": "Hacia 1760, un sacerdote parisino abrió la primera escuela gratuita para niños sordos, enseñándoles por señas.",
+    "texte": "Charles-Michel de l'Épée, sacerdote en París, conoce un día a dos hermanas gemelas sordas que se comunican entre sí con gestos. En aquella época se cree a menudo que los sordos no pueden aprender. Él comprende que las señas son una verdadera lengua, y que con ella se puede enseñar todo.\n\nHacia 1760 abre en su casa una escuela gratuita, donde recibe a niños de todo origen y que paga de su bolsillo. Invita al público para mostrar lo que saben hacer sus alumnos. Tras su muerte, su escuela se convierte en el Instituto Nacional de Jóvenes Sordos de París. Sus antiguos alumnos llevaron su método hasta Estados Unidos.",
+    "source": "Institut national de jeunes sourds de Paris, «Histoire»; Encyclopædia Britannica, «Charles-Michel, abbé de l'Épée»"
+   },
+   "en": {
+    "titre": "The priest who listened with his eyes",
+    "accroche": "Around 1760 a Paris priest opened the first free school for deaf children, teaching them through signs.",
+    "texte": "Charles-Michel de l'Épée, a priest in Paris, one day met twin sisters who were deaf and communicated with each other by gestures. At the time, deaf people were often thought incapable of learning. He understood that signs were a real language, and that anything could be taught through it.\n\nAround 1760 he opened a free school in his own home, where he welcomed children of every background and which he paid for himself. He invited the public in to show what his pupils could do. After his death his school became the National Institute for Deaf Children in Paris. His former pupils carried his method as far as the United States.",
+    "source": "Institut national de jeunes sourds de Paris, “Histoire”; Encyclopædia Britannica, “Charles-Michel, abbé de l'Épée”"
+   }
+  },
+  {
+   "id": "stele-tel-dan",
+   "fr": {
+    "titre": "Le roi David sur une pierre brisée",
+    "accroche": "En 1993, une pierre retrouvée dans le nord d'Israël a livré la première mention du roi David en dehors de la Bible.",
+    "texte": "Jusque-là, aucun document ancien, hors de la Bible, ne parlait de David, et certains se demandaient s'il avait vraiment existé. En 1993, sur le site de Tel Dan, l'équipe de l'archéologue Avraham Biran remarque des lettres gravées sur une pierre remployée dans un mur.\n\nC'est le fragment d'une stèle du IXe siècle avant Jésus-Christ. Un roi araméen s'y vante de ses victoires sur deux voisins, dont le roi de la « maison de David » : la dynastie fondée par David. Un siècle et demi après lui, ses ennemis connaissaient donc encore son nom. Or c'est de cette lignée que les Évangiles font descendre Jésus.",
+    "source": "Musée d'Israël (Jérusalem), stèle de Tel Dan ; A. Biran et J. Naveh, Israel Exploration Journal 43 (1993)"
+   },
+   "es": {
+    "titre": "El rey David en una piedra rota",
+    "accroche": "En 1993, una piedra hallada en el norte de Israel ofreció la primera mención del rey David fuera de la Biblia.",
+    "texte": "Hasta entonces, ningún documento antiguo, fuera de la Biblia, hablaba de David, y algunos se preguntaban si había existido de verdad. En 1993, en el yacimiento de Tel Dan, el equipo del arqueólogo Avraham Biran observa unas letras grabadas en una piedra reutilizada en un muro.\n\nEs el fragmento de una estela del siglo IX antes de Cristo. Un rey arameo se jacta en ella de sus victorias sobre dos vecinos, entre ellos el rey de la «casa de David»: la dinastía fundada por David. Siglo y medio después de él, sus enemigos seguían conociendo su nombre. Y de ese linaje hacen descender los Evangelios a Jesús.",
+    "source": "Museo de Israel (Jerusalén), estela de Tel Dan; A. Biran y J. Naveh, Israel Exploration Journal 43 (1993)"
+   },
+   "en": {
+    "titre": "King David on a broken stone",
+    "accroche": "In 1993 a stone found in northern Israel yielded the first mention of King David outside the Bible.",
+    "texte": "Until then, no ancient document outside the Bible spoke of David, and some wondered whether he had really existed. In 1993, at the site of Tel Dan, the team of the archaeologist Avraham Biran noticed letters carved on a stone reused in a wall.\n\nIt was a fragment of a stele from the ninth century BC. On it an Aramean king boasts of his victories over two neighbours, one of them the king of the “house of David”: the dynasty founded by David. A century and a half after him, his enemies still knew his name. And it is from this line that the Gospels trace the descent of Jesus.",
+    "source": "Israel Museum (Jerusalem), Tel Dan stele; A. Biran and J. Naveh, Israel Exploration Journal 43 (1993)"
+   }
+  },
+  {
+   "id": "archives-vatican",
+   "fr": {
+    "titre": "Quatre-vingt-cinq kilomètres de mémoire",
+    "accroche": "Les archives du Vatican conservent douze siècles de documents, sur des rayonnages qui mis bout à bout feraient 85 kilomètres.",
+    "texte": "Fondées en 1612 par le pape Paul V, les Archives du Vatican rassemblent les lettres, registres et traités reçus ou envoyés par les papes depuis le Moyen Âge. On y trouve les actes du procès de Galilée, ou la lettre de 1530 par laquelle des nobles anglais demandent l'annulation du mariage du roi Henri VIII, avec ses dizaines de sceaux de cire.\n\nOn les a longtemps appelées « archives secrètes », un mot qui voulait simplement dire « privées », celles du pape. Depuis 1881, les chercheurs de toutes convictions peuvent y travailler. En 2019, le pape François les a renommées Archives apostoliques du Vatican, pour éviter tout malentendu.",
+    "source": "Archives apostoliques du Vatican, « Histoire » ; Pape François, motu proprio du 22 octobre 2019"
+   },
+   "es": {
+    "titre": "Ochenta y cinco kilómetros de memoria",
+    "accroche": "Los archivos del Vaticano conservan doce siglos de documentos, en estanterías que puestas en fila medirían 85 kilómetros.",
+    "texte": "Fundado en 1612 por el papa Pablo V, el Archivo Vaticano reúne las cartas, registros y tratados recibidos o enviados por los papas desde la Edad Media. Allí están las actas del proceso de Galileo, o la carta de 1530 en la que unos nobles ingleses piden la anulación del matrimonio del rey Enrique VIII, con sus decenas de sellos de cera.\n\nDurante mucho tiempo se le llamó «archivo secreto», una palabra que solo quería decir «privado», el del papa. Desde 1881, investigadores de todas las convicciones pueden trabajar en él. En 2019, el papa Francisco le cambió el nombre por Archivo Apostólico Vaticano, para evitar malentendidos.",
+    "source": "Archivo Apostólico Vaticano, «Historia»; Papa Francisco, motu proprio del 22 de octubre de 2019"
+   },
+   "en": {
+    "titre": "Eighty-five kilometres of memory",
+    "accroche": "The Vatican's archives hold twelve centuries of documents, on shelves that would stretch for 85 kilometres if placed end to end.",
+    "texte": "Founded in 1612 by Pope Paul V, the Vatican Archives bring together the letters, registers and treaties received or sent by the popes since the Middle Ages. They hold the records of Galileo's trial, and the letter of 1530 in which English nobles ask for the annulment of King Henry VIII's marriage, with its dozens of wax seals.\n\nThey were long called the “Secret Archives”, a word that simply meant “private”, the pope's own. Since 1881 researchers of every conviction have been able to work there. In 2019 Pope Francis renamed them the Vatican Apostolic Archive, to avoid any misunderstanding.",
+    "source": "Vatican Apostolic Archive, “History”; Pope Francis, motu proprio of 22 October 2019"
+   }
+  },
+  {
+   "id": "arche-ararat",
+   "fr": {
+    "titre": "A-t-on retrouvé l'arche de Noé ?",
+    "accroche": "Depuis des siècles, des explorateurs cherchent l'arche sur le mont Ararat. La science, pour l'instant, n'a rien confirmé.",
+    "texte": "La Genèse raconte que l'arche s'est posée sur les montagnes d'Ararat, une région de l'est de la Turquie. Beaucoup d'expéditions y sont montées. En 1955, le Français Fernand Navarra en a rapporté une poutre taillée de main d'homme. Analysé dans plusieurs laboratoires, ce bois s'est révélé dater du début du Moyen Âge : peut-être les restes d'un ancien sanctuaire. Les annonces plus récentes n'ont pas convaincu les archéologues.\n\nUne autre découverte, elle, est certaine : en 1872, on a déchiffré au British Museum une tablette d'argile de Mésopotamie qui raconte, elle aussi, un grand déluge. Pour l'Église, l'essentiel du récit est ailleurs : Dieu ne renonce pas à l'humanité et fait alliance avec elle.",
+    "source": "British Museum, « The Flood Tablet » (tablette XI de l'épopée de Gilgamesh) ; R. E. Taylor et R. Berger, datations au carbone 14 (université de Californie, 1977)"
+   },
+   "es": {
+    "titre": "¿Se ha encontrado el arca de Noé?",
+    "accroche": "Desde hace siglos, exploradores buscan el arca en el monte Ararat. La ciencia, por ahora, no ha confirmado nada.",
+    "texte": "El Génesis cuenta que el arca se posó sobre los montes de Ararat, una región del este de Turquía. Muchas expediciones han subido allí. En 1955, el francés Fernand Navarra trajo una viga labrada por mano humana. Analizada en varios laboratorios, esa madera resultó ser de comienzos de la Edad Media: quizá los restos de un antiguo santuario. Los anuncios más recientes no han convencido a los arqueólogos.\n\nOtro descubrimiento, en cambio, es seguro: en 1872 se descifró en el Museo Británico una tablilla de arcilla de Mesopotamia que también cuenta un gran diluvio. Para la Iglesia, lo esencial del relato está en otra parte: Dios no renuncia a la humanidad y hace alianza con ella.",
+    "source": "British Museum, «The Flood Tablet» (tablilla XI de la epopeya de Gilgamesh); R. E. Taylor y R. Berger, dataciones con carbono 14 (Universidad de California, 1977)"
+   },
+   "en": {
+    "titre": "Has Noah's ark been found?",
+    "accroche": "For centuries explorers have searched for the ark on Mount Ararat. So far, science has confirmed nothing.",
+    "texte": "Genesis says that the ark came to rest on the mountains of Ararat, a region in eastern Turkey. Many expeditions have climbed there. In 1955 the Frenchman Fernand Navarra brought back a beam shaped by human hands. Analysed in several laboratories, the wood turned out to date from the early Middle Ages: perhaps the remains of an old shrine. More recent announcements have not convinced archaeologists.\n\nAnother discovery, however, is certain: in 1872 a clay tablet from Mesopotamia was deciphered at the British Museum, and it too tells of a great flood. For the Church, the heart of the story lies elsewhere: God does not give up on humanity and makes a covenant with it.",
+    "source": "British Museum, “The Flood Tablet” (tablet XI of the Epic of Gilgamesh); R. E. Taylor and R. Berger, carbon-14 dating (University of California, 1977)"
    }
   }
  ]
