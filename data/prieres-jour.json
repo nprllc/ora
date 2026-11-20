@@ -8742,6 +8742,788 @@
       ]
      }
     }
+   },
+   {
+    "id": "ps9-3",
+    "fr": "Je me réjouirai et je tressaillerai en toi, je chanterai ton nom, ô Très-Haut.",
+    "es": "En Ti me alegraré y saltaré de gozo, cantaré salmos a tu Nombre, oh Altísimo.",
+    "en": "I will be glad, and rejoice in thee: I will sing to thy name, O thou most high.",
+    "src": {
+     "fr": "Ps 9, 3",
+     "es": "Sal 9, 3",
+     "en": "Ps 9:3"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 9,
+      "v": [
+       3
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 9,
+      "v": [
+       3
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 9,
+      "v": [
+       3
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps25-4",
+    "fr": "Seigneur, fais-moi connaître tes voies, enseigne-moi tes sentiers.",
+    "es": "Muéstrame tus caminos, oh Señor, indícame tus sendas.",
+    "en": "Shew, O Lord, thy ways to me, and teach me thy paths.",
+    "src": {
+     "fr": "Ps 25, 4",
+     "es": "Sal 25, 4",
+     "en": "Ps 25:4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 25,
+      "v": [
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps36-10",
+    "fr": "Auprès de toi est la source de la vie, et dans ta lumière nous voyons la lumière.",
+    "es": "En Ti está la fuente de la vida, y en tu luz vemos la luz.",
+    "en": "With thee is the fountain of life; and in thy light we shall see light.",
+    "src": {
+     "fr": "Ps 36, 10",
+     "es": "Sal 36, 10",
+     "en": "Ps 36:10"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 36,
+      "v": [
+       10
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 36,
+      "v": [
+       10
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 36,
+      "v": [
+       10
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps51-12",
+    "fr": "Ô Dieu, crée en moi un cœur pur.",
+    "es": "Crea en mí, oh Dios, un corazón sencillo.",
+    "en": "Create a clean heart in me, O God.",
+    "src": {
+     "fr": "Ps 51, 12",
+     "es": "Sal 51, 12",
+     "en": "Ps 51:12"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       12
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       12
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 51,
+      "v": [
+       12
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps59-17",
+    "fr": "Je chanterai ta force, et le matin je célébrerai ta bonté.",
+    "es": "Yo cantaré tu potencia, y desde la mañana saltaré de gozo por tu misericordia.",
+    "en": "I will sing thy strength: and will extol thy mercy in the morning.",
+    "src": {
+     "fr": "Ps 59, 17",
+     "es": "Sal 59, 17",
+     "en": "Ps 59:17"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 59,
+      "v": [
+       17
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 59,
+      "v": [
+       17
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 59,
+      "v": [
+       17
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps74-16",
+    "fr": "À toi est le jour, à toi est la nuit ; c’est toi qui as créé la lune et le soleil.",
+    "es": "Tuyo es el día y tuya la noche; Tú pusiste los astros y el sol.",
+    "en": "Thine is the day, and thine is the night: thou hast made the morning light and the sun.",
+    "src": {
+     "fr": "Ps 74, 16",
+     "es": "Sal 74, 16",
+     "en": "Ps 74:16"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 74,
+      "v": [
+       16
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 74,
+      "v": [
+       16
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 74,
+      "v": [
+       16
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps86-11",
+    "fr": "Enseigne-moi tes voies, Seigneur ; je veux marcher dans ta fidélité.",
+    "es": "Enséñame, Señor, tu camino para que ande en tu verdad.",
+    "en": "Conduct me, O Lord, in thy way, and I will walk in thy truth.",
+    "src": {
+     "fr": "Ps 86, 11",
+     "es": "Sal 86, 11",
+     "en": "Ps 86:11"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       11
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       11
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       11
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps90-14",
+    "fr": "Rassasie-nous le matin de ta bonté, et nous serons tous nos jours dans la joie et l’allégresse.",
+    "es": "Sácianos con tu misericordia desde temprano, para que nos gocemos y nos alegremos todos nuestros días.",
+    "en": "We are filled in the morning with thy mercy: and we have rejoiced, and are delighted all our days.",
+    "src": {
+     "fr": "Ps 90, 14",
+     "es": "Sal 90, 14",
+     "en": "Ps 90:14"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 90,
+      "v": [
+       14
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 90,
+      "v": [
+       14
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 90,
+      "v": [
+       14
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps92-2",
+    "fr": "Il est bon de louer le Seigneur, et de célébrer ton nom, ô Très-Haut.",
+    "es": "Bueno es alabar al Señor, y cantar a tu Nombre, oh Altísimo.",
+    "en": "It is good to give praise to the Lord: and to sing to thy name, O most High.",
+    "src": {
+     "fr": "Ps 92, 2",
+     "es": "Sal 92, 2",
+     "en": "Ps 92:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps92-5",
+    "fr": "Tu me réjouis, Seigneur, par tes œuvres, et je tressaille devant les ouvrages de tes mains.",
+    "es": "Tú, Señor, me deleitas con tus hechos, y me gozo en las obras de tus manos.",
+    "en": "Thou hast given me, O Lord, a delight in thy doings: and in the works of thy hands I shall rejoice.",
+    "src": {
+     "fr": "Ps 92, 5",
+     "es": "Sal 92, 5",
+     "en": "Ps 92:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 92,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps108-5",
+    "fr": "Ta bonté s’élève au-dessus des cieux, et ta fidélité jusqu’aux nues.",
+    "es": "Tu misericordia es más grande que los cielos, y tu fidelidad hasta las nubes.",
+    "en": "Thy mercy is great above the heavens: and thy truth even unto the clouds.",
+    "src": {
+     "fr": "Ps 108, 5",
+     "es": "Sal 108, 5",
+     "en": "Ps 108:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 108,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 108,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 108,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-18",
+    "fr": "Ouvre mes yeux, pour que je contemple les merveilles de ta loi.",
+    "es": "Quita el velo a mis ojos, para que descubra las maravillas de tu Ley.",
+    "en": "Open thou my eyes: and I will consider the wondrous things of thy law.",
+    "src": {
+     "fr": "Ps 119, 18",
+     "es": "Sal 119, 18",
+     "en": "Ps 119:18"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       18
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       18
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       18
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-73",
+    "fr": "Ce sont tes mains qui m’ont fait et qui m’ont façonné.",
+    "es": "Tus manos me hicieron y me formaron.",
+    "en": "Thy hands have made me and formed me.",
+    "src": {
+     "fr": "Ps 119, 73",
+     "es": "Sal 119, 73",
+     "en": "Ps 119:73"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       73
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       73
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       73
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-103",
+    "fr": "Que ta parole est douce à mon palais, plus que le miel à ma bouche !",
+    "es": "¡Cuan dulces son a mi paladar tus palabras! Mas que la miel a mi boca.",
+    "en": "How sweet are thy words to my palate! more than honey to my mouth.",
+    "src": {
+     "fr": "Ps 119, 103",
+     "es": "Sal 119, 103",
+     "en": "Ps 119:103"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       103
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       103
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       103
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps143-10",
+    "fr": "Apprends-moi à faire ta volonté, car tu es mon Dieu.",
+    "es": "Enséñame a hacer tu voluntad, porque Tú eres mi Dios.",
+    "en": "Teach me to do thy will, for thou art my God.",
+    "src": {
+     "fr": "Ps 143, 10",
+     "es": "Sal 143, 10",
+     "en": "Ps 143:10"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       10
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       10
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       10
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps145-10",
+    "fr": "Toutes tes œuvres te louent, Seigneur, et tes fidèles te bénissent.",
+    "es": "Todas tus obras te alabarán, Señor, y tus santos te bendecirán.",
+    "en": "Let all thy works, O Lord, praise thee: and let thy saints bless thee.",
+    "src": {
+     "fr": "Ps 145, 10",
+     "es": "Sal 145, 10",
+     "en": "Ps 145:10"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       10
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       10
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 145,
+      "v": [
+       10
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps146-2",
+    "fr": "Toute ma vie, je veux louer le Seigneur ; tant que je serai, je veux chanter mon Dieu.",
+    "es": "Toda mi vida alabaré al Señor; cantaré salmos a mi Dios mientras yo viva.",
+    "en": "In my life I will praise the Lord: I will sing to my God as long as I shall be.",
+    "src": {
+     "fr": "Ps 146, 2",
+     "es": "Sal 146, 2",
+     "en": "Ps 146:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 146,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 146,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 146,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-64",
+    "fr": "La terre est pleine de ta bonté, Seigneur.",
+    "es": "La tierra está llena de tu misericordia, oh Señor.",
+    "en": "The earth, O Lord, is full of thy mercy.",
+    "src": {
+     "fr": "Ps 119, 64",
+     "es": "Sal 119, 64",
+     "en": "Ps 119:64"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       64
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       64
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       64
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps16-11",
+    "fr": "Tu me feras connaître le sentier de la vie.",
+    "es": "Tú me harás conocer la senda de la vida.",
+    "en": "Thou hast made known to me the ways of life.",
+    "src": {
+     "fr": "Ps 16, 11",
+     "es": "Sal 16, 11",
+     "en": "Ps 16:11"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       11
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps28-7",
+    "fr": "Le Seigneur est ma force et mon bouclier ; en lui s’est confié mon cœur.",
+    "es": "El Señor es mi fortaleza y mi escudo; en Él confió mi corazón.",
+    "en": "The Lord is my helper and my protector: in him hath my heart confided.",
+    "src": {
+     "fr": "Ps 28, 7",
+     "es": "Sal 28, 7",
+     "en": "Ps 28:7"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 28,
+      "v": [
+       7
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 28,
+      "v": [
+       7
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 28,
+      "v": [
+       7
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-151",
+    "fr": "Tu es proche, Seigneur.",
+    "es": "Tú, Señor, estás cerca.",
+    "en": "Thou art near, O Lord.",
+    "src": {
+     "fr": "Ps 119, 151",
+     "es": "Sal 119, 151",
+     "en": "Ps 119:151"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       151
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       151
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       151
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps18-2",
+    "fr": "Je t’aime, Seigneur, ma force !",
+    "es": "Te amo, Señor, fortaleza mía.",
+    "en": "I will love thee, O Lord, my strength.",
+    "src": {
+     "fr": "Ps 18, 2",
+     "es": "Sal 18, 2",
+     "en": "Ps 18:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 18,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 18,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 18,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps143-8",
+    "fr": "Fais-moi de bonne heure sentir ta bonté, car c’est en toi que j’espère.",
+    "es": "Hazme sentir al punto tu misericordia, pues en Ti coloco mi confianza.",
+    "en": "Cause me to hear thy mercy in the morning; for in thee have I hoped.",
+    "src": {
+     "fr": "Ps 143, 8",
+     "es": "Sal 143, 8",
+     "en": "Ps 143:8"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       8
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       8
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 143,
+      "v": [
+       8
+      ]
+     }
+    }
    }
   ],
   "enfantSoir": [
@@ -9250,6 +10032,448 @@
       "c": 63,
       "v": [
        8
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps23-6",
+    "fr": "Le bonheur et la grâce m’accompagneront, tous les jours de ma vie.",
+    "es": "Bondad y misericordia me seguirán todos los días de mi vida.",
+    "en": "Thy mercy will follow me all the days of my life.",
+    "src": {
+     "fr": "Ps 23, 6",
+     "es": "Sal 23, 6",
+     "en": "Ps 23:6"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       6
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       6
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 23,
+      "v": [
+       6
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-55",
+    "fr": "La nuit je me rappelle ton nom, Seigneur.",
+    "es": "Durante la noche me acuerdo de tu nombre, oh Señor.",
+    "en": "In the night I have remembered thy name, O Lord.",
+    "src": {
+     "fr": "Ps 119, 55",
+     "es": "Sal 119, 55",
+     "en": "Ps 119:55"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       55
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       55
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       55
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps32-7",
+    "fr": "Tu es mon asile, tu me préserveras de la détresse.",
+    "es": "Tú para mí eres un refugio que me libra de la angustia.",
+    "en": "Thou art my refuge from the trouble which hath encompassed me.",
+    "src": {
+     "fr": "Ps 32, 7",
+     "es": "Sal 32, 7",
+     "en": "Ps 32:7"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 32,
+      "v": [
+       7
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 32,
+      "v": [
+       7
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 32,
+      "v": [
+       7
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps119-114",
+    "fr": "Tu es mon refuge et mon bouclier ; j’ai confiance en ta parole.",
+    "es": "Mi protector y mi escudo eres Tú; mi esperanza está en tu palabra.",
+    "en": "Thou art my helper and my protector: and in thy word I have greatly hoped.",
+    "src": {
+     "fr": "Ps 119, 114",
+     "es": "Sal 119, 114",
+     "en": "Ps 119:114"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       114
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       114
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 119,
+      "v": [
+       114
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps61-4",
+    "fr": "Tu es pour moi un refuge, une tour puissante.",
+    "es": "Eres mi refugio, la fuerte torre.",
+    "en": "Thou hast been my hope; a tower of strength.",
+    "src": {
+     "fr": "Ps 61, 4",
+     "es": "Sal 61, 4",
+     "en": "Ps 61:4"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       4
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       4
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 61,
+      "v": [
+       4
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps31-15",
+    "fr": "Je me confie en toi, Seigneur ; je dis : Tu es mon Dieu !",
+    "es": "Confío en Ti, Señor; digo: Tú eres mi Dios.",
+    "en": "I have put my trust in thee, O Lord: I said: Thou art my God.",
+    "src": {
+     "fr": "Ps 31, 15",
+     "es": "Sal 31, 15",
+     "en": "Ps 31:15"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       15
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       15
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 31,
+      "v": [
+       15
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps22-11",
+    "fr": "Depuis le sein de ma mère, c’est toi qui es mon Dieu.",
+    "es": "Desde el vientre de mi madre Tú eres mi Dios.",
+    "en": "From my mother's womb thou art my God.",
+    "src": {
+     "fr": "Ps 22, 11",
+     "es": "Sal 22, 11",
+     "en": "Ps 22:11"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 22,
+      "v": [
+       11
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 22,
+      "v": [
+       11
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 22,
+      "v": [
+       11
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps73-23",
+    "fr": "Je serai à jamais avec toi : tu m’as saisi la main droite.",
+    "es": "Yo estaré contigo siempre, Tú me has tomado de la mano derecha.",
+    "en": "I am always with thee.",
+    "src": {
+     "fr": "Ps 73, 23",
+     "es": "Sal 73, 23",
+     "en": "Ps 73:23"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 73,
+      "v": [
+       23
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 73,
+      "v": [
+       23
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 73,
+      "v": [
+       23
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps141-2",
+    "fr": "Que ma prière soit devant ta face comme l’encens.",
+    "es": "Como el incienso, suba hacia Ti mi oración.",
+    "en": "Let my prayer be directed as incense in thy sight.",
+    "src": {
+     "fr": "Ps 141, 2",
+     "es": "Sal 141, 2",
+     "en": "Ps 141:2"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       2
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       2
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 141,
+      "v": [
+       2
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps86-5",
+    "fr": "Tu es bon, Seigneur, et clément, et plein de compassion pour tous ceux qui t’invoquent.",
+    "es": "Tú eres un Señor bueno y pronto a perdonar, lleno de gracia para todos los que te invocan.",
+    "en": "Thou, O Lord, art sweet and mild: and plenteous in mercy to all that call upon thee.",
+    "src": {
+     "fr": "Ps 86, 5",
+     "es": "Sal 86, 5",
+     "en": "Ps 86:5"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       5
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       5
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 86,
+      "v": [
+       5
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps139-1",
+    "fr": "Seigneur, tu me sondes et tu me connais.",
+    "es": "Señor, Tú me penetras y me conoces.",
+    "en": "Lord, thou hast proved me, and known me.",
+    "src": {
+     "fr": "Ps 139, 1",
+     "es": "Sal 139, 1",
+     "en": "Ps 139:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 139,
+      "v": [
+       1
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps30-13",
+    "fr": "Seigneur, mon Dieu, à jamais je te louerai.",
+    "es": "¡Oh Señor, Dios mío, te alabaré eternamente!",
+    "en": "O Lord my God, I will give praise to thee for ever.",
+    "src": {
+     "fr": "Ps 30, 13",
+     "es": "Sal 30, 13",
+     "en": "Ps 30:13"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 30,
+      "v": [
+       13
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 30,
+      "v": [
+       13
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 30,
+      "v": [
+       13
+      ]
+     }
+    }
+   },
+   {
+    "id": "ps16-1",
+    "fr": "Garde-moi, ô Dieu, car près de toi je me réfugie.",
+    "es": "Presérvame, oh Dios, pues me refugio en Ti.",
+    "en": "Preserve me, O Lord, for I have put my trust in thee.",
+    "src": {
+     "fr": "Ps 16, 1",
+     "es": "Sal 16, 1",
+     "en": "Ps 16:1"
+    },
+    "bible": {
+     "fr": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       1
+      ]
+     },
+     "es": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       1
+      ]
+     },
+     "en": {
+      "osis": "Ps",
+      "c": 16,
+      "v": [
+       1
       ]
      }
     }
