@@ -16151,6 +16151,566 @@
     "plusLoin": "Pope Francis beatified him in 2022. He is still called “the smiling pope”.",
     "source": "Holy See, biography of Blessed John Paul I; Pope Francis, homily of beatification (4 September 2022)"
    }
+  },
+  {
+   "id": "louis-gonzague",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Louis de Gonzague",
+    "dates": "1568-1591",
+    "accroche": "Un jeune prince italien qui a laissé son titre à son frère, et qui est mort à vingt-trois ans en soignant les malades de la peste.",
+    "texte": "Louis naît en 1568 au château de Castiglione, en Lombardie, fils aîné d'un marquis. Son père le destine à la vie militaire et à la cour. Mais Louis veut se donner à Dieu : après des années de résistance familiale, il renonce à son héritage au profit de son frère et entre chez les jésuites à Rome, à dix-sept ans.\n\nEn 1591, une épidémie de peste frappe Rome. Louis va chercher les malades dans les rues, les porte sur son dos jusqu'à l'hôpital, les lave et les nourrit. Il attrape la maladie et meurt quelques semaines plus tard, à vingt-trois ans.",
+    "plusLoin": "Il a été canonisé en 1726. Il est le patron de la jeunesse, et on le fête le 21 juin.",
+    "source": "Encyclopædia Britannica, « Saint Aloysius Gonzaga » ; Compagnie de Jésus, « San Luigi Gonzaga »"
+   },
+   "es": {
+    "nom": "San Luis Gonzaga",
+    "dates": "1568-1591",
+    "accroche": "Un joven príncipe italiano que cedió su título a su hermano, y que murió a los veintitrés años cuidando a los enfermos de la peste.",
+    "texte": "Luis nace en 1568 en el castillo de Castiglione, en Lombardía, hijo mayor de un marqués. Su padre lo destina a la vida militar y a la corte. Pero Luis quiere entregarse a Dios: tras años de resistencia familiar, renuncia a su herencia en favor de su hermano y entra en los jesuitas en Roma, a los diecisiete años.\n\nEn 1591, una epidemia de peste golpea Roma. Luis va a buscar a los enfermos por las calles, los lleva a hombros hasta el hospital, los lava y les da de comer. Se contagia y muere pocas semanas después, a los veintitrés años.",
+    "plusLoin": "Fue canonizado en 1726. Es patrono de la juventud, y su fiesta es el 21 de junio.",
+    "source": "Encyclopædia Britannica, «Saint Aloysius Gonzaga»; Compañía de Jesús, «San Luigi Gonzaga»"
+   },
+   "en": {
+    "nom": "Saint Aloysius Gonzaga",
+    "dates": "1568-1591",
+    "accroche": "A young Italian prince who gave his title to his brother, and died at twenty-three caring for plague victims.",
+    "texte": "Aloysius was born in 1568 at the castle of Castiglione, in Lombardy, the eldest son of a marquis. His father intended him for the army and the court. But Aloysius wanted to give himself to God: after years of family resistance, he gave up his inheritance to his brother and joined the Jesuits in Rome at seventeen.\n\nIn 1591 an epidemic of plague struck Rome. Aloysius went out to find the sick in the streets, carried them on his back to the hospital, washed and fed them. He caught the disease and died a few weeks later, aged twenty-three.",
+    "plusLoin": "He was canonised in 1726. He is the patron of young people, and his feast is on 21 June.",
+    "source": "Encyclopædia Britannica, “Saint Aloysius Gonzaga”; Society of Jesus, “San Luigi Gonzaga”"
+   }
+  },
+  {
+   "id": "miguel-pro",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Miguel Pro",
+    "dates": "1891-1927",
+    "accroche": "Un jésuite mexicain plein d'humour qui se déguisait pour apporter les sacrements en pleine persécution.",
+    "texte": "Miguel Agustín Pro naît en 1891 au Mexique, dans une famille nombreuse. Joyeux et farceur, il entre chez les jésuites. Il doit étudier à l'étranger, car le gouvernement mexicain persécute l'Église. Ordonné prêtre en Belgique, il rentre au Mexique en 1926, alors que le culte public est interdit.\n\nPendant plus d'un an, il se déguise en mécanicien, en mendiant ou en élégant jeune homme pour célébrer la messe en secret, confesser et aider les familles pauvres. Accusé à tort d'un attentat, il est fusillé sans procès le 23 novembre 1927, les bras en croix, après avoir pardonné à ses bourreaux.",
+    "plusLoin": "Jean-Paul II l'a béatifié en 1988. Les photos de son exécution, prises par la presse, ont fait le tour du monde.",
+    "source": "Saint-Siège, béatification du 25 septembre 1988 ; Compagnie de Jésus, « Beato Miguel Agustín Pro »"
+   },
+   "es": {
+    "nom": "Beato Miguel Pro",
+    "dates": "1891-1927",
+    "accroche": "Un jesuita mexicano lleno de humor que se disfrazaba para llevar los sacramentos en plena persecución.",
+    "texte": "Miguel Agustín Pro nace en 1891 en México, en una familia numerosa. Alegre y bromista, entra en los jesuitas. Tiene que estudiar en el extranjero, porque el gobierno mexicano persigue a la Iglesia. Ordenado sacerdote en Bélgica, vuelve a México en 1926, cuando el culto público está prohibido.\n\nDurante más de un año se disfraza de mecánico, de mendigo o de joven elegante para celebrar misa en secreto, confesar y ayudar a las familias pobres. Acusado falsamente de un atentado, es fusilado sin juicio el 23 de noviembre de 1927, con los brazos en cruz, tras haber perdonado a sus verdugos.",
+    "plusLoin": "Juan Pablo II lo beatificó en 1988. Las fotos de su ejecución, tomadas por la prensa, dieron la vuelta al mundo.",
+    "source": "Santa Sede, beatificación del 25 de septiembre de 1988; Compañía de Jesús, «Beato Miguel Agustín Pro»"
+   },
+   "en": {
+    "nom": "Blessed Miguel Pro",
+    "dates": "1891-1927",
+    "accroche": "A Mexican Jesuit full of humour who wore disguises to bring the sacraments during a persecution.",
+    "texte": "Miguel Agustín Pro was born in 1891 in Mexico, into a large family. Cheerful and fond of jokes, he joined the Jesuits. He had to study abroad, because the Mexican government was persecuting the Church. Ordained a priest in Belgium, he returned to Mexico in 1926, when public worship was banned.\n\nFor more than a year he disguised himself as a mechanic, a beggar or a smart young man in order to celebrate Mass in secret, hear confessions and help poor families. Falsely accused of an assassination attempt, he was shot without trial on 23 November 1927, arms outstretched like a cross, after forgiving his executioners.",
+    "plusLoin": "John Paul II beatified him in 1988. Press photographs of his execution went round the world.",
+    "source": "Holy See, beatification of 25 September 1988; Society of Jesus, “Beato Miguel Agustín Pro”"
+   }
+  },
+  {
+   "id": "cecile",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Cécile",
+    "dates": "IIIe siècle",
+    "accroche": "Une jeune Romaine des premiers siècles, martyre, devenue la patronne des musiciens.",
+    "texte": "Selon les récits anciens, Cécile est une jeune chrétienne de la noblesse romaine. Mariée contre son gré à un jeune homme nommé Valérien, elle chante dans son cœur pour Dieu pendant la fête de ses noces. Elle parle de sa foi à son mari, qui devient chrétien à son tour. Tous deux sont mis à mort pendant une persécution.\n\nÀ Rome, une église du quartier du Trastevere est dédiée à Cécile depuis l'Antiquité. En 1599, on y ouvre son tombeau, et le sculpteur Stefano Maderno réalise une statue émouvante de la jeune femme couchée, telle qu'on l'aurait trouvée.",
+    "plusLoin": "Parce que la tradition dit qu'elle chantait pour Dieu, elle est la patronne des musiciens. On la fête le 22 novembre.",
+    "source": "Basilique Sainte-Cécile-du-Trastevere (Rome) ; Encyclopædia Britannica, « Saint Cecilia »"
+   },
+   "es": {
+    "nom": "Santa Cecilia",
+    "dates": "siglo III",
+    "accroche": "Una joven romana de los primeros siglos, mártir, convertida en patrona de los músicos.",
+    "texte": "Según los relatos antiguos, Cecilia es una joven cristiana de la nobleza romana. Casada contra su voluntad con un joven llamado Valeriano, canta en su corazón a Dios durante la fiesta de su boda. Habla de su fe a su marido, que también se hace cristiano. Ambos son ejecutados durante una persecución.\n\nEn Roma, una iglesia del barrio del Trastévere está dedicada a Cecilia desde la Antigüedad. En 1599 se abre allí su tumba, y el escultor Stefano Maderno realiza una conmovedora estatua de la joven recostada, tal como la habrían encontrado.",
+    "plusLoin": "Como la tradición dice que cantaba a Dios, es la patrona de los músicos. Su fiesta es el 22 de noviembre.",
+    "source": "Basílica de Santa Cecilia in Trastevere (Roma); Encyclopædia Britannica, «Saint Cecilia»"
+   },
+   "en": {
+    "nom": "Saint Cecilia",
+    "dates": "3rd century",
+    "accroche": "A young Roman woman of the early centuries, a martyr, who became the patron saint of musicians.",
+    "texte": "According to the ancient accounts, Cecilia was a young Christian of the Roman nobility. Married against her will to a young man named Valerian, she sang to God in her heart during her wedding feast. She spoke of her faith to her husband, who became a Christian too. Both were put to death during a persecution.\n\nIn Rome, a church in the Trastevere district has been dedicated to Cecilia since ancient times. In 1599 her tomb was opened there, and the sculptor Stefano Maderno made a moving statue of the young woman lying down, as she was said to have been found.",
+    "plusLoin": "Because tradition says she sang to God, she is the patron saint of musicians. Her feast is on 22 November.",
+    "source": "Basilica of Saint Cecilia in Trastevere (Rome); Encyclopædia Britannica, “Saint Cecilia”"
+   }
+  },
+  {
+   "id": "augustus-tolton",
+   "saint": false,
+   "fr": {
+    "nom": "Vénérable Augustus Tolton",
+    "dates": "1854-1897",
+    "accroche": "Né esclave dans le Missouri, refusé par tous les séminaires américains, il est devenu le premier prêtre noir reconnu des États-Unis.",
+    "texte": "Augustus Tolton naît en 1854 dans le Missouri, dans une famille d'esclaves catholiques. Pendant la guerre de Sécession, sa mère s'enfuit avec ses enfants et traverse le Mississippi en barque pour rejoindre l'Illinois, un État libre. À Quincy, un prêtre l'accueille à l'école paroissiale, malgré les protestations de certains parents.\n\nAugustus veut devenir prêtre, mais aucun séminaire américain n'accepte un Noir. Il part étudier à Rome, où il est ordonné en 1886. De retour, il fonde à Chicago une paroisse pour la communauté noire. Épuisé, il meurt en 1897, à quarante-trois ans.",
+    "plusLoin": "Le pape François l'a déclaré vénérable en 2019. Il est un modèle pour tous ceux qui se heurtent aux préjugés.",
+    "source": "Archidiocèse de Chicago, « Cause of Father Augustus Tolton » ; Dicastère pour les causes des saints, décret du 12 juin 2019"
+   },
+   "es": {
+    "nom": "Venerable Augustus Tolton",
+    "dates": "1854-1897",
+    "accroche": "Nacido esclavo en Misuri, rechazado por todos los seminarios de Estados Unidos, llegó a ser el primer sacerdote negro reconocido del país.",
+    "texte": "Augustus Tolton nace en 1854 en Misuri, en una familia de esclavos católicos. Durante la guerra de Secesión, su madre huye con sus hijos y cruza el Misisipi en barca para llegar a Illinois, un estado libre. En Quincy, un sacerdote lo acoge en la escuela parroquial, a pesar de las protestas de algunos padres.\n\nAugustus quiere ser sacerdote, pero ningún seminario estadounidense acepta a un hombre negro. Se va a estudiar a Roma, donde es ordenado en 1886. De vuelta, funda en Chicago una parroquia para la comunidad negra. Agotado, muere en 1897, a los cuarenta y tres años.",
+    "plusLoin": "El papa Francisco lo declaró venerable en 2019. Es un modelo para todos los que chocan con los prejuicios.",
+    "source": "Arquidiócesis de Chicago, «Cause of Father Augustus Tolton»; Dicasterio para las Causas de los Santos, decreto del 12 de junio de 2019"
+   },
+   "en": {
+    "nom": "Venerable Augustus Tolton",
+    "dates": "1854-1897",
+    "accroche": "Born into slavery in Missouri and turned down by every American seminary, he became the first recognised Black priest in the United States.",
+    "texte": "Augustus Tolton was born in 1854 in Missouri, into a family of enslaved Catholics. During the Civil War his mother fled with her children and crossed the Mississippi in a rowing boat to reach Illinois, a free state. In Quincy a priest welcomed him into the parish school, despite protests from some parents.\n\nAugustus wanted to become a priest, but no American seminary would accept a Black man. He went to study in Rome, where he was ordained in 1886. Back home, he founded a parish for the Black community in Chicago. Worn out, he died in 1897, aged forty-three.",
+    "plusLoin": "Pope Francis declared him venerable in 2019. He is a model for all who come up against prejudice.",
+    "source": "Archdiocese of Chicago, “Cause of Father Augustus Tolton”; Dicastery for the Causes of Saints, decree of 12 June 2019"
+   }
+  },
+  {
+   "id": "jean-croix",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Jean de la Croix",
+    "dates": "1542-1591",
+    "accroche": "Un petit moine espagnol, enfermé par ses propres frères, qui a écrit dans sa prison quelques-uns des plus beaux poèmes d'amour de Dieu.",
+    "texte": "Juan de Yepes naît en 1542 à Fontiveros, près d'Ávila, dans une famille très pauvre. Il travaille jeune dans un hôpital, puis entre au Carmel. Avec sainte Thérèse d'Avila, il cherche à rendre aux carmes une vie plus simple et plus priante.\n\nCette réforme dérange. En 1577, d'autres religieux l'enferment pendant neuf mois dans un minuscule cachot à Tolède. Dans le noir, il compose de mémoire des poèmes sur l'âme qui cherche Dieu comme une bien-aimée cherche son bien-aimé. Il finit par s'évader, et continue à guider les autres jusqu'à sa mort, en 1591.",
+    "plusLoin": "Il a été proclamé docteur de l'Église en 1926. On le fête le 14 décembre.",
+    "source": "Encyclopædia Britannica, « Saint John of the Cross » ; Benoît XVI, audience générale du 16 février 2011"
+   },
+   "es": {
+    "nom": "San Juan de la Cruz",
+    "dates": "1542-1591",
+    "accroche": "Un pequeño fraile español, encerrado por sus propios hermanos, que escribió en la cárcel algunos de los poemas de amor a Dios más bellos.",
+    "texte": "Juan de Yepes nace en 1542 en Fontiveros, cerca de Ávila, en una familia muy pobre. De joven trabaja en un hospital, y luego entra en el Carmelo. Con santa Teresa de Jesús, busca devolver a los carmelitas una vida más sencilla y orante.\n\nEsa reforma molesta. En 1577, otros religiosos lo encierran durante nueve meses en una celda diminuta en Toledo. A oscuras, compone de memoria poemas sobre el alma que busca a Dios como la amada busca al amado. Termina escapándose, y sigue guiando a otros hasta su muerte, en 1591.",
+    "plusLoin": "Fue proclamado doctor de la Iglesia en 1926. Su fiesta es el 14 de diciembre.",
+    "source": "Encyclopædia Britannica, «Saint John of the Cross»; Benedicto XVI, audiencia general del 16 de febrero de 2011"
+   },
+   "en": {
+    "nom": "Saint John of the Cross",
+    "dates": "1542-1591",
+    "accroche": "A small Spanish friar, locked up by his own brothers, who wrote in prison some of the most beautiful poems of love for God.",
+    "texte": "Juan de Yepes was born in 1542 in Fontiveros, near Ávila, into a very poor family. As a young man he worked in a hospital, then joined the Carmelites. With Saint Teresa of Ávila, he sought to bring the friars back to a simpler, more prayerful life.\n\nThis reform caused trouble. In 1577 other friars locked him for nine months in a tiny cell in Toledo. In the dark, he composed from memory poems about the soul seeking God as a bride seeks her beloved. He eventually escaped, and went on guiding others until his death in 1591.",
+    "plusLoin": "He was declared a Doctor of the Church in 1926. His feast is on 14 December.",
+    "source": "Encyclopædia Britannica, “Saint John of the Cross”; Benedict XVI, general audience of 16 February 2011"
+   }
+  },
+  {
+   "id": "karl-leisner",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Karl Leisner",
+    "dates": "1915-1945",
+    "accroche": "Un jeune diacre allemand, prisonnier à Dachau, ordonné prêtre en secret dans le camp par un évêque français lui aussi déporté.",
+    "texte": "Karl Leisner naît en 1915 en Allemagne. Animateur de mouvements de jeunes, il aime la montagne, la musique, les feux de camp. Il se prépare à devenir prêtre quand, en 1939, il est arrêté pour une remarque sur Hitler. Il est envoyé au camp de Dachau, déjà malade de la tuberculose.\n\nDans le camp, des prisonniers organisent l'impossible : le 17 décembre 1944, un évêque français déporté, Mgr Gabriel Piguet, l'ordonne prêtre en secret, avec des ornements fabriqués par les détenus. Karl célèbre une seule messe, le lendemain de Noël. Libéré en 1945, il meurt quelques semaines plus tard.",
+    "plusLoin": "Jean-Paul II l'a béatifié en 1996 à Berlin. Il est un témoin de l'amitié entre Français et Allemands au cœur de la guerre.",
+    "source": "Saint-Siège, béatification du 23 juin 1996 ; Internationaler Karl-Leisner-Kreis"
+   },
+   "es": {
+    "nom": "Beato Karl Leisner",
+    "dates": "1915-1945",
+    "accroche": "Un joven diácono alemán, prisionero en Dachau, ordenado sacerdote en secreto en el campo por un obispo francés también deportado.",
+    "texte": "Karl Leisner nace en 1915 en Alemania. Animador de movimientos juveniles, le gustan la montaña, la música, los fuegos de campamento. Se prepara para ser sacerdote cuando, en 1939, lo detienen por un comentario sobre Hitler. Lo envían al campo de Dachau, ya enfermo de tuberculosis.\n\nEn el campo, unos prisioneros organizan lo imposible: el 17 de diciembre de 1944, un obispo francés deportado, Mons. Gabriel Piguet, lo ordena sacerdote en secreto, con ornamentos fabricados por los detenidos. Karl celebra una sola misa, el día después de Navidad. Liberado en 1945, muere pocas semanas después.",
+    "plusLoin": "Juan Pablo II lo beatificó en 1996 en Berlín. Es un testigo de la amistad entre franceses y alemanes en plena guerra.",
+    "source": "Santa Sede, beatificación del 23 de junio de 1996; Internationaler Karl-Leisner-Kreis"
+   },
+   "en": {
+    "nom": "Blessed Karl Leisner",
+    "dates": "1915-1945",
+    "accroche": "A young German deacon, imprisoned in Dachau, ordained a priest in secret in the camp by a French bishop who had also been deported.",
+    "texte": "Karl Leisner was born in 1915 in Germany. A youth leader, he loved the mountains, music and campfires. He was preparing for the priesthood when, in 1939, he was arrested for a remark about Hitler. He was sent to Dachau concentration camp, already ill with tuberculosis.\n\nIn the camp, prisoners organised the impossible: on 17 December 1944 a deported French bishop, Gabriel Piguet, secretly ordained him a priest, using vestments made by the inmates. Karl celebrated a single Mass, the day after Christmas. Freed in 1945, he died a few weeks later.",
+    "plusLoin": "John Paul II beatified him in Berlin in 1996. He is a witness to friendship between French and Germans in the middle of the war.",
+    "source": "Holy See, beatification of 23 June 1996; Internationaler Karl-Leisner-Kreis"
+   }
+  },
+  {
+   "id": "dominique-savio",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Dominique Savio",
+    "dates": "1842-1857",
+    "accroche": "Un élève de Don Bosco, joyeux et serviable, qui voulait devenir saint en faisant bien les choses de tous les jours.",
+    "texte": "Dominique Savio naît en 1842 dans le Piémont, en Italie, dans une famille modeste. Le jour de sa première communion, à sept ans, il écrit quelques résolutions : se confesser souvent, sanctifier les fêtes, avoir pour amis Jésus et Marie. À douze ans, il entre à l'oratoire de Don Bosco, à Turin.\n\nIl y est apprécié de tous : il réconcilie ses camarades quand ils se battent, aide les plus petits, soigne les malades du choléra. Il fonde avec des amis un groupe pour rendre service. Tombé malade, il meurt chez ses parents en 1857, à quatorze ans. Don Bosco a écrit lui-même sa vie.",
+    "plusLoin": "Il a été canonisé en 1954. C'est l'un des plus jeunes saints non martyrs de l'Église ; on le fête le 6 mai.",
+    "source": "Saint Jean Bosco, Vie de Dominique Savio (1859) ; Famille salésienne, « San Domenico Savio »"
+   },
+   "es": {
+    "nom": "Santo Domingo Savio",
+    "dates": "1842-1857",
+    "accroche": "Un alumno de Don Bosco, alegre y servicial, que quería ser santo haciendo bien las cosas de cada día.",
+    "texte": "Domingo Savio nace en 1842 en el Piamonte, Italia, en una familia modesta. El día de su primera comunión, a los siete años, escribe unos propósitos: confesarse a menudo, santificar las fiestas, tener por amigos a Jesús y a María. A los doce años entra en el oratorio de Don Bosco, en Turín.\n\nAllí todos lo aprecian: reconcilia a sus compañeros cuando se pelean, ayuda a los más pequeños, cuida a los enfermos del cólera. Funda con unos amigos un grupo para prestar servicios. Cae enfermo y muere en casa de sus padres en 1857, a los catorce años. Don Bosco escribió él mismo su vida.",
+    "plusLoin": "Fue canonizado en 1954. Es uno de los santos no mártires más jóvenes de la Iglesia; su fiesta es el 6 de mayo.",
+    "source": "San Juan Bosco, Vida de Domingo Savio (1859); Familia Salesiana, «San Domenico Savio»"
+   },
+   "en": {
+    "nom": "Saint Dominic Savio",
+    "dates": "1842-1857",
+    "accroche": "A pupil of Don Bosco, cheerful and helpful, who wanted to become a saint by doing everyday things well.",
+    "texte": "Dominic Savio was born in 1842 in Piedmont, Italy, into a modest family. On the day of his First Communion, at seven, he wrote down some resolutions: to go to confession often, to keep feast days holy, to have Jesus and Mary as his friends. At twelve he went to Don Bosco's oratory in Turin.\n\nEveryone there liked him: he made peace between classmates when they fought, helped the little ones and nursed cholera patients. With some friends he started a group to help others. He fell ill and died at his parents' home in 1857, aged fourteen. Don Bosco himself wrote his life.",
+    "plusLoin": "He was canonised in 1954. He is one of the youngest non-martyr saints of the Church; his feast is on 6 May.",
+    "source": "Saint John Bosco, Life of Dominic Savio (1859); Salesian Family, “San Domenico Savio”"
+   }
+  },
+  {
+   "id": "lucien-botovasoa",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Lucien Botovasoa",
+    "dates": "1908-1947",
+    "accroche": "Un instituteur malgache, père de huit enfants, qui a pardonné à ceux qui allaient le tuer.",
+    "texte": "Lucien Botovasoa naît en 1908 à Madagascar. Excellent élève, il devient instituteur à l'école catholique de Vohipeno. Il épouse Suzanne et ils ont huit enfants. Il entre aussi dans le tiers-ordre franciscain : il prie beaucoup, vit simplement et chante à l'église.\n\nEn 1947, une insurrection éclate dans l'île, et les chrétiens sont menacés. Lucien refuse de fuir pour ne pas exposer les autres. Arrêté, il est condamné à mort par un chef local. Avant de mourir, il prie pour ses bourreaux et demande à Dieu de leur pardonner. Le chef qui l'avait condamné s'est converti des années plus tard.",
+    "plusLoin": "Il a été béatifié en 2018 à Madagascar. Il est un modèle pour les enseignants et les pères de famille.",
+    "source": "Congrégation pour les causes des saints, béatification du 15 avril 2018 ; diocèse de Farafangana"
+   },
+   "es": {
+    "nom": "Beato Lucien Botovasoa",
+    "dates": "1908-1947",
+    "accroche": "Un maestro malgache, padre de ocho hijos, que perdonó a quienes iban a matarlo.",
+    "texte": "Lucien Botovasoa nace en 1908 en Madagascar. Alumno excelente, llega a ser maestro en la escuela católica de Vohipeno. Se casa con Suzanne y tienen ocho hijos. Entra también en la tercera orden franciscana: reza mucho, vive con sencillez y canta en la iglesia.\n\nEn 1947 estalla una insurrección en la isla, y los cristianos están amenazados. Lucien se niega a huir para no poner en peligro a los demás. Detenido, es condenado a muerte por un jefe local. Antes de morir, reza por sus verdugos y pide a Dios que los perdone. El jefe que lo había condenado se convirtió años después.",
+    "plusLoin": "Fue beatificado en 2018 en Madagascar. Es un modelo para los maestros y los padres de familia.",
+    "source": "Congregación para las Causas de los Santos, beatificación del 15 de abril de 2018; diócesis de Farafangana"
+   },
+   "en": {
+    "nom": "Blessed Lucien Botovasoa",
+    "dates": "1908-1947",
+    "accroche": "A schoolteacher from Madagascar, father of eight, who forgave those who were about to kill him.",
+    "texte": "Lucien Botovasoa was born in 1908 in Madagascar. An excellent pupil, he became a teacher at the Catholic school in Vohipeno. He married Suzanne and they had eight children. He also joined the Franciscan Third Order: he prayed a great deal, lived simply and sang in church.\n\nIn 1947 an uprising broke out on the island, and Christians were threatened. Lucien refused to flee so as not to put others in danger. Arrested, he was condemned to death by a local chief. Before dying he prayed for his executioners and asked God to forgive them. The chief who had condemned him converted years later.",
+    "plusLoin": "He was beatified in Madagascar in 2018. He is a model for teachers and fathers.",
+    "source": "Congregation for the Causes of Saints, beatification of 15 April 2018; Diocese of Farafangana"
+   }
+  },
+  {
+   "id": "charles-lwanga",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Charles Lwanga et ses compagnons",
+    "dates": "mort en 1886",
+    "accroche": "De jeunes serviteurs du roi de l'Ouganda, chrétiens depuis peu, qui ont préféré mourir plutôt que de renier leur foi.",
+    "texte": "À la fin du XIXe siècle, des missionnaires arrivent au royaume du Buganda, dans l'actuel Ouganda. Plusieurs pages, de jeunes serviteurs de la cour, deviennent chrétiens. Le roi Mwanga, d'abord favorable, se retourne contre eux, notamment parce qu'ils refusent de se plier à toutes ses exigences.\n\nCharles Lwanga, responsable des pages, protège les plus jeunes et en baptise certains en secret la nuit précédant leur arrestation. Le 3 juin 1886, à Namugongo, une douzaine d'entre eux sont brûlés vifs. D'autres, catholiques et anglicans, sont tués dans les mois qui suivent. Ils meurent en priant.",
+    "plusLoin": "Paul VI a canonisé vingt-deux martyrs catholiques de l'Ouganda en 1964. Chaque 3 juin, des centaines de milliers de pèlerins se rendent à Namugongo.",
+    "source": "Paul VI, homélie de canonisation (18 octobre 1964) ; Encyclopædia Britannica, « Martyrs of Uganda »"
+   },
+   "es": {
+    "nom": "San Carlos Lwanga y compañeros",
+    "dates": "muerto en 1886",
+    "accroche": "Jóvenes servidores del rey de Uganda, cristianos desde hacía poco, que prefirieron morir antes que renegar de su fe.",
+    "texte": "A finales del siglo XIX llegan unos misioneros al reino de Buganda, en la actual Uganda. Varios pajes, jóvenes servidores de la corte, se hacen cristianos. El rey Mwanga, al principio favorable, se vuelve contra ellos, en particular porque se niegan a plegarse a todas sus exigencias.\n\nCarlos Lwanga, responsable de los pajes, protege a los más jóvenes y bautiza en secreto a algunos la noche anterior a su arresto. El 3 de junio de 1886, en Namugongo, una docena de ellos son quemados vivos. Otros, católicos y anglicanos, mueren en los meses siguientes. Mueren rezando.",
+    "plusLoin": "Pablo VI canonizó a veintidós mártires católicos de Uganda en 1964. Cada 3 de junio, cientos de miles de peregrinos acuden a Namugongo.",
+    "source": "Pablo VI, homilía de canonización (18 de octubre de 1964); Encyclopædia Britannica, «Martyrs of Uganda»"
+   },
+   "en": {
+    "nom": "Saint Charles Lwanga and companions",
+    "dates": "died in 1886",
+    "accroche": "Young servants of the king of Uganda, newly Christian, who chose to die rather than deny their faith.",
+    "texte": "At the end of the nineteenth century missionaries arrived in the kingdom of Buganda, in present-day Uganda. Several pages, young servants at the court, became Christians. King Mwanga, at first friendly, turned against them, in particular because they refused to give in to all his demands.\n\nCharles Lwanga, head of the pages, protected the youngest and secretly baptised some of them on the night before their arrest. On 3 June 1886, at Namugongo, a dozen of them were burned alive. Others, Catholic and Anglican, were killed in the months that followed. They died praying.",
+    "plusLoin": "Paul VI canonised twenty-two Catholic martyrs of Uganda in 1964. Every 3 June, hundreds of thousands of pilgrims make their way to Namugongo.",
+    "source": "Paul VI, homily of canonisation (18 October 1964); Encyclopædia Britannica, “Martyrs of Uganda”"
+   }
+  },
+  {
+   "id": "restituta-kafka",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureuse Restituta Kafka",
+    "dates": "1894-1943",
+    "accroche": "Une infirmière franciscaine de Vienne, au caractère bien trempé, qui a refusé de décrocher les crucifix de son hôpital.",
+    "texte": "Helena Kafka naît en 1894 en Moravie, dans l'actuelle République tchèque, et grandit à Vienne dans une famille modeste. Elle entre chez les Sœurs franciscaines de la charité chrétienne sous le nom de Restituta. Infirmière de bloc opératoire à l'hôpital de Mödling, elle est connue pour son efficacité, son franc-parler et son humour.\n\nAprès l'annexion de l'Autriche par l'Allemagne nazie, elle accroche un crucifix dans chaque chambre d'un nouveau service et refuse de les enlever. Dénoncée aussi pour un texte critique envers le régime, elle est arrêtée en 1942 et guillotinée à Vienne le 30 mars 1943.",
+    "plusLoin": "Jean-Paul II l'a béatifiée en 1998 à Vienne. Elle est un modèle pour les soignants.",
+    "source": "Saint-Siège, béatification du 21 juin 1998 ; Sœurs franciscaines de la charité chrétienne, Vienne"
+   },
+   "es": {
+    "nom": "Beata Restituta Kafka",
+    "dates": "1894-1943",
+    "accroche": "Una enfermera franciscana de Viena, de carácter firme, que se negó a quitar los crucifijos de su hospital.",
+    "texte": "Helena Kafka nace en 1894 en Moravia, en la actual República Checa, y crece en Viena en una familia modesta. Entra en las Hermanas Franciscanas de la Caridad Cristiana con el nombre de Restituta. Enfermera de quirófano en el hospital de Mödling, es conocida por su eficacia, su franqueza y su humor.\n\nTras la anexión de Austria por la Alemania nazi, cuelga un crucifijo en cada habitación de un nuevo servicio y se niega a quitarlos. Denunciada también por un texto crítico con el régimen, es detenida en 1942 y guillotinada en Viena el 30 de marzo de 1943.",
+    "plusLoin": "Juan Pablo II la beatificó en 1998 en Viena. Es un modelo para el personal sanitario.",
+    "source": "Santa Sede, beatificación del 21 de junio de 1998; Hermanas Franciscanas de la Caridad Cristiana, Viena"
+   },
+   "en": {
+    "nom": "Blessed Restituta Kafka",
+    "dates": "1894-1943",
+    "accroche": "A strong-minded Franciscan nurse in Vienna who refused to take down the crucifixes in her hospital.",
+    "texte": "Helena Kafka was born in 1894 in Moravia, in today's Czech Republic, and grew up in Vienna in a modest family. She joined the Franciscan Sisters of Christian Charity, taking the name Restituta. As a theatre nurse at the hospital in Mödling, she was known for her efficiency, her plain speaking and her humour.\n\nAfter Nazi Germany annexed Austria, she hung a crucifix in every room of a new ward and refused to remove them. Also denounced for a text critical of the regime, she was arrested in 1942 and guillotined in Vienna on 30 March 1943.",
+    "plusLoin": "John Paul II beatified her in Vienna in 1998. She is a model for those who care for the sick.",
+    "source": "Holy See, beatification of 21 June 1998; Franciscan Sisters of Christian Charity, Vienna"
+   }
+  },
+  {
+   "id": "paul-miki",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Paul Miki et ses compagnons",
+    "dates": "vers 1564-1597",
+    "accroche": "Un jésuite japonais crucifié à Nagasaki, qui a pardonné à ses bourreaux du haut de sa croix.",
+    "texte": "Paul Miki naît au Japon vers 1564, dans une famille noble. Élevé par les jésuites, il devient l'un des premiers religieux japonais et un prédicateur très écouté. Mais à la fin du XVIe siècle, le dirigeant du pays, Toyotomi Hideyoshi, décide d'interdire le christianisme.\n\nEn 1597, Paul Miki est arrêté avec vingt-cinq autres chrétiens : des prêtres et des frères venus d'Europe, et des Japonais, dont trois jeunes garçons. On les fait marcher pendant des semaines jusqu'à Nagasaki, où ils sont crucifiés le 5 février. Sur sa croix, Paul continue de prêcher et pardonne à ceux qui le mettent à mort.",
+    "plusLoin": "Ils ont été canonisés en 1862. Ce sont les premiers martyrs du Japon ; on les fête le 6 février.",
+    "source": "Encyclopædia Britannica, « Martyrs of Japan » ; Compagnie de Jésus, « San Paolo Miki e compagni »"
+   },
+   "es": {
+    "nom": "San Pablo Miki y compañeros",
+    "dates": "hacia 1564-1597",
+    "accroche": "Un jesuita japonés crucificado en Nagasaki, que perdonó a sus verdugos desde lo alto de la cruz.",
+    "texte": "Pablo Miki nace en Japón hacia 1564, en una familia noble. Educado por los jesuitas, se convierte en uno de los primeros religiosos japoneses y en un predicador muy escuchado. Pero a finales del siglo XVI, el gobernante del país, Toyotomi Hideyoshi, decide prohibir el cristianismo.\n\nEn 1597, Pablo Miki es detenido con otros veinticinco cristianos: sacerdotes y hermanos llegados de Europa, y japoneses, entre ellos tres muchachos. Les hacen caminar durante semanas hasta Nagasaki, donde los crucifican el 5 de febrero. En su cruz, Pablo sigue predicando y perdona a quienes lo matan.",
+    "plusLoin": "Fueron canonizados en 1862. Son los primeros mártires de Japón; su fiesta es el 6 de febrero.",
+    "source": "Encyclopædia Britannica, «Martyrs of Japan»; Compañía de Jesús, «San Paolo Miki e compagni»"
+   },
+   "en": {
+    "nom": "Saint Paul Miki and companions",
+    "dates": "c. 1564-1597",
+    "accroche": "A Japanese Jesuit crucified in Nagasaki, who forgave his executioners from the cross.",
+    "texte": "Paul Miki was born in Japan around 1564, into a noble family. Educated by the Jesuits, he became one of the first Japanese religious and a much-listened-to preacher. But at the end of the sixteenth century the country's ruler, Toyotomi Hideyoshi, decided to ban Christianity.\n\nIn 1597 Paul Miki was arrested with twenty-five other Christians: priests and brothers from Europe, and Japanese believers, among them three boys. They were made to walk for weeks to Nagasaki, where they were crucified on 5 February. On his cross Paul went on preaching and forgave those who were putting him to death.",
+    "plusLoin": "They were canonised in 1862. They are the first martyrs of Japan; their feast is on 6 February.",
+    "source": "Encyclopædia Britannica, “Martyrs of Japan”; Society of Jesus, “San Paolo Miki e compagni”"
+   }
+  },
+  {
+   "id": "isidore-bakanja",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Isidore Bakanja",
+    "dates": "vers 1885-1909",
+    "accroche": "Un jeune ouvrier congolais, battu à mort parce qu'il portait un scapulaire et apprenait à prier à ses camarades.",
+    "texte": "Isidore Bakanja naît vers 1885 dans l'actuelle République démocratique du Congo. Jeune ouvrier, il découvre la foi auprès de missionnaires trappistes et est baptisé en 1906. Il porte toujours autour du cou un scapulaire, deux petits morceaux de tissu en signe d'amour pour Marie.\n\nEmbauché dans une plantation de caoutchouc, il apprend à prier aux autres travailleurs. Le surveillant, hostile aux missionnaires, lui ordonne d'enlever son scapulaire. Isidore refuse. Il est fouetté si violemment qu'il meurt de ses plaies quelques mois plus tard, en 1909, après avoir dit qu'il pardonnait et qu'il prierait pour cet homme.",
+    "plusLoin": "Jean-Paul II l'a béatifié en 1994. Il est le patron des laïcs catholiques du Congo.",
+    "source": "Saint-Siège, béatification du 24 avril 1994 ; Jean-Paul II, homélie du 24 avril 1994"
+   },
+   "es": {
+    "nom": "Beato Isidoro Bakanja",
+    "dates": "hacia 1885-1909",
+    "accroche": "Un joven obrero congoleño, golpeado hasta la muerte por llevar un escapulario y enseñar a rezar a sus compañeros.",
+    "texte": "Isidoro Bakanja nace hacia 1885 en la actual República Democrática del Congo. Joven obrero, descubre la fe con unos misioneros trapenses y es bautizado en 1906. Lleva siempre al cuello un escapulario, dos pequeños trozos de tela en señal de amor a María.\n\nContratado en una plantación de caucho, enseña a rezar a los demás trabajadores. El capataz, hostil a los misioneros, le ordena quitarse el escapulario. Isidoro se niega. Lo azotan con tanta violencia que muere de sus heridas unos meses después, en 1909, tras decir que perdonaba y que rezaría por ese hombre.",
+    "plusLoin": "Juan Pablo II lo beatificó en 1994. Es patrono de los laicos católicos del Congo.",
+    "source": "Santa Sede, beatificación del 24 de abril de 1994; Juan Pablo II, homilía del 24 de abril de 1994"
+   },
+   "en": {
+    "nom": "Blessed Isidore Bakanja",
+    "dates": "c. 1885-1909",
+    "accroche": "A young Congolese labourer, beaten to death because he wore a scapular and taught his fellow workers to pray.",
+    "texte": "Isidore Bakanja was born around 1885 in what is now the Democratic Republic of the Congo. As a young labourer he discovered the faith through Trappist missionaries and was baptised in 1906. He always wore a scapular round his neck, two small pieces of cloth as a sign of love for Mary.\n\nHired on a rubber plantation, he taught the other workers to pray. The overseer, hostile to the missionaries, ordered him to take off his scapular. Isidore refused. He was flogged so violently that he died of his wounds a few months later, in 1909, after saying that he forgave the man and would pray for him.",
+    "plusLoin": "John Paul II beatified him in 1994. He is the patron of Catholic lay people in the Congo.",
+    "source": "Holy See, beatification of 24 April 1994; John Paul II, homily of 24 April 1994"
+   }
+  },
+  {
+   "id": "newman",
+   "saint": true,
+   "fr": {
+    "nom": "Saint John Henry Newman",
+    "dates": "1801-1890",
+    "accroche": "Un brillant pasteur anglican d'Oxford qui, après des années de recherche, est devenu catholique, puis cardinal.",
+    "texte": "John Henry Newman naît à Londres en 1801. Professeur et prédicateur célèbre à Oxford, il est l'un des grands noms de l'Église d'Angleterre. En étudiant les Pères de l'Église des premiers siècles, il se pose une question qui ne le lâche plus : où se trouve aujourd'hui l'Église des apôtres ?\n\nEn 1845, au prix de nombreuses amitiés perdues, il devient catholique. Il fonde l'Oratoire de Birmingham, écrit sur la conscience, l'éducation et la foi, et le pape Léon XIII le crée cardinal en 1879. On lui doit aussi un cantique très connu en anglais, écrit pendant une traversée en mer : « Lead, kindly Light ».",
+    "plusLoin": "Le pape François l'a canonisé en 2019. On le fête le 9 octobre.",
+    "source": "Saint-Siège, biographie de saint John Henry Newman ; Pape François, homélie de canonisation (13 octobre 2019)"
+   },
+   "es": {
+    "nom": "San John Henry Newman",
+    "dates": "1801-1890",
+    "accroche": "Un brillante pastor anglicano de Oxford que, tras años de búsqueda, se hizo católico y luego cardenal.",
+    "texte": "John Henry Newman nace en Londres en 1801. Profesor y predicador célebre en Oxford, es uno de los grandes nombres de la Iglesia de Inglaterra. Estudiando a los Padres de la Iglesia de los primeros siglos, se plantea una pregunta que ya no lo deja: ¿dónde está hoy la Iglesia de los apóstoles?\n\nEn 1845, a costa de perder muchas amistades, se hace católico. Funda el Oratorio de Birmingham, escribe sobre la conciencia, la educación y la fe, y el papa León XIII lo crea cardenal en 1879. Se le debe también un himno muy conocido en inglés, escrito durante una travesía por mar: «Lead, kindly Light».",
+    "plusLoin": "El papa Francisco lo canonizó en 2019. Su fiesta es el 9 de octubre.",
+    "source": "Santa Sede, biografía de san John Henry Newman; Papa Francisco, homilía de canonización (13 de octubre de 2019)"
+   },
+   "en": {
+    "nom": "Saint John Henry Newman",
+    "dates": "1801-1890",
+    "accroche": "A brilliant Anglican clergyman from Oxford who, after years of searching, became a Catholic and later a cardinal.",
+    "texte": "John Henry Newman was born in London in 1801. A celebrated tutor and preacher at Oxford, he was one of the great figures of the Church of England. Studying the Fathers of the early Church, he was gripped by a question that would not let him go: where is the Church of the apostles today?\n\nIn 1845, at the cost of many lost friendships, he became a Catholic. He founded the Birmingham Oratory, wrote on conscience, education and faith, and Pope Leo XIII made him a cardinal in 1879. He also wrote a well-known hymn during a sea voyage: “Lead, kindly Light”.",
+    "plusLoin": "Pope Francis canonised him in 2019. His feast is on 9 October.",
+    "source": "Holy See, biography of Saint John Henry Newman; Pope Francis, homily of canonisation (13 October 2019)"
+   }
+  },
+  {
+   "id": "contardo-ferrini",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Contardo Ferrini",
+    "dates": "1859-1902",
+    "accroche": "Un grand professeur de droit romain, alpiniste passionné, qui a montré qu'on pouvait être savant et saint.",
+    "texte": "Contardo Ferrini naît à Milan en 1859. Étudiant brillant, il apprend une dizaine de langues et devient l'un des meilleurs spécialistes du droit romain et byzantin de son temps. Il enseigne à l'université de Pavie et publie de nombreux travaux encore utilisés.\n\nCe chercheur exigeant va chaque jour à la messe, vit simplement et se rend disponible pour ses étudiants et les pauvres de la Société Saint-Vincent-de-Paul. Il adore la montagne : il y voyait, disait-il, la grandeur de Dieu. Il meurt du typhus en 1902, à quarante-trois ans.",
+    "plusLoin": "Pie XII l'a béatifié en 1947 et l'a présenté comme un modèle pour les universitaires.",
+    "source": "Université de Pavie, « Contardo Ferrini » ; Pie XII, béatification du 13 avril 1947"
+   },
+   "es": {
+    "nom": "Beato Contardo Ferrini",
+    "dates": "1859-1902",
+    "accroche": "Un gran profesor de derecho romano, alpinista apasionado, que mostró que se puede ser sabio y santo.",
+    "texte": "Contardo Ferrini nace en Milán en 1859. Estudiante brillante, aprende una decena de lenguas y llega a ser uno de los mejores especialistas en derecho romano y bizantino de su tiempo. Enseña en la Universidad de Pavía y publica numerosos trabajos que todavía se usan.\n\nEste investigador exigente va cada día a misa, vive con sencillez y se muestra disponible para sus estudiantes y para los pobres de las Conferencias de San Vicente de Paúl. Le encanta la montaña: veía en ella, decía, la grandeza de Dios. Muere de tifus en 1902, a los cuarenta y tres años.",
+    "plusLoin": "Pío XII lo beatificó en 1947 y lo presentó como modelo para los universitarios.",
+    "source": "Universidad de Pavía, «Contardo Ferrini»; Pío XII, beatificación del 13 de abril de 1947"
+   },
+   "en": {
+    "nom": "Blessed Contardo Ferrini",
+    "dates": "1859-1902",
+    "accroche": "A great professor of Roman law and keen mountaineer, who showed that one can be both a scholar and a saint.",
+    "texte": "Contardo Ferrini was born in Milan in 1859. A brilliant student, he learned around ten languages and became one of the leading experts of his day in Roman and Byzantine law. He taught at the University of Pavia and published many studies that are still used.\n\nThis demanding researcher went to Mass every day, lived simply and made himself available to his students and to the poor through the Society of Saint Vincent de Paul. He loved the mountains: there, he said, he saw the greatness of God. He died of typhus in 1902, aged forty-three.",
+    "plusLoin": "Pius XII beatified him in 1947 and held him up as a model for academics.",
+    "source": "University of Pavia, “Contardo Ferrini”; Pius XII, beatification of 13 April 1947"
+   }
+  },
+  {
+   "id": "jose-gregorio",
+   "saint": true,
+   "fr": {
+    "nom": "Saint José Gregorio Hernández",
+    "dates": "1864-1919",
+    "accroche": "Le « médecin des pauvres » du Venezuela, pionnier de la médecine moderne dans son pays, renversé par une voiture alors qu'il apportait des remèdes à une malade.",
+    "texte": "José Gregorio Hernández naît en 1864 dans les Andes vénézuéliennes. Brillant étudiant en médecine, il part se perfectionner à Paris, puis rapporte à Caracas les premiers microscopes et fonde des laboratoires. Il enseigne à l'université et forme des générations de médecins.\n\nTrès croyant, il essaie à deux reprises de devenir moine, mais sa santé l'en empêche. Il se consacre alors aux malades, souvent sans les faire payer, et leur donne même de quoi acheter leurs médicaments. Le 29 juin 1919, il est renversé par l'une des rares voitures de Caracas en allant porter des remèdes à une femme pauvre.",
+    "plusLoin": "Il a été canonisé le 19 octobre 2025 : c'est le premier saint du Venezuela, où il est profondément aimé.",
+    "source": "Saint-Siège, canonisation du 19 octobre 2025 ; Conférence épiscopale du Venezuela"
+   },
+   "es": {
+    "nom": "San José Gregorio Hernández",
+    "dates": "1864-1919",
+    "accroche": "El «médico de los pobres» de Venezuela, pionero de la medicina moderna en su país, atropellado por un automóvil cuando llevaba medicinas a una enferma.",
+    "texte": "José Gregorio Hernández nace en 1864 en los Andes venezolanos. Brillante estudiante de medicina, va a perfeccionarse a París y luego lleva a Caracas los primeros microscopios y funda laboratorios. Enseña en la universidad y forma a generaciones de médicos.\n\nMuy creyente, intenta dos veces hacerse monje, pero su salud se lo impide. Se dedica entonces a los enfermos, a menudo sin cobrarles, e incluso les da dinero para comprar sus medicinas. El 29 de junio de 1919 lo atropella uno de los pocos automóviles de Caracas cuando iba a llevar medicinas a una mujer pobre.",
+    "plusLoin": "Fue canonizado el 19 de octubre de 2025: es el primer santo de Venezuela, donde es profundamente querido.",
+    "source": "Santa Sede, canonización del 19 de octubre de 2025; Conferencia Episcopal Venezolana"
+   },
+   "en": {
+    "nom": "Saint José Gregorio Hernández",
+    "dates": "1864-1919",
+    "accroche": "Venezuela's “doctor of the poor”, a pioneer of modern medicine in his country, knocked down by a car while taking medicine to a sick woman.",
+    "texte": "José Gregorio Hernández was born in 1864 in the Venezuelan Andes. A brilliant medical student, he went to Paris for further training, then brought the first microscopes back to Caracas and set up laboratories. He taught at the university and trained generations of doctors.\n\nDeeply devout, he tried twice to become a monk, but his health prevented it. He then devoted himself to the sick, often without charging them, and even gave them money to buy their medicines. On 29 June 1919 he was knocked down by one of the few cars in Caracas while taking medicine to a poor woman.",
+    "plusLoin": "He was canonised on 19 October 2025: he is Venezuela's first saint, and is deeply loved there.",
+    "source": "Holy See, canonisation of 19 October 2025; Venezuelan Episcopal Conference"
+   }
+  },
+  {
+   "id": "batthyany",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Ladislas Batthyány-Strattmann",
+    "dates": "1870-1931",
+    "accroche": "Un prince hongrois, ophtalmologue, qui opérait gratuitement les pauvres et leur demandait seulement de prier pour lui.",
+    "texte": "László Batthyány-Strattmann naît en 1870 dans une grande famille de la noblesse hongroise. Après une jeunesse insouciante, il étudie la médecine et devient chirurgien des yeux. Il épouse Maria Teresa Coreth ; ils auront treize enfants et prient chaque jour ensemble.\n\nIl fait construire un hôpital sur ses terres, où il soigne les pauvres sans rien leur demander. À la fin d'une consultation, il remettait parfois une image pieuse et demandait au patient de dire un Notre Père pour lui. On l'a surnommé « le médecin des pauvres ». Il meurt en 1931 à Vienne, après une longue maladie.",
+    "plusLoin": "Jean-Paul II l'a béatifié en 2003. Il est un modèle pour les médecins et les pères de famille.",
+    "source": "Saint-Siège, béatification du 23 mars 2003 ; Jean-Paul II, homélie du 23 mars 2003"
+   },
+   "es": {
+    "nom": "Beato Ladislao Batthyány-Strattmann",
+    "dates": "1870-1931",
+    "accroche": "Un príncipe húngaro, oftalmólogo, que operaba gratis a los pobres y solo les pedía que rezaran por él.",
+    "texte": "László Batthyány-Strattmann nace en 1870 en una gran familia de la nobleza húngara. Tras una juventud despreocupada, estudia medicina y se hace cirujano de los ojos. Se casa con Maria Teresa Coreth; tendrán trece hijos y rezan juntos cada día.\n\nManda construir un hospital en sus tierras, donde atiende a los pobres sin cobrarles nada. Al final de una consulta, a veces entregaba una estampa y pedía al paciente que rezara un padrenuestro por él. Lo llamaron «el médico de los pobres». Muere en 1931 en Viena, tras una larga enfermedad.",
+    "plusLoin": "Juan Pablo II lo beatificó en 2003. Es un modelo para los médicos y los padres de familia.",
+    "source": "Santa Sede, beatificación del 23 de marzo de 2003; Juan Pablo II, homilía del 23 de marzo de 2003"
+   },
+   "en": {
+    "nom": "Blessed Ladislaus Batthyány-Strattmann",
+    "dates": "1870-1931",
+    "accroche": "A Hungarian prince and eye surgeon who operated on the poor for free and asked only that they pray for him.",
+    "texte": "László Batthyány-Strattmann was born in 1870 into a great family of the Hungarian nobility. After a carefree youth he studied medicine and became an eye surgeon. He married Maria Teresa Coreth; they had thirteen children and prayed together every day.\n\nHe built a hospital on his estate, where he treated the poor without charging anything. At the end of an appointment he would sometimes hand over a holy card and ask the patient to say an Our Father for him. He was nicknamed “the doctor of the poor”. He died in Vienna in 1931, after a long illness.",
+    "plusLoin": "John Paul II beatified him in 2003. He is a model for doctors and fathers.",
+    "source": "Holy See, beatification of 23 March 2003; John Paul II, homily of 23 March 2003"
+   }
+  },
+  {
+   "id": "benoit-labre",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Benoît-Joseph Labre",
+    "dates": "1748-1783",
+    "accroche": "Un jeune Français refusé par tous les monastères, devenu pèlerin et mendiant sur les routes d'Europe.",
+    "texte": "Benoît-Joseph Labre naît en 1748 à Amettes, dans le Pas-de-Calais, aîné de quinze enfants. Il veut devenir moine, mais les chartreux et les trappistes le refusent l'un après l'autre : trop jeune, trop fragile, trop scrupuleux. Il comprend alors que sa vocation est ailleurs.\n\nPendant des années, il marche de sanctuaire en sanctuaire, de Lorette à Compostelle, vêtu de haillons, dormant dehors et partageant le peu qu'on lui donne. Il finit par s'installer à Rome, où il passe ses journées à prier dans les églises et ses nuits dans les ruines du Colisée. Il meurt en 1783, à trente-cinq ans.",
+    "plusLoin": "Il a été canonisé en 1881. Il est le patron des sans-abri et des pèlerins ; on le fête le 16 avril.",
+    "source": "Encyclopædia Britannica, « Saint Benedict Joseph Labre » ; diocèse d'Arras, sanctuaire d'Amettes"
+   },
+   "es": {
+    "nom": "San Benito José Labre",
+    "dates": "1748-1783",
+    "accroche": "Un joven francés rechazado por todos los monasterios, que se hizo peregrino y mendigo por los caminos de Europa.",
+    "texte": "Benito José Labre nace en 1748 en Amettes, en el norte de Francia, el mayor de quince hermanos. Quiere ser monje, pero los cartujos y los trapenses lo rechazan uno tras otro: demasiado joven, demasiado frágil, demasiado escrupuloso. Entonces comprende que su vocación está en otra parte.\n\nDurante años camina de santuario en santuario, de Loreto a Compostela, vestido con harapos, durmiendo al raso y compartiendo lo poco que le dan. Acaba instalándose en Roma, donde pasa los días rezando en las iglesias y las noches en las ruinas del Coliseo. Muere en 1783, a los treinta y cinco años.",
+    "plusLoin": "Fue canonizado en 1881. Es patrono de las personas sin hogar y de los peregrinos; su fiesta es el 16 de abril.",
+    "source": "Encyclopædia Britannica, «Saint Benedict Joseph Labre»; diócesis de Arras, santuario de Amettes"
+   },
+   "en": {
+    "nom": "Saint Benedict Joseph Labre",
+    "dates": "1748-1783",
+    "accroche": "A young Frenchman turned away by every monastery, who became a pilgrim and beggar on the roads of Europe.",
+    "texte": "Benedict Joseph Labre was born in 1748 in Amettes, in northern France, the eldest of fifteen children. He wanted to become a monk, but the Carthusians and the Trappists turned him down one after another: too young, too frail, too scrupulous. He then realised that his vocation lay elsewhere.\n\nFor years he walked from shrine to shrine, from Loreto to Compostela, dressed in rags, sleeping outdoors and sharing the little he was given. He eventually settled in Rome, where he spent his days praying in churches and his nights in the ruins of the Colosseum. He died in 1783, aged thirty-five.",
+    "plusLoin": "He was canonised in 1881. He is the patron of homeless people and pilgrims; his feast is on 16 April.",
+    "source": "Encyclopædia Britannica, “Saint Benedict Joseph Labre”; Diocese of Arras, shrine of Amettes"
+   }
+  },
+  {
+   "id": "hanna-chrzanowska",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureuse Hanna Chrzanowska",
+    "dates": "1902-1973",
+    "accroche": "Une infirmière de Cracovie qui a inventé, avec les paroisses, les soins à domicile pour les malades oubliés.",
+    "texte": "Hanna Chrzanowska naît en 1902 à Varsovie et grandit à Cracovie. Infirmière, elle enseigne dans une école d'infirmières, écrit dans des revues professionnelles et soigne les blessés pendant les guerres. Elle découvre combien de malades chroniques vivent seuls chez eux, sans aide.\n\nÀ partir de 1957, elle organise dans les paroisses de Cracovie un réseau d'infirmières et de bénévoles qui vont soigner, laver et visiter ces malades à domicile. Elle organise même pour eux des retraites et des pèlerinages. L'archevêque de Cracovie, Karol Wojtyła, la soutient et célèbre ses funérailles en 1973.",
+    "plusLoin": "Elle a été béatifiée en 2018 à Cracovie. Elle est une pionnière des soins palliatifs et de l'accompagnement à domicile.",
+    "source": "Congrégation pour les causes des saints, béatification du 28 avril 2018 ; archidiocèse de Cracovie"
+   },
+   "es": {
+    "nom": "Beata Hanna Chrzanowska",
+    "dates": "1902-1973",
+    "accroche": "Una enfermera de Cracovia que inventó, con las parroquias, la atención a domicilio para los enfermos olvidados.",
+    "texte": "Hanna Chrzanowska nace en 1902 en Varsovia y crece en Cracovia. Enfermera, enseña en una escuela de enfermería, escribe en revistas profesionales y cuida a los heridos durante las guerras. Descubre cuántos enfermos crónicos viven solos en sus casas, sin ayuda.\n\nA partir de 1957 organiza en las parroquias de Cracovia una red de enfermeras y voluntarios que van a curar, asear y visitar a esos enfermos a domicilio. Incluso organiza para ellos retiros y peregrinaciones. El arzobispo de Cracovia, Karol Wojtyła, la apoya y celebra su funeral en 1973.",
+    "plusLoin": "Fue beatificada en 2018 en Cracovia. Es una pionera de los cuidados paliativos y del acompañamiento a domicilio.",
+    "source": "Congregación para las Causas de los Santos, beatificación del 28 de abril de 2018; arquidiócesis de Cracovia"
+   },
+   "en": {
+    "nom": "Blessed Hanna Chrzanowska",
+    "dates": "1902-1973",
+    "accroche": "A nurse in Kraków who, with the parishes, invented home care for forgotten patients.",
+    "texte": "Hanna Chrzanowska was born in 1902 in Warsaw and grew up in Kraków. A nurse, she taught at a nursing school, wrote for professional journals and cared for the wounded during the wars. She discovered how many chronically ill people lived alone at home, with no help.\n\nFrom 1957 she organised in the parishes of Kraków a network of nurses and volunteers who went to treat, wash and visit these patients at home. She even organised retreats and pilgrimages for them. The archbishop of Kraków, Karol Wojtyła, supported her and celebrated her funeral in 1973.",
+    "plusLoin": "She was beatified in Kraków in 2018. She is a pioneer of palliative care and home nursing.",
+    "source": "Congregation for the Causes of Saints, beatification of 28 April 2018; Archdiocese of Kraków"
+   }
+  },
+  {
+   "id": "gregoire-grand",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Grégoire le Grand",
+    "dates": "vers 540-604",
+    "accroche": "Un haut fonctionnaire romain devenu moine, puis pape malgré lui, qui a nourri Rome affamée et envoyé des missionnaires en Angleterre.",
+    "texte": "Grégoire naît vers 540 à Rome, dans une famille riche. Il devient préfet de la ville, la plus haute charge civile. Puis il vend ses biens, transforme la maison familiale en monastère et y devient moine. En 590, en pleine épidémie de peste, il est élu pape, contre son gré.\n\nRome est ruinée par les guerres et les inondations. Grégoire organise des distributions de blé, fait soigner les malades et racheter les prisonniers. En 596, il envoie le moine Augustin et ses compagnons annoncer l'Évangile en Angleterre. Il signait ses lettres « serviteur des serviteurs de Dieu », un titre que les papes utilisent encore.",
+    "plusLoin": "Il est docteur de l'Église. Le chant grégorien porte son nom ; on le fête le 3 septembre.",
+    "source": "Benoît XVI, audience générale du 28 mai 2008 ; Encyclopædia Britannica, « Saint Gregory the Great »"
+   },
+   "es": {
+    "nom": "San Gregorio Magno",
+    "dates": "hacia 540-604",
+    "accroche": "Un alto funcionario romano que se hizo monje, y luego papa a su pesar, que alimentó a Roma hambrienta y envió misioneros a Inglaterra.",
+    "texte": "Gregorio nace hacia el año 540 en Roma, en una familia rica. Llega a ser prefecto de la ciudad, el cargo civil más alto. Después vende sus bienes, convierte la casa familiar en monasterio y se hace monje allí. En 590, en plena epidemia de peste, es elegido papa, contra su voluntad.\n\nRoma está arruinada por las guerras y las inundaciones. Gregorio organiza repartos de trigo, hace atender a los enfermos y rescatar a los prisioneros. En 596 envía al monje Agustín y a sus compañeros a anunciar el Evangelio en Inglaterra. Firmaba sus cartas como «siervo de los siervos de Dios», un título que los papas todavía usan.",
+    "plusLoin": "Es doctor de la Iglesia. El canto gregoriano lleva su nombre; su fiesta es el 3 de septiembre.",
+    "source": "Benedicto XVI, audiencia general del 28 de mayo de 2008; Encyclopædia Britannica, «Saint Gregory the Great»"
+   },
+   "en": {
+    "nom": "Saint Gregory the Great",
+    "dates": "c. 540-604",
+    "accroche": "A senior Roman official who became a monk, then pope against his will, who fed starving Rome and sent missionaries to England.",
+    "texte": "Gregory was born around 540 in Rome, into a wealthy family. He became prefect of the city, the highest civil office. Then he sold his possessions, turned the family home into a monastery and became a monk there. In 590, in the middle of a plague epidemic, he was elected pope against his will.\n\nRome had been ruined by wars and floods. Gregory organised grain distributions, had the sick cared for and paid to free prisoners. In 596 he sent the monk Augustine and his companions to proclaim the Gospel in England. He signed his letters “servant of the servants of God”, a title popes still use.",
+    "plusLoin": "He is a Doctor of the Church. Gregorian chant bears his name; his feast is on 3 September.",
+    "source": "Benedict XVI, general audience of 28 May 2008; Encyclopædia Britannica, “Saint Gregory the Great”"
+   }
+  },
+  {
+   "id": "rupert-mayer",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Rupert Mayer",
+    "dates": "1876-1945",
+    "accroche": "Un jésuite de Munich, amputé d'une jambe à la guerre, qui a tenu tête au régime nazi du haut de sa chaire.",
+    "texte": "Rupert Mayer naît en 1876 à Stuttgart, en Allemagne. Jésuite, il s'installe à Munich, où il s'occupe des pauvres et des nouveaux arrivants venus chercher du travail. Aumônier pendant la Première Guerre mondiale, il est gravement blessé et perd une jambe.\n\nDès les années 1920, il met en garde contre le parti nazi. Après 1933, il continue à prêcher ouvertement contre les persécutions de l'Église. Arrêté plusieurs fois, emprisonné, envoyé en camp, il est finalement assigné à résidence dans un monastère. Rentré à Munich après la guerre, il meurt le 1er novembre 1945, pendant qu'il prêche la messe de la Toussaint.",
+    "plusLoin": "Jean-Paul II l'a béatifié en 1987 à Munich. Sa tombe, en plein centre de la ville, reçoit chaque jour des visiteurs.",
+    "source": "Saint-Siège, béatification du 3 mai 1987 ; Compagnie de Jésus, province d'Europe centrale"
+   },
+   "es": {
+    "nom": "Beato Rupert Mayer",
+    "dates": "1876-1945",
+    "accroche": "Un jesuita de Múnich, amputado de una pierna en la guerra, que plantó cara al régimen nazi desde el púlpito.",
+    "texte": "Rupert Mayer nace en 1876 en Stuttgart, Alemania. Jesuita, se instala en Múnich, donde se ocupa de los pobres y de los recién llegados que buscan trabajo. Capellán durante la Primera Guerra Mundial, resulta gravemente herido y pierde una pierna.\n\nYa en los años veinte advierte contra el partido nazi. Después de 1933 sigue predicando abiertamente contra la persecución de la Iglesia. Detenido varias veces, encarcelado, enviado a un campo, termina confinado en un monasterio. De vuelta en Múnich después de la guerra, muere el 1 de noviembre de 1945, mientras predica en la misa de Todos los Santos.",
+    "plusLoin": "Juan Pablo II lo beatificó en 1987 en Múnich. Su tumba, en pleno centro de la ciudad, recibe visitantes cada día.",
+    "source": "Santa Sede, beatificación del 3 de mayo de 1987; Compañía de Jesús, provincia de Europa central"
+   },
+   "en": {
+    "nom": "Blessed Rupert Mayer",
+    "dates": "1876-1945",
+    "accroche": "A Munich Jesuit who lost a leg in the war and stood up to the Nazi regime from the pulpit.",
+    "texte": "Rupert Mayer was born in 1876 in Stuttgart, Germany. As a Jesuit he settled in Munich, where he cared for the poor and for newcomers looking for work. A chaplain in the First World War, he was badly wounded and lost a leg.\n\nAs early as the 1920s he warned against the Nazi party. After 1933 he went on preaching openly against the persecution of the Church. Arrested several times, imprisoned and sent to a camp, he was finally confined to a monastery. Back in Munich after the war, he died on 1 November 1945, while preaching at the All Saints' Day Mass.",
+    "plusLoin": "John Paul II beatified him in Munich in 1987. His tomb, right in the city centre, has visitors every day.",
+    "source": "Holy See, beatification of 3 May 1987; Society of Jesus, Central European Province"
+   }
   }
  ],
  "savaisTu": [
