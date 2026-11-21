@@ -20020,6 +20020,405 @@
     "texte": "On 21 August 1879, at about eight in the evening, at Knock in the west of Ireland, villagers saw on the wall of their church, bathed in light, the Virgin Mary, Saint Joseph and Saint John, beside an altar bearing a lamb. Men, women and children stayed there for two hours in pouring rain, praying the rosary. No word was spoken and, according to the witnesses, the ground at the foot of the wall stayed dry.\n\nSix weeks later the archbishop of Tuam had fifteen witnesses questioned, and their accounts were judged trustworthy. In 1936 a second commission heard the last survivors: at 86, Mary Byrne told exactly the same story as in 1879. John Paul II went there as a pilgrim in 1979.",
     "source": "Knock Shrine, “About Knock Shrine”; Vatican News, August 2018"
    }
+  },
+  {
+   "id": "grimaldi-diffraction",
+   "fr": {
+    "titre": "Le jésuite qui a vu la lumière se plier",
+    "accroche": "Le mot « diffraction », qui désigne la manière dont la lumière se courbe en passant par un trou, a été inventé par un prêtre.",
+    "texte": "Francesco Maria Grimaldi, jésuite italien né en 1618, enseigne à Bologne et aide son confrère Riccioli à cartographier la Lune. Il fait entrer un mince rayon de soleil dans une pièce obscure par un trou minuscule, et remarque que l'ombre des objets n'est pas nette : elle est bordée de franges colorées.\n\nIl comprend que la lumière ne va pas toujours tout droit, mais se « brise » légèrement au bord des obstacles. Il appelle ce phénomène « diffraction ». Son livre paraît en 1665, deux ans après sa mort. Cette découverte jouera un grand rôle dans la compréhension de la lumière comme une onde. Un cratère de la Lune porte son nom.",
+    "source": "Encyclopædia Britannica, « Francesco Maria Grimaldi » ; F. M. Grimaldi, Physico-mathesis de lumine (1665)"
+   },
+   "es": {
+    "titre": "El jesuita que vio doblarse la luz",
+    "accroche": "La palabra «difracción», que designa cómo se curva la luz al pasar por un orificio, la inventó un sacerdote.",
+    "texte": "Francesco Maria Grimaldi, jesuita italiano nacido en 1618, enseña en Bolonia y ayuda a su compañero Riccioli a cartografiar la Luna. Hace entrar un fino rayo de sol en una habitación oscura por un agujero diminuto, y observa que la sombra de los objetos no es nítida: está rodeada de franjas de colores.\n\nComprende que la luz no siempre va en línea recta, sino que se «quiebra» ligeramente en el borde de los obstáculos. Llama a este fenómeno «difracción». Su libro se publica en 1665, dos años después de su muerte. Este descubrimiento será clave para entender la luz como una onda. Un cráter de la Luna lleva su nombre.",
+    "source": "Encyclopædia Britannica, «Francesco Maria Grimaldi»; F. M. Grimaldi, Physico-mathesis de lumine (1665)"
+   },
+   "en": {
+    "titre": "The Jesuit who saw light bend",
+    "accroche": "The word “diffraction”, which describes how light bends as it passes through an opening, was coined by a priest.",
+    "texte": "Francesco Maria Grimaldi, an Italian Jesuit born in 1618, taught in Bologna and helped his fellow Jesuit Riccioli to map the Moon. He let a thin beam of sunlight into a dark room through a tiny hole, and noticed that the shadows of objects were not sharp: they were edged with coloured fringes.\n\nHe realised that light does not always travel in a straight line, but “breaks” slightly at the edges of obstacles. He called this phenomenon “diffraction”. His book appeared in 1665, two years after his death. The discovery would play a major part in understanding light as a wave. A crater on the Moon bears his name.",
+    "source": "Encyclopædia Britannica, “Francesco Maria Grimaldi”; F. M. Grimaldi, Physico-mathesis de lumine (1665)"
+   }
+  },
+  {
+   "id": "mersenne-premiers",
+   "fr": {
+    "titre": "Les nombres du père Mersenne",
+    "accroche": "Les plus grands nombres premiers jamais découverts portent le nom d'un religieux français du XVIIe siècle.",
+    "texte": "Marin Mersenne, né en 1588, est un frère de l'ordre des Minimes à Paris. Passionné de mathématiques et de musique, il étudie les nombres qui s'écrivent 2 multiplié par lui-même un certain nombre de fois, moins 1. Certains sont premiers : on ne peut les diviser que par 1 et par eux-mêmes. On les appelle aujourd'hui « nombres de Mersenne ».\n\nDepuis des décennies, les plus grands nombres premiers connus sont presque tous de ce type, trouvés par des ordinateurs du monde entier. Mersenne a aussi découvert les lois des cordes qui vibrent, à la base de l'acoustique. Surtout, depuis sa cellule, il correspondait avec Descartes, Fermat, Pascal ou Galilée : son couvent était comme un réseau scientifique avant l'heure.",
+    "source": "Encyclopædia Britannica, « Marin Mersenne » ; Great Internet Mersenne Prime Search (GIMPS)"
+   },
+   "es": {
+    "titre": "Los números del padre Mersenne",
+    "accroche": "Los números primos más grandes jamás descubiertos llevan el nombre de un religioso francés del siglo XVII.",
+    "texte": "Marin Mersenne, nacido en 1588, es un fraile de la orden de los Mínimos en París. Apasionado por las matemáticas y la música, estudia los números que se escriben multiplicando 2 por sí mismo cierto número de veces y restando 1. Algunos son primos: solo se pueden dividir por 1 y por sí mismos. Hoy se llaman «números de Mersenne».\n\nDesde hace décadas, los mayores números primos conocidos son casi todos de este tipo, hallados por computadoras de todo el mundo. Mersenne descubrió también las leyes de las cuerdas que vibran, base de la acústica. Sobre todo, desde su celda se escribía con Descartes, Fermat, Pascal o Galileo: su convento era como una red científica adelantada a su tiempo.",
+    "source": "Encyclopædia Britannica, «Marin Mersenne»; Great Internet Mersenne Prime Search (GIMPS)"
+   },
+   "en": {
+    "titre": "Father Mersenne's numbers",
+    "accroche": "The largest prime numbers ever discovered bear the name of a seventeenth-century French friar.",
+    "texte": "Marin Mersenne, born in 1588, was a friar of the Minim order in Paris. Passionate about mathematics and music, he studied numbers made by multiplying 2 by itself a certain number of times and subtracting 1. Some of them are prime: they can be divided only by 1 and by themselves. Today they are called “Mersenne numbers”.\n\nFor decades, almost all the largest known primes have been of this kind, found by computers around the world. Mersenne also discovered the laws of vibrating strings, the basis of acoustics. Above all, from his cell he corresponded with Descartes, Fermat, Pascal and Galileo: his friary was like a scientific network ahead of its time.",
+    "source": "Encyclopædia Britannica, “Marin Mersenne”; Great Internet Mersenne Prime Search (GIMPS)"
+   }
+  },
+  {
+   "id": "spallanzani",
+   "fr": {
+    "titre": "Le prêtre qui a percé le secret des chauves-souris",
+    "accroche": "Un prêtre italien du XVIIIe siècle a montré que la vie ne naît pas toute seule, puis découvert que les chauves-souris se dirigent sans les yeux.",
+    "texte": "Lazzaro Spallanzani, né en 1729, est prêtre et professeur à l'université de Pavie. À son époque, beaucoup pensent que de petits êtres vivants apparaissent spontanément dans un bouillon qui pourrit. Il fait bouillir des bouillons dans des flacons bien fermés : rien n'y pousse. La vie vient de la vie, conclut-il, un siècle avant les célèbres expériences de Pasteur.\n\nEn 1793, il lâche des chauves-souris aux yeux bandés dans une pièce tendue de fils : elles les évitent sans peine. Mais si on leur bouche les oreilles, elles se cognent partout. Il a deviné qu'elles « voient » avec l'ouïe. Il faudra attendre le XXe siècle pour découvrir les ultrasons qu'elles utilisent.",
+    "source": "Encyclopædia Britannica, « Lazzaro Spallanzani » ; université de Pavie, musée d'histoire naturelle"
+   },
+   "es": {
+    "titre": "El sacerdote que descubrió el secreto de los murciélagos",
+    "accroche": "Un sacerdote italiano del siglo XVIII demostró que la vida no nace sola, y después descubrió que los murciélagos se orientan sin los ojos.",
+    "texte": "Lazzaro Spallanzani, nacido en 1729, es sacerdote y profesor en la Universidad de Pavía. En su época, muchos creen que pequeños seres vivos aparecen espontáneamente en un caldo que se pudre. Él hierve caldos en frascos bien cerrados: no crece nada. La vida viene de la vida, concluye, un siglo antes de los célebres experimentos de Pasteur.\n\nEn 1793 suelta murciélagos con los ojos vendados en una habitación atravesada por hilos: los esquivan sin dificultad. Pero si se les tapan los oídos, chocan por todas partes. Adivinó que «ven» con el oído. Habrá que esperar al siglo XX para descubrir los ultrasonidos que utilizan.",
+    "source": "Encyclopædia Britannica, «Lazzaro Spallanzani»; Universidad de Pavía, museo de historia natural"
+   },
+   "en": {
+    "titre": "The priest who cracked the bats' secret",
+    "accroche": "An eighteenth-century Italian priest showed that life does not arise on its own, then discovered that bats find their way without their eyes.",
+    "texte": "Lazzaro Spallanzani, born in 1729, was a priest and professor at the University of Pavia. In his day many believed that tiny living things appeared spontaneously in a broth that was going off. He boiled broths in tightly sealed flasks: nothing grew. Life comes from life, he concluded, a century before Pasteur's famous experiments.\n\nIn 1793 he released blindfolded bats into a room criss-crossed with threads: they avoided them easily. But if their ears were blocked, they bumped into everything. He had guessed that they “see” with their hearing. It was not until the twentieth century that the ultrasound they use was discovered.",
+    "source": "Encyclopædia Britannica, “Lazzaro Spallanzani”; University of Pavia, natural history museum"
+   }
+  },
+  {
+   "id": "hauy-cristaux",
+   "fr": {
+    "titre": "Le cristal tombé par terre",
+    "accroche": "Un jour, un prêtre parisien a fait tomber un cristal. En regardant les morceaux, il a fondé une nouvelle science.",
+    "texte": "René-Just Haüy, né en 1743, est prêtre et professeur dans un collège parisien. Il s'intéresse aux plantes, puis aux minéraux. Selon le récit qu'on en fait, en examinant la collection d'un ami, il laisse échapper un cristal de calcite, qui se brise. Au lieu de se désoler, il observe les éclats : ils ont tous la même forme régulière.\n\nIl en déduit que chaque cristal est fait d'une petite forme de base répétée des milliers de fois, comme des briques. C'est la naissance de la cristallographie, la science qui étudie l'organisation des cristaux. On l'appelle aujourd'hui « le père de la cristallographie », et un minéral bleu, la haüyne, porte son nom.",
+    "source": "Encyclopædia Britannica, « René-Just Haüy » ; Muséum national d'histoire naturelle (Paris)"
+   },
+   "es": {
+    "titre": "El cristal que cayó al suelo",
+    "accroche": "Un día, un sacerdote parisino dejó caer un cristal. Al mirar los trozos, fundó una nueva ciencia.",
+    "texte": "René-Just Haüy, nacido en 1743, es sacerdote y profesor en un colegio de París. Se interesa por las plantas y luego por los minerales. Según se cuenta, examinando la colección de un amigo, se le escapa un cristal de calcita, que se rompe. En lugar de lamentarse, observa los fragmentos: todos tienen la misma forma regular.\n\nDeduce que cada cristal está hecho de una pequeña forma básica repetida miles de veces, como ladrillos. Es el nacimiento de la cristalografía, la ciencia que estudia la organización de los cristales. Hoy se le llama «el padre de la cristalografía», y un mineral azul, la haüyna, lleva su nombre.",
+    "source": "Encyclopædia Britannica, «René-Just Haüy»; Museo Nacional de Historia Natural (París)"
+   },
+   "en": {
+    "titre": "The crystal that fell on the floor",
+    "accroche": "One day a Paris priest dropped a crystal. Looking at the pieces, he founded a new science.",
+    "texte": "René-Just Haüy, born in 1743, was a priest and a teacher at a Paris college. He took an interest in plants, then in minerals. As the story goes, while examining a friend's collection he dropped a calcite crystal, which broke. Instead of being upset, he looked closely at the fragments: they all had the same regular shape.\n\nHe concluded that every crystal is made of a small basic shape repeated thousands of times, like bricks. This was the birth of crystallography, the science that studies how crystals are organised. He is now called “the father of crystallography”, and a blue mineral, haüyne, bears his name.",
+    "source": "Encyclopædia Britannica, “René-Just Haüy”; National Museum of Natural History (Paris)"
+   }
+  },
+  {
+   "id": "thierry-arc-en-ciel",
+   "fr": {
+    "titre": "Le secret de l'arc-en-ciel",
+    "accroche": "Vers 1304, un moine dominicain allemand a expliqué l'arc-en-ciel en jouant avec des boules de verre remplies d'eau.",
+    "texte": "Depuis l'Antiquité, on se demande comment se forme l'arc-en-ciel. Thierry de Freiberg, dominicain et professeur à Paris, a une idée : une goutte de pluie est une toute petite boule d'eau. Il remplit donc d'eau de grosses sphères de verre et observe comment la lumière du soleil les traverse.\n\nIl découvre que la lumière entre dans chaque goutte, se réfléchit à l'intérieur, puis ressort en se séparant en couleurs. Il explique même le second arc, plus pâle, aux couleurs inversées. Son traité sur l'arc-en-ciel est l'un des plus beaux exemples de science expérimentale au Moyen Âge. Descartes retrouvera la même explication plus de trois siècles plus tard.",
+    "source": "Encyclopædia Britannica, « Theodoric of Freiberg » ; Thierry de Freiberg, De iride (vers 1304-1310)"
+   },
+   "es": {
+    "titre": "El secreto del arcoíris",
+    "accroche": "Hacia 1304, un fraile dominico alemán explicó el arcoíris jugando con bolas de cristal llenas de agua.",
+    "texte": "Desde la Antigüedad se preguntaba cómo se forma el arcoíris. Teodorico de Freiberg, dominico y profesor en París, tiene una idea: una gota de lluvia es una bolita de agua. Así que llena de agua grandes esferas de cristal y observa cómo las atraviesa la luz del sol.\n\nDescubre que la luz entra en cada gota, se refleja dentro y vuelve a salir separándose en colores. Explica incluso el segundo arco, más pálido, con los colores invertidos. Su tratado sobre el arcoíris es uno de los mejores ejemplos de ciencia experimental en la Edad Media. Descartes llegará a la misma explicación más de tres siglos después.",
+    "source": "Encyclopædia Britannica, «Theodoric of Freiberg»; Teodorico de Freiberg, De iride (hacia 1304-1310)"
+   },
+   "en": {
+    "titre": "The secret of the rainbow",
+    "accroche": "Around 1304 a German Dominican friar explained the rainbow by experimenting with glass spheres filled with water.",
+    "texte": "Since ancient times people had wondered how a rainbow forms. Theodoric of Freiberg, a Dominican and a teacher in Paris, had an idea: a raindrop is a tiny ball of water. So he filled large glass spheres with water and watched how sunlight passed through them.\n\nHe discovered that light enters each drop, is reflected inside it, and comes out again split into colours. He even explained the second, paler bow with its colours reversed. His treatise on the rainbow is one of the finest examples of experimental science in the Middle Ages. Descartes would arrive at the same explanation more than three centuries later.",
+    "source": "Encyclopædia Britannica, “Theodoric of Freiberg”; Theodoric of Freiberg, De iride (c. 1304-1310)"
+   }
+  },
+  {
+   "id": "nollet-electricite",
+   "fr": {
+    "titre": "Deux cents moines électrisés",
+    "accroche": "Au XVIIIe siècle, un abbé physicien a fait passer une décharge électrique à travers une longue chaîne de moines qui se tenaient la main.",
+    "texte": "Jean-Antoine Nollet, né en 1700, est abbé et l'un des plus célèbres physiciens de son temps. Il donne des cours spectaculaires sur l'électricité, une force encore mystérieuse. En 1746, devant le roi Louis XV, il fait sauter en même temps 180 gardes qui se tiennent par la main, reliés à une bouteille capable de stocker l'électricité.\n\nPeu après, il recommence avec environ deux cents moines chartreux, alignés sur plus d'un kilomètre et reliés par des fils de fer. Tous sursautent au même instant : l'électricité voyage donc extrêmement vite. Nollet a aussi découvert l'osmose, ce passage de l'eau à travers une membrane essentiel au fonctionnement de nos cellules.",
+    "source": "Encyclopædia Britannica, « Jean-Antoine Nollet » ; Musée des arts et métiers (Paris), cabinet de physique"
+   },
+   "es": {
+    "titre": "Doscientos monjes electrizados",
+    "accroche": "En el siglo XVIII, un abate físico hizo pasar una descarga eléctrica a través de una larga cadena de monjes tomados de la mano.",
+    "texte": "Jean-Antoine Nollet, nacido en 1700, es abate y uno de los físicos más famosos de su tiempo. Da clases espectaculares sobre la electricidad, una fuerza todavía misteriosa. En 1746, ante el rey Luis XV, hace saltar a la vez a 180 guardias tomados de la mano, conectados a una botella capaz de almacenar electricidad.\n\nPoco después repite la experiencia con unos doscientos monjes cartujos, alineados a lo largo de más de un kilómetro y unidos por alambres. Todos se sobresaltan en el mismo instante: la electricidad viaja, por tanto, rapidísimo. Nollet descubrió también la ósmosis, ese paso del agua a través de una membrana esencial para el funcionamiento de nuestras células.",
+    "source": "Encyclopædia Britannica, «Jean-Antoine Nollet»; Musée des arts et métiers (París), gabinete de física"
+   },
+   "en": {
+    "titre": "Two hundred electrified monks",
+    "accroche": "In the eighteenth century a priest-physicist sent an electric shock through a long chain of monks holding hands.",
+    "texte": "Jean-Antoine Nollet, born in 1700, was an abbé and one of the most famous physicists of his day. He gave spectacular lectures on electricity, a force that was still mysterious. In 1746, before King Louis XV, he made 180 guards holding hands all jump at once, connected to a jar that could store electricity.\n\nShortly afterwards he repeated the experiment with about two hundred Carthusian monks, lined up over more than a kilometre and linked by iron wires. They all jumped at the same instant: electricity, then, travels extremely fast. Nollet also discovered osmosis, the passage of water through a membrane that is essential to the working of our cells.",
+    "source": "Encyclopædia Britannica, “Jean-Antoine Nollet”; Musée des arts et métiers (Paris), physics cabinet"
+   }
+  },
+  {
+   "id": "lana-aeronautique",
+   "fr": {
+    "titre": "Le bateau volant d'un jésuite",
+    "accroche": "En 1670, un jésuite italien a dessiné un navire capable de voler, et il est considéré comme l'un des pères de l'aéronautique.",
+    "texte": "Francesco Lana de Terzi, né à Brescia en 1631, est jésuite et professeur de mathématiques. En 1670, il publie un livre où il imagine un bateau soulevé dans les airs par quatre grandes sphères de cuivre très fines, vidées de leur air. Plus légères que l'air qui les entoure, elles devraient monter, comme une bulle dans l'eau.\n\nSon idée était juste en principe, mais impossible à réaliser : des sphères aussi fines auraient été écrasées par la pression de l'air. Elle a pourtant inspiré les inventeurs des montgolfières et des dirigeables. Lana de Terzi se demandait d'ailleurs, avec inquiétude, si de telles machines ne serviraient pas un jour à faire la guerre.",
+    "source": "Encyclopædia Britannica, « Francesco Lana de Terzi » ; F. Lana de Terzi, Prodromo (1670)"
+   },
+   "es": {
+    "titre": "El barco volador de un jesuita",
+    "accroche": "En 1670, un jesuita italiano diseñó un navío capaz de volar, y se le considera uno de los padres de la aeronáutica.",
+    "texte": "Francesco Lana de Terzi, nacido en Brescia en 1631, es jesuita y profesor de matemáticas. En 1670 publica un libro en el que imagina un barco elevado por los aires gracias a cuatro grandes esferas de cobre muy finas, vaciadas de aire. Más ligeras que el aire que las rodea, deberían subir, como una burbuja en el agua.\n\nSu idea era correcta en principio, pero imposible de realizar: unas esferas tan finas habrían quedado aplastadas por la presión del aire. Aun así inspiró a los inventores de los globos aerostáticos y los dirigibles. Lana de Terzi se preguntaba además, con inquietud, si tales máquinas no servirían algún día para hacer la guerra.",
+    "source": "Encyclopædia Britannica, «Francesco Lana de Terzi»; F. Lana de Terzi, Prodromo (1670)"
+   },
+   "en": {
+    "titre": "A Jesuit's flying ship",
+    "accroche": "In 1670 an Italian Jesuit designed a ship that could fly, and he is regarded as one of the fathers of aeronautics.",
+    "texte": "Francesco Lana de Terzi, born in Brescia in 1631, was a Jesuit and a mathematics teacher. In 1670 he published a book in which he imagined a boat lifted into the air by four large, very thin copper spheres with the air pumped out of them. Lighter than the surrounding air, they ought to rise, like a bubble in water.\n\nHis idea was right in principle but impossible to build: spheres that thin would have been crushed by air pressure. Even so, it inspired the inventors of hot-air balloons and airships. Lana de Terzi also wondered, with some anxiety, whether such machines might one day be used to wage war.",
+    "source": "Encyclopædia Britannica, “Francesco Lana de Terzi”; F. Lana de Terzi, Prodromo (1670)"
+   }
+  },
+  {
+   "id": "nieuwland-neoprene",
+   "fr": {
+    "titre": "Le prêtre derrière le caoutchouc synthétique",
+    "accroche": "Les combinaisons de plongée, les gants de protection et bien d'autres objets en néoprène doivent beaucoup aux recherches d'un prêtre chimiste.",
+    "texte": "Julius Nieuwland naît en Belgique en 1878 et émigre enfant aux États-Unis. Prêtre de la congrégation de Sainte-Croix, il devient professeur de chimie à l'université de Notre-Dame, dans l'Indiana. Il étudie pendant des années les réactions d'un gaz, l'acétylène, et parvient à en tirer de nouvelles molécules.\n\nAu début des années 1930, l'entreprise DuPont s'appuie sur ses travaux pour fabriquer l'un des premiers caoutchoucs synthétiques réussis, le néoprène. Il est encore utilisé partout aujourd'hui, des combinaisons de plongée aux joints des voitures. Le père Nieuwland était aussi botaniste et a fondé une revue scientifique consacrée aux plantes.",
+    "source": "American Chemical Society, « Discovery of Neoprene » ; université de Notre-Dame, « Father Julius Nieuwland »"
+   },
+   "es": {
+    "titre": "El sacerdote detrás del caucho sintético",
+    "accroche": "Los trajes de buceo, los guantes de protección y muchos otros objetos de neopreno deben mucho a las investigaciones de un sacerdote químico.",
+    "texte": "Julius Nieuwland nace en Bélgica en 1878 y emigra de niño a Estados Unidos. Sacerdote de la congregación de Santa Cruz, llega a ser profesor de química en la Universidad de Notre Dame, en Indiana. Estudia durante años las reacciones de un gas, el acetileno, y logra obtener de él nuevas moléculas.\n\nA comienzos de los años treinta, la empresa DuPont se basa en sus trabajos para fabricar uno de los primeros cauchos sintéticos logrados, el neopreno. Todavía hoy se usa en todas partes, de los trajes de buceo a las juntas de los automóviles. El padre Nieuwland era también botánico y fundó una revista científica dedicada a las plantas.",
+    "source": "American Chemical Society, «Discovery of Neoprene»; Universidad de Notre Dame, «Father Julius Nieuwland»"
+   },
+   "en": {
+    "titre": "The priest behind synthetic rubber",
+    "accroche": "Wetsuits, protective gloves and many other neoprene items owe a great deal to the research of a priest-chemist.",
+    "texte": "Julius Nieuwland was born in Belgium in 1878 and emigrated to the United States as a child. A priest of the Congregation of Holy Cross, he became a professor of chemistry at the University of Notre Dame, in Indiana. For years he studied the reactions of a gas, acetylene, and succeeded in making new molecules from it.\n\nIn the early 1930s the DuPont company built on his work to produce one of the first successful synthetic rubbers, neoprene. It is still used everywhere today, from wetsuits to car seals. Father Nieuwland was also a botanist and founded a scientific journal devoted to plants.",
+    "source": "American Chemical Society, “Discovery of Neoprene”; University of Notre Dame, “Father Julius Nieuwland”"
+   }
+  },
+  {
+   "id": "gerbert-chiffres",
+   "fr": {
+    "titre": "Le pape qui a apporté nos chiffres",
+    "accroche": "Vers l'an 1000, un moine passé par la Catalogne, devenu pape, a aidé à faire connaître en Europe les chiffres que nous utilisons.",
+    "texte": "Gerbert naît vers 946 en Auvergne et devient moine à Aurillac. Jeune homme, il part étudier en Catalogne, près de Vic et de Ripoll, où les monastères ont accès aux savoirs du monde arabe. Il y découvre des chiffres venus d'Inde par les savants musulmans, ancêtres des nôtres.\n\nDe retour en France, il enseigne les mathématiques et l'astronomie à Reims, et fabrique un abaque, une table à calcul, avec des jetons marqués de ces nouveaux chiffres. Il construit aussi des sphères pour montrer le mouvement des astres. En 999, il est élu pape sous le nom de Sylvestre II : le premier pape français, et l'un des plus grands savants de son temps.",
+    "source": "Encyclopædia Britannica, « Sylvester II » ; Richer de Reims, Histoires (Xe siècle)"
+   },
+   "es": {
+    "titre": "El papa que trajo nuestras cifras",
+    "accroche": "Hacia el año 1000, un monje que pasó por Cataluña, y que llegó a ser papa, ayudó a dar a conocer en Europa las cifras que usamos.",
+    "texte": "Gerberto nace hacia el año 946 en Auvernia y se hace monje en Aurillac. De joven va a estudiar a Cataluña, cerca de Vic y de Ripoll, donde los monasterios tienen acceso a los saberes del mundo árabe. Allí descubre unas cifras llegadas de la India a través de los sabios musulmanes, antepasadas de las nuestras.\n\nDe vuelta en Francia enseña matemáticas y astronomía en Reims, y fabrica un ábaco, una tabla de cálculo, con fichas marcadas con esas nuevas cifras. También construye esferas para mostrar el movimiento de los astros. En 999 es elegido papa con el nombre de Silvestre II: el primer papa francés, y uno de los grandes sabios de su tiempo.",
+    "source": "Encyclopædia Britannica, «Sylvester II»; Richer de Reims, Historias (siglo X)"
+   },
+   "en": {
+    "titre": "The pope who brought us our numerals",
+    "accroche": "Around the year 1000 a monk who had studied in Catalonia, and who became pope, helped to spread in Europe the numerals we use.",
+    "texte": "Gerbert was born around 946 in Auvergne and became a monk at Aurillac. As a young man he went to study in Catalonia, near Vic and Ripoll, where the monasteries had access to the learning of the Arab world. There he discovered numerals that had come from India through Muslim scholars, the ancestors of our own.\n\nBack in France he taught mathematics and astronomy at Reims, and made an abacus, a counting board, with counters marked with these new numerals. He also built spheres to show the movement of the heavens. In 999 he was elected pope as Sylvester II: the first French pope, and one of the greatest scholars of his time.",
+    "source": "Encyclopædia Britannica, “Sylvester II”; Richer of Reims, Histories (10th century)"
+   }
+  },
+  {
+   "id": "bede-marees",
+   "fr": {
+    "titre": "Le moine qui a compris les marées",
+    "accroche": "Au VIIIe siècle, dans un monastère d'Angleterre, un moine a observé que les marées suivent la Lune.",
+    "texte": "Bède, qu'on appelle « le Vénérable », entre enfant au monastère de Jarrow, dans le nord de l'Angleterre, et y passe toute sa vie, entre la prière, l'étude et l'enseignement. Il écrit une grande histoire de l'Église d'Angleterre, et des traités pour calculer le temps et la date de Pâques.\n\nEn 725, dans l'un d'eux, il explique que les marées sont liées à la Lune, qu'elles arrivent chaque jour un peu plus tard, et qu'elles ne se produisent pas à la même heure dans tous les ports : une observation remarquable pour l'époque. C'est aussi en grande partie grâce à lui que l'habitude de compter les années depuis la naissance du Christ s'est répandue en Europe. Il est docteur de l'Église.",
+    "source": "Bède le Vénérable, De temporum ratione (725) ; Encyclopædia Britannica, « Saint Bede the Venerable »"
+   },
+   "es": {
+    "titre": "El monje que entendió las mareas",
+    "accroche": "En el siglo VIII, en un monasterio de Inglaterra, un monje observó que las mareas siguen a la Luna.",
+    "texte": "Beda, al que llaman «el Venerable», entra de niño en el monasterio de Jarrow, en el norte de Inglaterra, y pasa allí toda su vida, entre la oración, el estudio y la enseñanza. Escribe una gran historia de la Iglesia de Inglaterra, y tratados para calcular el tiempo y la fecha de la Pascua.\n\nEn 725, en uno de ellos, explica que las mareas están ligadas a la Luna, que llegan cada día un poco más tarde y que no se producen a la misma hora en todos los puertos: una observación notable para la época. Además, en buena parte gracias a él se extendió por Europa la costumbre de contar los años desde el nacimiento de Cristo. Es doctor de la Iglesia.",
+    "source": "Beda el Venerable, De temporum ratione (725); Encyclopædia Britannica, «Saint Bede the Venerable»"
+   },
+   "en": {
+    "titre": "The monk who understood the tides",
+    "accroche": "In the eighth century, in a monastery in England, a monk observed that the tides follow the Moon.",
+    "texte": "Bede, known as “the Venerable”, entered the monastery of Jarrow, in northern England, as a child and spent his whole life there, praying, studying and teaching. He wrote a great history of the Church in England, and treatises on reckoning time and the date of Easter.\n\nIn 725, in one of these, he explained that the tides are linked to the Moon, that they come a little later each day, and that they do not occur at the same time in every port: a remarkable observation for the period. It is also largely thanks to him that the custom of counting years from the birth of Christ spread through Europe. He is a Doctor of the Church.",
+    "source": "Bede the Venerable, De temporum ratione (725); Encyclopædia Britannica, “Saint Bede the Venerable”"
+   }
+  },
+  {
+   "id": "boscovich-atomes",
+   "fr": {
+    "titre": "Un jésuite et les atomes",
+    "accroche": "Un siècle et demi avant la physique moderne, un jésuite de Dubrovnik imaginait la matière comme des points reliés par des forces.",
+    "texte": "Ruđer Bošković naît en 1711 à Raguse, l'actuelle Dubrovnik, en Croatie. Jésuite, il enseigne les mathématiques à Rome. En 1742, le pape lui demande d'examiner les fissures inquiétantes de la coupole de Saint-Pierre : il calcule les forces en jeu et propose de la ceinturer de cercles de fer, ce qui est fait.\n\nEn 1758, il publie une théorie étonnante : la matière serait composée de points sans taille, qui s'attirent ou se repoussent selon leur distance. Cette idée a influencé, bien plus tard, des physiciens comme Faraday et a été vue comme une anticipation de la physique des particules. Il a aussi fondé l'observatoire de Brera, à Milan.",
+    "source": "Encyclopædia Britannica, « Ruggero Giuseppe Boscovich » ; R. J. Bošković, Theoria philosophiae naturalis (1758)"
+   },
+   "es": {
+    "titre": "Un jesuita y los átomos",
+    "accroche": "Siglo y medio antes de la física moderna, un jesuita de Dubrovnik imaginaba la materia como puntos unidos por fuerzas.",
+    "texte": "Ruđer Bošković nace en 1711 en Ragusa, la actual Dubrovnik, en Croacia. Jesuita, enseña matemáticas en Roma. En 1742, el papa le pide examinar las preocupantes grietas de la cúpula de San Pedro: calcula las fuerzas en juego y propone rodearla con aros de hierro, cosa que se hace.\n\nEn 1758 publica una teoría sorprendente: la materia estaría formada por puntos sin tamaño, que se atraen o se repelen según su distancia. Esta idea influyó, mucho más tarde, en físicos como Faraday y se ha visto como un anticipo de la física de partículas. También fundó el observatorio de Brera, en Milán.",
+    "source": "Encyclopædia Britannica, «Ruggero Giuseppe Boscovich»; R. J. Bošković, Theoria philosophiae naturalis (1758)"
+   },
+   "en": {
+    "titre": "A Jesuit and atoms",
+    "accroche": "A century and a half before modern physics, a Jesuit from Dubrovnik pictured matter as points linked by forces.",
+    "texte": "Ruđer Bošković was born in 1711 in Ragusa, today's Dubrovnik, in Croatia. A Jesuit, he taught mathematics in Rome. In 1742 the pope asked him to examine the worrying cracks in the dome of Saint Peter's: he calculated the forces involved and proposed binding it with iron rings, which was done.\n\nIn 1758 he published a startling theory: matter is made of points with no size, which attract or repel each other depending on their distance. Much later this idea influenced physicists such as Faraday and has been seen as anticipating particle physics. He also founded the Brera observatory in Milan.",
+    "source": "Encyclopædia Britannica, “Ruggero Giuseppe Boscovich”; R. J. Bošković, Theoria philosophiae naturalis (1758)"
+   }
+  },
+  {
+   "id": "picard-meridien",
+   "fr": {
+    "titre": "Le prêtre qui a mesuré la Terre",
+    "accroche": "En 1670, un prêtre astronome a mesuré la taille de la Terre avec une précision qui a servi à Newton.",
+    "texte": "Jean Picard, né en 1620 à La Flèche, est prêtre et l'un des fondateurs de l'Académie des sciences de Paris. Il cherche à connaître exactement la taille de notre planète. Pour cela, il mesure avec soin, entre 1669 et 1670, la distance entre deux points au nord de Paris, et la compare à la position des étoiles vues de chacun d'eux.\n\nIl utilise pour la première fois une lunette munie d'un réticule, des fils très fins placés dans l'oculaire pour viser avec précision. Le rayon de la Terre qu'il obtient est remarquablement juste. Isaac Newton s'en servira pour vérifier sa théorie de la gravitation. Picard a aussi travaillé à l'Observatoire de Paris.",
+    "source": "Encyclopædia Britannica, « Jean Picard » ; Observatoire de Paris, « Jean Picard et la mesure de la Terre »"
+   },
+   "es": {
+    "titre": "El sacerdote que midió la Tierra",
+    "accroche": "En 1670, un sacerdote astrónomo midió el tamaño de la Tierra con una precisión que sirvió a Newton.",
+    "texte": "Jean Picard, nacido en 1620 en La Flèche, es sacerdote y uno de los fundadores de la Academia de Ciencias de París. Quiere conocer con exactitud el tamaño de nuestro planeta. Para ello mide con cuidado, entre 1669 y 1670, la distancia entre dos puntos al norte de París, y la compara con la posición de las estrellas vistas desde cada uno.\n\nUtiliza por primera vez un anteojo con retícula, unos hilos muy finos colocados en el ocular para apuntar con precisión. El radio de la Tierra que obtiene es notablemente exacto. Isaac Newton lo usará para comprobar su teoría de la gravitación. Picard trabajó también en el Observatorio de París.",
+    "source": "Encyclopædia Britannica, «Jean Picard»; Observatorio de París, «Jean Picard et la mesure de la Terre»"
+   },
+   "en": {
+    "titre": "The priest who measured the Earth",
+    "accroche": "In 1670 a priest-astronomer measured the size of the Earth with a precision that Newton put to use.",
+    "texte": "Jean Picard, born in 1620 in La Flèche, was a priest and one of the founders of the Paris Academy of Sciences. He wanted to know the exact size of our planet. To do so, between 1669 and 1670, he carefully measured the distance between two points north of Paris, and compared it with the position of the stars as seen from each.\n\nFor the first time he used a telescope fitted with cross-hairs, very fine threads placed in the eyepiece for precise aiming. The radius of the Earth he obtained was remarkably accurate. Isaac Newton used it to check his theory of gravitation. Picard also worked at the Paris Observatory.",
+    "source": "Encyclopædia Britannica, “Jean Picard”; Paris Observatory, “Jean Picard et la mesure de la Terre”"
+   }
+  },
+  {
+   "id": "verbiest-vapeur",
+   "fr": {
+    "titre": "Un jouet à vapeur pour l'empereur de Chine",
+    "accroche": "Vers 1672, un jésuite belge a construit pour l'empereur de Chine un petit chariot qui avançait tout seul grâce à la vapeur.",
+    "texte": "Ferdinand Verbiest, jésuite flamand né en 1623, arrive en Chine en 1659. Astronome brillant, il gagne la confiance du jeune empereur Kangxi en prédisant avec exactitude une éclipse. Il devient directeur de l'observatoire impérial de Pékin, où l'on voit encore ses grands instruments de bronze.\n\nPour amuser l'empereur, il fabrique vers 1672 un petit chariot d'environ soixante centimètres, poussé par un jet de vapeur sortant d'une chaudière et frappant une petite roue à ailettes. Certains historiens y voient l'un des tout premiers véhicules à se déplacer par sa propre force. Verbiest a aussi fondu des canons, dessiné des cartes et enseigné les mathématiques à l'empereur.",
+    "source": "Encyclopædia Britannica, « Ferdinand Verbiest » ; Fondation Verbiest (KU Leuven)"
+   },
+   "es": {
+    "titre": "Un juguete de vapor para el emperador de China",
+    "accroche": "Hacia 1672, un jesuita belga construyó para el emperador de China un pequeño carro que avanzaba solo gracias al vapor.",
+    "texte": "Ferdinand Verbiest, jesuita flamenco nacido en 1623, llega a China en 1659. Astrónomo brillante, se gana la confianza del joven emperador Kangxi al predecir con exactitud un eclipse. Se convierte en director del observatorio imperial de Pekín, donde todavía se ven sus grandes instrumentos de bronce.\n\nPara entretener al emperador fabrica, hacia 1672, un pequeño carro de unos sesenta centímetros, impulsado por un chorro de vapor que sale de una caldera y golpea una pequeña rueda de paletas. Algunos historiadores ven en él uno de los primeros vehículos que se movían por su propia fuerza. Verbiest también fundió cañones, dibujó mapas y enseñó matemáticas al emperador.",
+    "source": "Encyclopædia Britannica, «Ferdinand Verbiest»; Fundación Verbiest (KU Leuven)"
+   },
+   "en": {
+    "titre": "A steam toy for the emperor of China",
+    "accroche": "Around 1672 a Belgian Jesuit built for the emperor of China a small cart that moved by itself using steam.",
+    "texte": "Ferdinand Verbiest, a Flemish Jesuit born in 1623, arrived in China in 1659. A brilliant astronomer, he won the trust of the young Kangxi emperor by predicting an eclipse exactly. He became director of the imperial observatory in Beijing, where his great bronze instruments can still be seen.\n\nTo amuse the emperor he built, around 1672, a small cart about sixty centimetres long, driven by a jet of steam from a boiler striking a little bladed wheel. Some historians see it as one of the very first vehicles to move under its own power. Verbiest also cast cannon, drew maps and taught the emperor mathematics.",
+    "source": "Encyclopædia Britannica, “Ferdinand Verbiest”; Verbiest Foundation (KU Leuven)"
+   }
+  },
+  {
+   "id": "scheiner-taches",
+   "fr": {
+    "titre": "Les taches du Soleil",
+    "accroche": "Un jésuite allemand a été l'un des premiers à observer les taches du Soleil au télescope, et à mesurer sa rotation.",
+    "texte": "En 1611, Christoph Scheiner, jésuite et professeur à Ingolstadt, observe le Soleil avec une lunette, en projetant son image sur une feuille pour ne pas s'abîmer les yeux. Il y voit des taches sombres qui se déplacent. Il les étudie au même moment que Galilée, avec qui il entre en vive rivalité.\n\nPendant des années, il suit ces taches jour après jour. Dans un grand livre publié en 1630, il montre qu'elles tournent avec le Soleil, et que l'axe de rotation du Soleil est légèrement incliné. Il a aussi étudié le fonctionnement de l'œil et montré que l'image se forme sur la rétine.",
+    "source": "Encyclopædia Britannica, « Christoph Scheiner » ; C. Scheiner, Rosa Ursina (1630)"
+   },
+   "es": {
+    "titre": "Las manchas del Sol",
+    "accroche": "Un jesuita alemán fue uno de los primeros en observar las manchas del Sol con el telescopio, y en medir su rotación.",
+    "texte": "En 1611, Christoph Scheiner, jesuita y profesor en Ingolstadt, observa el Sol con un anteojo, proyectando su imagen sobre una hoja para no dañarse la vista. Ve unas manchas oscuras que se desplazan. Las estudia al mismo tiempo que Galileo, con quien entra en viva rivalidad.\n\nDurante años sigue esas manchas día tras día. En un gran libro publicado en 1630 muestra que giran con el Sol, y que el eje de rotación del Sol está ligeramente inclinado. También estudió el funcionamiento del ojo y demostró que la imagen se forma en la retina.",
+    "source": "Encyclopædia Britannica, «Christoph Scheiner»; C. Scheiner, Rosa Ursina (1630)"
+   },
+   "en": {
+    "titre": "The spots on the Sun",
+    "accroche": "A German Jesuit was one of the first to observe sunspots through a telescope, and to measure the Sun's rotation.",
+    "texte": "In 1611 Christoph Scheiner, a Jesuit and professor at Ingolstadt, observed the Sun through a telescope, projecting its image onto a sheet of paper to avoid damaging his eyes. He saw dark spots that moved. He studied them at the same time as Galileo, with whom he became a fierce rival.\n\nFor years he followed these spots day after day. In a large book published in 1630 he showed that they rotate with the Sun, and that the Sun's axis of rotation is slightly tilted. He also studied how the eye works and showed that the image forms on the retina.",
+    "source": "Encyclopædia Britannica, “Christoph Scheiner”; C. Scheiner, Rosa Ursina (1630)"
+   }
+  },
+  {
+   "id": "hospices-beaune",
+   "fr": {
+    "titre": "Un palais pour les pauvres",
+    "accroche": "En 1443, en Bourgogne, un chancelier et sa femme ont fait construire pour les malades pauvres un hôpital digne d'un palais.",
+    "texte": "Après la guerre de Cent Ans, la Bourgogne est ravagée par la misère et les épidémies. Nicolas Rolin, chancelier du duc, et sa femme Guigone de Salins fondent en 1443 à Beaune un hôtel-Dieu, un hôpital pour les pauvres. Ils le veulent magnifique : toits de tuiles vernissées de couleurs, grande salle aux poutres peintes, et un célèbre tableau du Jugement dernier.\n\nDans la « salle des pauvres », les lits sont alignés face à une chapelle, pour que les malades puissent suivre la messe. Des religieuses y soignent les malades pendant plus de cinq siècles, jusqu'en 1971. Le domaine reçoit en don des vignes, et depuis 1859, une célèbre vente aux enchères de ses vins finance encore l'hôpital actuel.",
+    "source": "Hospices civils de Beaune, « Histoire » ; Encyclopædia Britannica, « Beaune »"
+   },
+   "es": {
+    "titre": "Un palacio para los pobres",
+    "accroche": "En 1443, en Borgoña, un canciller y su esposa mandaron construir para los enfermos pobres un hospital digno de un palacio.",
+    "texte": "Tras la guerra de los Cien Años, Borgoña está asolada por la miseria y las epidemias. Nicolas Rolin, canciller del duque, y su esposa Guigone de Salins fundan en 1443 en Beaune un «hôtel-Dieu», un hospital para los pobres. Lo quieren magnífico: tejados de tejas vidriadas de colores, una gran sala con vigas pintadas y un célebre cuadro del Juicio Final.\n\nEn la «sala de los pobres», las camas están alineadas frente a una capilla, para que los enfermos puedan seguir la misa. Unas religiosas cuidan allí a los enfermos durante más de cinco siglos, hasta 1971. La institución recibe viñedos en donación y, desde 1859, una famosa subasta de sus vinos sigue financiando el hospital actual.",
+    "source": "Hospices civils de Beaune, «Histoire»; Encyclopædia Britannica, «Beaune»"
+   },
+   "en": {
+    "titre": "A palace for the poor",
+    "accroche": "In 1443, in Burgundy, a chancellor and his wife built for the sick poor a hospital worthy of a palace.",
+    "texte": "After the Hundred Years' War, Burgundy was devastated by poverty and epidemics. Nicolas Rolin, the duke's chancellor, and his wife Guigone de Salins founded a hôtel-Dieu, a hospital for the poor, at Beaune in 1443. They wanted it to be magnificent: roofs of coloured glazed tiles, a great hall with painted beams, and a famous painting of the Last Judgement.\n\nIn the “hall of the poor”, the beds were lined up facing a chapel, so that the sick could follow Mass. Nuns cared for patients there for more than five centuries, until 1971. The foundation received vineyards as gifts, and since 1859 a famous auction of its wines has continued to fund today's hospital.",
+    "source": "Hospices civils de Beaune, “Histoire”; Encyclopædia Britannica, “Beaune”"
+   }
+  },
+  {
+   "id": "vatican-solaire",
+   "fr": {
+    "titre": "Le Vatican à l'énergie solaire",
+    "accroche": "Depuis 2008, le toit de la grande salle d'audience du pape est couvert de panneaux solaires, et le Vatican veut produire toute son électricité grâce au soleil.",
+    "texte": "La salle Paul-VI, où le pape reçoit des milliers de visiteurs, avait un toit de béton à refaire. En 2008, sous Benoît XVI, on y installe plus de deux mille panneaux solaires, qui produisent l'électricité de la salle et de bâtiments voisins.\n\nEn 2024, le pape François va plus loin : dans un texte intitulé « Frère Soleil », en écho au cantique de saint François d'Assise, il décide la construction d'une centrale solaire sur un terrain du Vatican près de Rome, à Santa Maria di Galeria. Elle doit permettre à la Cité du Vatican de couvrir ses besoins en électricité, tout en laissant la place à l'agriculture sous les panneaux.",
+    "source": "Gouvernorat de l'État de la Cité du Vatican, 2008 ; Pape François, motu proprio Fratello Sole (21 juin 2024)"
+   },
+   "es": {
+    "titre": "El Vaticano con energía solar",
+    "accroche": "Desde 2008, el techo de la gran sala de audiencias del papa está cubierto de paneles solares, y el Vaticano quiere producir toda su electricidad gracias al sol.",
+    "texte": "El Aula Pablo VI, donde el papa recibe a miles de visitantes, tenía un techo de hormigón que había que rehacer. En 2008, bajo Benedicto XVI, se instalan allí más de dos mil paneles solares, que producen la electricidad de la sala y de edificios cercanos.\n\nEn 2024, el papa Francisco va más lejos: en un texto titulado «Hermano Sol», eco del cántico de san Francisco de Asís, decide construir una planta solar en un terreno del Vaticano cerca de Roma, en Santa Maria di Galeria. Debe permitir a la Ciudad del Vaticano cubrir sus necesidades de electricidad, dejando espacio a la agricultura bajo los paneles.",
+    "source": "Gobernación del Estado de la Ciudad del Vaticano, 2008; Papa Francisco, motu proprio Fratello Sole (21 de junio de 2024)"
+   },
+   "en": {
+    "titre": "The solar-powered Vatican",
+    "accroche": "Since 2008 the roof of the pope's great audience hall has been covered with solar panels, and the Vatican aims to produce all its electricity from the sun.",
+    "texte": "The Paul VI Hall, where the pope receives thousands of visitors, had a concrete roof in need of replacement. In 2008, under Benedict XVI, more than two thousand solar panels were installed there, producing electricity for the hall and nearby buildings.\n\nIn 2024 Pope Francis went further: in a document entitled “Brother Sun”, echoing the canticle of Saint Francis of Assisi, he ordered the building of a solar plant on Vatican land near Rome, at Santa Maria di Galeria. It is meant to let Vatican City meet its electricity needs, while leaving room for farming beneath the panels.",
+    "source": "Governorate of Vatican City State, 2008; Pope Francis, motu proprio Fratello Sole (21 June 2024)"
+   }
+  },
+  {
+   "id": "chocolat-careme",
+   "fr": {
+    "titre": "Le chocolat pendant le Carême",
+    "accroche": "Au XVIIe siècle, on s'est demandé très sérieusement si boire du chocolat rompait le jeûne. Un cardinal a tranché.",
+    "texte": "Quand le cacao arrive d'Amérique en Europe au XVIe siècle, on le boit en boisson chaude, épaisse et sucrée. Les jours de jeûne, comme pendant le Carême, les chrétiens limitent leur nourriture. Mais une boisson aussi nourrissante est-elle permise ? La question agite les théologiens, en Espagne et en Italie.\n\nEn 1662, le cardinal Francesco Maria Brancaccio publie un petit traité pour répondre. Sa conclusion tient en une formule latine restée célèbre : « liquidum non frangit jejunium », un liquide ne rompt pas le jeûne. Le chocolat chaud restait donc permis. Ce débat montre avec quel sérieux, et parfois quel humour, on vivait alors le jeûne.",
+    "source": "F. M. Brancaccio, De chocolatis potione resolutio moralis (1662) ; Encyclopædia Britannica, « Chocolate »"
+   },
+   "es": {
+    "titre": "El chocolate en Cuaresma",
+    "accroche": "En el siglo XVII se discutió muy en serio si beber chocolate rompía el ayuno. Un cardenal lo resolvió.",
+    "texte": "Cuando el cacao llega de América a Europa en el siglo XVI, se toma como bebida caliente, espesa y azucarada. Los días de ayuno, como en Cuaresma, los cristianos limitan su comida. Pero ¿se permite una bebida tan nutritiva? La cuestión agita a los teólogos, en España y en Italia.\n\nEn 1662, el cardenal Francesco Maria Brancaccio publica un pequeño tratado para responder. Su conclusión cabe en una fórmula latina que se hizo famosa: «liquidum non frangit jejunium», un líquido no rompe el ayuno. El chocolate caliente seguía, pues, permitido. Este debate muestra con qué seriedad, y a veces con qué humor, se vivía entonces el ayuno.",
+    "source": "F. M. Brancaccio, De chocolatis potione resolutio moralis (1662); Encyclopædia Britannica, «Chocolate»"
+   },
+   "en": {
+    "titre": "Chocolate during Lent",
+    "accroche": "In the seventeenth century people asked very seriously whether drinking chocolate broke the fast. A cardinal settled the question.",
+    "texte": "When cocoa arrived in Europe from the Americas in the sixteenth century, it was drunk as a hot, thick, sweet drink. On fast days, such as during Lent, Christians limited what they ate. But was such a nourishing drink allowed? The question stirred up theologians in Spain and Italy.\n\nIn 1662 Cardinal Francesco Maria Brancaccio published a short treatise to answer it. His conclusion fits into a Latin phrase that became famous: “liquidum non frangit jejunium”, a liquid does not break the fast. Hot chocolate was therefore still allowed. The debate shows how seriously, and sometimes with what humour, people lived the fast in those days.",
+    "source": "F. M. Brancaccio, De chocolatis potione resolutio moralis (1662); Encyclopædia Britannica, “Chocolate”"
+   }
+  },
+  {
+   "id": "grosseteste-lumiere",
+   "fr": {
+    "titre": "Un évêque, la lumière et le début du monde",
+    "accroche": "Au XIIIe siècle, un évêque anglais a imaginé un univers né d'un point de lumière qui se dilate. Des physiciens d'aujourd'hui l'ont étudié.",
+    "texte": "Robert Grosseteste, né vers 1168, devient évêque de Lincoln, le plus grand diocèse d'Angleterre. Grand savant, il étudie l'optique, l'arc-en-ciel et le calendrier, et insiste sur l'importance de l'expérience pour vérifier les idées. Il est l'un des pères de la méthode scientifique au Moyen Âge.\n\nDans un court traité, « De la lumière », il imagine que le monde commence par un point de lumière qui se répand dans toutes les directions et forme peu à peu les sphères du ciel. En 2014, des physiciens et des historiens de l'université de Durham ont traduit et modélisé ce texte : ils y ont vu une étonnante intuition, bien sûr très différente, de l'idée moderne d'un univers en expansion.",
+    "source": "Ordered Universe Project (université de Durham) ; Encyclopædia Britannica, « Robert Grosseteste »"
+   },
+   "es": {
+    "titre": "Un obispo, la luz y el comienzo del mundo",
+    "accroche": "En el siglo XIII, un obispo inglés imaginó un universo nacido de un punto de luz que se dilata. Unos físicos actuales lo han estudiado.",
+    "texte": "Roberto Grosseteste, nacido hacia 1168, llega a ser obispo de Lincoln, la diócesis más grande de Inglaterra. Gran sabio, estudia la óptica, el arcoíris y el calendario, e insiste en la importancia de la experiencia para comprobar las ideas. Es uno de los padres del método científico en la Edad Media.\n\nEn un breve tratado, «Sobre la luz», imagina que el mundo empieza con un punto de luz que se extiende en todas direcciones y forma poco a poco las esferas del cielo. En 2014, unos físicos e historiadores de la Universidad de Durham tradujeron y modelizaron este texto: vieron en él una sorprendente intuición, por supuesto muy distinta, de la idea moderna de un universo en expansión.",
+    "source": "Ordered Universe Project (Universidad de Durham); Encyclopædia Britannica, «Robert Grosseteste»"
+   },
+   "en": {
+    "titre": "A bishop, light and the beginning of the world",
+    "accroche": "In the thirteenth century an English bishop pictured a universe born from a point of light that expands. Present-day physicists have studied his idea.",
+    "texte": "Robert Grosseteste, born around 1168, became bishop of Lincoln, the largest diocese in England. A great scholar, he studied optics, the rainbow and the calendar, and stressed the importance of experience in testing ideas. He is one of the fathers of scientific method in the Middle Ages.\n\nIn a short treatise, “On Light”, he imagined that the world began with a point of light spreading out in every direction and gradually forming the spheres of the heavens. In 2014 physicists and historians at Durham University translated and modelled this text: they saw in it a surprising intuition, very different of course, of the modern idea of an expanding universe.",
+    "source": "Ordered Universe Project (Durham University); Encyclopædia Britannica, “Robert Grosseteste”"
+   }
+  },
+  {
+   "id": "mont-cassin",
+   "fr": {
+    "titre": "Le monastère qui renaît toujours",
+    "accroche": "Fondé par saint Benoît vers 529, le Mont-Cassin a été détruit quatre fois, dont une par les bombes en 1944. Il a toujours été rebâti.",
+    "texte": "Vers 529, saint Benoît s'installe sur une montagne entre Rome et Naples et y fonde un monastère. Il y écrit sa Règle, qui va guider des milliers de monastères en Europe. Pendant des siècles, les moines du Mont-Cassin recopient des livres anciens et sauvent une partie des textes de l'Antiquité.\n\nLe monastère est détruit par les Lombards, par les Sarrasins, par un tremblement de terre, puis, le 15 février 1944, par un bombardement pendant la Seconde Guerre mondiale. Chaque fois, il est reconstruit. Sa devise dit bien cette histoire : « Succisa virescit », coupé, il reverdit. En 1964, Paul VI consacre la nouvelle basilique et proclame saint Benoît patron de l'Europe.",
+    "source": "Abbaye territoriale du Mont-Cassin, « Storia » ; Paul VI, lettre apostolique Pacis nuntius (24 octobre 1964)"
+   },
+   "es": {
+    "titre": "El monasterio que siempre renace",
+    "accroche": "Fundado por san Benito hacia el año 529, Montecassino fue destruido cuatro veces, una de ellas por las bombas en 1944. Siempre se reconstruyó.",
+    "texte": "Hacia el año 529, san Benito se instala en una montaña entre Roma y Nápoles y funda allí un monasterio. Allí escribe su Regla, que guiará a miles de monasterios en Europa. Durante siglos, los monjes de Montecassino copian libros antiguos y salvan parte de los textos de la Antigüedad.\n\nEl monasterio es destruido por los lombardos, por los sarracenos, por un terremoto y, el 15 de febrero de 1944, por un bombardeo durante la Segunda Guerra Mundial. Cada vez se reconstruye. Su lema resume esa historia: «Succisa virescit», cortado, reverdece. En 1964, Pablo VI consagra la nueva basílica y proclama a san Benito patrono de Europa.",
+    "source": "Abadía territorial de Montecassino, «Storia»; Pablo VI, carta apostólica Pacis nuntius (24 de octubre de 1964)"
+   },
+   "en": {
+    "titre": "The monastery that always rises again",
+    "accroche": "Founded by Saint Benedict around 529, Monte Cassino has been destroyed four times, once by bombs in 1944. It has always been rebuilt.",
+    "texte": "Around 529 Saint Benedict settled on a mountain between Rome and Naples and founded a monastery there. There he wrote his Rule, which would guide thousands of monasteries in Europe. For centuries the monks of Monte Cassino copied ancient books and saved part of the literature of antiquity.\n\nThe monastery was destroyed by the Lombards, by the Saracens, by an earthquake and, on 15 February 1944, by bombing during the Second World War. Each time it was rebuilt. Its motto sums up this story: “Succisa virescit”, cut down, it grows green again. In 1964 Paul VI consecrated the new basilica and proclaimed Saint Benedict patron of Europe.",
+    "source": "Territorial Abbey of Monte Cassino, “Storia”; Paul VI, apostolic letter Pacis nuntius (24 October 1964)"
+   }
   }
  ]
 }
