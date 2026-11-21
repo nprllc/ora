@@ -16711,6 +16711,566 @@
     "plusLoin": "John Paul II beatified him in Munich in 1987. His tomb, right in the city centre, has visitors every day.",
     "source": "Holy See, beatification of 3 May 1987; Society of Jesus, Central European Province"
    }
+  },
+  {
+   "id": "camille-lellis",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Camille de Lellis",
+    "dates": "1550-1614",
+    "accroche": "Un soldat joueur et bagarreur devenu infirmier, qui a cousu une croix rouge sur l'habit de ses frères bien avant la Croix-Rouge.",
+    "texte": "Camille naît en 1550 dans les Abruzzes, en Italie. Géant au caractère violent, il devient soldat et perd tout son argent au jeu. Une blessure à la jambe qui ne guérit pas le conduit à l'hôpital Saint-Jacques de Rome, où il est soigné, puis employé. Il y découvre que les malades pauvres sont souvent négligés.\n\nConverti, il fonde en 1582 une communauté d'hommes qui s'engagent à servir les malades, même atteints de la peste, « avec la tendresse d'une mère pour son enfant unique ». En 1586, le pape les autorise à porter une grande croix rouge sur leur habit. On les appelle aujourd'hui les camilliens, présents dans plus de quarante pays.",
+    "plusLoin": "Il a été canonisé en 1746. Il est le patron des malades, des infirmiers et des hôpitaux ; on le fête le 14 juillet.",
+    "source": "Encyclopædia Britannica, « Saint Camillus of Lellis » ; Ordre des Clercs réguliers ministres des infirmes"
+   },
+   "es": {
+    "nom": "San Camilo de Lelis",
+    "dates": "1550-1614",
+    "accroche": "Un soldado jugador y pendenciero que se hizo enfermero, y que cosió una cruz roja en el hábito de sus hermanos mucho antes de la Cruz Roja.",
+    "texte": "Camilo nace en 1550 en los Abruzos, Italia. Gigante de carácter violento, se hace soldado y pierde todo su dinero en el juego. Una herida en la pierna que no se cura lo lleva al hospital de Santiago en Roma, donde lo atienden y luego lo contratan. Allí descubre que los enfermos pobres están a menudo desatendidos.\n\nConvertido, funda en 1582 una comunidad de hombres que se comprometen a servir a los enfermos, incluso a los apestados, «con el cariño de una madre por su hijo único». En 1586, el papa les permite llevar una gran cruz roja en el hábito. Hoy se les llama camilos, y están presentes en más de cuarenta países.",
+    "plusLoin": "Fue canonizado en 1746. Es patrono de los enfermos, los enfermeros y los hospitales; su fiesta es el 14 de julio.",
+    "source": "Encyclopædia Britannica, «Saint Camillus of Lellis»; Orden de los Clérigos Regulares Ministros de los Enfermos"
+   },
+   "en": {
+    "nom": "Saint Camillus de Lellis",
+    "dates": "1550-1614",
+    "accroche": "A gambling, brawling soldier who became a nurse, and who sewed a red cross on his brothers' habits long before the Red Cross.",
+    "texte": "Camillus was born in 1550 in the Abruzzi, in Italy. A giant with a violent temper, he became a soldier and gambled away all his money. A leg wound that would not heal brought him to the hospital of Saint James in Rome, where he was treated and then employed. There he discovered that poor patients were often neglected.\n\nAfter his conversion he founded, in 1582, a community of men committed to serving the sick, even plague victims, “with the tenderness of a mother for her only child”. In 1586 the pope allowed them to wear a large red cross on their habits. Today they are called the Camillians, present in more than forty countries.",
+    "plusLoin": "He was canonised in 1746. He is the patron of the sick, nurses and hospitals; his feast is on 14 July.",
+    "source": "Encyclopædia Britannica, “Saint Camillus of Lellis”; Order of Clerks Regular, Ministers to the Sick"
+   }
+  },
+  {
+   "id": "alberto-marvelli",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Alberto Marvelli",
+    "dates": "1918-1946",
+    "accroche": "Un jeune ingénieur de Rimini qui, après les bombardements, parcourait la ville à vélo pour apporter à manger aux sans-abri.",
+    "texte": "Alberto Marvelli naît en 1918 à Ferrare et grandit à Rimini, sur la côte adriatique. Sportif, joyeux, très engagé dans l'Action catholique, il devient ingénieur. Pendant la Seconde Guerre mondiale, Rimini est presque entièrement détruite par les bombardements.\n\nAlberto organise l'aide aux familles sinistrées, cherche des logements, et parcourt les ruines à vélo, les sacoches pleines de nourriture et de vêtements. Il sauve aussi des jeunes menacés de déportation. Après la guerre, il est élu au conseil municipal pour participer à la reconstruction. Le 5 octobre 1946, alors qu'il roule à vélo vers une réunion, il est renversé par un camion militaire. Il avait vingt-huit ans.",
+    "plusLoin": "Jean-Paul II l'a béatifié en 2004 à Lorette. Il est un modèle pour les jeunes engagés dans la vie publique.",
+    "source": "Saint-Siège, béatification du 5 septembre 2004 ; diocèse de Rimini"
+   },
+   "es": {
+    "nom": "Beato Alberto Marvelli",
+    "dates": "1918-1946",
+    "accroche": "Un joven ingeniero de Rímini que, tras los bombardeos, recorría la ciudad en bicicleta para llevar comida a quienes se habían quedado sin casa.",
+    "texte": "Alberto Marvelli nace en 1918 en Ferrara y crece en Rímini, en la costa adriática. Deportista, alegre, muy comprometido en la Acción Católica, se hace ingeniero. Durante la Segunda Guerra Mundial, Rímini queda casi totalmente destruida por los bombardeos.\n\nAlberto organiza la ayuda a las familias damnificadas, busca alojamientos y recorre las ruinas en bicicleta, con las alforjas llenas de comida y ropa. También salva a jóvenes amenazados de deportación. Después de la guerra es elegido concejal para participar en la reconstrucción. El 5 de octubre de 1946, cuando iba en bicicleta a una reunión, lo atropella un camión militar. Tenía veintiocho años.",
+    "plusLoin": "Juan Pablo II lo beatificó en 2004 en Loreto. Es un modelo para los jóvenes comprometidos en la vida pública.",
+    "source": "Santa Sede, beatificación del 5 de septiembre de 2004; diócesis de Rímini"
+   },
+   "en": {
+    "nom": "Blessed Alberto Marvelli",
+    "dates": "1918-1946",
+    "accroche": "A young engineer from Rimini who, after the bombings, rode round the city on his bicycle bringing food to the homeless.",
+    "texte": "Alberto Marvelli was born in 1918 in Ferrara and grew up in Rimini, on the Adriatic coast. Sporty, cheerful and deeply involved in Catholic Action, he became an engineer. During the Second World War, Rimini was almost entirely destroyed by bombing.\n\nAlberto organised help for families who had lost everything, looked for housing, and cycled through the ruins with his saddlebags full of food and clothing. He also saved young men threatened with deportation. After the war he was elected to the town council to take part in the rebuilding. On 5 October 1946, while cycling to a meeting, he was struck by a military truck. He was twenty-eight.",
+    "plusLoin": "John Paul II beatified him at Loreto in 2004. He is a model for young people involved in public life.",
+    "source": "Holy See, beatification of 5 September 2004; Diocese of Rimini"
+   }
+  },
+  {
+   "id": "jean-de-dieu",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Jean de Dieu",
+    "dates": "1495-1550",
+    "accroche": "Un ancien berger et soldat qu'on a pris pour un fou à Grenade, et qui a fondé un hôpital pour tous ceux dont personne ne voulait.",
+    "texte": "Juan Ciudad naît en 1495 au Portugal. Enfant, il quitte sa famille et devient berger en Espagne, puis soldat, puis colporteur de livres à Grenade. En 1537, un sermon du prédicateur Jean d'Avila le bouleverse : il se met à crier son repentir dans les rues, distribue tous ses biens, et on l'enferme à l'hôpital des fous.\n\nIl y découvre comment on traite les malades mentaux : par les coups et les chaînes. Une fois sorti, il loue une maison et y accueille les malades, les pauvres et les abandonnés, qu'il soigne avec douceur et nourrit en mendiant la nuit. Des compagnons le rejoignent : ce sont les débuts des Frères hospitaliers, aujourd'hui présents dans le monde entier.",
+    "plusLoin": "Il a été canonisé en 1690. Il est le patron des hôpitaux et des soignants ; on le fête le 8 mars.",
+    "source": "Encyclopædia Britannica, « Saint John of God » ; Ordre hospitalier de Saint-Jean-de-Dieu"
+   },
+   "es": {
+    "nom": "San Juan de Dios",
+    "dates": "1495-1550",
+    "accroche": "Un antiguo pastor y soldado al que tomaron por loco en Granada, y que fundó un hospital para todos aquellos a quienes nadie quería.",
+    "texte": "Juan Ciudad nace en 1495 en Portugal. De niño deja a su familia y se hace pastor en España, luego soldado y después vendedor ambulante de libros en Granada. En 1537, un sermón del predicador Juan de Ávila lo conmueve: empieza a gritar su arrepentimiento por las calles, reparte todos sus bienes, y lo encierran en el hospital de locos.\n\nAllí descubre cómo se trata a los enfermos mentales: con golpes y cadenas. Una vez fuera, alquila una casa y acoge en ella a enfermos, pobres y abandonados, a quienes cuida con dulzura y alimenta pidiendo limosna por la noche. Se le unen compañeros: es el comienzo de la Orden Hospitalaria, hoy presente en todo el mundo.",
+    "plusLoin": "Fue canonizado en 1690. Es patrono de los hospitales y del personal sanitario; su fiesta es el 8 de marzo.",
+    "source": "Encyclopædia Britannica, «Saint John of God»; Orden Hospitalaria de San Juan de Dios"
+   },
+   "en": {
+    "nom": "Saint John of God",
+    "dates": "1495-1550",
+    "accroche": "A former shepherd and soldier who was taken for a madman in Granada, and who founded a hospital for everyone nobody else wanted.",
+    "texte": "Juan Ciudad was born in 1495 in Portugal. As a boy he left his family and became a shepherd in Spain, then a soldier, then a travelling bookseller in Granada. In 1537 a sermon by the preacher John of Ávila overwhelmed him: he began shouting his repentance in the streets, gave away everything he owned, and was locked up in the asylum.\n\nThere he saw how the mentally ill were treated: with beatings and chains. Once released, he rented a house and took in the sick, the poor and the abandoned, caring for them gently and feeding them by begging at night. Companions joined him: this was the beginning of the Hospitaller Brothers, now present throughout the world.",
+    "plusLoin": "He was canonised in 1690. He is the patron of hospitals and carers; his feast is on 8 March.",
+    "source": "Encyclopædia Britannica, “Saint John of God”; Hospitaller Order of Saint John of God"
+   }
+  },
+  {
+   "id": "vladimir-ghika",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Vladimir Ghika",
+    "dates": "1873-1954",
+    "accroche": "Un prince roumain, petit-fils du dernier prince de Moldavie, devenu prêtre à cinquante ans et mort dans une prison communiste.",
+    "texte": "Vladimir Ghika naît en 1873 à Constantinople dans une grande famille princière de Roumanie, de religion orthodoxe. Diplomate et homme cultivé, il devient catholique en 1902. En 1906, il ouvre à Bucarest le premier dispensaire gratuit du pays, avec des religieuses. Pendant les guerres, il soigne les blessés et les malades du choléra.\n\nÀ cinquante ans, il est ordonné prêtre à Paris et choisit de vivre parmi les pauvres de la banlieue. Revenu en Roumanie, il refuse de quitter le pays quand les communistes prennent le pouvoir. Arrêté en 1952, il est torturé, et meurt en 1954 dans la prison de Jilava, où il réconfortait ses compagnons de cellule.",
+    "plusLoin": "Il a été béatifié comme martyr en 2013 à Bucarest.",
+    "source": "Congrégation pour les causes des saints, béatification du 31 août 2013 ; archidiocèse de Bucarest"
+   },
+   "es": {
+    "nom": "Beato Vladimir Ghika",
+    "dates": "1873-1954",
+    "accroche": "Un príncipe rumano, nieto del último príncipe de Moldavia, que se hizo sacerdote a los cincuenta años y murió en una cárcel comunista.",
+    "texte": "Vladimir Ghika nace en 1873 en Constantinopla, en una gran familia principesca de Rumanía, de religión ortodoxa. Diplomático y hombre culto, se hace católico en 1902. En 1906 abre en Bucarest el primer dispensario gratuito del país, con unas religiosas. Durante las guerras atiende a los heridos y a los enfermos de cólera.\n\nA los cincuenta años es ordenado sacerdote en París y elige vivir entre los pobres de los suburbios. De vuelta en Rumanía, se niega a dejar el país cuando los comunistas toman el poder. Detenido en 1952, es torturado, y muere en 1954 en la cárcel de Jilava, donde consolaba a sus compañeros de celda.",
+    "plusLoin": "Fue beatificado como mártir en 2013 en Bucarest.",
+    "source": "Congregación para las Causas de los Santos, beatificación del 31 de agosto de 2013; arquidiócesis de Bucarest"
+   },
+   "en": {
+    "nom": "Blessed Vladimir Ghika",
+    "dates": "1873-1954",
+    "accroche": "A Romanian prince, grandson of the last prince of Moldavia, who became a priest at fifty and died in a communist prison.",
+    "texte": "Vladimir Ghika was born in 1873 in Constantinople into a great princely family of Romania, Orthodox by religion. A diplomat and a cultured man, he became a Catholic in 1902. In 1906 he opened in Bucharest the country's first free clinic, with some religious sisters. During the wars he cared for the wounded and for cholera patients.\n\nAt fifty he was ordained a priest in Paris and chose to live among the poor of the suburbs. Back in Romania, he refused to leave the country when the communists took power. Arrested in 1952, he was tortured, and died in 1954 in Jilava prison, where he comforted his cellmates.",
+    "plusLoin": "He was beatified as a martyr in Bucharest in 2013.",
+    "source": "Congregation for the Causes of Saints, beatification of 31 August 2013; Archdiocese of Bucharest"
+   }
+  },
+  {
+   "id": "andre-bessette",
+   "saint": true,
+   "fr": {
+    "nom": "Saint André Bessette",
+    "dates": "1845-1937",
+    "accroche": "Un frère québécois à la santé fragile, portier de collège pendant quarante ans, qui a fait bâtir la plus grande église du Canada.",
+    "texte": "Alfred Bessette naît en 1845 au Québec. Orphelin à douze ans, il sait à peine lire et enchaîne les petits métiers. Il entre chez les frères de Sainte-Croix sous le nom de frère André. Comme sa santé est mauvaise, on lui confie la porte du collège Notre-Dame, à Montréal. Il dira plus tard, avec humour, qu'on l'avait mis à la porte et qu'il y était resté quarante ans.\n\nIl a une grande confiance en saint Joseph. Il accueille les visiteurs, prie avec les malades, et beaucoup repartent consolés ou guéris. Avec les petits dons recueillis, il fait construire une chapelle sur le mont Royal. Elle deviendra l'oratoire Saint-Joseph, immense basilique. À sa mort, environ un million de personnes viennent lui rendre hommage.",
+    "plusLoin": "Benoît XVI l'a canonisé en 2010. L'oratoire Saint-Joseph reçoit chaque année des pèlerins du monde entier.",
+    "source": "Saint-Siège, biographie de saint André Bessette ; Oratoire Saint-Joseph du Mont-Royal"
+   },
+   "es": {
+    "nom": "San André Bessette",
+    "dates": "1845-1937",
+    "accroche": "Un hermano quebequés de salud frágil, portero de un colegio durante cuarenta años, que hizo construir la iglesia más grande de Canadá.",
+    "texte": "Alfred Bessette nace en 1845 en Quebec. Huérfano a los doce años, apenas sabe leer y va de un pequeño oficio a otro. Entra en los hermanos de la Santa Cruz con el nombre de hermano André. Como su salud es mala, le confían la portería del colegio Notre-Dame, en Montreal. Más tarde dirá, con humor, que lo pusieron en la puerta y que se quedó allí cuarenta años.\n\nTiene una gran confianza en san José. Recibe a los visitantes, reza con los enfermos, y muchos se van consolados o curados. Con los pequeños donativos que recoge, hace construir una capilla en el monte Royal. Se convertirá en el oratorio de San José, una inmensa basílica. A su muerte, cerca de un millón de personas acuden a despedirlo.",
+    "plusLoin": "Benedicto XVI lo canonizó en 2010. El oratorio de San José recibe cada año peregrinos de todo el mundo.",
+    "source": "Santa Sede, biografía de san André Bessette; Oratorio de San José del Monte Royal"
+   },
+   "en": {
+    "nom": "Saint André Bessette",
+    "dates": "1845-1937",
+    "accroche": "A Quebec brother in poor health, a college doorkeeper for forty years, who had the largest church in Canada built.",
+    "texte": "Alfred Bessette was born in 1845 in Quebec. Orphaned at twelve, he could barely read and went from one odd job to another. He joined the Brothers of Holy Cross as Brother André. Because his health was poor, he was put in charge of the door at Notre-Dame College in Montreal. He later joked that he had been shown the door and had stayed there forty years.\n\nHe had great trust in Saint Joseph. He welcomed visitors, prayed with the sick, and many went away comforted or healed. With the small gifts he collected, he had a chapel built on Mount Royal. It would become Saint Joseph's Oratory, a vast basilica. When he died, about a million people came to pay their respects.",
+    "plusLoin": "Benedict XVI canonised him in 2010. Saint Joseph's Oratory welcomes pilgrims from all over the world every year.",
+    "source": "Holy See, biography of Saint André Bessette; Saint Joseph's Oratory of Mount Royal"
+   }
+  },
+  {
+   "id": "michal-sopocko",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Michał Sopoćko",
+    "dates": "1888-1975",
+    "accroche": "Le confesseur de sainte Faustine, qui a fait peindre la première image de Jésus miséricordieux.",
+    "texte": "Michał Sopoćko naît en 1888 près de Vilnius, dans l'actuelle Lituanie. Prêtre, aumônier militaire puis professeur de théologie, il devient en 1933 le confesseur d'une jeune religieuse, sœur Faustine Kowalska, qui lui confie que Jésus lui demande de faire peindre son image et de faire connaître sa miséricorde.\n\nPrudent, il la fait d'abord examiner par un médecin, puis se laisse convaincre. En 1934, il demande au peintre Eugeniusz Kazimirowski de réaliser le premier tableau de Jésus miséricordieux. Toute sa vie, malgré les incompréhensions, il défend cette dévotion et la demande d'une fête de la Miséricorde, que Jean-Paul II instituera en 2000.",
+    "plusLoin": "Il a été béatifié en 2008 à Białystok. Le tableau qu'il a fait peindre est aujourd'hui vénéré à Vilnius.",
+    "source": "Congrégation pour les causes des saints, béatification du 28 septembre 2008 ; archidiocèse de Białystok"
+   },
+   "es": {
+    "nom": "Beato Michał Sopoćko",
+    "dates": "1888-1975",
+    "accroche": "El confesor de santa Faustina, que hizo pintar la primera imagen de Jesús misericordioso.",
+    "texte": "Michał Sopoćko nace en 1888 cerca de Vilna, en la actual Lituania. Sacerdote, capellán militar y luego profesor de teología, en 1933 se convierte en confesor de una joven religiosa, sor Faustina Kowalska, que le cuenta que Jesús le pide hacer pintar su imagen y dar a conocer su misericordia.\n\nPrudente, primero hace que la examine un médico, y después se deja convencer. En 1934 pide al pintor Eugeniusz Kazimirowski que realice el primer cuadro de Jesús misericordioso. Toda su vida, a pesar de las incomprensiones, defiende esta devoción y la petición de una fiesta de la Misericordia, que Juan Pablo II instituirá en 2000.",
+    "plusLoin": "Fue beatificado en 2008 en Białystok. El cuadro que mandó pintar se venera hoy en Vilna.",
+    "source": "Congregación para las Causas de los Santos, beatificación del 28 de septiembre de 2008; arquidiócesis de Białystok"
+   },
+   "en": {
+    "nom": "Blessed Michał Sopoćko",
+    "dates": "1888-1975",
+    "accroche": "The confessor of Saint Faustina, who had the first image of the Divine Mercy painted.",
+    "texte": "Michał Sopoćko was born in 1888 near Vilnius, in present-day Lithuania. A priest, army chaplain and then professor of theology, in 1933 he became confessor to a young nun, Sister Faustina Kowalska, who told him that Jesus was asking her to have his image painted and to make his mercy known.\n\nCautious, he first had her examined by a doctor, then allowed himself to be convinced. In 1934 he asked the painter Eugeniusz Kazimirowski to produce the first painting of the Merciful Jesus. All his life, despite misunderstandings, he defended this devotion and the request for a feast of Mercy, which John Paul II established in 2000.",
+    "plusLoin": "He was beatified in Białystok in 2008. The painting he commissioned is now venerated in Vilnius.",
+    "source": "Congregation for the Causes of Saints, beatification of 28 September 2008; Archdiocese of Białystok"
+   }
+  },
+  {
+   "id": "andre-kim",
+   "saint": true,
+   "fr": {
+    "nom": "Saint André Kim Taegon",
+    "dates": "1821-1846",
+    "accroche": "Le premier prêtre né en Corée, dans un pays où l'Église avait été fondée par des laïcs, mort à vingt-cinq ans.",
+    "texte": "L'histoire de l'Église en Corée est unique : à la fin du XVIIIe siècle, des savants coréens découvrent la foi dans des livres venus de Chine, et l'un d'eux se fait baptiser à Pékin. Pendant des décennies, ce sont des laïcs qui font vivre l'Église, malgré de terribles persécutions. Le père d'André Kim meurt martyr.\n\nNé en 1821, André part étudier en secret à Macao. Ordonné prêtre à Shanghai en 1845, il rentre dans son pays et y exerce quelques mois dans la clandestinité. Arrêté, il est décapité près de Séoul le 16 septembre 1846, à vingt-cinq ans. Il avait écrit aux fidèles de rester unis et de s'aimer les uns les autres.",
+    "plusLoin": "Jean-Paul II l'a canonisé à Séoul en 1984, avec 102 autres martyrs coréens. On les fête le 20 septembre.",
+    "source": "Jean-Paul II, homélie de canonisation à Séoul (6 mai 1984) ; Conférence des évêques catholiques de Corée"
+   },
+   "es": {
+    "nom": "San Andrés Kim Taegon",
+    "dates": "1821-1846",
+    "accroche": "El primer sacerdote nacido en Corea, un país donde la Iglesia fue fundada por laicos, muerto a los veinticinco años.",
+    "texte": "La historia de la Iglesia en Corea es única: a finales del siglo XVIII, unos sabios coreanos descubren la fe en libros llegados de China, y uno de ellos se bautiza en Pekín. Durante décadas son laicos quienes mantienen viva la Iglesia, a pesar de terribles persecuciones. El padre de Andrés Kim muere mártir.\n\nNacido en 1821, Andrés va a estudiar en secreto a Macao. Ordenado sacerdote en Shanghái en 1845, vuelve a su país y ejerce allí unos meses en la clandestinidad. Detenido, es decapitado cerca de Seúl el 16 de septiembre de 1846, a los veinticinco años. Había escrito a los fieles que permanecieran unidos y se amaran unos a otros.",
+    "plusLoin": "Juan Pablo II lo canonizó en Seúl en 1984, con otros 102 mártires coreanos. Su fiesta es el 20 de septiembre.",
+    "source": "Juan Pablo II, homilía de canonización en Seúl (6 de mayo de 1984); Conferencia de Obispos Católicos de Corea"
+   },
+   "en": {
+    "nom": "Saint Andrew Kim Taegon",
+    "dates": "1821-1846",
+    "accroche": "The first Korean-born priest, in a country where the Church was founded by lay people, who died at twenty-five.",
+    "texte": "The story of the Church in Korea is unique: at the end of the eighteenth century, Korean scholars discovered the faith in books brought from China, and one of them was baptised in Beijing. For decades it was lay people who kept the Church alive, despite terrible persecutions. Andrew Kim's father died a martyr.\n\nBorn in 1821, Andrew went to study in secret in Macao. Ordained a priest in Shanghai in 1845, he returned home and ministered there in hiding for a few months. Arrested, he was beheaded near Seoul on 16 September 1846, aged twenty-five. He had written to the faithful urging them to stay united and to love one another.",
+    "plusLoin": "John Paul II canonised him in Seoul in 1984, with 102 other Korean martyrs. Their feast is on 20 September.",
+    "source": "John Paul II, homily of canonisation in Seoul (6 May 1984); Catholic Bishops' Conference of Korea"
+   }
+  },
+  {
+   "id": "rani-maria",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureuse Rani Maria Vattalil",
+    "dates": "1954-1995",
+    "accroche": "Une religieuse indienne qui aidait les paysans pauvres à se libérer des usuriers, et dont la famille a pardonné à son meurtrier.",
+    "texte": "Mariam Vattalil naît en 1954 au Kerala, dans le sud de l'Inde. Elle entre chez les sœurs franciscaines clarisses sous le nom de Rani Maria et part travailler dans le centre du pays, auprès de villageois très pauvres. Elle leur apprend à lire, à épargner ensemble, et à défendre leurs droits face aux prêteurs qui les endettaient.\n\nCela dérange. Le 25 février 1995, dans un autocar, un homme payé pour la tuer la poignarde. Il est condamné à la prison. Des années plus tard, la sœur de Rani Maria, religieuse elle aussi, vient le voir, lui pardonne et le considère comme son frère. Profondément changé, il assistera à la béatification.",
+    "plusLoin": "Elle a été béatifiée en 2017 à Indore. C'est la première femme martyre de l'Inde reconnue par l'Église.",
+    "source": "Congrégation pour les causes des saints, béatification du 4 novembre 2017 ; Franciscan Clarist Congregation"
+   },
+   "es": {
+    "nom": "Beata Rani Maria Vattalil",
+    "dates": "1954-1995",
+    "accroche": "Una religiosa india que ayudaba a los campesinos pobres a librarse de los usureros, y cuya familia perdonó a su asesino.",
+    "texte": "Mariam Vattalil nace en 1954 en Kerala, en el sur de la India. Entra en las hermanas franciscanas clarisas con el nombre de Rani Maria y va a trabajar al centro del país, con aldeanos muy pobres. Les enseña a leer, a ahorrar juntos y a defender sus derechos frente a los prestamistas que los endeudaban.\n\nEso molesta. El 25 de febrero de 1995, en un autobús, un hombre al que habían pagado para matarla la apuñala. Es condenado a prisión. Años después, la hermana de Rani Maria, también religiosa, va a verlo, lo perdona y lo considera su hermano. Profundamente cambiado, asistirá a la beatificación.",
+    "plusLoin": "Fue beatificada en 2017 en Indore. Es la primera mujer mártir de la India reconocida por la Iglesia.",
+    "source": "Congregación para las Causas de los Santos, beatificación del 4 de noviembre de 2017; Franciscan Clarist Congregation"
+   },
+   "en": {
+    "nom": "Blessed Rani Maria Vattalil",
+    "dates": "1954-1995",
+    "accroche": "An Indian nun who helped poor farmers free themselves from moneylenders, and whose family forgave her killer.",
+    "texte": "Mariam Vattalil was born in 1954 in Kerala, in southern India. She joined the Franciscan Clarist Sisters as Rani Maria and went to work in central India, among very poor villagers. She taught them to read, to save together and to defend their rights against the moneylenders who kept them in debt.\n\nThis caused resentment. On 25 February 1995, on a bus, a man who had been paid to kill her stabbed her. He was sentenced to prison. Years later Rani Maria's sister, also a nun, went to see him, forgave him and came to regard him as her brother. Deeply changed, he attended the beatification.",
+    "plusLoin": "She was beatified in Indore in 2017. She is the first woman martyr of India recognised by the Church.",
+    "source": "Congregation for the Causes of Saints, beatification of 4 November 2017; Franciscan Clarist Congregation"
+   }
+  },
+  {
+   "id": "frances-cabrini",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Françoise-Xavière Cabrini",
+    "dates": "1850-1917",
+    "accroche": "Une petite religieuse italienne qui rêvait de la Chine, et que le pape a envoyée vers les immigrés de New York.",
+    "texte": "Francesca Cabrini naît en 1850 en Lombardie, dernière de treize enfants. Refusée par deux congrégations à cause de sa santé fragile, elle fonde en 1880 les Missionnaires du Sacré-Cœur. Elle rêve de partir en Chine. Mais le pape Léon XIII lui répond qu'elle doit aller non vers l'Orient, mais vers l'Occident.\n\nEn 1889, elle débarque à New York, où des milliers d'immigrés italiens vivent dans la misère. Malgré sa peur de l'eau, elle traverse l'océan plus de vingt fois et fonde, aux États-Unis et en Amérique latine, des dizaines d'écoles, d'orphelinats et d'hôpitaux. Devenue citoyenne américaine, elle meurt à Chicago en 1917.",
+    "plusLoin": "Elle a été canonisée en 1946 : la première citoyenne des États-Unis reconnue sainte. Elle est la patronne des migrants.",
+    "source": "Saint-Siège, biographie de sainte Françoise-Xavière Cabrini ; Encyclopædia Britannica, « Saint Frances Xavier Cabrini »"
+   },
+   "es": {
+    "nom": "Santa Francisca Javier Cabrini",
+    "dates": "1850-1917",
+    "accroche": "Una pequeña religiosa italiana que soñaba con China, y a la que el papa envió con los inmigrantes de Nueva York.",
+    "texte": "Francesca Cabrini nace en 1850 en Lombardía, la última de trece hermanos. Rechazada por dos congregaciones por su salud frágil, funda en 1880 las Misioneras del Sagrado Corazón. Sueña con ir a China. Pero el papa León XIII le responde que vaya no a Oriente, sino a Occidente.\n\nEn 1889 desembarca en Nueva York, donde miles de inmigrantes italianos viven en la miseria. A pesar de su miedo al agua, cruza el océano más de veinte veces y funda, en Estados Unidos y en América Latina, decenas de escuelas, orfanatos y hospitales. Ya ciudadana estadounidense, muere en Chicago en 1917.",
+    "plusLoin": "Fue canonizada en 1946: la primera ciudadana de Estados Unidos reconocida como santa. Es patrona de los migrantes.",
+    "source": "Santa Sede, biografía de santa Francisca Javier Cabrini; Encyclopædia Britannica, «Saint Frances Xavier Cabrini»"
+   },
+   "en": {
+    "nom": "Saint Frances Xavier Cabrini",
+    "dates": "1850-1917",
+    "accroche": "A small Italian nun who dreamed of China, and whom the pope sent instead to the immigrants of New York.",
+    "texte": "Francesca Cabrini was born in 1850 in Lombardy, the youngest of thirteen children. Turned down by two congregations because of her poor health, she founded the Missionary Sisters of the Sacred Heart in 1880. She dreamed of going to China. But Pope Leo XIII told her to go not to the East, but to the West.\n\nIn 1889 she landed in New York, where thousands of Italian immigrants were living in poverty. Despite her fear of water, she crossed the ocean more than twenty times and founded dozens of schools, orphanages and hospitals in the United States and Latin America. Having become an American citizen, she died in Chicago in 1917.",
+    "plusLoin": "She was canonised in 1946: the first United States citizen to be declared a saint. She is the patron of migrants.",
+    "source": "Holy See, biography of Saint Frances Xavier Cabrini; Encyclopædia Britannica, “Saint Frances Xavier Cabrini”"
+   }
+  },
+  {
+   "id": "anuarite",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureuse Anuarite Nengapeta",
+    "dates": "1939-1964",
+    "accroche": "Une jeune religieuse congolaise qui a préféré mourir plutôt que de renoncer à la vie consacrée qu'elle avait choisie.",
+    "texte": "Anuarite Nengapeta naît en 1939 dans le nord-est du Congo. Baptisée enfant avec sa mère, elle entre à dix-sept ans chez les sœurs de la Sainte-Famille, une congrégation africaine. Elle enseigne, s'occupe de la cuisine et de la sacristie, et se distingue par sa bonne humeur et sa simplicité.\n\nEn 1964, pendant la rébellion qui ensanglante le pays, des rebelles emmènent les religieuses de son couvent. Un colonel veut faire d'Anuarite sa femme. Elle refuse, en rappelant qu'elle s'est donnée à Dieu. Il la frappe, et elle est tuée le 1er décembre 1964. Avant de mourir, elle lui dit qu'elle lui pardonne.",
+    "plusLoin": "Jean-Paul II l'a béatifiée en 1985 à Kinshasa. Elle est la première femme bantoue déclarée bienheureuse.",
+    "source": "Jean-Paul II, homélie de béatification (15 août 1985) ; Congrégation des Sœurs de la Sainte-Famille (Jamaa Takatifu)"
+   },
+   "es": {
+    "nom": "Beata Anuarite Nengapeta",
+    "dates": "1939-1964",
+    "accroche": "Una joven religiosa congoleña que prefirió morir antes que renunciar a la vida consagrada que había elegido.",
+    "texte": "Anuarite Nengapeta nace en 1939 en el noreste del Congo. Bautizada de niña junto con su madre, entra a los diecisiete años en las hermanas de la Sagrada Familia, una congregación africana. Enseña, se ocupa de la cocina y de la sacristía, y destaca por su buen humor y su sencillez.\n\nEn 1964, durante la rebelión que ensangrienta el país, unos rebeldes se llevan a las religiosas de su convento. Un coronel quiere hacer de Anuarite su mujer. Ella se niega, recordando que se ha entregado a Dios. Él la golpea, y la matan el 1 de diciembre de 1964. Antes de morir, le dice que lo perdona.",
+    "plusLoin": "Juan Pablo II la beatificó en 1985 en Kinsasa. Es la primera mujer bantú declarada beata.",
+    "source": "Juan Pablo II, homilía de beatificación (15 de agosto de 1985); Congregación de las Hermanas de la Sagrada Familia (Jamaa Takatifu)"
+   },
+   "en": {
+    "nom": "Blessed Anuarite Nengapeta",
+    "dates": "1939-1964",
+    "accroche": "A young Congolese nun who chose to die rather than give up the consecrated life she had chosen.",
+    "texte": "Anuarite Nengapeta was born in 1939 in north-eastern Congo. Baptised as a child along with her mother, she joined the Sisters of the Holy Family, an African congregation, at seventeen. She taught, looked after the kitchen and the sacristy, and stood out for her good humour and simplicity.\n\nIn 1964, during the rebellion that bloodied the country, rebels carried off the sisters of her convent. A colonel wanted to make Anuarite his wife. She refused, saying that she had given herself to God. He beat her, and she was killed on 1 December 1964. Before she died, she told him she forgave him.",
+    "plusLoin": "John Paul II beatified her in Kinshasa in 1985. She is the first Bantu woman to be declared blessed.",
+    "source": "John Paul II, homily of beatification (15 August 1985); Congregation of the Sisters of the Holy Family (Jamaa Takatifu)"
+   }
+  },
+  {
+   "id": "katharine-drexel",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Katharine Drexel",
+    "dates": "1858-1955",
+    "accroche": "Une riche héritière de Philadelphie qui a donné toute sa fortune pour ouvrir des écoles aux Amérindiens et aux Afro-Américains.",
+    "texte": "Katharine Drexel naît en 1858 dans une famille de banquiers très riches de Philadelphie. Ses parents lui apprennent à partager : chaque semaine, la maison s'ouvre aux pauvres. Après leur mort, elle hérite d'une immense fortune. En 1887, reçue par le pape Léon XIII, elle lui demande d'envoyer des missionnaires aux Amérindiens. Il lui répond : pourquoi ne pas devenir missionnaire vous-même ?\n\nEn 1891, elle fonde les Sœurs du Saint-Sacrement, au service des Amérindiens et des Afro-Américains, alors victimes de la ségrégation. Elle ouvre des dizaines d'écoles, et en 1925 l'université Xavier de La Nouvelle-Orléans. Elle y consacre l'équivalent de millions de dollars, sans rien garder pour elle.",
+    "plusLoin": "Jean-Paul II l'a canonisée en 2000. On la fête le 3 mars.",
+    "source": "Saint-Siège, biographie de sainte Katharine Drexel ; Sisters of the Blessed Sacrament"
+   },
+   "es": {
+    "nom": "Santa Katharine Drexel",
+    "dates": "1858-1955",
+    "accroche": "Una rica heredera de Filadelfia que dio toda su fortuna para abrir escuelas para los indígenas americanos y los afroamericanos.",
+    "texte": "Katharine Drexel nace en 1858 en una familia de banqueros muy ricos de Filadelfia. Sus padres le enseñan a compartir: cada semana, la casa se abre a los pobres. Tras su muerte, hereda una inmensa fortuna. En 1887, recibida por el papa León XIII, le pide que envíe misioneros a los pueblos indígenas. Él le responde: ¿por qué no se hace usted misma misionera?\n\nEn 1891 funda las Hermanas del Santísimo Sacramento, al servicio de los indígenas y los afroamericanos, entonces víctimas de la segregación. Abre decenas de escuelas y, en 1925, la Universidad Xavier de Nueva Orleans. Dedica a ello el equivalente de millones de dólares, sin guardar nada para sí.",
+    "plusLoin": "Juan Pablo II la canonizó en 2000. Su fiesta es el 3 de marzo.",
+    "source": "Santa Sede, biografía de santa Katharine Drexel; Sisters of the Blessed Sacrament"
+   },
+   "en": {
+    "nom": "Saint Katharine Drexel",
+    "dates": "1858-1955",
+    "accroche": "A wealthy Philadelphia heiress who gave her whole fortune to open schools for Native Americans and African Americans.",
+    "texte": "Katharine Drexel was born in 1858 into a very rich banking family in Philadelphia. Her parents taught her to share: every week the house was opened to the poor. After their deaths she inherited an immense fortune. In 1887, received by Pope Leo XIII, she asked him to send missionaries to the Native Americans. He replied: why not become a missionary yourself?\n\nIn 1891 she founded the Sisters of the Blessed Sacrament, to serve Native Americans and African Americans, then suffering under segregation. She opened dozens of schools and, in 1925, Xavier University in New Orleans. She devoted the equivalent of millions of dollars to this work, keeping nothing for herself.",
+    "plusLoin": "John Paul II canonised her in 2000. Her feast is on 3 March.",
+    "source": "Holy See, biography of Saint Katharine Drexel; Sisters of the Blessed Sacrament"
+   }
+  },
+  {
+   "id": "daudi-jildo",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureux Daudi Okelo et Jildo Irwa",
+    "dates": "morts en 1918",
+    "accroche": "Deux adolescents ougandais, catéchistes, qui ont continué à enseigner la prière dans un village malgré les menaces.",
+    "texte": "Daudi Okelo et Jildo Irwa sont deux jeunes du peuple acholi, dans le nord de l'Ouganda. Baptisés en 1916, ils suivent la formation de catéchistes auprès des missionnaires comboniens. En 1917, Daudi, qui a environ seize ans, se propose pour aller à Paimol, un village éloigné ; Jildo, plus jeune, part avec lui.\n\nChaque jour, ils réunissent les gens, apprennent les prières aux enfants et accompagnent les malades. Des hommes hostiles aux chrétiens leur ordonnent d'arrêter. Les deux garçons répondent qu'ils sont venus pour enseigner et qu'ils resteront. En octobre 1918, ils sont tués près de leur case.",
+    "plusLoin": "Jean-Paul II les a béatifiés en 2002. Ils sont les patrons des catéchistes et des jeunes d'Ouganda.",
+    "source": "Saint-Siège, béatification du 20 octobre 2002 ; archidiocèse de Gulu"
+   },
+   "es": {
+    "nom": "Beatos Daudi Okelo y Jildo Irwa",
+    "dates": "muertos en 1918",
+    "accroche": "Dos adolescentes ugandeses, catequistas, que siguieron enseñando a rezar en una aldea a pesar de las amenazas.",
+    "texte": "Daudi Okelo y Jildo Irwa son dos jóvenes del pueblo acholi, en el norte de Uganda. Bautizados en 1916, se forman como catequistas con los misioneros combonianos. En 1917, Daudi, que tiene unos dieciséis años, se ofrece para ir a Paimol, una aldea lejana; Jildo, más joven, se va con él.\n\nCada día reúnen a la gente, enseñan las oraciones a los niños y acompañan a los enfermos. Unos hombres hostiles a los cristianos les ordenan que lo dejen. Los dos muchachos responden que han venido a enseñar y que se quedarán. En octubre de 1918 los matan cerca de su choza.",
+    "plusLoin": "Juan Pablo II los beatificó en 2002. Son patronos de los catequistas y de los jóvenes de Uganda.",
+    "source": "Santa Sede, beatificación del 20 de octubre de 2002; arquidiócesis de Gulu"
+   },
+   "en": {
+    "nom": "Blessed Daudi Okelo and Jildo Irwa",
+    "dates": "died in 1918",
+    "accroche": "Two Ugandan teenagers, catechists, who went on teaching people to pray in a village despite threats.",
+    "texte": "Daudi Okelo and Jildo Irwa were two young members of the Acholi people, in northern Uganda. Baptised in 1916, they trained as catechists with the Comboni missionaries. In 1917 Daudi, who was about sixteen, offered to go to Paimol, a remote village; Jildo, who was younger, went with him.\n\nEvery day they gathered people together, taught the children their prayers and cared for the sick. Men hostile to Christians ordered them to stop. The two boys answered that they had come to teach and would stay. In October 1918 they were killed near their hut.",
+    "plusLoin": "John Paul II beatified them in 2002. They are the patrons of catechists and young people in Uganda.",
+    "source": "Holy See, beatification of 20 October 2002; Archdiocese of Gulu"
+   }
+  },
+  {
+   "id": "teresa-andes",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Teresa de los Andes",
+    "dates": "1900-1920",
+    "accroche": "Une jeune Chilienne joyeuse et sportive, morte à dix-neuf ans au Carmel, devenue la première sainte de son pays.",
+    "texte": "Juana Fernández Solar naît en 1900 à Santiago du Chili, dans une famille aisée. Elle aime monter à cheval, nager, jouer du piano, rire avec ses frères et sœurs. Elle reconnaît aussi avoir un caractère orgueilleux et coléreux, qu'elle travaille avec patience. Très tôt, elle sent que Jésus l'appelle.\n\nEn 1919, elle entre au Carmel de Los Andes, au pied de la cordillère, et prend le nom de Teresa de Jésus. Elle écrit beaucoup de lettres, pleines de joie, où elle explique que la vraie joie vient d'aimer Dieu. Atteinte du typhus, elle meurt le 12 avril 1920, à dix-neuf ans, moins d'un an après son entrée.",
+    "plusLoin": "Jean-Paul II l'a canonisée en 1993 : c'est la première sainte du Chili. Son sanctuaire reçoit des milliers de jeunes pèlerins.",
+    "source": "Saint-Siège, biographie de sainte Teresa de los Andes ; Jean-Paul II, homélie de canonisation (21 mars 1993)"
+   },
+   "es": {
+    "nom": "Santa Teresa de los Andes",
+    "dates": "1900-1920",
+    "accroche": "Una joven chilena alegre y deportista, muerta a los diecinueve años en el Carmelo, que llegó a ser la primera santa de su país.",
+    "texte": "Juana Fernández Solar nace en 1900 en Santiago de Chile, en una familia acomodada. Le gusta montar a caballo, nadar, tocar el piano y reír con sus hermanos. También reconoce tener un carácter orgulloso y colérico, que trabaja con paciencia. Muy pronto siente que Jesús la llama.\n\nEn 1919 entra en el Carmelo de Los Andes, al pie de la cordillera, y toma el nombre de Teresa de Jesús. Escribe muchas cartas, llenas de alegría, en las que explica que la verdadera alegría viene de amar a Dios. Enferma de tifus, muere el 12 de abril de 1920, a los diecinueve años, menos de un año después de su entrada.",
+    "plusLoin": "Juan Pablo II la canonizó en 1993: es la primera santa de Chile. Su santuario recibe a miles de jóvenes peregrinos.",
+    "source": "Santa Sede, biografía de santa Teresa de los Andes; Juan Pablo II, homilía de canonización (21 de marzo de 1993)"
+   },
+   "en": {
+    "nom": "Saint Teresa of the Andes",
+    "dates": "1900-1920",
+    "accroche": "A joyful, sporty young Chilean who died at nineteen in the Carmelite convent and became her country's first saint.",
+    "texte": "Juana Fernández Solar was born in 1900 in Santiago, Chile, into a well-off family. She loved horse riding, swimming, playing the piano and laughing with her brothers and sisters. She also admitted to a proud and quick-tempered character, which she worked on patiently. Very early on she felt that Jesus was calling her.\n\nIn 1919 she entered the Carmel of Los Andes, at the foot of the mountains, taking the name Teresa of Jesus. She wrote many letters, full of joy, explaining that true joy comes from loving God. Struck by typhus, she died on 12 April 1920, aged nineteen, less than a year after entering.",
+    "plusLoin": "John Paul II canonised her in 1993: she is Chile's first saint. Her shrine welcomes thousands of young pilgrims.",
+    "source": "Holy See, biography of Saint Teresa of the Andes; John Paul II, homily of canonisation (21 March 1993)"
+   }
+  },
+  {
+   "id": "gabriella-sagheddu",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureuse Maria Gabriella Sagheddu",
+    "dates": "1914-1939",
+    "accroche": "Une jeune Sarde têtue devenue moniale trappiste, qui a offert sa vie pour l'unité des chrétiens.",
+    "texte": "Maria Sagheddu naît en 1914 dans un village de Sardaigne. Enfant, elle a un caractère obstiné et répond souvent « je n'en ai pas envie ». À dix-huit ans, la mort de sa petite sœur la bouleverse : elle devient plus douce, s'engage dans sa paroisse, puis entre en 1935 chez les trappistines de Grottaferrata, près de Rome, sous le nom de Maria Gabriella.\n\nEn 1938, son abbesse parle aux sœurs de la Semaine de prière pour l'unité des chrétiens, divisés entre catholiques, orthodoxes et protestants. Gabriella décide d'offrir sa vie pour cette intention. Peu après, elle tombe malade de la tuberculose. Elle meurt le 23 avril 1939, à vingt-cinq ans, paisible.",
+    "plusLoin": "Jean-Paul II l'a béatifiée en 1983 et l'a citée en exemple dans son encyclique sur l'unité des chrétiens.",
+    "source": "Jean-Paul II, encyclique Ut unum sint (25 mai 1995), n° 27 ; Ordre cistercien de la stricte observance"
+   },
+   "es": {
+    "nom": "Beata María Gabriela Sagheddu",
+    "dates": "1914-1939",
+    "accroche": "Una joven sarda testaruda que se hizo monja trapense, y que ofreció su vida por la unidad de los cristianos.",
+    "texte": "Maria Sagheddu nace en 1914 en un pueblo de Cerdeña. De niña tiene un carácter obstinado y responde a menudo «no tengo ganas». A los dieciocho años, la muerte de su hermana pequeña la conmueve: se vuelve más dulce, se compromete en su parroquia y en 1935 entra en las trapenses de Grottaferrata, cerca de Roma, con el nombre de María Gabriela.\n\nEn 1938, su abadesa habla a las hermanas de la Semana de oración por la unidad de los cristianos, divididos entre católicos, ortodoxos y protestantes. Gabriela decide ofrecer su vida por esa intención. Poco después enferma de tuberculosis. Muere el 23 de abril de 1939, a los veinticinco años, en paz.",
+    "plusLoin": "Juan Pablo II la beatificó en 1983 y la puso como ejemplo en su encíclica sobre la unidad de los cristianos.",
+    "source": "Juan Pablo II, encíclica Ut unum sint (25 de mayo de 1995), n. 27; Orden Cisterciense de la Estricta Observancia"
+   },
+   "en": {
+    "nom": "Blessed Maria Gabriella Sagheddu",
+    "dates": "1914-1939",
+    "accroche": "A stubborn young Sardinian who became a Trappist nun and offered her life for Christian unity.",
+    "texte": "Maria Sagheddu was born in 1914 in a village in Sardinia. As a child she was obstinate and often answered “I don't feel like it”. At eighteen the death of her little sister shook her deeply: she became gentler, got involved in her parish, and in 1935 entered the Trappist convent of Grottaferrata, near Rome, taking the name Maria Gabriella.\n\nIn 1938 her abbess spoke to the sisters about the Week of Prayer for Christian Unity, for Christians divided between Catholics, Orthodox and Protestants. Gabriella decided to offer her life for this intention. Shortly afterwards she fell ill with tuberculosis. She died peacefully on 23 April 1939, aged twenty-five.",
+    "plusLoin": "John Paul II beatified her in 1983 and held her up as an example in his encyclical on Christian unity.",
+    "source": "John Paul II, encyclical Ut unum sint (25 May 1995), no. 27; Order of Cistercians of the Strict Observance"
+   }
+  },
+  {
+   "id": "antoine-grand",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Antoine le Grand",
+    "dates": "vers 251-356",
+    "accroche": "Un jeune Égyptien qui a tout donné après avoir entendu l'Évangile, et qui est devenu le père de tous les moines.",
+    "texte": "Antoine naît vers 251 en Égypte, dans une famille de paysans aisés. Orphelin vers vingt ans, il entend un jour à l'église la parole de Jésus au jeune homme riche : va, vends ce que tu as, donne-le aux pauvres, puis viens et suis-moi. Il le prend au pied de la lettre, distribue ses terres et part vivre seul dans le désert, dans la prière et le travail manuel.\n\nIl y reste des dizaines d'années, affrontant la solitude et les tentations. Peu à peu, des disciples viennent s'installer près de lui : ce sont les premiers moines. Il quitte parfois le désert pour soutenir les chrétiens persécutés. Il meurt vers 356, à plus de cent ans. Sa vie, écrite par saint Athanase, a inspiré des générations.",
+    "plusLoin": "On l'appelle « le père des moines ». On le fête le 17 janvier.",
+    "source": "Saint Athanase, Vie d'Antoine (vers 360) ; Encyclopædia Britannica, « Saint Anthony of Egypt »"
+   },
+   "es": {
+    "nom": "San Antonio Abad",
+    "dates": "hacia 251-356",
+    "accroche": "Un joven egipcio que lo dio todo después de escuchar el Evangelio, y que llegó a ser el padre de todos los monjes.",
+    "texte": "Antonio nace hacia el año 251 en Egipto, en una familia de campesinos acomodados. Huérfano hacia los veinte años, oye un día en la iglesia la palabra de Jesús al joven rico: ve, vende lo que tienes, dáselo a los pobres, y luego ven y sígueme. Se lo toma al pie de la letra, reparte sus tierras y se va a vivir solo en el desierto, en la oración y el trabajo manual.\n\nAllí permanece decenas de años, enfrentándose a la soledad y a las tentaciones. Poco a poco, unos discípulos se instalan cerca de él: son los primeros monjes. A veces deja el desierto para sostener a los cristianos perseguidos. Muere hacia el año 356, con más de cien años. Su vida, escrita por san Atanasio, ha inspirado a generaciones.",
+    "plusLoin": "Lo llaman «el padre de los monjes». Su fiesta es el 17 de enero.",
+    "source": "San Atanasio, Vida de Antonio (hacia 360); Encyclopædia Britannica, «Saint Anthony of Egypt»"
+   },
+   "en": {
+    "nom": "Saint Anthony the Great",
+    "dates": "c. 251-356",
+    "accroche": "A young Egyptian who gave everything away after hearing the Gospel, and who became the father of all monks.",
+    "texte": "Anthony was born around 251 in Egypt, into a family of well-off farmers. Orphaned at about twenty, he heard one day in church the words of Jesus to the rich young man: go, sell what you have, give it to the poor, then come and follow me. He took this literally, gave away his land and went to live alone in the desert, in prayer and manual work.\n\nHe stayed there for decades, facing solitude and temptation. Little by little, disciples came to settle near him: these were the first monks. He sometimes left the desert to support persecuted Christians. He died around 356, aged over a hundred. His life, written by Saint Athanasius, has inspired generations.",
+    "plusLoin": "He is called “the father of monks”. His feast is on 17 January.",
+    "source": "Saint Athanasius, Life of Anthony (c. 360); Encyclopædia Britannica, “Saint Anthony of Egypt”"
+   }
+  },
+  {
+   "id": "jacques-hamel",
+   "saint": false,
+   "fr": {
+    "nom": "Père Jacques Hamel",
+    "dates": "1930-2016",
+    "accroche": "Un vieux prêtre de Normandie, tué pendant la messe en 2016, dont le pape a voulu ouvrir très vite la cause de béatification.",
+    "texte": "Jacques Hamel naît en 1930 près de Rouen. Ordonné prêtre en 1958, il passe toute sa vie dans des paroisses de Normandie. Discret, aimé de ses paroissiens, il entretient de bonnes relations avec la communauté musulmane de sa ville. À plus de quatre-vingts ans, il continue d'aider à l'église de Saint-Étienne-du-Rouvray.\n\nLe 26 juillet 2016, pendant la messe du matin, deux jeunes hommes se réclamant d'un groupe terroriste entrent dans l'église et le tuent. Le drame bouleverse la France. Le pape François célèbre une messe pour lui à Rome, et autorise l'ouverture de sa cause de béatification sans attendre le délai habituel de cinq ans.",
+    "plusLoin": "Il est reconnu « serviteur de Dieu » : sa cause de béatification est à l'étude depuis 2017.",
+    "source": "Diocèse de Rouen, cause du père Jacques Hamel ; Pape François, homélie du 14 septembre 2016"
+   },
+   "es": {
+    "nom": "Padre Jacques Hamel",
+    "dates": "1930-2016",
+    "accroche": "Un anciano sacerdote de Normandía, asesinado durante la misa en 2016, cuya causa de beatificación el papa quiso abrir muy pronto.",
+    "texte": "Jacques Hamel nace en 1930 cerca de Ruan. Ordenado sacerdote en 1958, pasa toda su vida en parroquias de Normandía. Discreto, querido por sus feligreses, mantiene buenas relaciones con la comunidad musulmana de su ciudad. Con más de ochenta años, sigue ayudando en la iglesia de Saint-Étienne-du-Rouvray.\n\nEl 26 de julio de 2016, durante la misa de la mañana, dos jóvenes que decían pertenecer a un grupo terrorista entran en la iglesia y lo matan. El drama conmociona a Francia. El papa Francisco celebra una misa por él en Roma y autoriza abrir su causa de beatificación sin esperar el plazo habitual de cinco años.",
+    "plusLoin": "Está reconocido como «siervo de Dios»: su causa de beatificación se estudia desde 2017.",
+    "source": "Diócesis de Ruan, causa del padre Jacques Hamel; Papa Francisco, homilía del 14 de septiembre de 2016"
+   },
+   "en": {
+    "nom": "Father Jacques Hamel",
+    "dates": "1930-2016",
+    "accroche": "An elderly priest in Normandy, killed during Mass in 2016, whose cause for beatification the pope wanted opened very quickly.",
+    "texte": "Jacques Hamel was born in 1930 near Rouen. Ordained a priest in 1958, he spent his whole life in parishes in Normandy. Quiet and loved by his parishioners, he had good relations with the Muslim community in his town. Past eighty, he was still helping out at the church in Saint-Étienne-du-Rouvray.\n\nOn 26 July 2016, during morning Mass, two young men claiming allegiance to a terrorist group entered the church and killed him. The tragedy shook France. Pope Francis celebrated a Mass for him in Rome and allowed his cause for beatification to be opened without waiting the usual five years.",
+    "plusLoin": "He is recognised as a “Servant of God”: his cause for beatification has been under study since 2017.",
+    "source": "Diocese of Rouen, cause of Father Jacques Hamel; Pope Francis, homily of 14 September 2016"
+   }
+  },
+  {
+   "id": "jean-chrysostome",
+   "saint": true,
+   "fr": {
+    "nom": "Saint Jean Chrysostome",
+    "dates": "vers 349-407",
+    "accroche": "Le prédicateur à la « bouche d'or », archevêque de Constantinople, exilé pour avoir dénoncé le luxe des puissants.",
+    "texte": "Jean naît vers 349 à Antioche, l'une des grandes villes de l'Empire romain, dans l'actuelle Turquie. Brillant élève, il devient prêtre et prêche avec un tel talent qu'on le surnommera « Chrysostome », bouche d'or. Il parle simplement, avec des exemples tirés de la vie quotidienne, et les foules l'applaudissent.\n\nEn 398, il est nommé archevêque de Constantinople, la capitale. Il vend les objets précieux de sa maison pour ouvrir des hôpitaux, et dénonce sans crainte le luxe de la cour impériale pendant que les pauvres ont faim. L'impératrice le fait exiler. Il meurt en 407, sur les routes de l'exil, en disant : gloire à Dieu pour tout.",
+    "plusLoin": "Il est docteur de l'Église et patron des prédicateurs. On le fête le 13 septembre.",
+    "source": "Benoît XVI, audience générale du 19 septembre 2007 ; Encyclopædia Britannica, « Saint John Chrysostom »"
+   },
+   "es": {
+    "nom": "San Juan Crisóstomo",
+    "dates": "hacia 349-407",
+    "accroche": "El predicador de la «boca de oro», arzobispo de Constantinopla, desterrado por denunciar el lujo de los poderosos.",
+    "texte": "Juan nace hacia el año 349 en Antioquía, una de las grandes ciudades del Imperio romano, en la actual Turquía. Alumno brillante, se hace sacerdote y predica con tal talento que lo apodarán «Crisóstomo», boca de oro. Habla con sencillez, con ejemplos de la vida cotidiana, y las multitudes lo aplauden.\n\nEn 398 es nombrado arzobispo de Constantinopla, la capital. Vende los objetos valiosos de su casa para abrir hospitales, y denuncia sin miedo el lujo de la corte imperial mientras los pobres pasan hambre. La emperatriz lo hace desterrar. Muere en 407, por los caminos del destierro, diciendo: gloria a Dios por todo.",
+    "plusLoin": "Es doctor de la Iglesia y patrono de los predicadores. Su fiesta es el 13 de septiembre.",
+    "source": "Benedicto XVI, audiencia general del 19 de septiembre de 2007; Encyclopædia Britannica, «Saint John Chrysostom»"
+   },
+   "en": {
+    "nom": "Saint John Chrysostom",
+    "dates": "c. 349-407",
+    "accroche": "The “golden-mouthed” preacher, archbishop of Constantinople, exiled for denouncing the luxury of the powerful.",
+    "texte": "John was born around 349 in Antioch, one of the great cities of the Roman Empire, in present-day Turkey. A brilliant student, he became a priest and preached with such talent that he was nicknamed “Chrysostom”, golden mouth. He spoke simply, with examples from everyday life, and crowds applauded him.\n\nIn 398 he was appointed archbishop of Constantinople, the capital. He sold the valuables in his residence to open hospitals, and fearlessly denounced the luxury of the imperial court while the poor went hungry. The empress had him exiled. He died in 407, on the roads of exile, saying: glory to God for everything.",
+    "plusLoin": "He is a Doctor of the Church and patron of preachers. His feast is on 13 September.",
+    "source": "Benedict XVI, general audience of 19 September 2007; Encyclopædia Britannica, “Saint John Chrysostom”"
+   }
+  },
+  {
+   "id": "guadalupe-ortiz",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureuse Guadalupe Ortiz de Landázuri",
+    "dates": "1916-1975",
+    "accroche": "Une chimiste madrilène, l'une des premières femmes docteures en chimie de son pays, qui voyait dans son travail un chemin vers Dieu.",
+    "texte": "Guadalupe Ortiz de Landázuri naît à Madrid en 1916. En 1933, elle fait partie des cinq seules filles de sa promotion à étudier la chimie à l'université. Pendant la guerre civile, son père est fusillé ; la veille, elle lui rend visite et lui pardonne de tout cœur ceux qui vont le tuer. Elle devient ensuite professeure de chimie.\n\nÀ vingt-sept ans, elle découvre que le travail bien fait et le service des autres peuvent être une manière de prier. Elle part au Mexique, où elle ouvre une résidence d'étudiantes et un centre de formation pour des femmes paysannes. De retour en Espagne, elle soutient une thèse sur des fibres textiles isolantes. Malade du cœur, elle meurt en 1975.",
+    "plusLoin": "Elle a été béatifiée en 2019 à Madrid : la première laïque de l'Opus Dei déclarée bienheureuse.",
+    "source": "Dicastère pour les causes des saints, béatification du 18 mai 2019 ; archidiocèse de Madrid"
+   },
+   "es": {
+    "nom": "Beata Guadalupe Ortiz de Landázuri",
+    "dates": "1916-1975",
+    "accroche": "Una química madrileña, una de las primeras mujeres doctoras en química de su país, que veía en su trabajo un camino hacia Dios.",
+    "texte": "Guadalupe Ortiz de Landázuri nace en Madrid en 1916. En 1933 es una de las cinco únicas chicas de su promoción que estudian química en la universidad. Durante la guerra civil fusilan a su padre; la víspera ella lo visita y, de todo corazón, perdona a quienes van a matarlo. Después llega a ser profesora de química.\n\nA los veintisiete años descubre que el trabajo bien hecho y el servicio a los demás pueden ser una manera de rezar. Se va a México, donde abre una residencia de estudiantes y un centro de formación para mujeres campesinas. De vuelta en España, defiende una tesis sobre fibras textiles aislantes. Enferma del corazón, muere en 1975.",
+    "plusLoin": "Fue beatificada en 2019 en Madrid: la primera laica del Opus Dei declarada beata.",
+    "source": "Dicasterio para las Causas de los Santos, beatificación del 18 de mayo de 2019; arquidiócesis de Madrid"
+   },
+   "en": {
+    "nom": "Blessed Guadalupe Ortiz de Landázuri",
+    "dates": "1916-1975",
+    "accroche": "A chemist from Madrid, one of the first women in her country to earn a doctorate in chemistry, who saw her work as a path to God.",
+    "texte": "Guadalupe Ortiz de Landázuri was born in Madrid in 1916. In 1933 she was one of only five women in her year studying chemistry at university. During the Civil War her father was shot; the day before, she visited him and wholeheartedly forgave those who were about to kill him. She later became a chemistry teacher.\n\nAt twenty-seven she discovered that work done well and service of others could be a way of praying. She went to Mexico, where she opened a residence for students and a training centre for rural women. Back in Spain, she completed a doctoral thesis on insulating textile fibres. Suffering from heart disease, she died in 1975.",
+    "plusLoin": "She was beatified in Madrid in 2019: the first lay member of Opus Dei to be declared blessed.",
+    "source": "Dicastery for the Causes of Saints, beatification of 18 May 2019; Archdiocese of Madrid"
+   }
+  },
+  {
+   "id": "marguerite-ecosse",
+   "saint": true,
+   "fr": {
+    "nom": "Sainte Marguerite d'Écosse",
+    "dates": "vers 1045-1093",
+    "accroche": "Une princesse anglaise réfugiée en Écosse, devenue reine, qui nourrissait chaque matin les orphelins et les pauvres avant de manger elle-même.",
+    "texte": "Marguerite naît vers 1045 en Hongrie, où sa famille royale anglaise est en exil. Après la conquête de l'Angleterre par les Normands en 1066, elle s'enfuit avec les siens ; leur bateau est poussé vers l'Écosse. Le roi Malcolm III l'épouse. Ils ont huit enfants.\n\nReine, Marguerite consacre beaucoup de temps à la prière et aux pauvres. Chaque jour, raconte son biographe, elle sert elle-même des orphelins et des mendiants avant son propre repas. Elle fait rebâtir des églises, fonde des hôtelleries pour les pèlerins et met en place un bac gratuit pour leur faire traverser un bras de mer, à l'endroit appelé encore aujourd'hui Queensferry, le « passage de la reine ».",
+    "plusLoin": "Elle a été canonisée en 1250. Elle est la patronne de l'Écosse avec saint André ; on la fête le 16 novembre.",
+    "source": "Turgot de Durham, Vie de sainte Marguerite (vers 1100) ; Encyclopædia Britannica, « Saint Margaret of Scotland »"
+   },
+   "es": {
+    "nom": "Santa Margarita de Escocia",
+    "dates": "hacia 1045-1093",
+    "accroche": "Una princesa inglesa refugiada en Escocia, que llegó a ser reina y cada mañana alimentaba a huérfanos y pobres antes de comer ella.",
+    "texte": "Margarita nace hacia 1045 en Hungría, donde su familia real inglesa está en el exilio. Tras la conquista de Inglaterra por los normandos en 1066, huye con los suyos; su barco es empujado hacia Escocia. El rey Malcolm III se casa con ella. Tienen ocho hijos.\n\nComo reina, Margarita dedica mucho tiempo a la oración y a los pobres. Cada día, cuenta su biógrafo, sirve ella misma a huérfanos y mendigos antes de su propia comida. Manda reconstruir iglesias, funda albergues para peregrinos y organiza una barca gratuita para cruzarlos por un brazo de mar, en el lugar que todavía hoy se llama Queensferry, el «paso de la reina».",
+    "plusLoin": "Fue canonizada en 1250. Es patrona de Escocia junto con san Andrés; su fiesta es el 16 de noviembre.",
+    "source": "Turgot de Durham, Vida de santa Margarita (hacia 1100); Encyclopædia Britannica, «Saint Margaret of Scotland»"
+   },
+   "en": {
+    "nom": "Saint Margaret of Scotland",
+    "dates": "c. 1045-1093",
+    "accroche": "An English princess who took refuge in Scotland and became its queen, and who every morning fed orphans and the poor before eating herself.",
+    "texte": "Margaret was born around 1045 in Hungary, where her English royal family was in exile. After the Norman conquest of England in 1066 she fled with her family; their ship was driven towards Scotland. King Malcolm III married her. They had eight children.\n\nAs queen, Margaret devoted much time to prayer and to the poor. Every day, her biographer tells us, she herself served orphans and beggars before her own meal. She had churches rebuilt, founded hostels for pilgrims and set up a free ferry to carry them across an arm of the sea, at the place still called Queensferry today.",
+    "plusLoin": "She was canonised in 1250. She is patron of Scotland with Saint Andrew; her feast is on 16 November.",
+    "source": "Turgot of Durham, Life of Saint Margaret (c. 1100); Encyclopædia Britannica, “Saint Margaret of Scotland”"
+   }
+  },
+  {
+   "id": "victoire-rasoamanarivo",
+   "saint": false,
+   "fr": {
+    "nom": "Bienheureuse Victoire Rasoamanarivo",
+    "dates": "1848-1894",
+    "accroche": "Une noble malgache qui, quand les missionnaires ont été expulsés, a gardé vivante l'Église de son pays pendant trois ans.",
+    "texte": "Victoire Rasoamanarivo naît en 1848 à Madagascar, dans l'une des familles les plus puissantes du royaume. Élève des sœurs de Saint-Joseph de Cluny, elle demande le baptême à treize ans, malgré l'opposition de sa famille. Mariée très jeune au fils du Premier ministre, elle traverse un mariage difficile avec patience et fidélité.\n\nEn 1883, la guerre éclate avec la France et tous les missionnaires sont expulsés. Les catholiques malgaches risquent d'être dispersés. Victoire, protégée par son rang, fait rouvrir les églises, encourage les laïcs à se réunir pour prier chaque dimanche et défend les fidèles devant les autorités. Quand les missionnaires reviennent en 1886, ils trouvent une Église vivante.",
+    "plusLoin": "Jean-Paul II l'a béatifiée en 1989 à Antananarivo. Elle est un modèle pour les laïcs qui portent l'Église.",
+    "source": "Saint-Siège, béatification du 30 avril 1989 ; Jean-Paul II, homélie à Antananarivo (30 avril 1989)"
+   },
+   "es": {
+    "nom": "Beata Victoria Rasoamanarivo",
+    "dates": "1848-1894",
+    "accroche": "Una noble malgache que, cuando expulsaron a los misioneros, mantuvo viva la Iglesia de su país durante tres años.",
+    "texte": "Victoria Rasoamanarivo nace en 1848 en Madagascar, en una de las familias más poderosas del reino. Alumna de las hermanas de San José de Cluny, pide el bautismo a los trece años, a pesar de la oposición de su familia. Casada muy joven con el hijo del primer ministro, atraviesa un matrimonio difícil con paciencia y fidelidad.\n\nEn 1883 estalla la guerra con Francia y todos los misioneros son expulsados. Los católicos malgaches corren el riesgo de dispersarse. Victoria, protegida por su rango, hace reabrir las iglesias, anima a los laicos a reunirse para rezar cada domingo y defiende a los fieles ante las autoridades. Cuando los misioneros vuelven en 1886, encuentran una Iglesia viva.",
+    "plusLoin": "Juan Pablo II la beatificó en 1989 en Antananarivo. Es un modelo para los laicos que sostienen la Iglesia.",
+    "source": "Santa Sede, beatificación del 30 de abril de 1989; Juan Pablo II, homilía en Antananarivo (30 de abril de 1989)"
+   },
+   "en": {
+    "nom": "Blessed Victoire Rasoamanarivo",
+    "dates": "1848-1894",
+    "accroche": "A Malagasy noblewoman who, when the missionaries were expelled, kept her country's Church alive for three years.",
+    "texte": "Victoire Rasoamanarivo was born in 1848 in Madagascar, into one of the most powerful families in the kingdom. A pupil of the Sisters of Saint Joseph of Cluny, she asked for baptism at thirteen, despite her family's opposition. Married very young to the prime minister's son, she lived through a difficult marriage with patience and fidelity.\n\nIn 1883 war broke out with France and all the missionaries were expelled. Malagasy Catholics risked being scattered. Victoire, protected by her rank, had the churches reopened, encouraged lay people to meet every Sunday to pray, and defended the faithful before the authorities. When the missionaries returned in 1886, they found a living Church.",
+    "plusLoin": "John Paul II beatified her in Antananarivo in 1989. She is a model for lay people who carry the Church.",
+    "source": "Holy See, beatification of 30 April 1989; John Paul II, homily in Antananarivo (30 April 1989)"
+   }
   }
  ],
  "savaisTu": [
